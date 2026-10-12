@@ -67,7 +67,7 @@
 **推荐 Docker 数据库版。** 安装 Docker Desktop 并使用 Linux 容器，或 Docker Engine + Compose V2。跨平台初始化命令需要 Node.js 22+；Windows 启动脚本可直接生成配置。构建时需要访问镜像站与 npm。根据启用的服务预留资源，当前未给出经过基准测试的最低内存要求。
 
 ```sh
-git clone https://github.com/huangtaozhou33-collab/tft-evidence-workbench.git
+git clone https://github.com/huangtaozhou33-collab/TFT-.git tft-evidence-workbench
 cd tft-evidence-workbench
 node scripts/init-docker-env.mjs
 docker compose --env-file .env.docker up --build -d --wait

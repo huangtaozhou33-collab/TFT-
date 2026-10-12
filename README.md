@@ -67,7 +67,7 @@ Official announcements are stored with their source links. The application match
 **Recommended:** Docker Desktop with Linux containers, or Docker Engine + Compose V2. The cross-platform initializer also requires Node.js 22+; the Windows launcher can generate configuration without host Node.js. Docker builds need access to the image registry and npm. Reserve enough resources for your chosen services; no minimum-memory benchmark is claimed.
 
 ```sh
-git clone https://github.com/huangtaozhou33-collab/tft-evidence-workbench.git
+git clone https://github.com/huangtaozhou33-collab/TFT-.git tft-evidence-workbench
 cd tft-evidence-workbench
 node scripts/init-docker-env.mjs
 docker compose --env-file .env.docker up --build -d --wait

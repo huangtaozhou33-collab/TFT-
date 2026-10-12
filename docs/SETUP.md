@@ -7,7 +7,7 @@
 Install Git, Node.js 22+ (24 recommended for the helper scripts), and Docker Engine/Desktop with Compose v2. Start Docker first. Allow internet access for images, npm dependencies, source refreshes and configured model APIs. Milvus adds several services and needs more memory than the basic app; size your machine for your dataset.
 
 ```sh
-git clone https://github.com/huangtaozhou33-collab/tft-evidence-workbench.git
+git clone https://github.com/huangtaozhou33-collab/TFT-.git tft-evidence-workbench
 cd tft-evidence-workbench
 node scripts/init-docker-env.mjs
 docker compose --env-file .env.docker up --build -d --wait

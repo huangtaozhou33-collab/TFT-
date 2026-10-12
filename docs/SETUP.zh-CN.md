@@ -7,7 +7,7 @@
 安装 Git、Node.js 22+（建议 24，用于初始化脚本）、Docker Engine/Desktop 和 Compose v2，并先启动 Docker。首次构建需要联网下载镜像和 npm 依赖；数据更新与模型调用也需要对应网络。可选 Milvus 会增加多个服务和内存需求，请按数据规模配置机器。
 
 ```sh
-git clone https://github.com/huangtaozhou33-collab/tft-evidence-workbench.git
+git clone https://github.com/huangtaozhou33-collab/TFT-.git tft-evidence-workbench
 cd tft-evidence-workbench
 node scripts/init-docker-env.mjs
 docker compose --env-file .env.docker up --build -d --wait
