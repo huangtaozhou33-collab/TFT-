@@ -42,7 +42,7 @@
 ## 尚未验证和公开发布前待处理
 
 1. 本轮已在 Windows Docker Desktop 的独立全新卷完成基础 app/MySQL/Redis 首启；未实测 macOS、Linux 宿主、ARM 设备和全新 Milvus 索引。
-2. 已上传到 https://github.com/huangtaozhou33-collab/TFT- ，首版标签 `v4.0.0-beta.1` 指向 `8056c30`。GitHub Actions 已触发；记录时仍在运行，不能以本地测试通过代替云端结果。运行记录：https://github.com/huangtaozhou33-collab/TFT-/actions/runs/38219630603 。
+2. 已上传到 https://github.com/huangtaozhou33-collab/TFT- ，首版标签 `v4.0.0-beta.1` 指向 `8056c30`。GitHub Actions 已完成且结果为 success：依赖安装、发布文件检查、离线测试与种子 dry-run 均通过。该结果对应首版代码提交，不代表真实付费模型或所有宿主平台验收。运行记录：https://github.com/huangtaozhou33-collab/TFT-/actions/runs/38219630603 。
 3. 尚无选定的开源代码许可证，未代替项目所有者授予MIT等许可。数据、图片、来源文本、压缩种子与测试夹具的第三方权利须单独确认，不能给源码选许可证就视为一并取得授权。
 4. 当前是单用户本机系统，端口绑定127.0.0.1；尚无面向公网的登录、权限隔离和部署加固验收。
 5. 不应把历史赛季种子当成最新版本。来源补丁明确值与推定值继续分开记录。
