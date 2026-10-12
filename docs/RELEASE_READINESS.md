@@ -6,6 +6,10 @@
 
 ## 已执行的检查
 
+### GitHub 真正克隆复验（后续修正）
+
+此前“候选文件复制”没有覆盖 Windows Git 换行转换。GitHub 克隆复验发现并修复 LF→CRLF 导致资料哈希失效的问题，详见[完整验收](verification/github-clone/README.md)。修复后的 GitHub 全新克隆已通过 476 项测试、独立空库 Docker 首启、可选 Milvus 基础设施与 Windows JSON 资料页面检查；[Windows/Ubuntu CI](https://github.com/huangtaozhou33-collab/TFT-/actions/runs/38220304837) 均通过。真实付费模型和知识 Embedding 未调用。
+
 ### 本轮 GitHub 文档与干净 Docker 验收
 
 - 双语 README、架构和启动指南已加入；功能截图来自本机实际页面，不是生成的界面图。

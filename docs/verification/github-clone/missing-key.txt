@@ -1,0 +1,104 @@
+xt: 每
+  - spinbutton "MetaTFT 全棋子出装更新周期（小时）": "24"
+  - text: 小时
+  - button "保存周期"
+  - button "立即采集一次"
+  - status
+  - term: 状态
+  - definition: 等待计划
+  - term: 下次执行
+  - definition: 2026/10/13 18:54
+  - term: 最近开始
+  - definition: 未知
+  - term: 最近完成
+  - definition: 未知
+  - term: 最近全批成功
+  - definition: 未知
+  - generic "采集进度 / 最近结果"
+  - generic "数据路径与范围"
+  - heading "MetaTFT 全装备持有者" [level=2]
+  - checkbox "MetaTFT 全装备持有者自动更新" [checked]
+  - text: 自动更新
+  - text: 每
+  - spinbutton "MetaTFT 全装备持有者更新周期（小时）": "24"
+  - text: 小时
+  - button "保存周期"
+  - button "立即采集一次"
+  - status
+  - term: 状态
+  - definition: 等待计划
+  - term: 下次执行
+  - definition: 2026/10/13 18:54
+  - term: 最近开始
+  - definition: 未知
+  - term: 最近完成
+  - definition: 未知
+  - term: 最近全批成功
+  - definition: 未知
+  - generic "采集进度 / 最近结果"
+  - generic "数据路径与范围"
+  - heading "OP.GG 独立参考数据" [level=2]
+  - checkbox "OP.GG 独立参考数据自动更新" [checked]
+  - text: 自动更新
+  - text: 每
+  - spinbutton "OP.GG 独立参考数据更新周期（小时）": "24"
+  - text: 小时
+  - button "保存周期"
+  - button "立即采集一次"
+  - status
+  - term: 状态
+  - definition: 等待计划
+  - term: 下次执行
+  - definition: 2026/10/13 18:54
+  - term: 最近开始
+  - definition: 未知
+  - term: 最近完成
+  - definition: 未知
+  - term: 最近全批成功
+  - definition: 未知
+  - generic "采集进度 / 最近结果"
+  - generic "数据路径与范围"
+  - heading "最近执行记录" [level=2]
+  - generic "数据表，窄屏可横向滚动":
+    - table:
+      - rowgroup:
+        - row "任务 开始 结束 结果":
+          - columnheader "任务"
+          - columnheader "开始"
+          - columnheader "结束"
+          - columnheader "结果"
+      - rowgroup:
+        - row "MetaTFT 阵容榜 2026/10/12 18:56 2026/10/12 18:57 成功":
+          - cell "MetaTFT 阵容榜"
+          - cell "2026/10/12 18:56"
+          - cell "2026/10/12 18:57"
+          - cell "成功"
+- dialog "TFT助手":
+  - generic: ✧
+  - heading "TFT助手" [level=2]
+  - paragraph:
+    - generic: API 尚未配置 · deepseek-flash
+  - button "模型与思考设置": ⚙
+  - button "展开或缩小助手": 展开
+  - button "清空聊天记录": ↺
+  - button "收起TFT助手": ×
+  - generic: 开发者模式
+  - log "聊天记录":
+    - article:
+      - generic: 阿狸适合什么装备？
+    - article:
+      - generic: ✧
+      - generic: TFT助手
+      - paragraph: 请求未完成：请在服务端配置 DEEPSEEK_API_KEY；百科和装备规划仍然可用。
+      - paragraph: 请重试，或查看数据源状态。
+      - button "查看这次回答的证据链"
+  - button "解释这条资料的效果"
+  - button "它与哪些英雄或装备有配合？"
+  - generic: 发送给TFT助手
+  - textbox "发送给TFT助手":
+    - /placeholder: 询问阵容、装备或机制…
+  - generic: 依据当前资料回答
+  - button "发送消息": ↑
+- button "收起TFT助手" [expanded]:
+  - generic: ✧
+  - generic: TFT助手
