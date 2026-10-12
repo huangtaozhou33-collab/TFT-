@@ -75,6 +75,8 @@ docker compose --env-file .env.docker up --build -d --wait
 
 打开 **http://127.0.0.1:3001**。初始化器生成随机数据库密码与空模型配置，不覆盖已有文件。首次启动自动执行迁移并导入赛季种子包。
 
+**同一台机器运行第二份项目时**：Compose 默认项目名固定为 `tft-workbench`，换文件夹不会隔离数据库。请在第二份项目新生成的 `.env.docker` 中设置 `COMPOSE_PROJECT_NAME=tft-second-copy` 和 `TFT_PORT=3031`，再执行启动命令，使容器、数据卷和访问端口独立。不要复制第一份项目的配置。没有旧部署的机器不需要这些额外设置。
+
 Windows 也可执行：
 
 ```powershell

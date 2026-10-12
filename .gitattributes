@@ -1,0 +1,9 @@
+# Reviewed source snapshots use byte-level hashes. Keep checkout bytes stable
+# even when a Windows user has core.autocrlf=true.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.gz binary

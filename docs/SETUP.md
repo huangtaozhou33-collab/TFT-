@@ -19,6 +19,8 @@ Windows users can also run `start-docker.cmd` or `./start-docker.ps1`. Keep one 
 
 ## Configure chat
 
+For a second isolated installation on the same host, add `COMPOSE_PROJECT_NAME=tft-second-copy` and set `TFT_PORT=3031` in its newly generated `.env.docker` before starting. A different directory by itself does not isolate the fixed Compose project name or volumes. Open port 3031 for that installation. Keep `.gitattributes`: it preserves LF bytes for integrity-checked reference snapshots on Windows.
+
 Add your key to `.env.docker` for a supported provider: `DEEPSEEK_API_KEY`, `QWEN_API_KEY`, `OPENAI_API_KEY`, `ANTHROPIC_API_KEY` or `KIMI_API_KEY`. Legacy `AI_API_KEY` supports the generic configuration. Do not commit this file.
 
 ```sh

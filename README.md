@@ -75,6 +75,8 @@ docker compose --env-file .env.docker up --build -d --wait
 
 Open **http://127.0.0.1:3001**. The initializer creates random local database passwords and blank model keys; it does not overwrite an existing configuration. First boot migrates MySQL and imports the bundled season seed.
 
+**Running a second copy on the same machine?** Compose uses the fixed project name `tft-workbench`. A different folder alone does not isolate its database. Before starting another copy, set `COMPOSE_PROJECT_NAME=tft-second-copy` and `TFT_PORT=3031` in that copy's generated `.env.docker`. This gives it separate containers/volumes and a different port. Never reuse the first copy's configuration. These settings are unnecessary on a machine with no existing deployment.
+
 Windows alternative:
 
 ```powershell

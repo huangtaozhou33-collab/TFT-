@@ -19,6 +19,8 @@ Windows 也可以运行 `start-docker.cmd` 或 `./start-docker.ps1`。同一端�
 
 ## 配置聊天模型
 
+同机安装第二份时，在它新生成的 `.env.docker` 添加 `COMPOSE_PROJECT_NAME=tft-second-copy`，并设置 `TFT_PORT=3031`，再启动并访问 3031。仅换文件夹不能隔离固定的 Compose 项目名和数据卷。请保留 `.gitattributes`，它保证 Windows 克隆时资料快照仍使用 LF，避免破坏完整性校验。
+
 在 `.env.docker` 填入所用提供商的密钥：`DEEPSEEK_API_KEY`、`QWEN_API_KEY`、`OPENAI_API_KEY`、`ANTHROPIC_API_KEY` 或 `KIMI_API_KEY`。通用配置仍兼容 `AI_API_KEY`。不要提交该文件。
 
 ```sh
