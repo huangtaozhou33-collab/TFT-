@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-10-09T16:48:36.573Z",
+  "phase": "grounded",
+  "configuredModel": "deepseek-flash",
+  "scope": "Small one-shot terminology audit, not access to pretraining data or a general accuracy benchmark.",
+  "calls": [
+    {
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 318,
+        "completion_tokens": 143,
+        "total_tokens": 461,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 318
+      },
+      "finishReason": "stop"
+    }
+  ],
+  "results": [
+    {
+      "facts": [
+        {
+          "alias": "豹女",
+          "candidates": [
+            {
+              "type": "champion",
+              "id": "DA_Nidalee18_AP",
+              "name": "奈德丽"
+            }
+          ]
+        },
+        {
+          "alias": "木木",
+          "candidates": [
+            {
+              "type": "champion",
+              "id": "DA_Amumu18",
+              "name": "阿木木"
+            }
+          ]
+        },
+        {
+          "alias": "板甲",
+          "candidates": [
+            {
+              "type": "item",
+              "id": "DA_GargoyleStoneplate",
+              "name": "石像鬼石板甲"
+            },
+            {
+              "type": "item",
+              "id": "DA_GargoyleStoneplate_Radiant",
+              "name": "光明版石像鬼石板甲"
+            }
+          ]
+        },
+        {
+          "alias": "反甲",
+          "candidates": [
+            {
+              "type": "item",
+              "id": "DA_BrambleVest",
+              "name": "棘刺背心"
+            }
+          ]
+        },
+        {
+          "alias": "饮血",
+          "candidates": [
+            {
+              "type": "item",
+              "id": "DA_Bloodthirster",
+              "name": "饮血剑"
+            },
+            {
+              "type": "item",
+              "id": "DA_BloodthirsterRadiant",
+              "name": "光明版饮血剑"
+            }
+          ]
+        }
+      ],
+      "answer": "{\n  \"official_names\": {\n    \"板甲\": \"石像鬼石板甲\",\n    \"反甲\": \"棘刺背心\"\n  },\n  \"conditions\": [\n    {\n      \"type\": \"champion\",\n      \"id\": \"DA_Nidalee18_AP\"\n    },\n    {\n      \"type\": \"champion\",\n      \"id\": \"DA_Amumu18\"\n    },\n    {\n      \"type\": \"item\",\n      \"id\": \"DA_Bloodthirster\",\n      \"holderId\": \"DA_Nidalee18_AP\"\n    }\n  ],\n  \"carrierId\": \"DA_Nidalee18_AP\"\n}"
+    }
+  ],
+  "completedAt": "2026-10-09T16:48:37.736Z"
+}

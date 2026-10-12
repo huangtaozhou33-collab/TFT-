@@ -1,0 +1,184 @@
+{
+  "state": {
+    "added": 0,
+    "errors": [],
+    "status": "unchanged",
+    "checked": 6,
+    "enabled": true,
+    "message": "没有更新：已检查的官方公告与本地一致。",
+    "revised": 0,
+    "nextCheckAt": 1791800471370,
+    "intervalHours": 24,
+    "lastCheckedAt": 1791714065036,
+    "lastSuccessAt": 1791714071370,
+    "entityIndexState": {
+      "count": 845,
+      "status": "cached",
+      "checkedAt": 1791713731232
+    }
+  },
+  "articles": [
+    {
+      "url": "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-18-4",
+      "patch": "18.4",
+      "locale": "zh-tw",
+      "categories": {
+        "champions": {
+          "cards": 25,
+          "matched": 24
+        },
+        "items": {
+          "cards": 3,
+          "matched": 3
+        },
+        "traits": {
+          "cards": 10,
+          "matched": 9
+        },
+        "augments": {
+          "cards": 22,
+          "matched": 20
+        },
+        "wisps": {
+          "cards": 13,
+          "matched": 8
+        }
+      }
+    },
+    {
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4",
+      "patch": "18.4",
+      "locale": "en-us",
+      "categories": {
+        "champions": {
+          "cards": 25,
+          "matched": 24
+        },
+        "items": {
+          "cards": 3,
+          "matched": 3
+        },
+        "traits": {
+          "cards": 10,
+          "matched": 10
+        },
+        "augments": {
+          "cards": 33,
+          "matched": 30
+        },
+        "wisps": {
+          "cards": 24,
+          "matched": 18
+        }
+      }
+    },
+    {
+      "url": "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-18-3",
+      "patch": "18.3",
+      "locale": "zh-tw",
+      "categories": {
+        "champions": {
+          "cards": 25,
+          "matched": 24
+        },
+        "items": {
+          "cards": 4,
+          "matched": 4
+        },
+        "traits": {
+          "cards": 6,
+          "matched": 5
+        },
+        "augments": {
+          "cards": 29,
+          "matched": 22
+        },
+        "wisps": {
+          "cards": 7,
+          "matched": 4
+        }
+      }
+    },
+    {
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-3",
+      "patch": "18.3",
+      "locale": "en-us",
+      "categories": {
+        "champions": {
+          "cards": 25,
+          "matched": 25
+        },
+        "items": {
+          "cards": 7,
+          "matched": 6
+        },
+        "traits": {
+          "cards": 6,
+          "matched": 6
+        },
+        "augments": {
+          "cards": 33,
+          "matched": 30
+        },
+        "wisps": {
+          "cards": 7,
+          "matched": 4
+        }
+      }
+    },
+    {
+      "url": "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-18-2",
+      "patch": "18.2",
+      "locale": "zh-tw",
+      "categories": {
+        "champions": {
+          "cards": 43,
+          "matched": 41
+        },
+        "items": {
+          "cards": 23,
+          "matched": 23
+        },
+        "traits": {
+          "cards": 10,
+          "matched": 5
+        },
+        "augments": {
+          "cards": 22,
+          "matched": 15
+        },
+        "wisps": {
+          "cards": 4,
+          "matched": 0
+        }
+      }
+    },
+    {
+      "url": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2",
+      "patch": "18.2",
+      "locale": "en-us",
+      "categories": {
+        "champions": {
+          "cards": 53,
+          "matched": 51
+        },
+        "items": {
+          "cards": 29,
+          "matched": 29
+        },
+        "traits": {
+          "cards": 10,
+          "matched": 6
+        },
+        "augments": {
+          "cards": 24,
+          "matched": 20
+        },
+        "wisps": {
+          "cards": 5,
+          "matched": 1
+        }
+      }
+    }
+  ]
+}

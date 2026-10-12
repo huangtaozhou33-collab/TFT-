@@ -1,0 +1,671 @@
+{
+  "createdAt": "2026-10-11T04:44:35.663Z",
+  "purpose": "Public MetaTFT API feasibility probe; no production integration or database import",
+  "provider": "MetaTFT",
+  "access": {
+    "authenticationSent": false,
+    "cookiesSent": false,
+    "apiKeySent": false,
+    "officialIntegrationContractVerified": false,
+    "accessWorkaroundUsed": false
+  },
+  "sourceDiscovery": {
+    "home": "https://www.metatft.com/",
+    "mainBundle": "https://www.metatft.com/assets/main-Cukhk3-v.js",
+    "explorerBundle": "https://www.metatft.com/assets/Explorer-hIJjSD2a.js",
+    "queryMakerBundle": "https://www.metatft.com/assets/RequestService-1DdzEFKi.js",
+    "method": "Observed public frontend endpoint strings and serialization; GET requests using Node fetch",
+    "sourceDeclaredSet": "TFTSet18"
+  },
+  "queryScope": {
+    "queue": 1100,
+    "days": 3,
+    "ranks": [
+      "PLATINUM",
+      "EMERALD",
+      "DIAMOND",
+      "MASTER",
+      "GRANDMASTER",
+      "CHALLENGER"
+    ],
+    "requestedPatch": "18.4",
+    "requestedBpatch": "b",
+    "metadataDeclaredCurrentPatch": {
+      "patch": "18.4",
+      "b_patch_version": "b",
+      "full_padded_patch": "0018.0004b",
+      "count": 12635491,
+      "start": "2026-10-08T03:41:31.344Z"
+    },
+    "statisticsResponsePatch": null,
+    "patchEvidenceNote": "Statistics responses do not echo patch; explicit request values and separate source patch metadata are retained. First two Explorer requests used current, which metadata reported as 18.4b.",
+    "serverFilter": "not specified; source default scope, not independently audited"
+  },
+  "sampleMeaning": {
+    "unit": "placement observations",
+    "uniqueMatchCount": null,
+    "formula": "sampleCount=sum(placement_count); avg=sum(count[i]*(i+1))/N; top4=sum(first four)/N; win=count[0]/N",
+    "warning": "filter_adjustment.sample_size is a broader filter baseline, not the entity query sample count; rows overlap and must not be summed as distinct matches."
+  },
+  "endpointFindings": [
+    {
+      "path": "/tft-explorer-api/total",
+      "purpose": "all supplied conditions simultaneously; histogram supports exact returned-row metrics",
+      "verified": true
+    },
+    {
+      "path": "/tft-explorer-api/units_unique",
+      "purpose": "co-occurring unit copies under all conditions; not proof that each unit carries the item",
+      "verified": true
+    },
+    {
+      "path": "/tft-explorer-api/item_units_unique/{item}-1",
+      "purpose": "actual item holders",
+      "verified": true,
+      "observedRowCount": 90
+    },
+    {
+      "path": "/tft-explorer-api/unit_builds/any_unit/{item}",
+      "purpose": "champion and exact item combinations with placement histograms",
+      "verified": true,
+      "observedRowCount": 200
+    },
+    {
+      "path": "/tft-explorer-api/exact_units_traits2",
+      "purpose": "rosters and traits under supplied conditions",
+      "verified": true,
+      "observedRowCount": 250
+    }
+  ],
+  "examples": [
+    {
+      "query": "任意棋子携带密银黎明（total）",
+      "file": "silvermere-total.json",
+      "sampleCount": 47212,
+      "avgPlacement": 4.119206981275947,
+      "top4Rate": 0.5778191985088537,
+      "winRate": 0.1460433788019995
+    },
+    {
+      "query": "大龙携带密银黎明",
+      "file": "dragon-silvermere-total.json",
+      "sampleCount": 8908,
+      "avgPlacement": 3.424337674000898,
+      "top4Rate": 0.6755725190839694,
+      "winRate": 0.30478221823080376
+    },
+    {
+      "query": "大龙同时携带密银黎明、无尽之刃、强袭者的链枷",
+      "file": "dragon-triple-total.json",
+      "placementCount": [
+        344,
+        134,
+        97,
+        91,
+        68,
+        65,
+        61,
+        40
+      ],
+      "sampleCount": 900,
+      "avgPlacement": 3.048888888888889,
+      "top4Rate": 0.74,
+      "winRate": 0.38222222222222224
+    },
+    {
+      "query": "大龙携带密银黎明，且同阵容包含艾翁",
+      "file": "dragon-ivern-total.json",
+      "sampleCount": 4326,
+      "avgPlacement": 3.1521035598705502,
+      "top4Rate": 0.7087378640776699,
+      "winRate": 0.3777161349976884
+    },
+    {
+      "query": "大龙携带密银黎明，且同阵容不含大龙",
+      "file": "contradictory-total.json",
+      "sampleCount": 0,
+      "avgPlacement": null,
+      "top4Rate": null,
+      "winRate": null
+    },
+    {
+      "query": "奈德丽携带朔极之矛",
+      "file": "nidalee-shojin-total.json",
+      "sampleCount": 292039,
+      "avgPlacement": 4.1671591807943456,
+      "top4Rate": 0.583579590397173,
+      "winRate": 0.09019685726906337
+    },
+    {
+      "query": "奈德丽携带朔极之矛，且同阵容包含阿木木",
+      "file": "cli-other-joint-confirmed/result.json",
+      "sampleCount": 229651,
+      "avgPlacement": 4.086674998149366,
+      "top4Rate": 0.6014648314181084,
+      "winRate": 0.09042416536396532
+    }
+  ],
+  "checks": [
+    {
+      "name": "holder row and independently requested bound-item total have identical placement histograms",
+      "passed": true
+    },
+    {
+      "name": "full build and three separately bound item constraints have identical placement histograms",
+      "passed": true
+    },
+    {
+      "name": "generic CLI independently reproduces the three-item intersection",
+      "passed": true
+    },
+    {
+      "name": "adding a teammate narrows the sample",
+      "passed": true
+    },
+    {
+      "name": "every returned joint comp contains both requested champions",
+      "passed": true
+    },
+    {
+      "name": "mutually exclusive valid entity conditions return zero, not broad fallback",
+      "passed": true
+    },
+    {
+      "name": "a different item and two different champions work through the same generic CLI",
+      "passed": true
+    },
+    {
+      "name": "all accepted conditional responses explicitly report no automatic rank override",
+      "passed": true
+    },
+    {
+      "name": "all saved discovery and request bodies match their recorded SHA-256 hashes",
+      "passed": true
+    }
+  ],
+  "requests": [
+    {
+      "file": "explorer.js",
+      "url": "https://www.metatft.com/assets/Explorer-hIJjSD2a.js",
+      "at": "2026-10-11T04:40:29.182Z",
+      "status": 200,
+      "contentType": "application/javascript",
+      "bytes": 311377,
+      "sha256": "4c197c3e45d1519045aa38be3c58e910797d93f7c8011e732d6ee9bd651d2d26",
+      "rawFile": "tmp/metatft-probe/explorer.js"
+    },
+    {
+      "file": "units.js",
+      "url": "https://www.metatft.com/assets/Units-B2rVFeWg.js",
+      "at": "2026-10-11T04:40:29.205Z",
+      "status": 200,
+      "contentType": "application/javascript",
+      "bytes": 106708,
+      "sha256": "6c55f67592e8ee99e0b46b77972e3a425e1cbfc3c999772efac62e01fc52db2a",
+      "rawFile": "tmp/metatft-probe/units.js"
+    },
+    {
+      "file": "comps.js",
+      "url": "https://www.metatft.com/assets/Comps-PGtjtOVe.js",
+      "at": "2026-10-11T04:40:29.205Z",
+      "status": 200,
+      "contentType": "application/javascript",
+      "bytes": 1184,
+      "sha256": "345fa4d09fced1004b0d6f20747224b857ae4a5cadb6694956823bfa74ba3d6c",
+      "rawFile": "tmp/metatft-probe/comps.js"
+    },
+    {
+      "file": "cluster-info.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/latest_cluster_info",
+      "at": "2026-10-11T04:40:29.206Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 403439,
+      "sha256": "eaf7283a08b785f2802c8f7b67c0b324514a824f4c65d4b872cfca95dae68472",
+      "rawFile": "tmp/metatft-probe/cluster-info.json"
+    },
+    {
+      "file": "unit-items.json",
+      "url": "https://api-hc.metatft.com/tft-comps-api/unit_items_processed",
+      "at": "2026-10-11T04:40:29.206Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 66427,
+      "sha256": "273a82b6f3a18234078201fb1ce679139f503c5c2e90b9fd115a19dcff2a4fff",
+      "rawFile": "tmp/metatft-probe/unit-items.json"
+    },
+    {
+      "file": "patch.json",
+      "url": "https://api-hc.metatft.com/tft-stat-api/patch",
+      "at": "2026-10-11T04:41:04.810Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 123,
+      "sha256": "12578ce009cb36afc298d3a5a7243a761d11ec867ccf03c783d14d42cdcefbb9",
+      "rawFile": "tmp/metatft-probe/patch.json"
+    },
+    {
+      "file": "games.json",
+      "url": "https://api-hc.metatft.com/tft-stat-api/games?days=7",
+      "at": "2026-10-11T04:41:04.834Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 248996,
+      "sha256": "b6c44179d51bfe663bd056a0eb7bb150986964133d4a841bca6640000ed9c4fc",
+      "rawFile": "tmp/metatft-probe/games.json"
+    },
+    {
+      "file": "request-service.js",
+      "url": "https://www.metatft.com/assets/RequestService-1DdzEFKi.js",
+      "at": "2026-10-11T04:41:04.835Z",
+      "status": 200,
+      "contentType": "application/javascript",
+      "bytes": 963,
+      "sha256": "43546d85092cea5ccfde902578cae25691e5caa185fd04dbb9ede8a907df9786",
+      "rawFile": "tmp/metatft-probe/request-service.js"
+    },
+    {
+      "file": "silvermere-total.json",
+      "url": "https://api-hc.metatft.com/tft-explorer-api/total?formatnoarray=true&compact=true&queue=1100&patch=current&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&item_unique=DA_Artifact_SilvermereDawn-1",
+      "at": "2026-10-11T04:41:04.835Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 212,
+      "sha256": "2d69fa050d53741dfeb61c93725ade0bd0d9b88d4276fe6814f82f74778e6552",
+      "rawFile": "tmp/metatft-probe/silvermere-total.json"
+    },
+    {
+      "file": "silvermere-units.json",
+      "url": "https://api-hc.metatft.com/tft-explorer-api/units_unique?formatnoarray=true&compact=true&queue=1100&patch=current&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&item_unique=DA_Artifact_SilvermereDawn-1",
+      "at": "2026-10-11T04:41:04.836Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 14748,
+      "sha256": "0e8f33ee3b5c2557753c650e2d4aafc448fda0037ce183fee43e0b1fdeb7d161",
+      "rawFile": "tmp/metatft-probe/silvermere-units.json"
+    },
+    {
+      "file": "silvermere-holders.json",
+      "url": "https://api-hc.metatft.com/tft-explorer-api/item_units_unique/DA_Artifact_SilvermereDawn-1?formatnoarray=true&compact=true&queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&item_unique=DA_Artifact_SilvermereDawn-1",
+      "at": "2026-10-11T04:41:21.650Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 9961,
+      "sha256": "aa2236296c82e98f927db15e5230a800e418405e06992cf0dcfacef920057a22",
+      "rows": 90,
+      "rawFile": "tmp/metatft-probe/silvermere-holders.json"
+    },
+    {
+      "file": "silvermere-builds.json",
+      "url": "https://api-hc.metatft.com/tft-explorer-api/unit_builds/any_unit/DA_Artifact_SilvermereDawn?formatnoarray=true&compact=true&queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&item_unique=DA_Artifact_SilvermereDawn-1",
+      "at": "2026-10-11T04:41:21.673Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 25432,
+      "sha256": "cfe5f22dac7781cae77c1a247457a8eeb8b3c5446da9958dedcbb6da78868379",
+      "rows": 200,
+      "rawFile": "tmp/metatft-probe/silvermere-builds.json"
+    },
+    {
+      "file": "dragon-silvermere-total.json",
+      "url": "https://api-hc.metatft.com/tft-explorer-api/total?formatnoarray=true&compact=true&queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&unit_item_unique=DA_18_ElderDragon-1%26DA_Artifact_SilvermereDawn-1",
+      "at": "2026-10-11T04:41:21.674Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 207,
+      "sha256": "9c79c63c4709b6f77127835baddc939b767d1b8d95abaea2d62d0ee1f3390692",
+      "rows": 1,
+      "rawFile": "tmp/metatft-probe/dragon-silvermere-total.json"
+    },
+    {
+      "file": "dragon-silvermere-comps.json",
+      "url": "https://api-hc.metatft.com/tft-explorer-api/exact_units_traits2?formatnoarray=true&compact=true&queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&unit_item_unique=DA_18_ElderDragon-1%26DA_Artifact_SilvermereDawn-1",
+      "at": "2026-10-11T04:41:21.675Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 147175,
+      "sha256": "c4e7cd21fff8d501f4ab4df3f2da8e18f97ac83208f6e4a378b248a58634090e",
+      "rows": 250,
+      "rawFile": "tmp/metatft-probe/dragon-silvermere-comps.json"
+    },
+    {
+      "file": "dragon-triple-total.json",
+      "url": "https://api-hc.metatft.com/tft-explorer-api/total?formatnoarray=true&compact=true&queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&unit_item_unique=DA_18_ElderDragon-1%26DA_Artifact_SilvermereDawn-1&unit_item_unique=DA_18_ElderDragon-1%26DA_InfinityEdge-1&unit_item_unique=DA_18_ElderDragon-1%26DA_StrikersFlail-1",
+      "at": "2026-10-11T04:42:12.223Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 198,
+      "sha256": "41f3375ee18e8d85f184a465af8e4dbb63a0ef5612b3e9b099c8720ae4762f9f",
+      "rowCount": 1,
+      "adjustment": {
+        "override_applied": false,
+        "rank_filter": "CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM",
+        "sample_size": 6936832
+      },
+      "rawFile": "tmp/metatft-probe/dragon-triple-total.json"
+    },
+    {
+      "file": "dragon-ivern-total.json",
+      "url": "https://api-hc.metatft.com/tft-explorer-api/total?formatnoarray=true&compact=true&queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&unit_item_unique=DA_18_ElderDragon-1%26DA_Artifact_SilvermereDawn-1&unit_unique=DA_18_Ivern-1",
+      "at": "2026-10-11T04:42:12.251Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 205,
+      "sha256": "56feb7fb01f0c56180a4690aef36594c41074c18d1d3bc960bc26566e3354c08",
+      "rowCount": 1,
+      "adjustment": {
+        "override_applied": false,
+        "rank_filter": "CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM",
+        "sample_size": 6936832
+      },
+      "rawFile": "tmp/metatft-probe/dragon-ivern-total.json"
+    },
+    {
+      "file": "dragon-ivern-comps.json",
+      "url": "https://api-hc.metatft.com/tft-explorer-api/exact_units_traits2?formatnoarray=true&compact=true&queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&unit_item_unique=DA_18_ElderDragon-1%26DA_Artifact_SilvermereDawn-1&unit_unique=DA_18_Ivern-1",
+      "at": "2026-10-11T04:42:12.252Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 148637,
+      "sha256": "6848e1b7b1714f05b10f80fb391ce15c411cc833d71f26e1d94f0c4a8a1199c2",
+      "rowCount": 250,
+      "adjustment": {
+        "override_applied": false,
+        "rank_filter": "CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM",
+        "sample_size": 6936832
+      },
+      "rawFile": "tmp/metatft-probe/dragon-ivern-comps.json"
+    },
+    {
+      "file": "contradictory-total.json",
+      "url": "https://api-hc.metatft.com/tft-explorer-api/total?formatnoarray=true&compact=true&queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&unit_item_unique=DA_18_ElderDragon-1%26DA_Artifact_SilvermereDawn-1&unit_unique=%21DA_18_ElderDragon-1",
+      "at": "2026-10-11T04:42:13.845Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 188,
+      "sha256": "f35355ad5aa5d4f752bd156e8a4489b1b02dd766641bf88ad44198d5888daf6b",
+      "rowCount": 1,
+      "adjustment": {
+        "override_applied": false,
+        "rank_filter": "CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM",
+        "sample_size": 6936832
+      },
+      "rawFile": "tmp/metatft-probe/contradictory-total.json"
+    },
+    {
+      "file": "nidalee-shojin-total.json",
+      "url": "https://api-hc.metatft.com/tft-explorer-api/total?formatnoarray=true&compact=true&queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&unit_item_unique=DA_Nidalee18_AP-1%26DA_SpearOfShojin-1",
+      "at": "2026-10-11T04:42:13.846Z",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 220,
+      "sha256": "a3a3c55a807958a4f22b0224c5594ec1a4b95fe23c8c9e0886d2654d74aab69b",
+      "rowCount": 1,
+      "adjustment": {
+        "override_applied": false,
+        "rank_filter": "CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM",
+        "sample_size": 6936832
+      },
+      "rawFile": "tmp/metatft-probe/nidalee-shojin-total.json"
+    }
+  ],
+  "cliRuns": [
+    {
+      "directory": "tmp/metatft-probe/cli-triple-confirmed",
+      "status": "live",
+      "options": {
+        "item": [
+          "DA_Artifact_SilvermereDawn@DA_18_ElderDragon",
+          "DA_InfinityEdge@DA_18_ElderDragon",
+          "DA_StrikersFlail@DA_18_ElderDragon"
+        ],
+        "out-dir": "tmp/metatft-probe/cli-triple-confirmed"
+      },
+      "requests": [
+        {
+          "url": "https://api-hc.metatft.com/tft-stat-api/patch",
+          "method": "GET",
+          "startedAt": "2026-10-11T04:43:22.716Z",
+          "receivedAt": "2026-10-11T04:43:23.993Z",
+          "status": 200,
+          "bytes": 123,
+          "sha256": "99ae67bff118fade98d9bb717390101d57787e7676e4aba6959eec3eb427efa4",
+          "contentType": "application/json; charset=utf-8",
+          "rawFile": "tmp/metatft-probe/cli-triple-confirmed/patch.json"
+        },
+        {
+          "url": "https://api-hc.metatft.com/tft-explorer-api/total?formatnoarray=true&compact=true&queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&unit_item_unique=DA_18_ElderDragon-1%26DA_Artifact_SilvermereDawn-1&unit_item_unique=DA_18_ElderDragon-1%26DA_InfinityEdge-1&unit_item_unique=DA_18_ElderDragon-1%26DA_StrikersFlail-1",
+          "method": "GET",
+          "startedAt": "2026-10-11T04:43:23.993Z",
+          "receivedAt": "2026-10-11T04:43:24.401Z",
+          "status": 200,
+          "bytes": 198,
+          "sha256": "9cbc0c6c113d43f31a90355044b91f5dcc60e1d9faa07570f04f6a042f976c5e",
+          "contentType": "application/json; charset=utf-8",
+          "rawFile": "tmp/metatft-probe/cli-triple-confirmed/result.json"
+        }
+      ],
+      "rowCount": 1,
+      "filterAdjustment": {
+        "override_applied": false,
+        "rank_filter": "CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM",
+        "sample_size": 6945496
+      },
+      "exampleRows": [
+        {
+          "placement_count": [
+            344,
+            134,
+            97,
+            91,
+            68,
+            65,
+            61,
+            40
+          ],
+          "metrics": {
+            "sampleCount": 900,
+            "avgPlacement": 3.048888888888889,
+            "top4Rate": 0.74,
+            "winRate": 0.38222222222222224
+          }
+        }
+      ]
+    },
+    {
+      "directory": "tmp/metatft-probe/cli-other-joint-confirmed",
+      "status": "live",
+      "options": {
+        "item": [
+          "DA_SpearOfShojin@DA_Nidalee18_AP"
+        ],
+        "champion": [
+          "DA_Amumu18"
+        ],
+        "group": "units",
+        "out-dir": "tmp/metatft-probe/cli-other-joint-confirmed"
+      },
+      "requests": [
+        {
+          "url": "https://api-hc.metatft.com/tft-stat-api/patch",
+          "method": "GET",
+          "startedAt": "2026-10-11T04:43:23.046Z",
+          "receivedAt": "2026-10-11T04:43:24.404Z",
+          "status": 200,
+          "bytes": 123,
+          "sha256": "a95003f3fa2d910533fa37af25d92830fd5088589d1f899a61ecb2ccb35f1baa",
+          "contentType": "application/json; charset=utf-8",
+          "rawFile": "tmp/metatft-probe/cli-other-joint-confirmed/patch.json"
+        },
+        {
+          "url": "https://api-hc.metatft.com/tft-explorer-api/units_unique?formatnoarray=true&compact=true&queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&unit_unique=DA_Amumu18-1&unit_item_unique=DA_Nidalee18_AP-1%26DA_SpearOfShojin-1",
+          "method": "GET",
+          "startedAt": "2026-10-11T04:43:24.405Z",
+          "receivedAt": "2026-10-11T04:43:24.811Z",
+          "status": 200,
+          "bytes": 13331,
+          "sha256": "55b7bb01cf63ff44901bd5369d601aaa98056efd0461e1501a69c77e8668fd46",
+          "contentType": "application/json; charset=utf-8",
+          "rawFile": "tmp/metatft-probe/cli-other-joint-confirmed/result.json"
+        }
+      ],
+      "rowCount": 168,
+      "filterAdjustment": {
+        "override_applied": false,
+        "rank_filter": "CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM",
+        "sample_size": 6945496
+      },
+      "exampleRows": [
+        {
+          "units_unique": "DA_18_Ahri-1",
+          "placement_count": [
+            68,
+            89,
+            86,
+            79,
+            76,
+            89,
+            71,
+            67
+          ],
+          "metrics": {
+            "sampleCount": 625,
+            "avgPlacement": 4.4272,
+            "top4Rate": 0.5152,
+            "winRate": 0.1088
+          }
+        },
+        {
+          "units_unique": "DA_18_Ahri-2",
+          "placement_count": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "metrics": {
+            "sampleCount": 1,
+            "avgPlacement": 5,
+            "top4Rate": 0,
+            "winRate": 0
+          }
+        },
+        {
+          "units_unique": "DA_18_Akali_AD-1",
+          "placement_count": [
+            637,
+            1039,
+            1185,
+            1105,
+            960,
+            833,
+            704,
+            497
+          ],
+          "metrics": {
+            "sampleCount": 6960,
+            "avgPlacement": 4.222988505747127,
+            "top4Rate": 0.5698275862068966,
+            "winRate": 0.09152298850574712
+          }
+        }
+      ]
+    },
+    {
+      "directory": "tmp/metatft-probe/cli-empty-confirmed",
+      "status": "empty",
+      "options": {
+        "item": [
+          "DA_Artifact_SilvermereDawn@DA_18_ElderDragon"
+        ],
+        "exclude-champion": [
+          "DA_18_ElderDragon"
+        ],
+        "out-dir": "tmp/metatft-probe/cli-empty-confirmed"
+      },
+      "requests": [
+        {
+          "url": "https://api-hc.metatft.com/tft-stat-api/patch",
+          "method": "GET",
+          "startedAt": "2026-10-11T04:43:22.889Z",
+          "receivedAt": "2026-10-11T04:43:23.993Z",
+          "status": 200,
+          "bytes": 123,
+          "sha256": "a95003f3fa2d910533fa37af25d92830fd5088589d1f899a61ecb2ccb35f1baa",
+          "contentType": "application/json; charset=utf-8",
+          "rawFile": "tmp/metatft-probe/cli-empty-confirmed/patch.json"
+        },
+        {
+          "url": "https://api-hc.metatft.com/tft-explorer-api/total?formatnoarray=true&compact=true&queue=1100&patch=18.4&b_patch=b&days=3&rank=CHALLENGER%2CDIAMOND%2CEMERALD%2CGRANDMASTER%2CMASTER%2CPLATINUM&permit_filter_adjustment=true&unit_unique=%21DA_18_ElderDragon-1&unit_item_unique=DA_18_ElderDragon-1%26DA_Artifact_SilvermereDawn-1",
+          "method": "GET",
+          "startedAt": "2026-10-11T04:43:23.994Z",
+          "receivedAt": "2026-10-11T04:43:24.401Z",
+          "status": 200,
+          "bytes": 188,
+          "sha256": "720e37e571d5548f146fe976dc3a10f0e55ed0773decc122cfa93e3ba4b8db67",
+          "contentType": "application/json; charset=utf-8",
+          "rawFile": "tmp/metatft-probe/cli-empty-confirmed/result.json"
+        }
+      ],
+      "rowCount": 1,
+      "filterAdjustment": {
+        "override_applied": false,
+        "rank_filter": "CHALLENGER,DIAMOND,EMERALD,GRANDMASTER,MASTER,PLATINUM",
+        "sample_size": 6945496
+      },
+      "exampleRows": [
+        {
+          "placement_count": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "metrics": {
+            "sampleCount": 0,
+            "avgPlacement": null,
+            "top4Rate": null,
+            "winRate": null
+          }
+        }
+      ]
+    }
+  ],
+  "initialHarnessIssue": {
+    "description": "With permit_filter_adjustment=false the API returned data but omitted filter_adjustment, causing the initial strict probe to reject both successful HTTP responses.",
+    "resolution": "Match the website parameter true and accept only override_applied===false; no silently broadened data is accepted.",
+    "preservedReports": [
+      "tmp/metatft-probe/cli-triple/report.json",
+      "tmp/metatft-probe/cli-other-joint/report.json"
+    ]
+  },
+  "limitations": [
+    "Public website implementation is not a documented integration or availability contract. Sustained availability and rate limits are not verified.",
+    "Only standard queue 1100 and the recorded patch/ranks/days were probed. Other modes, patches and regions are not verified.",
+    "Returned 200 build rows and 250 comp rows may be truncated. Exhaustiveness and pagination are not verified.",
+    "Entity suffix -1 denotes occurrence in the frontend serializer, not one-star level. Duplicate units/items and more complex groups require additional integration validation.",
+    "OP.GG 103 and MetaTFT 900 describe different sources/snapshots/windows; do not merge or equate them.",
+    "No source raw match IDs were obtained; these are source-side aggregate conditional statistics."
+  ],
+  "production": {
+    "dataSourceChanged": false,
+    "mysqlWritten": false,
+    "milvusWritten": false,
+    "uiDeployed": false,
+    "modelCalled": false,
+    "opggWorkInProgress": "Preserved; 52 focused tests passed before user requested MetaTFT probe; no deployment or new UI acceptance performed."
+  },
+  "reproduce": {
+    "script": "scripts/probe-metatft.mjs",
+    "example": "node scripts/probe-metatft.mjs --item DA_Artifact_SilvermereDawn@DA_18_ElderDragon --item DA_InfinityEdge@DA_18_ElderDragon --item DA_StrikersFlail@DA_18_ElderDragon",
+    "note": "The script takes arbitrary validated entity IDs as arguments; it does not return saved examples or import them into production."
+  }
+}

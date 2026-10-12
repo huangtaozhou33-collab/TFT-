@@ -1,0 +1,143 @@
+{
+  "checkedAt": "2026-10-11T03:57:11.592Z",
+  "backend": "local_json",
+  "baseURL": "http://127.0.0.1:3004",
+  "embeddingConfigured": false,
+  "paidChatCalls": 0,
+  "embeddingCalls": 0,
+  "tests": {
+    "command": "npm test",
+    "total": 373,
+    "passed": 373,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "durationMs": 8174.6911
+  },
+  "oldClient": {
+    "version": "3.0.0",
+    "question": "速八是什么意思？",
+    "retrieval": {
+      "mode": "lexical",
+      "candidates": 2,
+      "cacheHit": false,
+      "vectorStatus": "not_configured"
+    },
+    "terminology": {
+      "truncated": false,
+      "mentions": [
+        {
+          "text": "速八",
+          "ambiguous": true,
+          "candidates": [
+            {
+              "id": "fast-eight",
+              "term": "速八（升八级）"
+            },
+            {
+              "id": "fast-eighth",
+              "term": "速八（第八出局）"
+            }
+          ]
+        }
+      ]
+    },
+    "citationMap": {
+      "[S2]": "速八（升八级）",
+      "[S3]": "速八（第八出局）"
+    },
+    "evidence": [
+      {
+        "title": "速八（升八级）",
+        "documentId": "glossary:fast-eight",
+        "citation": "[S2]",
+        "sourcePatch": null,
+        "evidenceStatus": "source_supported",
+        "verificationStatus": "not_independently_verified"
+      },
+      {
+        "title": "速八（第八出局）",
+        "documentId": "glossary:fast-eighth",
+        "citation": "[S3]",
+        "sourcePatch": null,
+        "evidenceStatus": "source_supported",
+        "verificationStatus": "not_independently_verified"
+      }
+    ]
+  },
+  "glossary": {
+    "entryCount": 191,
+    "searchSteps": [
+      {
+        "query": "速八",
+        "count": 3
+      },
+      {
+        "query": "速八 调侃",
+        "count": 1
+      },
+      {
+        "query": "速八 调侃 星砂回响连锁",
+        "count": 0
+      },
+      {
+        "query": "速八 调侃",
+        "count": 1
+      },
+      {
+        "query": "速八",
+        "count": 3
+      }
+    ],
+    "selectedSense": "fast-eighth",
+    "selectedSenseRestoredOnReload": true,
+    "searchTextPersistedOnReload": false,
+    "historicalCardChecked": "救赎",
+    "referenceDisclosureChecked": true,
+    "emptyState": "- main:\n  - navigation \"图鉴内导航\":\n    - link \"← 资料库首页\":\n      - /url: \"#library\"\n    - link \"英雄资料\":\n      - /url: \"#champions\"\n    - link \"装备资料\":\n      - /url: \"#items\"\n    - link \"羁绊图鉴\":\n      - /url: \"#traits\"\n    - link \"海克斯\":\n      - /url: \"#augments\"\n    - link \"合成图鉴\":\n      - /url: \"#recipes\"\n    - link \"赛季特殊玩法\":\n      - /url: \"#mechanics\"\n    - link \"系统规则\":\n      - /url: \"#systems\"\n    - link \"羁绊细则\":\n      - /url: \"#trait-rules\"\n    - link \"实用速查\":\n      - /url: \"#reference\"\n    - link \"云顶术语\":\n      - /url: \"#glossary\"\n  - generic: 常用说法与概念\n  - heading \"云顶术语 / 01\" [level=1]:\n    - text: 云顶术语\n    - generic: / 01\n  - paragraph: 查术语、别名与例句，理解玩家的对局表达。通用术语由本项目整理。\n  - complementary \"云顶术语列表\":\n    - heading \"云顶术语\" [level=2]\n    - generic: 0个\n    - searchbox \"搜索云顶术语\" [active]: 速八 调侃 星砂回响连锁\n    - status: 没有找到这个术语。\n  - region \"术语详情\":\n    - paragraph: 试试常用名称、别名或定义里的关键词。\n    - button \"清空搜索\"\n- button \"打开TFT助手\":\n  - generic: ✧\n  - generic: TFT助手"
+  },
+  "unavailable": {
+    "method": "Paused only the agent-owned port 3004 development process; clicked refresh.",
+    "visibleError": "- main:\n  - paragraph: DEVELOPER CONSOLE\n  - heading \"开发者模式\" [level=1]\n  - paragraph: 核对数据、检索结果与回答来源。当前操作均为本地只读预览。\n  - button \"刷新本地资料\"\n  - generic: 只读模式\n  - navigation \"开发者工具\":\n    - button \"▦ 数据资产总览\"\n    - button \"▤ 来源记录与字段\"\n    - button \"⌕ 检索调试器\"\n    - button \"⌘ 回答证据链\"\n    - button \"↻ 更新与发布\"\n  - heading \"开发资料读取未完成\" [level=3]\n  - paragraph: Failed to fetch\n  - button \"重试\"\n- button \"打开TFT助手\":\n  - generic: ✧\n  - generic: TFT助手",
+    "restarted": true,
+    "retryRecovered": true
+  },
+  "explorer": {
+    "entry": "Empty filter page",
+    "aliasSelections": [
+      {
+        "query": "九尾妖狐",
+        "selected": "阿狸",
+        "id": "DA_18_Ahri"
+      },
+      {
+        "query": "北地之怒",
+        "selected": "瑟庄妮"
+      }
+    ],
+    "conditionSequence": [
+      "阿狸",
+      "阿狸 + 无尽之刃（阿狸携带）",
+      "阿狸 + 无尽之刃（阿狸携带） + 瑟庄妮",
+      "阿狸 + 无尽之刃（阿狸携带）",
+      "阿狸"
+    ],
+    "minSample": 100,
+    "oneChampionEquipmentGroups": 54,
+    "visibleEquipmentGroups": 30,
+    "equipmentAtTwoConditions": 0,
+    "equipmentReason": "有对应三件套，但没有记录达到当前样本门槛并提供排序指标。",
+    "threeConditionsAllColumnsEmpty": true,
+    "emptyState": "- main:\n  - region \"多条件筛选器\":\n    - text: TFT / EXPLORER\n    - heading \"筛选器\" [level=1]\n    - generic: 添加条件，查看同一组条件下的搭配\n    - generic \"阿狸\"\n    - strong: 阿狸\n    - button \"移除阿狸条件\": ×\n    - generic \"无尽之刃\"\n    - strong: 无尽之刃\n    - combobox \"无尽之刃佩戴者\":\n      - option \"任意英雄携带\"\n      - option \"阿狸携带\" [selected]\n      - option \"瑟庄妮携带\"\n    - button \"移除无尽之刃条件\": ×\n    - generic \"瑟庄妮\"\n    - strong: 瑟庄妮\n    - button \"移除瑟庄妮条件\": ×\n    - generic: ⌕\n    - combobox \"添加筛选条件\" [active]\n    - button \"清空\"\n    - status: 3 个条件 · 0 套匹配阵容\n    - text: 查看出装\n    - combobox \"查看谁的出装\":\n      - option \"阿狸\" [selected]\n      - option \"瑟庄妮\"\n    - text: 最低样本\n    - combobox \"检索样本门槛\":\n      - option \"不限\"\n      - option \"50\"\n      - option \"100\" [selected]\n      - option \"500\"\n      - option \"1000\"\n    - text: 排序\n    - combobox \"检索结果排序\":\n      - option \"平均名次\" [selected]\n      - option \"前四率\"\n      - option \"登顶率\"\n      - option \"样本数\"\n    - region \"装备结果\":\n      - heading \"装备\" [level=2]\n      - generic: \"0\"\n      - paragraph: 匹配阵容中的出装\n      - generic: 当前条件没有这类已收录记录。\n    - region \"队友结果\":\n      - heading \"队友\" [level=2]\n      - generic: \"0\"\n      - paragraph: 匹配阵容中的队友\n      - generic: 当前条件没有这类已收录记录。\n    - region \"推荐阵容结果\":\n      - heading \"推荐阵容\" [level=2]\n      - generic: \"0\"\n      - paragraph: 同时满足全部条件\n      - generic: 当前条件没有这类已收录记录。\n    - generic \"数据范围 · 已收录 10 套来源阵容\"\n    - text: \"null\"\n- button \"打开TFT助手\":\n  - generic: ✧\n  - generic: TFT助手",
+    "restoredOnReload": true,
+    "source": "Local archived OP.GG builds / source compositions, not MySQL Riot joint-participant statistics",
+    "literalNullRemoved": true
+  },
+  "finalConsoleWarningsAndErrors": [],
+  "screenshots": {
+    "captured": false,
+    "reason": "Tab.screenshot and getScreenshot both returned Unable to capture screenshot; DOM interaction evidence retained."
+  },
+  "databasePublished": false,
+  "vectorIndexRebuilt": false
+}

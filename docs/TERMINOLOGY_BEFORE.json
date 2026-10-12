@@ -1,0 +1,368 @@
+{
+  "checkedAt": "2026-10-09T16:52:47.525Z",
+  "storage": {
+    "backend": "mysql",
+    "mysql": {
+      "status": "ready"
+    },
+    "redis": {
+      "status": "ready"
+    },
+    "milvus": {
+      "status": "not_configured"
+    },
+    "embedding": {
+      "status": "configured"
+    },
+    "activeRelease": {
+      "id": "fe92ca09d6d297928310d365e6f751a122aa983968b614d5861559016105c724",
+      "season": 18,
+      "currentPatch": "18.4",
+      "seedPatch": "18.4",
+      "counts": {
+        "chunks": 749,
+        "tables": 81,
+        "entities": 844,
+        "documents": 641,
+        "snapshots": 209,
+        "tableRows": 846,
+        "opggSnapshots": 204,
+        "eligibleChunks": 678,
+        "libraryDocuments": 44,
+        "eligibleDocuments": 596,
+        "sourceCapabilities": 4,
+        "statisticsSnapshots": 204,
+        "quarantinedStatisticsSnapshots": 202,
+        "patchVerifiedStatisticsSnapshots": 2
+      }
+    },
+    "knowledgeCounts": {
+      "documents": 641,
+      "eligibleDocuments": 596,
+      "chunks": 749,
+      "eligibleChunks": 678
+    },
+    "statistics": {
+      "total": 204,
+      "sourceDeclared": 2,
+      "assignedCurrent": 201,
+      "unavailable": 1
+    }
+  },
+  "riot": {
+    "status": "ready",
+    "currentPatch": "18.4",
+    "season": 18,
+    "matches": {
+      "total": 87,
+      "readyCurrent": 36,
+      "quarantined": 51,
+      "otherPatch": 0
+    },
+    "participantsCurrent": 288,
+    "latestFetchedAt": "2026-10-09T16:15:53.275Z",
+    "unknownItems": [
+      {
+        "id": "DA_BlastPotion18",
+        "count": 4
+      },
+      {
+        "id": "DA_HealthPotion18_Radiant",
+        "count": 1
+      }
+    ],
+    "recentChanges": [
+      {
+        "id": 102,
+        "kind": "riot_match_imported",
+        "createdAt": "2026-10-09T16:17:05.977Z",
+        "detail": {
+          "queue": 1100,
+          "action": "reclassified",
+          "issues": [],
+          "season": 18,
+          "status": "ready",
+          "contentHash": "6c91d0928f53b96718a0db7888980353e67f931b4a15a88b96e3d718ceceb2b8",
+          "sourcePatch": null,
+          "participants": 8,
+          "unknownItems": [],
+          "assignedPatch": "18.4"
+        }
+      },
+      {
+        "id": 101,
+        "kind": "riot_match_imported",
+        "createdAt": "2026-10-09T16:17:05.935Z",
+        "detail": {
+          "queue": 1100,
+          "action": "reclassified",
+          "issues": [],
+          "season": 18,
+          "status": "ready",
+          "contentHash": "3ae2571861655052cdd0b06994bfc5d8cef3013f6de8e2d9ada79d512c3401a3",
+          "sourcePatch": null,
+          "participants": 8,
+          "unknownItems": [],
+          "assignedPatch": "18.4"
+        }
+      },
+      {
+        "id": 100,
+        "kind": "riot_match_imported",
+        "createdAt": "2026-10-09T16:17:05.878Z",
+        "detail": {
+          "queue": 1100,
+          "action": "reclassified",
+          "issues": [],
+          "season": 18,
+          "status": "ready",
+          "contentHash": "ef20439b7546992cbc31f4fc6adbfe5d6bef9e91b9138f235a03ee28a950ed44",
+          "sourcePatch": null,
+          "participants": 8,
+          "unknownItems": [],
+          "assignedPatch": "18.4"
+        }
+      },
+      {
+        "id": 99,
+        "kind": "riot_match_imported",
+        "createdAt": "2026-10-09T16:17:05.839Z",
+        "detail": {
+          "queue": 1100,
+          "action": "reclassified",
+          "issues": [],
+          "season": 18,
+          "status": "ready",
+          "contentHash": "669be4bef759246a9be3a509d2d2c707bf717b56beca197f7ef3bb567e0185d5",
+          "sourcePatch": null,
+          "participants": 8,
+          "unknownItems": [],
+          "assignedPatch": "18.4"
+        }
+      },
+      {
+        "id": 98,
+        "kind": "riot_match_imported",
+        "createdAt": "2026-10-09T16:17:05.764Z",
+        "detail": {
+          "queue": 1090,
+          "action": "reclassified",
+          "issues": [
+            "unsupported_queue"
+          ],
+          "season": 18,
+          "status": "quarantined",
+          "contentHash": "7fd735dd2589fa2562c7829aa64bd5bbfc2ff469e43dcf8f08ccba9e47c9af41",
+          "sourcePatch": null,
+          "participants": 8,
+          "unknownItems": [],
+          "assignedPatch": "18.4"
+        }
+      },
+      {
+        "id": 97,
+        "kind": "riot_match_imported",
+        "createdAt": "2026-10-09T16:17:05.727Z",
+        "detail": {
+          "queue": 1090,
+          "action": "reclassified",
+          "issues": [
+            "unsupported_queue"
+          ],
+          "season": 18,
+          "status": "quarantined",
+          "contentHash": "c9f1510aa816588fadddc9b3b0a79e5a8321fd34fb21dfd19e6cbdab535c767c",
+          "sourcePatch": null,
+          "participants": 8,
+          "unknownItems": [],
+          "assignedPatch": "18.4"
+        }
+      },
+      {
+        "id": 96,
+        "kind": "riot_match_imported",
+        "createdAt": "2026-10-09T16:17:05.660Z",
+        "detail": {
+          "queue": 1090,
+          "action": "reclassified",
+          "issues": [
+            "unsupported_queue"
+          ],
+          "season": 18,
+          "status": "quarantined",
+          "contentHash": "3479db2d53786bc9d8b03869535c48ea822718515558f39087f0c63d73bcd4ae",
+          "sourcePatch": null,
+          "participants": 8,
+          "unknownItems": [],
+          "assignedPatch": "18.4"
+        }
+      },
+      {
+        "id": 95,
+        "kind": "riot_match_imported",
+        "createdAt": "2026-10-09T16:17:05.538Z",
+        "detail": {
+          "queue": 1100,
+          "action": "reclassified",
+          "issues": [],
+          "season": 18,
+          "status": "ready",
+          "contentHash": "1b10be778f788a02eacfc4e98fc430673d69866c62116418d75504f00fceec98",
+          "sourcePatch": null,
+          "participants": 8,
+          "unknownItems": [
+            {
+              "id": "DA_BlastPotion18",
+              "count": 1
+            }
+          ],
+          "assignedPatch": "18.4"
+        }
+      },
+      {
+        "id": 94,
+        "kind": "riot_match_imported",
+        "createdAt": "2026-10-09T16:17:05.495Z",
+        "detail": {
+          "queue": 1220,
+          "action": "reclassified",
+          "issues": [
+            "unsupported_queue",
+            "incomplete_ranked_placements",
+            "empty_final_board"
+          ],
+          "season": 18,
+          "status": "quarantined",
+          "contentHash": "99bd0bfd223c3bb57c1a940e9adfc8d1100d778b8e6e3587f862e924c8a4e982",
+          "sourcePatch": null,
+          "participants": 1,
+          "unknownItems": [],
+          "assignedPatch": "18.4"
+        }
+      },
+      {
+        "id": 93,
+        "kind": "riot_match_imported",
+        "createdAt": "2026-10-09T16:17:05.490Z",
+        "detail": {
+          "queue": 1100,
+          "action": "reclassified",
+          "issues": [],
+          "season": 18,
+          "status": "ready",
+          "contentHash": "d41132df547076357884b48ba62174046d7c19d060e09d93be9e028fb0b9985e",
+          "sourcePatch": null,
+          "participants": 8,
+          "unknownItems": [
+            {
+              "id": "DA_HealthPotion18_Radiant",
+              "count": 1
+            }
+          ],
+          "assignedPatch": "18.4"
+        }
+      },
+      {
+        "id": 92,
+        "kind": "riot_match_imported",
+        "createdAt": "2026-10-09T16:17:05.451Z",
+        "detail": {
+          "queue": 1100,
+          "action": "reclassified",
+          "issues": [],
+          "season": 18,
+          "status": "ready",
+          "contentHash": "22844248fa737c3927018b199aef62b0677abc056a96cda1ecbc9b6af2c13f2b",
+          "sourcePatch": null,
+          "participants": 8,
+          "unknownItems": [],
+          "assignedPatch": "18.4"
+        }
+      },
+      {
+        "id": 91,
+        "kind": "riot_match_imported",
+        "createdAt": "2026-10-09T16:17:05.277Z",
+        "detail": {
+          "queue": 1090,
+          "action": "reclassified",
+          "issues": [
+            "unsupported_queue",
+            "outside_verified_time_window"
+          ],
+          "season": 18,
+          "status": "quarantined",
+          "contentHash": "f56d28074e3c2403fbd05d4875d1369007c90bdc68030402896779882bf3e616",
+          "sourcePatch": null,
+          "participants": 8,
+          "unknownItems": [],
+          "assignedPatch": null
+        }
+      }
+    ],
+    "lastJob": {
+      "status": "completed",
+      "updatedAt": "2026-10-09T16:15:53.310Z",
+      "pendingCount": 4
+    },
+    "worker": {
+      "status": "completed",
+      "lastAttemptAt": "2026-10-09T16:15:53.315Z",
+      "nextRunAt": "2026-10-10T16:15:53.315Z",
+      "errorCode": null
+    },
+    "patchAttribution": "比赛时间推定主补丁；热修未知",
+    "population": "韩服王者种子玩家的近期排位对局；对手比赛时段位未知",
+    "sampleUnit": "同一玩家的终局阵容，不是逐回合棋盘",
+    "source": "Riot Games API",
+    "delivery": "mysql"
+  },
+  "comps": {
+    "status": "ready",
+    "count": 10,
+    "evidence": {
+      "set": 18,
+      "tool": "tft_list_meta_decks",
+      "source": "OP.GG MCP",
+      "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+      "delivery": "mysql",
+      "endpoint": "https://mcp-api.op.gg/mcp",
+      "fetchedAt": "2026-10-07T13:36:26.808Z",
+      "gamePatch": null,
+      "population": null,
+      "recordHash": "009c237530933336edad9fc1d2c33eab25e118562267bc2eeba5e9cfb9a7653a",
+      "sourceTime": "2026-10-07T12:59:23.000Z",
+      "sourcePatch": null,
+      "assetVersion": "16.20",
+      "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+      "statisticalWindow": null,
+      "unsupportedDimensions": [
+        "gamePatch",
+        "region",
+        "rank",
+        "star"
+      ],
+      "assignedPatch": "18.4",
+      "effectivePatch": "18.4",
+      "patchAssignment": {
+        "method": "manual_calendar",
+        "label": "按采集时间推定",
+        "note": "用户已允许缺少来源补丁的统计按采集日期归档。此资料包于2026-10-07采集，Riot日历列18.4于10月7日PT上线，10月9日核查OP.GG默认页为18.4，因此人工推定为主补丁18.4。换版日各区生效时刻和API统计窗口未知；不保证全部样本仅含18.4，不声称已核实18.4B。保留原始sourcePatch=null、采集时间和指标。",
+        "checkedAt": "2026-10-09T15:04:56.000Z",
+        "evidenceUrls": [
+          "https://support.riotgames.com/en-us/tft/events/patch-schedule-teamfight-tactics/",
+          "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/",
+          "https://op.gg/tft/meta-trends/comps",
+          "https://op.gg/zh-cn/tft/meta-trends/champion/DA_Nidalee18_AP"
+        ],
+        "transitionWindow": true,
+        "hotfix": null
+      },
+      "currentPatch": "18.4",
+      "releaseId": "fe92ca09d6d297928310d365e6f751a122aa983968b614d5861559016105c724",
+      "upstreamDecks": 10,
+      "acceptedDecks": 10,
+      "excludedDecks": 0
+    }
+  }
+}

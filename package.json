@@ -1,0 +1,45 @@
+{
+  "name": "tft-evidence-workbench",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "description": "本地 PC TFT 阵容首页、个人规划笔记、大数据与 TFT助手",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "pretest": "node scripts/prepare-test-fixtures.mjs",
+    "start": "node server/index.mjs",
+    "dev": "node --watch server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check:ai": "node scripts/check-ai.mjs",
+    "collect:metatft": "node scripts/collect-metatft.mjs --apply",
+    "sync:data": "node scripts/sync-data.mjs",
+    "sync:stats": "node scripts/sync-stats.mjs",
+    "sync:traits": "node scripts/sync-traits.mjs",
+    "sync:explorer": "node scripts/sync-explorer.mjs",
+    "sync:mechanics": "node scripts/sync-mechanics.mjs",
+    "sync:mechanics-conditions": "node scripts/sync-mechanics-conditions.mjs",
+    "sync:library": "node scripts/sync-library.mjs",
+    "sync:knowledge": "node scripts/sync-knowledge.mjs",
+    "sync:team-codes": "node scripts/sync-team-codes.mjs",
+    "probe:opgg": "node scripts/probe-opgg.mjs --all",
+    "probe:patch": "node scripts/probe-opgg-patch.mjs",
+    "probe:riot": "node scripts/probe-riot.mjs",
+    "collect:riot": "node scripts/collect-riot.mjs",
+    "worker:riot": "node scripts/riot-worker.mjs",
+    "db:assign-patch": "node scripts/assign-statistics-patch.mjs --apply",
+    "db:bootstrap": "node scripts/bootstrap-db.mjs",
+    "db:dry-run": "node scripts/bootstrap-db.mjs --dry-run",
+    "db:set-patch": "node scripts/set-current-patch.mjs",
+    "seed:export": "node scripts/export-seed.mjs",
+    "rag:index": "node scripts/index-knowledge.mjs",
+    "check:storage": "node scripts/check-storage.mjs"
+  },
+  "dependencies": {
+    "mysql2": "3.24.5",
+    "opencc-js": "1.4.2",
+    "parse5": "8.0.0",
+    "redis": "6.3.0"
+  }
+}

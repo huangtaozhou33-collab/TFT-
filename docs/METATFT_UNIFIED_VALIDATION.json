@@ -1,0 +1,383 @@
+{
+  "status": "passed",
+  "capturedAt": "2026-10-11T05:24:17.203Z",
+  "url": "http://127.0.0.1:3001",
+  "scope": "Deployed MySQL mode: MetaTFT home, overall statistics, builds, holders and existing filter",
+  "image": "sha256:3f58310a5570a7c0140e84db38012fc5e160eea5a3e026cbbb09d48d9ebb9e48",
+  "health": "healthy",
+  "backup": {
+    "directory": "tmp/metatft-unified-before",
+    "databaseDumpBytes": 106955236,
+    "databaseDumpSha256": "71fe1769d2426c6c39518d6b690e4841f194e3870e9b685509b60b5c85bb900a",
+    "imageTag": "tft-workbench:before-unified-meta-20261011",
+    "restoreRehearsed": false,
+    "destructiveChanges": false
+  },
+  "automatedTests": {
+    "full": {
+      "command": "npm test",
+      "passed": 401,
+      "failed": 0,
+      "skipped": 0,
+      "durationMs": 7951.3342,
+      "log": "tmp/metatft-unified-all-tests.log",
+      "note": "Run before final scope/chat refinements and UI refinements."
+    },
+    "subsequentRegression": {
+      "command": "node --test tests/metatft-datasets.test.mjs tests/metatft-query.test.mjs tests/chat.test.mjs",
+      "passed": 43,
+      "failed": 0,
+      "skipped": 0,
+      "durationMs": 1089.4675,
+      "log": "tmp/metatft-unified-final-tests.log"
+    },
+    "lastNetworkCopyChange": {
+      "syntax": "node --check public/app.js passed",
+      "verification": "Real browser disconnection, Chinese error, restart and retry passed; full suite not rerun for this copy-only change."
+    }
+  },
+  "httpValidation": {
+    "status": "passed",
+    "checkedAt": "2026-10-11T05:23:10.171Z",
+    "base": "http://127.0.0.1:3001",
+    "checks": [
+      {
+        "path": "/api/comps/v2",
+        "status": 200,
+        "rows": 60,
+        "source": "MetaTFT Comps",
+        "snapshotId": "af3f38c84d505666a4aedcc5061575d82048ae81fe8ee0b7329937baae3df1b7",
+        "requestedPatch": "18.4b",
+        "statisticsResponsePatch": null,
+        "fetchedAt": "2026-10-11T05:15:35.283Z"
+      },
+      {
+        "path": "/api/explorer?tab=units",
+        "status": 200,
+        "rows": 65,
+        "source": "MetaTFT Explorer",
+        "snapshotId": "f3a173c51acf6dff07993a521b2dac523b1f5c8ea46d990ef4b55ca317725cc9",
+        "requestedPatch": "18.4b",
+        "statisticsResponsePatch": null,
+        "fetchedAt": "2026-10-11T05:15:35.402Z"
+      },
+      {
+        "path": "/api/explorer?tab=equipment",
+        "status": 200,
+        "rows": 126,
+        "source": "MetaTFT Explorer",
+        "snapshotId": "f3a173c51acf6dff07993a521b2dac523b1f5c8ea46d990ef4b55ca317725cc9",
+        "requestedPatch": "18.4b",
+        "statisticsResponsePatch": null,
+        "fetchedAt": "2026-10-11T05:15:35.402Z"
+      },
+      {
+        "path": "/api/champions/DA_18_ElderDragon/build",
+        "status": 200,
+        "rows": 471,
+        "source": "MetaTFT Explorer",
+        "snapshotId": "03532e67a2c981d6c81f15451f0fd7465996dba3c4e4d96b51cb36ad787d192d",
+        "requestedPatch": "18.4b",
+        "statisticsResponsePatch": null,
+        "fetchedAt": "2026-10-11T05:15:46.736Z"
+      },
+      {
+        "path": "/api/champions/DA_18_Ahri/build",
+        "status": 200,
+        "rows": 461,
+        "source": "MetaTFT Explorer",
+        "snapshotId": "74b9a662eabbd60c422f6225c7bbaa3f2c7789dda8b525817f88820499a58bcd",
+        "requestedPatch": "18.4b",
+        "statisticsResponsePatch": null,
+        "fetchedAt": "2026-10-11T05:16:02.196Z"
+      },
+      {
+        "path": "/api/items/DA_Artifact_SilvermereDawn/holders",
+        "status": 200,
+        "rows": 65,
+        "source": "MetaTFT Explorer",
+        "snapshotId": "62ef30535ed465541dc2ccc3afb067ec32e2d62b491b54b4973aa3313077cd4e",
+        "requestedPatch": "18.4b",
+        "statisticsResponsePatch": null,
+        "fetchedAt": "2026-10-11T05:16:01.630Z"
+      },
+      {
+        "path": "/api/items/DA_SpearOfShojin/holders",
+        "status": 200,
+        "rows": 65,
+        "source": "MetaTFT Explorer",
+        "snapshotId": "2d4f8f51c632a497c24681cfec3f0186a57eaf0381f13178898cc065d62aac65",
+        "requestedPatch": "18.4b",
+        "statisticsResponsePatch": null,
+        "fetchedAt": "2026-10-11T05:16:02.712Z"
+      },
+      {
+        "path": "/api/stats/traits",
+        "status": 200,
+        "rows": 90,
+        "source": "MetaTFT Explorer",
+        "snapshotId": "f3a173c51acf6dff07993a521b2dac523b1f5c8ea46d990ef4b55ca317725cc9",
+        "requestedPatch": "18.4b",
+        "statisticsResponsePatch": null,
+        "fetchedAt": "2026-10-11T05:15:35.402Z"
+      },
+      {
+        "path": "/api/stats",
+        "status": 200,
+        "rows": null,
+        "source": "MetaTFT Explorer",
+        "snapshotId": "f3a173c51acf6dff07993a521b2dac523b1f5c8ea46d990ef4b55ca317725cc9",
+        "requestedPatch": "18.4b",
+        "statisticsResponsePatch": null,
+        "fetchedAt": "2026-10-11T05:15:35.402Z"
+      }
+    ],
+    "legacyHome": {
+      "status": 409,
+      "code": "CLIENT_UPDATE_REQUIRED"
+    },
+    "health": {
+      "status": "ok",
+      "version": "4.0.0"
+    },
+    "modelCalls": 0
+  },
+  "databaseAudit": {
+    "command": "docker compose --env-file .env.docker exec -T app node scripts/audit-metatft-datasets.mjs",
+    "status": "passed",
+    "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+    "migrations": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "datasets": 6,
+    "rows": 1403,
+    "byteVerifiedDatasets": 6,
+    "counts": {
+      "builds": {
+        "snapshots": 2,
+        "rows": 932
+      },
+      "overall": {
+        "snapshots": 1,
+        "rows": 281
+      },
+      "holders": {
+        "snapshots": 2,
+        "rows": 130
+      },
+      "comps": {
+        "snapshots": 1,
+        "rows": 60
+      }
+    },
+    "archivedSourceSnapshots": 210,
+    "knowledgeCounts": {
+      "chunks": 940,
+      "tables": 81,
+      "entities": 844,
+      "documents": 832,
+      "snapshots": 210,
+      "tableRows": 846,
+      "opggSnapshots": 204,
+      "eligibleChunks": 869,
+      "glossaryChunks": 191,
+      "libraryDocuments": 44,
+      "eligibleDocuments": 787,
+      "glossaryDocuments": 191,
+      "sourceCapabilities": 4,
+      "statisticsSnapshots": 204,
+      "quarantinedStatisticsSnapshots": 202,
+      "patchVerifiedStatisticsSnapshots": 2
+    },
+    "snapshots": [
+      {
+        "kind": "builds",
+        "entityId": "DA_18_Ahri",
+        "snapshotId": "74b9a662eabbd60c422f6225c7bbaa3f2c7789dda8b525817f88820499a58bcd",
+        "rows": 461,
+        "capturedAt": "2026-10-11T05:16:02.196Z"
+      },
+      {
+        "kind": "overall",
+        "entityId": "",
+        "snapshotId": "f3a173c51acf6dff07993a521b2dac523b1f5c8ea46d990ef4b55ca317725cc9",
+        "rows": 281,
+        "capturedAt": "2026-10-11T05:15:35.402Z"
+      },
+      {
+        "kind": "holders",
+        "entityId": "DA_SpearOfShojin",
+        "snapshotId": "2d4f8f51c632a497c24681cfec3f0186a57eaf0381f13178898cc065d62aac65",
+        "rows": 65,
+        "capturedAt": "2026-10-11T05:16:02.712Z"
+      },
+      {
+        "kind": "holders",
+        "entityId": "DA_Artifact_SilvermereDawn",
+        "snapshotId": "62ef30535ed465541dc2ccc3afb067ec32e2d62b491b54b4973aa3313077cd4e",
+        "rows": 65,
+        "capturedAt": "2026-10-11T05:16:01.630Z"
+      },
+      {
+        "kind": "comps",
+        "entityId": "",
+        "snapshotId": "af3f38c84d505666a4aedcc5061575d82048ae81fe8ee0b7329937baae3df1b7",
+        "rows": 60,
+        "capturedAt": "2026-10-11T05:15:35.283Z"
+      },
+      {
+        "kind": "builds",
+        "entityId": "DA_18_ElderDragon",
+        "snapshotId": "03532e67a2c981d6c81f15451f0fd7465996dba3c4e4d96b51cb36ad787d192d",
+        "rows": 471,
+        "capturedAt": "2026-10-11T05:15:46.736Z"
+      }
+    ]
+  },
+  "previousFilterAudit": {
+    "command": "docker compose --env-file .env.docker exec -T app node scripts/audit-metatft.mjs",
+    "status": "passed",
+    "checkedAt": "2026-10-11T05:22:26.821Z",
+    "snapshots": 34,
+    "rows": 17658,
+    "byteVerifiedSnapshots": 17,
+    "byteVerifiedRows": 7914,
+    "legacyJsonOnlySnapshots": 17,
+    "legacyJsonHashMismatches": 15,
+    "checks": [
+      "canonical_query_keys",
+      "original_response_hashes",
+      "exact_upstream_conditions",
+      "no_scope_expansion",
+      "source_and_request_patch_separation",
+      "rows_equal_source_histograms",
+      "stored_histogram_metrics",
+      "persisted_real_zero"
+    ]
+  },
+  "browser": {
+    "mode": "Actual UI clicks, searches, selection, additions/removals and reload; not prefilled URLs",
+    "directory": "docs/metatft-unified-browser",
+    "cases": [
+      {
+        "case": "Predeployment home and overall pages retained",
+        "evidence": [
+          "before-home.txt",
+          "before-stats.txt"
+        ]
+      },
+      {
+        "case": "Old overall page continues to open MetaTFT champion builds after deployment",
+        "evidence": [
+          "old-page-meta-builds.txt"
+        ]
+      },
+      {
+        "case": "Old home receives explicit refresh request; new home displays MetaTFT after reload",
+        "evidence": [
+          "old-home-update-required.txt",
+          "old-home-update-required.png"
+        ]
+      },
+      {
+        "case": "Home searches 大龙, returns 4/60, sorts by average placement, opens template detail with unknown positioning left unplaced",
+        "evidence": [
+          "home-dragon-sorted.txt",
+          "home.png",
+          "home-detail.txt"
+        ]
+      },
+      {
+        "case": "Overall units search 狐狸 selects 阿狸, changes minimum to 1000 and excludes artifacts; reload restores detail and settings",
+        "evidence": [
+          "ahri-builds-filtered.txt",
+          "reload-restored.txt"
+        ]
+      },
+      {
+        "case": "Overall items selects artifact category, searches 密银, opens holders and uses 大龙 查看搭配 to add bound filter conditions",
+        "evidence": [
+          "silvermere-holders.txt",
+          "stats-to-explorer.txt"
+        ]
+      },
+      {
+        "case": "Adds 无尽, removes it, reload restores remaining champion and bound item conditions",
+        "evidence": [
+          "three-conditions.txt",
+          "explorer-reload-restored.txt"
+        ]
+      },
+      {
+        "case": "Clears conditions, selects 死亡之蔑, receives actual upstream zero across result sections",
+        "evidence": [
+          "real-empty.txt",
+          "real-empty.png"
+        ]
+      },
+      {
+        "case": "Stops only app, refresh produces genuine network failure; fixes English message, redeploys and repeats; restart plus retry retains search and category",
+        "evidence": [
+          "network-error-before.txt",
+          "network-error.txt",
+          "network-error.png",
+          "network-recovered.txt"
+        ]
+      },
+      {
+        "case": "Source status shows active MetaTFT and old source archives; final screenshot opened for visual inspection",
+        "evidence": [
+          "sources.txt",
+          "stats-final.txt",
+          "stats-final.png"
+        ]
+      }
+    ],
+    "finalScreenshot": "docs/metatft-unified-browser/stats-final.png"
+  },
+  "publishedCoverage": {
+    "compClusters": 60,
+    "overallChampions": 65,
+    "catalogChampionsAndForms": 74,
+    "overallCompletedItems": 126,
+    "catalogCompletedItems": 127,
+    "traitTierRows": 90,
+    "traits": 35,
+    "detailChampionEntitiesCollected": 2,
+    "detailItemEntitiesCollected": 2,
+    "allDetailsDownloaded": false
+  },
+  "patch": {
+    "season": 18,
+    "requestedPatch": "18.4b",
+    "sourceMetadataCurrentPatch": "18.4b",
+    "statisticsResponsePatch": null,
+    "method": "explicit_request_and_source_metadata",
+    "rulesVersion": "18.4",
+    "assetVersion": "16.20"
+  },
+  "paidProviderCalls": 0,
+  "milvus": {
+    "modified": false,
+    "reindexed": false,
+    "lastVerifiedPublishedVectorCount": 869,
+    "reference": "docs/METATFT_DEPLOYMENT_VALIDATION.json"
+  },
+  "limitations": [
+    "Unofficial public site endpoints; long-term contract, limits and load not verified.",
+    "Comp-cluster performance is not the joint performance of exact template gear or positioning; template scope is independent.",
+    "No full positioning, star levels or per-stage transitions were invented.",
+    "Source candidate sets may be truncated; details collect on demand and coverage is not exhaustive.",
+    "Per-endpoint capture times can differ; observations cannot be added as independent games.",
+    "Known catalog mapping only; unknown IDs and missing entities were not guessed.",
+    "Valid snapshots last ten minutes; absent or expired data depends on source availability and current metadata checks.",
+    "Legacy JSON-only snapshot hash mismatches remain preserved and excluded from the active adapter.",
+    "Offline archival seed mode still identifies its original sources."
+  ]
+}

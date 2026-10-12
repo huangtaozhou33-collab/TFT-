@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+  "context": {
+    "game": "tft",
+    "set": 18,
+    "mutator": "TFTSet18",
+    "assetVersion": "16.20",
+    "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+    "gamePatch": null
+  },
+  "releaseId": "db89391f-6abf-49dc-823d-26fafe859d15",
+  "file": "db89391f-6abf-49dc-823d-26fafe859d15.json",
+  "sha256": "ed310675ed6a6456119eb81a9296c72a3505b0757f1434d7bbce962912658bd1",
+  "publishedAt": "2026-10-08T08:51:01.626Z"
+}

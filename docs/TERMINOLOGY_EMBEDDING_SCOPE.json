@@ -1,0 +1,19 @@
+{
+  "release": "bcb4d129c5dfe331dcab0ccc5b77270d4d280ccec5a5c712713c53fddadbe9ab",
+  "chunks": 718,
+  "kinds": {
+    "augment_rule": 246,
+    "glossary": 40,
+    "library": 119,
+    "wisp_offering": 313
+  },
+  "sourceHosts": [
+    "docs.google.com",
+    "www.littlebuddybot.com",
+    "teamfighttactics.leagueoflegends.com"
+  ],
+  "embeddingDestination": "https://llm-su9hxpma6wd2rb3x.cn-beijing.maas.aliyuncs.com",
+  "embeddingModel": "qwen3.7-text-embedding",
+  "suspectedCredentialChunks": 0,
+  "allSourcesPublicOrProjectEditorial": true
+}

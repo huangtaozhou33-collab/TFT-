@@ -1,0 +1,80 @@
+{
+  "backend": "mysql",
+  "mysql": {
+    "status": "ready"
+  },
+  "redis": {
+    "status": "ready"
+  },
+  "milvus": {
+    "status": "connected",
+    "indexed": true,
+    "indexedChunks": 869
+  },
+  "embedding": {
+    "status": "configured"
+  },
+  "activeRelease": {
+    "id": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+    "season": 18,
+    "currentPatch": "18.4",
+    "seedPatch": "18.4",
+    "counts": {
+      "chunks": 940,
+      "tables": 81,
+      "entities": 844,
+      "documents": 832,
+      "snapshots": 210,
+      "tableRows": 846,
+      "opggSnapshots": 204,
+      "eligibleChunks": 869,
+      "glossaryChunks": 191,
+      "libraryDocuments": 44,
+      "eligibleDocuments": 787,
+      "glossaryDocuments": 191,
+      "sourceCapabilities": 4,
+      "statisticsSnapshots": 204,
+      "quarantinedStatisticsSnapshots": 202,
+      "patchVerifiedStatisticsSnapshots": 2
+    }
+  },
+  "knowledgeCounts": {
+    "documents": 832,
+    "eligibleDocuments": 787,
+    "chunks": 940,
+    "eligibleChunks": 869
+  },
+  "statistics": {
+    "scope": "published_source_snapshots",
+    "includesMetaTft": false,
+    "total": 204,
+    "sourceDeclared": 2,
+    "assignedCurrent": 201,
+    "unavailable": 1
+  },
+  "metatft": {
+    "status": "ready",
+    "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+    "scope": "active_release_all_retained_snapshots",
+    "countedAt": "2026-10-11T06:12:36.078Z",
+    "datasets": {
+      "snapshots": 2584,
+      "unexpiredSnapshots": 2567,
+      "distinctKeys": 2567,
+      "rows": 390604
+    },
+    "queries": {
+      "snapshots": 46,
+      "unexpiredSnapshots": 1,
+      "distinctKeys": 43,
+      "rows": 23457
+    },
+    "sourcePatch": null,
+    "snapshotPolicy": {
+      "datasetsTtlHours": 6,
+      "queriesTtlMinutes": 10,
+      "automaticDeletion": false
+    },
+    "note": "快照数包含当前发布保留的历史采集；未过期不等于当前补丁或完整覆盖。记录数不是比赛数或样本数，目录覆盖须另按补丁、段位与适配器版本核验。"
+  }
+}

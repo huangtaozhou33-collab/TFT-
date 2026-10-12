@@ -1,0 +1,93 @@
+{
+  "modelCalls": 0,
+  "checks": [
+    {
+      "question": 1,
+      "view": "holders",
+      "httpStatus": 200,
+      "rowsChecked": 3,
+      "pass": true,
+      "failures": []
+    },
+    {
+      "question": 2,
+      "view": "holders",
+      "httpStatus": 200,
+      "rowsChecked": 3,
+      "pass": true,
+      "failures": []
+    },
+    {
+      "question": 3,
+      "view": "filter",
+      "httpStatus": 200,
+      "rowsChecked": 0,
+      "pass": true,
+      "failures": []
+    },
+    {
+      "question": 4,
+      "view": "filter",
+      "httpStatus": 200,
+      "rowsChecked": 0,
+      "pass": true,
+      "failures": []
+    },
+    {
+      "question": 5,
+      "view": "filter",
+      "httpStatus": 200,
+      "rowsChecked": 7,
+      "pass": true,
+      "failures": []
+    },
+    {
+      "question": 6,
+      "view": "filter",
+      "httpStatus": 200,
+      "rowsChecked": 6,
+      "pass": true,
+      "failures": []
+    },
+    {
+      "question": 7,
+      "view": "champions",
+      "httpStatus": 200,
+      "rowsChecked": 1,
+      "pass": true,
+      "failures": []
+    },
+    {
+      "question": 8,
+      "view": "filter",
+      "httpStatus": 200,
+      "rowsChecked": 9,
+      "pass": true,
+      "failures": []
+    },
+    {
+      "question": 9,
+      "view": "filter",
+      "httpStatus": 200,
+      "rowsChecked": 5,
+      "pass": true,
+      "failures": []
+    },
+    {
+      "question": 10,
+      "view": "filter",
+      "httpStatus": 200,
+      "rowsChecked": 3,
+      "pass": true,
+      "failures": []
+    },
+    {
+      "question": 11,
+      "view": "builds",
+      "httpStatus": 200,
+      "rowsChecked": 2,
+      "pass": true,
+      "failures": []
+    }
+  ]
+}

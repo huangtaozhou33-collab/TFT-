@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-10-09T14:57:02.412Z",
+  "query": "我升到八人口以后，商店每个格子出现四费棋子的机会是多少？",
+  "answer": "8级商店每个格子的费用分布为：1费15%、2费20%、3费32%、4费30%、5费3%。[S3]\n\n这描述的是单个商店格子的费用概率，不是某个指定4费英雄的出现概率；指定英雄还受共享卡池剩余数量影响。[S3]",
+  "evidence": [
+    {
+      "id": "S1",
+      "title": "CommunityDragon 当前赛季静态资料",
+      "url": "https://raw.communitydragon.org/16.20/cdragon/tft/zh_cn.json",
+      "fetchedAt": "2026-10-07T13:39:03.456Z",
+      "assetVersion": "16.20",
+      "sourcePatch": null,
+      "type": "static"
+    },
+    {
+      "id": "S2",
+      "title": "全4费商店 · 法杖出现条件",
+      "url": "https://www.littlebuddybot.com/tft-wisps",
+      "fetchedAt": "2026-10-07T16:25:45.277Z",
+      "type": "knowledge",
+      "entityId": "wisp-offering:DA_18_AllFours",
+      "chunkId": "chunk:001305756a039bda162b3a7d54893e9d72532ab088cdd52df252a52df032aa86",
+      "documentId": "wisp-offering:DA_18_AllFours",
+      "sourcePatch": "18.4",
+      "set": 18,
+      "sourceTime": null,
+      "releaseId": "fe92ca09d6d297928310d365e6f751a122aa983968b614d5861559016105c724"
+    },
+    {
+      "id": "S3",
+      "title": "商店概率、卡池与升级经验 · 商店费用分布",
+      "url": "https://www.littlebuddybot.com/tft-shop-odds",
+      "fetchedAt": "2026-10-08T07:58:43.779Z",
+      "type": "knowledge",
+      "entityId": "library:shop-odds",
+      "chunkId": "chunk:275326a166bd4ea77ef4d3670b36104246fc06ed37d2c51ef8f31d0af3d39b44",
+      "documentId": "library:shop-odds",
+      "sourcePatch": "18.4",
+      "set": 18,
+      "sourceTime": null,
+      "releaseId": "fe92ca09d6d297928310d365e6f751a122aa983968b614d5861559016105c724"
+    },
+    {
+      "id": "S4",
+      "title": "商店概率、卡池与升级经验 · 卡池容量",
+      "url": "https://www.littlebuddybot.com/tft-shop-odds",
+      "fetchedAt": "2026-10-08T07:58:43.779Z",
+      "type": "knowledge",
+      "entityId": "library:shop-odds",
+      "chunkId": "chunk:88775d11627ec78f4e161e6426e47bc05f85e3d33dafb8ccd056c91e5ea5dc26",
+      "documentId": "library:shop-odds",
+      "sourcePatch": "18.4",
+      "set": 18,
+      "sourceTime": null,
+      "releaseId": "fe92ca09d6d297928310d365e6f751a122aa983968b614d5861559016105c724"
+    },
+    {
+      "id": "S5",
+      "title": "商店概率、卡池与升级经验 · 升至下一等级所需经验",
+      "url": "https://www.littlebuddybot.com/tft-shop-odds",
+      "fetchedAt": "2026-10-08T07:58:43.779Z",
+      "type": "knowledge",
+      "entityId": "library:shop-odds",
+      "chunkId": "chunk:000eda1942f02ba83db0aec153bcbe10f4203059d3131b126745e0e7d62bfafb",
+      "documentId": "library:shop-odds",
+      "sourcePatch": "18.4",
+      "set": 18,
+      "sourceTime": null,
+      "releaseId": "fe92ca09d6d297928310d365e6f751a122aa983968b614d5861559016105c724"
+    },
+    {
+      "id": "S6",
+      "title": "全4费商店 · 法杖出现条件",
+      "url": "https://www.littlebuddybot.com/tft-wisps",
+      "fetchedAt": "2026-10-07T16:25:45.277Z",
+      "type": "knowledge",
+      "entityId": "wisp-offering:DA_18_AllFours_Upgrade",
+      "chunkId": "chunk:905dcee5530ad03859def94f7e44c6c0540022d9a6b40775d78ee60696a3d1e2",
+      "documentId": "wisp-offering:DA_18_AllFours_Upgrade",
+      "sourcePatch": "18.4",
+      "set": 18,
+      "sourceTime": null,
+      "releaseId": "fe92ca09d6d297928310d365e6f751a122aa983968b614d5861559016105c724"
+    }
+  ],
+  "suggestedActions": [],
+  "traceId": "trace_02288615-032c-4dc7-96a7-f9ef70dfc00c"
+}

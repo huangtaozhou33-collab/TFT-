@@ -1,0 +1,4060 @@
+{
+  "createdAt": "2026-10-11T05:47:39.475Z",
+  "application": "http://127.0.0.1:3001",
+  "image": "sha256:50ea2b4d305473b204e10bb87670d138188c81e299affd67e60d90fbcabf71d8",
+  "automaticTests": {
+    "total": 417,
+    "passed": 417,
+    "failed": 0,
+    "skipped": 0,
+    "durationMs": 8017.8062,
+    "providerCalls": 0,
+    "log": "../tmp/agent-query-all-tests.log"
+  },
+  "liveAcceptance": {
+    "savedBrowserRequestTraces": 18,
+    "recordedModelSubmissions": 42,
+    "missingBaselineTrace": "Initial old implementation question has DOM evidence only; restarting cleared its process-memory trace. Its provider submission count is not reconstructed.",
+    "failureEvidence": [
+      "agent-query-browser/before-overall.txt",
+      "agent-query-browser/before-query-guard.txt",
+      "agent-query-browser/before-carrier-default.txt",
+      "agent-query-browser/connection-error.txt"
+    ],
+    "browserEvidenceDirectory": "agent-query-browser/",
+    "networkFailure": "One actual request with app stopped; no model execution possible. App restarted and same browser query succeeded.",
+    "queryServiceAudit": {
+      "checkedQueries": 17,
+      "checkedRows": 71,
+      "source": "MetaTFT",
+      "delivery": "mysql",
+      "thresholdAndSortVerified": true
+    },
+    "finalPageParity": {
+      "query": {
+        "conditions": [
+          {
+            "type": "champion",
+            "id": "DA_Nidalee18_AP"
+          },
+          {
+            "type": "item",
+            "id": "DA_SpearOfShojin",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "type": "champion",
+            "id": "DA_Amumu18"
+          }
+        ],
+        "minSample": 1000,
+        "sort": "avgPlacement",
+        "carrierId": "DA_Nidalee18_AP",
+        "dataSource": "metatft"
+      },
+      "snapshotId": "ac8d0b53594fd26d594f8e5a3755df4cec0aa0f7b5b913894076ac7adf004541",
+      "stats": {
+        "winRate": 0.09043942050857703,
+        "top4Rate": 0.6011859080170984,
+        "sampleSize": 233239,
+        "avgPlacement": 4.087828364896094
+      },
+      "equipmentRowsCompared": 2,
+      "result": "passed"
+    },
+    "traces": [
+      {
+        "id": "trace_d71080ba-2c79-4872-ba55-a65fc1b8ff0c",
+        "question": "重新查询大龙的整体平均名次、前四率和样本数，不要出装排行。",
+        "createdAt": "2026-10-11T05:31:22.856Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 2,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "champions",
+              "search": "远古巨龙",
+              "minSample": 0,
+              "limit": 1
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "champions",
+              "search": "远古巨龙",
+              "minSample": 0,
+              "limit": 1,
+              "sort": "avgPlacement"
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "18187700dc590518ec8614d20deee1e1d68460d49aae3232d753ed9df0973919",
+              "recordHash": "d6fc62dcc74d0f43e0a85c7cd0dd19f8fc1b1dda6d63ffb45a12212d1f0da081",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "queue": "Ranked",
+              "rank": "铂金及以上",
+              "population": {
+                "queue": "Ranked",
+                "rank": "铂金及以上",
+                "region": null
+              },
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+              "fetchedAt": "2026-10-11T05:26:07.118Z",
+              "expiresAt": "2026-10-11T05:36:07.118Z",
+              "statisticsKind": "first_occurrence_per_board",
+              "sourceReturnedRows": {
+                "items": 530,
+                "units": 439,
+                "traits": 92
+              },
+              "exhaustive": false,
+              "sourceTotalEntries": 7028424,
+              "sourceId": "units"
+            },
+            "data": [
+              {
+                "id": "unit:DA_18_ElderDragon",
+                "championId": "DA_18_ElderDragon",
+                "name": "远古巨龙",
+                "stats": {
+                  "sampleSize": 904591,
+                  "avgPlacement": 3.900152665679849,
+                  "top4Rate": 0.5974810715560955,
+                  "winRate": 0.21728162230223383,
+                  "pickRate": 0.1287046712036724,
+                  "avgLevel": null
+                },
+                "items": [],
+                "champions": [
+                  {
+                    "id": "DA_18_ElderDragon",
+                    "name": "远古巨龙"
+                  }
+                ],
+                "citation": "[S1]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trace_cbae9b90-2bd7-4db6-9fbe-b4ef9f1e7fe9",
+        "question": "按平均名次推荐3套阵容，样本至少1000，给出队员和样本数。",
+        "createdAt": "2026-10-11T05:32:05.678Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 2,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "comps",
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "comps",
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Comps",
+              "url": "https://www.metatft.com/comps",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "3c9b0b8fca6ad1e91f9d18bd3e2cd1a029228a57450262b7b4ae1801d0fcfb43",
+              "recordHash": "04467b481e7684e97dfb614b2e8b3b96717ba4a5c3d914048fdc3137592a973b",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "queue": "Ranked",
+              "rank": "铂金及以上",
+              "population": {
+                "queue": "Ranked",
+                "rank": "铂金及以上",
+                "region": null
+              },
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+              "fetchedAt": "2026-10-11T05:26:08.077Z",
+              "expiresAt": "2026-10-11T05:36:08.077Z",
+              "sourceTime": "2026-10-11T05:26:06.490Z",
+              "statisticsKind": "comp_cluster",
+              "sourceReturnedRows": 61,
+              "exhaustive": false,
+              "populationDenominator": 6683123
+            },
+            "data": [
+              {
+                "id": "metatft:cluster:426000",
+                "name": "护卫 · 雷恩加尔",
+                "stats": {
+                  "winRate": 0.1411570853167338,
+                  "pickRate": 0.00408641289409158,
+                  "top4Rate": 0.5771512266569022,
+                  "sampleSize": 27310,
+                  "avgPlacement": 4.106810692054193
+                },
+                "units": [
+                  {
+                    "id": "DA_18_Cassiopeia",
+                    "name": "卡西奥佩娅",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_ArchangelsStaff",
+                        "name": "大天使之杖"
+                      },
+                      {
+                        "id": "DA_HextechGunblade",
+                        "name": "海克斯科技枪刃"
+                      },
+                      {
+                        "id": "DA_SpearOfShojin",
+                        "name": "朔极之矛"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_18_Lillia",
+                    "name": "莉莉娅",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Ornn",
+                    "name": "奥恩",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Rammus",
+                    "name": "拉莫斯",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_BrambleVest",
+                        "name": "棘刺背心"
+                      },
+                      {
+                        "id": "DA_SpiritVisage",
+                        "name": "振奋盔甲"
+                      },
+                      {
+                        "id": "DA_WarmogsArmor",
+                        "name": "狂徒铠甲"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_18_Rengar",
+                    "name": "雷恩加尔",
+                    "isCore": true,
+                    "items": [
+                      {
+                        "id": "DA_18_EmblemDefender",
+                        "name": "护卫纹章"
+                      },
+                      {
+                        "id": "DA_GuinsoosRageblade",
+                        "name": "鬼索的狂暴之刃"
+                      },
+                      {
+                        "id": "DA_TitansResolve",
+                        "name": "泰坦的坚决"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_18_Shen",
+                    "name": "慎",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Fiddlesticks18",
+                    "name": "费德提克",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_AdaptiveHelm",
+                        "name": "适应性头盔"
+                      },
+                      {
+                        "id": "DA_Crownguard",
+                        "name": "冕卫"
+                      },
+                      {
+                        "id": "DA_TitansResolve",
+                        "name": "泰坦的坚决"
+                      }
+                    ]
+                  }
+                ],
+                "citation": "[S1]"
+              },
+              {
+                "id": "metatft:cluster:426003",
+                "name": "绝命花妖 · 阿兹尔",
+                "stats": {
+                  "winRate": 0.15371391905610143,
+                  "pickRate": 0.06249653043943677,
+                  "top4Rate": 0.5682186021567163,
+                  "sampleSize": 417672,
+                  "avgPlacement": 4.126589764216898
+                },
+                "units": [
+                  {
+                    "id": "DA_18_Azir",
+                    "name": "阿兹尔",
+                    "isCore": true,
+                    "items": [
+                      {
+                        "id": "DA_GuinsoosRageblade",
+                        "name": "鬼索的狂暴之刃"
+                      },
+                      {
+                        "id": "DA_HextechGunblade",
+                        "name": "海克斯科技枪刃"
+                      },
+                      {
+                        "id": "DA_RabadonsDeathcap",
+                        "name": "灭世者的死亡之帽"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_18_Rammus",
+                    "name": "拉莫斯",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_Crownguard",
+                        "name": "冕卫"
+                      },
+                      {
+                        "id": "DA_GargoyleStoneplate",
+                        "name": "石像鬼石板甲"
+                      },
+                      {
+                        "id": "DA_GargoyleStoneplate",
+                        "name": "石像鬼石板甲"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_18_Soraka",
+                    "name": "索拉卡",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Teemo",
+                    "name": "提莫",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Veigar",
+                    "name": "维迦",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Zyra",
+                    "name": "婕拉",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_Morellonomicon",
+                        "name": "莫雷洛秘典"
+                      },
+                      {
+                        "id": "DA_SpearOfShojin",
+                        "name": "朔极之矛"
+                      },
+                      {
+                        "id": "DA_VoidStaff",
+                        "name": "虚空之杖"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_Fiddlesticks18",
+                    "name": "费德提克",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_GargoyleStoneplate",
+                        "name": "石像鬼石板甲"
+                      },
+                      {
+                        "id": "DA_IonicSpark",
+                        "name": "离子火花"
+                      },
+                      {
+                        "id": "DA_SunfireCape",
+                        "name": "日炎斗篷"
+                      }
+                    ]
+                  }
+                ],
+                "citation": "[S1]"
+              },
+              {
+                "id": "metatft:cluster:426007",
+                "name": "峡谷野怪 · 苍蓝哨戒",
+                "stats": {
+                  "winRate": 0.14304968798672543,
+                  "pickRate": 0.0734933353762904,
+                  "top4Rate": 0.5673470218765588,
+                  "sampleSize": 491165,
+                  "avgPlacement": 4.152050736514206
+                },
+                "units": [
+                  {
+                    "id": "DA_18_ElderDragon",
+                    "name": "远古巨龙",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_InfinityEdge",
+                        "name": "无尽之刃"
+                      },
+                      {
+                        "id": "DA_LastWhisper",
+                        "name": "最后的轻语"
+                      },
+                      {
+                        "id": "DA_StrikersFlail",
+                        "name": "强袭者的链枷"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_18_GnarSmall",
+                    "name": "纳尔",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Sentry",
+                    "name": "苍蓝哨戒",
+                    "isCore": true,
+                    "items": [
+                      {
+                        "id": "DA_BlueBuff",
+                        "name": "蓝霸符"
+                      },
+                      {
+                        "id": "DA_JeweledGauntlet",
+                        "name": "珠光护手"
+                      },
+                      {
+                        "id": "DA_RabadonsDeathcap",
+                        "name": "灭世者的死亡之帽"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_Brambleback18",
+                    "name": "绯红印记树怪",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Krug18",
+                    "name": "远古石甲虫",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_GargoyleStoneplate",
+                        "name": "石像鬼石板甲"
+                      },
+                      {
+                        "id": "DA_SpiritVisage",
+                        "name": "振奋盔甲"
+                      },
+                      {
+                        "id": "DA_WarmogsArmor",
+                        "name": "狂徒铠甲"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_Murkwolf18",
+                    "name": "暗影狼",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Sentinel18",
+                    "name": "苍蓝雕纹魔像",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Taric18",
+                    "name": "塔里克",
+                    "isCore": false,
+                    "items": []
+                  }
+                ],
+                "citation": "[S1]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trace_bf78e7db-2f60-4548-9b5d-e10a94f3ffda",
+        "question": "查询密银黎明的整体平均名次、前四率和样本数。",
+        "createdAt": "2026-10-11T05:32:22.375Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 2,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "items",
+              "search": "密银黎明",
+              "minSample": 0
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "items",
+              "search": "密银黎明",
+              "minSample": 0,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "18187700dc590518ec8614d20deee1e1d68460d49aae3232d753ed9df0973919",
+              "recordHash": "d6fc62dcc74d0f43e0a85c7cd0dd19f8fc1b1dda6d63ffb45a12212d1f0da081",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "queue": "Ranked",
+              "rank": "铂金及以上",
+              "population": {
+                "queue": "Ranked",
+                "rank": "铂金及以上",
+                "region": null
+              },
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+              "fetchedAt": "2026-10-11T05:26:07.118Z",
+              "expiresAt": "2026-10-11T05:36:07.118Z",
+              "statisticsKind": "first_occurrence_per_board",
+              "sourceReturnedRows": {
+                "items": 530,
+                "units": 439,
+                "traits": 92
+              },
+              "exhaustive": false,
+              "sourceTotalEntries": 7028424,
+              "sourceId": "items"
+            },
+            "data": [
+              {
+                "id": "equipment:DA_Artifact_SilvermereDawn",
+                "itemId": "DA_Artifact_SilvermereDawn",
+                "name": "密银黎明",
+                "stats": {
+                  "sampleSize": 47854,
+                  "avgPlacement": 4.117921176913111,
+                  "top4Rate": 0.5780290048898734,
+                  "winRate": 0.1464454382078823,
+                  "pickRate": 0.006808638750308746,
+                  "avgLevel": null
+                },
+                "items": [
+                  {
+                    "id": "DA_Artifact_SilvermereDawn",
+                    "name": "密银黎明"
+                  }
+                ],
+                "champions": [],
+                "citation": "[S1]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trace_4ab52140-d1af-4344-b8c6-b4c88e2ccceb",
+        "question": "那它给谁带最好？按均次列前3名，样本至少1000。",
+        "createdAt": "2026-10-11T05:32:38.965Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_after_rejected_id_and_model_retry",
+        "modelSubmissions": 4,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "holders",
+              "itemId": "密银黎明",
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "status": "invalid",
+            "reason": "请选择当前目录的成装 ID。"
+          },
+          {
+            "name": "search_catalog",
+            "args": {
+              "query": "密银黎明",
+              "kind": "item"
+            }
+          },
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "holders",
+              "itemId": "DA_Artifact_SilvermereDawn",
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "holders",
+              "itemId": "DA_Artifact_SilvermereDawn",
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "fc60ff7df0248cbec224e622f4c4665f1f64b3a7b5daff0bdc67ded82d193ec1",
+              "recordHash": "26bfa246b2a46e13ec97884ce9ceecda262bbd27b1ff849f246adf0ce2517843",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "queue": "Ranked",
+              "rank": "铂金及以上",
+              "population": {
+                "queue": "Ranked",
+                "rank": "铂金及以上",
+                "region": null
+              },
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+              "fetchedAt": "2026-10-11T05:32:43.683Z",
+              "expiresAt": "2026-10-11T05:42:43.683Z",
+              "statisticsKind": "item_holder_first_occurrence",
+              "sourceReturnedRows": 90,
+              "exhaustive": false
+            },
+            "data": [
+              {
+                "id": "DA_18_ElderDragon",
+                "championId": "DA_18_ElderDragon",
+                "itemId": "DA_Artifact_SilvermereDawn",
+                "name": "远古巨龙",
+                "stats": {
+                  "winRate": 0.3058134394341291,
+                  "pickRate": null,
+                  "top4Rate": 0.6759504862953138,
+                  "sampleSize": 9048,
+                  "avgPlacement": 3.4224137931034484
+                },
+                "citation": "[S1]"
+              },
+              {
+                "id": "DA_18_Camille",
+                "championId": "DA_18_Camille",
+                "itemId": "DA_Artifact_SilvermereDawn",
+                "name": "卡蜜尔",
+                "stats": {
+                  "winRate": 0.1365551425030979,
+                  "pickRate": null,
+                  "top4Rate": 0.6691449814126395,
+                  "sampleSize": 4035,
+                  "avgPlacement": 3.7425030978934326
+                },
+                "citation": "[S1]"
+              },
+              {
+                "id": "DA_Nidalee18_AP",
+                "championId": "DA_Nidalee18_AP",
+                "itemId": "DA_Artifact_SilvermereDawn",
+                "name": "奈德丽",
+                "stats": {
+                  "winRate": 0.11544500973556936,
+                  "pickRate": null,
+                  "top4Rate": 0.6299227435462597,
+                  "sampleSize": 15921,
+                  "avgPlacement": 3.9296526600087938
+                },
+                "citation": "[S1]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trace_bfe2a767-d2b4-48ce-98d9-f94ac1b23d7d",
+        "question": "查询大龙带密银黎明、无尽，且阵容有艾翁，样本至少100，按平均名次给大龙前3套完整出装。",
+        "createdAt": "2026-10-11T05:32:51.787Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 2,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "champion",
+                  "id": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_18_Ivern"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_Artifact_SilvermereDawn",
+                  "holderId": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_InfinityEdge",
+                  "holderId": "DA_18_ElderDragon"
+                }
+              ],
+              "minSample": 100,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "champion",
+                  "id": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_18_Ivern"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_Artifact_SilvermereDawn",
+                  "holderId": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_InfinityEdge",
+                  "holderId": "DA_18_ElderDragon"
+                }
+              ],
+              "minSample": 100,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "b7804a836303e2c122e468815aa608a8971f9f344ed9834182b800c96097920d",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "rank": "铂金及以上",
+              "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+              "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "fetchedAt": "2026-10-11T05:32:55.962Z"
+            },
+            "stats": {
+              "sampleSize": 2850,
+              "avgPlacement": 3.089122807017544,
+              "top4Rate": 0.72,
+              "winRate": 0.391578947368421
+            },
+            "equipment": {
+              "status": "ok",
+              "kind": "observed_builds",
+              "reason": "来源返回的候选中没有这类匹配记录。",
+              "rows": [
+                {
+                  "id": "metatft:equipment:8c18c70ea852c94168c6025283d3e15673b071078de197f668ec690107f0e372",
+                  "championId": "DA_18_ElderDragon",
+                  "name": "远古巨龙",
+                  "stats": {
+                    "winRate": 0.46070460704607047,
+                    "top4Rate": 0.7588075880758808,
+                    "sampleSize": 369,
+                    "avgPlacement": 2.7506775067750677
+                  },
+                  "items": [
+                    {
+                      "id": "DA_Artifact_SilvermereDawn",
+                      "name": "密银黎明"
+                    },
+                    {
+                      "id": "DA_BlueBuff",
+                      "name": "蓝霸符"
+                    },
+                    {
+                      "id": "DA_InfinityEdge",
+                      "name": "无尽之刃"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:40eae9dde83c88d46f1200a8dc391e18b5b8f6a2019f27f075d011f809159840",
+                  "championId": "DA_18_ElderDragon",
+                  "name": "远古巨龙",
+                  "stats": {
+                    "winRate": 0.4340425531914894,
+                    "top4Rate": 0.7404255319148936,
+                    "sampleSize": 470,
+                    "avgPlacement": 2.951063829787234
+                  },
+                  "items": [
+                    {
+                      "id": "DA_Artifact_SilvermereDawn",
+                      "name": "密银黎明"
+                    },
+                    {
+                      "id": "DA_InfinityEdge",
+                      "name": "无尽之刃"
+                    },
+                    {
+                      "id": "DA_StrikersFlail",
+                      "name": "强袭者的链枷"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:ceb57861a44a65e788868c35d3952b37921d6f696b57194ee44d94c97bd66cb9",
+                  "championId": "DA_18_ElderDragon",
+                  "name": "远古巨龙",
+                  "stats": {
+                    "winRate": 0.3881578947368421,
+                    "top4Rate": 0.7532894736842105,
+                    "sampleSize": 304,
+                    "avgPlacement": 2.960526315789474
+                  },
+                  "items": [
+                    {
+                      "id": "DA_Artifact_SilvermereDawn",
+                      "name": "密银黎明"
+                    },
+                    {
+                      "id": "DA_Deathblade",
+                      "name": "死亡之刃"
+                    },
+                    {
+                      "id": "DA_InfinityEdge",
+                      "name": "无尽之刃"
+                    }
+                  ],
+                  "citation": "[S2]"
+                }
+              ]
+            },
+            "teammates": {
+              "status": "ok",
+              "kind": "joint_teammates",
+              "reason": "来源返回的候选中没有这类匹配记录。",
+              "rows": [
+                {
+                  "id": "metatft:teammates:537e9d8be02cb4b20418a88142a90aa8904ed01d8bf7d703142b4dd3b2f118db",
+                  "championId": "DA_Lux18_Base",
+                  "name": "拉克丝",
+                  "stats": {
+                    "winRate": 0.5104166666666666,
+                    "top4Rate": 0.8333333333333334,
+                    "sampleSize": 288,
+                    "avgPlacement": 2.4270833333333335
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:b75bcfb0417c21e884df7eb1c6412b590a45fab4d55bbdf0239f831cdef19a04",
+                  "championId": "DA_Murkwolf18",
+                  "name": "暗影狼",
+                  "stats": {
+                    "winRate": 0.3790322580645161,
+                    "top4Rate": 0.8387096774193549,
+                    "sampleSize": 124,
+                    "avgPlacement": 2.629032258064516
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:de361fc08dca509f9c126552686699c23e467e44afd295f8dae10f2a6c27e620",
+                  "championId": "DA_18_Alune",
+                  "name": "拉露恩",
+                  "stats": {
+                    "winRate": 0.4797297297297297,
+                    "top4Rate": 0.75,
+                    "sampleSize": 148,
+                    "avgPlacement": 2.777027027027027
+                  },
+                  "citation": "[S3]"
+                }
+              ]
+            },
+            "comps": {
+              "status": "ok",
+              "reason": "来源返回的候选中没有这类匹配记录。",
+              "rows": [
+                {
+                  "id": "metatft:comps:d7fe794c3630cd3ea9e83a82d0d7ded333efd8c9de0c3e91632800cac1c85ea0",
+                  "name": "远古巨龙 · 艾翁 · 凯南 · 茂凯 · 阿木木 · 德莱文 · 苍蓝雕纹魔像 · 塔里克",
+                  "stats": {
+                    "winRate": 0.4244060475161987,
+                    "top4Rate": 0.7786177105831533,
+                    "sampleSize": 926,
+                    "avgPlacement": 2.7559395248380127
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_ElderDragon",
+                      "name": "远古巨龙",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Ivern",
+                      "name": "艾翁",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Kennen",
+                      "name": "凯南",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Maokai",
+                      "name": "茂凯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Draven18",
+                      "name": "德莱文",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Taric18",
+                      "name": "塔里克",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "trace_816bf95d-36ab-4e5b-b2e9-e31801f579f3",
+        "question": "再给大龙加一件破防，门槛改为1000。",
+        "createdAt": "2026-10-11T05:34:42.110Z",
+        "transportStatus": "completed",
+        "acceptance": "clarification_observed_before_structured_clarification_guard",
+        "modelSubmissions": 3,
+        "tools": [
+          {
+            "name": "search_catalog",
+            "args": {
+              "query": "破防",
+              "kind": "item"
+            }
+          },
+          {
+            "name": "search_catalog",
+            "args": {
+              "query": "破防"
+            }
+          },
+          {
+            "name": "search_catalog",
+            "args": {
+              "query": "护甲穿透",
+              "kind": "item"
+            }
+          }
+        ]
+      },
+      {
+        "id": "trace_c186169d-9dff-4bd3-a0ef-d15ac87aa5ff",
+        "question": "我说的是强袭者的链枷，其他条件保持，样本至少1000。",
+        "createdAt": "2026-10-11T05:35:12.221Z",
+        "transportStatus": "completed",
+        "acceptance": "failed_before_query_guard",
+        "modelSubmissions": 1,
+        "tools": []
+      },
+      {
+        "id": "trace_ea6720b0-7d2b-484d-bca9-a7370c303aa0",
+        "question": "我说的是强袭者的链枷，其他条件保持，样本至少1000。",
+        "createdAt": "2026-10-11T05:38:34.587Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 3,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "champion",
+                  "id": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_18_Ivern"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_Artifact_SilvermereDawn",
+                  "holderId": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_InfinityEdge",
+                  "holderId": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_StrikersFlail",
+                  "holderId": "DA_18_ElderDragon"
+                }
+              ],
+              "resultView": "equipment",
+              "carrierId": "DA_18_ElderDragon",
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "champion",
+                  "id": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_18_Ivern"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_Artifact_SilvermereDawn",
+                  "holderId": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_InfinityEdge",
+                  "holderId": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_StrikersFlail",
+                  "holderId": "DA_18_ElderDragon"
+                }
+              ],
+              "resultView": "equipment",
+              "carrierId": "DA_18_ElderDragon",
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "bf292afb4637e9f235535278784d9f1f54ad3574e4511957dbdb3430016dd840",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "rank": "铂金及以上",
+              "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+              "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "fetchedAt": "2026-10-11T05:38:41.558Z"
+            },
+            "stats": {
+              "sampleSize": 472,
+              "avgPlacement": 2.955508474576271,
+              "top4Rate": 0.739406779661017,
+              "winRate": 0.4322033898305085
+            },
+            "equipment": {
+              "status": "insufficient_samples",
+              "kind": "observed_builds",
+              "reason": "已有对应统计，但没有达到当前最低样本数；可降低样本门槛。",
+              "rows": []
+            },
+            "teammates": {
+              "status": "insufficient_samples",
+              "kind": "joint_teammates",
+              "reason": "已有对应统计，但没有达到当前最低样本数；可降低样本门槛。",
+              "rows": []
+            },
+            "comps": {
+              "status": "insufficient_samples",
+              "reason": "已有对应统计，但没有达到当前最低样本数；可降低样本门槛。",
+              "rows": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "trace_8a5b1a3b-8b0a-4dd0-ba9d-9e63afa7d73a",
+        "question": "去掉无尽，按前四率排序，门槛改回100。",
+        "createdAt": "2026-10-11T05:38:51.527Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 3,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "champion",
+                  "id": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_18_Ivern"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_Artifact_SilvermereDawn",
+                  "holderId": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_StrikersFlail",
+                  "holderId": "DA_18_ElderDragon"
+                }
+              ],
+              "carrierId": "DA_18_ElderDragon",
+              "resultView": "equipment",
+              "minSample": 100,
+              "sort": "top4Rate",
+              "limit": 3
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "champion",
+                  "id": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_18_Ivern"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_Artifact_SilvermereDawn",
+                  "holderId": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_StrikersFlail",
+                  "holderId": "DA_18_ElderDragon"
+                }
+              ],
+              "carrierId": "DA_18_ElderDragon",
+              "resultView": "equipment",
+              "minSample": 100,
+              "sort": "top4Rate",
+              "limit": 3
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "2c2eb9f561f33acc43b6e4dbb4892b2ccc2b6d0606d2ced1fc48e58ce9a0ea1a",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "rank": "铂金及以上",
+              "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+              "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "fetchedAt": "2026-10-11T05:38:57.432Z"
+            },
+            "stats": {
+              "sampleSize": 653,
+              "avgPlacement": 2.970903522205207,
+              "top4Rate": 0.7427258805513017,
+              "winRate": 0.40888208269525267
+            },
+            "equipment": {
+              "status": "ok",
+              "kind": "observed_builds",
+              "reason": "来源返回的候选中没有这类匹配记录。",
+              "rows": [
+                {
+                  "id": "metatft:equipment:40eae9dde83c88d46f1200a8dc391e18b5b8f6a2019f27f075d011f809159840",
+                  "championId": "DA_18_ElderDragon",
+                  "name": "远古巨龙",
+                  "stats": {
+                    "winRate": 0.4322033898305085,
+                    "top4Rate": 0.739406779661017,
+                    "sampleSize": 472,
+                    "avgPlacement": 2.955508474576271
+                  },
+                  "items": [
+                    {
+                      "id": "DA_Artifact_SilvermereDawn",
+                      "name": "密银黎明"
+                    },
+                    {
+                      "id": "DA_InfinityEdge",
+                      "name": "无尽之刃"
+                    },
+                    {
+                      "id": "DA_StrikersFlail",
+                      "name": "强袭者的链枷"
+                    }
+                  ],
+                  "citation": "[S2]"
+                }
+              ]
+            },
+            "teammates": {
+              "status": "ok",
+              "kind": "joint_teammates",
+              "reason": "来源返回的候选中没有这类匹配记录。",
+              "rows": [
+                {
+                  "id": "metatft:teammates:aa8ca239ce10d96a817923dba15f3da00dcae87cd1dfd4bff4d745fa7d56897d",
+                  "championId": "DA_Taric18",
+                  "name": "塔里克",
+                  "stats": {
+                    "winRate": 0.4576271186440678,
+                    "top4Rate": 0.7928436911487758,
+                    "sampleSize": 531,
+                    "avgPlacement": 2.6365348399246704
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:6630308acde1efe3bcc0a4cdda0c0c9df280368ef70f3e80b7fbc382815db105",
+                  "championId": "DA_18_Kennen",
+                  "name": "凯南",
+                  "stats": {
+                    "winRate": 0.4545454545454546,
+                    "top4Rate": 0.7727272727272727,
+                    "sampleSize": 484,
+                    "avgPlacement": 2.739669421487603
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:f25250cfc054dca3bd96da3c3461ea387937cc56b62896886a9008a21810d6d4",
+                  "championId": "DA_Sentinel18",
+                  "name": "苍蓝雕纹魔像",
+                  "stats": {
+                    "winRate": 0.4305084745762712,
+                    "top4Rate": 0.7661016949152543,
+                    "sampleSize": 590,
+                    "avgPlacement": 2.832203389830509
+                  },
+                  "citation": "[S3]"
+                }
+              ]
+            },
+            "comps": {
+              "status": "ok",
+              "reason": "来源返回的候选中没有这类匹配记录。",
+              "rows": [
+                {
+                  "id": "metatft:comps:d7fe794c3630cd3ea9e83a82d0d7ded333efd8c9de0c3e91632800cac1c85ea0",
+                  "name": "远古巨龙 · 艾翁 · 凯南 · 茂凯 · 阿木木 · 德莱文 · 苍蓝雕纹魔像 · 塔里克",
+                  "stats": {
+                    "winRate": 0.4801980198019802,
+                    "top4Rate": 0.8118811881188119,
+                    "sampleSize": 202,
+                    "avgPlacement": 2.5
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_ElderDragon",
+                      "name": "远古巨龙",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Ivern",
+                      "name": "艾翁",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Kennen",
+                      "name": "凯南",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Maokai",
+                      "name": "茂凯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Draven18",
+                      "name": "德莱文",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Taric18",
+                      "name": "塔里克",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "trace_508c8980-c855-4ca7-8e4a-c02523dc1425",
+        "question": "重新查询阿狸的推荐阵容和她的三件套，各给2条，样本至少1000，按均次排序。",
+        "createdAt": "2026-10-11T05:39:30.022Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 2,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "comps",
+              "championId": "DA_18_Ahri",
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 2
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "comps",
+              "championId": "DA_18_Ahri",
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 2
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Comps",
+              "url": "https://www.metatft.com/comps",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "2b11da0836ab0fb4c04ade5b34d2a388eba050fb59fe9ac643121c39033ac989",
+              "recordHash": "2695cf79096db39f98b67a1068d9cf22dcfeec7890847ffa6f33d2d3500454ce",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "queue": "Ranked",
+              "rank": "铂金及以上",
+              "population": {
+                "queue": "Ranked",
+                "rank": "铂金及以上",
+                "region": null
+              },
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+              "fetchedAt": "2026-10-11T05:39:12.971Z",
+              "expiresAt": "2026-10-11T05:49:12.971Z",
+              "sourceTime": "2026-10-11T05:39:11.388Z",
+              "statisticsKind": "comp_cluster",
+              "sourceReturnedRows": 61,
+              "exhaustive": false,
+              "populationDenominator": 6709907
+            },
+            "data": [
+              {
+                "id": "metatft:cluster:426005",
+                "name": "裁决使 · 瑟提",
+                "stats": {
+                  "winRate": 0.09491702193841144,
+                  "pickRate": 0.016290240684408888,
+                  "top4Rate": 0.5435200263480504,
+                  "sampleSize": 109306,
+                  "avgPlacement": 4.336102318262492
+                },
+                "units": [
+                  {
+                    "id": "DA_18_Ahri",
+                    "name": "阿狸",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_18_EmblemExecutioner",
+                        "name": "裁决使纹章"
+                      },
+                      {
+                        "id": "DA_BlueBuff",
+                        "name": "蓝霸符"
+                      },
+                      {
+                        "id": "DA_RabadonsDeathcap",
+                        "name": "灭世者的死亡之帽"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_18_Alistar",
+                    "name": "阿利斯塔",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Ezreal",
+                    "name": "伊泽瑞尔",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_Deathblade",
+                        "name": "死亡之刃"
+                      },
+                      {
+                        "id": "DA_LastWhisper",
+                        "name": "最后的轻语"
+                      },
+                      {
+                        "id": "DA_SpearOfShojin",
+                        "name": "朔极之矛"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_18_Ornn",
+                    "name": "奥恩",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Sett",
+                    "name": "瑟提",
+                    "isCore": true,
+                    "items": [
+                      {
+                        "id": "DA_GargoyleStoneplate",
+                        "name": "石像鬼石板甲"
+                      },
+                      {
+                        "id": "DA_SpiritVisage",
+                        "name": "振奋盔甲"
+                      },
+                      {
+                        "id": "DA_WarmogsArmor",
+                        "name": "狂徒铠甲"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_18_Soraka",
+                    "name": "索拉卡",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_HextechGunblade",
+                        "name": "海克斯科技枪刃"
+                      },
+                      {
+                        "id": "DA_RabadonsDeathcap",
+                        "name": "灭世者的死亡之帽"
+                      },
+                      {
+                        "id": "DA_SpearOfShojin",
+                        "name": "朔极之矛"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_18_Yunara",
+                    "name": "芸阿娜",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Fiddlesticks18",
+                    "name": "费德提克",
+                    "isCore": false,
+                    "items": []
+                  }
+                ],
+                "citation": "[S1]"
+              },
+              {
+                "id": "metatft:cluster:426010",
+                "name": "神谕 · 阿狸",
+                "stats": {
+                  "winRate": 0.11764292078975754,
+                  "pickRate": 0.04448973733913152,
+                  "top4Rate": 0.536335680452362,
+                  "sampleSize": 298522,
+                  "avgPlacement": 4.343364978125566
+                },
+                "units": [
+                  {
+                    "id": "DA_18_Ahri",
+                    "name": "阿狸",
+                    "isCore": true,
+                    "items": [
+                      {
+                        "id": "DA_18_EmblemInvoker",
+                        "name": "神谕纹章"
+                      },
+                      {
+                        "id": "DA_JeweledGauntlet",
+                        "name": "珠光护手"
+                      },
+                      {
+                        "id": "DA_RabadonsDeathcap",
+                        "name": "灭世者的死亡之帽"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_18_Morgana",
+                    "name": "莫甘娜",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_Morellonomicon",
+                        "name": "莫雷洛秘典"
+                      },
+                      {
+                        "id": "DA_RabadonsDeathcap",
+                        "name": "灭世者的死亡之帽"
+                      },
+                      {
+                        "id": "DA_VoidStaff",
+                        "name": "虚空之杖"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_18_Sentry",
+                    "name": "苍蓝哨戒",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Sett",
+                    "name": "瑟提",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_GargoyleStoneplate",
+                        "name": "石像鬼石板甲"
+                      },
+                      {
+                        "id": "DA_SteraksGage",
+                        "name": "斯特拉克的挑战护手"
+                      },
+                      {
+                        "id": "DA_WarmogsArmor",
+                        "name": "狂徒铠甲"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_Karma18",
+                    "name": "卡尔玛",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Krug18",
+                    "name": "远古石甲虫",
+                    "isCore": false,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Sentinel18",
+                    "name": "苍蓝雕纹魔像",
+                    "isCore": false,
+                    "items": [
+                      {
+                        "id": "DA_ProtectorsVow",
+                        "name": "圣盾使的誓约"
+                      },
+                      {
+                        "id": "DA_ProtectorsVow",
+                        "name": "圣盾使的誓约"
+                      },
+                      {
+                        "id": "DA_ProtectorsVow",
+                        "name": "圣盾使的誓约"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DA_Taric18",
+                    "name": "塔里克",
+                    "isCore": false,
+                    "items": []
+                  }
+                ],
+                "citation": "[S1]"
+              }
+            ]
+          },
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "builds",
+              "championId": "DA_18_Ahri",
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 2
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "builds",
+              "championId": "DA_18_Ahri",
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 2
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "a2becf1dd11cf8940469481ba9bf2a6fbdd9855d0be5c1fd433601e62b0f24ab",
+              "recordHash": "c7dad684e19315aa10b30243c044668904e534408a86e12d38180c9c4cdb3827",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "queue": "Ranked",
+              "rank": "铂金及以上",
+              "population": {
+                "queue": "Ranked",
+                "rank": "铂金及以上",
+                "region": null
+              },
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+              "fetchedAt": "2026-10-11T05:39:33.685Z",
+              "expiresAt": "2026-10-11T05:49:33.685Z",
+              "statisticsKind": "observed_three_item_build",
+              "sourceReturnedRows": 600,
+              "exhaustive": false
+            },
+            "data": [
+              {
+                "id": "DA_18_Ahri:DA_18_EmblemInvoker:DA_JeweledGauntlet:DA_RabadonsDeathcap_Radiant",
+                "championId": "DA_18_Ahri",
+                "name": "阿狸",
+                "stats": {
+                  "winRate": 0.23519870235198703,
+                  "pickRate": null,
+                  "top4Rate": 0.6861313868613139,
+                  "sampleSize": 1233,
+                  "avgPlacement": 3.491484184914842
+                },
+                "items": [
+                  {
+                    "id": "DA_18_EmblemInvoker",
+                    "name": "神谕纹章"
+                  },
+                  {
+                    "id": "DA_JeweledGauntlet",
+                    "name": "珠光护手"
+                  },
+                  {
+                    "id": "DA_RabadonsDeathcap_Radiant",
+                    "name": "光明版灭世者的死亡之帽"
+                  }
+                ],
+                "citation": "[S2]"
+              },
+              {
+                "id": "DA_18_Ahri:DA_18_EmblemInvoker:DA_JeweledGauntletRadiant:DA_StrikersFlail",
+                "championId": "DA_18_Ahri",
+                "name": "阿狸",
+                "stats": {
+                  "winRate": 0.21812749003984064,
+                  "pickRate": null,
+                  "top4Rate": 0.6623505976095617,
+                  "sampleSize": 1004,
+                  "avgPlacement": 3.6245019920318726
+                },
+                "items": [
+                  {
+                    "id": "DA_18_EmblemInvoker",
+                    "name": "神谕纹章"
+                  },
+                  {
+                    "id": "DA_JeweledGauntletRadiant",
+                    "name": "光明版珠光护手"
+                  },
+                  {
+                    "id": "DA_StrikersFlail",
+                    "name": "强袭者的链枷"
+                  }
+                ],
+                "citation": "[S2]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trace_75aa6240-d80e-421b-a237-a12078228a86",
+        "question": "查询4护卫这个羁绊档位的均次和样本数，样本至少1000，不查推荐阵容。",
+        "createdAt": "2026-10-11T05:40:12.288Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 2,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "traits",
+              "traitId": "DA_18_Defender",
+              "threshold": 4,
+              "minSample": 1000,
+              "sort": "avgPlacement"
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "traits",
+              "traitId": "DA_18_Defender",
+              "threshold": 4,
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "a75415ff851adfdaa7b5cf88c7423e569b71c1b2388bde798567e02f1f290f60",
+              "recordHash": "611d30b5b628d055ad43c764ce5ab0fe345d6de3868a0b49a951a319cf177f19",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "queue": "Ranked",
+              "rank": "铂金及以上",
+              "population": {
+                "queue": "Ranked",
+                "rank": "铂金及以上",
+                "region": null
+              },
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+              "fetchedAt": "2026-10-11T05:39:12.565Z",
+              "expiresAt": "2026-10-11T05:49:12.565Z",
+              "statisticsKind": "first_occurrence_per_board",
+              "sourceReturnedRows": {
+                "items": 530,
+                "units": 439,
+                "traits": 92
+              },
+              "exhaustive": false,
+              "sources": [
+                {
+                  "id": "units",
+                  "source": "MetaTFT Explorer",
+                  "url": "https://www.metatft.com/explorer",
+                  "delivery": "mysql",
+                  "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+                  "snapshotId": "a75415ff851adfdaa7b5cf88c7423e569b71c1b2388bde798567e02f1f290f60",
+                  "recordHash": "611d30b5b628d055ad43c764ce5ab0fe345d6de3868a0b49a951a319cf177f19",
+                  "sourcePatch": null,
+                  "requestedPatch": "18.4b",
+                  "sourceCurrentPatch": "18.4b",
+                  "patchAttribution": {
+                    "method": "explicit_request_and_source_metadata",
+                    "statisticsResponsePatch": null
+                  },
+                  "set": 18,
+                  "queueId": 1100,
+                  "queue": "Ranked",
+                  "rank": "铂金及以上",
+                  "population": {
+                    "queue": "Ranked",
+                    "rank": "铂金及以上",
+                    "region": null
+                  },
+                  "statisticalWindow": {
+                    "days": 3,
+                    "timeAnchor": "source_relative_window"
+                  },
+                  "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+                  "fetchedAt": "2026-10-11T05:39:12.565Z",
+                  "expiresAt": "2026-10-11T05:49:12.565Z",
+                  "statisticsKind": "first_occurrence_per_board",
+                  "sourceReturnedRows": {
+                    "items": 530,
+                    "units": 439,
+                    "traits": 92
+                  },
+                  "exhaustive": false
+                },
+                {
+                  "id": "items",
+                  "source": "MetaTFT Explorer",
+                  "url": "https://www.metatft.com/explorer",
+                  "delivery": "mysql",
+                  "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+                  "snapshotId": "a75415ff851adfdaa7b5cf88c7423e569b71c1b2388bde798567e02f1f290f60",
+                  "recordHash": "611d30b5b628d055ad43c764ce5ab0fe345d6de3868a0b49a951a319cf177f19",
+                  "sourcePatch": null,
+                  "requestedPatch": "18.4b",
+                  "sourceCurrentPatch": "18.4b",
+                  "patchAttribution": {
+                    "method": "explicit_request_and_source_metadata",
+                    "statisticsResponsePatch": null
+                  },
+                  "set": 18,
+                  "queueId": 1100,
+                  "queue": "Ranked",
+                  "rank": "铂金及以上",
+                  "population": {
+                    "queue": "Ranked",
+                    "rank": "铂金及以上",
+                    "region": null
+                  },
+                  "statisticalWindow": {
+                    "days": 3,
+                    "timeAnchor": "source_relative_window"
+                  },
+                  "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+                  "fetchedAt": "2026-10-11T05:39:12.565Z",
+                  "expiresAt": "2026-10-11T05:49:12.565Z",
+                  "statisticsKind": "first_occurrence_per_board",
+                  "sourceReturnedRows": {
+                    "items": 530,
+                    "units": 439,
+                    "traits": 92
+                  },
+                  "exhaustive": false
+                }
+              ],
+              "sourceTotalEntries": 7052296
+            },
+            "data": [
+              {
+                "id": "trait:DA_18_Defender_2",
+                "name": "护卫",
+                "stats": {
+                  "sampleSize": 78489,
+                  "avgPlacement": 4.735708188408567,
+                  "top4Rate": 0.4544713271923454,
+                  "winRate": 0.0881269986877142,
+                  "pickRate": null,
+                  "avgLevel": null
+                },
+                "traitId": "DA_18_Defender",
+                "threshold": 4,
+                "tier": 2,
+                "items": [],
+                "champions": [],
+                "citation": "[S1]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trace_4d6aeb8f-57e3-4657-b8a6-3b2c3b18d993",
+        "question": "查青龙刀整体均次和样本数。",
+        "createdAt": "2026-10-11T05:40:36.362Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 2,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "items",
+              "itemId": "DA_SpearOfShojin",
+              "minSample": 0,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "items",
+              "itemId": "DA_SpearOfShojin",
+              "minSample": 0,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "a75415ff851adfdaa7b5cf88c7423e569b71c1b2388bde798567e02f1f290f60",
+              "recordHash": "611d30b5b628d055ad43c764ce5ab0fe345d6de3868a0b49a951a319cf177f19",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "queue": "Ranked",
+              "rank": "铂金及以上",
+              "population": {
+                "queue": "Ranked",
+                "rank": "铂金及以上",
+                "region": null
+              },
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+              "fetchedAt": "2026-10-11T05:39:12.565Z",
+              "expiresAt": "2026-10-11T05:49:12.565Z",
+              "statisticsKind": "first_occurrence_per_board",
+              "sourceReturnedRows": {
+                "items": 530,
+                "units": 439,
+                "traits": 92
+              },
+              "exhaustive": false,
+              "sourceTotalEntries": 7052296,
+              "sourceId": "items"
+            },
+            "data": [
+              {
+                "id": "equipment:DA_SpearOfShojin",
+                "itemId": "DA_SpearOfShojin",
+                "name": "朔极之矛",
+                "stats": {
+                  "sampleSize": 3246416,
+                  "avgPlacement": 4.275008193651091,
+                  "top4Rate": 0.5408847787837419,
+                  "winRate": 0.14048754072182987,
+                  "pickRate": 0.4603346201010281,
+                  "avgLevel": null
+                },
+                "items": [
+                  {
+                    "id": "DA_SpearOfShojin",
+                    "name": "朔极之矛"
+                  }
+                ],
+                "champions": [],
+                "citation": "[S1]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trace_fd670ba9-c0bf-4aed-abd1-a95289035de3",
+        "question": "那它适合谁，给我前2名，样本至少1000，按前四率。",
+        "createdAt": "2026-10-11T05:41:04.821Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 2,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "holders",
+              "itemId": "DA_SpearOfShojin",
+              "minSample": 1000,
+              "sort": "top4Rate",
+              "limit": 2
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "holders",
+              "itemId": "DA_SpearOfShojin",
+              "minSample": 1000,
+              "sort": "top4Rate",
+              "limit": 2
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "cfdacb86eaf99809086217a6b81f726b246bb859b5e90b5f270d62ad720dd2b9",
+              "recordHash": "2017fb3b5b2c94efca4145ae1e1eca242ab75c270a8ba21b83020dd5412ed0bd",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "queue": "Ranked",
+              "rank": "铂金及以上",
+              "population": {
+                "queue": "Ranked",
+                "rank": "铂金及以上",
+                "region": null
+              },
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+              "fetchedAt": "2026-10-11T05:41:07.286Z",
+              "expiresAt": "2026-10-11T05:51:07.286Z",
+              "statisticsKind": "item_holder_first_occurrence",
+              "sourceReturnedRows": 175,
+              "exhaustive": false
+            },
+            "data": [
+              {
+                "id": "DA_Taric18",
+                "championId": "DA_Taric18",
+                "itemId": "DA_SpearOfShojin",
+                "name": "塔里克",
+                "stats": {
+                  "winRate": 0.20978077571669476,
+                  "pickRate": null,
+                  "top4Rate": 0.6940978077571669,
+                  "sampleSize": 2965,
+                  "avgPlacement": 3.4890387858347385
+                },
+                "citation": "[S1]"
+              },
+              {
+                "id": "DA_18_Ivern",
+                "championId": "DA_18_Ivern",
+                "itemId": "DA_SpearOfShojin",
+                "name": "艾翁",
+                "stats": {
+                  "winRate": 0.2944963124014154,
+                  "pickRate": null,
+                  "top4Rate": 0.6594726520867972,
+                  "sampleSize": 187656,
+                  "avgPlacement": 3.511025493456111
+                },
+                "citation": "[S1]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trace_0fe561fd-bc60-425a-859e-6537bb8b34ef",
+        "question": "查朔极之矛的整体均次和样本数。",
+        "createdAt": "2026-10-11T05:42:27.993Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 3,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "items",
+              "itemId": "DA_SpearOfShojin",
+              "minSample": 0,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "items",
+              "itemId": "DA_SpearOfShojin",
+              "minSample": 0,
+              "sort": "avgPlacement",
+              "limit": 3
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "a75415ff851adfdaa7b5cf88c7423e569b71c1b2388bde798567e02f1f290f60",
+              "recordHash": "611d30b5b628d055ad43c764ce5ab0fe345d6de3868a0b49a951a319cf177f19",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "queue": "Ranked",
+              "rank": "铂金及以上",
+              "population": {
+                "queue": "Ranked",
+                "rank": "铂金及以上",
+                "region": null
+              },
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+              "fetchedAt": "2026-10-11T05:39:12.565Z",
+              "expiresAt": "2026-10-11T05:49:12.565Z",
+              "statisticsKind": "first_occurrence_per_board",
+              "sourceReturnedRows": {
+                "items": 530,
+                "units": 439,
+                "traits": 92
+              },
+              "exhaustive": false,
+              "sourceTotalEntries": 7052296,
+              "sourceId": "items"
+            },
+            "data": [
+              {
+                "id": "equipment:DA_SpearOfShojin",
+                "itemId": "DA_SpearOfShojin",
+                "name": "朔极之矛",
+                "stats": {
+                  "sampleSize": 3246416,
+                  "avgPlacement": 4.275008193651091,
+                  "top4Rate": 0.5408847787837419,
+                  "winRate": 0.14048754072182987,
+                  "pickRate": 0.4603346201010281,
+                  "avgLevel": null
+                },
+                "items": [
+                  {
+                    "id": "DA_SpearOfShojin",
+                    "name": "朔极之矛"
+                  }
+                ],
+                "champions": [],
+                "citation": "[S1]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trace_88b0bcda-703a-4b85-907b-a71a6e14e3d9",
+        "question": "在筛选器中仅保留死亡之蔑，样本不限。",
+        "createdAt": "2026-10-11T05:42:52.715Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 2,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "item",
+                  "id": "DA_Artifact_DeathsDefiance",
+                  "holderId": null
+                }
+              ],
+              "minSample": 0,
+              "sort": "avgPlacement",
+              "limit": 10
+            },
+            "status": "empty",
+            "reason": "没有满足全部条件的样本，未放宽条件或改用其他来源。",
+            "query": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "item",
+                  "id": "DA_Artifact_DeathsDefiance",
+                  "holderId": null
+                }
+              ],
+              "minSample": 0,
+              "sort": "avgPlacement",
+              "limit": 10
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "1156176595747696208acc1ff802e15bda096d8463f69d3189b8abd44c76275b",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "rank": "铂金及以上",
+              "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+              "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "fetchedAt": "2026-10-11T05:42:55.000Z"
+            },
+            "stats": {
+              "sampleSize": 0,
+              "avgPlacement": null,
+              "top4Rate": null,
+              "winRate": null
+            },
+            "equipment": {
+              "status": "empty",
+              "kind": "observed_builds",
+              "reason": "MetaTFT 当前范围内没有同时满足全部条件的样本。",
+              "rows": []
+            },
+            "teammates": {
+              "status": "empty",
+              "kind": "item_holders",
+              "reason": "MetaTFT 当前范围内没有同时满足全部条件的样本。",
+              "rows": []
+            },
+            "comps": {
+              "status": "empty",
+              "reason": "MetaTFT 当前范围内没有同时满足全部条件的样本。",
+              "rows": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "trace_ad0793f8-6818-411c-b46d-473cfab9b562",
+        "question": "筛选奈德丽带朔极之矛，且阵容有阿木木，样本至少1000，按均次给前2套完整出装。",
+        "createdAt": "2026-10-11T05:43:40.197Z",
+        "transportStatus": "completed",
+        "acceptance": "failed_before_carrier_default_fix",
+        "modelSubmissions": 2,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "champion",
+                  "id": "DA_Nidalee18_AP"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_SpearOfShojin",
+                  "holderId": "DA_Nidalee18_AP"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_Amumu18"
+                }
+              ],
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 2,
+              "resultView": "equipment"
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "champion",
+                  "id": "DA_Nidalee18_AP"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_SpearOfShojin",
+                  "holderId": "DA_Nidalee18_AP"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_Amumu18"
+                }
+              ],
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 2,
+              "resultView": "equipment"
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "d74bcb6c7837088055424ad23dbe13704a199f4f3f56a29012fdea5e7eb6c1cb",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "rank": "铂金及以上",
+              "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+              "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "fetchedAt": "2026-10-11T05:43:43.897Z"
+            },
+            "stats": {
+              "sampleSize": 233139,
+              "avgPlacement": 4.087896062005928,
+              "top4Rate": 0.6011692595404459,
+              "winRate": 0.09043103041533163
+            },
+            "equipment": {
+              "status": "ok",
+              "kind": "observed_builds",
+              "reason": null,
+              "rows": [
+                {
+                  "id": "metatft:equipment:3336d8309f810135ef8baf51a047d44b2bb48d917fc5d7debe9607c00d16685c",
+                  "championId": "DA_Amumu18",
+                  "name": "阿木木",
+                  "stats": {
+                    "winRate": 0.11934805467928496,
+                    "top4Rate": 0.7208201892744479,
+                    "sampleSize": 1902,
+                    "avgPlacement": 3.5404837013669823
+                  },
+                  "items": [
+                    {
+                      "id": "DA_DragonsClaw",
+                      "name": "巨龙之爪"
+                    },
+                    {
+                      "id": "DA_GargoyleStoneplate",
+                      "name": "石像鬼石板甲"
+                    },
+                    {
+                      "id": "DA_SpiritVisage",
+                      "name": "振奋盔甲"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:b4397f38c7698da296ee166bf25b960b86daa631ee1ce06b507febcd366226ef",
+                  "championId": "DA_Amumu18",
+                  "name": "阿木木",
+                  "stats": {
+                    "winRate": 0.11681458383305349,
+                    "top4Rate": 0.7119213240585273,
+                    "sampleSize": 4169,
+                    "avgPlacement": 3.5756776205325016
+                  },
+                  "items": [
+                    {
+                      "id": "DA_DragonsClaw",
+                      "name": "巨龙之爪"
+                    },
+                    {
+                      "id": "DA_GargoyleStoneplate",
+                      "name": "石像鬼石板甲"
+                    },
+                    {
+                      "id": "DA_WarmogsArmor",
+                      "name": "狂徒铠甲"
+                    }
+                  ],
+                  "citation": "[S2]"
+                }
+              ]
+            },
+            "teammates": {
+              "status": "ok",
+              "kind": "joint_teammates",
+              "reason": null,
+              "rows": [
+                {
+                  "id": "metatft:teammates:de361fc08dca509f9c126552686699c23e467e44afd295f8dae10f2a6c27e620",
+                  "championId": "DA_18_Alune",
+                  "name": "拉露恩",
+                  "stats": {
+                    "winRate": 0.1519896219869068,
+                    "top4Rate": 0.8091833348417655,
+                    "sampleSize": 33147,
+                    "avgPlacement": 3.1149425287356323
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:75fb6345dcfc77c39019ba079befbc5aace9c1f07e74a91242bc081d9f1a732f",
+                  "championId": "DA_Brambleback18",
+                  "name": "绯红印记树怪",
+                  "stats": {
+                    "winRate": 0.1622355631789594,
+                    "top4Rate": 0.8047455688965123,
+                    "sampleSize": 13992,
+                    "avgPlacement": 3.1339336763865067
+                  },
+                  "citation": "[S3]"
+                }
+              ]
+            },
+            "comps": {
+              "status": "ok",
+              "reason": null,
+              "rows": [
+                {
+                  "id": "metatft:comps:f55a2889813341b9e36e1620d3f8be1a63df3421e608d0a39c3a2b09878c0d27",
+                  "name": "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 绯红印记树怪 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.17015044601251497,
+                    "top4Rate": 0.8672613500199707,
+                    "sampleSize": 7511,
+                    "avgPlacement": 2.88443616029823
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Brambleback18",
+                      "name": "绯红印记树怪",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                },
+                {
+                  "id": "metatft:comps:375e97b2e4186da45c79009a6d42b0a6702caedaaa0ca2111c03947dc764b1de",
+                  "name": "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 拉克丝 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.16940987555198717,
+                    "top4Rate": 0.8530710558008832,
+                    "sampleSize": 2491,
+                    "avgPlacement": 2.9357687675632276
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Lux18_Base",
+                      "name": "拉克丝",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "trace_950a7c9e-9ac2-4bc2-ae07-eccad3d3fcd8",
+        "question": "筛选奈德丽带朔极之矛，且阵容有阿木木，样本至少1000，按均次给前2套完整出装。",
+        "createdAt": "2026-10-11T05:45:16.835Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 3,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "champion",
+                  "id": "DA_Nidalee18_AP"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_SpearOfShojin",
+                  "holderId": "DA_Nidalee18_AP"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_Amumu18"
+                }
+              ],
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 2,
+              "resultView": "equipment",
+              "carrierId": "DA_Nidalee18_AP"
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "champion",
+                  "id": "DA_Nidalee18_AP"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_SpearOfShojin",
+                  "holderId": "DA_Nidalee18_AP"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_Amumu18"
+                }
+              ],
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "limit": 2,
+              "resultView": "equipment",
+              "carrierId": "DA_Nidalee18_AP"
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "ac8d0b53594fd26d594f8e5a3755df4cec0aa0f7b5b913894076ac7adf004541",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "rank": "铂金及以上",
+              "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+              "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "fetchedAt": "2026-10-11T05:45:23.882Z"
+            },
+            "stats": {
+              "sampleSize": 233239,
+              "avgPlacement": 4.087828364896094,
+              "top4Rate": 0.6011859080170984,
+              "winRate": 0.09043942050857703
+            },
+            "equipment": {
+              "status": "ok",
+              "kind": "observed_builds",
+              "reason": null,
+              "rows": [
+                {
+                  "id": "metatft:equipment:18850d329f93e1d3d819f83b4b7cf4e75b4675528fa7602c6dee51828548d22c",
+                  "championId": "DA_Nidalee18_AP",
+                  "name": "奈德丽",
+                  "stats": {
+                    "winRate": 0.11702127659574468,
+                    "top4Rate": 0.7030141843971631,
+                    "sampleSize": 1128,
+                    "avgPlacement": 3.61081560283688
+                  },
+                  "items": [
+                    {
+                      "id": "DA_Artifact_SilvermereDawn",
+                      "name": "密银黎明"
+                    },
+                    {
+                      "id": "DA_SpearOfShojin",
+                      "name": "朔极之矛"
+                    },
+                    {
+                      "id": "DA_SteraksGage",
+                      "name": "斯特拉克的挑战护手"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:0d95ff2fb18f7bdba60158412cdd0d62b80abb2fa77da0983e16d480b2c21904",
+                  "championId": "DA_Nidalee18_AP",
+                  "name": "奈德丽",
+                  "stats": {
+                    "winRate": 0.12421052631578948,
+                    "top4Rate": 0.688,
+                    "sampleSize": 2375,
+                    "avgPlacement": 3.64421052631579
+                  },
+                  "items": [
+                    {
+                      "id": "DA_Bloodthirster",
+                      "name": "饮血剑"
+                    },
+                    {
+                      "id": "DA_SpearOfShojin",
+                      "name": "朔极之矛"
+                    },
+                    {
+                      "id": "DA_SteraksGage",
+                      "name": "斯特拉克的挑战护手"
+                    }
+                  ],
+                  "citation": "[S2]"
+                }
+              ]
+            },
+            "teammates": {
+              "status": "ok",
+              "kind": "joint_teammates",
+              "reason": null,
+              "rows": [
+                {
+                  "id": "metatft:teammates:de361fc08dca509f9c126552686699c23e467e44afd295f8dae10f2a6c27e620",
+                  "championId": "DA_18_Alune",
+                  "name": "拉露恩",
+                  "stats": {
+                    "winRate": 0.1519445281881218,
+                    "top4Rate": 0.809225203497136,
+                    "sampleSize": 33170,
+                    "avgPlacement": 3.1151040096472715
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:75fb6345dcfc77c39019ba079befbc5aace9c1f07e74a91242bc081d9f1a732f",
+                  "championId": "DA_Brambleback18",
+                  "name": "绯红印记树怪",
+                  "stats": {
+                    "winRate": 0.16217760948774737,
+                    "top4Rate": 0.8047438736872187,
+                    "sampleSize": 13997,
+                    "avgPlacement": 3.1340287204400945
+                  },
+                  "citation": "[S3]"
+                }
+              ]
+            },
+            "comps": {
+              "status": "ok",
+              "reason": null,
+              "rows": [
+                {
+                  "id": "metatft:comps:f55a2889813341b9e36e1620d3f8be1a63df3421e608d0a39c3a2b09878c0d27",
+                  "name": "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 绯红印记树怪 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.17005988023952096,
+                    "top4Rate": 0.8671989354624086,
+                    "sampleSize": 7515,
+                    "avgPlacement": 2.8847638057218896
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Brambleback18",
+                      "name": "绯红印记树怪",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                },
+                {
+                  "id": "metatft:comps:375e97b2e4186da45c79009a6d42b0a6702caedaaa0ca2111c03947dc764b1de",
+                  "name": "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 拉克丝 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.16927396710790213,
+                    "top4Rate": 0.8531889290012034,
+                    "sampleSize": 2493,
+                    "avgPlacement": 2.935018050541516
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Lux18_Base",
+                      "name": "拉克丝",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "trace_d41ac1d0-e8d8-460e-a6c5-a971701b3720",
+        "question": "当前条件下有哪些完整出装？",
+        "createdAt": "2026-10-11T05:45:53.789Z",
+        "transportStatus": "completed",
+        "acceptance": "passed_observed_query",
+        "modelSubmissions": 2,
+        "tools": [
+          {
+            "name": "query_tft_stats",
+            "args": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "champion",
+                  "id": "DA_Nidalee18_AP"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_SpearOfShojin",
+                  "holderId": "DA_Nidalee18_AP"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_Amumu18"
+                }
+              ],
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "carrierId": "DA_Nidalee18_AP",
+              "resultView": "equipment",
+              "limit": 10
+            },
+            "status": "ok",
+            "reason": null,
+            "query": {
+              "view": "filter",
+              "conditions": [
+                {
+                  "type": "champion",
+                  "id": "DA_Nidalee18_AP"
+                },
+                {
+                  "type": "item",
+                  "id": "DA_SpearOfShojin",
+                  "holderId": "DA_Nidalee18_AP"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_Amumu18"
+                }
+              ],
+              "minSample": 1000,
+              "sort": "avgPlacement",
+              "carrierId": "DA_Nidalee18_AP",
+              "resultView": "equipment",
+              "limit": 10
+            },
+            "sourceEvidence": {
+              "source": "MetaTFT Explorer",
+              "url": "https://www.metatft.com/explorer",
+              "delivery": "mysql",
+              "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+              "snapshotId": "ac8d0b53594fd26d594f8e5a3755df4cec0aa0f7b5b913894076ac7adf004541",
+              "sourcePatch": null,
+              "requestedPatch": "18.4b",
+              "sourceCurrentPatch": "18.4b",
+              "patchAttribution": {
+                "method": "explicit_request_and_source_metadata",
+                "statisticsResponsePatch": null
+              },
+              "set": 18,
+              "queueId": 1100,
+              "rank": "铂金及以上",
+              "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+              "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+              "statisticalWindow": {
+                "days": 3,
+                "timeAnchor": "source_relative_window"
+              },
+              "fetchedAt": "2026-10-11T05:45:23.882Z"
+            },
+            "stats": {
+              "winRate": 0.09043942050857703,
+              "top4Rate": 0.6011859080170984,
+              "sampleSize": 233239,
+              "avgPlacement": 4.087828364896094
+            },
+            "equipment": {
+              "status": "ok",
+              "kind": "observed_builds",
+              "reason": null,
+              "rows": [
+                {
+                  "id": "metatft:equipment:18850d329f93e1d3d819f83b4b7cf4e75b4675528fa7602c6dee51828548d22c",
+                  "championId": "DA_Nidalee18_AP",
+                  "name": "奈德丽",
+                  "stats": {
+                    "winRate": 0.11702127659574468,
+                    "top4Rate": 0.7030141843971631,
+                    "sampleSize": 1128,
+                    "avgPlacement": 3.61081560283688
+                  },
+                  "items": [
+                    {
+                      "id": "DA_Artifact_SilvermereDawn",
+                      "name": "密银黎明"
+                    },
+                    {
+                      "id": "DA_SpearOfShojin",
+                      "name": "朔极之矛"
+                    },
+                    {
+                      "id": "DA_SteraksGage",
+                      "name": "斯特拉克的挑战护手"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:0d95ff2fb18f7bdba60158412cdd0d62b80abb2fa77da0983e16d480b2c21904",
+                  "championId": "DA_Nidalee18_AP",
+                  "name": "奈德丽",
+                  "stats": {
+                    "winRate": 0.12421052631578948,
+                    "top4Rate": 0.688,
+                    "sampleSize": 2375,
+                    "avgPlacement": 3.64421052631579
+                  },
+                  "items": [
+                    {
+                      "id": "DA_Bloodthirster",
+                      "name": "饮血剑"
+                    },
+                    {
+                      "id": "DA_SpearOfShojin",
+                      "name": "朔极之矛"
+                    },
+                    {
+                      "id": "DA_SteraksGage",
+                      "name": "斯特拉克的挑战护手"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:e37be3cb27daf262786f40d1293ee44bd3c420d802efe90dfd5b3faf58ab4941",
+                  "championId": "DA_Nidalee18_AP",
+                  "name": "奈德丽",
+                  "stats": {
+                    "winRate": 0.10588574725908828,
+                    "top4Rate": 0.688401615695326,
+                    "sampleSize": 3466,
+                    "avgPlacement": 3.694748990190422
+                  },
+                  "items": [
+                    {
+                      "id": "DA_EdgeOfNight",
+                      "name": "夜之锋刃"
+                    },
+                    {
+                      "id": "DA_SpearOfShojin",
+                      "name": "朔极之矛"
+                    },
+                    {
+                      "id": "DA_SteraksGage",
+                      "name": "斯特拉克的挑战护手"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:41bf4e8cfd849b10ab23b791f7db8ad74600b8f4089fb3f58981477c5b699cc2",
+                  "championId": "DA_Nidalee18_AP",
+                  "name": "奈德丽",
+                  "stats": {
+                    "winRate": 0.13040123456790123,
+                    "top4Rate": 0.6797839506172839,
+                    "sampleSize": 2592,
+                    "avgPlacement": 3.7021604938271606
+                  },
+                  "items": [
+                    {
+                      "id": "DA_18_EmblemSlayer",
+                      "name": "狂战士纹章"
+                    },
+                    {
+                      "id": "DA_SpearOfShojin",
+                      "name": "朔极之矛"
+                    },
+                    {
+                      "id": "DA_SteraksGage",
+                      "name": "斯特拉克的挑战护手"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:784c07b4c7b8e62d49f5695828a9bbc486f42eaec47724a82bd08ce7f52ed0b5",
+                  "championId": "DA_Nidalee18_AP",
+                  "name": "奈德丽",
+                  "stats": {
+                    "winRate": 0.11195350012635837,
+                    "top4Rate": 0.6785443517816527,
+                    "sampleSize": 11871,
+                    "avgPlacement": 3.7290034537949626
+                  },
+                  "items": [
+                    {
+                      "id": "DA_EdgeOfNight",
+                      "name": "夜之锋刃"
+                    },
+                    {
+                      "id": "DA_InfinityEdge",
+                      "name": "无尽之刃"
+                    },
+                    {
+                      "id": "DA_SpearOfShojin",
+                      "name": "朔极之矛"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:b82bcdff086c43bd5b8f004e017b279a0d2c4739e4e94ed7b0a8f39e242b4caa",
+                  "championId": "DA_Nidalee18_AP",
+                  "name": "奈德丽",
+                  "stats": {
+                    "winRate": 0.1041930953243929,
+                    "top4Rate": 0.6700344327654948,
+                    "sampleSize": 88288,
+                    "avgPlacement": 3.766706687205509
+                  },
+                  "items": [
+                    {
+                      "id": "DA_InfinityEdge",
+                      "name": "无尽之刃"
+                    },
+                    {
+                      "id": "DA_SpearOfShojin",
+                      "name": "朔极之矛"
+                    },
+                    {
+                      "id": "DA_SteraksGage",
+                      "name": "斯特拉克的挑战护手"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:830d8546698f61fa8bdf17016236244b4b0427d32d815a4690e1de0464fd4820",
+                  "championId": "DA_Nidalee18_AP",
+                  "name": "奈德丽",
+                  "stats": {
+                    "winRate": 0.12119402985074627,
+                    "top4Rate": 0.6734328358208955,
+                    "sampleSize": 1675,
+                    "avgPlacement": 3.7671641791044777
+                  },
+                  "items": [
+                    {
+                      "id": "DA_Artifact_SilvermereDawn",
+                      "name": "密银黎明"
+                    },
+                    {
+                      "id": "DA_InfinityEdge",
+                      "name": "无尽之刃"
+                    },
+                    {
+                      "id": "DA_SpearOfShojin",
+                      "name": "朔极之矛"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:4bf8f2847acf3f9b7b268507f44ce149e85bf163444d7d7d584acef778be0fa8",
+                  "championId": "DA_Nidalee18_AP",
+                  "name": "奈德丽",
+                  "stats": {
+                    "winRate": 0.10641627543035992,
+                    "top4Rate": 0.6580594679186228,
+                    "sampleSize": 1278,
+                    "avgPlacement": 3.776995305164319
+                  },
+                  "items": [
+                    {
+                      "id": "DA_GiantSlayer",
+                      "name": "巨人杀手"
+                    },
+                    {
+                      "id": "DA_SpearOfShojin",
+                      "name": "朔极之矛"
+                    },
+                    {
+                      "id": "DA_SteraksGage",
+                      "name": "斯特拉克的挑战护手"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:92de7a6a1092753fa9272e6138e3b7299e31e7d1f2927c1a9a5a5995a3dec1ed",
+                  "championId": "DA_Nidalee18_AP",
+                  "name": "奈德丽",
+                  "stats": {
+                    "winRate": 0.10378469301934398,
+                    "top4Rate": 0.6637510513036164,
+                    "sampleSize": 5945,
+                    "avgPlacement": 3.7855340622371743
+                  },
+                  "items": [
+                    {
+                      "id": "DA_Bloodthirster",
+                      "name": "饮血剑"
+                    },
+                    {
+                      "id": "DA_InfinityEdge",
+                      "name": "无尽之刃"
+                    },
+                    {
+                      "id": "DA_SpearOfShojin",
+                      "name": "朔极之矛"
+                    }
+                  ],
+                  "citation": "[S2]"
+                },
+                {
+                  "id": "metatft:equipment:bbf962bd7d63d8d566d4ad73442118b0975106d0873b8a2c3a117f7d3c513eba",
+                  "championId": "DA_Nidalee18_AP",
+                  "name": "奈德丽",
+                  "stats": {
+                    "winRate": 0.10106681639528356,
+                    "top4Rate": 0.6690061763054463,
+                    "sampleSize": 3562,
+                    "avgPlacement": 3.8001122964626615
+                  },
+                  "items": [
+                    {
+                      "id": "DA_HandOfJustice",
+                      "name": "正义之手"
+                    },
+                    {
+                      "id": "DA_SpearOfShojin",
+                      "name": "朔极之矛"
+                    },
+                    {
+                      "id": "DA_SteraksGage",
+                      "name": "斯特拉克的挑战护手"
+                    }
+                  ],
+                  "citation": "[S2]"
+                }
+              ]
+            },
+            "teammates": {
+              "status": "ok",
+              "kind": "joint_teammates",
+              "reason": null,
+              "rows": [
+                {
+                  "id": "metatft:teammates:de361fc08dca509f9c126552686699c23e467e44afd295f8dae10f2a6c27e620",
+                  "championId": "DA_18_Alune",
+                  "name": "拉露恩",
+                  "stats": {
+                    "winRate": 0.1519445281881218,
+                    "top4Rate": 0.809225203497136,
+                    "sampleSize": 33170,
+                    "avgPlacement": 3.1151040096472715
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:75fb6345dcfc77c39019ba079befbc5aace9c1f07e74a91242bc081d9f1a732f",
+                  "championId": "DA_Brambleback18",
+                  "name": "绯红印记树怪",
+                  "stats": {
+                    "winRate": 0.16217760948774737,
+                    "top4Rate": 0.8047438736872187,
+                    "sampleSize": 13997,
+                    "avgPlacement": 3.1340287204400945
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:537e9d8be02cb4b20418a88142a90aa8904ed01d8bf7d703142b4dd3b2f118db",
+                  "championId": "DA_Lux18_Base",
+                  "name": "拉克丝",
+                  "stats": {
+                    "winRate": 0.17044922788956482,
+                    "top4Rate": 0.7890149742629855,
+                    "sampleSize": 17096,
+                    "avgPlacement": 3.154012634534394
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:3d7302dd16202545684c682d241cd8da82b5ed7fff22a69ce63051f967a9149d",
+                  "championId": "DA_18_Ivern",
+                  "name": "艾翁",
+                  "stats": {
+                    "winRate": 0.17657342657342656,
+                    "top4Rate": 0.7627803231251508,
+                    "sampleSize": 16588,
+                    "avgPlacement": 3.273088979985532
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:47b4c2a54a9c13e599cd3f86b1a016e37f267c412cd48d4ee61438be47f2e9e0",
+                  "championId": "DA_18_ElderDragon",
+                  "name": "远古巨龙",
+                  "stats": {
+                    "winRate": 0.18254976704786108,
+                    "top4Rate": 0.7170690385429903,
+                    "sampleSize": 2361,
+                    "avgPlacement": 3.4227022448115205
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:6630308acde1efe3bcc0a4cdda0c0c9df280368ef70f3e80b7fbc382815db105",
+                  "championId": "DA_18_Kennen",
+                  "name": "凯南",
+                  "stats": {
+                    "winRate": 0.13067639629525682,
+                    "top4Rate": 0.7028346898680887,
+                    "sampleSize": 17815,
+                    "avgPlacement": 3.587145663766489
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:aa8ca239ce10d96a817923dba15f3da00dcae87cd1dfd4bff4d745fa7d56897d",
+                  "championId": "DA_Taric18",
+                  "name": "塔里克",
+                  "stats": {
+                    "winRate": 0.14324557331388024,
+                    "top4Rate": 0.6952052523376882,
+                    "sampleSize": 15079,
+                    "avgPlacement": 3.596790238079448
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:414d982d0286cdd41382b7a7bb8e87d5d4faf95a15c97c3ee029aac26aec1bbf",
+                  "championId": "DA_18_GnarSmall",
+                  "name": "纳尔",
+                  "stats": {
+                    "winRate": 0.14487102579484104,
+                    "top4Rate": 0.6982603479304139,
+                    "sampleSize": 3334,
+                    "avgPlacement": 3.6040791841631674
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:b75bcfb0417c21e884df7eb1c6412b590a45fab4d55bbdf0239f831cdef19a04",
+                  "championId": "DA_Murkwolf18",
+                  "name": "暗影狼",
+                  "stats": {
+                    "winRate": 0.08198239925891616,
+                    "top4Rate": 0.7211672070402965,
+                    "sampleSize": 2159,
+                    "avgPlacement": 3.6535433070866143
+                  },
+                  "citation": "[S3]"
+                },
+                {
+                  "id": "metatft:teammates:dec8f1d8715c29662a1824b1637f35c27a5d7156713c264d8a2caad50c0d2375",
+                  "championId": "DA_18_Ashe",
+                  "name": "艾希",
+                  "stats": {
+                    "winRate": 0.12223478120458582,
+                    "top4Rate": 0.64895850153399,
+                    "sampleSize": 6193,
+                    "avgPlacement": 3.8488616179557567
+                  },
+                  "citation": "[S3]"
+                }
+              ]
+            },
+            "comps": {
+              "status": "ok",
+              "reason": null,
+              "rows": [
+                {
+                  "id": "metatft:comps:f55a2889813341b9e36e1620d3f8be1a63df3421e608d0a39c3a2b09878c0d27",
+                  "name": "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 绯红印记树怪 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.17005988023952096,
+                    "top4Rate": 0.8671989354624086,
+                    "sampleSize": 7515,
+                    "avgPlacement": 2.8847638057218896
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Brambleback18",
+                      "name": "绯红印记树怪",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                },
+                {
+                  "id": "metatft:comps:375e97b2e4186da45c79009a6d42b0a6702caedaaa0ca2111c03947dc764b1de",
+                  "name": "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 拉克丝 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.16927396710790213,
+                    "top4Rate": 0.8531889290012034,
+                    "sampleSize": 2493,
+                    "avgPlacement": 2.935018050541516
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Lux18_Base",
+                      "name": "拉克丝",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                },
+                {
+                  "id": "metatft:comps:69a66755a92999202a0205083dc50b1ada15673d2e693ccf552612466241ecb5",
+                  "name": "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 拉克丝 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.15310586176727908,
+                    "top4Rate": 0.8486439195100612,
+                    "sampleSize": 2286,
+                    "avgPlacement": 2.978127734033246
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Lux18_Base",
+                      "name": "拉克丝",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                },
+                {
+                  "id": "metatft:comps:68d96eefbb8ced46b074691f2e9871fc8ec111ef2f175b57b1280b6b293d3f3d",
+                  "name": "厄斐琉斯 · 黛安娜 · 艾翁 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.15591492353664968,
+                    "top4Rate": 0.8365266303392512,
+                    "sampleSize": 5689,
+                    "avgPlacement": 3.027421339426964
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Ivern",
+                      "name": "艾翁",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                },
+                {
+                  "id": "metatft:comps:9d9acfb0796dc22c71e77a587fd02477dd80732395e346c61526d181ff85f12a",
+                  "name": "拉露恩 · 厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.13399736891561737,
+                    "top4Rate": 0.832487627638915,
+                    "sampleSize": 15963,
+                    "avgPlacement": 3.072668044853724
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Alune",
+                      "name": "拉露恩",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                },
+                {
+                  "id": "metatft:comps:41963bd9c4fa666864e0a20e77a4137c35ec4bfb1e57bf32d968e27acae40a21",
+                  "name": "拉露恩 · 厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.10572337042925278,
+                    "top4Rate": 0.8402225755166932,
+                    "sampleSize": 1258,
+                    "avgPlacement": 3.079491255961844
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Alune",
+                      "name": "拉露恩",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                },
+                {
+                  "id": "metatft:comps:cae949ccb053dc1c792ecc95ba488cd722ef777f017abc379a0bde012853263c",
+                  "name": "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 塔里克 · 蔚",
+                  "stats": {
+                    "winRate": 0.13861055444221776,
+                    "top4Rate": 0.8226452905811623,
+                    "sampleSize": 2994,
+                    "avgPlacement": 3.0861723446893787
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Taric18",
+                      "name": "塔里克",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                },
+                {
+                  "id": "metatft:comps:5237941f56fb1caa01145ea153f1049f4831eb5d155e87f4d61b8fb4ede603e9",
+                  "name": "厄斐琉斯 · 黛安娜 · 凯南 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.11226827744219954,
+                    "top4Rate": 0.8019162674442825,
+                    "sampleSize": 4801,
+                    "avgPlacement": 3.2353676317433866
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Kennen",
+                      "name": "凯南",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                },
+                {
+                  "id": "metatft:comps:10f3abc60192db76e7fbdacb4b00b855cec97e314186007cc393ba8287162940",
+                  "name": "厄斐琉斯 · 黛安娜 · 茂凯 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.11844660194174755,
+                    "top4Rate": 0.7310679611650486,
+                    "sampleSize": 1030,
+                    "avgPlacement": 3.495145631067961
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Maokai",
+                      "name": "茂凯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                },
+                {
+                  "id": "metatft:comps:ac013973bcaa914c0316ee32deba6c119567983096ec619b01e515f522fa49dd",
+                  "name": "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚",
+                  "stats": {
+                    "winRate": 0.06333630686886708,
+                    "top4Rate": 0.5260184359203093,
+                    "sampleSize": 3363,
+                    "avgPlacement": 4.414808206958073
+                  },
+                  "units": [
+                    {
+                      "id": "DA_18_Aphelios",
+                      "name": "厄斐琉斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Diana",
+                      "name": "黛安娜",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_18_Varus",
+                      "name": "韦鲁斯",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Amumu18",
+                      "name": "阿木木",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_KogMaw18_AD",
+                      "name": "克格莫",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Nidalee18_AP",
+                      "name": "奈德丽",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Sentinel18",
+                      "name": "苍蓝雕纹魔像",
+                      "items": []
+                    },
+                    {
+                      "id": "DA_Vi18",
+                      "name": "蔚",
+                      "items": []
+                    }
+                  ],
+                  "citation": "[S4]"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "Model interpretation is not exhaustively validated. Unsupported predicates must be clarified or rejected.",
+    "Filter trait intersections, rank/region switching and other unsupported page dimensions were not added.",
+    "Statistics responses do not echo patch; requestedPatch and sourcePatch remain separate.",
+    "Public MetaTFT endpoints have no guaranteed stability; source candidate sets may be truncated.",
+    "Browser chat history is not persisted across reloads; the opened filter query is persisted in URL.",
+    "No paid embedding or Milvus reindex was performed; statistics use the existing MySQL service."
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "verifiedAt": "2026-10-11T06:13:27.104Z",
+  "modelCalled": false,
+  "embeddingCalled": false,
+  "application": {
+    "url": "http://127.0.0.1:3001",
+    "healthy": true,
+    "image": "sha256:480ffd067ab592ce8f759d75463e0bae45bfc0e78cd326b55045dfd40835f887",
+    "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b"
+  },
+  "unitTests": {
+    "passed": 427,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0
+  },
+  "collection": {
+    "target": 2556,
+    "success": 2555,
+    "statisticRows": 383152,
+    "rawResponseBodies": 2603,
+    "rawBytes": 69444927,
+    "complete": false,
+    "exhaustive": false,
+    "failures": [
+      {
+        "rank": "ALL",
+        "kind": "builds",
+        "id": "DA_Sentinel18",
+        "code": "METATFT_UNAVAILABLE"
+      }
+    ]
+  },
+  "contentIntegrity": {
+    "storedDatasetsVerified": 2555,
+    "bodyOrMetricMismatches": 0
+  },
+  "databaseArchitecture": {
+    "tables": 22,
+    "migrations": 7,
+    "foreignKeys": 18,
+    "orphanRows": 0,
+    "passed": true
+  },
+  "rankApi": {
+    "passed": true,
+    "scopes": 12
+  },
+  "browser": [
+    {
+      "file": "metatft-ranks-browser/gold-radiant-search.txt",
+      "verifiedText": [
+        "黄金",
+        "光明版无尽之刃",
+        "15,104"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/gold-radiant-holders.txt",
+      "verifiedText": [
+        "黄金",
+        "远古巨龙",
+        "1,823"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/gold-builds-all.txt",
+      "verifiedText": [
+        "249",
+        "光明装备"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/gold-builds-no-radiant.txt",
+      "verifiedText": [
+        "245"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/detail-refresh-restored.txt",
+      "verifiedText": [
+        "王者",
+        "488"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/filter-refresh-all-rows.txt",
+      "verifiedText": [
+        "黄金",
+        "503",
+        "任意英雄携带"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/gold-radiant-bound-amumu.txt",
+      "verifiedText": [
+        "阿木木携带",
+        "0 份统计样本",
+        "没有同时满足全部条件"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/remove-holder-condition.txt",
+      "verifiedText": [
+        "任意英雄携带",
+        "2922"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/gold-components.txt",
+      "verifiedText": [
+        "基础散件",
+        "暴风大剑",
+        "203,213"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/gold-component-holders.txt",
+      "verifiedText": [
+        "黄金",
+        "暴风大剑",
+        "2,715"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/home-challenger-search.txt",
+      "verifiedText": [
+        "王者",
+        "大龙",
+        "4 / 50"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/home-rank-refresh.txt",
+      "verifiedText": [
+        "王者",
+        "50 / 50"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/source-500-all-sentinel.txt",
+      "verifiedText": [
+        "全部段位",
+        "HTTP 500",
+        "重试"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/gold-sentinel-recovered.txt",
+      "verifiedText": [
+        "黄金",
+        "332",
+        "完整出装"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/old-page-inventory-compatible.txt",
+      "verifiedText": [
+        "数据库统计快照",
+        "204",
+        "MySQL"
+      ],
+      "passed": true
+    },
+    {
+      "file": "metatft-ranks-browser/developer-partitioned-inventory.txt",
+      "verifiedText": [
+        "MetaTFT 统计数据库",
+        "390,604",
+        "发布包历史统计快照（不含 MetaTFT）"
+      ],
+      "passed": true
+    }
+  ],
+  "restrictions": [
+    "MetaTFT ALL/DA_Sentinel18 builds returns HTTP 500; collection is not complete.",
+    "Returned candidates are not an exhaustive set of all possible builds or raw matches.",
+    "Raw statistics do not declare a patch; requested patch and metadata remain separate.",
+    "Existing Riot worker reports a failed job; no Riot repair or new collection was performed here.",
+    "New batch, scope, head and archival tables in the architecture document are a proposal, not deployed migrations."
+  ],
+  "evidence": [
+    "METATFT_COVERAGE_AUDIT.json",
+    "DATABASE_ARCHITECTURE_AUDIT.json",
+    "METATFT_RANKS_API_VALIDATION.json",
+    "STORAGE_RUNTIME_VALIDATION.json",
+    "metatft-ranks-browser/database-partitions.png"
+  ]
+}

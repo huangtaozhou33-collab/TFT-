@@ -1,0 +1,205 @@
+name: tft-workbench
+
+services:
+  app:
+    build: .
+    image: tft-workbench:4.0.0
+    init: true
+    restart: unless-stopped
+    environment:
+      HOST: 0.0.0.0
+      PORT: "3000"
+      PUBLIC_PORT: "${TFT_PORT:-3001}"
+      STORAGE_BACKEND: mysql
+      MYSQL_HOST: mysql
+      MYSQL_PORT: "3306"
+      MYSQL_USER: tft
+      MYSQL_DATABASE: tft
+      MYSQL_PASSWORD: "${MYSQL_PASSWORD:?Run start-docker.ps1 to create .env.docker}"
+      REDIS_URL: "redis://:${REDIS_PASSWORD:?Set REDIS_PASSWORD}@redis:6379/0"
+      MILVUS_URL: "${MILVUS_URL:-}"
+      MILVUS_TOKEN: "${MILVUS_TOKEN:-}"
+      CURRENT_GAME_PATCH: "${CURRENT_GAME_PATCH:-}"
+      AI_API_KEY: "${AI_API_KEY:-}"
+      AI_PROVIDER: "${AI_PROVIDER:-deepseek}"
+      OPENAI_API_KEY: "${OPENAI_API_KEY:-}"
+      QWEN_API_KEY: "${QWEN_API_KEY:-}"
+      ANTHROPIC_API_KEY: "${ANTHROPIC_API_KEY:-}"
+      KIMI_API_KEY: "${KIMI_API_KEY:-}"
+      OPENAI_BASE_URL: "${OPENAI_BASE_URL:-}"
+      QWEN_BASE_URL: "${QWEN_BASE_URL:-}"
+      ANTHROPIC_BASE_URL: "${ANTHROPIC_BASE_URL:-}"
+      KIMI_BASE_URL: "${KIMI_BASE_URL:-}"
+      DEEPSEEK_BASE_URL: "${DEEPSEEK_BASE_URL:-}"
+      DEEPSEEK_API_KEY: "${DEEPSEEK_API_KEY:-}"
+      EMBEDDING_PROVIDER: "${EMBEDDING_PROVIDER:-compatible}"
+      OPENAI_EMBEDDING_API_KEY: "${OPENAI_EMBEDDING_API_KEY:-}"
+      QWEN_EMBEDDING_API_KEY: "${QWEN_EMBEDDING_API_KEY:-}"
+      OPENAI_EMBEDDING_BASE_URL: "${OPENAI_EMBEDDING_BASE_URL:-}"
+      QWEN_EMBEDDING_BASE_URL: "${QWEN_EMBEDDING_BASE_URL:-}"
+      AI_THINKING_BUDGET: "${AI_THINKING_BUDGET:-4096}"
+      AI_BASE_URL: "${AI_BASE_URL:-}"
+      AI_MODEL: "${AI_MODEL:-}"
+      AI_THINKING: "${AI_THINKING:-enabled}"
+      AI_REASONING_EFFORT: "${AI_REASONING_EFFORT:-high}"
+      AI_MAX_TOKENS: "${AI_MAX_TOKENS:-8192}"
+      AI_MAX_TOOL_CALLS: "${AI_MAX_TOOL_CALLS:-12}"
+      AI_MAX_ROUNDS: "${AI_MAX_ROUNDS:-8}"
+      AI_REQUEST_TIMEOUT_MS: "${AI_REQUEST_TIMEOUT_MS:-120000}"
+      AI_TURN_TIMEOUT_MS: "${AI_TURN_TIMEOUT_MS:-240000}"
+      RIOT_API_KEY: "${RIOT_API_KEY:-}"
+      RIOT_REGION: "${RIOT_REGION:-asia}"
+      EMBEDDING_BASE_URL: "${EMBEDDING_BASE_URL:-}"
+      EMBEDDING_API_KEY: "${EMBEDDING_API_KEY:-}"
+      EMBEDDING_MODEL: "${EMBEDDING_MODEL:-}"
+      EMBEDDING_DIMENSIONS: "${EMBEDDING_DIMENSIONS:-0}"
+      KNOWLEDGE_MIN_VECTOR_SCORE: "${KNOWLEDGE_MIN_VECTOR_SCORE:-0.5}"
+    ports:
+      - "127.0.0.1:${TFT_PORT:-3001}:3000"
+    volumes:
+      - model-settings:/app/runtime
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      start_period: 120s
+      retries: 5
+
+  # Explicit opt-in. Persists checkpoints in MySQL and shares its budget in Redis.
+  riot-worker:
+    build: .
+    image: tft-workbench:4.0.0
+    profiles: [riot]
+    init: true
+    restart: unless-stopped
+    command: ["node", "scripts/riot-worker.mjs", "--allow-provider"]
+    environment:
+      STORAGE_BACKEND: mysql
+      MYSQL_HOST: mysql
+      MYSQL_PORT: "3306"
+      MYSQL_USER: tft
+      MYSQL_DATABASE: tft
+      MYSQL_PASSWORD: "${MYSQL_PASSWORD:?Set MYSQL_PASSWORD}"
+      REDIS_URL: "redis://:${REDIS_PASSWORD:?Set REDIS_PASSWORD}@redis:6379/0"
+      RIOT_API_KEY: "${RIOT_API_KEY:-}"
+      RIOT_REGION: "${RIOT_REGION:-asia}"
+      CURRENT_GAME_PATCH: "${CURRENT_GAME_PATCH:-}"
+      RIOT_COLLECTION_INTERVAL_HOURS: "${RIOT_COLLECTION_INTERVAL_HOURS:-24}"
+      RIOT_COLLECTION_MAX_MATCHES: "${RIOT_COLLECTION_MAX_MATCHES:-25}"
+      RIOT_COLLECTION_SEEDS: "${RIOT_COLLECTION_SEEDS:-3}"
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      app:
+        condition: service_healthy
+
+  mysql:
+    image: mysql:8.4.11
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: tft
+      MYSQL_USER: tft
+      MYSQL_PASSWORD: "${MYSQL_PASSWORD:?Set MYSQL_PASSWORD}"
+      MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD:?Set MYSQL_ROOT_PASSWORD}"
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "MYSQL_PWD=\"$$MYSQL_PASSWORD\" mysql --protocol=TCP --host=127.0.0.1 --user=tft --database=tft --execute='SELECT 1' --silent"]
+      interval: 10s
+      timeout: 5s
+      start_period: 60s
+      retries: 15
+
+  redis:
+    image: redis:7.4.11-alpine
+    restart: unless-stopped
+    environment:
+      REDIS_PASSWORD: "${REDIS_PASSWORD:?Set REDIS_PASSWORD}"
+    command: ["sh", "-c", "exec redis-server --appendonly yes --requirepass \"$$REDIS_PASSWORD\""]
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "REDISCLI_AUTH=\"$$REDIS_PASSWORD\" redis-cli ping | grep -q PONG"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  # Matching versions and settings from the official v2.6.24 release asset:
+  # https://github.com/milvus-io/milvus/releases/download/v2.6.24/milvus-standalone-docker-compose.yml
+  # start-docker.ps1 -Rag enables these services and supplies MILVUS_URL to app.
+  etcd:
+    image: quay.io/coreos/etcd:v3.5.25
+    profiles: [rag]
+    restart: unless-stopped
+    environment:
+      ETCD_AUTO_COMPACTION_MODE: revision
+      ETCD_AUTO_COMPACTION_RETENTION: "1000"
+      ETCD_QUOTA_BACKEND_BYTES: "4294967296"
+      ETCD_SNAPSHOT_COUNT: "50000"
+    command: ["etcd", "-advertise-client-urls=http://etcd:2379", "-listen-client-urls", "http://0.0.0.0:2379", "--data-dir", "/etcd"]
+    volumes:
+      - etcd-data:/etcd
+    healthcheck:
+      test: ["CMD", "etcdctl", "endpoint", "health"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+
+  minio:
+    image: milvusdb/minio:RELEASE.2024-12-18T13-15-44Z
+    profiles: [rag]
+    restart: unless-stopped
+    environment:
+      MINIO_ROOT_USER: tftminio
+      MINIO_ROOT_PASSWORD: "${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD}"
+    command: ["minio", "server", "/minio_data", "--console-address", ":9001"]
+    volumes:
+      - minio-data:/minio_data
+    healthcheck:
+      test: ["CMD-SHELL", "mc alias set health http://127.0.0.1:9000 \"$$MINIO_ROOT_USER\" \"$$MINIO_ROOT_PASSWORD\" >/dev/null && mc ready health"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+
+  milvus:
+    image: milvusdb/milvus:v2.6.24
+    profiles: [rag]
+    restart: unless-stopped
+    command: ["milvus", "run", "standalone"]
+    security_opt:
+      - seccomp:unconfined
+    environment:
+      ETCD_ENDPOINTS: etcd:2379
+      MINIO_ADDRESS: minio:9000
+      MINIO_ACCESS_KEY_ID: tftminio
+      MINIO_SECRET_ACCESS_KEY: "${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD}"
+      MQ_TYPE: woodpecker
+    volumes:
+      - milvus-data:/var/lib/milvus
+    depends_on:
+      etcd:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
+      interval: 30s
+      start_period: 90s
+      timeout: 20s
+      retries: 5
+
+volumes:
+  model-settings:
+  mysql-data:
+  redis-data:
+  etcd-data:
+  minio-data:
+  milvus-data:

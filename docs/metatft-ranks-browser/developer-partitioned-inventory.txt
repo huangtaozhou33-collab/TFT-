@@ -1,0 +1,657 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 开发者模式
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - paragraph: DEVELOPER CONSOLE
+  - heading "开发者模式" [level=1]
+  - paragraph: 核对数据、检索结果与回答来源。当前操作均为本地只读预览。
+  - button "刷新本地资料"
+  - generic: 只读模式
+  - navigation "开发者工具":
+    - button "▦ 数据资产总览"
+    - button "▤ 来源记录与字段"
+    - button "⌕ 检索调试器"
+    - button "⌘ 回答证据链"
+    - button "↻ 更新与发布"
+  - generic: 当前赛季 18
+  - generic: 资源版本 16.20
+  - generic: 规则版本 set18-assets16.20-recipes18.4-v4
+  - code: tft-set18-assets16.20-5fedf1ff9cba
+  - generic: 英雄与形态 74
+  - generic: 装备 137
+  - generic: 羁绊 35
+  - generic: 强化符文 249
+  - generic: 赛季玩法 349
+  - heading "当前 RAG 知识库" [level=2]
+  - generic: 知识文档
+  - strong: "832"
+  - generic: 当前可检索文档
+  - strong: "787"
+  - generic: 知识片段
+  - strong: "940"
+  - generic: Milvus 已索引片段
+  - strong: "869"
+  - paragraph: 文档与片段是当前数据库发布的实际计数；当前补丁资料及通用术语共 869 个片段符合检索条件。通用术语不代表该补丁的数值规则。Milvus 数量来自索引状态，索引记录数不等于本次回答引用数。
+  - heading "存储与索引" [level=2]
+  - strong: MySQL
+  - generic: 当前业务读取方式
+  - strong: MySQL
+  - generic: 就绪
+  - strong: Milvus
+  - generic: 已连接
+  - strong: Redis
+  - generic: 就绪
+  - strong: Embedding
+  - generic: 已配置
+  - term: 当前数据库发布
+  - definition: 0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b
+  - term: 当前查询补丁
+  - definition: "18.4"
+  - term: 初始资料补丁
+  - definition: "18.4"
+  - term: 向量索引
+  - definition:
+    - generic: 已构建
+  - term: 已索引片段
+  - definition: "869"
+  - term: 发布包历史统计快照（不含 MetaTFT）
+  - definition: "204"
+  - term: 来源声明版本
+  - definition: "2"
+  - term: 当前补丁推定归属
+  - definition: "201"
+  - term: 当前查询不可用
+  - definition: "1"
+  - paragraph: 推定归属依据采集日期和补丁日历，不等于来源声明；原始版本字段保持原样，归属依据单独记录。
+  - paragraph: 下方来源包清单扫描随应用附带的 JSON 资产；上方连接与索引状态来自运行中的存储服务。
+  - heading "MetaTFT 统计数据库" [level=2]
+  - generic: 目录统计快照
+  - strong: 2,584
+  - generic: 目录统计记录
+  - strong: 390,604
+  - generic: 组合查询快照
+  - strong: "46"
+  - generic: 组合查询记录
+  - strong: 23,457
+  - term: 目录查询键
+  - definition: "2567"
+  - term: 未过期目录快照
+  - definition: "2567"
+  - term: 组合查询键
+  - definition: "43"
+  - term: 未过期组合快照
+  - definition: "5"
+  - term: 统计时间
+  - definition: 2026/10/11 17:10
+  - paragraph: 快照数包含当前发布保留的历史采集；未过期不等于当前补丁或完整覆盖。记录数不是比赛数或样本数，目录覆盖须另按补丁、段位与适配器版本核验。
+  - paragraph: 阵容首页、大数据、筛选器和自然语言统计查询共用 MetaTFT 服务。目录快照保鲜 6 小时，组合查询保鲜 10 分钟；过期后保留审计记录，不会自动删除或混入当前结果。
+  - heading "Riot 比赛数据库" [level=2]
+  - term: 状态
+  - definition:
+    - generic: 就绪
+  - term: 当前补丁
+  - definition: "18.4"
+  - term: 赛季
+  - definition: "18"
+  - term: 最近采集
+  - definition: 2026/10/10 03:15
+  - generic: 已入库比赛
+  - strong: "87"
+  - generic: 当前可查询比赛
+  - strong: "36"
+  - generic: 当前玩家终局
+  - strong: "288"
+  - generic: 待核验比赛
+  - strong: "51"
+  - paragraph: 其他补丁比赛 0 场。比赛数、玩家终局数与 RAG 文档数量分别统计。未知或无法归属当前版本的比赛不会进入当前筛选结果。
+  - term: 最近采集任务
+  - definition:
+    - generic: 失败
+  - term: 任务状态更新时间
+  - definition: 2026/10/11 15:08
+  - term: 待处理比赛
+  - definition: "4"
+  - term: 定时采集
+  - definition:
+    - generic: 失败
+  - term: 最近运行
+  - definition: 2026/10/11 15:08
+  - term: 下次运行
+  - definition: 2026/10/12 15:08
+  - generic "最近入库与核验记录 · 12 条"
+  - generic "待补充装备映射 · 2 个 ID"
+  - heading "来源资产归档 · 含历史修订" [level=2]
+  - generic: 来源包
+  - strong: "20"
+  - generic: 来源记录（含历史）
+  - strong: 5,348
+  - generic: 当前工具映射记录
+  - strong: 1,935
+  - generic: 来源校验失败
+  - strong: "0"
+  - paragraph: 这些是 JSON 来源包按实体和规则生成的展示记录，包含留存修订；不是独立文章，也不是 RAG 文档或向量数量。工具映射只表示目录层有读取入口，运行时仍会检查来源、补丁和统计能力。
+  - generic "数据表，窄屏可横向滚动":
+    - table:
+      - rowgroup:
+        - row "记录用途 / 留存原因 数量":
+          - columnheader "记录用途 / 留存原因"
+          - columnheader "数量"
+      - rowgroup:
+        - row "当前来源记录 · 已映射工具 1,935":
+          - cell "当前来源记录 · 已映射工具"
+          - cell "1,935"
+        - row "历史修订 · 保留供追溯 3,312":
+          - cell "历史修订 · 保留供追溯"
+          - cell "3,312"
+        - row "阵容码编号 · 不参与知识问答 75":
+          - cell "阵容码编号 · 不参与知识问答"
+          - cell "75"
+        - row "参考版本或冲突规则 7":
+          - cell "参考版本或冲突规则"
+          - cell "7"
+        - row "专家评级 · 尚未匹配实体 13":
+          - cell "专家评级 · 尚未匹配实体"
+          - cell "13"
+        - row "法杖条件 · 实体身份未核实 6":
+          - cell "法杖条件 · 实体身份未核实"
+          - cell "6"
+  - paragraph: 1 个来源包的本机快照未提供或不可读。Docker 镜像未打包原始 OP.GG 快照；这与 MySQL 中已导入的资料是两条独立检查。
+  - heading "来源包与快照" [level=2]
+  - searchbox "搜索开发资料"
+  - generic: 版本
+  - combobox "版本":
+    - option "全部版本" [selected]
+    - option "tft-set18-assets16.20-5fedf1ff9cba"
+  - generic: 来源
+  - combobox "来源":
+    - option "全部来源" [selected]
+    - option "CommunityDragon · PC Team Planner"
+    - option "CommunityDragon + OP.GG recipes"
+    - option "Little Buddy Bot · 中文核验"
+    - option "Little Buddy Bot + Riot Games"
+    - option "MetaTFT · Spencer"
+    - option "OP.GG MCP"
+    - option "Tactics.tools"
+    - option "Tactics.tools + CommunityDragon"
+  - generic: 状态
+  - combobox "状态":
+    - option "全部状态" [selected]
+    - option "本机快照不可读"
+    - option "就绪"
+    - option "留存修订"
+  - generic: 赛季
+  - combobox "赛季":
+    - option "全部赛季" [selected]
+    - option "18"
+  - generic: 补丁
+  - combobox "补丁":
+    - option "全部补丁" [selected]
+    - option "18.4"
+    - option "未知"
+  - button "筛选"
+  - button "重置"
+  - generic "数据表，窄屏可横向滚动":
+    - table:
+      - rowgroup:
+        - row "数据资产 来源 / 补丁 版本 / 赛季 状态 校验 / 检索 指纹":
+          - columnheader "数据资产"
+          - columnheader "来源 / 补丁"
+          - columnheader "版本 / 赛季"
+          - columnheader "状态"
+          - columnheader "校验 / 检索"
+          - columnheader "指纹"
+      - rowgroup:
+        - row "当前赛季静态目录 catalog CommunityDragon + OP.GG recipes 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 就绪 结构有效 · 无哈希记录 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：search_catalog 51a2071704889055cbdbce83135c629ef6505b179e6bb78152fc96065556acca":
+          - cell "当前赛季静态目录 catalog":
+            - strong: 当前赛季静态目录
+            - generic: catalog
+            - generic "查看记录数量"
+          - cell "CommunityDragon + OP.GG recipes 补丁 未知":
+            - text: CommunityDragon + OP.GG recipes
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "就绪":
+            - generic: 就绪
+          - cell "结构有效 · 无哈希记录 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：search_catalog":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 已映射工具
+            - paragraph: 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+            - generic: 允许工具：search_catalog
+          - cell "51a2071704889055cbdbce83135c629ef6505b179e6bb78152fc96065556acca":
+            - code: 51a2071704889055cbdbce83135c629ef6505b179e6bb78152fc96065556acca
+        - row "OP.GG 统计快照 stats OP.GG MCP 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 本机快照不可读 本机快照不可读 本机快照不可读 本机来源快照未提供或不可读；Docker 镜像不打包原始 OP.GG 快照。这不是数据库损坏结论，数据库发布与索引状态请看存储面板。 2d36d38fb5e07a38315a439c76f84b2feb8e077036a739f02b401650d522a605":
+          - cell "OP.GG 统计快照 stats":
+            - strong: OP.GG 统计快照
+            - generic: stats
+            - generic "查看记录数量"
+          - cell "OP.GG MCP 补丁 未知":
+            - text: OP.GG MCP
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "本机快照不可读":
+            - generic: 本机快照不可读
+          - cell "本机快照不可读 本机快照不可读 本机来源快照未提供或不可读；Docker 镜像不打包原始 OP.GG 快照。这不是数据库损坏结论，数据库发布与索引状态请看存储面板。":
+            - generic: 本机快照不可读
+            - generic: 本机快照不可读
+            - paragraph: 本机来源快照未提供或不可读；Docker 镜像不打包原始 OP.GG 快照。这不是数据库损坏结论，数据库发布与索引状态请看存储面板。
+          - cell "2d36d38fb5e07a38315a439c76f84b2feb8e077036a739f02b401650d522a605":
+            - code: 2d36d38fb5e07a38315a439c76f84b2feb8e077036a739f02b401650d522a605
+        - row "羁绊档位统计 traits Tactics.tools 补丁 18.4 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 就绪 哈希校验通过 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：get_trait_stats 8db495dd003ab8074d831dfbefdd55385ad819689f45fa2dabc010e13ade4b8f":
+          - cell "羁绊档位统计 traits":
+            - strong: 羁绊档位统计
+            - generic: traits
+            - generic "查看记录数量"
+          - cell "Tactics.tools 补丁 18.4":
+            - text: Tactics.tools
+            - generic: 补丁 18.4
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "就绪":
+            - generic: 就绪
+          - cell "哈希校验通过 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：get_trait_stats":
+            - generic: 哈希校验通过
+            - generic: 已映射工具
+            - paragraph: 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+            - generic: 允许工具：get_trait_stats
+          - cell "8db495dd003ab8074d831dfbefdd55385ad819689f45fa2dabc010e13ade4b8f":
+            - code: 8db495dd003ab8074d831dfbefdd55385ad819689f45fa2dabc010e13ade4b8f
+        - row "弈子与装备整体统计 explorer Tactics.tools 补丁 18.4 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 就绪 哈希校验通过 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：get_explorer_stats 0d71a8a3dcb4414f979d55f052a9c3db8ae948ac4b344227788a4d1bba515511":
+          - cell "弈子与装备整体统计 explorer":
+            - strong: 弈子与装备整体统计
+            - generic: explorer
+            - generic "查看记录数量"
+          - cell "Tactics.tools 补丁 18.4":
+            - text: Tactics.tools
+            - generic: 补丁 18.4
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "就绪":
+            - generic: 就绪
+          - cell "哈希校验通过 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：get_explorer_stats":
+            - generic: 哈希校验通过
+            - generic: 已映射工具
+            - paragraph: 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+            - generic: 允许工具：get_explorer_stats
+          - cell "0d71a8a3dcb4414f979d55f052a9c3db8ae948ac4b344227788a4d1bba515511":
+            - code: 0d71a8a3dcb4414f979d55f052a9c3db8ae948ac4b344227788a4d1bba515511
+        - row "赛季法杖图鉴与规则 mechanics Tactics.tools + CommunityDragon 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 就绪 哈希校验通过 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：get_season_mechanic be2e6306915378f7132aace2a6daeda474722bdc5fb78f938d1e8d7a531398aa":
+          - cell "赛季法杖图鉴与规则 mechanics":
+            - strong: 赛季法杖图鉴与规则
+            - generic: mechanics
+            - generic "查看记录数量"
+          - cell "Tactics.tools + CommunityDragon 补丁 未知":
+            - text: Tactics.tools + CommunityDragon
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "就绪":
+            - generic: 就绪
+          - cell "哈希校验通过 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：get_season_mechanic":
+            - generic: 哈希校验通过
+            - generic: 已映射工具
+            - paragraph: 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+            - generic: 允许工具：get_season_mechanic
+          - cell "be2e6306915378f7132aace2a6daeda474722bdc5fb78f938d1e8d7a531398aa":
+            - code: be2e6306915378f7132aace2a6daeda474722bdc5fb78f938d1e8d7a531398aa
+        - row "赛季法杖图鉴与规则 mechanics Tactics.tools + CommunityDragon 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 留存修订 结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。 b926c802cdfc49a5c0cfc491dd016c8baefe7cb92aa5363e20cfafcdd1e659bf":
+          - cell "赛季法杖图鉴与规则 mechanics":
+            - strong: 赛季法杖图鉴与规则
+            - generic: mechanics
+            - generic "查看记录数量"
+          - cell "Tactics.tools + CommunityDragon 补丁 未知":
+            - text: Tactics.tools + CommunityDragon
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "留存修订":
+            - generic: 留存修订
+          - cell "结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 仅供查看
+            - paragraph: 不是当前生效清单指向的修订，仅供查看。
+          - cell "b926c802cdfc49a5c0cfc491dd016c8baefe7cb92aa5363e20cfafcdd1e659bf":
+            - code: b926c802cdfc49a5c0cfc491dd016c8baefe7cb92aa5363e20cfafcdd1e659bf
+        - row "赛季法杖图鉴与规则 mechanics Tactics.tools + CommunityDragon 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 留存修订 结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。 125588214bcf3c10e6e49e38b37e4f79fc3a7004eb7bfa6f9b87fbb6404f52d7":
+          - cell "赛季法杖图鉴与规则 mechanics":
+            - strong: 赛季法杖图鉴与规则
+            - generic: mechanics
+            - generic "查看记录数量"
+          - cell "Tactics.tools + CommunityDragon 补丁 未知":
+            - text: Tactics.tools + CommunityDragon
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "留存修订":
+            - generic: 留存修订
+          - cell "结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 仅供查看
+            - paragraph: 不是当前生效清单指向的修订，仅供查看。
+          - cell "125588214bcf3c10e6e49e38b37e4f79fc3a7004eb7bfa6f9b87fbb6404f52d7":
+            - code: 125588214bcf3c10e6e49e38b37e4f79fc3a7004eb7bfa6f9b87fbb6404f52d7
+        - row "法杖出现条件 conditions Little Buddy Bot + Riot Games 补丁 18.4 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 就绪 哈希校验通过 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：get_season_mechanic f7e680ad839db5a9c4a556fe492f05fba6f60670fbd0ffcb9b43ced7571ada3e":
+          - cell "法杖出现条件 conditions":
+            - strong: 法杖出现条件
+            - generic: conditions
+            - generic "查看记录数量"
+          - cell "Little Buddy Bot + Riot Games 补丁 18.4":
+            - text: Little Buddy Bot + Riot Games
+            - generic: 补丁 18.4
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "就绪":
+            - generic: 就绪
+          - cell "哈希校验通过 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：get_season_mechanic":
+            - generic: 哈希校验通过
+            - generic: 已映射工具
+            - paragraph: 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+            - generic: 允许工具：get_season_mechanic
+          - cell "f7e680ad839db5a9c4a556fe492f05fba6f60670fbd0ffcb9b43ced7571ada3e":
+            - code: f7e680ad839db5a9c4a556fe492f05fba6f60670fbd0ffcb9b43ced7571ada3e
+        - row "法杖出现条件 conditions Little Buddy Bot + Riot Games 补丁 18.4 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 留存修订 结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。 ed38386bf5c1121c03e0f6517961a05bd215817a7a4baee01c7e95a8ce1c3202":
+          - cell "法杖出现条件 conditions":
+            - strong: 法杖出现条件
+            - generic: conditions
+            - generic "查看记录数量"
+          - cell "Little Buddy Bot + Riot Games 补丁 18.4":
+            - text: Little Buddy Bot + Riot Games
+            - generic: 补丁 18.4
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "留存修订":
+            - generic: 留存修订
+          - cell "结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 仅供查看
+            - paragraph: 不是当前生效清单指向的修订，仅供查看。
+          - cell "ed38386bf5c1121c03e0f6517961a05bd215817a7a4baee01c7e95a8ce1c3202":
+            - code: ed38386bf5c1121c03e0f6517961a05bd215817a7a4baee01c7e95a8ce1c3202
+        - row "法杖出现条件 conditions Little Buddy Bot + Riot Games 补丁 18.4 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 留存修订 结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。 855b7f6a86fabc700c6c819dc5526e40728e1b438c5206498f22c30c2225b571":
+          - cell "法杖出现条件 conditions":
+            - strong: 法杖出现条件
+            - generic: conditions
+            - generic "查看记录数量"
+          - cell "Little Buddy Bot + Riot Games 补丁 18.4":
+            - text: Little Buddy Bot + Riot Games
+            - generic: 补丁 18.4
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "留存修订":
+            - generic: 留存修订
+          - cell "结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 仅供查看
+            - paragraph: 不是当前生效清单指向的修订，仅供查看。
+          - cell "855b7f6a86fabc700c6c819dc5526e40728e1b438c5206498f22c30c2225b571":
+            - code: 855b7f6a86fabc700c6c819dc5526e40728e1b438c5206498f22c30c2225b571
+        - row "法杖出现条件 conditions Little Buddy Bot + Riot Games 补丁 18.4 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 留存修订 结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。 0f2022bcb5031e3fdd7c2426024ab1d4f0e2e5ebdf888f2e21af82d509e45ebf":
+          - cell "法杖出现条件 conditions":
+            - strong: 法杖出现条件
+            - generic: conditions
+            - generic "查看记录数量"
+          - cell "Little Buddy Bot + Riot Games 补丁 18.4":
+            - text: Little Buddy Bot + Riot Games
+            - generic: 补丁 18.4
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "留存修订":
+            - generic: 留存修订
+          - cell "结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 仅供查看
+            - paragraph: 不是当前生效清单指向的修订，仅供查看。
+          - cell "0f2022bcb5031e3fdd7c2426024ab1d4f0e2e5ebdf888f2e21af82d509e45ebf":
+            - code: 0f2022bcb5031e3fdd7c2426024ab1d4f0e2e5ebdf888f2e21af82d509e45ebf
+        - row "中文机制与海克斯奖励 library Little Buddy Bot · 中文核验 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 就绪 哈希校验通过 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：get_library_knowledge a871151807da42fd62fe18707679c5288381746e824bb6561f80f4790af5cd3e":
+          - cell "中文机制与海克斯奖励 library":
+            - strong: 中文机制与海克斯奖励
+            - generic: library
+            - generic "查看记录数量"
+          - cell "Little Buddy Bot · 中文核验 补丁 未知":
+            - text: Little Buddy Bot · 中文核验
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "就绪":
+            - generic: 就绪
+          - cell "哈希校验通过 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：get_library_knowledge":
+            - generic: 哈希校验通过
+            - generic: 已映射工具
+            - paragraph: 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+            - generic: 允许工具：get_library_knowledge
+          - cell "a871151807da42fd62fe18707679c5288381746e824bb6561f80f4790af5cd3e":
+            - code: a871151807da42fd62fe18707679c5288381746e824bb6561f80f4790af5cd3e
+        - row "中文机制与海克斯奖励 library Little Buddy Bot · 中文核验 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 留存修订 结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。 6c9605cca335fad1c660038490c2918e63788e473c36abf81be8a84351d55de6":
+          - cell "中文机制与海克斯奖励 library":
+            - strong: 中文机制与海克斯奖励
+            - generic: library
+            - generic "查看记录数量"
+          - cell "Little Buddy Bot · 中文核验 补丁 未知":
+            - text: Little Buddy Bot · 中文核验
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "留存修订":
+            - generic: 留存修订
+          - cell "结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 仅供查看
+            - paragraph: 不是当前生效清单指向的修订，仅供查看。
+          - cell "6c9605cca335fad1c660038490c2918e63788e473c36abf81be8a84351d55de6":
+            - code: 6c9605cca335fad1c660038490c2918e63788e473c36abf81be8a84351d55de6
+        - row "中文机制与海克斯奖励 library Little Buddy Bot · 中文核验 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 留存修订 结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。 ef164a7de046767726d6cd6d31f96958ffb2ed8d7e7cb11ca7899af331c399da":
+          - cell "中文机制与海克斯奖励 library":
+            - strong: 中文机制与海克斯奖励
+            - generic: library
+            - generic "查看记录数量"
+          - cell "Little Buddy Bot · 中文核验 补丁 未知":
+            - text: Little Buddy Bot · 中文核验
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "留存修订":
+            - generic: 留存修订
+          - cell "结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 仅供查看
+            - paragraph: 不是当前生效清单指向的修订，仅供查看。
+          - cell "ef164a7de046767726d6cd6d31f96958ffb2ed8d7e7cb11ca7899af331c399da":
+            - code: ef164a7de046767726d6cd6d31f96958ffb2ed8d7e7cb11ca7899af331c399da
+        - row "中文机制与海克斯奖励 library Little Buddy Bot · 中文核验 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 留存修订 结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。 bfb648f240a94c6d2a30524ca5102a55e8025a65ee50564d44528cbd96525e20":
+          - cell "中文机制与海克斯奖励 library":
+            - strong: 中文机制与海克斯奖励
+            - generic: library
+            - generic "查看记录数量"
+          - cell "Little Buddy Bot · 中文核验 补丁 未知":
+            - text: Little Buddy Bot · 中文核验
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "留存修订":
+            - generic: 留存修订
+          - cell "结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 仅供查看
+            - paragraph: 不是当前生效清单指向的修订，仅供查看。
+          - cell "bfb648f240a94c6d2a30524ca5102a55e8025a65ee50564d44528cbd96525e20":
+            - code: bfb648f240a94c6d2a30524ca5102a55e8025a65ee50564d44528cbd96525e20
+        - row "中文机制与海克斯奖励 library Little Buddy Bot · 中文核验 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 留存修订 结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。 a156761fb541d2850c655fbeaf40ea1eb9b7c4c907a9ad864793e9edb459d9aa":
+          - cell "中文机制与海克斯奖励 library":
+            - strong: 中文机制与海克斯奖励
+            - generic: library
+            - generic "查看记录数量"
+          - cell "Little Buddy Bot · 中文核验 补丁 未知":
+            - text: Little Buddy Bot · 中文核验
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "留存修订":
+            - generic: 留存修订
+          - cell "结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 仅供查看
+            - paragraph: 不是当前生效清单指向的修订，仅供查看。
+          - cell "a156761fb541d2850c655fbeaf40ea1eb9b7c4c907a9ad864793e9edb459d9aa":
+            - code: a156761fb541d2850c655fbeaf40ea1eb9b7c4c907a9ad864793e9edb459d9aa
+        - row "中文机制与海克斯奖励 library Little Buddy Bot · 中文核验 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 留存修订 结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。 660ed49f74200c4374109f646ee932bfd11b725c7c61438b1d91a65180d9e648":
+          - cell "中文机制与海克斯奖励 library":
+            - strong: 中文机制与海克斯奖励
+            - generic: library
+            - generic "查看记录数量"
+          - cell "Little Buddy Bot · 中文核验 补丁 未知":
+            - text: Little Buddy Bot · 中文核验
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "留存修订":
+            - generic: 留存修订
+          - cell "结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 仅供查看
+            - paragraph: 不是当前生效清单指向的修订，仅供查看。
+          - cell "660ed49f74200c4374109f646ee932bfd11b725c7c61438b1d91a65180d9e648":
+            - code: 660ed49f74200c4374109f646ee932bfd11b725c7c61438b1d91a65180d9e648
+        - row "PC 原生阵容码映射 teamcodes CommunityDragon · PC Team Planner 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 就绪 哈希校验通过 仅供查看 PC 阵容码解析使用的编号映射资料；不进入 AI 游戏统计检索，也不是向量索引。 8b4c89168f6c1fb46c9d2941bdb2591e114b77ed632ec6e4415f94a349120e88":
+          - cell "PC 原生阵容码映射 teamcodes":
+            - strong: PC 原生阵容码映射
+            - generic: teamcodes
+            - generic "查看记录数量"
+          - cell "CommunityDragon · PC Team Planner 补丁 未知":
+            - text: CommunityDragon · PC Team Planner
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "就绪":
+            - generic: 就绪
+          - cell "哈希校验通过 仅供查看 PC 阵容码解析使用的编号映射资料；不进入 AI 游戏统计检索，也不是向量索引。":
+            - generic: 哈希校验通过
+            - generic: 仅供查看
+            - paragraph: PC 阵容码解析使用的编号映射资料；不进入 AI 游戏统计检索，也不是向量索引。
+          - cell "8b4c89168f6c1fb46c9d2941bdb2591e114b77ed632ec6e4415f94a349120e88":
+            - code: 8b4c89168f6c1fb46c9d2941bdb2591e114b77ed632ec6e4415f94a349120e88
+        - row "PC 原生阵容码映射 teamcodes CommunityDragon · PC Team Planner 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 留存修订 结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。 9119f7f88cdb5df6a2bfd00342615683aa43a6f2da0579d8277b5ba4cf98d27c":
+          - cell "PC 原生阵容码映射 teamcodes":
+            - strong: PC 原生阵容码映射
+            - generic: teamcodes
+            - generic "查看记录数量"
+          - cell "CommunityDragon · PC Team Planner 补丁 未知":
+            - text: CommunityDragon · PC Team Planner
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "留存修订":
+            - generic: 留存修订
+          - cell "结构有效 · 无哈希记录 仅供查看 不是当前生效清单指向的修订，仅供查看。":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 仅供查看
+            - paragraph: 不是当前生效清单指向的修订，仅供查看。
+          - cell "9119f7f88cdb5df6a2bfd00342615683aa43a6f2da0579d8277b5ba4cf98d27c":
+            - code: 9119f7f88cdb5df6a2bfd00342615683aa43a6f2da0579d8277b5ba4cf98d27c
+        - row "法杖专家评级 ratings MetaTFT · Spencer 补丁 未知 tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前 就绪 结构有效 · 无哈希记录 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：get_season_mechanic e8bc6e95a3203a11110494c5bbac9597d12178688cdadc485958d69a4a5e5f6a":
+          - cell "法杖专家评级 ratings":
+            - strong: 法杖专家评级
+            - generic: ratings
+            - generic "查看记录数量"
+          - cell "MetaTFT · Spencer 补丁 未知":
+            - text: MetaTFT · Spencer
+            - generic: 补丁 未知
+          - cell "tft-set18-assets16.20-5fedf1ff9cba 赛季 18 · 当前":
+            - code: tft-set18-assets16.20-5fedf1ff9cba
+            - generic: 赛季 18 · 当前
+          - cell "就绪":
+            - generic: 就绪
+          - cell "结构有效 · 无哈希记录 已映射工具 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。 允许工具：get_season_mechanic":
+            - generic: 结构有效 · 无哈希记录
+            - generic: 已映射工具
+            - paragraph: 当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+            - generic: 允许工具：get_season_mechanic
+          - cell "e8bc6e95a3203a11110494c5bbac9597d12178688cdadc485958d69a4a5e5f6a":
+            - code: e8bc6e95a3203a11110494c5bbac9597d12178688cdadc485958d69a4a5e5f6a
+  - generic: 第 1 / 1 页 · 20 条 · 每页 30
+  - button "‹ 上一页" [disabled]
+  - button "下一页 ›" [disabled]
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手

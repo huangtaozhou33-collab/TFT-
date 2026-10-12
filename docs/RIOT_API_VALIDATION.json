@@ -1,0 +1,315 @@
+{
+  "checkedAt": "2026-10-09T15:53:09.996Z",
+  "authentication": {
+    "status": "passed",
+    "httpStatus": 200,
+    "platform": "kr",
+    "leagueEntries": 400,
+    "previousAttempt": {
+      "checkedAt": "2026-10-09T15:45:34.405Z",
+      "httpStatus": 401,
+      "status": "rejected_exact_cause_unknown"
+    },
+    "credentialUpdatedByUser": true,
+    "credentialsPrinted": false
+  },
+  "sampleCapture": {
+    "checkedAt": "2026-10-09T15:50:07.012Z",
+    "status": "captured",
+    "platform": "kr",
+    "region": "asia",
+    "requestedQueue": 1100,
+    "scope": "top_three_challenger_seed_players_recent_48h",
+    "maximumMatchDetails": 12,
+    "requests": [
+      {
+        "kind": "match_ids",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_ids",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_ids",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_detail",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_detail",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_detail",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_detail",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_detail",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_detail",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_detail",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_detail",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_detail",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_detail",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_detail",
+        "httpStatus": 200
+      },
+      {
+        "kind": "match_detail",
+        "httpStatus": 200
+      }
+    ],
+    "matchesFetched": 12,
+    "databaseModified": false,
+    "leagueReused": true,
+    "leagueEntries": 400,
+    "seedPlayers": 3,
+    "uniqueMatchIds": 15,
+    "finishedAt": "2026-10-09T15:50:28.589Z",
+    "captureDirectory": "data/raw/riot-probes/2026-10-09T15-50-07-012Z",
+    "initialLeagueAuthenticationRequests": 1,
+    "totalRequestsThisValidation": 16
+  },
+  "allSamples": {
+    "status": "sample_audited",
+    "scope": "captured_final_boards_only",
+    "currentCatalogSet": 18,
+    "input": {
+      "records": 12,
+      "malformedRecords": 0,
+      "duplicateMatchRecordsExcluded": 0,
+      "recordsWithoutMatchIdentity": 0
+    },
+    "counts": {
+      "matches": 12,
+      "participantFinalBoards": 89,
+      "unitOccurrences": 724,
+      "ranked1100Matches": 7,
+      "currentSetMatches": 12,
+      "ranked1100CurrentSetMatches": 7
+    },
+    "distributions": {
+      "queueIds": [
+        {
+          "value": "1090",
+          "count": 4
+        },
+        {
+          "value": "1100",
+          "count": 7
+        },
+        {
+          "value": "1220",
+          "count": 1
+        }
+      ],
+      "setNumbers": [
+        {
+          "value": "18",
+          "count": 12
+        }
+      ],
+      "rawGameVersions": [
+        {
+          "value": "TFT Unreal Version ?.?.?.?",
+          "count": 12
+        }
+      ]
+    },
+    "fieldQuality": {
+      "matchesWithMissingOrPlaceholderGameVersion": 12,
+      "matchesWithMissingParticipants": 0,
+      "matchesWithoutExactlyEightParticipants": 1,
+      "matchesWithoutCompletePlacementSet": 1,
+      "malformedParticipants": 0,
+      "participantsWithInvalidPlacement": 0,
+      "participantsWithMissingUnits": 0,
+      "participantsWithEmptyUnits": 1,
+      "malformedUnits": 0,
+      "unitsWithMissingChampionId": 0,
+      "unitsWithMissingItemNames": 0,
+      "unitsWithMalformedItemNames": 0,
+      "malformedNamedItemEntries": 0,
+      "unitsWithNumericItemIds": 0,
+      "numericItemIdOccurrences": 0,
+      "unitsWithNumericAndNamedItemCountDifference": 0
+    },
+    "entityMapping": {
+      "method": "exact_game_id_only",
+      "champions": {
+        "unitOccurrences": 724,
+        "mappedOccurrences": 724,
+        "unknownIds": [],
+        "missingIdOccurrences": 0
+      },
+      "items": {
+        "namedItemOccurrences": 1064,
+        "mappedOccurrences": 1062,
+        "unknownIds": [
+          {
+            "value": "DA_BlastPotion18",
+            "count": 1
+          },
+          {
+            "value": "DA_HealthPotion18_Radiant",
+            "count": 1
+          }
+        ],
+        "numericIdsUsedForMapping": 0
+      }
+    },
+    "countDefinitions": {
+      "matches": "Unique match IDs among valid info objects; records lacking an ID are counted individually and flagged.",
+      "participantFinalBoards": "One final board per valid participant object per match; not unique players.",
+      "unitOccurrences": "One valid unit object on a participant final board; repeated champions are separate occurrences.",
+      "namedItemOccurrences": "One nonempty itemNames string on one unit; duplicate equipment counts separately.",
+      "ranked1100CurrentSetMatches": "Matches whose explicit queue_id is 1100 and explicit tft_set_number equals the catalog set; not a patch-validity assertion.",
+      "distributions": "Match counts, preserving raw non-sensitive version strings without mapping to a TFT patch."
+    },
+    "limitations": [
+      "Authentication success does not establish statistical usability or representative sample coverage.",
+      "Only final participant boards are audited; round-by-round boards and contemporaneous rank are not inferred.",
+      "game_version is not automatically mapped to TFT patch 18.4 or any other display patch.",
+      "Numeric items IDs are counted but never matched by array position or substituted for itemNames.",
+      "Joint champion and carrier-equipment conditions must match within one participant final board."
+    ]
+  },
+  "rankedCurrentSetSamples": {
+    "status": "sample_audited",
+    "scope": "captured_final_boards_only",
+    "currentCatalogSet": 18,
+    "input": {
+      "records": 7,
+      "malformedRecords": 0,
+      "duplicateMatchRecordsExcluded": 0,
+      "recordsWithoutMatchIdentity": 0
+    },
+    "counts": {
+      "matches": 7,
+      "participantFinalBoards": 56,
+      "unitOccurrences": 455,
+      "ranked1100Matches": 7,
+      "currentSetMatches": 7,
+      "ranked1100CurrentSetMatches": 7
+    },
+    "distributions": {
+      "queueIds": [
+        {
+          "value": "1100",
+          "count": 7
+        }
+      ],
+      "setNumbers": [
+        {
+          "value": "18",
+          "count": 7
+        }
+      ],
+      "rawGameVersions": [
+        {
+          "value": "TFT Unreal Version ?.?.?.?",
+          "count": 7
+        }
+      ]
+    },
+    "fieldQuality": {
+      "matchesWithMissingOrPlaceholderGameVersion": 7,
+      "matchesWithMissingParticipants": 0,
+      "matchesWithoutExactlyEightParticipants": 0,
+      "matchesWithoutCompletePlacementSet": 0,
+      "malformedParticipants": 0,
+      "participantsWithInvalidPlacement": 0,
+      "participantsWithMissingUnits": 0,
+      "participantsWithEmptyUnits": 0,
+      "malformedUnits": 0,
+      "unitsWithMissingChampionId": 0,
+      "unitsWithMissingItemNames": 0,
+      "unitsWithMalformedItemNames": 0,
+      "malformedNamedItemEntries": 0,
+      "unitsWithNumericItemIds": 0,
+      "numericItemIdOccurrences": 0,
+      "unitsWithNumericAndNamedItemCountDifference": 0
+    },
+    "entityMapping": {
+      "method": "exact_game_id_only",
+      "champions": {
+        "unitOccurrences": 455,
+        "mappedOccurrences": 455,
+        "unknownIds": [],
+        "missingIdOccurrences": 0
+      },
+      "items": {
+        "namedItemOccurrences": 660,
+        "mappedOccurrences": 658,
+        "unknownIds": [
+          {
+            "value": "DA_BlastPotion18",
+            "count": 1
+          },
+          {
+            "value": "DA_HealthPotion18_Radiant",
+            "count": 1
+          }
+        ],
+        "numericIdsUsedForMapping": 0
+      }
+    },
+    "countDefinitions": {
+      "matches": "Unique match IDs among valid info objects; records lacking an ID are counted individually and flagged.",
+      "participantFinalBoards": "One final board per valid participant object per match; not unique players.",
+      "unitOccurrences": "One valid unit object on a participant final board; repeated champions are separate occurrences.",
+      "namedItemOccurrences": "One nonempty itemNames string on one unit; duplicate equipment counts separately.",
+      "ranked1100CurrentSetMatches": "Matches whose explicit queue_id is 1100 and explicit tft_set_number equals the catalog set; not a patch-validity assertion.",
+      "distributions": "Match counts, preserving raw non-sensitive version strings without mapping to a TFT patch."
+    },
+    "limitations": [
+      "Authentication success does not establish statistical usability or representative sample coverage.",
+      "Only final participant boards are audited; round-by-round boards and contemporaneous rank are not inferred.",
+      "game_version is not automatically mapped to TFT patch 18.4 or any other display patch.",
+      "Numeric items IDs are counted but never matched by array position or substituted for itemNames.",
+      "Joint champion and carrier-equipment conditions must match within one participant final board."
+    ]
+  },
+  "releaseDecision": {
+    "status": "not_published",
+    "reason": "raw_game_version_is_placeholder_and_two_item_ids_need_review",
+    "sourcePatch": null,
+    "assignedPatch": null,
+    "existingSource": "OP.GG MCP",
+    "databaseModified": false
+  },
+  "verification": {
+    "newTests": 9,
+    "passed": 9,
+    "failed": 0,
+    "rawDataGitIgnored": true,
+    "appRiotConfigured": true,
+    "compsStatus": "ready",
+    "milvusStatus": "connected",
+    "indexedChunks": 678
+  }
+}

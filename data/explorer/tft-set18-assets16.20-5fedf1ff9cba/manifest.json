@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+  "context": {
+    "game": "tft",
+    "set": 18,
+    "mutator": "TFTSet18",
+    "assetVersion": "16.20",
+    "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+    "gamePatch": null
+  },
+  "entityFingerprint": "c0f22fbacbc19fcbd19183793358703f7ccf6fcbc59c5963d98b07dabdb9e4d0",
+  "file": "c4a2c940-8eb9-4e6b-b157-26022f5876d1.json",
+  "sha256": "0d71a8a3dcb4414f979d55f052a9c3db8ae948ac4b344227788a4d1bba515511",
+  "publishedAt": "2026-10-07T19:51:20.789Z",
+  "fetchedAt": "2026-10-07T19:44:18.051Z",
+  "sourceTime": "2026-10-07T17:57:22.000Z",
+  "sourcePatch": "18.4",
+  "sources": [
+    {
+      "id": "units",
+      "source": "Tactics.tools",
+      "url": "https://tactics.tools/units",
+      "endpoint": "https://tactics.tools/units",
+      "set": 18,
+      "sourcePatch": "18.4",
+      "gamePatch": "18.4",
+      "population": {
+        "queue": "Ranked",
+        "rank": "Diamond+",
+        "region": null
+      },
+      "fetchedAt": "2026-10-07T19:44:17.585Z",
+      "sourceTime": "2026-10-07T17:57:22.000Z",
+      "sourceTotalEntries": 18608,
+      "sourceTotalEntriesMeaning": "source statsData.totalEntries; rows overlap and are not disjoint unique games",
+      "sampleDenominator": "source statsData.units[unitId].count (unit occurrences)",
+      "sourceHTMLSha256": "690b8f2fe8142672aa3b2bea4482d92a4a4f9cf02e1973d876d896bb75434a0b",
+      "aperture": {
+        "patch": {
+          "_0": 16200
+        },
+        "rankGroup": 1,
+        "gameType": 0,
+        "queue": 1100
+      },
+      "delivery": "version_cache",
+      "rateUnit": "fraction (source percentages divided by 100)",
+      "pickRateDefinition": "source count / source totalEntries",
+      "playRateDisplay": "public page displays count / totalEntries * 8, with the /8 unit; it is not a conditional probability"
+    },
+    {
+      "id": "items",
+      "source": "Tactics.tools",
+      "url": "https://tactics.tools/items",
+      "endpoint": "https://tactics.tools/items",
+      "set": 18,
+      "sourcePatch": "18.4",
+      "gamePatch": "18.4",
+      "population": {
+        "queue": "Ranked",
+        "rank": "Diamond+",
+        "region": null
+      },
+      "fetchedAt": "2026-10-07T19:44:18.051Z",
+      "sourceTime": "2026-10-07T17:57:22.000Z",
+      "sourceTotalEntries": 18608,
+      "sourceTotalEntriesMeaning": "source statsData.totalEntries; rows overlap and are not disjoint unique games",
+      "sampleDenominator": "source statsData.items[rowIndex].count (item occurrences)",
+      "sourceHTMLSha256": "60671b51846460ebcb8897e3d369a947fa0cb2776056f98a067cbd30a7c4c810",
+      "aperture": {
+        "patch": {
+          "_0": 16200
+        },
+        "rankGroup": 1,
+        "gameType": 0,
+        "queue": 1100
+      },
+      "delivery": "version_cache",
+      "rateUnit": "fraction (source percentages divided by 100)",
+      "pickRateDefinition": "source count / source totalEntries",
+      "playRateDisplay": "public page displays count / totalEntries * 8, with the /8 unit; it is not a conditional probability"
+    }
+  ],
+  "coverage": {
+    "champions": {
+      "sourceRows": 74,
+      "cached": 74,
+      "total": 74,
+      "excluded": [],
+      "missing": []
+    },
+    "items": {
+      "sourceRows": 126,
+      "cached": 126,
+      "total": 127,
+      "excluded": [],
+      "missing": [
+        {
+          "id": "DA_Artifact_DeathsDefiance",
+          "name": "死亡之蔑",
+          "category": "artifact",
+          "reason": "not_in_public_source_snapshot"
+        }
+      ],
+      "componentsWithoutStatistics": [
+        "DA_Component_BFSword",
+        "DA_Component_ChainVest",
+        "DA_Component_FryingPan",
+        "DA_Component_GiantsBelt",
+        "DA_Component_NeedlesslyLargeRod",
+        "DA_Component_NegatronCloak",
+        "DA_Component_RecurveBow",
+        "DA_Component_SparringGloves",
+        "DA_Component_Spatula",
+        "DA_Component_TearOfTheGoddess"
+      ]
+    },
+    "unknownTopItems": [],
+    "complete": false,
+    "note": "整体行的样本相互重叠，不能相加推导对局总数；未录入项无统计值，不使用三件套或持有者行代替。"
+  }
+}

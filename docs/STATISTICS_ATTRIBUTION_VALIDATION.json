@@ -1,0 +1,191 @@
+{
+  "checkedAt": "2026-10-09T15:14:44.043Z",
+  "status": "passed",
+  "knowledgeCounts": {
+    "documents": 641,
+    "eligibleDocuments": 596,
+    "chunks": 749,
+    "eligibleChunks": 678
+  },
+  "statistics": {
+    "total": 204,
+    "sourceDeclared": 2,
+    "assignedCurrent": 201,
+    "unavailable": 1
+  },
+  "milvus": {
+    "status": "connected",
+    "indexed": true,
+    "indexedChunks": 678
+  },
+  "comps": {
+    "status": "ready",
+    "count": 10,
+    "evidence": {
+      "set": 18,
+      "tool": "tft_list_meta_decks",
+      "source": "OP.GG MCP",
+      "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+      "delivery": "mysql",
+      "endpoint": "https://mcp-api.op.gg/mcp",
+      "fetchedAt": "2026-10-07T13:36:26.808Z",
+      "gamePatch": null,
+      "population": null,
+      "recordHash": "009c237530933336edad9fc1d2c33eab25e118562267bc2eeba5e9cfb9a7653a",
+      "sourceTime": "2026-10-07T12:59:23.000Z",
+      "sourcePatch": null,
+      "assetVersion": "16.20",
+      "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+      "statisticalWindow": null,
+      "unsupportedDimensions": [
+        "gamePatch",
+        "region",
+        "rank",
+        "star"
+      ],
+      "assignedPatch": "18.4",
+      "effectivePatch": "18.4",
+      "patchAssignment": {
+        "method": "manual_calendar",
+        "label": "按采集时间推定",
+        "note": "用户已允许缺少来源补丁的统计按采集日期归档。此资料包于2026-10-07采集，Riot日历列18.4于10月7日PT上线，10月9日核查OP.GG默认页为18.4，因此人工推定为主补丁18.4。换版日各区生效时刻和API统计窗口未知；不保证全部样本仅含18.4，不声称已核实18.4B。保留原始sourcePatch=null、采集时间和指标。",
+        "checkedAt": "2026-10-09T15:04:56.000Z",
+        "evidenceUrls": [
+          "https://support.riotgames.com/en-us/tft/events/patch-schedule-teamfight-tactics/",
+          "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/",
+          "https://op.gg/tft/meta-trends/comps",
+          "https://op.gg/zh-cn/tft/meta-trends/champion/DA_Nidalee18_AP"
+        ],
+        "transitionWindow": true,
+        "hotfix": null
+      },
+      "currentPatch": "18.4",
+      "releaseId": "fe92ca09d6d297928310d365e6f751a122aa983968b614d5861559016105c724",
+      "upstreamDecks": 10,
+      "acceptedDecks": 10,
+      "excludedDecks": 0
+    }
+  },
+  "nidalee": {
+    "status": "live",
+    "count": 591,
+    "evidence": {
+      "set": 18,
+      "tool": "tft_get_champion_item_build",
+      "source": "OP.GG MCP",
+      "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+      "delivery": "mysql",
+      "endpoint": "https://mcp-api.op.gg/mcp",
+      "fetchedAt": "2026-10-07T14:47:09.119Z",
+      "gamePatch": null,
+      "population": null,
+      "recordHash": "9d6622441ce3c0cdad30913f3c68cdda2efca8609192d6a0ebdd3f1857f660fe",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "assetVersion": "16.20",
+      "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+      "statisticalWindow": null,
+      "unsupportedDimensions": [
+        "gamePatch",
+        "region",
+        "rank",
+        "star"
+      ],
+      "assignedPatch": "18.4",
+      "effectivePatch": "18.4",
+      "patchAssignment": {
+        "method": "manual_calendar",
+        "label": "按采集时间推定",
+        "note": "用户已允许缺少来源补丁的统计按采集日期归档。此资料包于2026-10-07采集，Riot日历列18.4于10月7日PT上线，10月9日核查OP.GG默认页为18.4，因此人工推定为主补丁18.4。换版日各区生效时刻和API统计窗口未知；不保证全部样本仅含18.4，不声称已核实18.4B。保留原始sourcePatch=null、采集时间和指标。",
+        "checkedAt": "2026-10-09T15:04:56.000Z",
+        "evidenceUrls": [
+          "https://support.riotgames.com/en-us/tft/events/patch-schedule-teamfight-tactics/",
+          "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/",
+          "https://op.gg/tft/meta-trends/comps",
+          "https://op.gg/zh-cn/tft/meta-trends/champion/DA_Nidalee18_AP"
+        ],
+        "transitionWindow": true,
+        "hotfix": null
+      },
+      "currentPatch": "18.4",
+      "releaseId": "fe92ca09d6d297928310d365e6f751a122aa983968b614d5861559016105c724",
+      "upstreamRows": 591,
+      "acceptedRows": 591,
+      "excludedRows": 0
+    }
+  },
+  "research": {
+    "status": "partial",
+    "equipmentCount": 30,
+    "equipmentTotal": 54,
+    "teammates": "not_supported",
+    "comps": "not_supported"
+  },
+  "sourceAccounting": {
+    "unit": "source_field_projection",
+    "total": 5348,
+    "groups": [
+      {
+        "id": "tool_mapped",
+        "label": "当前来源记录 · 已映射工具",
+        "count": 1935
+      },
+      {
+        "id": "retained_revision",
+        "label": "历史修订 · 保留供追溯",
+        "count": 3312
+      },
+      {
+        "id": "team_code_reference",
+        "label": "阵容码编号 · 不参与知识问答",
+        "count": 75
+      },
+      {
+        "id": "reference_rule",
+        "label": "参考版本或冲突规则",
+        "count": 7
+      },
+      {
+        "id": "unmapped_rating",
+        "label": "专家评级 · 尚未匹配实体",
+        "count": 13
+      },
+      {
+        "id": "unverified_condition",
+        "label": "法杖条件 · 实体身份未核实",
+        "count": 6
+      }
+    ],
+    "note": "这些是 JSON 来源包按实体和规则生成的展示记录，包含留存修订；不是独立文章，也不是 RAG 文档或向量数量。工具映射只表示目录层有读取入口，运行时仍会检查来源、补丁和统计能力。"
+  },
+  "regression": {
+    "tests": 285,
+    "passed": 285,
+    "failed": 0,
+    "skipped": 0,
+    "storageCheck": "passed",
+    "embeddingProviderCalled": false
+  },
+  "browserVerification": {
+    "comps": {
+      "visibleCards": 10,
+      "patchLabel": "18.4 · 推定"
+    },
+    "research": {
+      "champion": "DA_Nidalee18_AP",
+      "minSample": 100,
+      "visibleCountLabel": "前 30 / 54",
+      "patchLabel": "18.4 · 推定",
+      "screenshot": "STATISTICS_EXPLORER_RESTORED.jpg"
+    },
+    "developer": {
+      "documents": 641,
+      "eligibleDocuments": 596,
+      "chunks": 749,
+      "indexedChunks": 678,
+      "sourceRecords": 5348,
+      "toolMappedRecords": 1935,
+      "sourceValidationFailures": 0
+    }
+  }
+}

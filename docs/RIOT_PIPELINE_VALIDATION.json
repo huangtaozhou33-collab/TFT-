@@ -1,0 +1,134 @@
+{
+  "checkedAt": "2026-10-09T16:08:34.170Z",
+  "tests": {
+    "realMySQLQuery": true,
+    "rawBoardComparison": true,
+    "threeHeroesSameParticipant": true,
+    "boundItemOnCarrier": true,
+    "zeroMatchKeepsRiot": true,
+    "smallSampleVisible": true
+  },
+  "query": {
+    "conditions": [
+      {
+        "type": "champion",
+        "id": "DA_Taric18"
+      },
+      {
+        "type": "champion",
+        "id": "DA_Draven18"
+      },
+      {
+        "type": "champion",
+        "id": "DA_18_ElderDragon"
+      },
+      {
+        "type": "item",
+        "id": "DA_BrambleVest",
+        "holderId": "DA_Taric18"
+      }
+    ],
+    "carrierId": "DA_Taric18",
+    "minSample": 100,
+    "sort": "avgPlacement"
+  },
+  "matchedParticipants": 1,
+  "equipmentRows": 1,
+  "teammateRows": 5,
+  "compRows": 1,
+  "firstBuild": {
+    "id": "riot:DA_Taric18:8ebc370a10a35372bccf2b0dfc273de5c6d5f0e8fa2869658d7ca0251a73ad24",
+    "championId": "DA_Taric18",
+    "itemIds": [
+      "DA_BrambleVest",
+      "DA_ProtectorsVow",
+      "DA_SteraksGage"
+    ],
+    "stats": {
+      "sampleSize": 1,
+      "avgPlacement": 1,
+      "top4Rate": 1,
+      "winRate": 1
+    },
+    "lowSample": true,
+    "warning": "样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。"
+  },
+  "coverage": {
+    "jointMatchQueries": true,
+    "sourceMatches": 7,
+    "matchedMatches": 1,
+    "matchedParticipants": 1,
+    "currentPatch": "18.4"
+  },
+  "agentPreview": {
+    "checkedAt": "2026-10-09T16:15:57.167Z",
+    "httpStatus": 200,
+    "mode": "prefetch_preview",
+    "tools": [
+      {
+        "name": "get_research_stats",
+        "status": "ok"
+      }
+    ],
+    "modelInvoked": false
+  },
+  "finalVerification": {
+    "checkedAt": "2026-10-09T16:22:09.835Z",
+    "automatedTests": {
+      "passed": 330,
+      "failed": 0,
+      "skipped": 0
+    },
+    "mysqlEdgeChecks": 9,
+    "redisChecks": 4,
+    "syntheticRowsCommitted": 0,
+    "idempotency": {
+      "records": 87,
+      "secondPassDuplicates": 87,
+      "countsUnchanged": true,
+      "rawJSONPreserved": 87
+    },
+    "database": {
+      "matches": {
+        "total": 87,
+        "readyCurrent": 36,
+        "quarantined": 51,
+        "otherPatch": 0
+      },
+      "participantsCurrent": 288,
+      "unknownItems": [
+        {
+          "id": "DA_BlastPotion18",
+          "count": 4
+        },
+        {
+          "id": "DA_HealthPotion18_Radiant",
+          "count": 1
+        }
+      ]
+    },
+    "worker": {
+      "status": "completed",
+      "lastAttemptAt": "2026-10-09T16:15:53.315Z",
+      "nextRunAt": "2026-10-10T16:15:53.315Z",
+      "errorCode": null
+    },
+    "workerRestartPreservedSchedule": true,
+    "homepageComps": 10,
+    "milvusIndexedChunks": 678,
+    "browserVerified": true,
+    "paidModelCalls": 0,
+    "manualCollection": {
+      "requests": 58,
+      "details": 50,
+      "imported": 50,
+      "skippedExisting": 13
+    },
+    "workerFirstRun": {
+      "requests": 27,
+      "details": 25,
+      "imported": 25,
+      "skippedExisting": 8
+    }
+  }
+}

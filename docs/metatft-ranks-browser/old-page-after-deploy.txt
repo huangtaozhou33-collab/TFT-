@@ -1,0 +1,123 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 大数据
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - region "装备与棋子大数据":
+    - text: TFT / STATISTICS
+    - heading "大数据" [level=1]
+    - button "刷新数据"
+    - button "条件筛选 ↗"
+    - tablist "大数据分类":
+      - tab "装备"
+      - tab "棋子" [selected]
+    - generic: 版本
+    - combobox "统计版本":
+      - option "18.4b · 查询范围" [selected]
+    - generic: 段位
+    - combobox "统计段位":
+      - option "铂金及以上" [selected]
+    - generic: MetaTFT Explorer · 2026/10/11
+    - generic "版本依据"
+    - group "棋子费用":
+      - button "全部费用"
+      - button "1 费"
+      - button "2 费"
+      - button "3 费"
+      - button "4 费"
+      - button "5 费"
+    - searchbox "搜索棋子" [active]: 大龙
+    - table:
+      - rowgroup:
+        - row "棋子 平均名次 ↑ 前四率 登顶率 样本数 出装统计":
+          - columnheader "棋子":
+            - button "棋子"
+          - columnheader "平均名次 ↑":
+            - button "平均名次 ↑"
+          - columnheader "前四率":
+            - button "前四率"
+          - columnheader "登顶率":
+            - button "登顶率"
+          - columnheader "样本数":
+            - button "样本数"
+          - columnheader "出装统计"
+      - rowgroup:
+        - row "查看远古巨龙统计详情 3.9 59.7% 21.7% 912,565 查看出装 →":
+          - cell "查看远古巨龙统计详情":
+            - button "查看远古巨龙统计详情":
+              - generic "远古巨龙"
+              - strong: 远古巨龙
+              - generic: 5 费 · 顶级掠食者 / 峡谷野怪
+          - cell "3.9"
+          - cell "59.7%"
+          - cell "21.7%"
+          - cell "912,565"
+          - cell "查看出装 →":
+            - button "查看出装 →"
+    - generic: 1 条 · 1 / 1 页
+    - button "上一页" [disabled]
+    - button "下一页" [disabled]
+    - paragraph: MetaTFT · 普通排位 · 铂金及以上 · 近 3 天。样本为玩家名次观测数，重复棋子或装备的出现次数不累加。各接口更新时间可能不同。
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手

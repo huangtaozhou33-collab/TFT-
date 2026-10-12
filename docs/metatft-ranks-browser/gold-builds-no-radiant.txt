@@ -1,0 +1,3287 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 大数据
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - region "装备与棋子大数据":
+    - button "← 返回大数据"
+    - button "加入条件筛选 ↗"
+    - generic "远古巨龙"
+    - text: 5 费 / 棋子
+    - heading "远古巨龙" [level=1]
+    - paragraph: 顶级掠食者 · 峡谷野怪
+    - generic: 段位
+    - combobox "统计段位":
+      - option "铂金及以上"
+      - option "全部段位"
+      - option "黑铁"
+      - option "青铜"
+      - option "白银"
+      - option "黄金" [selected]
+      - option "铂金"
+      - option "翡翠"
+      - option "钻石"
+      - option "大师"
+      - option "宗师"
+      - option "王者"
+    - heading "完整出装" [level=2]
+    - checkbox "奥恩神器" [checked]
+    - text: 奥恩神器
+    - checkbox "光明装备"
+    - text: 光明装备
+    - text: 最低样本
+    - combobox "出装最低样本":
+      - option "不限"
+      - option "100" [selected]
+      - option "500"
+      - option "1000"
+    - article:
+      - button "查看死亡之刃":
+        - generic "死亡之刃"
+      - button "查看斯特拉克的挑战护手":
+        - generic "斯特拉克的挑战护手"
+      - button "查看强袭者的链枷":
+        - generic "强袭者的链枷"
+      - generic: 均次
+      - strong: "2.55"
+      - generic: 前四
+      - strong: 83.5%
+      - generic: 登顶
+      - strong: 38.4%
+      - generic: 样本
+      - strong: "164"
+    - article:
+      - button "查看无尽之刃":
+        - generic "无尽之刃"
+      - button "查看最后的轻语":
+        - generic "最后的轻语"
+      - button "查看红霸符":
+        - generic "红霸符"
+      - generic: 均次
+      - strong: "2.57"
+      - generic: 前四
+      - strong: 82.7%
+      - generic: 登顶
+      - strong: 41.8%
+      - generic: 样本
+      - strong: "790"
+    - article:
+      - button "查看海克斯科技枪刃":
+        - generic "海克斯科技枪刃"
+      - button "查看无尽之刃":
+        - generic "无尽之刃"
+      - button "查看最后的轻语":
+        - generic "最后的轻语"
+      - generic: 均次
+      - strong: "2.64"
+      - generic: 前四
+      - strong: 81.3%
+      - generic: 登顶
+      - strong: 42.0%
+      - generic: 样本
+      - strong: "300"
+    - generic: MetaTFT Explorer
+    - generic: 统计版本 18.4b · 查询范围
+    - generic: 黄金
+    - generic "版本依据"
+    - paragraph: 共 245 条符合当前条件的来源出装，全部列出。来源可能限制候选数量，未返回的组合不能据此认定零样本。
+    - table:
+      - rowgroup:
+        - row "装备组合 均次 前四率 登顶率 样本":
+          - columnheader "装备组合"
+          - columnheader "均次"
+          - columnheader "前四率"
+          - columnheader "登顶率"
+          - columnheader "样本"
+      - rowgroup:
+        - row "查看死亡之刃 查看斯特拉克的挑战护手 查看强袭者的链枷 2.55 83.5% 38.4% 164":
+          - cell "查看死亡之刃 查看斯特拉克的挑战护手 查看强袭者的链枷":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.55"
+          - cell "83.5%"
+          - cell "38.4%"
+          - cell "164"
+        - row "查看无尽之刃 查看最后的轻语 查看红霸符 2.57 82.7% 41.8% 790":
+          - cell "查看无尽之刃 查看最后的轻语 查看红霸符":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看红霸符":
+              - generic "红霸符"
+          - cell "2.57"
+          - cell "82.7%"
+          - cell "41.8%"
+          - cell "790"
+        - row "查看海克斯科技枪刃 查看无尽之刃 查看最后的轻语 2.64 81.3% 42.0% 300":
+          - cell "查看海克斯科技枪刃 查看无尽之刃 查看最后的轻语":
+            - button "查看海克斯科技枪刃":
+              - generic "海克斯科技枪刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.64"
+          - cell "81.3%"
+          - cell "42.0%"
+          - cell "300"
+        - row "查看无尽之刃 查看红霸符 查看强袭者的链枷 2.65 83.3% 37.6% 425":
+          - cell "查看无尽之刃 查看红霸符 查看强袭者的链枷":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看红霸符":
+              - generic "红霸符"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.65"
+          - cell "83.3%"
+          - cell "37.6%"
+          - cell "425"
+        - row "查看死亡之刃 查看最后的轻语 查看水银 2.66 86.1% 38.6% 101":
+          - cell "查看死亡之刃 查看最后的轻语 查看水银":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看水银":
+              - generic "水银"
+          - cell "2.66"
+          - cell "86.1%"
+          - cell "38.6%"
+          - cell "101"
+        - row "查看巨人杀手 查看最后的轻语 查看红霸符 2.67 81.6% 35.0% 103":
+          - cell "查看巨人杀手 查看最后的轻语 查看红霸符":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看红霸符":
+              - generic "红霸符"
+          - cell "2.67"
+          - cell "81.6%"
+          - cell "35.0%"
+          - cell "103"
+        - row "查看巨人杀手 查看最后的轻语 查看斯特拉克的挑战护手 2.67 82.7% 36.9% 336":
+          - cell "查看巨人杀手 查看最后的轻语 查看斯特拉克的挑战护手":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "2.67"
+          - cell "82.7%"
+          - cell "36.9%"
+          - cell "336"
+        - row "查看死亡之刃 查看最后的轻语 查看红霸符 2.68 82.9% 38.0% 158":
+          - cell "查看死亡之刃 查看最后的轻语 查看红霸符":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看红霸符":
+              - generic "红霸符"
+          - cell "2.68"
+          - cell "82.9%"
+          - cell "38.0%"
+          - cell "158"
+        - row "查看死亡之刃 查看巨人杀手 查看正义之手 2.72 82.0% 32.0% 278":
+          - cell "查看死亡之刃 查看巨人杀手 查看正义之手":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看正义之手":
+              - generic "正义之手"
+          - cell "2.72"
+          - cell "82.0%"
+          - cell "32.0%"
+          - cell "278"
+        - row "查看死亡之刃 查看巨人杀手 查看强袭者的链枷 2.73 81.1% 37.8% 259":
+          - cell "查看死亡之刃 查看巨人杀手 查看强袭者的链枷":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.73"
+          - cell "81.1%"
+          - cell "37.8%"
+          - cell "259"
+        - row "查看无尽之刃 查看无尽之刃 查看强袭者的链枷 2.73 79.6% 40.7% 162":
+          - cell "查看无尽之刃 查看无尽之刃 查看强袭者的链枷":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.73"
+          - cell "79.6%"
+          - cell "40.7%"
+          - cell "162"
+        - row "查看无尽之刃 查看水银 查看强袭者的链枷 2.73 81.9% 37.8% 360":
+          - cell "查看无尽之刃 查看水银 查看强袭者的链枷":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看水银":
+              - generic "水银"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.73"
+          - cell "81.9%"
+          - cell "37.8%"
+          - cell "360"
+        - row "查看死亡之刃 查看巨人杀手 查看红霸符 2.74 82.1% 35.0% 117":
+          - cell "查看死亡之刃 查看巨人杀手 查看红霸符":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看红霸符":
+              - generic "红霸符"
+          - cell "2.74"
+          - cell "82.1%"
+          - cell "35.0%"
+          - cell "117"
+        - row "查看夜之锋刃 查看无尽之刃 查看水银 2.75 85.3% 35.3% 136":
+          - cell "查看夜之锋刃 查看无尽之刃 查看水银":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看水银":
+              - generic "水银"
+          - cell "2.75"
+          - cell "85.3%"
+          - cell "35.3%"
+          - cell "136"
+        - row "查看死亡之刃 查看夜之锋刃 查看最后的轻语 2.76 81.8% 36.0% 214":
+          - cell "查看死亡之刃 查看夜之锋刃 查看最后的轻语":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.76"
+          - cell "81.8%"
+          - cell "36.0%"
+          - cell "214"
+        - row "查看死亡之刃 查看巨人杀手 查看斯特拉克的挑战护手 2.77 81.7% 36.2% 246":
+          - cell "查看死亡之刃 查看巨人杀手 查看斯特拉克的挑战护手":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "2.77"
+          - cell "81.7%"
+          - cell "36.2%"
+          - cell "246"
+        - row "查看密银黎明 查看无尽之刃 查看强袭者的链枷 2.79 77.9% 42.9% 154":
+          - cell "查看密银黎明 查看无尽之刃 查看强袭者的链枷":
+            - button "查看密银黎明":
+              - generic "密银黎明"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.79"
+          - cell "77.9%"
+          - cell "42.9%"
+          - cell "154"
+        - row "查看死亡之刃 查看死亡之刃 查看最后的轻语 2.79 84.4% 30.3% 122":
+          - cell "查看死亡之刃 查看死亡之刃 查看最后的轻语":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.79"
+          - cell "84.4%"
+          - cell "30.3%"
+          - cell "122"
+        - row "查看正义之手 查看最后的轻语 查看斯特拉克的挑战护手 2.81 80.3% 35.7% 361":
+          - cell "查看正义之手 查看最后的轻语 查看斯特拉克的挑战护手":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "2.81"
+          - cell "80.3%"
+          - cell "35.7%"
+          - cell "361"
+        - row "查看死亡之刃 查看海克斯科技枪刃 查看无尽之刃 2.81 79.5% 29.5% 112":
+          - cell "查看死亡之刃 查看海克斯科技枪刃 查看无尽之刃":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看海克斯科技枪刃":
+              - generic "海克斯科技枪刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "2.81"
+          - cell "79.5%"
+          - cell "29.5%"
+          - cell "112"
+        - row "查看死亡之刃 查看夜之锋刃 查看斯特拉克的挑战护手 2.82 79.7% 36.2% 177":
+          - cell "查看死亡之刃 查看夜之锋刃 查看斯特拉克的挑战护手":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "2.82"
+          - cell "79.7%"
+          - cell "36.2%"
+          - cell "177"
+        - row "查看无尽之刃 查看无尽之刃 查看最后的轻语 2.83 78.1% 35.0% 351":
+          - cell "查看无尽之刃 查看无尽之刃 查看最后的轻语":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.83"
+          - cell "78.1%"
+          - cell "35.0%"
+          - cell "351"
+        - row "查看死亡之刃 查看夜之锋刃 查看强袭者的链枷 2.84 81.1% 28.8% 111":
+          - cell "查看死亡之刃 查看夜之锋刃 查看强袭者的链枷":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.84"
+          - cell "81.1%"
+          - cell "28.8%"
+          - cell "111"
+        - row "查看无尽之刃 查看最后的轻语 查看强袭者的链枷 2.84 78.8% 36.5% 20,648":
+          - cell "查看无尽之刃 查看最后的轻语 查看强袭者的链枷":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.84"
+          - cell "78.8%"
+          - cell "36.5%"
+          - cell "20,648"
+        - row "查看无尽之刃 查看斯特拉克的挑战护手 查看强袭者的链枷 2.84 78.5% 36.8% 1,565":
+          - cell "查看无尽之刃 查看斯特拉克的挑战护手 查看强袭者的链枷":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.84"
+          - cell "78.5%"
+          - cell "36.8%"
+          - cell "1,565"
+        - row "查看死亡之刃 查看巨人杀手 查看最后的轻语 2.84 80.9% 31.6% 465":
+          - cell "查看死亡之刃 查看巨人杀手 查看最后的轻语":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.84"
+          - cell "80.9%"
+          - cell "31.6%"
+          - cell "465"
+        - row "查看最后的轻语 查看斯特拉克的挑战护手 查看强袭者的链枷 2.85 81.1% 29.5% 254":
+          - cell "查看最后的轻语 查看斯特拉克的挑战护手 查看强袭者的链枷":
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.85"
+          - cell "81.1%"
+          - cell "29.5%"
+          - cell "254"
+        - row "查看死亡之刃 查看最后的轻语 查看泰坦的坚决 2.86 78.3% 32.6% 138":
+          - cell "查看死亡之刃 查看最后的轻语 查看泰坦的坚决":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "2.86"
+          - cell "78.3%"
+          - cell "32.6%"
+          - cell "138"
+        - row "查看无尽之刃 查看最后的轻语 查看水银 2.87 77.2% 36.4% 640":
+          - cell "查看无尽之刃 查看最后的轻语 查看水银":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看水银":
+              - generic "水银"
+          - cell "2.87"
+          - cell "77.2%"
+          - cell "36.4%"
+          - cell "640"
+        - row "查看海克斯科技枪刃 查看无尽之刃 查看强袭者的链枷 2.88 78.6% 36.8% 182":
+          - cell "查看海克斯科技枪刃 查看无尽之刃 查看强袭者的链枷":
+            - button "查看海克斯科技枪刃":
+              - generic "海克斯科技枪刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.88"
+          - cell "78.6%"
+          - cell "36.8%"
+          - cell "182"
+        - row "查看死亡之刃 查看正义之手 查看强袭者的链枷 2.89 76.0% 34.5% 171":
+          - cell "查看死亡之刃 查看正义之手 查看强袭者的链枷":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.89"
+          - cell "76.0%"
+          - cell "34.5%"
+          - cell "171"
+        - row "查看正义之手 查看最后的轻语 查看强袭者的链枷 2.89 80.5% 32.0% 272":
+          - cell "查看正义之手 查看最后的轻语 查看强袭者的链枷":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.89"
+          - cell "80.5%"
+          - cell "32.0%"
+          - cell "272"
+        - row "查看蓝霸符 查看无尽之刃 查看斯特拉克的挑战护手 2.9 77.6% 35.5% 107":
+          - cell "查看蓝霸符 查看无尽之刃 查看斯特拉克的挑战护手":
+            - button "查看蓝霸符":
+              - generic "蓝霸符":
+                - generic: 蓝
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "2.9"
+          - cell "77.6%"
+          - cell "35.5%"
+          - cell "107"
+        - row "查看死亡之刃 查看正义之手 查看最后的轻语 2.91 77.1% 38.7% 279":
+          - cell "查看死亡之刃 查看正义之手 查看最后的轻语":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.91"
+          - cell "77.1%"
+          - cell "38.7%"
+          - cell "279"
+        - row "查看死亡之刃 查看无尽之刃 查看最后的轻语 2.91 77.3% 35.6% 4,253":
+          - cell "查看死亡之刃 查看无尽之刃 查看最后的轻语":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.91"
+          - cell "77.3%"
+          - cell "35.6%"
+          - cell "4,253"
+        - row "查看饮血剑 查看无尽之刃 查看红霸符 2.91 79.8% 33.1% 242":
+          - cell "查看饮血剑 查看无尽之刃 查看红霸符":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看红霸符":
+              - generic "红霸符"
+          - cell "2.91"
+          - cell "79.8%"
+          - cell "33.1%"
+          - cell "242"
+        - row "查看夜之锋刃 查看最后的轻语 查看强袭者的链枷 2.93 83.9% 30.4% 161":
+          - cell "查看夜之锋刃 查看最后的轻语 查看强袭者的链枷":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.93"
+          - cell "83.9%"
+          - cell "30.4%"
+          - cell "161"
+        - row "查看巨人杀手 查看无尽之刃 查看最后的轻语 2.93 78.0% 33.3% 3,356":
+          - cell "查看巨人杀手 查看无尽之刃 查看最后的轻语":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.93"
+          - cell "78.0%"
+          - cell "33.3%"
+          - cell "3,356"
+        - row "查看饮血剑 查看死亡之刃 查看最后的轻语 2.93 78.2% 30.6% 294":
+          - cell "查看饮血剑 查看死亡之刃 查看最后的轻语":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.93"
+          - cell "78.2%"
+          - cell "30.6%"
+          - cell "294"
+        - row "查看正义之手 查看无尽之刃 查看强袭者的链枷 2.93 77.6% 34.2% 1,484":
+          - cell "查看正义之手 查看无尽之刃 查看强袭者的链枷":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.93"
+          - cell "77.6%"
+          - cell "34.2%"
+          - cell "1,484"
+        - row "查看夜之锋刃 查看无尽之刃 查看红霸符 2.94 80.6% 30.2% 129":
+          - cell "查看夜之锋刃 查看无尽之刃 查看红霸符":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看红霸符":
+              - generic "红霸符"
+          - cell "2.94"
+          - cell "80.6%"
+          - cell "30.2%"
+          - cell "129"
+        - row "查看正义之手 查看无尽之刃 查看最后的轻语 2.94 77.2% 35.0% 2,222":
+          - cell "查看正义之手 查看无尽之刃 查看最后的轻语":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.94"
+          - cell "77.2%"
+          - cell "35.0%"
+          - cell "2,222"
+        - row "查看饮血剑 查看巨人杀手 查看强袭者的链枷 2.95 80.5% 26.3% 205":
+          - cell "查看饮血剑 查看巨人杀手 查看强袭者的链枷":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.95"
+          - cell "80.5%"
+          - cell "26.3%"
+          - cell "205"
+        - row "查看正义之手 查看无尽之刃 查看红霸符 2.95 79.6% 29.4% 211":
+          - cell "查看正义之手 查看无尽之刃 查看红霸符":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看红霸符":
+              - generic "红霸符"
+          - cell "2.95"
+          - cell "79.6%"
+          - cell "29.4%"
+          - cell "211"
+        - row "查看巨人杀手 查看正义之手 查看最后的轻语 2.95 78.9% 28.6% 332":
+          - cell "查看巨人杀手 查看正义之手 查看最后的轻语":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.95"
+          - cell "78.9%"
+          - cell "28.6%"
+          - cell "332"
+        - row "查看密银黎明 查看无尽之刃 查看最后的轻语 2.95 75.0% 35.0% 240":
+          - cell "查看密银黎明 查看无尽之刃 查看最后的轻语":
+            - button "查看密银黎明":
+              - generic "密银黎明"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.95"
+          - cell "75.0%"
+          - cell "35.0%"
+          - cell "240"
+        - row "查看巨人杀手 查看正义之手 查看强袭者的链枷 2.95 77.9% 32.6% 181":
+          - cell "查看巨人杀手 查看正义之手 查看强袭者的链枷":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.95"
+          - cell "77.9%"
+          - cell "32.6%"
+          - cell "181"
+        - row "查看夜之锋刃 查看正义之手 查看水银 2.96 77.1% 32.1% 131":
+          - cell "查看夜之锋刃 查看正义之手 查看水银":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看水银":
+              - generic "水银"
+          - cell "2.96"
+          - cell "77.1%"
+          - cell "32.1%"
+          - cell "131"
+        - row "查看死亡之刃 查看无尽之刃 查看强袭者的链枷 2.96 76.5% 34.9% 3,419":
+          - cell "查看死亡之刃 查看无尽之刃 查看强袭者的链枷":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.96"
+          - cell "76.5%"
+          - cell "34.9%"
+          - cell "3,419"
+        - row "查看巨人杀手 查看最后的轻语 查看强袭者的链枷 2.96 78.1% 28.9% 443":
+          - cell "查看巨人杀手 查看最后的轻语 查看强袭者的链枷":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.96"
+          - cell "78.1%"
+          - cell "28.9%"
+          - cell "443"
+        - row "查看巨人杀手 查看斯特拉克的挑战护手 查看强袭者的链枷 2.96 78.4% 29.5% 139":
+          - cell "查看巨人杀手 查看斯特拉克的挑战护手 查看强袭者的链枷":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.96"
+          - cell "78.4%"
+          - cell "29.5%"
+          - cell "139"
+        - row "查看无尽之刃 查看强袭者的链枷 查看强袭者的链枷 2.96 77.9% 27.4% 113":
+          - cell "查看无尽之刃 查看强袭者的链枷 查看强袭者的链枷":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.96"
+          - cell "77.9%"
+          - cell "27.4%"
+          - cell "113"
+        - row "查看正义之手 查看斯特拉克的挑战护手 查看强袭者的链枷 2.97 76.5% 34.2% 187":
+          - cell "查看正义之手 查看斯特拉克的挑战护手 查看强袭者的链枷":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.97"
+          - cell "76.5%"
+          - cell "34.2%"
+          - cell "187"
+        - row "查看狂战士纹章 查看无尽之刃 查看最后的轻语 2.98 75.6% 36.7% 180":
+          - cell "查看狂战士纹章 查看无尽之刃 查看最后的轻语":
+            - button "查看狂战士纹章":
+              - generic "狂战士纹章":
+                - generic: 狂
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.98"
+          - cell "75.6%"
+          - cell "36.7%"
+          - cell "180"
+        - row "查看死亡之刃 查看正义之手 查看无尽之刃 2.98 77.4% 33.2% 1,028":
+          - cell "查看死亡之刃 查看正义之手 查看无尽之刃":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "2.98"
+          - cell "77.4%"
+          - cell "33.2%"
+          - cell "1,028"
+        - row "查看夜之锋刃 查看正义之手 查看强袭者的链枷 2.99 81.0% 24.1% 174":
+          - cell "查看夜之锋刃 查看正义之手 查看强袭者的链枷":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "2.99"
+          - cell "81.0%"
+          - cell "24.1%"
+          - cell "174"
+        - row "查看猎人纹章 查看无尽之刃 查看斯特拉克的挑战护手 2.99 73.4% 37.6% 109":
+          - cell "查看猎人纹章 查看无尽之刃 查看斯特拉克的挑战护手":
+            - button "查看猎人纹章":
+              - generic "猎人纹章":
+                - generic: 猎
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "2.99"
+          - cell "73.4%"
+          - cell "37.6%"
+          - cell "109"
+        - row "查看夜之锋刃 查看巨人杀手 查看斯特拉克的挑战护手 2.99 78.9% 29.6% 280":
+          - cell "查看夜之锋刃 查看巨人杀手 查看斯特拉克的挑战护手":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "2.99"
+          - cell "78.9%"
+          - cell "29.6%"
+          - cell "280"
+        - row "查看饮血剑 查看红霸符 查看泰坦的坚决 2.99 77.3% 30.5% 141":
+          - cell "查看饮血剑 查看红霸符 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看红霸符":
+              - generic "红霸符"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "2.99"
+          - cell "77.3%"
+          - cell "30.5%"
+          - cell "141"
+        - row "查看死亡之刃 查看无尽之刃 查看红霸符 2.99 74.8% 34.3% 429":
+          - cell "查看死亡之刃 查看无尽之刃 查看红霸符":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看红霸符":
+              - generic "红霸符"
+          - cell "2.99"
+          - cell "74.8%"
+          - cell "34.3%"
+          - cell "429"
+        - row "查看饮血剑 查看巨人杀手 查看最后的轻语 2.99 78.3% 27.3% 392":
+          - cell "查看饮血剑 查看巨人杀手 查看最后的轻语":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "2.99"
+          - cell "78.3%"
+          - cell "27.3%"
+          - cell "392"
+        - row "查看死亡之刃 查看无尽之刃 查看斯特拉克的挑战护手 3 77.7% 32.5% 1,016":
+          - cell "查看死亡之刃 查看无尽之刃 查看斯特拉克的挑战护手":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3"
+          - cell "77.7%"
+          - cell "32.5%"
+          - cell "1,016"
+        - row "查看死亡之刃 查看无尽之刃 查看水银 3 75.5% 37.8% 249":
+          - cell "查看死亡之刃 查看无尽之刃 查看水银":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看水银":
+              - generic "水银"
+          - cell "3"
+          - cell "75.5%"
+          - cell "37.8%"
+          - cell "249"
+        - row "查看最后的轻语 查看强袭者的链枷 查看泰坦的坚决 3 76.2% 34.7% 101":
+          - cell "查看最后的轻语 查看强袭者的链枷 查看泰坦的坚决":
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3"
+          - cell "76.2%"
+          - cell "34.7%"
+          - cell "101"
+        - row "查看巨人杀手 查看正义之手 查看无尽之刃 3 76.9% 31.5% 896":
+          - cell "查看巨人杀手 查看正义之手 查看无尽之刃":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3"
+          - cell "76.9%"
+          - cell "31.5%"
+          - cell "896"
+        - row "查看巨人杀手 查看无尽之刃 查看强袭者的链枷 3 77.5% 31.4% 1,758":
+          - cell "查看巨人杀手 查看无尽之刃 查看强袭者的链枷":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3"
+          - cell "77.5%"
+          - cell "31.4%"
+          - cell "1,758"
+        - row "查看巨人杀手 查看正义之手 查看水银 3.01 79.2% 26.9% 130":
+          - cell "查看巨人杀手 查看正义之手 查看水银":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看水银":
+              - generic "水银"
+          - cell "3.01"
+          - cell "79.2%"
+          - cell "26.9%"
+          - cell "130"
+        - row "查看饮血剑 查看死亡之刃 查看夜之锋刃 3.01 78.1% 26.0% 242":
+          - cell "查看饮血剑 查看死亡之刃 查看夜之锋刃":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+          - cell "3.01"
+          - cell "78.1%"
+          - cell "26.0%"
+          - cell "242"
+        - row "查看死亡之刃 查看最后的轻语 查看强袭者的链枷 3.01 77.3% 29.8% 732":
+          - cell "查看死亡之刃 查看最后的轻语 查看强袭者的链枷":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.01"
+          - cell "77.3%"
+          - cell "29.8%"
+          - cell "732"
+        - row "查看饮血剑 查看最后的轻语 查看斯特拉克的挑战护手 3.01 79.3% 28.7% 550":
+          - cell "查看饮血剑 查看最后的轻语 查看斯特拉克的挑战护手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.01"
+          - cell "79.3%"
+          - cell "28.7%"
+          - cell "550"
+        - row "查看饮血剑 查看死亡之刃 查看强袭者的链枷 3.01 77.8% 26.6% 158":
+          - cell "查看饮血剑 查看死亡之刃 查看强袭者的链枷":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.01"
+          - cell "77.8%"
+          - cell "26.6%"
+          - cell "158"
+        - row "查看巨人杀手 查看正义之手 查看斯特拉克的挑战护手 3.02 78.0% 26.3% 400":
+          - cell "查看巨人杀手 查看正义之手 查看斯特拉克的挑战护手":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.02"
+          - cell "78.0%"
+          - cell "26.3%"
+          - cell "400"
+        - row "查看死亡之刃 查看夜之锋刃 查看巨人杀手 3.02 76.1% 34.4% 163":
+          - cell "查看死亡之刃 查看夜之锋刃 查看巨人杀手":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+          - cell "3.02"
+          - cell "76.1%"
+          - cell "34.4%"
+          - cell "163"
+        - row "查看饮血剑 查看巨人杀手 查看水银 3.03 75.4% 29.7% 195":
+          - cell "查看饮血剑 查看巨人杀手 查看水银":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看水银":
+              - generic "水银"
+          - cell "3.03"
+          - cell "75.4%"
+          - cell "29.7%"
+          - cell "195"
+        - row "查看死亡之刃 查看斯特拉克的挑战护手 查看泰坦的坚决 3.03 80.3% 24.1% 203":
+          - cell "查看死亡之刃 查看斯特拉克的挑战护手 查看泰坦的坚决":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.03"
+          - cell "80.3%"
+          - cell "24.1%"
+          - cell "203"
+        - row "查看死亡之刃 查看死亡之刃 查看无尽之刃 3.03 76.9% 32.0% 338":
+          - cell "查看死亡之刃 查看死亡之刃 查看无尽之刃":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.03"
+          - cell "76.9%"
+          - cell "32.0%"
+          - cell "338"
+        - row "查看巨人杀手 查看无尽之刃 查看无尽之刃 3.03 73.3% 35.0% 120":
+          - cell "查看巨人杀手 查看无尽之刃 查看无尽之刃":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.03"
+          - cell "73.3%"
+          - cell "35.0%"
+          - cell "120"
+        - row "查看夜之锋刃 查看斯特拉克的挑战护手 查看泰坦的坚决 3.04 79.4% 26.8% 369":
+          - cell "查看夜之锋刃 查看斯特拉克的挑战护手 查看泰坦的坚决":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.04"
+          - cell "79.4%"
+          - cell "26.8%"
+          - cell "369"
+        - row "查看最后的轻语 查看水银 查看斯特拉克的挑战护手 3.04 77.1% 26.7% 105":
+          - cell "查看最后的轻语 查看水银 查看斯特拉克的挑战护手":
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看水银":
+              - generic "水银"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.04"
+          - cell "77.1%"
+          - cell "26.7%"
+          - cell "105"
+        - row "查看巨人杀手 查看水银 查看斯特拉克的挑战护手 3.04 74.3% 32.7% 101":
+          - cell "查看巨人杀手 查看水银 查看斯特拉克的挑战护手":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看水银":
+              - generic "水银"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.04"
+          - cell "74.3%"
+          - cell "32.7%"
+          - cell "101"
+        - row "查看夜之锋刃 查看巨人杀手 查看泰坦的坚决 3.05 79.2% 22.8% 149":
+          - cell "查看夜之锋刃 查看巨人杀手 查看泰坦的坚决":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.05"
+          - cell "79.2%"
+          - cell "22.8%"
+          - cell "149"
+        - row "查看死亡之刃 查看无尽之刃 查看无尽之刃 3.05 73.7% 35.0% 137":
+          - cell "查看死亡之刃 查看无尽之刃 查看无尽之刃":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.05"
+          - cell "73.7%"
+          - cell "35.0%"
+          - cell "137"
+        - row "查看蓝霸符 查看死亡之刃 查看无尽之刃 3.05 73.7% 30.5% 213":
+          - cell "查看蓝霸符 查看死亡之刃 查看无尽之刃":
+            - button "查看蓝霸符":
+              - generic "蓝霸符":
+                - generic: 蓝
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.05"
+          - cell "73.7%"
+          - cell "30.5%"
+          - cell "213"
+        - row "查看巨人杀手 查看无尽之刃 查看红霸符 3.06 74.8% 29.7% 353":
+          - cell "查看巨人杀手 查看无尽之刃 查看红霸符":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看红霸符":
+              - generic "红霸符"
+          - cell "3.06"
+          - cell "74.8%"
+          - cell "29.7%"
+          - cell "353"
+        - row "查看巨人杀手 查看斯特拉克的挑战护手 查看泰坦的坚决 3.06 75.9% 24.8% 294":
+          - cell "查看巨人杀手 查看斯特拉克的挑战护手 查看泰坦的坚决":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.06"
+          - cell "75.9%"
+          - cell "24.8%"
+          - cell "294"
+        - row "查看巨人杀手 查看最后的轻语 查看水银 3.06 77.7% 27.2% 103":
+          - cell "查看巨人杀手 查看最后的轻语 查看水银":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看水银":
+              - generic "水银"
+          - cell "3.06"
+          - cell "77.7%"
+          - cell "27.2%"
+          - cell "103"
+        - row "查看猎人纹章 查看无尽之刃 查看最后的轻语 3.06 72.7% 35.7% 227":
+          - cell "查看猎人纹章 查看无尽之刃 查看最后的轻语":
+            - button "查看猎人纹章":
+              - generic "猎人纹章":
+                - generic: 猎
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.06"
+          - cell "72.7%"
+          - cell "35.7%"
+          - cell "227"
+        - row "查看无尽之刃 查看红霸符 查看斯特拉克的挑战护手 3.06 73.2% 34.8% 224":
+          - cell "查看无尽之刃 查看红霸符 查看斯特拉克的挑战护手":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看红霸符":
+              - generic "红霸符"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.06"
+          - cell "73.2%"
+          - cell "34.8%"
+          - cell "224"
+        - row "查看死亡之刃 查看最后的轻语 查看斯特拉克的挑战护手 3.06 75.6% 33.1% 390":
+          - cell "查看死亡之刃 查看最后的轻语 查看斯特拉克的挑战护手":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.06"
+          - cell "75.6%"
+          - cell "33.1%"
+          - cell "390"
+        - row "查看饮血剑 查看最后的轻语 查看强袭者的链枷 3.07 74.9% 33.8% 263":
+          - cell "查看饮血剑 查看最后的轻语 查看强袭者的链枷":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.07"
+          - cell "74.9%"
+          - cell "33.8%"
+          - cell "263"
+        - row "查看死亡之刃 查看巨人杀手 查看无尽之刃 3.07 74.2% 30.1% 1,216":
+          - cell "查看死亡之刃 查看巨人杀手 查看无尽之刃":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.07"
+          - cell "74.2%"
+          - cell "30.1%"
+          - cell "1,216"
+        - row "查看死亡之刃 查看正义之手 查看斯特拉克的挑战护手 3.08 79.5% 29.2% 264":
+          - cell "查看死亡之刃 查看正义之手 查看斯特拉克的挑战护手":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.08"
+          - cell "79.5%"
+          - cell "29.2%"
+          - cell "264"
+        - row "查看无尽之刃 查看最后的轻语 查看斯特拉克的挑战护手 3.08 75.1% 31.3% 3,580":
+          - cell "查看无尽之刃 查看最后的轻语 查看斯特拉克的挑战护手":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.08"
+          - cell "75.1%"
+          - cell "31.3%"
+          - cell "3,580"
+        - row "查看夜之锋刃 查看无尽之刃 查看强袭者的链枷 3.08 75.3% 32.7% 753":
+          - cell "查看夜之锋刃 查看无尽之刃 查看强袭者的链枷":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.08"
+          - cell "75.3%"
+          - cell "32.7%"
+          - cell "753"
+        - row "查看猎人纹章 查看死亡之刃 查看无尽之刃 3.09 76.1% 31.6% 117":
+          - cell "查看猎人纹章 查看死亡之刃 查看无尽之刃":
+            - button "查看猎人纹章":
+              - generic "猎人纹章":
+                - generic: 猎
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.09"
+          - cell "76.1%"
+          - cell "31.6%"
+          - cell "117"
+        - row "查看饮血剑 查看最后的轻语 查看水银 3.09 77.4% 29.3% 133":
+          - cell "查看饮血剑 查看最后的轻语 查看水银":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看水银":
+              - generic "水银"
+          - cell "3.09"
+          - cell "77.4%"
+          - cell "29.3%"
+          - cell "133"
+        - row "查看饮血剑 查看红霸符 查看斯特拉克的挑战护手 3.09 78.2% 27.1% 133":
+          - cell "查看饮血剑 查看红霸符 查看斯特拉克的挑战护手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看红霸符":
+              - generic "红霸符"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.09"
+          - cell "78.2%"
+          - cell "27.1%"
+          - cell "133"
+        - row "查看正义之手 查看强袭者的链枷 查看泰坦的坚决 3.09 77.4% 25.2% 155":
+          - cell "查看正义之手 查看强袭者的链枷 查看泰坦的坚决":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.09"
+          - cell "77.4%"
+          - cell "25.2%"
+          - cell "155"
+        - row "查看夜之锋刃 查看无尽之刃 查看最后的轻语 3.09 74.9% 30.2% 1,413":
+          - cell "查看夜之锋刃 查看无尽之刃 查看最后的轻语":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.09"
+          - cell "74.9%"
+          - cell "30.2%"
+          - cell "1,413"
+        - row "查看蓝霸符 查看无尽之刃 查看强袭者的链枷 3.09 72.1% 34.8% 233":
+          - cell "查看蓝霸符 查看无尽之刃 查看强袭者的链枷":
+            - button "查看蓝霸符":
+              - generic "蓝霸符":
+                - generic: 蓝
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.09"
+          - cell "72.1%"
+          - cell "34.8%"
+          - cell "233"
+        - row "查看斯特拉克的挑战护手 查看强袭者的链枷 查看泰坦的坚决 3.09 73.7% 27.7% 137":
+          - cell "查看斯特拉克的挑战护手 查看强袭者的链枷 查看泰坦的坚决":
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.09"
+          - cell "73.7%"
+          - cell "27.7%"
+          - cell "137"
+        - row "查看正义之手 查看无尽之刃 查看水银 3.1 77.0% 28.6% 378":
+          - cell "查看正义之手 查看无尽之刃 查看水银":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看水银":
+              - generic "水银"
+          - cell "3.1"
+          - cell "77.0%"
+          - cell "28.6%"
+          - cell "378"
+        - row "查看饮血剑 查看死亡之刃 查看巨人杀手 3.1 77.0% 27.6% 257":
+          - cell "查看饮血剑 查看死亡之刃 查看巨人杀手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+          - cell "3.1"
+          - cell "77.0%"
+          - cell "27.6%"
+          - cell "257"
+        - row "查看正义之手 查看无尽之刃 查看斯特拉克的挑战护手 3.11 74.7% 32.7% 1,270":
+          - cell "查看正义之手 查看无尽之刃 查看斯特拉克的挑战护手":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.11"
+          - cell "74.7%"
+          - cell "32.7%"
+          - cell "1,270"
+        - row "查看海克斯科技枪刃 查看无尽之刃 查看斯特拉克的挑战护手 3.11 74.5% 34.5% 110":
+          - cell "查看海克斯科技枪刃 查看无尽之刃 查看斯特拉克的挑战护手":
+            - button "查看海克斯科技枪刃":
+              - generic "海克斯科技枪刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.11"
+          - cell "74.5%"
+          - cell "34.5%"
+          - cell "110"
+        - row "查看饮血剑 查看死亡之刃 查看正义之手 3.12 75.4% 28.2% 252":
+          - cell "查看饮血剑 查看死亡之刃 查看正义之手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+          - cell "3.12"
+          - cell "75.4%"
+          - cell "28.2%"
+          - cell "252"
+        - row "查看正义之手 查看最后的轻语 查看泰坦的坚决 3.12 73.4% 25.7% 222":
+          - cell "查看正义之手 查看最后的轻语 查看泰坦的坚决":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.12"
+          - cell "73.4%"
+          - cell "25.7%"
+          - cell "222"
+        - row "查看饮血剑 查看水银 查看斯特拉克的挑战护手 3.12 77.9% 23.9% 435":
+          - cell "查看饮血剑 查看水银 查看斯特拉克的挑战护手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看水银":
+              - generic "水银"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.12"
+          - cell "77.9%"
+          - cell "23.9%"
+          - cell "435"
+        - row "查看蓝霸符 查看巨人杀手 查看无尽之刃 3.12 71.9% 31.9% 160":
+          - cell "查看蓝霸符 查看巨人杀手 查看无尽之刃":
+            - button "查看蓝霸符":
+              - generic "蓝霸符":
+                - generic: 蓝
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.12"
+          - cell "71.9%"
+          - cell "31.9%"
+          - cell "160"
+        - row "查看巨人杀手 查看无尽之刃 查看斯特拉克的挑战护手 3.12 75.4% 30.9% 848":
+          - cell "查看巨人杀手 查看无尽之刃 查看斯特拉克的挑战护手":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.12"
+          - cell "75.4%"
+          - cell "30.9%"
+          - cell "848"
+        - row "查看无尽之刃 查看强袭者的链枷 查看泰坦的坚决 3.13 73.6% 30.7% 535":
+          - cell "查看无尽之刃 查看强袭者的链枷 查看泰坦的坚决":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.13"
+          - cell "73.6%"
+          - cell "30.7%"
+          - cell "535"
+        - row "查看无尽之刃 查看最后的轻语 查看金铲铲冠冕 3.13 73.7% 27.4% 175":
+          - cell "查看无尽之刃 查看最后的轻语 查看金铲铲冠冕":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看金铲铲冠冕":
+              - generic "金铲铲冠冕":
+                - generic: 金
+          - cell "3.13"
+          - cell "73.7%"
+          - cell "27.4%"
+          - cell "175"
+        - row "查看饮血剑 查看无尽之刃 查看水银 3.14 75.3% 28.9% 304":
+          - cell "查看饮血剑 查看无尽之刃 查看水银":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看水银":
+              - generic "水银"
+          - cell "3.14"
+          - cell "75.3%"
+          - cell "28.9%"
+          - cell "304"
+        - row "查看饮血剑 查看正义之手 查看最后的轻语 3.14 75.5% 26.3% 319":
+          - cell "查看饮血剑 查看正义之手 查看最后的轻语":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.14"
+          - cell "75.5%"
+          - cell "26.3%"
+          - cell "319"
+        - row "查看夜之锋刃 查看最后的轻语 查看斯特拉克的挑战护手 3.15 75.7% 30.0% 210":
+          - cell "查看夜之锋刃 查看最后的轻语 查看斯特拉克的挑战护手":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.15"
+          - cell "75.7%"
+          - cell "30.0%"
+          - cell "210"
+        - row "查看夜之锋刃 查看巨人杀手 查看最后的轻语 3.15 73.5% 28.6% 189":
+          - cell "查看夜之锋刃 查看巨人杀手 查看最后的轻语":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.15"
+          - cell "73.5%"
+          - cell "28.6%"
+          - cell "189"
+        - row "查看饮血剑 查看正义之手 查看红霸符 3.15 74.6% 30.7% 114":
+          - cell "查看饮血剑 查看正义之手 查看红霸符":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看红霸符":
+              - generic "红霸符"
+          - cell "3.15"
+          - cell "74.6%"
+          - cell "30.7%"
+          - cell "114"
+        - row "查看水银 查看斯特拉克的挑战护手 查看泰坦的坚决 3.15 74.3% 26.9% 167":
+          - cell "查看水银 查看斯特拉克的挑战护手 查看泰坦的坚决":
+            - button "查看水银":
+              - generic "水银"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.15"
+          - cell "74.3%"
+          - cell "26.9%"
+          - cell "167"
+        - row "查看饮血剑 查看夜之锋刃 查看巨人杀手 3.15 74.0% 25.6% 434":
+          - cell "查看饮血剑 查看夜之锋刃 查看巨人杀手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+          - cell "3.15"
+          - cell "74.0%"
+          - cell "25.6%"
+          - cell "434"
+        - row "查看夜之锋刃 查看正义之手 查看无尽之刃 3.16 74.7% 28.2% 834":
+          - cell "查看夜之锋刃 查看正义之手 查看无尽之刃":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.16"
+          - cell "74.7%"
+          - cell "28.2%"
+          - cell "834"
+        - row "查看夜之锋刃 查看巨人杀手 查看无尽之刃 3.16 74.6% 29.0% 562":
+          - cell "查看夜之锋刃 查看巨人杀手 查看无尽之刃":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.16"
+          - cell "74.6%"
+          - cell "29.0%"
+          - cell "562"
+        - row "查看正义之手 查看水银 查看斯特拉克的挑战护手 3.16 74.8% 26.1% 238":
+          - cell "查看正义之手 查看水银 查看斯特拉克的挑战护手":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看水银":
+              - generic "水银"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.16"
+          - cell "74.8%"
+          - cell "26.1%"
+          - cell "238"
+        - row "查看饮血剑 查看正义之手 查看强袭者的链枷 3.17 79.2% 25.7% 202":
+          - cell "查看饮血剑 查看正义之手 查看强袭者的链枷":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.17"
+          - cell "79.2%"
+          - cell "25.7%"
+          - cell "202"
+        - row "查看饮血剑 查看斯特拉克的挑战护手 查看强袭者的链枷 3.17 75.0% 28.1% 256":
+          - cell "查看饮血剑 查看斯特拉克的挑战护手 查看强袭者的链枷":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.17"
+          - cell "75.0%"
+          - cell "28.1%"
+          - cell "256"
+        - row "查看猎人纹章 查看无尽之刃 查看强袭者的链枷 3.18 72.4% 35.1% 174":
+          - cell "查看猎人纹章 查看无尽之刃 查看强袭者的链枷":
+            - button "查看猎人纹章":
+              - generic "猎人纹章":
+                - generic: 猎
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.18"
+          - cell "72.4%"
+          - cell "35.1%"
+          - cell "174"
+        - row "查看无尽之刃 查看水银 查看斯特拉克的挑战护手 3.18 74.9% 27.5% 295":
+          - cell "查看无尽之刃 查看水银 查看斯特拉克的挑战护手":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看水银":
+              - generic "水银"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.18"
+          - cell "74.9%"
+          - cell "27.5%"
+          - cell "295"
+        - row "查看饮血剑 查看巨人杀手 查看斯特拉克的挑战护手 3.18 75.2% 24.4% 628":
+          - cell "查看饮血剑 查看巨人杀手 查看斯特拉克的挑战护手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.18"
+          - cell "75.2%"
+          - cell "24.4%"
+          - cell "628"
+        - row "查看夜之锋刃 查看正义之手 查看斯特拉克的挑战护手 3.19 74.2% 24.4% 524":
+          - cell "查看夜之锋刃 查看正义之手 查看斯特拉克的挑战护手":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.19"
+          - cell "74.2%"
+          - cell "24.4%"
+          - cell "524"
+        - row "查看死亡之刃 查看夜之锋刃 查看无尽之刃 3.19 73.4% 25.9% 572":
+          - cell "查看死亡之刃 查看夜之锋刃 查看无尽之刃":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.19"
+          - cell "73.4%"
+          - cell "25.9%"
+          - cell "572"
+        - row "查看死亡之刃 查看夜之锋刃 查看泰坦的坚决 3.19 74.5% 23.6% 110":
+          - cell "查看死亡之刃 查看夜之锋刃 查看泰坦的坚决":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.19"
+          - cell "74.5%"
+          - cell "23.6%"
+          - cell "110"
+        - row "查看金币收集者 查看无尽之刃 查看最后的轻语 3.19 72.6% 29.9% 157":
+          - cell "查看金币收集者 查看无尽之刃 查看最后的轻语":
+            - button "查看金币收集者":
+              - generic "金币收集者":
+                - generic: 金
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.19"
+          - cell "72.6%"
+          - cell "29.9%"
+          - cell "157"
+        - row "查看夜之锋刃 查看巨人杀手 查看正义之手 3.19 73.7% 28.0% 353":
+          - cell "查看夜之锋刃 查看巨人杀手 查看正义之手":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看正义之手":
+              - generic "正义之手"
+          - cell "3.19"
+          - cell "73.7%"
+          - cell "28.0%"
+          - cell "353"
+        - row "查看无尽之刃 查看最后的轻语 查看泰坦的坚决 3.19 74.3% 28.6% 851":
+          - cell "查看无尽之刃 查看最后的轻语 查看泰坦的坚决":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.19"
+          - cell "74.3%"
+          - cell "28.6%"
+          - cell "851"
+        - row "查看巨人杀手 查看正义之手 查看泰坦的坚决 3.2 76.0% 22.4% 388":
+          - cell "查看巨人杀手 查看正义之手 查看泰坦的坚决":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.2"
+          - cell "76.0%"
+          - cell "22.4%"
+          - cell "388"
+        - row "查看神谕纹章 查看无尽之刃 查看最后的轻语 3.21 71.8% 29.1% 110":
+          - cell "查看神谕纹章 查看无尽之刃 查看最后的轻语":
+            - button "查看神谕纹章":
+              - generic "神谕纹章":
+                - generic: 神
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.21"
+          - cell "71.8%"
+          - cell "29.1%"
+          - cell "110"
+        - row "查看饮血剑 查看无尽之刃 查看强袭者的链枷 3.21 72.6% 29.7% 1,017":
+          - cell "查看饮血剑 查看无尽之刃 查看强袭者的链枷":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.21"
+          - cell "72.6%"
+          - cell "29.7%"
+          - cell "1,017"
+        - row "查看饮血剑 查看无尽之刃 查看最后的轻语 3.21 72.8% 28.6% 1,810":
+          - cell "查看饮血剑 查看无尽之刃 查看最后的轻语":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.21"
+          - cell "72.8%"
+          - cell "28.6%"
+          - cell "1,810"
+        - row "查看巨人杀手 查看最后的轻语 查看朔极之矛 3.22 77.3% 21.8% 119":
+          - cell "查看巨人杀手 查看最后的轻语 查看朔极之矛":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+          - cell "3.22"
+          - cell "77.3%"
+          - cell "21.8%"
+          - cell "119"
+        - row "查看最后的轻语 查看斯特拉克的挑战护手 查看泰坦的坚决 3.22 73.6% 29.1% 258":
+          - cell "查看最后的轻语 查看斯特拉克的挑战护手 查看泰坦的坚决":
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.22"
+          - cell "73.6%"
+          - cell "29.1%"
+          - cell "258"
+        - row "查看夜之锋刃 查看无尽之刃 查看斯特拉克的挑战护手 3.23 73.0% 27.3% 645":
+          - cell "查看夜之锋刃 查看无尽之刃 查看斯特拉克的挑战护手":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.23"
+          - cell "73.0%"
+          - cell "27.3%"
+          - cell "645"
+        - row "查看饮血剑 查看死亡之刃 查看无尽之刃 3.24 72.5% 26.8% 794":
+          - cell "查看饮血剑 查看死亡之刃 查看无尽之刃":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.24"
+          - cell "72.5%"
+          - cell "26.8%"
+          - cell "794"
+        - row "查看巨人杀手 查看无尽之刃 查看水银 3.24 73.8% 24.6% 244":
+          - cell "查看巨人杀手 查看无尽之刃 查看水银":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看水银":
+              - generic "水银"
+          - cell "3.24"
+          - cell "73.8%"
+          - cell "24.6%"
+          - cell "244"
+        - row "查看巨人杀手 查看海克斯科技枪刃 查看无尽之刃 3.24 73.3% 27.6% 116":
+          - cell "查看巨人杀手 查看海克斯科技枪刃 查看无尽之刃":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看海克斯科技枪刃":
+              - generic "海克斯科技枪刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.24"
+          - cell "73.3%"
+          - cell "27.6%"
+          - cell "116"
+        - row "查看饮血剑 查看巨人杀手 查看正义之手 3.24 73.4% 24.1% 642":
+          - cell "查看饮血剑 查看巨人杀手 查看正义之手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看正义之手":
+              - generic "正义之手"
+          - cell "3.24"
+          - cell "73.4%"
+          - cell "24.1%"
+          - cell "642"
+        - row "查看夜之锋刃 查看正义之手 查看最后的轻语 3.25 73.9% 26.8% 261":
+          - cell "查看夜之锋刃 查看正义之手 查看最后的轻语":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.25"
+          - cell "73.9%"
+          - cell "26.8%"
+          - cell "261"
+        - row "查看正义之手 查看水银 查看泰坦的坚决 3.25 74.6% 26.8% 205":
+          - cell "查看正义之手 查看水银 查看泰坦的坚决":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看水银":
+              - generic "水银"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.25"
+          - cell "74.6%"
+          - cell "26.8%"
+          - cell "205"
+        - row "查看三相之力 查看无尽之刃 查看最后的轻语 3.25 73.1% 27.4% 175":
+          - cell "查看三相之力 查看无尽之刃 查看最后的轻语":
+            - button "查看三相之力":
+              - generic "三相之力":
+                - generic: 三
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.25"
+          - cell "73.1%"
+          - cell "27.4%"
+          - cell "175"
+        - row "查看饮血剑 查看死亡之刃 查看斯特拉克的挑战护手 3.26 73.7% 24.6% 418":
+          - cell "查看饮血剑 查看死亡之刃 查看斯特拉克的挑战护手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.26"
+          - cell "73.7%"
+          - cell "24.6%"
+          - cell "418"
+        - row "查看饮血剑 查看夜之锋刃 查看最后的轻语 3.26 71.8% 25.7% 354":
+          - cell "查看饮血剑 查看夜之锋刃 查看最后的轻语":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.26"
+          - cell "71.8%"
+          - cell "25.7%"
+          - cell "354"
+        - row "查看无尽之刃 查看最后的轻语 查看朔极之矛 3.27 72.2% 27.9% 868":
+          - cell "查看无尽之刃 查看最后的轻语 查看朔极之矛":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+          - cell "3.27"
+          - cell "72.2%"
+          - cell "27.9%"
+          - cell "868"
+        - row "查看死亡之刃 查看夜之锋刃 查看正义之手 3.27 73.8% 24.8% 214":
+          - cell "查看死亡之刃 查看夜之锋刃 查看正义之手":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+          - cell "3.27"
+          - cell "73.8%"
+          - cell "24.8%"
+          - cell "214"
+        - row "查看无尽之刃 查看朔极之矛 查看强袭者的链枷 3.27 72.9% 28.7% 450":
+          - cell "查看无尽之刃 查看朔极之矛 查看强袭者的链枷":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.27"
+          - cell "72.9%"
+          - cell "28.7%"
+          - cell "450"
+        - row "查看巨人杀手 查看最后的轻语 查看泰坦的坚决 3.27 71.8% 28.2% 177":
+          - cell "查看巨人杀手 查看最后的轻语 查看泰坦的坚决":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.27"
+          - cell "71.8%"
+          - cell "28.2%"
+          - cell "177"
+        - row "查看饮血剑 查看正义之手 查看水银 3.27 73.9% 23.8% 303":
+          - cell "查看饮血剑 查看正义之手 查看水银":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看水银":
+              - generic "水银"
+          - cell "3.27"
+          - cell "73.9%"
+          - cell "23.8%"
+          - cell "303"
+        - row "查看饮血剑 查看巨人杀手 查看无尽之刃 3.27 72.6% 26.2% 892":
+          - cell "查看饮血剑 查看巨人杀手 查看无尽之刃":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.27"
+          - cell "72.6%"
+          - cell "26.2%"
+          - cell "892"
+        - row "查看饮血剑 查看正义之手 查看无尽之刃 3.28 73.1% 25.2% 907":
+          - cell "查看饮血剑 查看正义之手 查看无尽之刃":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.28"
+          - cell "73.1%"
+          - cell "25.2%"
+          - cell "907"
+        - row "查看死亡之刃 查看正义之手 查看泰坦的坚决 3.29 72.4% 26.2% 225":
+          - cell "查看死亡之刃 查看正义之手 查看泰坦的坚决":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.29"
+          - cell "72.4%"
+          - cell "26.2%"
+          - cell "225"
+        - row "查看饮血剑 查看水银 查看泰坦的坚决 3.31 73.1% 21.2% 495":
+          - cell "查看饮血剑 查看水银 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看水银":
+              - generic "水银"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.31"
+          - cell "73.1%"
+          - cell "21.2%"
+          - cell "495"
+        - row "查看蓝霸符 查看无尽之刃 查看最后的轻语 3.31 71.4% 23.7% 472":
+          - cell "查看蓝霸符 查看无尽之刃 查看最后的轻语":
+            - button "查看蓝霸符":
+              - generic "蓝霸符":
+                - generic: 蓝
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.31"
+          - cell "71.4%"
+          - cell "23.7%"
+          - cell "472"
+        - row "查看鬼索的狂暴之刃 查看最后的轻语 查看强袭者的链枷 3.32 70.5% 25.9% 112":
+          - cell "查看鬼索的狂暴之刃 查看最后的轻语 查看强袭者的链枷":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.32"
+          - cell "70.5%"
+          - cell "25.9%"
+          - cell "112"
+        - row "查看饮血剑 查看死亡之刃 查看泰坦的坚决 3.33 71.1% 24.7% 384":
+          - cell "查看饮血剑 查看死亡之刃 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.33"
+          - cell "71.1%"
+          - cell "24.7%"
+          - cell "384"
+        - row "查看无尽之刃 查看红霸符 查看泰坦的坚决 3.33 72.6% 27.4% 106":
+          - cell "查看无尽之刃 查看红霸符 查看泰坦的坚决":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看红霸符":
+              - generic "红霸符"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.33"
+          - cell "72.6%"
+          - cell "27.4%"
+          - cell "106"
+        - row "查看饮血剑 查看夜之锋刃 查看斯特拉克的挑战护手 3.33 71.7% 23.7% 967":
+          - cell "查看饮血剑 查看夜之锋刃 查看斯特拉克的挑战护手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.33"
+          - cell "71.7%"
+          - cell "23.7%"
+          - cell "967"
+        - row "查看饮血剑 查看夜之锋刃 查看泰坦的坚决 3.33 71.8% 22.1% 1,046":
+          - cell "查看饮血剑 查看夜之锋刃 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.33"
+          - cell "71.8%"
+          - cell "22.1%"
+          - cell "1,046"
+        - row "查看正义之手 查看无尽之刃 查看朔极之矛 3.34 70.6% 25.0% 204":
+          - cell "查看正义之手 查看无尽之刃 查看朔极之矛":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+          - cell "3.34"
+          - cell "70.6%"
+          - cell "25.0%"
+          - cell "204"
+        - row "查看饮血剑 查看无尽之刃 查看斯特拉克的挑战护手 3.34 70.9% 22.5% 1,325":
+          - cell "查看饮血剑 查看无尽之刃 查看斯特拉克的挑战护手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.34"
+          - cell "70.9%"
+          - cell "22.5%"
+          - cell "1,325"
+        - row "查看巨人杀手 查看强袭者的链枷 查看泰坦的坚决 3.35 67.5% 24.8% 117":
+          - cell "查看巨人杀手 查看强袭者的链枷 查看泰坦的坚决":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.35"
+          - cell "67.5%"
+          - cell "24.8%"
+          - cell "117"
+        - row "查看饮血剑 查看夜之锋刃 查看无尽之刃 3.35 70.9% 23.7% 834":
+          - cell "查看饮血剑 查看夜之锋刃 查看无尽之刃":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.35"
+          - cell "70.9%"
+          - cell "23.7%"
+          - cell "834"
+        - row "查看无尽之刃 查看水银 查看泰坦的坚决 3.35 69.9% 28.7% 136":
+          - cell "查看无尽之刃 查看水银 查看泰坦的坚决":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看水银":
+              - generic "水银"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.35"
+          - cell "69.9%"
+          - cell "28.7%"
+          - cell "136"
+        - row "查看饮血剑 查看夜之锋刃 查看水银 3.35 72.0% 25.2% 218":
+          - cell "查看饮血剑 查看夜之锋刃 查看水银":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看水银":
+              - generic "水银"
+          - cell "3.35"
+          - cell "72.0%"
+          - cell "25.2%"
+          - cell "218"
+        - row "查看巨人杀手 查看鬼索的狂暴之刃 查看正义之手 3.36 69.3% 23.9% 205":
+          - cell "查看巨人杀手 查看鬼索的狂暴之刃 查看正义之手":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看正义之手":
+              - generic "正义之手"
+          - cell "3.36"
+          - cell "69.3%"
+          - cell "23.9%"
+          - cell "205"
+        - row "查看鬼索的狂暴之刃 查看无尽之刃 查看水银 3.36 74.5% 21.6% 102":
+          - cell "查看鬼索的狂暴之刃 查看无尽之刃 查看水银":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看水银":
+              - generic "水银"
+          - cell "3.36"
+          - cell "74.5%"
+          - cell "21.6%"
+          - cell "102"
+        - row "查看无尽之刃 查看朔极之矛 查看斯特拉克的挑战护手 3.37 70.9% 26.5% 234":
+          - cell "查看无尽之刃 查看朔极之矛 查看斯特拉克的挑战护手":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.37"
+          - cell "70.9%"
+          - cell "26.5%"
+          - cell "234"
+        - row "查看饮血剑 查看斯特拉克的挑战护手 查看泰坦的坚决 3.38 71.1% 20.2% 3,486":
+          - cell "查看饮血剑 查看斯特拉克的挑战护手 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.38"
+          - cell "71.1%"
+          - cell "20.2%"
+          - cell "3,486"
+        - row "查看饮血剑 查看最后的轻语 查看泰坦的坚决 3.38 67.3% 26.4% 526":
+          - cell "查看饮血剑 查看最后的轻语 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.38"
+          - cell "67.3%"
+          - cell "26.4%"
+          - cell "526"
+        - row "查看夜之锋刃 查看正义之手 查看泰坦的坚决 3.38 72.3% 21.9% 494":
+          - cell "查看夜之锋刃 查看正义之手 查看泰坦的坚决":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.38"
+          - cell "72.3%"
+          - cell "21.9%"
+          - cell "494"
+        - row "查看饮血剑 查看夜之锋刃 查看强袭者的链枷 3.39 68.8% 24.2% 157":
+          - cell "查看饮血剑 查看夜之锋刃 查看强袭者的链枷":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.39"
+          - cell "68.8%"
+          - cell "24.2%"
+          - cell "157"
+        - row "查看饮血剑 查看巨人杀手 查看泰坦的坚决 3.4 70.2% 22.9% 742":
+          - cell "查看饮血剑 查看巨人杀手 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.4"
+          - cell "70.2%"
+          - cell "22.9%"
+          - cell "742"
+        - row "查看无尽之刃 查看斯特拉克的挑战护手 查看泰坦的坚决 3.41 69.5% 24.9% 766":
+          - cell "查看无尽之刃 查看斯特拉克的挑战护手 查看泰坦的坚决":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.41"
+          - cell "69.5%"
+          - cell "24.9%"
+          - cell "766"
+        - row "查看鬼索的狂暴之刃 查看斯特拉克的挑战护手 查看泰坦的坚决 3.42 68.3% 20.4% 142":
+          - cell "查看鬼索的狂暴之刃 查看斯特拉克的挑战护手 查看泰坦的坚决":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.42"
+          - cell "68.3%"
+          - cell "20.4%"
+          - cell "142"
+        - row "查看最后的轻语 查看朔极之矛 查看强袭者的链枷 3.42 66.3% 27.7% 101":
+          - cell "查看最后的轻语 查看朔极之矛 查看强袭者的链枷":
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.42"
+          - cell "66.3%"
+          - cell "27.7%"
+          - cell "101"
+        - row "查看饮血剑 查看夜之锋刃 查看正义之手 3.42 70.8% 20.1% 842":
+          - cell "查看饮血剑 查看夜之锋刃 查看正义之手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看正义之手":
+              - generic "正义之手"
+          - cell "3.42"
+          - cell "70.8%"
+          - cell "20.1%"
+          - cell "842"
+        - row "查看夜之锋刃 查看鬼索的狂暴之刃 查看正义之手 3.42 73.6% 20.7% 174":
+          - cell "查看夜之锋刃 查看鬼索的狂暴之刃 查看正义之手":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看正义之手":
+              - generic "正义之手"
+          - cell "3.42"
+          - cell "73.6%"
+          - cell "20.7%"
+          - cell "174"
+        - row "查看死亡之刃 查看无尽之刃 查看朔极之矛 3.42 71.4% 23.5% 357":
+          - cell "查看死亡之刃 查看无尽之刃 查看朔极之矛":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+          - cell "3.42"
+          - cell "71.4%"
+          - cell "23.5%"
+          - cell "357"
+        - row "查看正义之手 查看斯特拉克的挑战护手 查看泰坦的坚决 3.43 69.2% 21.4% 919":
+          - cell "查看正义之手 查看斯特拉克的挑战护手 查看泰坦的坚决":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.43"
+          - cell "69.2%"
+          - cell "21.4%"
+          - cell "919"
+        - row "查看夜之锋刃 查看无尽之刃 查看泰坦的坚决 3.44 70.0% 19.8% 333":
+          - cell "查看夜之锋刃 查看无尽之刃 查看泰坦的坚决":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.44"
+          - cell "70.0%"
+          - cell "19.8%"
+          - cell "333"
+        - row "查看夜之锋刃 查看无尽之刃 查看朔极之矛 3.44 69.8% 23.0% 126":
+          - cell "查看夜之锋刃 查看无尽之刃 查看朔极之矛":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+          - cell "3.44"
+          - cell "69.8%"
+          - cell "23.0%"
+          - cell "126"
+        - row "查看死亡之刃 查看鬼索的狂暴之刃 查看斯特拉克的挑战护手 3.44 68.1% 23.0% 113":
+          - cell "查看死亡之刃 查看鬼索的狂暴之刃 查看斯特拉克的挑战护手":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.44"
+          - cell "68.1%"
+          - cell "23.0%"
+          - cell "113"
+        - row "查看死亡之刃 查看巨人杀手 查看泰坦的坚决 3.45 64.0% 28.7% 136":
+          - cell "查看死亡之刃 查看巨人杀手 查看泰坦的坚决":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.45"
+          - cell "64.0%"
+          - cell "28.7%"
+          - cell "136"
+        - row "查看巨人杀手 查看无尽之刃 查看朔极之矛 3.45 68.3% 22.3% 341":
+          - cell "查看巨人杀手 查看无尽之刃 查看朔极之矛":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+          - cell "3.45"
+          - cell "68.3%"
+          - cell "22.3%"
+          - cell "341"
+        - row "查看死亡之刃 查看无尽之刃 查看泰坦的坚决 3.46 71.3% 24.1% 428":
+          - cell "查看死亡之刃 查看无尽之刃 查看泰坦的坚决":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.46"
+          - cell "71.3%"
+          - cell "24.1%"
+          - cell "428"
+        - row "查看巨人杀手 查看无尽之刃 查看泰坦的坚决 3.46 67.6% 24.0% 454":
+          - cell "查看巨人杀手 查看无尽之刃 查看泰坦的坚决":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.46"
+          - cell "67.6%"
+          - cell "24.0%"
+          - cell "454"
+        - row "查看饮血剑 查看正义之手 查看正义之手 3.47 68.4% 20.3% 133":
+          - cell "查看饮血剑 查看正义之手 查看正义之手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看正义之手":
+              - generic "正义之手"
+          - cell "3.47"
+          - cell "68.4%"
+          - cell "20.3%"
+          - cell "133"
+        - row "查看饮血剑 查看强袭者的链枷 查看泰坦的坚决 3.48 69.7% 19.1% 314":
+          - cell "查看饮血剑 查看强袭者的链枷 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.48"
+          - cell "69.7%"
+          - cell "19.1%"
+          - cell "314"
+        - row "查看鬼索的狂暴之刃 查看无尽之刃 查看红霸符 3.48 67.0% 25.3% 233":
+          - cell "查看鬼索的狂暴之刃 查看无尽之刃 查看红霸符":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看红霸符":
+              - generic "红霸符"
+          - cell "3.48"
+          - cell "67.0%"
+          - cell "25.3%"
+          - cell "233"
+        - row "查看鬼索的狂暴之刃 查看正义之手 查看最后的轻语 3.49 71.2% 18.4% 125":
+          - cell "查看鬼索的狂暴之刃 查看正义之手 查看最后的轻语":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.49"
+          - cell "71.2%"
+          - cell "18.4%"
+          - cell "125"
+        - row "查看巨人杀手 查看鬼索的狂暴之刃 查看最后的轻语 3.49 70.8% 20.2% 178":
+          - cell "查看巨人杀手 查看鬼索的狂暴之刃 查看最后的轻语":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.49"
+          - cell "70.8%"
+          - cell "20.2%"
+          - cell "178"
+        - row "查看无尽之刃 查看红霸符 查看朔极之矛 3.5 67.3% 23.5% 162":
+          - cell "查看无尽之刃 查看红霸符 查看朔极之矛":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看红霸符":
+              - generic "红霸符"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+          - cell "3.5"
+          - cell "67.3%"
+          - cell "23.5%"
+          - cell "162"
+        - row "查看鬼索的狂暴之刃 查看正义之手 查看斯特拉克的挑战护手 3.5 70.4% 19.5% 159":
+          - cell "查看鬼索的狂暴之刃 查看正义之手 查看斯特拉克的挑战护手":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.5"
+          - cell "70.4%"
+          - cell "19.5%"
+          - cell "159"
+        - row "查看饮血剑 查看夜之锋刃 查看鬼索的狂暴之刃 3.51 69.0% 18.6% 274":
+          - cell "查看饮血剑 查看夜之锋刃 查看鬼索的狂暴之刃":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+          - cell "3.51"
+          - cell "69.0%"
+          - cell "18.6%"
+          - cell "274"
+        - row "查看饮血剑 查看正义之手 查看斯特拉克的挑战护手 3.51 68.8% 20.7% 1,230":
+          - cell "查看饮血剑 查看正义之手 查看斯特拉克的挑战护手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.51"
+          - cell "68.8%"
+          - cell "20.7%"
+          - cell "1,230"
+        - row "查看正义之手 查看无尽之刃 查看泰坦的坚决 3.51 67.9% 23.3% 751":
+          - cell "查看正义之手 查看无尽之刃 查看泰坦的坚决":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.51"
+          - cell "67.9%"
+          - cell "23.3%"
+          - cell "751"
+        - row "查看饮血剑 查看无尽之刃 查看泰坦的坚决 3.52 69.2% 22.1% 1,234":
+          - cell "查看饮血剑 查看无尽之刃 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.52"
+          - cell "69.2%"
+          - cell "22.1%"
+          - cell "1,234"
+        - row "查看饮血剑 查看鬼索的狂暴之刃 查看斯特拉克的挑战护手 3.52 69.5% 19.7% 351":
+          - cell "查看饮血剑 查看鬼索的狂暴之刃 查看斯特拉克的挑战护手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.52"
+          - cell "69.5%"
+          - cell "19.7%"
+          - cell "351"
+        - row "查看巨人杀手 查看鬼索的狂暴之刃 查看斯特拉克的挑战护手 3.54 68.5% 18.9% 127":
+          - cell "查看巨人杀手 查看鬼索的狂暴之刃 查看斯特拉克的挑战护手":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.54"
+          - cell "68.5%"
+          - cell "18.9%"
+          - cell "127"
+        - row "查看死亡之刃 查看巨人杀手 查看鬼索的狂暴之刃 3.56 63.2% 20.2% 228":
+          - cell "查看死亡之刃 查看巨人杀手 查看鬼索的狂暴之刃":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+          - cell "3.56"
+          - cell "63.2%"
+          - cell "20.2%"
+          - cell "228"
+        - row "查看死亡之刃 查看最后的轻语 查看朔极之矛 3.56 67.3% 25.0% 156":
+          - cell "查看死亡之刃 查看最后的轻语 查看朔极之矛":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+          - cell "3.56"
+          - cell "67.3%"
+          - cell "25.0%"
+          - cell "156"
+        - row "查看饮血剑 查看泰坦的坚决 查看泰坦的坚决 3.58 71.1% 14.1% 135":
+          - cell "查看饮血剑 查看泰坦的坚决 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.58"
+          - cell "71.1%"
+          - cell "14.1%"
+          - cell "135"
+        - row "查看饮血剑 查看鬼索的狂暴之刃 查看正义之手 3.58 67.9% 17.6% 318":
+          - cell "查看饮血剑 查看鬼索的狂暴之刃 查看正义之手":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看正义之手":
+              - generic "正义之手"
+          - cell "3.58"
+          - cell "67.9%"
+          - cell "17.6%"
+          - cell "318"
+        - row "查看饮血剑 查看无尽之刃 查看朔极之矛 3.59 68.2% 18.7% 214":
+          - cell "查看饮血剑 查看无尽之刃 查看朔极之矛":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+          - cell "3.59"
+          - cell "68.2%"
+          - cell "18.7%"
+          - cell "214"
+        - row "查看饮血剑 查看正义之手 查看泰坦的坚决 3.6 66.3% 19.3% 1,760":
+          - cell "查看饮血剑 查看正义之手 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.6"
+          - cell "66.3%"
+          - cell "19.3%"
+          - cell "1,760"
+        - row "查看死亡之刃 查看鬼索的狂暴之刃 查看最后的轻语 3.61 65.1% 25.6% 238":
+          - cell "查看死亡之刃 查看鬼索的狂暴之刃 查看最后的轻语":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.61"
+          - cell "65.1%"
+          - cell "25.6%"
+          - cell "238"
+        - row "查看巨人杀手 查看鬼索的狂暴之刃 查看泰坦的坚决 3.63 69.9% 14.2% 113":
+          - cell "查看巨人杀手 查看鬼索的狂暴之刃 查看泰坦的坚决":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.63"
+          - cell "69.9%"
+          - cell "14.2%"
+          - cell "113"
+        - row "查看鬼索的狂暴之刃 查看正义之手 查看无尽之刃 3.63 65.9% 20.0% 560":
+          - cell "查看鬼索的狂暴之刃 查看正义之手 查看无尽之刃":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.63"
+          - cell "65.9%"
+          - cell "20.0%"
+          - cell "560"
+        - row "查看无尽之刃 查看海妖之怒 查看最后的轻语 3.64 64.2% 23.3% 318":
+          - cell "查看无尽之刃 查看海妖之怒 查看最后的轻语":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看海妖之怒":
+              - generic "海妖之怒":
+                - generic: 海
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.64"
+          - cell "64.2%"
+          - cell "23.3%"
+          - cell "318"
+        - row "查看饮血剑 查看鬼索的狂暴之刃 查看最后的轻语 3.65 65.5% 19.6% 168":
+          - cell "查看饮血剑 查看鬼索的狂暴之刃 查看最后的轻语":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.65"
+          - cell "65.5%"
+          - cell "19.6%"
+          - cell "168"
+        - row "查看正义之手 查看正义之手 查看无尽之刃 3.67 63.2% 23.6% 174":
+          - cell "查看正义之手 查看正义之手 查看无尽之刃":
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.67"
+          - cell "63.2%"
+          - cell "23.6%"
+          - cell "174"
+        - row "查看巨人杀手 查看无尽之刃 查看海妖之怒 3.67 64.0% 20.0% 175":
+          - cell "查看巨人杀手 查看无尽之刃 查看海妖之怒":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看海妖之怒":
+              - generic "海妖之怒":
+                - generic: 海
+          - cell "3.67"
+          - cell "64.0%"
+          - cell "20.0%"
+          - cell "175"
+        - row "查看鬼索的狂暴之刃 查看无尽之刃 查看最后的轻语 3.68 62.7% 23.9% 1,097":
+          - cell "查看鬼索的狂暴之刃 查看无尽之刃 查看最后的轻语":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.68"
+          - cell "62.7%"
+          - cell "23.9%"
+          - cell "1,097"
+        - row "查看鬼索的狂暴之刃 查看海克斯科技枪刃 查看无尽之刃 3.69 61.9% 22.1% 113":
+          - cell "查看鬼索的狂暴之刃 查看海克斯科技枪刃 查看无尽之刃":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看海克斯科技枪刃":
+              - generic "海克斯科技枪刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.69"
+          - cell "61.9%"
+          - cell "22.1%"
+          - cell "113"
+        - row "查看无尽之刃 查看海妖之怒 查看强袭者的链枷 3.69 61.0% 19.9% 146":
+          - cell "查看无尽之刃 查看海妖之怒 查看强袭者的链枷":
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看海妖之怒":
+              - generic "海妖之怒":
+                - generic: 海
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.69"
+          - cell "61.0%"
+          - cell "19.9%"
+          - cell "146"
+        - row "查看狂战士纹章 查看饮血剑 查看泰坦的坚决 3.69 60.3% 17.6% 131":
+          - cell "查看狂战士纹章 查看饮血剑 查看泰坦的坚决":
+            - button "查看狂战士纹章":
+              - generic "狂战士纹章":
+                - generic: 狂
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.69"
+          - cell "60.3%"
+          - cell "17.6%"
+          - cell "131"
+        - row "查看鬼索的狂暴之刃 查看无尽之刃 查看斯特拉克的挑战护手 3.71 65.1% 19.0% 321":
+          - cell "查看鬼索的狂暴之刃 查看无尽之刃 查看斯特拉克的挑战护手":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手"
+          - cell "3.71"
+          - cell "65.1%"
+          - cell "19.0%"
+          - cell "321"
+        - row "查看饮血剑 查看死亡之刃 查看鬼索的狂暴之刃 3.72 64.1% 17.7% 198":
+          - cell "查看饮血剑 查看死亡之刃 查看鬼索的狂暴之刃":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+          - cell "3.72"
+          - cell "64.1%"
+          - cell "17.7%"
+          - cell "198"
+        - row "查看饮血剑 查看巨人杀手 查看鬼索的狂暴之刃 3.72 65.6% 16.4% 262":
+          - cell "查看饮血剑 查看巨人杀手 查看鬼索的狂暴之刃":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+          - cell "3.72"
+          - cell "65.6%"
+          - cell "16.4%"
+          - cell "262"
+        - row "查看饮血剑 查看鬼索的狂暴之刃 查看泰坦的坚决 3.72 64.7% 17.1% 678":
+          - cell "查看饮血剑 查看鬼索的狂暴之刃 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.72"
+          - cell "64.7%"
+          - cell "17.1%"
+          - cell "678"
+        - row "查看饮血剑 查看鬼索的狂暴之刃 查看无尽之刃 3.73 65.8% 17.2% 693":
+          - cell "查看饮血剑 查看鬼索的狂暴之刃 查看无尽之刃":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.73"
+          - cell "65.8%"
+          - cell "17.2%"
+          - cell "693"
+        - row "查看死亡之刃 查看鬼索的狂暴之刃 查看强袭者的链枷 3.74 67.3% 14.2% 113":
+          - cell "查看死亡之刃 查看鬼索的狂暴之刃 查看强袭者的链枷":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.74"
+          - cell "67.3%"
+          - cell "14.2%"
+          - cell "113"
+        - row "查看巨人杀手 查看鬼索的狂暴之刃 查看无尽之刃 3.76 64.1% 18.0% 705":
+          - cell "查看巨人杀手 查看鬼索的狂暴之刃 查看无尽之刃":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.76"
+          - cell "64.1%"
+          - cell "18.0%"
+          - cell "705"
+        - row "查看死亡之刃 查看鬼索的狂暴之刃 查看正义之手 3.76 65.8% 21.3% 155":
+          - cell "查看死亡之刃 查看鬼索的狂暴之刃 查看正义之手":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看正义之手":
+              - generic "正义之手"
+          - cell "3.76"
+          - cell "65.8%"
+          - cell "21.3%"
+          - cell "155"
+        - row "查看鬼索的狂暴之刃 查看无尽之刃 查看泰坦的坚决 3.78 64.5% 16.7% 276":
+          - cell "查看鬼索的狂暴之刃 查看无尽之刃 查看泰坦的坚决":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.78"
+          - cell "64.5%"
+          - cell "16.7%"
+          - cell "276"
+        - row "查看死亡之刃 查看无尽之刃 查看海妖之怒 3.78 61.6% 18.3% 164":
+          - cell "查看死亡之刃 查看无尽之刃 查看海妖之怒":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看海妖之怒":
+              - generic "海妖之怒":
+                - generic: 海
+          - cell "3.78"
+          - cell "61.6%"
+          - cell "18.3%"
+          - cell "164"
+        - row "查看饮血剑 查看朔极之矛 查看泰坦的坚决 3.78 64.8% 16.2% 105":
+          - cell "查看饮血剑 查看朔极之矛 查看泰坦的坚决":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.78"
+          - cell "64.8%"
+          - cell "16.2%"
+          - cell "105"
+        - row "查看恶火小斧 查看无尽之刃 查看最后的轻语 3.79 63.1% 19.4% 103":
+          - cell "查看恶火小斧 查看无尽之刃 查看最后的轻语":
+            - button "查看恶火小斧":
+              - generic "恶火小斧":
+                - generic: 恶
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.79"
+          - cell "63.1%"
+          - cell "19.4%"
+          - cell "103"
+        - row "查看巨型九头蛇 查看无尽之刃 查看最后的轻语 3.79 61.3% 25.3% 150":
+          - cell "查看巨型九头蛇 查看无尽之刃 查看最后的轻语":
+            - button "查看巨型九头蛇":
+              - generic "巨型九头蛇":
+                - generic: 巨
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看最后的轻语":
+              - generic "最后的轻语"
+          - cell "3.79"
+          - cell "61.3%"
+          - cell "25.3%"
+          - cell "150"
+        - row "查看死亡之刃 查看鬼索的狂暴之刃 查看无尽之刃 3.8 63.5% 19.2% 682":
+          - cell "查看死亡之刃 查看鬼索的狂暴之刃 查看无尽之刃":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.8"
+          - cell "63.5%"
+          - cell "19.2%"
+          - cell "682"
+        - row "查看夜之锋刃 查看鬼索的狂暴之刃 查看无尽之刃 3.81 64.6% 20.0% 280":
+          - cell "查看夜之锋刃 查看鬼索的狂暴之刃 查看无尽之刃":
+            - button "查看夜之锋刃":
+              - generic "夜之锋刃"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "3.81"
+          - cell "64.6%"
+          - cell "20.0%"
+          - cell "280"
+        - row "查看鬼索的狂暴之刃 查看无尽之刃 查看强袭者的链枷 3.86 62.2% 22.2% 500":
+          - cell "查看鬼索的狂暴之刃 查看无尽之刃 查看强袭者的链枷":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.86"
+          - cell "62.2%"
+          - cell "22.2%"
+          - cell "500"
+        - row "查看饮血剑 查看无尽之刃 查看海妖之怒 3.87 60.4% 18.9% 106":
+          - cell "查看饮血剑 查看无尽之刃 查看海妖之怒":
+            - button "查看饮血剑":
+              - generic "饮血剑":
+                - generic: 饮
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看海妖之怒":
+              - generic "海妖之怒":
+                - generic: 海
+          - cell "3.87"
+          - cell "60.4%"
+          - cell "18.9%"
+          - cell "106"
+        - row "查看死亡之刃 查看鬼索的狂暴之刃 查看泰坦的坚决 3.87 59.5% 19.8% 131":
+          - cell "查看死亡之刃 查看鬼索的狂暴之刃 查看泰坦的坚决":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.87"
+          - cell "59.5%"
+          - cell "19.8%"
+          - cell "131"
+        - row "查看鬼索的狂暴之刃 查看正义之手 查看泰坦的坚决 3.9 60.4% 16.1% 255":
+          - cell "查看鬼索的狂暴之刃 查看正义之手 查看泰坦的坚决":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看正义之手":
+              - generic "正义之手"
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.9"
+          - cell "60.4%"
+          - cell "16.1%"
+          - cell "255"
+        - row "查看鬼索的狂暴之刃 查看无尽之刃 查看朔极之矛 4.04 61.0% 13.1% 282":
+          - cell "查看鬼索的狂暴之刃 查看无尽之刃 查看朔极之矛":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看朔极之矛":
+              - generic "朔极之矛":
+                - generic: 朔
+          - cell "4.04"
+          - cell "61.0%"
+          - cell "13.1%"
+          - cell "282"
+        - row "查看鬼索的狂暴之刃 查看鬼索的狂暴之刃 查看无尽之刃 4.09 55.8% 15.5% 129":
+          - cell "查看鬼索的狂暴之刃 查看鬼索的狂暴之刃 查看无尽之刃":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+          - cell "4.09"
+          - cell "55.8%"
+          - cell "15.5%"
+          - cell "129"
+        - row "查看死亡之刃 查看鬼索的狂暴之刃 查看海妖之怒 4.42 48.8% 17.5% 160":
+          - cell "查看死亡之刃 查看鬼索的狂暴之刃 查看海妖之怒":
+            - button "查看死亡之刃":
+              - generic "死亡之刃"
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看海妖之怒":
+              - generic "海妖之怒":
+                - generic: 海
+          - cell "4.42"
+          - cell "48.8%"
+          - cell "17.5%"
+          - cell "160"
+        - row "查看鬼索的狂暴之刃 查看无尽之刃 查看海妖之怒 4.62 46.4% 12.8% 414":
+          - cell "查看鬼索的狂暴之刃 查看无尽之刃 查看海妖之怒":
+            - button "查看鬼索的狂暴之刃":
+              - generic "鬼索的狂暴之刃":
+                - generic: 鬼
+            - button "查看无尽之刃":
+              - generic "无尽之刃"
+            - button "查看海妖之怒":
+              - generic "海妖之怒":
+                - generic: 海
+          - cell "4.62"
+          - cell "46.4%"
+          - cell "12.8%"
+          - cell "414"
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手

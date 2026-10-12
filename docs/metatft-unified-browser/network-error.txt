@@ -1,0 +1,78 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 大数据
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - region "装备与棋子大数据":
+    - text: TFT / STATISTICS
+    - heading "大数据" [level=1]
+    - button "刷新数据"
+    - button "条件筛选 ↗"
+    - tablist "大数据分类":
+      - tab "装备" [selected]
+      - tab "棋子"
+    - generic: 暂时无法连接服务，请稍后重试。
+    - button "重试"
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手

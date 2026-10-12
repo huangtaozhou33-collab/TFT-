@@ -1,0 +1,1254 @@
+{
+  "auditedAt": "2026-10-11T06:04:51.677Z",
+  "reportComplete": false,
+  "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+  "requestedPatch": "18.4b",
+  "sourcePatch": null,
+  "target": 2556,
+  "datasets": 2555,
+  "statisticRows": 383152,
+  "rawResponseBodies": 2603,
+  "rawBytes": 69444927,
+  "modelCalled": false,
+  "failures": [
+    {
+      "rank": "ALL",
+      "kind": "builds",
+      "id": "DA_Sentinel18",
+      "code": "METATFT_UNAVAILABLE"
+    }
+  ],
+  "ranks": {
+    "PLATINUM_PLUS": {
+      "datasets": 213,
+      "rows": 34235,
+      "builds": 74,
+      "holders": 137,
+      "empty": 10,
+      "categories": {
+        "core": 39,
+        "artifact": 31,
+        "radiant": 36,
+        "component": 10,
+        "emblem": 21
+      }
+    },
+    "ALL": {
+      "datasets": 212,
+      "rows": 33656,
+      "builds": 73,
+      "holders": 137,
+      "empty": 10,
+      "categories": {
+        "core": 39,
+        "artifact": 31,
+        "component": 10,
+        "radiant": 36,
+        "emblem": 21
+      }
+    },
+    "IRON": {
+      "datasets": 213,
+      "rows": 21606,
+      "builds": 74,
+      "holders": 137,
+      "empty": 10,
+      "categories": {
+        "core": 39,
+        "artifact": 31,
+        "component": 10,
+        "radiant": 36,
+        "emblem": 21
+      }
+    },
+    "BRONZE": {
+      "datasets": 213,
+      "rows": 31172,
+      "builds": 74,
+      "holders": 137,
+      "empty": 10,
+      "categories": {
+        "core": 39,
+        "artifact": 31,
+        "radiant": 36,
+        "component": 10,
+        "emblem": 21
+      }
+    },
+    "SILVER": {
+      "datasets": 213,
+      "rows": 32626,
+      "builds": 74,
+      "holders": 137,
+      "empty": 10,
+      "categories": {
+        "core": 39,
+        "artifact": 31,
+        "radiant": 36,
+        "component": 10,
+        "emblem": 21
+      }
+    },
+    "GOLD": {
+      "datasets": 213,
+      "rows": 33583,
+      "builds": 74,
+      "holders": 137,
+      "empty": 10,
+      "categories": {
+        "core": 39,
+        "artifact": 31,
+        "radiant": 36,
+        "component": 10,
+        "emblem": 21
+      }
+    },
+    "PLATINUM": {
+      "datasets": 213,
+      "rows": 33893,
+      "builds": 74,
+      "holders": 137,
+      "empty": 10,
+      "categories": {
+        "core": 39,
+        "artifact": 31,
+        "radiant": 36,
+        "component": 10,
+        "emblem": 21
+      }
+    },
+    "EMERALD": {
+      "datasets": 213,
+      "rows": 33880,
+      "builds": 74,
+      "holders": 137,
+      "empty": 10,
+      "categories": {
+        "core": 39,
+        "artifact": 31,
+        "component": 10,
+        "radiant": 36,
+        "emblem": 21
+      }
+    },
+    "DIAMOND": {
+      "datasets": 213,
+      "rows": 33804,
+      "builds": 74,
+      "holders": 137,
+      "empty": 10,
+      "categories": {
+        "core": 39,
+        "artifact": 31,
+        "radiant": 36,
+        "component": 10,
+        "emblem": 21
+      }
+    },
+    "MASTER": {
+      "datasets": 213,
+      "rows": 33786,
+      "builds": 74,
+      "holders": 137,
+      "empty": 10,
+      "categories": {
+        "core": 39,
+        "artifact": 31,
+        "radiant": 36,
+        "component": 10,
+        "emblem": 21
+      }
+    },
+    "GRANDMASTER": {
+      "datasets": 213,
+      "rows": 31503,
+      "builds": 74,
+      "holders": 137,
+      "empty": 10,
+      "categories": {
+        "core": 39,
+        "artifact": 31,
+        "radiant": 36,
+        "component": 10,
+        "emblem": 21
+      }
+    },
+    "CHALLENGER": {
+      "datasets": 213,
+      "rows": 29408,
+      "builds": 74,
+      "holders": 137,
+      "empty": 10,
+      "categories": {
+        "core": 39,
+        "artifact": 31,
+        "radiant": 36,
+        "component": 10,
+        "emblem": 21
+      }
+    }
+  },
+  "emptyEntities": [
+    {
+      "rank": "PLATINUM_PLUS",
+      "kind": "builds",
+      "id": "DA_18_Lux_Inferno",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM_PLUS",
+      "kind": "builds",
+      "id": "DA_Lux18_Blackthorn",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM_PLUS",
+      "kind": "builds",
+      "id": "DA_18_Lux_Fae",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM_PLUS",
+      "kind": "builds",
+      "id": "DA_Lux18_Blossom",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM_PLUS",
+      "kind": "builds",
+      "id": "DA_18_Lux_Coven",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM_PLUS",
+      "kind": "builds",
+      "id": "DA_18_Lux_Sunbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM_PLUS",
+      "kind": "builds",
+      "id": "DA_18_Lux_Primal",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM_PLUS",
+      "kind": "builds",
+      "id": "DA_18_Lux_Elderwood",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM_PLUS",
+      "kind": "builds",
+      "id": "DA_18_Lux_Moonbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM_PLUS",
+      "kind": "holders",
+      "id": "DA_Artifact_DeathsDefiance",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "ALL",
+      "kind": "builds",
+      "id": "DA_18_Lux_Inferno",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "ALL",
+      "kind": "builds",
+      "id": "DA_Lux18_Blackthorn",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "ALL",
+      "kind": "builds",
+      "id": "DA_18_Lux_Fae",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "ALL",
+      "kind": "builds",
+      "id": "DA_Lux18_Blossom",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "ALL",
+      "kind": "builds",
+      "id": "DA_18_Lux_Coven",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "ALL",
+      "kind": "builds",
+      "id": "DA_18_Lux_Sunbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "ALL",
+      "kind": "builds",
+      "id": "DA_18_Lux_Primal",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "ALL",
+      "kind": "builds",
+      "id": "DA_18_Lux_Elderwood",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "ALL",
+      "kind": "builds",
+      "id": "DA_18_Lux_Moonbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "ALL",
+      "kind": "holders",
+      "id": "DA_Artifact_DeathsDefiance",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "IRON",
+      "kind": "builds",
+      "id": "DA_18_Lux_Inferno",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "IRON",
+      "kind": "builds",
+      "id": "DA_Lux18_Blackthorn",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "IRON",
+      "kind": "builds",
+      "id": "DA_18_Lux_Fae",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "IRON",
+      "kind": "builds",
+      "id": "DA_Lux18_Blossom",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "IRON",
+      "kind": "builds",
+      "id": "DA_18_Lux_Coven",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "IRON",
+      "kind": "builds",
+      "id": "DA_18_Lux_Sunbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "IRON",
+      "kind": "builds",
+      "id": "DA_18_Lux_Primal",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "IRON",
+      "kind": "builds",
+      "id": "DA_18_Lux_Elderwood",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "IRON",
+      "kind": "builds",
+      "id": "DA_18_Lux_Moonbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "IRON",
+      "kind": "holders",
+      "id": "DA_Artifact_DeathsDefiance",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "BRONZE",
+      "kind": "builds",
+      "id": "DA_18_Lux_Inferno",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "BRONZE",
+      "kind": "builds",
+      "id": "DA_Lux18_Blackthorn",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "BRONZE",
+      "kind": "builds",
+      "id": "DA_18_Lux_Fae",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "BRONZE",
+      "kind": "builds",
+      "id": "DA_Lux18_Blossom",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "BRONZE",
+      "kind": "builds",
+      "id": "DA_18_Lux_Coven",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "BRONZE",
+      "kind": "builds",
+      "id": "DA_18_Lux_Primal",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "BRONZE",
+      "kind": "builds",
+      "id": "DA_18_Lux_Sunbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "BRONZE",
+      "kind": "builds",
+      "id": "DA_18_Lux_Moonbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "BRONZE",
+      "kind": "builds",
+      "id": "DA_18_Lux_Elderwood",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "BRONZE",
+      "kind": "holders",
+      "id": "DA_Artifact_DeathsDefiance",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "SILVER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Inferno",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "SILVER",
+      "kind": "builds",
+      "id": "DA_Lux18_Blackthorn",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "SILVER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Fae",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "SILVER",
+      "kind": "builds",
+      "id": "DA_Lux18_Blossom",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "SILVER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Coven",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "SILVER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Sunbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "SILVER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Primal",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "SILVER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Elderwood",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "SILVER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Moonbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "SILVER",
+      "kind": "holders",
+      "id": "DA_Artifact_DeathsDefiance",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GOLD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Inferno",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GOLD",
+      "kind": "builds",
+      "id": "DA_Lux18_Blackthorn",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GOLD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Fae",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GOLD",
+      "kind": "builds",
+      "id": "DA_Lux18_Blossom",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GOLD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Coven",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GOLD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Sunbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GOLD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Primal",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GOLD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Elderwood",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GOLD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Moonbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GOLD",
+      "kind": "holders",
+      "id": "DA_Artifact_DeathsDefiance",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM",
+      "kind": "builds",
+      "id": "DA_18_Lux_Inferno",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM",
+      "kind": "builds",
+      "id": "DA_Lux18_Blackthorn",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM",
+      "kind": "builds",
+      "id": "DA_18_Lux_Fae",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM",
+      "kind": "builds",
+      "id": "DA_Lux18_Blossom",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM",
+      "kind": "builds",
+      "id": "DA_18_Lux_Coven",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM",
+      "kind": "builds",
+      "id": "DA_18_Lux_Primal",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM",
+      "kind": "builds",
+      "id": "DA_18_Lux_Sunbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM",
+      "kind": "builds",
+      "id": "DA_18_Lux_Moonbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM",
+      "kind": "builds",
+      "id": "DA_18_Lux_Elderwood",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "PLATINUM",
+      "kind": "holders",
+      "id": "DA_Artifact_DeathsDefiance",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "EMERALD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Inferno",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "EMERALD",
+      "kind": "builds",
+      "id": "DA_Lux18_Blackthorn",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "EMERALD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Fae",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "EMERALD",
+      "kind": "builds",
+      "id": "DA_Lux18_Blossom",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "EMERALD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Coven",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "EMERALD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Sunbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "EMERALD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Primal",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "EMERALD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Elderwood",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "EMERALD",
+      "kind": "builds",
+      "id": "DA_18_Lux_Moonbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "EMERALD",
+      "kind": "holders",
+      "id": "DA_Artifact_DeathsDefiance",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "DIAMOND",
+      "kind": "builds",
+      "id": "DA_18_Lux_Inferno",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "DIAMOND",
+      "kind": "builds",
+      "id": "DA_Lux18_Blackthorn",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "DIAMOND",
+      "kind": "builds",
+      "id": "DA_18_Lux_Fae",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "DIAMOND",
+      "kind": "builds",
+      "id": "DA_Lux18_Blossom",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "DIAMOND",
+      "kind": "builds",
+      "id": "DA_18_Lux_Coven",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "DIAMOND",
+      "kind": "builds",
+      "id": "DA_18_Lux_Sunbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "DIAMOND",
+      "kind": "builds",
+      "id": "DA_18_Lux_Primal",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "DIAMOND",
+      "kind": "builds",
+      "id": "DA_18_Lux_Elderwood",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "DIAMOND",
+      "kind": "builds",
+      "id": "DA_18_Lux_Moonbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "DIAMOND",
+      "kind": "holders",
+      "id": "DA_Artifact_DeathsDefiance",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "MASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Inferno",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "MASTER",
+      "kind": "builds",
+      "id": "DA_Lux18_Blackthorn",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "MASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Fae",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "MASTER",
+      "kind": "builds",
+      "id": "DA_Lux18_Blossom",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "MASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Coven",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "MASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Sunbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "MASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Primal",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "MASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Elderwood",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "MASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Moonbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "MASTER",
+      "kind": "holders",
+      "id": "DA_Artifact_DeathsDefiance",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GRANDMASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Inferno",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GRANDMASTER",
+      "kind": "builds",
+      "id": "DA_Lux18_Blackthorn",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GRANDMASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Fae",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GRANDMASTER",
+      "kind": "builds",
+      "id": "DA_Lux18_Blossom",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GRANDMASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Coven",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GRANDMASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Sunbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GRANDMASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Primal",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GRANDMASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Moonbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GRANDMASTER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Elderwood",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "GRANDMASTER",
+      "kind": "holders",
+      "id": "DA_Artifact_DeathsDefiance",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "CHALLENGER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Inferno",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "CHALLENGER",
+      "kind": "builds",
+      "id": "DA_Lux18_Blackthorn",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "CHALLENGER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Fae",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "CHALLENGER",
+      "kind": "builds",
+      "id": "DA_Lux18_Blossom",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "CHALLENGER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Coven",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "CHALLENGER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Sunbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "CHALLENGER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Primal",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "CHALLENGER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Elderwood",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "CHALLENGER",
+      "kind": "builds",
+      "id": "DA_18_Lux_Moonbeam",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    },
+    {
+      "rank": "CHALLENGER",
+      "kind": "holders",
+      "id": "DA_Artifact_DeathsDefiance",
+      "sourceRows": 0,
+      "reason": "no_accepted_rows_in_source_response"
+    }
+  ],
+  "sourceUnmapped": {
+    "PLATINUM_PLUS": {
+      "items": [
+        "DA_BlastPotion18-1",
+        "DA_BlastPotion18_Radiant-1",
+        "DA_HealthPotion18-1",
+        "DA_HealthPotion18_Radiant-1",
+        "DA_ManaPotion18-1",
+        "DA_ManaPotion18_Radiant-1"
+      ],
+      "units": [
+        "DA_18_MasterYi_AP-1",
+        "DA_Gromp18_AD-1",
+        "DA_KogMaw18_AP-1",
+        "DA_NidaleeCougar18_AD-1",
+        "TFT18_Akali-1",
+        "TFT18_Gromp-1",
+        "TFT18_NidaleeCougar-1",
+        "TFT18_SprykinSummonMelee-1"
+      ],
+      "traits": [
+        "DA_18_Eclipse_1"
+      ]
+    },
+    "ALL": {
+      "items": [
+        "DA_BlastPotion18-1",
+        "DA_BlastPotion18_Radiant-1",
+        "DA_HealthPotion18-1",
+        "DA_HealthPotion18_Radiant-1",
+        "DA_ManaPotion18-1",
+        "DA_ManaPotion18_Radiant-1"
+      ],
+      "units": [
+        "DA_18_Akali_AP-1",
+        "DA_18_MasterYi_AP-1",
+        "DA_Gromp18_AD-1",
+        "DA_KogMaw18_AP-1",
+        "DA_NidaleeCougar18_AD-1",
+        "TFT18_Akali-1",
+        "TFT18_Gromp-1",
+        "TFT18_NidaleeCougar-1",
+        "TFT18_SprykinSummonMelee-1"
+      ],
+      "traits": [
+        "DA_18_Eclipse_1"
+      ]
+    },
+    "IRON": {
+      "items": [
+        "DA_BlastPotion18-1",
+        "DA_BlastPotion18_Radiant-1",
+        "DA_HealthPotion18-1",
+        "DA_HealthPotion18_Radiant-1",
+        "DA_ManaPotion18-1"
+      ],
+      "units": [
+        "DA_Gromp18_AD-1"
+      ],
+      "traits": [
+        "DA_18_Eclipse_1"
+      ]
+    },
+    "BRONZE": {
+      "items": [
+        "DA_BlastPotion18-1",
+        "DA_BlastPotion18_Radiant-1",
+        "DA_HealthPotion18-1",
+        "DA_HealthPotion18_Radiant-1",
+        "DA_ManaPotion18-1",
+        "DA_ManaPotion18_Radiant-1"
+      ],
+      "units": [
+        "DA_Gromp18_AD-1"
+      ],
+      "traits": [
+        "DA_18_Eclipse_1"
+      ]
+    },
+    "SILVER": {
+      "items": [
+        "DA_BlastPotion18-1",
+        "DA_BlastPotion18_Radiant-1",
+        "DA_HealthPotion18-1",
+        "DA_HealthPotion18_Radiant-1",
+        "DA_ManaPotion18-1",
+        "DA_ManaPotion18_Radiant-1"
+      ],
+      "units": [
+        "DA_Gromp18_AD-1"
+      ],
+      "traits": [
+        "DA_18_Eclipse_1"
+      ]
+    },
+    "GOLD": {
+      "items": [
+        "DA_BlastPotion18-1",
+        "DA_BlastPotion18_Radiant-1",
+        "DA_HealthPotion18-1",
+        "DA_HealthPotion18_Radiant-1",
+        "DA_ManaPotion18-1",
+        "DA_ManaPotion18_Radiant-1"
+      ],
+      "units": [
+        "DA_18_Akali_AP-1",
+        "DA_Gromp18_AD-1",
+        "TFT18_Gromp-1",
+        "TFT18_NidaleeCougar-1",
+        "TFT18_SprykinSummonMelee-1"
+      ],
+      "traits": [
+        "DA_18_Eclipse_1"
+      ]
+    },
+    "PLATINUM": {
+      "items": [
+        "DA_BlastPotion18-1",
+        "DA_BlastPotion18_Radiant-1",
+        "DA_HealthPotion18-1",
+        "DA_HealthPotion18_Radiant-1",
+        "DA_ManaPotion18-1",
+        "DA_ManaPotion18_Radiant-1"
+      ],
+      "units": [
+        "DA_18_MasterYi_AP-1",
+        "DA_Gromp18_AD-1",
+        "DA_KogMaw18_AP-1",
+        "DA_NidaleeCougar18_AD-1",
+        "TFT18_NidaleeCougar-1",
+        "TFT18_SprykinSummonMelee-1"
+      ],
+      "traits": [
+        "DA_18_Eclipse_1"
+      ]
+    },
+    "EMERALD": {
+      "items": [
+        "DA_BlastPotion18-1",
+        "DA_BlastPotion18_Radiant-1",
+        "DA_HealthPotion18-1",
+        "DA_HealthPotion18_Radiant-1",
+        "DA_ManaPotion18-1",
+        "DA_ManaPotion18_Radiant-1"
+      ],
+      "units": [
+        "DA_Gromp18_AD-1",
+        "DA_NidaleeCougar18_AD-1",
+        "TFT18_Akali-1",
+        "TFT18_Gromp-1",
+        "TFT18_NidaleeCougar-1",
+        "TFT18_SprykinSummonMelee-1"
+      ],
+      "traits": [
+        "DA_18_Eclipse_1"
+      ]
+    },
+    "DIAMOND": {
+      "items": [
+        "DA_BlastPotion18-1",
+        "DA_BlastPotion18_Radiant-1",
+        "DA_HealthPotion18-1",
+        "DA_HealthPotion18_Radiant-1",
+        "DA_ManaPotion18-1",
+        "DA_ManaPotion18_Radiant-1"
+      ],
+      "units": [
+        "DA_Gromp18_AD-1"
+      ],
+      "traits": [
+        "DA_18_Eclipse_1"
+      ]
+    },
+    "MASTER": {
+      "items": [
+        "DA_BlastPotion18-1",
+        "DA_BlastPotion18_Radiant-1",
+        "DA_HealthPotion18-1",
+        "DA_HealthPotion18_Radiant-1",
+        "DA_ManaPotion18-1",
+        "DA_ManaPotion18_Radiant-1"
+      ],
+      "units": [
+        "DA_Gromp18_AD-1",
+        "DA_NidaleeCougar18_AD-1"
+      ],
+      "traits": [
+        "DA_18_Eclipse_1"
+      ]
+    },
+    "GRANDMASTER": {
+      "items": [
+        "DA_BlastPotion18-1",
+        "DA_BlastPotion18_Radiant-1",
+        "DA_HealthPotion18-1",
+        "DA_HealthPotion18_Radiant-1",
+        "DA_ManaPotion18-1",
+        "DA_ManaPotion18_Radiant-1"
+      ],
+      "units": [],
+      "traits": [
+        "DA_18_Eclipse_1"
+      ]
+    },
+    "CHALLENGER": {
+      "items": [
+        "DA_BlastPotion18-1",
+        "DA_BlastPotion18_Radiant-1",
+        "DA_HealthPotion18-1",
+        "DA_HealthPotion18_Radiant-1",
+        "DA_ManaPotion18-1",
+        "DA_ManaPotion18_Radiant-1"
+      ],
+      "units": [],
+      "traits": [
+        "DA_18_Eclipse_1"
+      ]
+    }
+  },
+  "exhaustive": false,
+  "passed": false
+}

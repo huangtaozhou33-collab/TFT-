@@ -1,0 +1,1814 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 筛选器
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - region "多条件筛选器":
+    - text: TFT / EXPLORER
+    - heading "筛选器" [level=1]
+    - generic: 添加条件，查看同一组条件下的搭配
+    - generic "远古巨龙"
+    - strong: 远古巨龙
+    - button "移除远古巨龙条件": ×
+    - generic: ⌕
+    - combobox "添加筛选条件" [active]
+    - button "清空"
+    - status: 1 个条件 · 36 份玩家终局 · 23 场比赛
+    - text: 小样本提示线
+    - combobox "检索样本门槛":
+      - option "不限"
+      - option "50"
+      - option "100" [selected]
+      - option "500"
+      - option "1000"
+    - text: 排序
+    - combobox "检索结果排序":
+      - option "平均名次"
+      - option "前四率"
+      - option "登顶率"
+      - option "样本数" [selected]
+    - region "装备结果":
+      - heading "装备" [level=2]
+      - generic: "22"
+      - paragraph: 满足全部条件的实际三件套 · 18.4 · 推定
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选最后的轻语":
+          - generic "最后的轻语"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "5.33"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "3"
+        - generic: 样本仅 3 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - button "筛选强袭者的链枷":
+          - generic "强袭者的链枷"
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "2"
+        - generic: 样本仅 2 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选最后的轻语":
+          - generic "最后的轻语"
+        - button "筛选强袭者的链枷":
+          - generic "强袭者的链枷"
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 50.0%
+        - generic: 样本
+        - strong: "2"
+        - generic: 样本仅 2 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选死亡之刃":
+          - generic "死亡之刃"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选饮血剑":
+          - generic "饮血剑"
+        - button "筛选死亡之刃":
+          - generic "死亡之刃"
+        - button "筛选最后的轻语":
+          - generic "最后的轻语"
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选夜之锋刃":
+          - generic "夜之锋刃"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选最后的轻语":
+          - generic "最后的轻语"
+        - generic: 均次
+        - strong: "1"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 100.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选蓝霸符":
+          - generic "蓝霸符"
+        - button "筛选海克斯科技枪刃":
+          - generic "海克斯科技枪刃"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - generic: 均次
+        - strong: "5"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选光明版死亡之刃":
+          - generic "光明版死亡之刃"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选强袭者的链枷":
+          - generic "强袭者的链枷"
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选正义之手":
+          - generic "正义之手"
+        - button "筛选海克斯科技枪刃":
+          - generic "海克斯科技枪刃"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "3"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选饮血剑":
+          - generic "饮血剑"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选强袭者的链枷":
+          - generic "强袭者的链枷"
+        - generic: 均次
+        - strong: "3"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选狂战士纹章":
+          - generic "狂战士纹章"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "1"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 100.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选棘刺背心":
+          - generic "棘刺背心"
+        - button "筛选死亡之刃":
+          - generic "死亡之刃"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "6"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选密银黎明":
+          - generic "密银黎明"
+        - button "筛选死亡之刃":
+          - generic "死亡之刃"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - generic: 均次
+        - strong: "1"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 100.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选红霸符":
+          - generic "红霸符"
+        - button "筛选强袭者的链枷":
+          - generic "强袭者的链枷"
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选蓝霸符":
+          - generic "蓝霸符"
+        - button "筛选光明版死亡之刃":
+          - generic "光明版死亡之刃"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - generic: 均次
+        - strong: "1"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 100.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选死亡之刃":
+          - generic "死亡之刃"
+        - button "筛选巨人杀手":
+          - generic "巨人杀手"
+        - button "筛选最后的轻语":
+          - generic "最后的轻语"
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选水银":
+          - generic "水银"
+        - button "筛选红霸符":
+          - generic "红霸符"
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选最后的轻语":
+          - generic "最后的轻语"
+        - generic: 均次
+        - strong: "3"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选蓝霸符":
+          - generic "蓝霸符"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选最后的轻语":
+          - generic "最后的轻语"
+        - generic: 均次
+        - strong: "3"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选鱼骨头":
+          - generic "鱼骨头"
+        - button "筛选光明版巨人杀手":
+          - generic "光明版巨人杀手"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - generic: 均次
+        - strong: "1"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 100.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选投机者之刃":
+          - generic "投机者之刃"
+        - button "筛选蓝霸符":
+          - generic "蓝霸符"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - generic: 均次
+        - strong: "4"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选死亡之刃":
+          - generic "死亡之刃"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选红霸符":
+          - generic "红霸符"
+        - generic: 均次
+        - strong: "7"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+    - region "队友结果":
+      - heading "队友" [level=2]
+      - generic: "34"
+      - paragraph: 同一玩家终局中的队友 · 18.4 · 推定
+      - article:
+        - button "添加队友苍蓝雕纹魔像":
+          - generic "苍蓝雕纹魔像"
+          - strong: 苍蓝雕纹魔像
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.45"
+        - generic: 前四
+        - strong: 66.7%
+        - generic: 登顶
+        - strong: 18.2%
+        - generic: 样本
+        - strong: "33"
+        - generic: 样本仅 33 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友塔里克":
+          - generic "塔里克"
+          - strong: 塔里克
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.96"
+        - generic: 前四
+        - strong: 73.9%
+        - generic: 登顶
+        - strong: 21.7%
+        - generic: 样本
+        - strong: "23"
+        - generic: 样本仅 23 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友艾翁":
+          - generic "艾翁"
+          - strong: 艾翁
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.71"
+        - generic: 前四
+        - strong: 81.0%
+        - generic: 登顶
+        - strong: 38.1%
+        - generic: 样本
+        - strong: "21"
+        - generic: 样本仅 21 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友阿木木":
+          - generic "阿木木"
+          - strong: 阿木木
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.9"
+        - generic: 前四
+        - strong: 76.2%
+        - generic: 登顶
+        - strong: 33.3%
+        - generic: 样本
+        - strong: "21"
+        - generic: 样本仅 21 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友茂凯":
+          - generic "茂凯"
+          - strong: 茂凯
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.53"
+        - generic: 前四
+        - strong: 84.2%
+        - generic: 登顶
+        - strong: 36.8%
+        - generic: 样本
+        - strong: "19"
+        - generic: 样本仅 19 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友凯南":
+          - generic "凯南"
+          - strong: 凯南
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.81"
+        - generic: 前四
+        - strong: 75.0%
+        - generic: 登顶
+        - strong: 31.3%
+        - generic: 样本
+        - strong: "16"
+        - generic: 样本仅 16 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友德莱文":
+          - generic "德莱文"
+          - strong: 德莱文
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.75"
+        - generic: 前四
+        - strong: 81.3%
+        - generic: 登顶
+        - strong: 37.5%
+        - generic: 样本
+        - strong: "16"
+        - generic: 样本仅 16 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友纳尔":
+          - generic "纳尔"
+          - strong: 纳尔
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.45"
+        - generic: 前四
+        - strong: 72.7%
+        - generic: 登顶
+        - strong: 18.2%
+        - generic: 样本
+        - strong: "11"
+        - generic: 样本仅 11 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友苍蓝哨戒":
+          - generic "苍蓝哨戒"
+          - strong: 苍蓝哨戒
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.64"
+        - generic: 前四
+        - strong: 63.6%
+        - generic: 登顶
+        - strong: 9.1%
+        - generic: 样本
+        - strong: "11"
+        - generic: 样本仅 11 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友远古石甲虫":
+          - generic "远古石甲虫"
+          - strong: 远古石甲虫
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.64"
+        - generic: 前四
+        - strong: 63.6%
+        - generic: 登顶
+        - strong: 9.1%
+        - generic: 样本
+        - strong: "11"
+        - generic: 样本仅 11 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友峡谷迅捷蟹":
+          - generic "峡谷迅捷蟹"
+          - strong: 峡谷迅捷蟹
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.33"
+        - generic: 前四
+        - strong: 77.8%
+        - generic: 登顶
+        - strong: 11.1%
+        - generic: 样本
+        - strong: "9"
+        - generic: 样本仅 9 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友绯红树怪":
+          - generic "绯红树怪"
+          - strong: 绯红树怪
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.63"
+        - generic: 前四
+        - strong: 62.5%
+        - generic: 登顶
+        - strong: 12.5%
+        - generic: 样本
+        - strong: "8"
+        - generic: 样本仅 8 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友艾希":
+          - generic "艾希"
+          - strong: 艾希
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.57"
+        - generic: 前四
+        - strong: 85.7%
+        - generic: 登顶
+        - strong: 14.3%
+        - generic: 样本
+        - strong: "7"
+        - generic: 样本仅 7 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友洛":
+          - generic "洛":
+            - generic: 洛
+          - strong: 洛
+          - generic: ＋
+        - generic: 均次
+        - strong: "5.33"
+        - generic: 前四
+        - strong: 50.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "6"
+        - generic: 样本仅 6 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友暗影狼":
+          - generic "暗影狼"
+          - strong: 暗影狼
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.17"
+        - generic: 前四
+        - strong: 66.7%
+        - generic: 登顶
+        - strong: 16.7%
+        - generic: 样本
+        - strong: "6"
+        - generic: 样本仅 6 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友拉露恩":
+          - generic "拉露恩"
+          - strong: 拉露恩
+          - generic: ＋
+        - generic: 均次
+        - strong: "1.8"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 40.0%
+        - generic: 样本
+        - strong: "5"
+        - generic: 样本仅 5 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友绯红印记树怪":
+          - generic "绯红印记树怪"
+          - strong: 绯红印记树怪
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.8"
+        - generic: 前四
+        - strong: 80.0%
+        - generic: 登顶
+        - strong: 20.0%
+        - generic: 样本
+        - strong: "5"
+        - generic: 样本仅 5 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友拉克丝":
+          - generic "拉克丝"
+          - strong: 拉克丝
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.8"
+        - generic: 前四
+        - strong: 60.0%
+        - generic: 登顶
+        - strong: 20.0%
+        - generic: 样本
+        - strong: "5"
+        - generic: 样本仅 5 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友黛安娜":
+          - generic "黛安娜"
+          - strong: 黛安娜
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.67"
+        - generic: 前四
+        - strong: 66.7%
+        - generic: 登顶
+        - strong: 33.3%
+        - generic: 样本
+        - strong: "3"
+        - generic: 样本仅 3 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友赫卡里姆":
+          - generic "赫卡里姆"
+          - strong: 赫卡里姆
+          - generic: ＋
+        - generic: 均次
+        - strong: "5"
+        - generic: 前四
+        - strong: 33.3%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "3"
+        - generic: 样本仅 3 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友希维尔":
+          - generic "希维尔"
+          - strong: 希维尔
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.67"
+        - generic: 前四
+        - strong: 66.7%
+        - generic: 登顶
+        - strong: 33.3%
+        - generic: 样本
+        - strong: "3"
+        - generic: 样本仅 3 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友克格莫":
+          - generic "克格莫"
+          - strong: 克格莫
+          - generic: ＋
+        - generic: 均次
+        - strong: "5"
+        - generic: 前四
+        - strong: 33.3%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "3"
+        - generic: 样本仅 3 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友蔚":
+          - generic "蔚"
+          - strong: 蔚
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.67"
+        - generic: 前四
+        - strong: 66.7%
+        - generic: 登顶
+        - strong: 33.3%
+        - generic: 样本
+        - strong: "3"
+        - generic: 样本仅 3 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友莫甘娜":
+          - generic "莫甘娜":
+            - generic: 莫
+          - strong: 莫甘娜
+          - generic: ＋
+        - generic: 均次
+        - strong: "5"
+        - generic: 前四
+        - strong: 50.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "2"
+        - generic: 样本仅 2 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友阿卡丽":
+          - generic "阿卡丽"
+          - strong: 阿卡丽
+          - generic: ＋
+        - generic: 均次
+        - strong: "6"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友阿利斯塔":
+          - generic "阿利斯塔":
+            - generic: 阿
+          - strong: 阿利斯塔
+          - generic: ＋
+        - generic: 均次
+        - strong: "8"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友阿兹尔":
+          - generic "阿兹尔":
+            - generic: 阿
+          - strong: 阿兹尔
+          - generic: ＋
+        - generic: 均次
+        - strong: "6"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友伊泽瑞尔":
+          - generic "伊泽瑞尔"
+          - strong: 伊泽瑞尔
+          - generic: ＋
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友卡兹克":
+          - generic "卡兹克":
+            - generic: 卡
+          - strong: 卡兹克
+          - generic: ＋
+        - generic: 均次
+        - strong: "8"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友索拉卡":
+          - generic "索拉卡":
+            - generic: 索
+          - strong: 索拉卡
+          - generic: ＋
+        - generic: 均次
+        - strong: "6"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友沃里克":
+          - generic "沃里克":
+            - generic: 沃
+          - strong: 沃里克
+          - generic: ＋
+        - generic: 均次
+        - strong: "6"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友约里克":
+          - generic "约里克":
+            - generic: 约
+          - strong: 约里克
+          - generic: ＋
+        - generic: 均次
+        - strong: "6"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友芸阿娜":
+          - generic "芸阿娜":
+            - generic: 芸
+          - strong: 芸阿娜
+          - generic: ＋
+        - generic: 均次
+        - strong: "6"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - button "添加队友魔沼蛙":
+          - generic "魔沼蛙"
+          - strong: 魔沼蛙
+          - generic: ＋
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+    - region "推荐阵容结果":
+      - heading "推荐阵容" [level=2]
+      - generic: "30"
+      - paragraph: 同时满足全部条件的终局阵容 · 18.4 · 推定
+      - article:
+        - heading "远古巨龙 · 茂凯 · 塔里克 · 阿木木 · 苍蓝雕纹魔像 · 艾翁 · 德莱文 · 凯南" [level=3]
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "德莱文":
+          - generic: 德莱文
+        - generic "凯南":
+          - generic: 凯南
+        - generic: 均次
+        - strong: "3"
+        - generic: 前四
+        - strong: 71.4%
+        - generic: 登顶
+        - strong: 42.9%
+        - generic: 样本
+        - strong: "7"
+        - generic: 样本仅 7 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "苍蓝雕纹魔像 · 塔里克 · 阿木木 · 德莱文 · 远古巨龙 · 艾翁 · 凯南 · 茂凯 · 拉露恩" [level=3]
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "德莱文":
+          - generic: 德莱文
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "凯南":
+          - generic: 凯南
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "拉露恩":
+          - generic: 拉露恩
+        - generic: 均次
+        - strong: "1"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 100.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "峡谷迅捷蟹 · 苍蓝哨戒 · 绯红树怪 · 远古石甲虫 · 苍蓝雕纹魔像 · 塔里克 · 纳尔 · 远古巨龙" [level=3]
+        - generic "峡谷迅捷蟹":
+          - generic: 峡谷迅捷蟹
+        - generic "苍蓝哨戒":
+          - generic: 苍蓝哨戒
+        - generic "绯红树怪":
+          - generic: 绯红树怪
+        - generic "远古石甲虫":
+          - generic: 远古石甲虫
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "纳尔":
+          - generic: 纳尔
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "德莱文 · 茂凯 · 苍蓝雕纹魔像 · 艾翁 · 远古巨龙 · 纳尔 · 塔里克 · 阿木木" [level=3]
+        - generic "德莱文":
+          - generic: 德莱文
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "纳尔":
+          - generic: 纳尔
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic: 均次
+        - strong: "1"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 100.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "绯红树怪 · 苍蓝哨戒 · 远古石甲虫 · 峡谷迅捷蟹 · 远古巨龙 · 克格莫 · 纳尔 · 苍蓝雕纹魔像" [level=3]
+        - generic "绯红树怪":
+          - generic: 绯红树怪
+        - generic "苍蓝哨戒":
+          - generic: 苍蓝哨戒
+        - generic "远古石甲虫":
+          - generic: 远古石甲虫
+        - generic "峡谷迅捷蟹":
+          - generic: 峡谷迅捷蟹
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "纳尔":
+          - generic: 纳尔
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic: 均次
+        - strong: "7"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "蔚 · 拉克丝 · 茂凯 · 远古巨龙 · 艾希 · 塔里克 · 希维尔 · 苍蓝雕纹魔像 · 艾翁" [level=3]
+        - generic "蔚":
+          - generic: 蔚
+        - generic "拉克丝":
+          - generic: 拉克丝
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "艾希":
+          - generic: 艾希
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "希维尔":
+          - generic: 希维尔
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "阿木木 · 远古巨龙 · 德莱文 · 苍蓝雕纹魔像 · 伊泽瑞尔 · 凯南 · 塔里克 · 茂凯" [level=3]
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "德莱文":
+          - generic: 德莱文
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "伊泽瑞尔":
+          - generic: 伊泽瑞尔
+        - generic "凯南":
+          - generic: 凯南
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "艾希 · 远古巨龙 · 峡谷迅捷蟹 · 蔚 · 希维尔 · 阿木木 · 茂凯 · 艾翁" [level=3]
+        - generic "艾希":
+          - generic: 艾希
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "峡谷迅捷蟹":
+          - generic: 峡谷迅捷蟹
+        - generic "蔚":
+          - generic: 蔚
+        - generic "希维尔":
+          - generic: 希维尔
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic: 均次
+        - strong: "1"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 100.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "远古巨龙 · 苍蓝雕纹魔像 · 茂凯 · 德莱文 · 凯南 · 塔里克 · 阿木木 · 克格莫" [level=3]
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "德莱文":
+          - generic: 德莱文
+        - generic "凯南":
+          - generic: 凯南
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "暗影狼 · 苍蓝哨戒 · 绯红树怪 · 峡谷迅捷蟹 · 绯红印记树怪 · 远古石甲虫 · 苍蓝雕纹魔像 · 魔沼蛙 · 远古巨龙 · 艾希 · 纳尔" [level=3]
+        - generic "暗影狼":
+          - generic: 暗影狼
+        - generic "苍蓝哨戒":
+          - generic: 苍蓝哨戒
+        - generic "绯红树怪":
+          - generic: 绯红树怪
+        - generic "峡谷迅捷蟹":
+          - generic: 峡谷迅捷蟹
+        - generic "绯红印记树怪":
+          - generic: 绯红印记树怪
+        - generic "远古石甲虫":
+          - generic: 远古石甲虫
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "魔沼蛙":
+          - generic: 魔沼蛙
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "艾希":
+          - generic: 艾希
+        - generic "纳尔":
+          - generic: 纳尔
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "洛 · 阿利斯塔 · 苍蓝雕纹魔像 · 阿木木 · 艾翁 · 德莱文 · 纳尔 · 远古巨龙" [level=3]
+        - generic "洛":
+          - generic: 洛
+        - generic "阿利斯塔":
+          - generic: 阿利斯塔
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "德莱文":
+          - generic: 德莱文
+        - generic "纳尔":
+          - generic: 纳尔
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic: 均次
+        - strong: "8"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "约里克 · 阿卡丽 · 沃里克 · 洛 · 阿兹尔 · 克格莫 · 远古巨龙 · 索拉卡 · 苍蓝雕纹魔像" [level=3]
+        - generic "约里克":
+          - generic: 约里克
+        - generic "阿卡丽":
+          - generic: 阿卡丽
+        - generic "沃里克":
+          - generic: 沃里克
+        - generic "洛":
+          - generic: 洛
+        - generic "阿兹尔":
+          - generic: 阿兹尔
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "索拉卡":
+          - generic: 索拉卡
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic: 均次
+        - strong: "6"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "绯红树怪 · 苍蓝哨戒 · 暗影狼 · 远古石甲虫 · 苍蓝雕纹魔像 · 远古巨龙 · 赫卡里姆" [level=3]
+        - generic "绯红树怪":
+          - generic: 绯红树怪
+        - generic "苍蓝哨戒":
+          - generic: 苍蓝哨戒
+        - generic "暗影狼":
+          - generic: 暗影狼
+        - generic "远古石甲虫":
+          - generic: 远古石甲虫
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "赫卡里姆":
+          - generic: 赫卡里姆
+        - generic: 均次
+        - strong: "5"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "绯红树怪 · 苍蓝哨戒 · 暗影狼 · 绯红印记树怪 · 黛安娜 · 苍蓝雕纹魔像 · 艾翁 · 远古巨龙 · 拉露恩" [level=3]
+        - generic "绯红树怪":
+          - generic: 绯红树怪
+        - generic "苍蓝哨戒":
+          - generic: 苍蓝哨戒
+        - generic "暗影狼":
+          - generic: 暗影狼
+        - generic "绯红印记树怪":
+          - generic: 绯红印记树怪
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "拉露恩":
+          - generic: 拉露恩
+        - generic: 均次
+        - strong: "1"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 100.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "峡谷迅捷蟹 · 绯红树怪 · 苍蓝哨戒 · 洛 · 远古石甲虫 · 苍蓝雕纹魔像 · 远古巨龙 · 艾希" [level=3]
+        - generic "峡谷迅捷蟹":
+          - generic: 峡谷迅捷蟹
+        - generic "绯红树怪":
+          - generic: 绯红树怪
+        - generic "苍蓝哨戒":
+          - generic: 苍蓝哨戒
+        - generic "洛":
+          - generic: 洛
+        - generic "远古石甲虫":
+          - generic: 远古石甲虫
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "艾希":
+          - generic: 艾希
+        - generic: 均次
+        - strong: "4"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "远古石甲虫 · 苍蓝哨戒 · 绯红树怪 · 峡谷迅捷蟹 · 苍蓝雕纹魔像 · 远古巨龙 · 塔里克" [level=3]
+        - generic "远古石甲虫":
+          - generic: 远古石甲虫
+        - generic "苍蓝哨戒":
+          - generic: 苍蓝哨戒
+        - generic "绯红树怪":
+          - generic: 绯红树怪
+        - generic "峡谷迅捷蟹":
+          - generic: 峡谷迅捷蟹
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic: 均次
+        - strong: "5"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "艾翁 · 阿木木 · 凯南 · 苍蓝雕纹魔像 · 茂凯 · 远古巨龙 · 塔里克 · 艾希" [level=3]
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "凯南":
+          - generic: 凯南
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "艾希":
+          - generic: 艾希
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "艾翁 · 苍蓝雕纹魔像 · 德莱文 · 茂凯 · 塔里克 · 拉克丝 · 阿木木 · 远古巨龙" [level=3]
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "德莱文":
+          - generic: 德莱文
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "拉克丝":
+          - generic: 拉克丝
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic: 均次
+        - strong: "3"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "苍蓝哨戒 · 远古石甲虫 · 苍蓝雕纹魔像 · 暗影狼 · 绯红印记树怪 · 纳尔 · 远古巨龙 · 塔里克" [level=3]
+        - generic "苍蓝哨戒":
+          - generic: 苍蓝哨戒
+        - generic "远古石甲虫":
+          - generic: 远古石甲虫
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "暗影狼":
+          - generic: 暗影狼
+        - generic "绯红印记树怪":
+          - generic: 绯红印记树怪
+        - generic "纳尔":
+          - generic: 纳尔
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic: 均次
+        - strong: "6"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "艾翁 · 德莱文 · 塔里克 · 苍蓝雕纹魔像 · 艾希 · 阿木木 · 远古巨龙 · 凯南 · 拉露恩" [level=3]
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "德莱文":
+          - generic: 德莱文
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "艾希":
+          - generic: 艾希
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "凯南":
+          - generic: 凯南
+        - generic "拉露恩":
+          - generic: 拉露恩
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "远古巨龙 · 阿木木 · 艾希 · 希维尔 · 苍蓝雕纹魔像 · 蔚 · 凯南 · 塔里克 · 拉克丝" [level=3]
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "艾希":
+          - generic: 艾希
+        - generic "希维尔":
+          - generic: 希维尔
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic "凯南":
+          - generic: 凯南
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "拉克丝":
+          - generic: 拉克丝
+        - generic: 均次
+        - strong: "5"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "赫卡里姆 · 黛安娜 · 拉露恩 · 苍蓝雕纹魔像 · 莫甘娜 · 塔里克 · 艾翁 · 远古巨龙" [level=3]
+        - generic "赫卡里姆":
+          - generic: 赫卡里姆
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "拉露恩":
+          - generic: 拉露恩
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "莫甘娜":
+          - generic: 莫甘娜
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "凯南 · 苍蓝雕纹魔像 · 远古巨龙 · 艾翁 · 阿木木 · 塔里克 · 芸阿娜 · 茂凯" [level=3]
+        - generic "凯南":
+          - generic: 凯南
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "芸阿娜":
+          - generic: 芸阿娜
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic: 均次
+        - strong: "6"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "阿木木 · 苍蓝雕纹魔像 · 凯南 · 远古巨龙 · 拉露恩 · 艾翁 · 茂凯 · 塔里克 · 纳尔" [level=3]
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "凯南":
+          - generic: 凯南
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "拉露恩":
+          - generic: 拉露恩
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "纳尔":
+          - generic: 纳尔
+        - generic: 均次
+        - strong: "3"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "峡谷迅捷蟹 · 洛 · 茂凯 · 远古巨龙 · 塔里克 · 阿木木 · 德莱文 · 艾翁" [level=3]
+        - generic "峡谷迅捷蟹":
+          - generic: 峡谷迅捷蟹
+        - generic "洛":
+          - generic: 洛
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "德莱文":
+          - generic: 德莱文
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic: 均次
+        - strong: "3"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "绯红树怪 · 峡谷迅捷蟹 · 苍蓝哨戒 · 远古石甲虫 · 苍蓝雕纹魔像 · 洛 · 纳尔 · 远古巨龙" [level=3]
+        - generic "绯红树怪":
+          - generic: 绯红树怪
+        - generic "峡谷迅捷蟹":
+          - generic: 峡谷迅捷蟹
+        - generic "苍蓝哨戒":
+          - generic: 苍蓝哨戒
+        - generic "远古石甲虫":
+          - generic: 远古石甲虫
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "洛":
+          - generic: 洛
+        - generic "纳尔":
+          - generic: 纳尔
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic: 均次
+        - strong: "3"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "峡谷迅捷蟹 · 苍蓝哨戒 · 暗影狼 · 远古石甲虫 · 绯红印记树怪 · 远古巨龙 · 苍蓝雕纹魔像 · 纳尔" [level=3]
+        - generic "峡谷迅捷蟹":
+          - generic: 峡谷迅捷蟹
+        - generic "苍蓝哨戒":
+          - generic: 苍蓝哨戒
+        - generic "暗影狼":
+          - generic: 暗影狼
+        - generic "远古石甲虫":
+          - generic: 远古石甲虫
+        - generic "绯红印记树怪":
+          - generic: 绯红印记树怪
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "纳尔":
+          - generic: 纳尔
+        - generic: 均次
+        - strong: "3"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "纳尔 · 茂凯 · 德莱文 · 远古石甲虫 · 远古巨龙 · 凯南 · 艾翁 · 阿木木 · 拉克丝" [level=3]
+        - generic "纳尔":
+          - generic: 纳尔
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "德莱文":
+          - generic: 德莱文
+        - generic "远古石甲虫":
+          - generic: 远古石甲虫
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "凯南":
+          - generic: 凯南
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "拉克丝":
+          - generic: 拉克丝
+        - generic: 均次
+        - strong: "1"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 100.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "暗影狼 · 苍蓝哨戒 · 远古石甲虫 · 苍蓝雕纹魔像 · 绯红印记树怪 · 纳尔 · 远古巨龙" [level=3]
+        - generic "暗影狼":
+          - generic: 暗影狼
+        - generic "苍蓝哨戒":
+          - generic: 苍蓝哨戒
+        - generic "远古石甲虫":
+          - generic: 远古石甲虫
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "绯红印记树怪":
+          - generic: 绯红印记树怪
+        - generic "纳尔":
+          - generic: 纳尔
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic: 均次
+        - strong: "2"
+        - generic: 前四
+        - strong: 100.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+      - article:
+        - heading "黛安娜 · 洛 · 卡兹克 · 莫甘娜 · 赫卡里姆 · 苍蓝雕纹魔像 · 远古巨龙 · 拉克丝 · 莫甘娜" [level=3]
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "洛":
+          - generic: 洛
+        - generic "卡兹克":
+          - generic: 卡兹克
+        - generic "莫甘娜":
+          - generic: 莫甘娜
+        - generic "赫卡里姆":
+          - generic: 赫卡里姆
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "拉克丝":
+          - generic: 拉克丝
+        - generic "莫甘娜":
+          - generic: 莫甘娜
+        - generic: 均次
+        - strong: "8"
+        - generic: 前四
+        - strong: 0.0%
+        - generic: 登顶
+        - strong: 0.0%
+        - generic: 样本
+        - strong: "1"
+        - generic: 样本仅 1 份玩家终局，少于提示阈值 100，结果可能不稳定。
+    - generic "数据范围 · 命中 36 份玩家终局"
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手

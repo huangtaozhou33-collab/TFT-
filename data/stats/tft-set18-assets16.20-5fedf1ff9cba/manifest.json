@@ -1,0 +1,3096 @@
+{
+  "schemaVersion": 1,
+  "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+  "captureId": "ba1ff4cd-a01c-4832-ae6b-99e3a1e7b481",
+  "context": {
+    "game": "tft",
+    "set": 18,
+    "mutator": "TFTSet18",
+    "assetVersion": "16.20",
+    "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+    "gamePatch": null
+  },
+  "endpoint": "https://mcp-api.op.gg/mcp",
+  "publishedAt": "2026-10-07T14:48:23.583Z",
+  "records": {
+    "55316c9d915d0d83c62f6251a05dc9043cc33aa04bbf28652f1d6b4878d196f7": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Akali_AD"
+      },
+      "file": "55316c9d915d0d83c62f6251a05dc9043cc33aa04bbf28652f1d6b4878d196f7.json",
+      "sha256": "dea15066f8123127e573d7ae2fd44f9d80144296f9e0a293778b4ebdb133e18e",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:19:05.347Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 145,
+      "rawRowCount": 145,
+      "excludedRows": 0
+    },
+    "8baea05cbfcfca4b1f5fb4152c67882eb8eb3036eebef3d5a625dc38769bf7fa": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Leona"
+      },
+      "file": "8baea05cbfcfca4b1f5fb4152c67882eb8eb3036eebef3d5a625dc38769bf7fa.json",
+      "sha256": "6220edbd53af99a80c6832d0db68f5924f69a1a6bd90b09be136fb63caa9ad3d",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T13:41:52.637Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 254,
+      "rawRowCount": 254,
+      "excludedRows": 0
+    },
+    "8ec91bf8c8ea8e551a9a93ccafbff84ba93929101db481ee6bab01006b61b926": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Ahri"
+      },
+      "file": "8ec91bf8c8ea8e551a9a93ccafbff84ba93929101db481ee6bab01006b61b926.json",
+      "sha256": "fc6fc35d342c163351d3251441661e2bae385e3334eada675ad149296e5fef42",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T13:36:36.541Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 451,
+      "rawRowCount": 451,
+      "excludedRows": 0
+    },
+    "f263bc999cf42b6bca4b557f9737f3e2ece186441abca3cd516ecddd74eb2f9f": {
+      "tool": "tft_list_augments",
+      "args": {
+        "lang": "zh_CN"
+      },
+      "file": "f263bc999cf42b6bca4b557f9737f3e2ece186441abca3cd516ecddd74eb2f9f.json",
+      "sha256": "edfdd4c20ce1d7f676f9f2bf3d4e8e07061be6b087f8bf7973b31d5c583290d7",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T13:36:33.478Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 249,
+      "rawRowCount": 285,
+      "excludedRows": 36
+    },
+    "7f025336da69d68ea7323fc2834df1da9991e203281df90efea50f7c971758f9": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_SpearOfShojin"
+      },
+      "file": "7f025336da69d68ea7323fc2834df1da9991e203281df90efea50f7c971758f9.json",
+      "sha256": "3134c01ecd585ecc9246c069bf1da1234e8b447c08138c59b10799d18225cdb6",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T13:41:55.940Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 16,
+      "rawRowCount": 16,
+      "excludedRows": 0
+    },
+    "5bdf61a0074fa078664cc6dc9eab3dcf7a733d8f66458d2186bd4b839af305ad": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_InfinityEdge"
+      },
+      "file": "5bdf61a0074fa078664cc6dc9eab3dcf7a733d8f66458d2186bd4b839af305ad.json",
+      "sha256": "920514537371e39db3109e312d946cecedde732b121336becb2620b43e3bb91d",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T13:36:40.427Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 13,
+      "rawRowCount": 13,
+      "excludedRows": 0
+    },
+    "9dbabe2e1f4c8f12c99dd1317ddd916ccba69ebbab9b063fb6e117a4daedb2d3": {
+      "tool": "tft_list_item_combinations",
+      "args": {
+        "lang": "zh_CN"
+      },
+      "file": "9dbabe2e1f4c8f12c99dd1317ddd916ccba69ebbab9b063fb6e117a4daedb2d3.json",
+      "sha256": "7fead162e92594b205c7d013831ee1deafd75deb9e1e4a3047055d655f11298d",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T13:36:30.043Z",
+      "sourceTime": null,
+      "sourcePatch": "18.4",
+      "rowCount": 137,
+      "rawRowCount": 519,
+      "excludedRows": 382
+    },
+    "35869a99b62f0b3985ef386f6ccdb6f38ab8e554a427f581fa7797818807b997": {
+      "tool": "tft_list_meta_decks",
+      "args": {},
+      "file": "35869a99b62f0b3985ef386f6ccdb6f38ab8e554a427f581fa7797818807b997.json",
+      "sha256": "009c237530933336edad9fc1d2c33eab25e118562267bc2eeba5e9cfb9a7653a",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T13:36:26.808Z",
+      "sourceTime": "2026-10-07T12:59:23.000Z",
+      "sourcePatch": null,
+      "rowCount": 10,
+      "rawRowCount": 10,
+      "excludedRows": 0
+    },
+    "daf4fbafd714133b6d33661567bed2b460364039d84a842baba8a74a969df80b": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Maokai"
+      },
+      "file": "daf4fbafd714133b6d33661567bed2b460364039d84a842baba8a74a969df80b.json",
+      "sha256": "64b33ddee48e21818c0de5fc923c4be860050824a792034b40c2559f8a8cfa9d",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:33:02.110Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 590,
+      "rawRowCount": 590,
+      "excludedRows": 0
+    },
+    "edbb55d645f1f63cc09be631864f7a3f103d52ba44ad0362d731c6d93011e46b": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemFae"
+      },
+      "file": "edbb55d645f1f63cc09be631864f7a3f103d52ba44ad0362d731c6d93011e46b.json",
+      "sha256": "7e179f2fb48f8aa7fdf2c550f9b1ed24f7768b8588d9d60eff44f5b052cd9603",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:12.715Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 27,
+      "rawRowCount": 27,
+      "excludedRows": 0
+    },
+    "97bf73cdbbff56cc1aa263586183507f4c730dfa0be1a227d9ffffe9f997ba9b": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemHunter"
+      },
+      "file": "97bf73cdbbff56cc1aa263586183507f4c730dfa0be1a227d9ffffe9f997ba9b.json",
+      "sha256": "410d1f4dc1ab989215520542dfbc57bfd24d4efcd2dd8bfdda12b88aad38bfe2",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:16.338Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 21,
+      "rawRowCount": 21,
+      "excludedRows": 0
+    },
+    "8d42f413ffb102fbebe2f045251bc686b55fb68e442d9cf5e07765e58830ba4c": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemInferno"
+      },
+      "file": "8d42f413ffb102fbebe2f045251bc686b55fb68e442d9cf5e07765e58830ba4c.json",
+      "sha256": "1468f568461fa71535c2e484b46d846770f39f7edb64da110c10ad3a69773185",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:19.736Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 22,
+      "rawRowCount": 22,
+      "excludedRows": 0
+    },
+    "e7bc44fa23aeefe0c54908771b0486099f0ec05f3393b20d4e2b220403f33ac7": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemRapidfire"
+      },
+      "file": "e7bc44fa23aeefe0c54908771b0486099f0ec05f3393b20d4e2b220403f33ac7.json",
+      "sha256": "a22c2c873d7f439e1b5ade9490dd4d4c9bf26ba1abce7b3889f46d762d0b6dbf",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:22.953Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 25,
+      "rawRowCount": 25,
+      "excludedRows": 0
+    },
+    "49337ac2b84306a2db281b94f4b415440aa8265c621961906c96be442bb8f512": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemElderwood"
+      },
+      "file": "49337ac2b84306a2db281b94f4b415440aa8265c621961906c96be442bb8f512.json",
+      "sha256": "f3f7b149e4b2c72a0cf91d027ac7f3b5c35005d75babb12f8bbe6955726cf065",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:26.139Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 20,
+      "rawRowCount": 20,
+      "excludedRows": 0
+    },
+    "4de9458128483eb10afe927470bd66b2d2bae7b275dfd528c0ccf9baf5202325": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemSlayer"
+      },
+      "file": "4de9458128483eb10afe927470bd66b2d2bae7b275dfd528c0ccf9baf5202325.json",
+      "sha256": "4ba43daadc49360b0261bc19ebf19257dca49d60f24cfd60921752d30bf922bc",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:29.107Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 25,
+      "rawRowCount": 25,
+      "excludedRows": 0
+    },
+    "568bff6cf0785924029f29ea266cff496117bdae526e9166f6a354d8cf39ca45": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemSprykin"
+      },
+      "file": "568bff6cf0785924029f29ea266cff496117bdae526e9166f6a354d8cf39ca45.json",
+      "sha256": "782e5901cd896915cbc8c509f710f432f7b6a11b1186f5eb6100d79eeaa6d6fe",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:32.368Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 30,
+      "rawRowCount": 30,
+      "excludedRows": 0
+    },
+    "f5adb0c9f0cc670664f5fc733716242fdaa2427f8430f1f969724f4f382f6341": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemVanguard"
+      },
+      "file": "f5adb0c9f0cc670664f5fc733716242fdaa2427f8430f1f969724f4f382f6341.json",
+      "sha256": "6987e31930dc9a73d59a4d1c2e11459335158460057aa74751b352cb675c4362",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:35.702Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 21,
+      "rawRowCount": 21,
+      "excludedRows": 0
+    },
+    "eab764ae128669309c2af004524349177fa48b2856cf0565bb964771c02e3303": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemBlossom"
+      },
+      "file": "eab764ae128669309c2af004524349177fa48b2856cf0565bb964771c02e3303.json",
+      "sha256": "e5ec5047ebc4db62ab620cec498decfb65b7cf517f3cec2a6b95097311e4450f",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:38.801Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 27,
+      "rawRowCount": 27,
+      "excludedRows": 0
+    },
+    "64b390b2934bc727603a7fce47c0c264d6c554dbab95e63e5be5dbd2a17f44a9": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemSpellweaver"
+      },
+      "file": "64b390b2934bc727603a7fce47c0c264d6c554dbab95e63e5be5dbd2a17f44a9.json",
+      "sha256": "dd7c526f7e1d0f0f7f395cf1d564f6c45041eac6f365fdad57833840c7a3a12c",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:42.541Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 19,
+      "rawRowCount": 19,
+      "excludedRows": 0
+    },
+    "0770fbec25de0297f2eff72625732f083621ef5912ed42d04aa72ee9ae6fe9a5": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemInvoker"
+      },
+      "file": "0770fbec25de0297f2eff72625732f083621ef5912ed42d04aa72ee9ae6fe9a5.json",
+      "sha256": "2f3ba4d8509f9bbb6dadeeba0b8bf1ea2c23e8431876f37e9ab34e9774b9338b",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:45.883Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 15,
+      "rawRowCount": 15,
+      "excludedRows": 0
+    },
+    "e43118882c857e5c133f704c170410549d347d88b129d204eae70732b7c9d7e1": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemLunar"
+      },
+      "file": "e43118882c857e5c133f704c170410549d347d88b129d204eae70732b7c9d7e1.json",
+      "sha256": "0212164e105199d8ef3ffcc6d25c0e0544b3de93c793b388bbe70e7714051f87",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:49.284Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 33,
+      "rawRowCount": 33,
+      "excludedRows": 0
+    },
+    "b86f92a9071b3e59ee91299365327cb51085171ae612e6315e6306c5b69064e5": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemBrawler"
+      },
+      "file": "b86f92a9071b3e59ee91299365327cb51085171ae612e6315e6306c5b69064e5.json",
+      "sha256": "5d81e0dc7fcfe63c13cfbf1403ddc1dadafe5b846ef43742824d71406d6ef15d",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:52.569Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 19,
+      "rawRowCount": 19,
+      "excludedRows": 0
+    },
+    "580352efce646bf18746dfe67d9427ba4517236d10f5a4bac4278e7ba98589c9": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemBlackthorn"
+      },
+      "file": "580352efce646bf18746dfe67d9427ba4517236d10f5a4bac4278e7ba98589c9.json",
+      "sha256": "0aba7cf239c2d552d097b79728a693ec8dd54a7f00e673e404d97c0b9f1494e8",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:55.865Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 27,
+      "rawRowCount": 27,
+      "excludedRows": 0
+    },
+    "4767395c2ff78f1d424150c00d006dd8e950e8dd0c1e10002f03f893a78c23d2": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemExecutioner"
+      },
+      "file": "4767395c2ff78f1d424150c00d006dd8e950e8dd0c1e10002f03f893a78c23d2.json",
+      "sha256": "c463b8d118beb6ba90b370ef995b83eb64ecf80df8969f5f82961c4b9cb3dfdb",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:35:59.057Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 15,
+      "rawRowCount": 15,
+      "excludedRows": 0
+    },
+    "dee1b53c097dae54e5516f4d4f110280ade33d92a2c30a8737dff8b1329ab2e4": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemPrimal"
+      },
+      "file": "dee1b53c097dae54e5516f4d4f110280ade33d92a2c30a8737dff8b1329ab2e4.json",
+      "sha256": "bacae4d01d4b75a6ae7bb2c4ed1d1db0fbb603a87bdd402f243d40d295063f45",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:36:02.095Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 39,
+      "rawRowCount": 39,
+      "excludedRows": 0
+    },
+    "f8eddda6c04a2584bd4b45f9c642768d9ae0a2fa5c0e37a106a7d4eaf86e233b": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemCoven"
+      },
+      "file": "f8eddda6c04a2584bd4b45f9c642768d9ae0a2fa5c0e37a106a7d4eaf86e233b.json",
+      "sha256": "a76b906adcb6ff21bf30f8b6f5c8c2e25209e583ee4b6756b8503e1f2ee6f3e1",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:36:05.118Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 26,
+      "rawRowCount": 26,
+      "excludedRows": 0
+    },
+    "571fa89b9ac5dbfa4d7fa9134b1fbbad0765f013818e3295e1c960eed7d3ad40": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemDefender"
+      },
+      "file": "571fa89b9ac5dbfa4d7fa9134b1fbbad0765f013818e3295e1c960eed7d3ad40.json",
+      "sha256": "11f066945916ab37260202d37b55ead35057aedcdeb8a1823262c8ce7f882d71",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:36:08.497Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 22,
+      "rawRowCount": 22,
+      "excludedRows": 0
+    },
+    "7e50a8407b48d21f154242d892edc9307eb3f6ef3312491817eb9f5a3f3123cd": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemFloraFatalis"
+      },
+      "file": "7e50a8407b48d21f154242d892edc9307eb3f6ef3312491817eb9f5a3f3123cd.json",
+      "sha256": "e765c3d70f8c983f584d36c31359b7fb49da5d5babb7a11d6373dafc1759f895",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:36:11.692Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 22,
+      "rawRowCount": 22,
+      "excludedRows": 0
+    },
+    "0345277f4be3d7228917150a1e4c4141836198384a95c890861db44b5e9293d9": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemJuggernaut"
+      },
+      "file": "0345277f4be3d7228917150a1e4c4141836198384a95c890861db44b5e9293d9.json",
+      "sha256": "8bf39449194f82487465ffdf823982359939591b33615777f94f65d057f1446d",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:36:14.995Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 22,
+      "rawRowCount": 22,
+      "excludedRows": 0
+    },
+    "8166be8430f2c19953e9728cd795ed8c3766d23e6ccfb764a1ca8a3d0ec58040": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_18_EmblemFloraFatalisAugment"
+      },
+      "file": "8166be8430f2c19953e9728cd795ed8c3766d23e6ccfb764a1ca8a3d0ec58040.json",
+      "sha256": "504d513cbc0af7452b5d1a4510f2cd904b42595a5c2c054a684962e7f50d51b6",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:36:18.114Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 10,
+      "rawRowCount": 10,
+      "excludedRows": 0
+    },
+    "b4cdfe068bae86a93190cd938389baee9d0f26255f50980fb401621df1d89857": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_AdaptiveHelm"
+      },
+      "file": "b4cdfe068bae86a93190cd938389baee9d0f26255f50980fb401621df1d89857.json",
+      "sha256": "f57af65099cd1f572c525f34be45d3256c9a30fee42ce62f88e662da806de569",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:38:49.759Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 27,
+      "rawRowCount": 27,
+      "excludedRows": 0
+    },
+    "c3b0c6d97550f91b082ffc0deab7bcdea6bc65d163bb02770513589fca5ebb37": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_AegisOfDawn"
+      },
+      "file": "c3b0c6d97550f91b082ffc0deab7bcdea6bc65d163bb02770513589fca5ebb37.json",
+      "sha256": "5ca9768f5c6e763dc79875b503c34d64db198f99e33cbde49602229449659eb0",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:38:52.776Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 19,
+      "rawRowCount": 19,
+      "excludedRows": 0
+    },
+    "be479daf521f1653fcef35980a9e1791a126b74e95392e0eb71fcd8a55ac0336": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_AegisOfDusk"
+      },
+      "file": "be479daf521f1653fcef35980a9e1791a126b74e95392e0eb71fcd8a55ac0336.json",
+      "sha256": "bad5db4624a1bc6b3984a06ce7cba9426a7150119fd31e8e3413f8d3a9bec960",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:38:56.322Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 16,
+      "rawRowCount": 16,
+      "excludedRows": 0
+    },
+    "787f7a78c3a1766125ce8ad3094c0a323d39b29ced932afb5ac2bd8974d5b39a": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_JeweledGauntlet"
+      },
+      "file": "787f7a78c3a1766125ce8ad3094c0a323d39b29ced932afb5ac2bd8974d5b39a.json",
+      "sha256": "5bd03e740a8815f146b1569ac33d7af66ca22a7d8ee95fdf7db81d1fcbab66e7",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:38:59.803Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 19,
+      "rawRowCount": 19,
+      "excludedRows": 0
+    },
+    "717dfae76f44504895cb282e5781643ca89a180c3143a571e4cbdd9317e761bd": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_BlightingJewel"
+      },
+      "file": "717dfae76f44504895cb282e5781643ca89a180c3143a571e4cbdd9317e761bd.json",
+      "sha256": "6a8e079e722ac91b0e4e46a8e3b507768f6a6483cbcba2fa5f944e5486583c84",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:03.084Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 11,
+      "rawRowCount": 11,
+      "excludedRows": 0
+    },
+    "149b2efa2324a59741dfb611b36e3e05c2aefe3bbce267b1282c9adf26b08612": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Bloodthirster"
+      },
+      "file": "149b2efa2324a59741dfb611b36e3e05c2aefe3bbce267b1282c9adf26b08612.json",
+      "sha256": "6a18a7c7476a1e5b81decc7c295775cd3ddbf0d607e49601e3c6ad11feeacc44",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:06.255Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 16,
+      "rawRowCount": 16,
+      "excludedRows": 0
+    },
+    "b4e377d7722b4e0b77c584643053006383f127f7a094afdbd669bb78338939ec": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_BlueBuff"
+      },
+      "file": "b4e377d7722b4e0b77c584643053006383f127f7a094afdbd669bb78338939ec.json",
+      "sha256": "503d504f48fc6ef5e6c41e8e9f2f36c757646c4f671895422108ca00a2b6ff66",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:09.569Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 18,
+      "rawRowCount": 18,
+      "excludedRows": 0
+    },
+    "bf24a7ce6096b951ffff215e52e708a3b93f9e6b82044fb058e8b3f9469ed695": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_BrambleVest"
+      },
+      "file": "bf24a7ce6096b951ffff215e52e708a3b93f9e6b82044fb058e8b3f9469ed695.json",
+      "sha256": "2a1ccf3a200e172e3ff0737371e7171e2e2930949b6ce6f14f3b9ddeacc77391",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:12.702Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 18,
+      "rawRowCount": 18,
+      "excludedRows": 0
+    },
+    "ff2c97b0611f8fa15c894576a602f84450b4f91c4dc06ec1fd88e685f89a6045": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Crownguard"
+      },
+      "file": "ff2c97b0611f8fa15c894576a602f84450b4f91c4dc06ec1fd88e685f89a6045.json",
+      "sha256": "fa705a5a8a97b404f2f7e5c9ea6cb0898a32297ca2d38c4f7d1a7eeb6c7daa3b",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:15.933Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 17,
+      "rawRowCount": 17,
+      "excludedRows": 0
+    },
+    "c24a2559f3d9ea7b136670f4db7ecf461904a04efcf25fdf04792a599df878c3": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_CrownguardRadiant"
+      },
+      "file": "c24a2559f3d9ea7b136670f4db7ecf461904a04efcf25fdf04792a599df878c3.json",
+      "sha256": "33be8ea0e37c6ebd91ed91febb3b847d5ada11c94fc72f95a018aa201ff08ebc",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:19.170Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 21,
+      "rawRowCount": 21,
+      "excludedRows": 0
+    },
+    "3a8cc1b287c68a914abbd43525d21f93cd4ca22b076746e8e72fae7684c74b57": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_Dawncore"
+      },
+      "file": "3a8cc1b287c68a914abbd43525d21f93cd4ca22b076746e8e72fae7684c74b57.json",
+      "sha256": "0c24bffb498a771d9490b790e1c3f1ba73f198078737be702f21e82a7cd07465",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:22.393Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 15,
+      "rawRowCount": 15,
+      "excludedRows": 0
+    },
+    "682d9df51d4ad3e0715e8f0ede1f6ec0c51659b3566582ea596e2e8ee72f0b8d": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_DragonsClaw"
+      },
+      "file": "682d9df51d4ad3e0715e8f0ede1f6ec0c51659b3566582ea596e2e8ee72f0b8d.json",
+      "sha256": "91facc13bdb3adb8705153cdd9f82a22ae103c984a1ecb368c5e6c0564cd1563",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:25.362Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 18,
+      "rawRowCount": 18,
+      "excludedRows": 0
+    },
+    "391177b7f84451df621425f39d306b736fd98535eec928324a1ce9185cf0db1f": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_EternalPact"
+      },
+      "file": "391177b7f84451df621425f39d306b736fd98535eec928324a1ce9185cf0db1f.json",
+      "sha256": "cc0360c6eec95d0ccf4a69d49e4b282c67f4c003a19131624d81e1cc7cb30d59",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:28.731Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 12,
+      "rawRowCount": 12,
+      "excludedRows": 0
+    },
+    "27ddea88b06dacd9eacca6bec764ae06b73ee21f5ff3df6f26e411a9f28df447": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Evenshroud"
+      },
+      "file": "27ddea88b06dacd9eacca6bec764ae06b73ee21f5ff3df6f26e411a9f28df447.json",
+      "sha256": "d7bde5de3f2feec765b6cac61b347cbc581ccac9ad3b88c21de024bb3501a185",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:31.904Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 22,
+      "rawRowCount": 22,
+      "excludedRows": 0
+    },
+    "3d4708d0e056c8b67804697b3b00e64b3ff7dc8d782d08cbd1c23a1cb6847ffe": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_EvenshroudRadiant"
+      },
+      "file": "3d4708d0e056c8b67804697b3b00e64b3ff7dc8d782d08cbd1c23a1cb6847ffe.json",
+      "sha256": "6c2e06439c37deccc1cf3b82d82e75a61a67b03be9c01c29f62abac97403f901",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:35.226Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 26,
+      "rawRowCount": 26,
+      "excludedRows": 0
+    },
+    "6d74cb5263e00fee9be1aa4c4729e338809ec849423abdf65158e027fa915c25": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_ProtectorsVow"
+      },
+      "file": "6d74cb5263e00fee9be1aa4c4729e338809ec849423abdf65158e027fa915c25.json",
+      "sha256": "fb0cc082a0af516f8ffb647f7384ec03d34261d48b3e63e2f1ef1cda51176bd5",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:38.385Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 15,
+      "rawRowCount": 15,
+      "excludedRows": 0
+    },
+    "3b44374f58ad223c8ba62ae419911dd713e820b01c15f6c7b913473d0a85dcc0": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_ProtectorsVowRadiant"
+      },
+      "file": "3b44374f58ad223c8ba62ae419911dd713e820b01c15f6c7b913473d0a85dcc0.json",
+      "sha256": "76a30cf56a47139aab7b8333c325d6b0a3763c7064d9b7b383e43fb323fb0853",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:41.790Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 17,
+      "rawRowCount": 17,
+      "excludedRows": 0
+    },
+    "f0258179c045f937d0cbf7bf75ac93cede3ca119271f1d59f99d4e2ad796e443": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_Fishbones"
+      },
+      "file": "f0258179c045f937d0cbf7bf75ac93cede3ca119271f1d59f99d4e2ad796e443.json",
+      "sha256": "e11927fb2d4a55f2f34fb72a18fa453c873640665a5e308a9dd53906e39a2b9c",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:44.914Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 23,
+      "rawRowCount": 23,
+      "excludedRows": 0
+    },
+    "3d4b6a965eea34e50024a00a30f34267f88fd4c65046b79700cde9ebcc216af4": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_NavoriFlickerblade"
+      },
+      "file": "3d4b6a965eea34e50024a00a30f34267f88fd4c65046b79700cde9ebcc216af4.json",
+      "sha256": "5e07746180d0e58c8215c95da85ef23f74423616e5d6ec26c35fe75c53d0fa35",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:47.977Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 12,
+      "rawRowCount": 12,
+      "excludedRows": 0
+    },
+    "1a9e257e8d793e0d388c07cb44ecd7f43152ed0bef0fda9edeeeb84b4a1abf5a": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_ForbiddenIdol"
+      },
+      "file": "1a9e257e8d793e0d388c07cb44ecd7f43152ed0bef0fda9edeeeb84b4a1abf5a.json",
+      "sha256": "87af08cd5e3464e9dd088e720afab48a906fe151a297f7bc94db9cde60c19bef",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:51.382Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 13,
+      "rawRowCount": 13,
+      "excludedRows": 0
+    },
+    "9220a4db39ae6026bed36b5abf3e02fdfadf589124eed94cf492219c1cefe282": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_TacticiansCrown"
+      },
+      "file": "9220a4db39ae6026bed36b5abf3e02fdfadf589124eed94cf492219c1cefe282.json",
+      "sha256": "432a49fea54d90d87c19a0b5d8d26621d2d9478e715d65fcf97fda5a33a2f70f",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:54.569Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 59,
+      "rawRowCount": 59,
+      "excludedRows": 0
+    },
+    "f7de86c3a1d5057ddc79d2105f8b429324c18452c839cb26011d0a044a1cb8bd": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_GamblersBlade"
+      },
+      "file": "f7de86c3a1d5057ddc79d2105f8b429324c18452c839cb26011d0a044a1cb8bd.json",
+      "sha256": "dd9ad3d16976f602af170bd590478dbccb451b2f6ec7300c6fea6a391ffe564d",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:39:57.754Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 14,
+      "rawRowCount": 14,
+      "excludedRows": 0
+    },
+    "d34a933c45936581c00a0fd7d8d465b7c14e8cdd406b567b79955bf52e21910e": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_GiantSlayer"
+      },
+      "file": "d34a933c45936581c00a0fd7d8d465b7c14e8cdd406b567b79955bf52e21910e.json",
+      "sha256": "91d888b7f9b31bf3303e7164de5f9d6e10dad234d8a3cd134b0823f67193fad0",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:01.131Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 30,
+      "rawRowCount": 30,
+      "excludedRows": 0
+    },
+    "4c70474b95f119897d33c667563640b0ca7b188d192779a95eb3c6d62d91543c": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_StrikersFlail"
+      },
+      "file": "4c70474b95f119897d33c667563640b0ca7b188d192779a95eb3c6d62d91543c.json",
+      "sha256": "cd2091acd51ad29938dad86287ac449a3601b7741e3cd84909f631b3edfe5000",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:04.436Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 17,
+      "rawRowCount": 17,
+      "excludedRows": 0
+    },
+    "3831f01a209ebc863a94e9a8237e8842ec3b371761e4599a7a3f9683fa801afd": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_EdgeOfNight"
+      },
+      "file": "3831f01a209ebc863a94e9a8237e8842ec3b371761e4599a7a3f9683fa801afd.json",
+      "sha256": "739648c2b96a74ee280bcca4c32c1c86554e0cacf1d4b39398922cd66ebe91d8",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:08.385Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 13,
+      "rawRowCount": 13,
+      "excludedRows": 0
+    },
+    "cb9a5c8ca8803f0027de81e85253e4bb3143121e6970f0088b46bfd0d07d5c97": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_GuinsoosRageblade"
+      },
+      "file": "cb9a5c8ca8803f0027de81e85253e4bb3143121e6970f0088b46bfd0d07d5c97.json",
+      "sha256": "ba28fcdd999c46d9300f4498e43b5eb88f01e67d2b9fe6328db19a0f0bd7b0bc",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:12.555Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 16,
+      "rawRowCount": 16,
+      "excludedRows": 0
+    },
+    "2aea056dc9fcb692b35b2bb845f9b60ee323e19d7f89c0ee815c7a5fc4593305": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_HandOfJustice"
+      },
+      "file": "2aea056dc9fcb692b35b2bb845f9b60ee323e19d7f89c0ee815c7a5fc4593305.json",
+      "sha256": "2d8950d38f382136b6f100e2966eeda77c089d96a5765fc549ab1288efd21f2e",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:16.286Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 14,
+      "rawRowCount": 14,
+      "excludedRows": 0
+    },
+    "254f7263f9522bbe5a9c02154e49e8d01e184a3afd3ab4ffb21f4052110c07a9": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_HellfireHatchet"
+      },
+      "file": "254f7263f9522bbe5a9c02154e49e8d01e184a3afd3ab4ffb21f4052110c07a9.json",
+      "sha256": "2b19b9551587efc29238160a5f3146b57aafa3f62b47144c60e4c7023b072e38",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:19.753Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 13,
+      "rawRowCount": 13,
+      "excludedRows": 0
+    },
+    "248cacdb330e68a8bb6f36406252c585d9cd5dcbbf2980b1e9297f3c48ff3ec1": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_HextechGunblade"
+      },
+      "file": "248cacdb330e68a8bb6f36406252c585d9cd5dcbbf2980b1e9297f3c48ff3ec1.json",
+      "sha256": "6bbfd2e62379dbec80f65d27334c91e007e72953c90393475fd5c8aed9813227",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:23.073Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 16,
+      "rawRowCount": 16,
+      "excludedRows": 0
+    },
+    "bbe775d78ba05d06b314daf091dde77069616f23688eb3bac727fa8d6e311de4": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_HorizonFocus"
+      },
+      "file": "bbe775d78ba05d06b314daf091dde77069616f23688eb3bac727fa8d6e311de4.json",
+      "sha256": "e33464a12a750e62a58907b53392a2d2b1c1688dd9e0c971852485f6e2d84958",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:26.252Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 12,
+      "rawRowCount": 12,
+      "excludedRows": 0
+    },
+    "1e356118ec56fe22525dc095d09c3fb030ecc4b7bc868b53f19689dfe40d9993": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_Hullcrusher"
+      },
+      "file": "1e356118ec56fe22525dc095d09c3fb030ecc4b7bc868b53f19689dfe40d9993.json",
+      "sha256": "fa8200bf0871154d2b820ca6e835ce2be456e875531c0761af0549b0ed235a7e",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:29.246Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 25,
+      "rawRowCount": 25,
+      "excludedRows": 0
+    },
+    "e9b8de6b27ac7fb91fed0e268512d2da69762f74a8602b5543a164d05e80c518": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_TheIndomitable"
+      },
+      "file": "e9b8de6b27ac7fb91fed0e268512d2da69762f74a8602b5543a164d05e80c518.json",
+      "sha256": "d61df1acb685f0fd2f783f5c8342d931c82196982f122bb504a9bc95b4f8e1ed",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:32.550Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 18,
+      "rawRowCount": 18,
+      "excludedRows": 0
+    },
+    "439fba7fb326e629201bd18e6af07731bcda6e8925fa24970516ffc79f44a5bb": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_IonicSpark"
+      },
+      "file": "439fba7fb326e629201bd18e6af07731bcda6e8925fa24970516ffc79f44a5bb.json",
+      "sha256": "d729d4954ec2a9a8129b45c428329a93ebf700f40f151c619e87574af8296fe3",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:36.148Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 22,
+      "rawRowCount": 22,
+      "excludedRows": 0
+    },
+    "15d259a611c30adb37417dd9c3e91856b129142bb438170e118fe14244803833": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_GargoyleStoneplate"
+      },
+      "file": "15d259a611c30adb37417dd9c3e91856b129142bb438170e118fe14244803833.json",
+      "sha256": "e3fa0e0b13e3e01012de6be22100473678aa323084dc40cccae3f7c701383cf2",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:39.306Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 18,
+      "rawRowCount": 18,
+      "excludedRows": 0
+    },
+    "4c6da69f71516ac0f6c63bf3766359625c77f8116336c77bd0eae0b901cfbe84": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_AdaptiveHelm_Radiant"
+      },
+      "file": "4c6da69f71516ac0f6c63bf3766359625c77f8116336c77bd0eae0b901cfbe84.json",
+      "sha256": "911d06a5b6578412f4b40c6a1932b98c9203f842ad4a3dea37febf727de99e93",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:42.508Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 15,
+      "rawRowCount": 15,
+      "excludedRows": 0
+    },
+    "f142101a5092ac9aaed61b301edf93b3982af52b811b60233996d82251bef657": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_LastWhisper"
+      },
+      "file": "f142101a5092ac9aaed61b301edf93b3982af52b811b60233996d82251bef657.json",
+      "sha256": "9c5d1fd676464a4d07ef4128785e7819396f9efbead4a383c5d15e8caf70c77d",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:45.725Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 14,
+      "rawRowCount": 14,
+      "excludedRows": 0
+    },
+    "a22f943f61b2236c186cf61002ae3ad39da6c3ba74b404f79fcf5d3fe470032d": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_LichBane"
+      },
+      "file": "a22f943f61b2236c186cf61002ae3ad39da6c3ba74b404f79fcf5d3fe470032d.json",
+      "sha256": "2623bdc4e0d631e77e4192bb1a6e31e674802608370671b1b5dd39bed30e888b",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:48.709Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 16,
+      "rawRowCount": 16,
+      "excludedRows": 0
+    },
+    "ad4fce1292b069f7e057ee9e53fbe3e9e37bffa495a40ef3b79de599fe8eaa52": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_LightshieldCrest"
+      },
+      "file": "ad4fce1292b069f7e057ee9e53fbe3e9e37bffa495a40ef3b79de599fe8eaa52.json",
+      "sha256": "ff7cbce1be144fa85c3c69843da4ee117b2350ce355eba8a96b992db5b0d1a9a",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:51.873Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 17,
+      "rawRowCount": 17,
+      "excludedRows": 0
+    },
+    "34b1be7059502b8b7733ec002f83012c20cc516afccc38fe00f77925b63494d2": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Deathblade"
+      },
+      "file": "34b1be7059502b8b7733ec002f83012c20cc516afccc38fe00f77925b63494d2.json",
+      "sha256": "86efed946cec05fe41ed2c7962bfaaa18d07593ba352db1aaa8dba7528859a7b",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:55.137Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 16,
+      "rawRowCount": 16,
+      "excludedRows": 0
+    },
+    "1f288ca9811f6ea8c01707d93783b757fc71674d1ed275eaa6cfc74ac799a011": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_ArchangelsStaff"
+      },
+      "file": "1f288ca9811f6ea8c01707d93783b757fc71674d1ed275eaa6cfc74ac799a011.json",
+      "sha256": "2e24cc762e7530a0d369249d2394da67918491c58a333f955fa009310bcf0c76",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:40:58.290Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 16,
+      "rawRowCount": 16,
+      "excludedRows": 0
+    },
+    "4f06e1e46ab02acb287567571c1e48335d00c85a78202e86c66b319440ed1778": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_LudensTempest"
+      },
+      "file": "4f06e1e46ab02acb287567571c1e48335d00c85a78202e86c66b319440ed1778.json",
+      "sha256": "65263dcca6d2cb9946082c8f8b0ec2ef729e64539cf91184827b53d7f5ea9e51",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:01.463Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 14,
+      "rawRowCount": 14,
+      "excludedRows": 0
+    },
+    "9fdcf0ffabecefea63b8fb2e6bb5a9a6ec6641d5ef6d07a1b9cd30e90c0a9bfa": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_Mittens"
+      },
+      "file": "9fdcf0ffabecefea63b8fb2e6bb5a9a6ec6641d5ef6d07a1b9cd30e90c0a9bfa.json",
+      "sha256": "6a22c5e0ed6b64d326be5d4bd90bbd9ea9f3fa5d5f8210e451ec5cd57a8df87d",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:04.666Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 23,
+      "rawRowCount": 23,
+      "excludedRows": 0
+    },
+    "bbc84bfe60a447c5608ee79426f877c332c27d0b9ee0cfe8a772cc6946dc9890": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_MogulsMail"
+      },
+      "file": "bbc84bfe60a447c5608ee79426f877c332c27d0b9ee0cfe8a772cc6946dc9890.json",
+      "sha256": "fc72fc12aad880a1fce02936b3114f50ce2a38a7248edf32786e39b51131d362",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:08.213Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 19,
+      "rawRowCount": 19,
+      "excludedRows": 0
+    },
+    "d3d7ba098d90a22e181c6cf1f36d9a6b7cda529b3353f1333f299552daeb0ec9": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Morellonomicon"
+      },
+      "file": "d3d7ba098d90a22e181c6cf1f36d9a6b7cda529b3353f1333f299552daeb0ec9.json",
+      "sha256": "a344bcc616d291789fcdd3f5bad6f93c8d326071f3a256350d5c1b28cb646a1a",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:11.558Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 15,
+      "rawRowCount": 15,
+      "excludedRows": 0
+    },
+    "70f6600af468fc51ca5db35b52683dc80379b3a5719387b4c438b491f753f657": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_NashorsTooth"
+      },
+      "file": "70f6600af468fc51ca5db35b52683dc80379b3a5719387b4c438b491f753f657.json",
+      "sha256": "0e59d611cfdecc41dc4a169cab20b0304791828527c394f3c65abd5f224ae5fe",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:15.341Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 23,
+      "rawRowCount": 23,
+      "excludedRows": 0
+    },
+    "390a1ba42d9353cdd0a41467a803767527d56d8796bd4883d0fd56594098759b": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_NashorsToothRadiant"
+      },
+      "file": "390a1ba42d9353cdd0a41467a803767527d56d8796bd4883d0fd56594098759b.json",
+      "sha256": "a9d38a8fc75de43f6f36d48cc8a7eef0ec0c260e0d73f0ecdc782d74def83087",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:19.375Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 19,
+      "rawRowCount": 19,
+      "excludedRows": 0
+    },
+    "5199d5144cd0b19dbf564fead1bfc60b887653160489fca64ada4c4b9d04e9b7": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_DeathsDefiance"
+      },
+      "file": "5199d5144cd0b19dbf564fead1bfc60b887653160489fca64ada4c4b9d04e9b7.json",
+      "sha256": "25920e175384517e3957a1775f3da42e8c48a59208c2380f2feff1396aebdfe1",
+      "status": "not_supported",
+      "fetchedAt": "2026-10-07T14:41:20.139Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 0,
+      "rawRowCount": 0,
+      "excludedRows": 0
+    },
+    "672bb715fa471b0491c208d6f5d3a96bce67e33325d8a349d56829e0987d6835": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_Manazane"
+      },
+      "file": "672bb715fa471b0491c208d6f5d3a96bce67e33325d8a349d56829e0987d6835.json",
+      "sha256": "4f3f5481c29c34905bdec1c8f60b17e97f930b70582e93ec8503d2d9e682fbc3",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:22.899Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 15,
+      "rawRowCount": 15,
+      "excludedRows": 0
+    },
+    "53bf44e821b5d7d8bd26e4edb58e133e7f2025c2c19b716da62df68a8110da09": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_GoldCollector"
+      },
+      "file": "53bf44e821b5d7d8bd26e4edb58e133e7f2025c2c19b716da62df68a8110da09.json",
+      "sha256": "982aa7ec8bbd8c5c48b735f9d651d8f1e77ea7b7e8d10cf9f5c37f250c9c9c8e",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:26.126Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 18,
+      "rawRowCount": 18,
+      "excludedRows": 0
+    },
+    "1342102f7afa87faf04c1479b82b934dea13f9809e21ff62cc5fb871fec79a4a": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_InfinityForce"
+      },
+      "file": "1342102f7afa87faf04c1479b82b934dea13f9809e21ff62cc5fb871fec79a4a.json",
+      "sha256": "1f2fb6dad6ee5a52687b7aa5d0b9af51124fb68c8096a3a7fa8fea2bf53a53e8",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:29.736Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 31,
+      "rawRowCount": 31,
+      "excludedRows": 0
+    },
+    "c56e147a3550e81290f04bedb2ead759283024d509ba8ecc0572a76d5ac37269": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_ZhonyasParadox"
+      },
+      "file": "c56e147a3550e81290f04bedb2ead759283024d509ba8ecc0572a76d5ac37269.json",
+      "sha256": "c112a78ccb2f67da95fc1dd6f42b771d7c7f3af311bb9a38ef5f5d5d502cec98",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:33.012Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 25,
+      "rawRowCount": 25,
+      "excludedRows": 0
+    },
+    "85aa044cc65ab60e60af39ec0debd47530419c6a140c610cb08b7facad977f47": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Quicksilver"
+      },
+      "file": "85aa044cc65ab60e60af39ec0debd47530419c6a140c610cb08b7facad977f47.json",
+      "sha256": "91e912ec5ff1a457d94dfaf4ecc037caa86329172d534c9b77b5319d3756c7ce",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:36.487Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 25,
+      "rawRowCount": 25,
+      "excludedRows": 0
+    },
+    "bb7bf7fafbfadd5ebcee5323f5aef1d917b5822c17e885efb5aceee665677822": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_RabadonsDeathcap"
+      },
+      "file": "bb7bf7fafbfadd5ebcee5323f5aef1d917b5822c17e885efb5aceee665677822.json",
+      "sha256": "f19d35630fbab83a57e153ac2013db7571db82353aeb454f886bdca9aa4d7f37",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:39.652Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 17,
+      "rawRowCount": 17,
+      "excludedRows": 0
+    },
+    "d42e729e0bb6dd0c2390a50bcaaaf7da61d2664c4376abef94ec2c6dbe94bf47": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_ArchangelsStaffRadiant"
+      },
+      "file": "d42e729e0bb6dd0c2390a50bcaaaf7da61d2664c4376abef94ec2c6dbe94bf47.json",
+      "sha256": "54b1123daf554efe5d7045458eb2ad1665f399ec3da2f0f1d0c158dbc0111341",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:42.881Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 16,
+      "rawRowCount": 16,
+      "excludedRows": 0
+    },
+    "4f6aa19e63f48549f448399dafc209df87493921aaa218f3bd89d57f31c89c52": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_BloodthirsterRadiant"
+      },
+      "file": "4f6aa19e63f48549f448399dafc209df87493921aaa218f3bd89d57f31c89c52.json",
+      "sha256": "0ed08370c7604734c5baa010dd872731f4359ef0071ee91e058f6bb53ec3ce52",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:46.064Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 19,
+      "rawRowCount": 19,
+      "excludedRows": 0
+    },
+    "093d6f3e6a98c112f90276cdce297be2df637fdd53bfd3e78982636e6a519b7d": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_BlueBuffRadiant"
+      },
+      "file": "093d6f3e6a98c112f90276cdce297be2df637fdd53bfd3e78982636e6a519b7d.json",
+      "sha256": "5247bb8d47d5024df3bb8c41c084312749472fe94f2867ad6a2c48c4e8031dc2",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:49.172Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 13,
+      "rawRowCount": 13,
+      "excludedRows": 0
+    },
+    "12e5fda45eb8f086a26b348b040d04bc3e8bd58a512cffc6517bc5bccef98636": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_BrambleVestRadiant"
+      },
+      "file": "12e5fda45eb8f086a26b348b040d04bc3e8bd58a512cffc6517bc5bccef98636.json",
+      "sha256": "ef58cf3414bdc4695d32c9778e9f0b78772dd15b046be3bc2459d400a3fbefb7",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:52.306Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 22,
+      "rawRowCount": 22,
+      "excludedRows": 0
+    },
+    "331c8d01b7f1f10a0e3b97811a17237959beb5e67c749302b6f9f6c9dc67a259": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_DeathbladeRadiant"
+      },
+      "file": "331c8d01b7f1f10a0e3b97811a17237959beb5e67c749302b6f9f6c9dc67a259.json",
+      "sha256": "faf67cdcd5177431713be57258ea1a21d2d7f8afd32e7be2c83b9c0fdad404c1",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:55.468Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 12,
+      "rawRowCount": 12,
+      "excludedRows": 0
+    },
+    "b36ba25481c9ac8d11fa487d6b1b916348f53b8ad436bde7f37077eb6e7b6cf6": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_DragonsClawRadiant"
+      },
+      "file": "b36ba25481c9ac8d11fa487d6b1b916348f53b8ad436bde7f37077eb6e7b6cf6.json",
+      "sha256": "bbcda2a971860ed59d908d28044922d2cbba6085a9afdc38c05a04551e284052",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:41:58.820Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 20,
+      "rawRowCount": 20,
+      "excludedRows": 0
+    },
+    "9f52fa39d9389d608c6e18baba49461db2b065fe4dcdbd31025d8f45404b702f": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_EdgeOfNightRadiant"
+      },
+      "file": "9f52fa39d9389d608c6e18baba49461db2b065fe4dcdbd31025d8f45404b702f.json",
+      "sha256": "4244d879165f2cd174240c2a3e731f19c145ad36f0aa0f9b71bc4918f43262b1",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:02.209Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 15,
+      "rawRowCount": 15,
+      "excludedRows": 0
+    },
+    "1dded73288b3b1746c5bb7e433440684a3d546088c104bdd603252db4a9f2d6e": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_GargoyleStoneplate_Radiant"
+      },
+      "file": "1dded73288b3b1746c5bb7e433440684a3d546088c104bdd603252db4a9f2d6e.json",
+      "sha256": "b5f9644ff33f76dedabf30d6bfa6b9f7054bffc9ac67f232051a3e596ff6c68f",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:05.426Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 17,
+      "rawRowCount": 17,
+      "excludedRows": 0
+    },
+    "69559518a68df4f8e15f21ea877969801c611d91363937fdb157ec1059c781b5": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_GiantSlayer_Radiant"
+      },
+      "file": "69559518a68df4f8e15f21ea877969801c611d91363937fdb157ec1059c781b5.json",
+      "sha256": "27bf164634623d813442bbffad3b76fd759ed8785cc6ef20a95d875186dbf1a6",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:08.642Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 23,
+      "rawRowCount": 23,
+      "excludedRows": 0
+    },
+    "a85c5e9d174461c66689b24d9a733f1eb71cc428512ce95e63a57ae5fabe3906": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_GuinsoosRagebladeRadiant"
+      },
+      "file": "a85c5e9d174461c66689b24d9a733f1eb71cc428512ce95e63a57ae5fabe3906.json",
+      "sha256": "a8445e610453ccb8c8a8f8fc53858c00ad9ecf5160b7b76140f94c28056a43d2",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:11.977Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 12,
+      "rawRowCount": 12,
+      "excludedRows": 0
+    },
+    "7e4b5fdd3e835f5b1b1646c7d84ae378c376a0de77052248608f98cd572ac1b9": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_HandOfJusticeRadiant"
+      },
+      "file": "7e4b5fdd3e835f5b1b1646c7d84ae378c376a0de77052248608f98cd572ac1b9.json",
+      "sha256": "7b6d2761025beca65877316e6b8723cfa7ab281af8a9b813546445b2c74c5e96",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:15.386Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 13,
+      "rawRowCount": 13,
+      "excludedRows": 0
+    },
+    "ac84ead17d053c4e2558817c2903c64749982274ccc2122a675d9f9642c0ff94": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_HextechGunbladeRadiant"
+      },
+      "file": "ac84ead17d053c4e2558817c2903c64749982274ccc2122a675d9f9642c0ff94.json",
+      "sha256": "3dfe4ddf487c813561a551d6df3a39fc2c337fcdbc82f4c75747160b3597980f",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:18.526Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 13,
+      "rawRowCount": 13,
+      "excludedRows": 0
+    },
+    "5584677598afbdd426e997ad7aecb01680c2e724a19e81ae5e02bdb6aeecdfb3": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_InfinityEdgeRadiant"
+      },
+      "file": "5584677598afbdd426e997ad7aecb01680c2e724a19e81ae5e02bdb6aeecdfb3.json",
+      "sha256": "3f2793e7161267ff5ee8c08130cf1b0fe4b9ef9828c783b6895c2c47e27ee03e",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:21.533Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 11,
+      "rawRowCount": 11,
+      "excludedRows": 0
+    },
+    "29ccc2c1e9723092141f13e77266300fdcfa08db0da0639fd24f5125cd47017d": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_IonicSparkRadiant"
+      },
+      "file": "29ccc2c1e9723092141f13e77266300fdcfa08db0da0639fd24f5125cd47017d.json",
+      "sha256": "2cd720b459d0089ab5dad9171efb1c4af4dd73192b7eb954e8a3446b529dae3a",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:24.757Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 16,
+      "rawRowCount": 16,
+      "excludedRows": 0
+    },
+    "18e4c4aeb5bcd69c257cf70c86b6bdedbf593a70cdf53c59fba516f70b600aef": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_JeweledGauntletRadiant"
+      },
+      "file": "18e4c4aeb5bcd69c257cf70c86b6bdedbf593a70cdf53c59fba516f70b600aef.json",
+      "sha256": "0b7215855a1bc9c3bc79c47c2671f34c6ef247acda4eb1d190084e749e950a1b",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:27.758Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 14,
+      "rawRowCount": 14,
+      "excludedRows": 0
+    },
+    "58b08f6fdecd9be72a376629ee6bd27ed07734e4a8af76e4f2f96eee690ea2b2": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_LastWhisperRadiant"
+      },
+      "file": "58b08f6fdecd9be72a376629ee6bd27ed07734e4a8af76e4f2f96eee690ea2b2.json",
+      "sha256": "cae6f955c567735c30fc204d968a9e208252de63b01b82ffc9e879cd77854f64",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:31.137Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 16,
+      "rawRowCount": 16,
+      "excludedRows": 0
+    },
+    "2a1ec9353b74281cf2f55d5af23cc9a99c9df5989d95a6cd0054e298ab3269c1": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_MorellonomiconRadiant"
+      },
+      "file": "2a1ec9353b74281cf2f55d5af23cc9a99c9df5989d95a6cd0054e298ab3269c1.json",
+      "sha256": "e6ab55c116fc8411b88b3bcec0f7196561b3dc4f2e481df0b4058c3b8e883847",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:34.472Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 15,
+      "rawRowCount": 15,
+      "excludedRows": 0
+    },
+    "a938c0137ce7142a2d829279109f535fa883ee522c296de0887be65a1dc98f2a": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_QuicksilverRadiant"
+      },
+      "file": "a938c0137ce7142a2d829279109f535fa883ee522c296de0887be65a1dc98f2a.json",
+      "sha256": "67a06d064cd36ec56016cb2506e601790d4b685dfe0d70702e31cb636259a5c6",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:37.692Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 21,
+      "rawRowCount": 21,
+      "excludedRows": 0
+    },
+    "cd28c8cee7c5164421818af65597ac43ff18a22316b3f0499ae54cad9720998d": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_RabadonsDeathcap_Radiant"
+      },
+      "file": "cd28c8cee7c5164421818af65597ac43ff18a22316b3f0499ae54cad9720998d.json",
+      "sha256": "24a0cc7d9e21ef385d13874c9289ffdecd03f3b5f168006cf4ca9b5cc8122b22",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:41.104Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 13,
+      "rawRowCount": 13,
+      "excludedRows": 0
+    },
+    "e30df9067bc1d62cac361a87dec170b9810666bbf01bf0b841d94b182b2b22e1": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_RedBuffRadiant"
+      },
+      "file": "e30df9067bc1d62cac361a87dec170b9810666bbf01bf0b841d94b182b2b22e1.json",
+      "sha256": "509f70ce28da776df92a788ea8082d61ba8bd09e3921d4e7d7f34c969e00fd56",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:44.529Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 19,
+      "rawRowCount": 19,
+      "excludedRows": 0
+    },
+    "1e70841f2fdd5aa49b8cd57347102f5c733139466d1a3d4153a0ddf808b75aba": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_SpiritVisage_Radiant"
+      },
+      "file": "1e70841f2fdd5aa49b8cd57347102f5c733139466d1a3d4153a0ddf808b75aba.json",
+      "sha256": "f86c347fd06fde65d5e204038058f05885decb850fc15ca542a46bfefb293496",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:47.699Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 20,
+      "rawRowCount": 20,
+      "excludedRows": 0
+    },
+    "f1738ff9522736ca86db078067dfb137494858c894955818fdf5fd01ecbac16e": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_KrakensFury_Radiant"
+      },
+      "file": "f1738ff9522736ca86db078067dfb137494858c894955818fdf5fd01ecbac16e.json",
+      "sha256": "cbdd0da6850424cc5084f432783f9667ab11421bc22354e9b46f68399625b5b0",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:50.709Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 11,
+      "rawRowCount": 11,
+      "excludedRows": 0
+    },
+    "188f069ef65039c73a5e9f37851be3fbe3c6f0fcfeafd74940464132d891676f": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_SpearOfShojinRadiant"
+      },
+      "file": "188f069ef65039c73a5e9f37851be3fbe3c6f0fcfeafd74940464132d891676f.json",
+      "sha256": "d2a3b1b0b90c357fc90f70db20280a0b89367ac97f30e1a4a9e1c97430f578ae",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:53.891Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 22,
+      "rawRowCount": 22,
+      "excludedRows": 0
+    },
+    "ec0e1b8ec89b5937bfdcee7fb86ec66022047bfe522125b88377a02e781f8a26": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_VoidStaffRadiant"
+      },
+      "file": "ec0e1b8ec89b5937bfdcee7fb86ec66022047bfe522125b88377a02e781f8a26.json",
+      "sha256": "0a0f2a2fc3d424894f5011e4181089bc3142428599d507851e7a589d36bed1f6",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:42:57.279Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 16,
+      "rawRowCount": 16,
+      "excludedRows": 0
+    },
+    "7d31ab3cb38ee48d04fc6e9c9f43c72187e1a7903f47ae8cc9c12c09a002941d": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_SteadfastHeartRadiant"
+      },
+      "file": "7d31ab3cb38ee48d04fc6e9c9f43c72187e1a7903f47ae8cc9c12c09a002941d.json",
+      "sha256": "5913d04c771b69b445d3e8d1107bbed1007369dba075314ec968e5681b40e116",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:00.622Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 23,
+      "rawRowCount": 23,
+      "excludedRows": 0
+    },
+    "d0cee0e407d94a81dec46eb447e8182f14d31da57b7292d3678a61c0dc1c9c9c": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_StrikersFlailRadiant"
+      },
+      "file": "d0cee0e407d94a81dec46eb447e8182f14d31da57b7292d3678a61c0dc1c9c9c.json",
+      "sha256": "6b655f85b95c05d4a781b925351740b068855cb21db63490b41f51d5dec8a716",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:03.962Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 22,
+      "rawRowCount": 22,
+      "excludedRows": 0
+    },
+    "45f915a04a40bdbde12fbea43ffb921192c7d0b49e7ee825695ed026fa39bba0": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_SunfireCape_Radiant"
+      },
+      "file": "45f915a04a40bdbde12fbea43ffb921192c7d0b49e7ee825695ed026fa39bba0.json",
+      "sha256": "5dd053ed10d5f0cb223c715ed1440dac2ae65ffc15165c083fd6ccf0c6b9838f",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:07.410Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 19,
+      "rawRowCount": 19,
+      "excludedRows": 0
+    },
+    "e32dd602439afb99d865cbdc9567b5803665bacd94262848b2718a4c893fc961": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_ThiefsGlovesRadiant"
+      },
+      "file": "e32dd602439afb99d865cbdc9567b5803665bacd94262848b2718a4c893fc961.json",
+      "sha256": "6b44f345f57249f95df163f34396dd26e39d55df5114e832613ef67efb532b5f",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:10.860Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 22,
+      "rawRowCount": 22,
+      "excludedRows": 0
+    },
+    "79c2fdd0d9369022294d1cf5b4d8ec85d05fd934828d252d0750328b6cd2f0e7": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_TitansResolve_Radiant"
+      },
+      "file": "79c2fdd0d9369022294d1cf5b4d8ec85d05fd934828d252d0750328b6cd2f0e7.json",
+      "sha256": "b84bbdae6b1cf5098325292807b581b5a9f6dab7e932be6ddd4d7f1efa87a6b5",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:13.928Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 15,
+      "rawRowCount": 15,
+      "excludedRows": 0
+    },
+    "572160dea20845fc2a988d791f45b2ec9aae5d7a82dd7f8731929008c7abfc01": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_WarmogsArmorRadiant"
+      },
+      "file": "572160dea20845fc2a988d791f45b2ec9aae5d7a82dd7f8731929008c7abfc01.json",
+      "sha256": "28c351d81e4f348f5eaa8aac534b5314aad0c899208d47d07a4b13039695fc73",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:17.344Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 17,
+      "rawRowCount": 17,
+      "excludedRows": 0
+    },
+    "04ee064021ca2090208aa60337e70a934a440ea426428c0104ca0e2c486effa6": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_RapidFireCannon"
+      },
+      "file": "04ee064021ca2090208aa60337e70a934a440ea426428c0104ca0e2c486effa6.json",
+      "sha256": "5f71e3bcb40087c8ea696d493bd2ff09a4e357255ba27fee33a5351e3b46d049",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:20.550Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 19,
+      "rawRowCount": 19,
+      "excludedRows": 0
+    },
+    "03ddf9fa3f0f4b5046e3f9e62e7f3195e914cf79534a282bb8e317d35ca042e0": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_RedBuff"
+      },
+      "file": "03ddf9fa3f0f4b5046e3f9e62e7f3195e914cf79534a282bb8e317d35ca042e0.json",
+      "sha256": "0677d3c15947c528e2ef16485daf65314c5bf6c37fe9b09ffcfc525dec95a375",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:23.890Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 20,
+      "rawRowCount": 20,
+      "excludedRows": 0
+    },
+    "51edfca5bd4010f631d86ab5c0e82fe263d2e56dd5d0b2c7eb317fb9362f4a27": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_SpiritVisage"
+      },
+      "file": "51edfca5bd4010f631d86ab5c0e82fe263d2e56dd5d0b2c7eb317fb9362f4a27.json",
+      "sha256": "4403edd1ca5a15c91defe35049a622edc62381bcd0e126cf16e274c49499517c",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:27.214Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 17,
+      "rawRowCount": 17,
+      "excludedRows": 0
+    },
+    "f15feba4d455bff9651720dceeeefd5079c9f74b2371130055552c7b4f0a9a19": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_KrakensFury"
+      },
+      "file": "f15feba4d455bff9651720dceeeefd5079c9f74b2371130055552c7b4f0a9a19.json",
+      "sha256": "55ec80e88142a055fcd52cb1688a1bb5dc4f2b8ea71ee925c83c2ae5e3481fe0",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:30.572Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 11,
+      "rawRowCount": 11,
+      "excludedRows": 0
+    },
+    "eb63cd482b5c84af856bd83e4fe416932cc02794b1aae1bf4426634afc25cc98": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_SeekersArmguard"
+      },
+      "file": "eb63cd482b5c84af856bd83e4fe416932cc02794b1aae1bf4426634afc25cc98.json",
+      "sha256": "776f9fb46cbc1ec3a0189a4fe10a2b27526787458db1ce85230aa0c0dbe6cc5e",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:33.977Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 18,
+      "rawRowCount": 18,
+      "excludedRows": 0
+    },
+    "4f10f7fdbfedf7a0d44083f0b368c2e1fb8bafbcdc24c378984fb2632bfb5163": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_SilvermereDawn"
+      },
+      "file": "4f10f7fdbfedf7a0d44083f0b368c2e1fb8bafbcdc24c378984fb2632bfb5163.json",
+      "sha256": "514eebcf14fb12cf4361b530720e4b80ac696883e19bea6ece4a5f828093f080",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:37.393Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 9,
+      "rawRowCount": 9,
+      "excludedRows": 0
+    },
+    "a40929d7a54df19143aa12fb9ba520327f903fe4623869cfd87f480b999590c5": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_StatikkShiv"
+      },
+      "file": "a40929d7a54df19143aa12fb9ba520327f903fe4623869cfd87f480b999590c5.json",
+      "sha256": "3c2d9043a5eb00355a1f5503a91eda8af2d7c4017b735ce557ff2a9e93bd57f9",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:41.076Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 15,
+      "rawRowCount": 15,
+      "excludedRows": 0
+    },
+    "fead3410c4528918df6b6ee6d9b102a4200891a157f5b8f61ba2641436a14f5b": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_SteadfastHeart"
+      },
+      "file": "fead3410c4528918df6b6ee6d9b102a4200891a157f5b8f61ba2641436a14f5b.json",
+      "sha256": "edd55ca02005e5ee3e220d13543489c73a3d02886022f9d86d3fc06392d2f50e",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:44.900Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 21,
+      "rawRowCount": 21,
+      "excludedRows": 0
+    },
+    "8d990b4b4da9a6052bedd0755d0be0768febe9beb8421b876fc0a3562016d895": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_SteraksGage"
+      },
+      "file": "8d990b4b4da9a6052bedd0755d0be0768febe9beb8421b876fc0a3562016d895.json",
+      "sha256": "9cc6cfed2d8d8d5cfa0e5c5c1bc38723e241562f15d5a5f66a43e395b52f4453",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:49.032Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 17,
+      "rawRowCount": 17,
+      "excludedRows": 0
+    },
+    "8f1a6d29b6a23a354b3d0bd1d0ec23e932e4582fbbcd4fdb8b01e80e14a76443": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_SteraksGageRadiant"
+      },
+      "file": "8f1a6d29b6a23a354b3d0bd1d0ec23e932e4582fbbcd4fdb8b01e80e14a76443.json",
+      "sha256": "71bd0246daebffa5bc656d9f681c10c9821012996b9845da08cd36e043983350",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:52.944Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 15,
+      "rawRowCount": 15,
+      "excludedRows": 0
+    },
+    "afbc684134456f321b21f0571e4f91a2fed815a202870314caa47c6a278d2fdd": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_SunfireCape"
+      },
+      "file": "afbc684134456f321b21f0571e4f91a2fed815a202870314caa47c6a278d2fdd.json",
+      "sha256": "409f6769479f1edfcd35ce10462c4630d50d843ac2374d438dcc6b4db523c3f6",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:43:56.876Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 23,
+      "rawRowCount": 23,
+      "excludedRows": 0
+    },
+    "3d4838f5698e52982928c91efdfd4d738e574e93cf990aaaee98aaba8193b703": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_TacticiansCape"
+      },
+      "file": "3d4838f5698e52982928c91efdfd4d738e574e93cf990aaaee98aaba8193b703.json",
+      "sha256": "c958bdbe40d87624d85c957d9e62595a65866b994ef1c19cd25b273e57470eec",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:00.391Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 54,
+      "rawRowCount": 54,
+      "excludedRows": 0
+    },
+    "121a1756abad7a867ef69cefbd61257909387c1c194da01646a446a99799ec3d": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_TacticiansShield"
+      },
+      "file": "121a1756abad7a867ef69cefbd61257909387c1c194da01646a446a99799ec3d.json",
+      "sha256": "ec4f01d86148676a6e82a29a88c5504b69b97e71369947ddab54d0d56c33f750",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:03.989Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 52,
+      "rawRowCount": 52,
+      "excludedRows": 0
+    },
+    "e95980b11fa9217c74a0c0f41f6e03e5791e7ccf74e5712080145f9a65a3972b": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Item_Artifact_TalismanOfAscension"
+      },
+      "file": "e95980b11fa9217c74a0c0f41f6e03e5791e7ccf74e5712080145f9a65a3972b.json",
+      "sha256": "4d5004cbf360865eb37b2132a1da60596242a9e19b26a63cfefa9b4a283a46f2",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:07.976Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 42,
+      "rawRowCount": 42,
+      "excludedRows": 0
+    },
+    "455982ce0af704709ac50d8f2f4bc3db8f82c68a75868e5d02851b957d1e3f0b": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_ThiefsGloves"
+      },
+      "file": "455982ce0af704709ac50d8f2f4bc3db8f82c68a75868e5d02851b957d1e3f0b.json",
+      "sha256": "4887213a40a398639b625f40bfb0cf83a4de04c207936ec38a05750bf4cdd910",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:11.452Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 27,
+      "rawRowCount": 27,
+      "excludedRows": 0
+    },
+    "fec7e854fa1188401a5e5966d9f260c648627292ec9325aa8ae44a990742d926": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_TitanicHydra"
+      },
+      "file": "fec7e854fa1188401a5e5966d9f260c648627292ec9325aa8ae44a990742d926.json",
+      "sha256": "72df28e75d5ea3d9f64d58c4507d10b99e2716784fc7438f7eeadead146b5a5b",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:14.845Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 17,
+      "rawRowCount": 17,
+      "excludedRows": 0
+    },
+    "d33d163d2a3dd310147a32cc23c6f76e66518853129278153a7d03b37bc4ac1c": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_TitansResolve"
+      },
+      "file": "d33d163d2a3dd310147a32cc23c6f76e66518853129278153a7d03b37bc4ac1c.json",
+      "sha256": "415951c5f85ee979b211877ae133f3fad249a56bc483e69fabb4c876d0157d06",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:18.055Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 18,
+      "rawRowCount": 18,
+      "excludedRows": 0
+    },
+    "a14ff6d01813e1bf7355885f0b0c0ba4207813ab085e38ff52952eeb352ffadd": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_VoidGauntlet"
+      },
+      "file": "a14ff6d01813e1bf7355885f0b0c0ba4207813ab085e38ff52952eeb352ffadd.json",
+      "sha256": "8330e6d348c792338a3d95342151203425d1053b1a5f1a3260d1cacb9a929652",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:21.211Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 17,
+      "rawRowCount": 17,
+      "excludedRows": 0
+    },
+    "8b206d4ceae8f02ca62d9f8257086b032858d7edf3cbac798c7b3ecb62d1b210": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_VoidStaff"
+      },
+      "file": "8b206d4ceae8f02ca62d9f8257086b032858d7edf3cbac798c7b3ecb62d1b210.json",
+      "sha256": "9ded2d925f620dd32f2b2082ac18f0f03f7986f43bf87c46f368716960b961d2",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:24.396Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 13,
+      "rawRowCount": 13,
+      "excludedRows": 0
+    },
+    "5e8883c8c7bcc4e6c0d4fbcbbdda8b0724d2b6ad8548480f0bd9a55713c25165": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_WarmogsArmor"
+      },
+      "file": "5e8883c8c7bcc4e6c0d4fbcbbdda8b0724d2b6ad8548480f0bd9a55713c25165.json",
+      "sha256": "6ec1274319516070ac3a028829071e441e78f923912e80b7da250b8ef171f77e",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:27.389Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 18,
+      "rawRowCount": 18,
+      "excludedRows": 0
+    },
+    "4e69c7f5cec7a6c4ddcac06f43977c442065ff617a8bfe0ea2665ebdc841847e": {
+      "tool": "tft_list_champions_for_item",
+      "args": {
+        "item_id": "DA_Artifact_WitsEnd"
+      },
+      "file": "4e69c7f5cec7a6c4ddcac06f43977c442065ff617a8bfe0ea2665ebdc841847e.json",
+      "sha256": "8339e0988742de616217e00426c13f629f38eb3b6ceb8f0f6bc304df7299d5d2",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:30.866Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 12,
+      "rawRowCount": 12,
+      "excludedRows": 0
+    },
+    "9d8b288b237e4018511ec163c4dce3140c22d52e7d6b8df2651b101b0970daa0": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Ornn"
+      },
+      "file": "9d8b288b237e4018511ec163c4dce3140c22d52e7d6b8df2651b101b0970daa0.json",
+      "sha256": "52355bfdeb7838ad5a93afef06072690224f30a7fc4ce2935016ab85dddd00e3",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:34.503Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 520,
+      "rawRowCount": 520,
+      "excludedRows": 0
+    },
+    "431dc5b316b5ac93c883b2fef98056eae31c852bd52f224dbdee8f35fff3de40": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Sentry"
+      },
+      "file": "431dc5b316b5ac93c883b2fef98056eae31c852bd52f224dbdee8f35fff3de40.json",
+      "sha256": "d708ded878555e69645b78321b7c1a5da6c35f7076fd9256d35eb2a94b37215a",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:37.626Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 240,
+      "rawRowCount": 240,
+      "excludedRows": 0
+    },
+    "17e0622767cb27c3c3d1c8d6852b2d17a5821eb9ef35d1a1131e7214276eba1e": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Cinderling18"
+      },
+      "file": "17e0622767cb27c3c3d1c8d6852b2d17a5821eb9ef35d1a1131e7214276eba1e.json",
+      "sha256": "0001d88f0b3228d1f50dac5845dae5a0d54408bac43172eeb9387a1e0e8fd7a7",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:40.833Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 156,
+      "rawRowCount": 156,
+      "excludedRows": 0
+    },
+    "b3b4331c3cdcdbe9c16dc33d7ba3f9fe6e4a139650fdbaafce64781f76c3b1ac": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Karma18"
+      },
+      "file": "b3b4331c3cdcdbe9c16dc33d7ba3f9fe6e4a139650fdbaafce64781f76c3b1ac.json",
+      "sha256": "f85a0352089fdc872bba0a034c851c3dcff097741809bff82707764929c223f6",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:44.002Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 83,
+      "rawRowCount": 83,
+      "excludedRows": 0
+    },
+    "c06895155a392e9e0fee06ea84f4eb783f4620d06bfd8348f5a9bc2de2f65486": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Camille"
+      },
+      "file": "c06895155a392e9e0fee06ea84f4eb783f4620d06bfd8348f5a9bc2de2f65486.json",
+      "sha256": "58c7207407e972ae0000bec39d0c91e75a0379d15504e7ec734a387bc9ecdf7d",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:47.157Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 181,
+      "rawRowCount": 181,
+      "excludedRows": 0
+    },
+    "a98cd56e79f883820c55bcd0e36bf4fb9d7e675dc26c891e68de0d2a165af675": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Kobuko"
+      },
+      "file": "a98cd56e79f883820c55bcd0e36bf4fb9d7e675dc26c891e68de0d2a165af675.json",
+      "sha256": "b5f543032b7e8e73ccfe954aa2a2a951d95e9400343a73157201f9564f58e850",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:50.532Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 108,
+      "rawRowCount": 108,
+      "excludedRows": 0
+    },
+    "d61878762d710e04c2eab7c563262d131c90eaa568371cc25ab1976a78acba09": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_RekSai"
+      },
+      "file": "d61878762d710e04c2eab7c563262d131c90eaa568371cc25ab1976a78acba09.json",
+      "sha256": "9024a99374bd5b0bfa0a40064d64931d451b83e77aeba282c495fd32098fb4f2",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:53.906Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 253,
+      "rawRowCount": 253,
+      "excludedRows": 0
+    },
+    "022d318cfda3899aa487ec1b131030054b7d464234d5834d467e6c4c74f9c738": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Rakan"
+      },
+      "file": "022d318cfda3899aa487ec1b131030054b7d464234d5834d467e6c4c74f9c738.json",
+      "sha256": "529ba5fae0a3f139ab2fba57f9ee0382131628b47da277feae4efc793125dd84",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:44:57.336Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 198,
+      "rawRowCount": 198,
+      "excludedRows": 0
+    },
+    "0f7ec984e730799fd28fe42037961ec9dc9e1bbf2569dbb2161682b4398108c7": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Varus"
+      },
+      "file": "0f7ec984e730799fd28fe42037961ec9dc9e1bbf2569dbb2161682b4398108c7.json",
+      "sha256": "0e9f4c67fcfa0a226da9cbc115154b4ec02228c50a7b190a32a6c5904ad5975c",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:00.517Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 174,
+      "rawRowCount": 174,
+      "excludedRows": 0
+    },
+    "1d7fe66cfc7021d90dca19441844e62fd3b95944e47257a7092407a1cc943588": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Veigar"
+      },
+      "file": "1d7fe66cfc7021d90dca19441844e62fd3b95944e47257a7092407a1cc943588.json",
+      "sha256": "06780283058f3188688fbaaa01db076ef0706e1f82d256de06af667445697cb1",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:03.958Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 414,
+      "rawRowCount": 414,
+      "excludedRows": 0
+    },
+    "bdbb9f617bf67cc0d3ee7b6197707106ac3d531241e1452e04d67a5b7b9eca1a": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Xayah"
+      },
+      "file": "bdbb9f617bf67cc0d3ee7b6197707106ac3d531241e1452e04d67a5b7b9eca1a.json",
+      "sha256": "4755902c6d91b16dcb311dd63b2eb9b1a7d23389d4e5c805de949241df41336c",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:07.004Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 284,
+      "rawRowCount": 284,
+      "excludedRows": 0
+    },
+    "ed1d196163ac3459805328371103a9d4f1aab5453981c0b01229ccb6983fe5d0": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Yorick"
+      },
+      "file": "ed1d196163ac3459805328371103a9d4f1aab5453981c0b01229ccb6983fe5d0.json",
+      "sha256": "0e44da19caaac77cde55eee6adb7955eb055f729ff5ec8356a0e92e8ea4005cd",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:10.244Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 200,
+      "rawRowCount": 200,
+      "excludedRows": 0
+    },
+    "f8128218256cdca617fd44f2c61905f5ddfe415182df62a7d068d800394b056b": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Alistar"
+      },
+      "file": "f8128218256cdca617fd44f2c61905f5ddfe415182df62a7d068d800394b056b.json",
+      "sha256": "b9a6785f1fc3af6edb325b72fc7ce38ad2ca0d6e67aab9eabdfebfd39edd0550",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:13.615Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 381,
+      "rawRowCount": 381,
+      "excludedRows": 0
+    },
+    "9665b97ab798ab3c3aa3ff6accb75ca411ad9fcc5e9b87370b500b58f245060a": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Murkwolf18"
+      },
+      "file": "9665b97ab798ab3c3aa3ff6accb75ca411ad9fcc5e9b87370b500b58f245060a.json",
+      "sha256": "bf966216ef17e1e977e2d077e9f5e5f9a7ac63be71a7e9bb7c8d8be4895d7158",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:16.885Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 223,
+      "rawRowCount": 223,
+      "excludedRows": 0
+    },
+    "e1b2e43381e83655198cd2f07fa28034677b949c333e3622390ae71e3a852e87": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Kayle"
+      },
+      "file": "e1b2e43381e83655198cd2f07fa28034677b949c333e3622390ae71e3a852e87.json",
+      "sha256": "11699c817eb886b568c58f760f0fe50c26d2743306e89f207560799630359caa",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:20.019Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 324,
+      "rawRowCount": 324,
+      "excludedRows": 0
+    },
+    "5ab09303d1db9e3643f95c677cfd8912bd79e289fde5038d8477daf13febedbf": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Caitlyn"
+      },
+      "file": "5ab09303d1db9e3643f95c677cfd8912bd79e289fde5038d8477daf13febedbf.json",
+      "sha256": "4d13178b10395f7ded1410cb37f8c2c3fc897a667167d5f8b9011956bb6550be",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:23.285Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 129,
+      "rawRowCount": 129,
+      "excludedRows": 0
+    },
+    "1b5d74b308e91ef307447bbd468f190ae9c006a193817a817d549f8e58878367": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_LeBlanc"
+      },
+      "file": "1b5d74b308e91ef307447bbd468f190ae9c006a193817a817d549f8e58878367.json",
+      "sha256": "25f338614a18c55b75e2540bfab18453fbaaac1077ba32845447a3c53934b1f5",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:26.645Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 447,
+      "rawRowCount": 447,
+      "excludedRows": 0
+    },
+    "04f80892803c50a896520e59d0aec00f0584c9ccf84a18e3e07119cdc92e7280": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Gromp18_AP"
+      },
+      "file": "04f80892803c50a896520e59d0aec00f0584c9ccf84a18e3e07119cdc92e7280.json",
+      "sha256": "f5fdd603dbf0d71f33f0a577cc5455180b435c4109be96ce7897c1f19595d1d9",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:30.009Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 114,
+      "rawRowCount": 114,
+      "excludedRows": 0
+    },
+    "1e8c0f37e0eb79767d64146a8d3b676d701177588d8c6bc797cde7b40a0ce27f": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Sejuani"
+      },
+      "file": "1e8c0f37e0eb79767d64146a8d3b676d701177588d8c6bc797cde7b40a0ce27f.json",
+      "sha256": "20e6def299b81e0aac97b364114c4624fa51658d65bbc309d0a7522989f96823",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:33.156Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 370,
+      "rawRowCount": 370,
+      "excludedRows": 0
+    },
+    "a9c6c8187cbffeacde4b69907e1c2d281e4ec4c2fe6040a8a9f6f69b3b9cebe2": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Shen"
+      },
+      "file": "a9c6c8187cbffeacde4b69907e1c2d281e4ec4c2fe6040a8a9f6f69b3b9cebe2.json",
+      "sha256": "b94a1c17a2b7f1e907a57ed998d005aa8a88d05af85f65bbbe525f0d2d9e05e7",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:36.340Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 207,
+      "rawRowCount": 207,
+      "excludedRows": 0
+    },
+    "69a808bb31a80255ec2dc881e3978226852843af48b0fbbb3b88aa1cc5c6c020": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Teemo"
+      },
+      "file": "69a808bb31a80255ec2dc881e3978226852843af48b0fbbb3b88aa1cc5c6c020.json",
+      "sha256": "b678ae5bffad1059fc2ce8df353051265c8012b53e13b0ad6b25230742abf9d8",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:39.518Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 225,
+      "rawRowCount": 225,
+      "excludedRows": 0
+    },
+    "f9b5cc92a58111003ea10e3d6670be3b28c7b292359ba15f6a21ce2dd148614a": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Warwick"
+      },
+      "file": "f9b5cc92a58111003ea10e3d6670be3b28c7b292359ba15f6a21ce2dd148614a.json",
+      "sha256": "e7cf04eb1e472e396e3063a393a6f4471a4bd965b7ef3fdccfaa322377e49181",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:42.775Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 174,
+      "rawRowCount": 174,
+      "excludedRows": 0
+    },
+    "7f3e64836693e4550d1e68bf04ae042fd01713a677d2dd83188e76de7bf00469": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Scuttlecrab18"
+      },
+      "file": "7f3e64836693e4550d1e68bf04ae042fd01713a677d2dd83188e76de7bf00469.json",
+      "sha256": "2c4db3a0aeabec46d857a996f3791ebc75e14312d33a546e4f45de85d9e29997",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:45.964Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 305,
+      "rawRowCount": 305,
+      "excludedRows": 0
+    },
+    "e45f99af33f8523439a3b40fdd80aa25a10e5572727fe1b207639911abae2aee": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Elise"
+      },
+      "file": "e45f99af33f8523439a3b40fdd80aa25a10e5572727fe1b207639911abae2aee.json",
+      "sha256": "9fc9860595be1339a676b1d0d0dc877a243bbde4df160727eae449586e8e06b7",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:49.200Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 322,
+      "rawRowCount": 322,
+      "excludedRows": 0
+    },
+    "e593a2b74f0729a6ccde6c48896398a2dc01bbaf711f49fd88b10abdfd48f7fb": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Yunara"
+      },
+      "file": "e593a2b74f0729a6ccde6c48896398a2dc01bbaf711f49fd88b10abdfd48f7fb.json",
+      "sha256": "419522b08c7965dde554256933f7bc1ee1cbf6ff7cc59959b96b64d8608c1915",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:52.408Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 174,
+      "rawRowCount": 174,
+      "excludedRows": 0
+    },
+    "9e17e4cb68d60b24e134890f27834ca89290fa0f7f28699be0e71a72c1d9c327": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Azir"
+      },
+      "file": "9e17e4cb68d60b24e134890f27834ca89290fa0f7f28699be0e71a72c1d9c327.json",
+      "sha256": "0dbb5d9420fa49a04c91cdc9619be5cfcbffb05d902b933de627638841e46d9b",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:55.635Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 546,
+      "rawRowCount": 546,
+      "excludedRows": 0
+    },
+    "53b8892936337e1a74ee6c328f62ea8d274188ddf3b0f16e4a6652a46a04204a": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Tristana"
+      },
+      "file": "53b8892936337e1a74ee6c328f62ea8d274188ddf3b0f16e4a6652a46a04204a.json",
+      "sha256": "e71b9628cf252c6bcae385106318876b23ec4f731cf4f5399f13acacf0c1d72b",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:45:58.757Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 214,
+      "rawRowCount": 214,
+      "excludedRows": 0
+    },
+    "b58c5fdeeb2171c1c90d7f8371f56e6bb3a95a5ba4ca5c5714a5bbf46076e6ab": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Diana"
+      },
+      "file": "b58c5fdeeb2171c1c90d7f8371f56e6bb3a95a5ba4ca5c5714a5bbf46076e6ab.json",
+      "sha256": "b2155506bdbc2445955251b7f95b214eddeec17d56ce995808aaa7e43cb0de6f",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:02.012Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 348,
+      "rawRowCount": 348,
+      "excludedRows": 0
+    },
+    "4f5bc5718a5d4c8c4edc98c9ce6d6f0c30bab3b84ded1008222f86f45086d618": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Fiddlesticks18"
+      },
+      "file": "4f5bc5718a5d4c8c4edc98c9ce6d6f0c30bab3b84ded1008222f86f45086d618.json",
+      "sha256": "6050e82f11313913e05cfe00a7080638cb62f91c22a183b2e508ac8e3d86f7db",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:05.286Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 652,
+      "rawRowCount": 652,
+      "excludedRows": 0
+    },
+    "b60b89cd5bafe15cdf82de810d8536c6db8dd37510219c2cdbae9e5dd42bad9d": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Hecarim"
+      },
+      "file": "b60b89cd5bafe15cdf82de810d8536c6db8dd37510219c2cdbae9e5dd42bad9d.json",
+      "sha256": "5781983d24ba67f3aa3d68da429118bf008e964d8d91cabb9b963264e8f70802",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:08.847Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 477,
+      "rawRowCount": 477,
+      "excludedRows": 0
+    },
+    "078852e15aad82f232a1bb05c04bc04382f0649d4a81f690e15cfa853fdd10a8": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Cassiopeia"
+      },
+      "file": "078852e15aad82f232a1bb05c04bc04382f0649d4a81f690e15cfa853fdd10a8.json",
+      "sha256": "bf8fb8afbedf88163fa483e87c7067ec4e54148b360fb2f8a0d436005e798dd5",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:12.265Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 467,
+      "rawRowCount": 467,
+      "excludedRows": 0
+    },
+    "91ed61bd424a47f9aa0273aa0cbeb74eacf4d2f25b56fccea94effad33a7d312": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_KhaZix"
+      },
+      "file": "91ed61bd424a47f9aa0273aa0cbeb74eacf4d2f25b56fccea94effad33a7d312.json",
+      "sha256": "7bfc02d123cdf6a57be712726d0e83e0fd8eedeafb23e50b2de0a6764dce3582",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:15.459Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 358,
+      "rawRowCount": 358,
+      "excludedRows": 0
+    },
+    "af195395da427b59bf37d56acdf93c836db821d4b6a21ae4aa75563881485032": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_KogMaw18_AD"
+      },
+      "file": "af195395da427b59bf37d56acdf93c836db821d4b6a21ae4aa75563881485032.json",
+      "sha256": "92674f461a037e00220f046fa19f844c13c0afde0a246b1b3d4374c20e916c0f",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:19.087Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 229,
+      "rawRowCount": 229,
+      "excludedRows": 0
+    },
+    "a60090df3ce256a51a0bc2aed3ece00a745f31ab492bcbb7f6d4fa23fcb328c6": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Rammus"
+      },
+      "file": "a60090df3ce256a51a0bc2aed3ece00a745f31ab492bcbb7f6d4fa23fcb328c6.json",
+      "sha256": "dab67a5566ebaeb167663da20f2295780c486993eea78d6a0fc01d5b6ab8d47c",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:22.691Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 486,
+      "rawRowCount": 486,
+      "excludedRows": 0
+    },
+    "6c0339111b944a3189dcb691036c0ba0895db9f44767bbc4e5b710d0f8435704": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Rengar"
+      },
+      "file": "6c0339111b944a3189dcb691036c0ba0895db9f44767bbc4e5b710d0f8435704.json",
+      "sha256": "d822cfe5638189cccb02aed82c8fb90e9dd41d162d4cda57fb9e8fd9c26ea33f",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:25.861Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 262,
+      "rawRowCount": 262,
+      "excludedRows": 0
+    },
+    "c830c730e3ed7a8fdd10332e15153c6eed3fba80217af006ac8b37cb149302fc": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_CrimsonRaptor18"
+      },
+      "file": "c830c730e3ed7a8fdd10332e15153c6eed3fba80217af006ac8b37cb149302fc.json",
+      "sha256": "81e29d0067a62df24debc65a455f0ddb87d8ae0139ed62bd135ba40e676335f0",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:29.043Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 159,
+      "rawRowCount": 159,
+      "excludedRows": 0
+    },
+    "983b9a1da97b2a5cf2e9d5bb9a438c677c1be8ab9a1786073b55d16be0a09102": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Vi18"
+      },
+      "file": "983b9a1da97b2a5cf2e9d5bb9a438c677c1be8ab9a1786073b55d16be0a09102.json",
+      "sha256": "419d71271959baa5e763674ee1804dc1887f9ee45108777738a550f84fb3c131",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:32.226Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 464,
+      "rawRowCount": 464,
+      "excludedRows": 0
+    },
+    "b891961635995c9bf6df3e066ec0e069c72ab3e1265539963c6363c29112b3a9": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_MasterYi_AD"
+      },
+      "file": "b891961635995c9bf6df3e066ec0e069c72ab3e1265539963c6363c29112b3a9.json",
+      "sha256": "f8405290f4acab8f034755b2445b0301e91759abceb82ce2c41b09190e118427",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:35.346Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 276,
+      "rawRowCount": 276,
+      "excludedRows": 0
+    },
+    "499e0dfdc93e200963f8a797a43f83bff49d17be22024f1d40dd795d7bd0dcd9": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Krug18"
+      },
+      "file": "499e0dfdc93e200963f8a797a43f83bff49d17be22024f1d40dd795d7bd0dcd9.json",
+      "sha256": "8d033aebcf9fc752d7987320926ce4f40cc274db7a0e19d5c590080e99322856",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:38.622Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 404,
+      "rawRowCount": 404,
+      "excludedRows": 0
+    },
+    "bbd595ddeaedc02b7313afb54e5c056728b997028a4cbf5453b0f181059c099a": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Amumu18"
+      },
+      "file": "bbd595ddeaedc02b7313afb54e5c056728b997028a4cbf5453b0f181059c099a.json",
+      "sha256": "e58560eb5a3c1526326308e0467919a5c8aaebcf375adc74a452d4dbc72ebbbd",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:41.833Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 677,
+      "rawRowCount": 677,
+      "excludedRows": 0
+    },
+    "550f8aaf1c3edd318aa14e78bf87a3a64be9059d2ec7d8dfbbff4aef05c47493": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Sentinel18"
+      },
+      "file": "550f8aaf1c3edd318aa14e78bf87a3a64be9059d2ec7d8dfbbff4aef05c47493.json",
+      "sha256": "f02a00d5f2317938a8e16081620472d2e0c7f0873f6dcfafb68235070748d6da",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:45.203Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 715,
+      "rawRowCount": 715,
+      "excludedRows": 0
+    },
+    "3199d2c3ed119a7df6ccc75783075634ba1b2c9bea328d0b7a342c9c2318f02a": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Aphelios"
+      },
+      "file": "3199d2c3ed119a7df6ccc75783075634ba1b2c9bea328d0b7a342c9c2318f02a.json",
+      "sha256": "48648c1841e2a2251a309b32af26c97d3b626d8980b33d6738cad86bd7baf31a",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:48.422Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 463,
+      "rawRowCount": 463,
+      "excludedRows": 0
+    },
+    "dde73206b113f1322bb741ad611535651ae17b04a7f04931b53c8f6b69b0b7b0": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Brambleback18"
+      },
+      "file": "dde73206b113f1322bb741ad611535651ae17b04a7f04931b53c8f6b69b0b7b0.json",
+      "sha256": "7e1fcba1437b2ba222b9b7f18778a65be346a5a2b9856dab01416a7ec227029b",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:51.909Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 461,
+      "rawRowCount": 461,
+      "excludedRows": 0
+    },
+    "06520498b5cf151474cfe0e941c33626b0dd22ee42619461460d35e151b15df0": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Zyra"
+      },
+      "file": "06520498b5cf151474cfe0e941c33626b0dd22ee42619461460d35e151b15df0.json",
+      "sha256": "0f1fc6c5ec3e35be284d1629447cbe26e8f35f8cc932c9c2e587e67839e29325",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:55.529Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 761,
+      "rawRowCount": 761,
+      "excludedRows": 0
+    },
+    "108a846072e120ccb8dd3eb94abfa2e94d2638e7ca1bfac7b5c8183751198e64": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Lillia"
+      },
+      "file": "108a846072e120ccb8dd3eb94abfa2e94d2638e7ca1bfac7b5c8183751198e64.json",
+      "sha256": "135a728cb3a7270956946951a2db94e20a856be6aefadb5eee79d52fd18c6b8a",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:46:58.734Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 377,
+      "rawRowCount": 377,
+      "excludedRows": 0
+    },
+    "69e35290ca2f7d8aeb1ae98a9f85830d9510f7eb339650acfcea154be8ffd566": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Morgana"
+      },
+      "file": "69e35290ca2f7d8aeb1ae98a9f85830d9510f7eb339650acfcea154be8ffd566.json",
+      "sha256": "408247d1d4e07d1ef8d6dc42ae1047360766c97ee9279e978b0819fb2fbd1a83",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:02.392Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 629,
+      "rawRowCount": 629,
+      "excludedRows": 0
+    },
+    "f037c6455ed4500b3b4d56cfed891b00d369885f5b26780be6222edfa8519e2d": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Malphite"
+      },
+      "file": "f037c6455ed4500b3b4d56cfed891b00d369885f5b26780be6222edfa8519e2d.json",
+      "sha256": "09f9406e3865ec1da46a4a10815137a204cf74e243490405e96a38549e14f2ad",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:05.700Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 329,
+      "rawRowCount": 329,
+      "excludedRows": 0
+    },
+    "ccb1d1a7053b159331d2d622824131931e3684940130cdb80b3c8f1926a6ed22": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Nidalee18_AP"
+      },
+      "file": "ccb1d1a7053b159331d2d622824131931e3684940130cdb80b3c8f1926a6ed22.json",
+      "sha256": "9d6622441ce3c0cdad30913f3c68cdda2efca8609192d6a0ebdd3f1857f660fe",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:09.119Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 591,
+      "rawRowCount": 591,
+      "excludedRows": 0
+    },
+    "4c19a53b4822c8d18b2b14e01850dce166ff0057daddc7894dedfb38d45deb91": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Sett"
+      },
+      "file": "4c19a53b4822c8d18b2b14e01850dce166ff0057daddc7894dedfb38d45deb91.json",
+      "sha256": "825eebdd41bd85852119f9c90334f5d6b90cdc59fffa85f38a4f38bd96273968",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:12.566Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 525,
+      "rawRowCount": 525,
+      "excludedRows": 0
+    },
+    "36fa107a759bedb58b12c659676b9a6049d3dd9e409826c30d060f8611071b9d": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Soraka"
+      },
+      "file": "36fa107a759bedb58b12c659676b9a6049d3dd9e409826c30d060f8611071b9d.json",
+      "sha256": "3aa58dffa89fe656b749e92f4c7cab8e0c03bf716baec98c9d2f90aee0fd0f80",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:16.163Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 654,
+      "rawRowCount": 654,
+      "excludedRows": 0
+    },
+    "6816db3ae60c084b4ea265c54a3a7243f3d5272ce50fc1463b29f42fef8b1465": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Sivir"
+      },
+      "file": "6816db3ae60c084b4ea265c54a3a7243f3d5272ce50fc1463b29f42fef8b1465.json",
+      "sha256": "043a8e9a1fe532d44547fff69fe55f26fba513475acaadc1d6a8d69b21e7c2ab",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:19.746Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 609,
+      "rawRowCount": 609,
+      "excludedRows": 0
+    },
+    "6e3417a307726cacfc3eb65fdf9f5878a3d25b247dc5a5ae70e99e1844dfe47b": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Ezreal"
+      },
+      "file": "6e3417a307726cacfc3eb65fdf9f5878a3d25b247dc5a5ae70e99e1844dfe47b.json",
+      "sha256": "a287615129357d2ec26b04dcad64404293d64d82982da2e95991752aedb8148f",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:23.050Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 626,
+      "rawRowCount": 626,
+      "excludedRows": 0
+    },
+    "00f2d5aeca98f9a062ee1580a356c3a7d792b001e7e3b958eb8e36437a9c781f": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Ivern"
+      },
+      "file": "00f2d5aeca98f9a062ee1580a356c3a7d792b001e7e3b958eb8e36437a9c781f.json",
+      "sha256": "506ab830283d53dbb25cce8a60d6d929b8eeeaf59dce78f83a6f2c4c0bf84f2c",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:26.665Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 355,
+      "rawRowCount": 355,
+      "excludedRows": 0
+    },
+    "7dadfef5f3360e4d0ba2b627abad33583f8097b68b02d9e00fc52174c02951c5": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Ashe"
+      },
+      "file": "7dadfef5f3360e4d0ba2b627abad33583f8097b68b02d9e00fc52174c02951c5.json",
+      "sha256": "e2848981689928a1032e50eb3bdda1b603a95af60e7f78439312c4b67e2f7058",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:30.086Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 548,
+      "rawRowCount": 548,
+      "excludedRows": 0
+    },
+    "32689b3e79d715eb5e8a32fec4254ac8e7fe52d2c8182dd50e78154e4a3eba7b": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Draven18"
+      },
+      "file": "32689b3e79d715eb5e8a32fec4254ac8e7fe52d2c8182dd50e78154e4a3eba7b.json",
+      "sha256": "fd12383eaaced32530e23319a4c8da27daa03a901db9f05475e46123ba7ab874",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:33.464Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 321,
+      "rawRowCount": 321,
+      "excludedRows": 0
+    },
+    "cdda56b4a1e2ae993df77f002320db1ae21ff312deecea1fd6344ba3353ead43": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Kennen"
+      },
+      "file": "cdda56b4a1e2ae993df77f002320db1ae21ff312deecea1fd6344ba3353ead43.json",
+      "sha256": "a885798669dbd758883ea88a902e67abce00d6ae63b7e0eb1898082091f7bcb7",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:36.801Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 569,
+      "rawRowCount": 569,
+      "excludedRows": 0
+    },
+    "bc3c03c2c8a4b5e7ea56840e6b22a3e8610742de2847c277f4804a198a9f18f9": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Lux18_Base"
+      },
+      "file": "bc3c03c2c8a4b5e7ea56840e6b22a3e8610742de2847c277f4804a198a9f18f9.json",
+      "sha256": "bfcd9d742da813e8e0fe4b7304c6a9b711843e214e2e0b69cf877af50e124c8a",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:39.971Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 460,
+      "rawRowCount": 460,
+      "excludedRows": 0
+    },
+    "1a8a00fac1449aa80ac05674514b7250a34b9d584dd9888bba4ef224bb743ce9": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Lux_Inferno"
+      },
+      "file": "1a8a00fac1449aa80ac05674514b7250a34b9d584dd9888bba4ef224bb743ce9.json",
+      "sha256": "89c0b230cd287f1a338b1a7ee2be55c02c78d781b56f7a425022b5863d9b5407",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:43.139Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 0,
+      "rawRowCount": 0,
+      "excludedRows": 0
+    },
+    "36560fafe8809c9ec86087d0a3a0b319a7f1f2f1db20ad7552fd37e2efb804af": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Lux18_Blackthorn"
+      },
+      "file": "36560fafe8809c9ec86087d0a3a0b319a7f1f2f1db20ad7552fd37e2efb804af.json",
+      "sha256": "6cbd7cc77994630cb2285043eb3a58a0866dd7d36b8e598042cbc551036c6257",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:46.291Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 0,
+      "rawRowCount": 0,
+      "excludedRows": 0
+    },
+    "f2b2bbd10114007ad3240f47d388e7dcdebbc60b24eb3c804ceb194896467a9d": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Lux_Fae"
+      },
+      "file": "f2b2bbd10114007ad3240f47d388e7dcdebbc60b24eb3c804ceb194896467a9d.json",
+      "sha256": "61526ccab62ff96f64de37588628ad25b5983b6bc7fa2b0eb91bffcba8cf1aa4",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:49.470Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 0,
+      "rawRowCount": 0,
+      "excludedRows": 0
+    },
+    "326bfd23c597f56674b6f6b3786a445b901abc1b28085f7ff9d9d5402b113e59": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Lux18_Blossom"
+      },
+      "file": "326bfd23c597f56674b6f6b3786a445b901abc1b28085f7ff9d9d5402b113e59.json",
+      "sha256": "52ffdbbbea90ee8e6fd517b9cb9e41a1e2b1be9f6d4a615063edf23e8bf4ddeb",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:52.429Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 0,
+      "rawRowCount": 0,
+      "excludedRows": 0
+    },
+    "692c5ecb3d1a5809155de2a06986c5345f95f1e3cbf188812f4eebaa5481d1ed": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Lux_Coven"
+      },
+      "file": "692c5ecb3d1a5809155de2a06986c5345f95f1e3cbf188812f4eebaa5481d1ed.json",
+      "sha256": "da16728495203ef829e67fc81214d8ef39e384f5ca0715b061d5cfe5e9ac4902",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:55.802Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 0,
+      "rawRowCount": 0,
+      "excludedRows": 0
+    },
+    "398c10563e862fa3e4cfed182bad94dcdfa68a9618b03df330bd3262182d71a3": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Lux_Sunbeam"
+      },
+      "file": "398c10563e862fa3e4cfed182bad94dcdfa68a9618b03df330bd3262182d71a3.json",
+      "sha256": "3b529d0328ec2aafe330d1cda43f577e7a3332177f243404bbadf47feaab0947",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:47:59.032Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 0,
+      "rawRowCount": 0,
+      "excludedRows": 0
+    },
+    "3b8d964ad580c41cac64c4fc401b17ebb7fc7e98e8884190292e2f4d6824a0da": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Lux_Primal"
+      },
+      "file": "3b8d964ad580c41cac64c4fc401b17ebb7fc7e98e8884190292e2f4d6824a0da.json",
+      "sha256": "ea2745cad45aeeb17dc1b1a9862ad87953b35ea44d23fc7a2ee355a13066d8c3",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:48:02.425Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 0,
+      "rawRowCount": 0,
+      "excludedRows": 0
+    },
+    "66276b37059b08725196e85fd88e3d38c1ffa6cbd53195a5ac628736285eec43": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Lux_Elderwood"
+      },
+      "file": "66276b37059b08725196e85fd88e3d38c1ffa6cbd53195a5ac628736285eec43.json",
+      "sha256": "c8806c0782c6f9351a94c1a1ced0fc848656ecc759a3fe4e324ff749b1a0f77b",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:48:05.384Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 0,
+      "rawRowCount": 0,
+      "excludedRows": 0
+    },
+    "5583b13c92210130a1c9b71610efd46265f300ec132b4aafb9de810909347a18": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Lux_Moonbeam"
+      },
+      "file": "5583b13c92210130a1c9b71610efd46265f300ec132b4aafb9de810909347a18.json",
+      "sha256": "e51c2e0b60e5a7d30486b82f4c1f562e0e33665482166c31b4d7e59cf7708c24",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:48:08.842Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 0,
+      "rawRowCount": 0,
+      "excludedRows": 0
+    },
+    "e3beef00ab2649710560e2f7a00195b3cdd124b37daccb6d3d933252cf1aa7b2": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_Alune"
+      },
+      "file": "e3beef00ab2649710560e2f7a00195b3cdd124b37daccb6d3d933252cf1aa7b2.json",
+      "sha256": "d5aef98ed172810a117f52e47270b08a0059229968da4c7922a118d8c5a6ccbe",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:48:12.588Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 580,
+      "rawRowCount": 580,
+      "excludedRows": 0
+    },
+    "d4c5e735b9545da10960fc00cc76095fc3d89409f8b627c36e2349046ead16c2": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_GnarSmall"
+      },
+      "file": "d4c5e735b9545da10960fc00cc76095fc3d89409f8b627c36e2349046ead16c2.json",
+      "sha256": "0bcc115c873fb9d9e15d9ad0762908b4dcf31ac599787b5a637a957542a95b72",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:48:15.876Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 373,
+      "rawRowCount": 373,
+      "excludedRows": 0
+    },
+    "fe42b796e9e4198fa12b02b38f8bc5239b44c176c94a6424692cc362f0f11ee0": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_Taric18"
+      },
+      "file": "fe42b796e9e4198fa12b02b38f8bc5239b44c176c94a6424692cc362f0f11ee0.json",
+      "sha256": "62ef97265f63eecedae76a9a98fdb58e05bcd0b409d66a508defb82f65c8b890",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:48:19.083Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 440,
+      "rawRowCount": 440,
+      "excludedRows": 0
+    },
+    "bc9a6d1baf0995eb1c963b34c10d0ce6616506bfb92ad3078394ff21d8d0ac4f": {
+      "tool": "tft_get_champion_item_build",
+      "args": {
+        "champion_id": "DA_18_ElderDragon"
+      },
+      "file": "bc9a6d1baf0995eb1c963b34c10d0ce6616506bfb92ad3078394ff21d8d0ac4f.json",
+      "sha256": "062844601dab0c85a4f758604b3fc829e58d315b7267f563a1384cb966c5c6f4",
+      "status": "ok",
+      "fetchedAt": "2026-10-07T14:48:22.576Z",
+      "sourceTime": null,
+      "sourcePatch": null,
+      "rowCount": 553,
+      "rawRowCount": 553,
+      "excludedRows": 0
+    }
+  },
+  "failures": [],
+  "coverage": {
+    "decks": 10,
+    "championBuilds": {
+      "cached": 74,
+      "attempted": 74,
+      "unsupported": 0,
+      "total": 74
+    },
+    "itemHolders": {
+      "cached": 126,
+      "attempted": 127,
+      "unsupported": 1,
+      "total": 127
+    },
+    "emblemHolders": {
+      "cached": 21,
+      "total": 21
+    },
+    "complete": true
+  }
+}

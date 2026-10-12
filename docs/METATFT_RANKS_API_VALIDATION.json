@@ -1,0 +1,1061 @@
+{
+  "checkedAt": "2026-10-11T06:10:36.443Z",
+  "modelCalled": false,
+  "ranks": [
+    {
+      "rank": "PLATINUM_PLUS",
+      "snapshotId": "d3d5ee031ae5852a493cb64cd5ca2438cb611d3720fe08307bd608b05a1a5ca4",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "coverage": {
+        "decks": 60,
+        "championBuilds": {
+          "cached": 74,
+          "total": 74
+        },
+        "itemHolders": {
+          "cached": 137,
+          "total": 137
+        },
+        "itemCategories": {
+          "core": {
+            "cached": 39,
+            "total": 39
+          },
+          "radiant": {
+            "cached": 36,
+            "total": 36
+          },
+          "artifact": {
+            "cached": 31,
+            "total": 31
+          },
+          "emblem": {
+            "cached": 21,
+            "total": 21
+          },
+          "component": {
+            "cached": 10,
+            "total": 10
+          }
+        },
+        "emblemHolders": {
+          "cached": 21,
+          "total": 21
+        },
+        "traitStats": {
+          "status": "live",
+          "cached": 35,
+          "total": 35,
+          "rowCount": 90,
+          "delivery": "mysql"
+        },
+        "overallStats": {
+          "status": "live",
+          "champions": 65,
+          "items": 136,
+          "delivery": "mysql"
+        },
+        "catalogueComplete": true,
+        "complete": false
+      }
+    },
+    {
+      "rank": "ALL",
+      "snapshotId": "87e320b124830be5403a4f8ab93353e42b4015b48423a3690a82f4cf11757269",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "coverage": {
+        "decks": 60,
+        "championBuilds": {
+          "cached": 73,
+          "total": 74
+        },
+        "itemHolders": {
+          "cached": 137,
+          "total": 137
+        },
+        "itemCategories": {
+          "core": {
+            "cached": 39,
+            "total": 39
+          },
+          "radiant": {
+            "cached": 36,
+            "total": 36
+          },
+          "artifact": {
+            "cached": 31,
+            "total": 31
+          },
+          "emblem": {
+            "cached": 21,
+            "total": 21
+          },
+          "component": {
+            "cached": 10,
+            "total": 10
+          }
+        },
+        "emblemHolders": {
+          "cached": 21,
+          "total": 21
+        },
+        "traitStats": {
+          "status": "live",
+          "cached": 35,
+          "total": 35,
+          "rowCount": 90,
+          "delivery": "mysql"
+        },
+        "overallStats": {
+          "status": "live",
+          "champions": 65,
+          "items": 136,
+          "delivery": "mysql"
+        },
+        "catalogueComplete": false,
+        "complete": false
+      }
+    },
+    {
+      "rank": "IRON",
+      "snapshotId": "bdafeb8996bad6c0260ac22439c8eebf2e19031e9c0fb6fbc3babb9954cb97aa",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "coverage": {
+        "decks": 60,
+        "championBuilds": {
+          "cached": 74,
+          "total": 74
+        },
+        "itemHolders": {
+          "cached": 137,
+          "total": 137
+        },
+        "itemCategories": {
+          "core": {
+            "cached": 39,
+            "total": 39
+          },
+          "radiant": {
+            "cached": 36,
+            "total": 36
+          },
+          "artifact": {
+            "cached": 31,
+            "total": 31
+          },
+          "emblem": {
+            "cached": 21,
+            "total": 21
+          },
+          "component": {
+            "cached": 10,
+            "total": 10
+          }
+        },
+        "emblemHolders": {
+          "cached": 21,
+          "total": 21
+        },
+        "traitStats": {
+          "status": "live",
+          "cached": 35,
+          "total": 35,
+          "rowCount": 90,
+          "delivery": "mysql"
+        },
+        "overallStats": {
+          "status": "live",
+          "champions": 65,
+          "items": 136,
+          "delivery": "mysql"
+        },
+        "catalogueComplete": true,
+        "complete": false
+      }
+    },
+    {
+      "rank": "BRONZE",
+      "snapshotId": "3fe985d84ea0f1467b2d24a31b6c633408c11f2ac85b3d03638b8fe1a1006c8b",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "coverage": {
+        "decks": 60,
+        "championBuilds": {
+          "cached": 74,
+          "total": 74
+        },
+        "itemHolders": {
+          "cached": 137,
+          "total": 137
+        },
+        "itemCategories": {
+          "core": {
+            "cached": 39,
+            "total": 39
+          },
+          "radiant": {
+            "cached": 36,
+            "total": 36
+          },
+          "artifact": {
+            "cached": 31,
+            "total": 31
+          },
+          "emblem": {
+            "cached": 21,
+            "total": 21
+          },
+          "component": {
+            "cached": 10,
+            "total": 10
+          }
+        },
+        "emblemHolders": {
+          "cached": 21,
+          "total": 21
+        },
+        "traitStats": {
+          "status": "live",
+          "cached": 35,
+          "total": 35,
+          "rowCount": 90,
+          "delivery": "mysql"
+        },
+        "overallStats": {
+          "status": "live",
+          "champions": 65,
+          "items": 136,
+          "delivery": "mysql"
+        },
+        "catalogueComplete": true,
+        "complete": false
+      }
+    },
+    {
+      "rank": "SILVER",
+      "snapshotId": "13dd133450f5b73e70af274e5a40b60a66dcbea5d31c2a3dbae82a7b40b670d8",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "coverage": {
+        "decks": 60,
+        "championBuilds": {
+          "cached": 74,
+          "total": 74
+        },
+        "itemHolders": {
+          "cached": 137,
+          "total": 137
+        },
+        "itemCategories": {
+          "core": {
+            "cached": 39,
+            "total": 39
+          },
+          "radiant": {
+            "cached": 36,
+            "total": 36
+          },
+          "artifact": {
+            "cached": 31,
+            "total": 31
+          },
+          "emblem": {
+            "cached": 21,
+            "total": 21
+          },
+          "component": {
+            "cached": 10,
+            "total": 10
+          }
+        },
+        "emblemHolders": {
+          "cached": 21,
+          "total": 21
+        },
+        "traitStats": {
+          "status": "live",
+          "cached": 35,
+          "total": 35,
+          "rowCount": 90,
+          "delivery": "mysql"
+        },
+        "overallStats": {
+          "status": "live",
+          "champions": 65,
+          "items": 136,
+          "delivery": "mysql"
+        },
+        "catalogueComplete": true,
+        "complete": false
+      }
+    },
+    {
+      "rank": "GOLD",
+      "snapshotId": "b4aac3afc4055b63b090fbf23c1ba1af8b0c5ce8fa2efcae395c75a00995d653",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "coverage": {
+        "decks": 60,
+        "championBuilds": {
+          "cached": 74,
+          "total": 74
+        },
+        "itemHolders": {
+          "cached": 137,
+          "total": 137
+        },
+        "itemCategories": {
+          "core": {
+            "cached": 39,
+            "total": 39
+          },
+          "radiant": {
+            "cached": 36,
+            "total": 36
+          },
+          "artifact": {
+            "cached": 31,
+            "total": 31
+          },
+          "emblem": {
+            "cached": 21,
+            "total": 21
+          },
+          "component": {
+            "cached": 10,
+            "total": 10
+          }
+        },
+        "emblemHolders": {
+          "cached": 21,
+          "total": 21
+        },
+        "traitStats": {
+          "status": "live",
+          "cached": 35,
+          "total": 35,
+          "rowCount": 90,
+          "delivery": "mysql"
+        },
+        "overallStats": {
+          "status": "live",
+          "champions": 65,
+          "items": 136,
+          "delivery": "mysql"
+        },
+        "catalogueComplete": true,
+        "complete": false
+      }
+    },
+    {
+      "rank": "PLATINUM",
+      "snapshotId": "f9be18059a1022c78fc8f6bcbe562da3c1669b63faa5cbb2ebd2a0ded18a0201",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "coverage": {
+        "decks": 60,
+        "championBuilds": {
+          "cached": 74,
+          "total": 74
+        },
+        "itemHolders": {
+          "cached": 137,
+          "total": 137
+        },
+        "itemCategories": {
+          "core": {
+            "cached": 39,
+            "total": 39
+          },
+          "radiant": {
+            "cached": 36,
+            "total": 36
+          },
+          "artifact": {
+            "cached": 31,
+            "total": 31
+          },
+          "emblem": {
+            "cached": 21,
+            "total": 21
+          },
+          "component": {
+            "cached": 10,
+            "total": 10
+          }
+        },
+        "emblemHolders": {
+          "cached": 21,
+          "total": 21
+        },
+        "traitStats": {
+          "status": "live",
+          "cached": 35,
+          "total": 35,
+          "rowCount": 90,
+          "delivery": "mysql"
+        },
+        "overallStats": {
+          "status": "live",
+          "champions": 65,
+          "items": 136,
+          "delivery": "mysql"
+        },
+        "catalogueComplete": true,
+        "complete": false
+      }
+    },
+    {
+      "rank": "EMERALD",
+      "snapshotId": "b42eaf28b830053f7ed440d41bfcb8c80429a3ed0e80083971991ce868acaebd",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "coverage": {
+        "decks": 60,
+        "championBuilds": {
+          "cached": 74,
+          "total": 74
+        },
+        "itemHolders": {
+          "cached": 137,
+          "total": 137
+        },
+        "itemCategories": {
+          "core": {
+            "cached": 39,
+            "total": 39
+          },
+          "radiant": {
+            "cached": 36,
+            "total": 36
+          },
+          "artifact": {
+            "cached": 31,
+            "total": 31
+          },
+          "emblem": {
+            "cached": 21,
+            "total": 21
+          },
+          "component": {
+            "cached": 10,
+            "total": 10
+          }
+        },
+        "emblemHolders": {
+          "cached": 21,
+          "total": 21
+        },
+        "traitStats": {
+          "status": "live",
+          "cached": 35,
+          "total": 35,
+          "rowCount": 90,
+          "delivery": "mysql"
+        },
+        "overallStats": {
+          "status": "live",
+          "champions": 65,
+          "items": 136,
+          "delivery": "mysql"
+        },
+        "catalogueComplete": true,
+        "complete": false
+      }
+    },
+    {
+      "rank": "DIAMOND",
+      "snapshotId": "41eb6cb20ceea1041acddfe136b4964a25ce2bf131d09a09c462ee37562ac390",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "coverage": {
+        "decks": 60,
+        "championBuilds": {
+          "cached": 74,
+          "total": 74
+        },
+        "itemHolders": {
+          "cached": 137,
+          "total": 137
+        },
+        "itemCategories": {
+          "core": {
+            "cached": 39,
+            "total": 39
+          },
+          "radiant": {
+            "cached": 36,
+            "total": 36
+          },
+          "artifact": {
+            "cached": 31,
+            "total": 31
+          },
+          "emblem": {
+            "cached": 21,
+            "total": 21
+          },
+          "component": {
+            "cached": 10,
+            "total": 10
+          }
+        },
+        "emblemHolders": {
+          "cached": 21,
+          "total": 21
+        },
+        "traitStats": {
+          "status": "live",
+          "cached": 35,
+          "total": 35,
+          "rowCount": 90,
+          "delivery": "mysql"
+        },
+        "overallStats": {
+          "status": "live",
+          "champions": 65,
+          "items": 136,
+          "delivery": "mysql"
+        },
+        "catalogueComplete": true,
+        "complete": false
+      }
+    },
+    {
+      "rank": "MASTER",
+      "snapshotId": "80555b2bb124906cd508e85b254e054ecf2f7d179dedf5043654e3d3118ca5a2",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "coverage": {
+        "decks": 60,
+        "championBuilds": {
+          "cached": 74,
+          "total": 74
+        },
+        "itemHolders": {
+          "cached": 137,
+          "total": 137
+        },
+        "itemCategories": {
+          "core": {
+            "cached": 39,
+            "total": 39
+          },
+          "radiant": {
+            "cached": 36,
+            "total": 36
+          },
+          "artifact": {
+            "cached": 31,
+            "total": 31
+          },
+          "emblem": {
+            "cached": 21,
+            "total": 21
+          },
+          "component": {
+            "cached": 10,
+            "total": 10
+          }
+        },
+        "emblemHolders": {
+          "cached": 21,
+          "total": 21
+        },
+        "traitStats": {
+          "status": "live",
+          "cached": 35,
+          "total": 35,
+          "rowCount": 90,
+          "delivery": "mysql"
+        },
+        "overallStats": {
+          "status": "live",
+          "champions": 65,
+          "items": 136,
+          "delivery": "mysql"
+        },
+        "catalogueComplete": true,
+        "complete": false
+      }
+    },
+    {
+      "rank": "GRANDMASTER",
+      "snapshotId": "cbf5de853a4c88e06d80e1bba7199743131685a0c6115ddce56424b325d85f7a",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "coverage": {
+        "decks": 60,
+        "championBuilds": {
+          "cached": 74,
+          "total": 74
+        },
+        "itemHolders": {
+          "cached": 137,
+          "total": 137
+        },
+        "itemCategories": {
+          "core": {
+            "cached": 39,
+            "total": 39
+          },
+          "radiant": {
+            "cached": 36,
+            "total": 36
+          },
+          "artifact": {
+            "cached": 31,
+            "total": 31
+          },
+          "emblem": {
+            "cached": 21,
+            "total": 21
+          },
+          "component": {
+            "cached": 10,
+            "total": 10
+          }
+        },
+        "emblemHolders": {
+          "cached": 21,
+          "total": 21
+        },
+        "traitStats": {
+          "status": "live",
+          "cached": 35,
+          "total": 35,
+          "rowCount": 90,
+          "delivery": "mysql"
+        },
+        "overallStats": {
+          "status": "live",
+          "champions": 65,
+          "items": 136,
+          "delivery": "mysql"
+        },
+        "catalogueComplete": true,
+        "complete": false
+      }
+    },
+    {
+      "rank": "CHALLENGER",
+      "snapshotId": "a7341f7c0f8edab4efb1367e108ae3587cfc99c767821403e5cdfcabab38b03f",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "coverage": {
+        "decks": 60,
+        "championBuilds": {
+          "cached": 74,
+          "total": 74
+        },
+        "itemHolders": {
+          "cached": 137,
+          "total": 137
+        },
+        "itemCategories": {
+          "core": {
+            "cached": 39,
+            "total": 39
+          },
+          "radiant": {
+            "cached": 36,
+            "total": 36
+          },
+          "artifact": {
+            "cached": 31,
+            "total": 31
+          },
+          "emblem": {
+            "cached": 21,
+            "total": 21
+          },
+          "component": {
+            "cached": 10,
+            "total": 10
+          }
+        },
+        "emblemHolders": {
+          "cached": 21,
+          "total": 21
+        },
+        "traitStats": {
+          "status": "live",
+          "cached": 35,
+          "total": 35,
+          "rowCount": 90,
+          "delivery": "mysql"
+        },
+        "overallStats": {
+          "status": "live",
+          "champions": 65,
+          "items": 136,
+          "delivery": "mysql"
+        },
+        "catalogueComplete": true,
+        "complete": false
+      }
+    }
+  ],
+  "checks": [
+    {
+      "type": "ranked_services",
+      "rank": "GOLD",
+      "overallRows": 136,
+      "overallEvidence": {
+        "source": "MetaTFT Explorer",
+        "url": "https://www.metatft.com/explorer",
+        "delivery": "mysql",
+        "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+        "snapshotId": "b4aac3afc4055b63b090fbf23c1ba1af8b0c5ce8fa2efcae395c75a00995d653",
+        "recordHash": "ba7e1eb70a93b6c6c88055c6b311a0f6967acf1c5d603721fc875b14139f6414",
+        "sourcePatch": null,
+        "requestedPatch": "18.4b",
+        "sourceCurrentPatch": "18.4b",
+        "patchAttribution": {
+          "method": "explicit_request_and_source_metadata",
+          "statisticsResponsePatch": null
+        },
+        "set": 18,
+        "queueId": 1100,
+        "queue": "Ranked",
+        "rank": "黄金",
+        "rankFilter": "GOLD",
+        "population": {
+          "queue": "Ranked",
+          "rank": "黄金",
+          "rankFilter": "GOLD",
+          "region": null
+        },
+        "statisticalWindow": {
+          "days": 3,
+          "timeAnchor": "source_relative_window"
+        },
+        "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+        "fetchedAt": "2026-10-11T05:57:11.147Z",
+        "expiresAt": "2026-10-11T11:57:11.147Z",
+        "statisticsKind": "first_occurrence_per_board",
+        "sourceReturnedRows": {
+          "items": 530,
+          "units": 368,
+          "traits": 92
+        },
+        "exhaustive": false,
+        "sourceTotalEntries": 3146902,
+        "sourceId": "items"
+      },
+      "compStatus": "ready",
+      "compRows": 60,
+      "compEvidence": {
+        "source": "MetaTFT Comps",
+        "url": "https://www.metatft.com/comps",
+        "delivery": "mysql",
+        "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+        "snapshotId": "15ad876c9088c8721418e3f5c66e69bbfdf3768e6342668929f3b22e20e64154",
+        "recordHash": "c13ed3985bcecaed43b3fac0730853c623b2f82645974a731e35b2a314156dc5",
+        "sourcePatch": null,
+        "requestedPatch": "18.4b",
+        "sourceCurrentPatch": "18.4b",
+        "patchAttribution": {
+          "method": "explicit_request_and_source_metadata",
+          "statisticsResponsePatch": null
+        },
+        "set": 18,
+        "queueId": 1100,
+        "queue": "Ranked",
+        "rank": "黄金",
+        "rankFilter": "GOLD",
+        "population": {
+          "queue": "Ranked",
+          "rank": "黄金",
+          "rankFilter": "GOLD",
+          "region": null
+        },
+        "statisticalWindow": {
+          "days": 3,
+          "timeAnchor": "source_relative_window"
+        },
+        "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+        "fetchedAt": "2026-10-11T05:57:13.098Z",
+        "expiresAt": "2026-10-11T11:57:13.098Z",
+        "sourceTime": "2026-10-11T05:57:11.519Z",
+        "statisticsKind": "comp_cluster",
+        "sourceReturnedRows": 61,
+        "exhaustive": false,
+        "populationDenominator": 2890275
+      },
+      "componentHolders": 65,
+      "holderEvidence": {
+        "source": "MetaTFT Explorer",
+        "url": "https://www.metatft.com/explorer",
+        "delivery": "mysql",
+        "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+        "snapshotId": "1d253f073b6fb89282c541902d36c77e0badcaa2ad42c5232b95b9d758ea3c15",
+        "recordHash": "adc8fdb46773790f1fb6d4bf04a135187b540ffcd1702eb6e05aac971429204d",
+        "sourcePatch": null,
+        "requestedPatch": "18.4b",
+        "sourceCurrentPatch": "18.4b",
+        "patchAttribution": {
+          "method": "explicit_request_and_source_metadata",
+          "statisticsResponsePatch": null
+        },
+        "set": 18,
+        "queueId": 1100,
+        "queue": "Ranked",
+        "rank": "黄金",
+        "rankFilter": "GOLD",
+        "population": {
+          "queue": "Ranked",
+          "rank": "黄金",
+          "rankFilter": "GOLD",
+          "region": null
+        },
+        "statisticalWindow": {
+          "days": 3,
+          "timeAnchor": "source_relative_window"
+        },
+        "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+        "fetchedAt": "2026-10-11T06:04:17.996Z",
+        "expiresAt": "2026-10-11T12:04:17.996Z",
+        "statisticsKind": "item_holder_first_occurrence",
+        "sourceReturnedRows": 141,
+        "exhaustive": false
+      }
+    },
+    {
+      "type": "ranked_services",
+      "rank": "CHALLENGER",
+      "overallRows": 136,
+      "overallEvidence": {
+        "source": "MetaTFT Explorer",
+        "url": "https://www.metatft.com/explorer",
+        "delivery": "mysql",
+        "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+        "snapshotId": "a7341f7c0f8edab4efb1367e108ae3587cfc99c767821403e5cdfcabab38b03f",
+        "recordHash": "a606b998971306069273b787ad182501ccd8c5816a970d3dbfb6f61bab618da4",
+        "sourcePatch": null,
+        "requestedPatch": "18.4b",
+        "sourceCurrentPatch": "18.4b",
+        "patchAttribution": {
+          "method": "explicit_request_and_source_metadata",
+          "statisticsResponsePatch": null
+        },
+        "set": 18,
+        "queueId": 1100,
+        "queue": "Ranked",
+        "rank": "王者",
+        "rankFilter": "CHALLENGER",
+        "population": {
+          "queue": "Ranked",
+          "rank": "王者",
+          "rankFilter": "CHALLENGER",
+          "region": null
+        },
+        "statisticalWindow": {
+          "days": 3,
+          "timeAnchor": "source_relative_window"
+        },
+        "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+        "fetchedAt": "2026-10-11T06:04:38.836Z",
+        "expiresAt": "2026-10-11T12:04:38.836Z",
+        "statisticsKind": "first_occurrence_per_board",
+        "sourceReturnedRows": {
+          "items": 325,
+          "units": 187,
+          "traits": 92
+        },
+        "exhaustive": false,
+        "sourceTotalEntries": 40672,
+        "sourceId": "items"
+      },
+      "compStatus": "ready",
+      "compRows": 50,
+      "compEvidence": {
+        "source": "MetaTFT Comps",
+        "url": "https://www.metatft.com/comps",
+        "delivery": "mysql",
+        "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+        "snapshotId": "cfe41832d15fcdff7300aa9a69134713342957540a566359fb53600ada29f62b",
+        "recordHash": "6ccc1ad0d80e7492d80d11c3d386747487f44b0fa18ef197d6d94456391afd18",
+        "sourcePatch": null,
+        "requestedPatch": "18.4b",
+        "sourceCurrentPatch": "18.4b",
+        "patchAttribution": {
+          "method": "explicit_request_and_source_metadata",
+          "statisticsResponsePatch": null
+        },
+        "set": 18,
+        "queueId": 1100,
+        "queue": "Ranked",
+        "rank": "王者",
+        "rankFilter": "CHALLENGER",
+        "population": {
+          "queue": "Ranked",
+          "rank": "王者",
+          "rankFilter": "CHALLENGER",
+          "region": null
+        },
+        "statisticalWindow": {
+          "days": 3,
+          "timeAnchor": "source_relative_window"
+        },
+        "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+        "fetchedAt": "2026-10-11T06:02:48.957Z",
+        "expiresAt": "2026-10-11T12:02:48.957Z",
+        "sourceTime": "2026-10-11T06:02:47.382Z",
+        "statisticsKind": "comp_cluster",
+        "sourceReturnedRows": 61,
+        "exhaustive": false,
+        "populationDenominator": 39912
+      },
+      "componentHolders": 64,
+      "holderEvidence": {
+        "source": "MetaTFT Explorer",
+        "url": "https://www.metatft.com/explorer",
+        "delivery": "mysql",
+        "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+        "snapshotId": "6c714d831499979ff36f7e8afdf09a96dd107aa1472e96e9b8ac225ae14f7e87",
+        "recordHash": "1ec9939f8fa660ec5ccc8a3fc0cce1f33dba5d1efcc9b0d9f8e28dc7c78473d3",
+        "sourcePatch": null,
+        "requestedPatch": "18.4b",
+        "sourceCurrentPatch": "18.4b",
+        "patchAttribution": {
+          "method": "explicit_request_and_source_metadata",
+          "statisticsResponsePatch": null
+        },
+        "set": 18,
+        "queueId": 1100,
+        "queue": "Ranked",
+        "rank": "王者",
+        "rankFilter": "CHALLENGER",
+        "population": {
+          "queue": "Ranked",
+          "rank": "王者",
+          "rankFilter": "CHALLENGER",
+          "region": null
+        },
+        "statisticalWindow": {
+          "days": 3,
+          "timeAnchor": "source_relative_window"
+        },
+        "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+        "fetchedAt": "2026-10-11T06:04:39.101Z",
+        "expiresAt": "2026-10-11T12:04:39.101Z",
+        "statisticsKind": "item_holder_first_occurrence",
+        "sourceReturnedRows": 65,
+        "exhaustive": false
+      }
+    },
+    {
+      "type": "invalid_rank",
+      "status": 400,
+      "data": {
+        "code": "INVALID_STAT_RANK",
+        "message": "请选择有效段位；单个段位只统计该段位。"
+      }
+    },
+    {
+      "type": "true_empty",
+      "status": 200,
+      "data": {
+        "status": "empty",
+        "delivery": "mysql",
+        "data": [],
+        "evidence": {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "d117a63d797c1c0679a9e079f2a3c6a3d10ce284680a20e476fde7e5fec0beeb",
+          "recordHash": "10831359a32f8eff5f0b0545bd10c62264a5e6b0763d970e53afc78f3730e912",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "queue": "Ranked",
+          "rank": "黄金",
+          "rankFilter": "GOLD",
+          "population": {
+            "queue": "Ranked",
+            "rank": "黄金",
+            "rankFilter": "GOLD",
+            "region": null
+          },
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+          "fetchedAt": "2026-10-11T05:57:59.767Z",
+          "expiresAt": "2026-10-11T11:57:59.767Z",
+          "statisticsKind": "item_holder_first_occurrence",
+          "sourceReturnedRows": 0,
+          "exhaustive": false
+        },
+        "coverage": {
+          "sourceReturnedRows": 0,
+          "acceptedRows": 0,
+          "excluded": [],
+          "exhaustive": false
+        },
+        "reason": "MetaTFT 当前补丁和样本范围内没有对应记录；未改用其他来源。"
+      }
+    },
+    {
+      "type": "no_local_60_row_truncation",
+      "query": {
+        "conditions": [
+          {
+            "type": "champion",
+            "id": "DA_18_ElderDragon"
+          },
+          {
+            "type": "item",
+            "id": "DA_InfinityEdgeRadiant",
+            "holderId": null
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "minSample": 0,
+        "sort": "avgPlacement",
+        "dataSource": "metatft",
+        "rank": "GOLD"
+      },
+      "count": 503,
+      "rows": 503,
+      "evidence": {
+        "source": "MetaTFT Explorer",
+        "url": "https://www.metatft.com/explorer",
+        "delivery": "mysql",
+        "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+        "snapshotId": "49adc12897f53706e44deca0366fcec01d4c5b63bd6478f37c4795db38ab0d98",
+        "sourcePatch": null,
+        "requestedPatch": "18.4b",
+        "sourceCurrentPatch": "18.4b",
+        "patchAttribution": {
+          "method": "explicit_request_and_source_metadata",
+          "statisticsResponsePatch": null
+        },
+        "set": 18,
+        "queueId": 1100,
+        "rank": "黄金",
+        "rankFilter": "GOLD",
+        "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+        "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+        "statisticalWindow": {
+          "days": 3,
+          "timeAnchor": "source_relative_window"
+        },
+        "fetchedAt": "2026-10-11T06:00:48.059Z"
+      }
+    }
+  ],
+  "passed": true
+}

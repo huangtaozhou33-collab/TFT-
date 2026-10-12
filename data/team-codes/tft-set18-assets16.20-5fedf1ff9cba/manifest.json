@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+  "context": {
+    "game": "tft",
+    "set": 18,
+    "mutator": "TFTSet18",
+    "assetVersion": "16.20",
+    "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+    "gamePatch": null
+  },
+  "file": "974ff8b3-c7dd-487c-92b3-a4924e10bed7.json",
+  "sha256": "8b4c89168f6c1fb46c9d2941bdb2591e114b77ed632ec6e4415f94a349120e88",
+  "source": {
+    "source": "CommunityDragon · PC Team Planner",
+    "url": "https://raw.communitydragon.org/16.20/plugins/rcp-be-lol-game-data/global/default/v1/tftchampions-teamplanner.json",
+    "assetVersion": "16.20",
+    "set": 18,
+    "mutator": "TFTSet18",
+    "sourcePatch": null,
+    "gamePatch": null,
+    "fetchedAt": "2026-10-08T06:45:28.855Z",
+    "sourceTime": "Sat, 12 Sep 2026 00:36:20 GMT",
+    "rawJSONSha256": "c6f94a2c861e442a95e629e8558c9a357405e86830343fb504e26adaa75e3b62",
+    "idJoin": "exact_character_id_to_current_catalog",
+    "v1Mapping": "full_source_character_id_sorted_en_alphabetical_one_based",
+    "v2Mapping": "source_team_planner_code_integer",
+    "formatResearch": [
+      "https://github.com/ttkienn/TFT-Team-Planner-Code/blob/main/TFT.js",
+      "https://gist.github.com/bangingheads/243e396f78be1a4d49dc0577abf57a0b"
+    ],
+    "officialSupport": "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/teamfight-tactics-patch-13-7-notes-2025/",
+    "compatibility": "source_format_and_mapping_verified; real_game_client_not_tested",
+    "populationCostAvailable": false,
+    "note": "两个格式的块宽为2或3个十六进制字符，不是2或3个字节。原生码不含装备、棋盘坐标或星级；资产版本不等于统计补丁。"
+  },
+  "coverage": {
+    "sourceRows": 65,
+    "mappedChampions": 65,
+    "catalogChampions": 74,
+    "excluded": [],
+    "unmappedCatalog": [
+      {
+        "id": "DA_18_Lux_Inferno",
+        "name": "拉克丝 (地狱火)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_Lux18_Blackthorn",
+        "name": "拉克丝 (黑荆棘)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_18_Lux_Fae",
+        "name": "拉克丝 (花仙子)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_Lux18_Blossom",
+        "name": "拉克丝 (灵魂莲华)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_18_Lux_Coven",
+        "name": "拉克丝 (魔女)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_18_Lux_Sunbeam",
+        "name": "拉克丝 (日蚀骑士)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_18_Lux_Primal",
+        "name": "拉克丝 (野兽之灵)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_18_Lux_Elderwood",
+        "name": "拉克丝 (永恒之森)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_18_Lux_Moonbeam",
+        "name": "拉克丝 (月蚀骑士)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      }
+    ],
+    "complete": false
+  },
+  "publishedAt": "2026-10-08T06:54:04.160Z"
+}

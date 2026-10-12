@@ -1,0 +1,348 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 阵容首页
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - generic: TEAM COMPOSITIONS
+  - heading "阵容推荐" [level=1]
+  - paragraph: 从来源阵容出发，看队员、装备与站位，再建立自己的规划。
+  - generic: 来源阵容
+  - generic: 赛季 18
+  - generic: 资源 16.20
+  - generic: 统计补丁 18.4b · 查询范围
+  - paragraph: MetaTFT · 普通排位 · 铂金及以上 · 近 3 天。指标统计各阵容体系的不同变体；下列棋子和装备为来源代表配置。
+  - generic: ⌕
+  - searchbox "搜索来源阵容" [active]: 大龙
+  - combobox "来源阵容排序":
+    - option "热门体系（样本数）"
+    - option "平均名次 ↑" [selected]
+    - option "前四率 ↓"
+    - option "样本数 ↓"
+  - generic: 4 / 60 套来源阵容
+  - button "刷新阵容"
+  - button "查看峡谷野怪 · 苍蓝哨戒的队员、装备、站位与统计":
+    - strong: 峡谷野怪 · 苍蓝哨戒
+    - generic: ↗
+    - generic "远古巨龙":
+      - generic "无尽之刃"
+      - generic "最后的轻语"
+      - generic "强袭者的链枷"
+      - generic: 远古巨龙
+    - generic "纳尔":
+      - generic: 纳尔
+    - generic "苍蓝哨戒 · 来源核心":
+      - generic "蓝霸符"
+      - generic "珠光护手"
+      - generic "灭世者的死亡之帽"
+      - generic: 苍蓝哨戒
+    - generic "绯红印记树怪":
+      - generic: 绯红印记树怪
+    - generic "远古石甲虫":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 远古石甲虫
+    - generic "暗影狼":
+      - generic: 暗影狼
+    - generic "苍蓝雕纹魔像":
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "【远古巨龙】占用2个弈子栏位，并提供+2【峡谷野怪】羁绊。":
+      - strong: "1"
+      - generic: 顶级掠食者
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "2"
+      - generic: 神谕
+    - generic "【狂战士】们获得10%全能吸血。此外，【狂战士】们造成额外伤害，对低于50%生命值的单位们翻倍。 (2) 12%额外伤害 (4) 25%额外伤害 (6) 40%额外伤害":
+      - strong: "2"
+      - generic: 狂战士
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "7"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.15"
+    - generic: 前四率
+    - strong: 56.7%
+    - generic: 登顶率
+    - strong: 14.3%
+    - generic: 阵容样本
+    - strong: 489,885
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看重装战士 · 莫甘娜的队员、装备、站位与统计":
+    - strong: 重装战士 · 莫甘娜
+    - generic: ↗
+    - generic "拉露恩":
+      - generic "适应性头盔"
+      - generic "灭世者的死亡之帽"
+      - generic "朔极之矛"
+      - generic: 拉露恩
+    - generic "卡西奥佩娅":
+      - generic: 卡西奥佩娅
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "远古巨龙":
+      - generic: 远古巨龙
+    - generic "伊莉丝":
+      - generic: 伊莉丝
+    - generic "莫甘娜 · 来源核心":
+      - generic "法师纹章"
+      - generic "莫雷洛秘典"
+      - generic "虚空之杖"
+      - generic: 莫甘娜
+    - generic "苍蓝雕纹魔像":
+      - generic "石像鬼石板甲"
+      - generic "圣盾使的誓约"
+      - generic "狂徒铠甲"
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "【远古巨龙】占用2个弈子栏位，并提供+2【峡谷野怪】羁绊。":
+      - strong: "1"
+      - generic: 顶级掠食者
+    - generic "通过击杀弈子们收集【魔女精粹】，输掉玩家对战回合时还会增加更多。 初始值为40【魔女精粹】，选择将【魔女精粹】兑换为奖励或是继续收集【魔女精粹】。每项奖励所需的【魔女精粹】数量都会进一步增加。 (3)每次击杀+2【魔女精粹】，每次失败+22【魔女精粹】 (4)每次击杀+2【魔女精粹】，每次失败+28【魔女精粹】 (5)每次击杀+3【魔女精粹】，每次失败+35【魔女精粹】 (7)每次击杀+10【魔女精粹】，每次失败+60【魔女精粹】":
+      - strong: "3"
+      - generic: 魔女
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "2"
+      - generic: 神谕
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "2"
+      - generic: 月蚀骑士
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "4"
+      - generic: 重装战士
+    - generic "你最强大的那个【拉露恩】在每一次施放技能后，推进一次【月相】。当【月相】在弦月或以下时，你的队伍获得7%伤害减免。在弦月之上时，你的队伍获得7%伤害增幅。":
+      - strong: "1"
+      - generic: 月华神女
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.26"
+    - generic: 前四率
+    - strong: 53.1%
+    - generic: 登顶率
+    - strong: 19.3%
+    - generic: 阵容样本
+    - strong: 83,647
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看地狱火 · 远古巨龙的队员、装备、站位与统计":
+    - strong: 地狱火 · 远古巨龙
+    - generic: ↗
+    - generic "远古巨龙 · 来源核心":
+      - generic "无尽之刃"
+      - generic "最后的轻语"
+      - generic "强袭者的链枷"
+      - generic: 远古巨龙
+    - generic "艾翁":
+      - generic: 艾翁
+    - generic "凯南":
+      - generic "夜之锋刃"
+      - generic "正义之手"
+      - generic "珠光护手"
+      - generic: 凯南
+    - generic "茂凯":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 茂凯
+    - generic "阿木木":
+      - generic: 阿木木
+    - generic "德莱文":
+      - generic "鬼索的狂暴之刃"
+      - generic "海妖之怒"
+      - generic "海妖之怒"
+      - generic: 德莱文
+    - generic "苍蓝雕纹魔像":
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "【远古巨龙】占用2个弈子栏位，并提供+2【峡谷野怪】羁绊。":
+      - strong: "1"
+      - generic: 顶级掠食者
+    - generic "你最强大的那个【艾翁】在施放技能时获得1颗种子，且每场对战额外获得3颗。【艾翁】可消耗5颗种子在你的棋盘上培育1个格子，为格内的住民提供加成。 种子数：0/5 当前生物群落：":
+      - strong: "1"
+      - generic: 翠神
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "每当3格内的1名敌人阵亡时，你最强大的那个【远古树精】弈子获得30永久最大生命值。 当前：0":
+      - strong: "1"
+      - generic: 远古树精
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "选择1个【悬赏令】。你最强大的那个【德莱文】可以推进【悬赏令】进度以获取其奖励。在完成1个【悬赏令】后，能够选择另一个。":
+      - strong: "1"
+      - generic: 赏金猎人
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.51"
+    - generic: 前四率
+    - strong: 48.8%
+    - generic: 登顶率
+    - strong: 19.0%
+    - generic: 阵容样本
+    - strong: 657,436
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看灵魂莲华 · 瑟提的队员、装备、站位与统计":
+    - strong: 灵魂莲华 · 瑟提
+    - generic: ↗
+    - generic "艾希":
+      - generic "最后的轻语"
+      - generic "红霸符"
+      - generic "朔极之矛"
+      - generic: 艾希
+    - generic "远古巨龙":
+      - generic: 远古巨龙
+    - generic "纳尔":
+      - generic "饮血剑"
+      - generic "斯特拉克的挑战护手"
+      - generic "泰坦的坚决"
+      - generic: 纳尔
+    - generic "凯南":
+      - generic: 凯南
+    - generic "瑟提 · 来源核心":
+      - generic "石像鬼石板甲"
+      - generic "日炎斗篷"
+      - generic "狂徒铠甲"
+      - generic: 瑟提
+    - generic "约里克":
+      - generic: 约里克
+    - generic "阿木木":
+      - generic: 阿木木
+    - generic "绯红树怪":
+      - generic: 绯红树怪
+    - generic "【远古巨龙】占用2个弈子栏位，并提供+2【峡谷野怪】羁绊。":
+      - strong: "1"
+      - generic: 顶级掠食者
+    - generic "在对战后，你的【自然仙灵】将得到强化。 【灵魂莲华】弈子们获得物理加成、法术加成和10%最大生命值。 (3)【自然仙灵】得到升级，12% (5)商店每次都会刷新出【自然仙灵】，30% (7)在购买1个【自然仙灵】后，获得4 金币，50% (9)每回合你可以购买2个【自然仙灵】，55% (11)自然之力！！！【自然仙灵】的力量满溢而出，100%":
+      - strong: "3"
+      - generic: 灵魂莲华
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "【猎人】获得物理加成。如果1个【猎人】在3秒内没有切换过目标，他们获得10%伤害增幅。 (2) 20% (3) 30% (4) 45% (5) 60%":
+      - strong: "2"
+      - generic: 猎人
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.75"
+    - generic: 前四率
+    - strong: 45.2%
+    - generic: 登顶率
+    - strong: 10.1%
+    - generic: 阵容样本
+    - strong: 34,667
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - generic: ↗
+  - link "MetaTFT Comps":
+    - /url: https://www.metatft.com/comps
+  - generic: 数据库快照
+  - term: 来源时间
+  - definition: 2026/10/11 16:15
+  - term: 采集时间
+  - definition: 2026/10/11 16:15
+  - term: 统计补丁
+  - definition: 18.4b · 查询范围
+  - generic "版本依据"
+  - paragraph: 普通排位 · 铂金及以上 · 近 3 天。指标属于阵容体系，包含不同变体；代表配置的装备不构成固定三件套联合统计。
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手

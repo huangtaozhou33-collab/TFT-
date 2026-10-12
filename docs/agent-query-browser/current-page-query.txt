@@ -1,0 +1,1661 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 筛选器
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - region "多条件筛选器":
+    - text: TFT / EXPLORER
+    - heading "筛选器" [level=1]
+    - generic: 添加条件，查看同一组条件下的搭配
+    - generic "奈德丽"
+    - strong: 奈德丽
+    - button "移除奈德丽条件": ×
+    - generic "朔极之矛"
+    - strong: 朔极之矛
+    - combobox "朔极之矛佩戴者":
+      - option "任意英雄携带"
+      - option "奈德丽携带" [selected]
+      - option "阿木木携带"
+    - button "移除朔极之矛条件": ×
+    - generic "阿木木"
+    - strong: 阿木木
+    - button "移除阿木木条件": ×
+    - generic: ⌕
+    - combobox "添加筛选条件"
+    - button "清空"
+    - paragraph: MetaTFT · 普通排位 · 近 3 天 · 铂金及以上。全部条件须在同一阵容中成立；可为每件装备分别指定佩戴者，重复添加表示需要多件。
+    - status: 3 个条件 · MetaTFT · 233239 份统计样本 · MySQL 已存快照
+    - text: 查看出装
+    - combobox "查看谁的出装":
+      - option "奈德丽" [selected]
+      - option "阿木木"
+    - text: 最低样本
+    - combobox "检索样本门槛":
+      - option "不限"
+      - option "50"
+      - option "100"
+      - option "500"
+      - option "1000" [selected]
+    - text: 排序
+    - combobox "检索结果排序":
+      - option "平均名次" [selected]
+      - option "前四率"
+      - option "登顶率"
+      - option "样本数"
+    - region "装备结果":
+      - heading "装备" [level=2]
+      - generic: "26"
+      - paragraph: 该棋子的三件套 · 同时满足全部阵容条件 · 18.4b · 查询范围
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选密银黎明":
+          - generic "密银黎明"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "3.61"
+        - generic: 前四
+        - strong: 70.3%
+        - generic: 登顶
+        - strong: 11.7%
+        - generic: 样本
+        - strong: 1,128
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选饮血剑":
+          - generic "饮血剑"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "3.64"
+        - generic: 前四
+        - strong: 68.8%
+        - generic: 登顶
+        - strong: 12.4%
+        - generic: 样本
+        - strong: 2,375
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选夜之锋刃":
+          - generic "夜之锋刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "3.69"
+        - generic: 前四
+        - strong: 68.8%
+        - generic: 登顶
+        - strong: 10.6%
+        - generic: 样本
+        - strong: 3,466
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选狂战士纹章":
+          - generic "狂战士纹章"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "3.7"
+        - generic: 前四
+        - strong: 68.0%
+        - generic: 登顶
+        - strong: 13.0%
+        - generic: 样本
+        - strong: 2,592
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选夜之锋刃":
+          - generic "夜之锋刃"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "3.73"
+        - generic: 前四
+        - strong: 67.9%
+        - generic: 登顶
+        - strong: 11.2%
+        - generic: 样本
+        - strong: 11,871
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "3.77"
+        - generic: 前四
+        - strong: 67.0%
+        - generic: 登顶
+        - strong: 10.4%
+        - generic: 样本
+        - strong: 88,288
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选密银黎明":
+          - generic "密银黎明"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "3.77"
+        - generic: 前四
+        - strong: 67.3%
+        - generic: 登顶
+        - strong: 12.1%
+        - generic: 样本
+        - strong: 1,675
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选巨人杀手":
+          - generic "巨人杀手"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "3.78"
+        - generic: 前四
+        - strong: 65.8%
+        - generic: 登顶
+        - strong: 10.6%
+        - generic: 样本
+        - strong: 1,278
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选饮血剑":
+          - generic "饮血剑"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "3.79"
+        - generic: 前四
+        - strong: 66.4%
+        - generic: 登顶
+        - strong: 10.4%
+        - generic: 样本
+        - strong: 5,945
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选正义之手":
+          - generic "正义之手":
+            - generic: 正
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "3.8"
+        - generic: 前四
+        - strong: 66.9%
+        - generic: 登顶
+        - strong: 10.1%
+        - generic: 样本
+        - strong: 3,562
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选死亡之刃":
+          - generic "死亡之刃":
+            - generic: 死
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "3.84"
+        - generic: 前四
+        - strong: 66.0%
+        - generic: 登顶
+        - strong: 9.9%
+        - generic: 样本
+        - strong: 3,055
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选正义之手":
+          - generic "正义之手":
+            - generic: 正
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "3.89"
+        - generic: 前四
+        - strong: 64.2%
+        - generic: 登顶
+        - strong: 9.4%
+        - generic: 样本
+        - strong: 8,531
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选狂战士纹章":
+          - generic "狂战士纹章"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "3.92"
+        - generic: 前四
+        - strong: 63.3%
+        - generic: 登顶
+        - strong: 10.3%
+        - generic: 样本
+        - strong: 3,843
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选海克斯科技枪刃":
+          - generic "海克斯科技枪刃":
+            - generic: 海
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "3.92"
+        - generic: 前四
+        - strong: 63.8%
+        - generic: 登顶
+        - strong: 10.1%
+        - generic: 样本
+        - strong: 1,089
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选光明版斯特拉克的挑战护手":
+          - generic "光明版斯特拉克的挑战护手":
+            - generic: 光
+        - generic: 均次
+        - strong: "3.94"
+        - generic: 前四
+        - strong: 64.5%
+        - generic: 登顶
+        - strong: 7.8%
+        - generic: 样本
+        - strong: 1,020
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - button "筛选强袭者的链枷":
+          - generic "强袭者的链枷":
+            - generic: 强
+        - generic: 均次
+        - strong: "3.96"
+        - generic: 前四
+        - strong: 62.1%
+        - generic: 登顶
+        - strong: 9.1%
+        - generic: 样本
+        - strong: 1,094
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选死亡之刃":
+          - generic "死亡之刃":
+            - generic: 死
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "3.97"
+        - generic: 前四
+        - strong: 63.1%
+        - generic: 登顶
+        - strong: 8.7%
+        - generic: 样本
+        - strong: 3,439
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选水银":
+          - generic "水银":
+            - generic: 水
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "3.98"
+        - generic: 前四
+        - strong: 62.0%
+        - generic: 登顶
+        - strong: 8.6%
+        - generic: 样本
+        - strong: 2,086
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选强袭者的链枷":
+          - generic "强袭者的链枷":
+            - generic: 强
+        - generic: 均次
+        - strong: "4.02"
+        - generic: 前四
+        - strong: 62.8%
+        - generic: 登顶
+        - strong: 8.3%
+        - generic: 样本
+        - strong: 4,665
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选巨人杀手":
+          - generic "巨人杀手"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "4.03"
+        - generic: 前四
+        - strong: 61.9%
+        - generic: 登顶
+        - strong: 8.7%
+        - generic: 样本
+        - strong: 2,436
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选泰坦的坚决":
+          - generic "泰坦的坚决":
+            - generic: 泰
+        - generic: 均次
+        - strong: "4.06"
+        - generic: 前四
+        - strong: 61.7%
+        - generic: 登顶
+        - strong: 7.9%
+        - generic: 样本
+        - strong: 2,317
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选光明版无尽之刃":
+          - generic "光明版无尽之刃":
+            - generic: 光
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - button "筛选斯特拉克的挑战护手":
+          - generic "斯特拉克的挑战护手"
+        - generic: 均次
+        - strong: "4.08"
+        - generic: 前四
+        - strong: 60.5%
+        - generic: 登顶
+        - strong: 7.5%
+        - generic: 样本
+        - strong: 1,013
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选最后的轻语":
+          - generic "最后的轻语":
+            - generic: 最
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "4.33"
+        - generic: 前四
+        - strong: 54.8%
+        - generic: 登顶
+        - strong: 7.7%
+        - generic: 样本
+        - strong: 1,232
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选鬼索的狂暴之刃":
+          - generic "鬼索的狂暴之刃":
+            - generic: 鬼
+        - button "筛选珠光护手":
+          - generic "珠光护手":
+            - generic: 珠
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "4.39"
+        - generic: 前四
+        - strong: 53.5%
+        - generic: 登顶
+        - strong: 8.1%
+        - generic: 样本
+        - strong: 2,905
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选迅捷射手纹章":
+          - generic "迅捷射手纹章":
+            - generic: 迅
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "4.56"
+        - generic: 前四
+        - strong: 50.1%
+        - generic: 登顶
+        - strong: 5.4%
+        - generic: 样本
+        - strong: 1,417
+      - article:
+        - generic "奈德丽"
+        - strong: 奈德丽
+        - button "筛选鬼索的狂暴之刃":
+          - generic "鬼索的狂暴之刃":
+            - generic: 鬼
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选朔极之矛":
+          - generic "朔极之矛"
+        - generic: 均次
+        - strong: "4.62"
+        - generic: 前四
+        - strong: 50.4%
+        - generic: 登顶
+        - strong: 4.8%
+        - generic: 样本
+        - strong: 1,024
+    - region "队友结果":
+      - heading "队友" [level=2]
+      - generic: "42"
+      - paragraph: 同时满足全部条件的阵容中的队友 · 18.4b · 查询范围
+      - article:
+        - button "添加队友拉露恩":
+          - generic "拉露恩"
+          - strong: 拉露恩
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.12"
+        - generic: 前四
+        - strong: 80.9%
+        - generic: 登顶
+        - strong: 15.2%
+        - generic: 样本
+        - strong: 33,170
+      - article:
+        - button "添加队友绯红印记树怪":
+          - generic "绯红印记树怪"
+          - strong: 绯红印记树怪
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.13"
+        - generic: 前四
+        - strong: 80.5%
+        - generic: 登顶
+        - strong: 16.2%
+        - generic: 样本
+        - strong: 13,997
+      - article:
+        - button "添加队友拉克丝":
+          - generic "拉克丝"
+          - strong: 拉克丝
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.15"
+        - generic: 前四
+        - strong: 78.9%
+        - generic: 登顶
+        - strong: 17.0%
+        - generic: 样本
+        - strong: 17,096
+      - article:
+        - button "添加队友艾翁":
+          - generic "艾翁"
+          - strong: 艾翁
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.27"
+        - generic: 前四
+        - strong: 76.3%
+        - generic: 登顶
+        - strong: 17.7%
+        - generic: 样本
+        - strong: 16,588
+      - article:
+        - button "添加队友远古巨龙":
+          - generic "远古巨龙"
+          - strong: 远古巨龙
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.42"
+        - generic: 前四
+        - strong: 71.7%
+        - generic: 登顶
+        - strong: 18.3%
+        - generic: 样本
+        - strong: 2,361
+      - article:
+        - button "添加队友凯南":
+          - generic "凯南"
+          - strong: 凯南
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.59"
+        - generic: 前四
+        - strong: 70.3%
+        - generic: 登顶
+        - strong: 13.1%
+        - generic: 样本
+        - strong: 17,815
+      - article:
+        - button "添加队友塔里克":
+          - generic "塔里克"
+          - strong: 塔里克
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.6"
+        - generic: 前四
+        - strong: 69.5%
+        - generic: 登顶
+        - strong: 14.3%
+        - generic: 样本
+        - strong: 15,079
+      - article:
+        - button "添加队友纳尔":
+          - generic "纳尔"
+          - strong: 纳尔
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.6"
+        - generic: 前四
+        - strong: 69.8%
+        - generic: 登顶
+        - strong: 14.5%
+        - generic: 样本
+        - strong: 3,334
+      - article:
+        - button "添加队友暗影狼":
+          - generic "暗影狼"
+          - strong: 暗影狼
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.65"
+        - generic: 前四
+        - strong: 72.1%
+        - generic: 登顶
+        - strong: 8.2%
+        - generic: 样本
+        - strong: 2,159
+      - article:
+        - button "添加队友艾希":
+          - generic "艾希"
+          - strong: 艾希
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.85"
+        - generic: 前四
+        - strong: 64.9%
+        - generic: 登顶
+        - strong: 12.2%
+        - generic: 样本
+        - strong: 6,193
+      - article:
+        - button "添加队友深红锋喙鸟":
+          - generic "深红锋喙鸟"
+          - strong: 深红锋喙鸟
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.97"
+        - generic: 前四
+        - strong: 63.8%
+        - generic: 登顶
+        - strong: 8.8%
+        - generic: 样本
+        - strong: 5,042
+      - article:
+        - button "添加队友韦鲁斯":
+          - generic "韦鲁斯"
+          - strong: 韦鲁斯
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.98"
+        - generic: 前四
+        - strong: 62.5%
+        - generic: 登顶
+        - strong: 9.3%
+        - generic: 样本
+        - strong: 194,049
+      - article:
+        - button "添加队友苍蓝雕纹魔像":
+          - generic "苍蓝雕纹魔像"
+          - strong: 苍蓝雕纹魔像
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.99"
+        - generic: 前四
+        - strong: 62.3%
+        - generic: 登顶
+        - strong: 9.3%
+        - generic: 样本
+        - strong: 204,940
+      - article:
+        - button "添加队友克格莫":
+          - generic "克格莫"
+          - strong: 克格莫
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.01"
+        - generic: 前四
+        - strong: 61.8%
+        - generic: 登顶
+        - strong: 9.2%
+        - generic: 样本
+        - strong: 206,342
+      - article:
+        - button "添加队友厄斐琉斯":
+          - generic "厄斐琉斯"
+          - strong: 厄斐琉斯
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.01"
+        - generic: 前四
+        - strong: 61.8%
+        - generic: 登顶
+        - strong: 9.2%
+        - generic: 样本
+        - strong: 206,789
+      - article:
+        - button "添加队友黛安娜":
+          - generic "黛安娜"
+          - strong: 黛安娜
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.02"
+        - generic: 前四
+        - strong: 61.6%
+        - generic: 登顶
+        - strong: 9.1%
+        - generic: 样本
+        - strong: 205,927
+      - article:
+        - button "添加队友蔚":
+          - generic "蔚"
+          - strong: 蔚
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.08"
+        - generic: 前四
+        - strong: 60.4%
+        - generic: 登顶
+        - strong: 9.0%
+        - generic: 样本
+        - strong: 225,997
+      - article:
+        - button "添加队友茂凯":
+          - generic "茂凯":
+            - generic: 茂
+          - strong: 茂凯
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.08"
+        - generic: 前四
+        - strong: 59.5%
+        - generic: 登顶
+        - strong: 11.6%
+        - generic: 样本
+        - strong: 18,316
+      - article:
+        - button "添加队友魔沼蛙":
+          - generic "魔沼蛙":
+            - generic: 魔
+          - strong: 魔沼蛙
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.09"
+        - generic: 前四
+        - strong: 61.8%
+        - generic: 登顶
+        - strong: 5.9%
+        - generic: 样本
+        - strong: 2,433
+      - article:
+        - button "添加队友莫甘娜":
+          - generic "莫甘娜":
+            - generic: 莫
+          - strong: 莫甘娜
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.15"
+        - generic: 前四
+        - strong: 58.5%
+        - generic: 登顶
+        - strong: 11.0%
+        - generic: 样本
+        - strong: 2,497
+      - article:
+        - button "添加队友德莱文":
+          - generic "德莱文":
+            - generic: 德
+          - strong: 德莱文
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.16"
+        - generic: 前四
+        - strong: 57.1%
+        - generic: 登顶
+        - strong: 13.3%
+        - generic: 样本
+        - strong: 3,569
+      - article:
+        - button "添加队友远古石甲虫":
+          - generic "远古石甲虫":
+            - generic: 远
+          - strong: 远古石甲虫
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.18"
+        - generic: 前四
+        - strong: 58.0%
+        - generic: 登顶
+        - strong: 10.5%
+        - generic: 样本
+        - strong: 2,277
+      - article:
+        - button "添加队友易":
+          - generic "易":
+            - generic: 易
+          - strong: 易
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.18"
+        - generic: 前四
+        - strong: 57.8%
+        - generic: 登顶
+        - strong: 9.7%
+        - generic: 样本
+        - strong: 3,212
+      - article:
+        - button "添加队友索拉卡":
+          - generic "索拉卡":
+            - generic: 索
+          - strong: 索拉卡
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.22"
+        - generic: 前四
+        - strong: 56.8%
+        - generic: 登顶
+        - strong: 11.2%
+        - generic: 样本
+        - strong: 1,460
+      - article:
+        - button "添加队友阿卡丽":
+          - generic "阿卡丽":
+            - generic: 阿
+          - strong: 阿卡丽
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.22"
+        - generic: 前四
+        - strong: 57.0%
+        - generic: 登顶
+        - strong: 9.1%
+        - generic: 样本
+        - strong: 7,071
+      - article:
+        - button "添加队友苍蓝哨戒":
+          - generic "苍蓝哨戒":
+            - generic: 苍
+          - strong: 苍蓝哨戒
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.23"
+        - generic: 前四
+        - strong: 59.0%
+        - generic: 登顶
+        - strong: 2.4%
+        - generic: 样本
+        - strong: 1,511
+      - article:
+        - button "添加队友婕拉":
+          - generic "婕拉":
+            - generic: 婕
+          - strong: 婕拉
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.38"
+        - generic: 前四
+        - strong: 53.0%
+        - generic: 登顶
+        - strong: 9.0%
+        - generic: 样本
+        - strong: 8,973
+      - article:
+        - button "添加队友绯红树怪":
+          - generic "绯红树怪":
+            - generic: 绯
+          - strong: 绯红树怪
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.45"
+        - generic: 前四
+        - strong: 54.0%
+        - generic: 登顶
+        - strong: 3.9%
+        - generic: 样本
+        - strong: 2,654
+      - article:
+        - button "添加队友瑟提":
+          - generic "瑟提":
+            - generic: 瑟
+          - strong: 瑟提
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.46"
+        - generic: 前四
+        - strong: 50.6%
+        - generic: 登顶
+        - strong: 9.8%
+        - generic: 样本
+        - strong: 2,233
+      - article:
+        - button "添加队友希维尔":
+          - generic "希维尔":
+            - generic: 希
+          - strong: 希维尔
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.49"
+        - generic: 前四
+        - strong: 50.8%
+        - generic: 登顶
+        - strong: 8.5%
+        - generic: 样本
+        - strong: 12,790
+      - article:
+        - button "添加队友阿兹尔":
+          - generic "阿兹尔":
+            - generic: 阿
+          - strong: 阿兹尔
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.49"
+        - generic: 前四
+        - strong: 50.9%
+        - generic: 登顶
+        - strong: 9.5%
+        - generic: 样本
+        - strong: 1,425
+      - article:
+        - button "添加队友莉莉娅":
+          - generic "莉莉娅":
+            - generic: 莉
+          - strong: 莉莉娅
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.53"
+        - generic: 前四
+        - strong: 50.0%
+        - generic: 登顶
+        - strong: 10.2%
+        - generic: 样本
+        - strong: 1,825
+      - article:
+        - button "添加队友峡谷迅捷蟹":
+          - generic "峡谷迅捷蟹":
+            - generic: 峡
+          - strong: 峡谷迅捷蟹
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.55"
+        - generic: 前四
+        - strong: 49.9%
+        - generic: 登顶
+        - strong: 7.3%
+        - generic: 样本
+        - strong: 12,558
+      - article:
+        - button "添加队友约里克":
+          - generic "约里克":
+            - generic: 约
+          - strong: 约里克
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.58"
+        - generic: 前四
+        - strong: 49.1%
+        - generic: 登顶
+        - strong: 8.4%
+        - generic: 样本
+        - strong: 12,008
+      - article:
+        - button "添加队友瑟庄妮":
+          - generic "瑟庄妮":
+            - generic: 瑟
+          - strong: 瑟庄妮
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.68"
+        - generic: 前四
+        - strong: 46.9%
+        - generic: 登顶
+        - strong: 7.3%
+        - generic: 样本
+        - strong: 8,454
+      - article:
+        - button "添加队友费德提克":
+          - generic "费德提克":
+            - generic: 费
+          - strong: 费德提克
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.71"
+        - generic: 前四
+        - strong: 47.0%
+        - generic: 登顶
+        - strong: 8.1%
+        - generic: 样本
+        - strong: 1,341
+      - article:
+        - button "添加队友洛":
+          - generic "洛":
+            - generic: 洛
+          - strong: 洛
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.76"
+        - generic: 前四
+        - strong: 45.0%
+        - generic: 登顶
+        - strong: 7.4%
+        - generic: 样本
+        - strong: 10,344
+      - article:
+        - button "添加队友墨菲特":
+          - generic "墨菲特":
+            - generic: 墨
+          - strong: 墨菲特
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.8"
+        - generic: 前四
+        - strong: 44.7%
+        - generic: 登顶
+        - strong: 6.7%
+        - generic: 样本
+        - strong: 2,523
+      - article:
+        - button "添加队友崔丝塔娜":
+          - generic "崔丝塔娜":
+            - generic: 崔
+          - strong: 崔丝塔娜
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.8"
+        - generic: 前四
+        - strong: 44.0%
+        - generic: 登顶
+        - strong: 7.0%
+        - generic: 样本
+        - strong: 1,508
+      - article:
+        - button "添加队友霞":
+          - generic "霞":
+            - generic: 霞
+          - strong: 霞
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.87"
+        - generic: 前四
+        - strong: 45.0%
+        - generic: 登顶
+        - strong: 6.0%
+        - generic: 样本
+        - strong: 1,561
+      - article:
+        - button "添加队友慎":
+          - generic "慎":
+            - generic: 慎
+          - strong: 慎
+          - generic: ＋
+        - generic: 均次
+        - strong: "4.92"
+        - generic: 前四
+        - strong: 41.8%
+        - generic: 登顶
+        - strong: 7.0%
+        - generic: 样本
+        - strong: 3,930
+      - article:
+        - button "添加队友赫卡里姆":
+          - generic "赫卡里姆":
+            - generic: 赫
+          - strong: 赫卡里姆
+          - generic: ＋
+        - generic: 均次
+        - strong: "5.12"
+        - generic: 前四
+        - strong: 38.1%
+        - generic: 登顶
+        - strong: 5.2%
+        - generic: 样本
+        - strong: 2,165
+    - region "推荐阵容结果":
+      - heading "推荐阵容" [level=2]
+      - generic: "15"
+      - paragraph: 同时满足全部条件的棋子组合 · 18.4b · 查询范围
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 绯红印记树怪 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "绯红印记树怪":
+          - generic: 绯红印记树怪
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "2.88"
+        - generic: 前四
+        - strong: 86.7%
+        - generic: 登顶
+        - strong: 17.0%
+        - generic: 样本
+        - strong: 7,515
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 拉克丝 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "拉克丝":
+          - generic: 拉克丝
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "2.94"
+        - generic: 前四
+        - strong: 85.3%
+        - generic: 登顶
+        - strong: 16.9%
+        - generic: 样本
+        - strong: 2,493
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 拉克丝 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "拉克丝":
+          - generic: 拉克丝
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "2.98"
+        - generic: 前四
+        - strong: 84.9%
+        - generic: 登顶
+        - strong: 15.3%
+        - generic: 样本
+        - strong: 2,286
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 艾翁 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "3.03"
+        - generic: 前四
+        - strong: 83.7%
+        - generic: 登顶
+        - strong: 15.6%
+        - generic: 样本
+        - strong: 5,689
+      - article:
+        - heading "拉露恩 · 厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "拉露恩":
+          - generic: 拉露恩
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "3.07"
+        - generic: 前四
+        - strong: 83.2%
+        - generic: 登顶
+        - strong: 13.4%
+        - generic: 样本
+        - strong: 15,963
+      - article:
+        - heading "拉露恩 · 厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "拉露恩":
+          - generic: 拉露恩
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "3.08"
+        - generic: 前四
+        - strong: 84.0%
+        - generic: 登顶
+        - strong: 10.6%
+        - generic: 样本
+        - strong: 1,258
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 塔里克 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "3.09"
+        - generic: 前四
+        - strong: 82.3%
+        - generic: 登顶
+        - strong: 13.9%
+        - generic: 样本
+        - strong: 2,994
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 凯南 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "凯南":
+          - generic: 凯南
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "3.24"
+        - generic: 前四
+        - strong: 80.2%
+        - generic: 登顶
+        - strong: 11.2%
+        - generic: 样本
+        - strong: 4,801
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 茂凯 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "3.5"
+        - generic: 前四
+        - strong: 73.1%
+        - generic: 登顶
+        - strong: 11.8%
+        - generic: 样本
+        - strong: 1,030
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "4.41"
+        - generic: 前四
+        - strong: 52.6%
+        - generic: 登顶
+        - strong: 6.3%
+        - generic: 样本
+        - strong: 3,363
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "4.54"
+        - generic: 前四
+        - strong: 53.7%
+        - generic: 登顶
+        - strong: 0.4%
+        - generic: 样本
+        - strong: 1,094
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "4.55"
+        - generic: 前四
+        - strong: 48.8%
+        - generic: 登顶
+        - strong: 5.0%
+        - generic: 样本
+        - strong: 2,992
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "4.67"
+        - generic: 前四
+        - strong: 47.3%
+        - generic: 登顶
+        - strong: 4.7%
+        - generic: 样本
+        - strong: 78,362
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "4.71"
+        - generic: 前四
+        - strong: 45.9%
+        - generic: 登顶
+        - strong: 4.3%
+        - generic: 样本
+        - strong: 2,705
+      - article:
+        - heading "厄斐琉斯 · 黛安娜 · 韦鲁斯 · 阿木木 · 克格莫 · 奈德丽 · 苍蓝雕纹魔像 · 蔚" [level=3]
+        - generic "厄斐琉斯":
+          - generic: 厄斐琉斯
+        - generic "黛安娜":
+          - generic: 黛安娜
+        - generic "韦鲁斯":
+          - generic: 韦鲁斯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "克格莫":
+          - generic: 克格莫
+        - generic "奈德丽":
+          - generic: 奈德丽
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "蔚":
+          - generic: 蔚
+        - generic: 均次
+        - strong: "4.72"
+        - generic: 前四
+        - strong: 46.4%
+        - generic: 登顶
+        - strong: 4.4%
+        - generic: 样本
+        - strong: 1,762
+    - generic "数据范围 · MetaTFT / MySQL · 233239 份统计样本"
+- dialog "TFT助手":
+  - generic: ✧
+  - heading "TFT助手" [level=2]
+  - paragraph:
+    - generic: 已连接 · 证据优先
+  - button "清空聊天记录": ↺
+  - button "收起TFT助手": ×
+  - generic: 筛选器
+  - log "聊天记录":
+    - article:
+      - generic: 当前条件下有哪些完整出装？
+    - article:
+      - generic: ✧
+      - generic: TFT助手
+      - paragraph:
+        - strong: 组合筛选
+        - text: ：阵容有奈德丽，且奈德丽携带朔极之矛，且阵容有阿木木；查看奈德丽出装。样本至少 1000，均次从低到高，最多 10 条。
+      - paragraph: 全部条件匹配总体：233,239 份观测，均次 4.088，前四率 60.1%，登顶率 9.0%。[S1]
+      - paragraph:
+        - strong: 完整出装
+      - table:
+        - rowgroup:
+          - row "名称 / 配置 均次 前四率 登顶率 样本":
+            - columnheader "名称 / 配置"
+            - columnheader "均次"
+            - columnheader "前四率"
+            - columnheader "登顶率"
+            - columnheader "样本"
+        - rowgroup:
+          - row "奈德丽：密银黎明 + 朔极之矛 + 斯特拉克的挑战护手 [S2] 3.611 70.3% 11.7% 1,128":
+            - cell "奈德丽：密银黎明 + 朔极之矛 + 斯特拉克的挑战护手 [S2]"
+            - cell "3.611"
+            - cell "70.3%"
+            - cell "11.7%"
+            - cell "1,128"
+          - row "奈德丽：饮血剑 + 朔极之矛 + 斯特拉克的挑战护手 [S2] 3.644 68.8% 12.4% 2,375":
+            - cell "奈德丽：饮血剑 + 朔极之矛 + 斯特拉克的挑战护手 [S2]"
+            - cell "3.644"
+            - cell "68.8%"
+            - cell "12.4%"
+            - cell "2,375"
+          - row "奈德丽：夜之锋刃 + 朔极之矛 + 斯特拉克的挑战护手 [S2] 3.695 68.8% 10.6% 3,466":
+            - cell "奈德丽：夜之锋刃 + 朔极之矛 + 斯特拉克的挑战护手 [S2]"
+            - cell "3.695"
+            - cell "68.8%"
+            - cell "10.6%"
+            - cell "3,466"
+          - row "奈德丽：狂战士纹章 + 朔极之矛 + 斯特拉克的挑战护手 [S2] 3.702 68.0% 13.0% 2,592":
+            - cell "奈德丽：狂战士纹章 + 朔极之矛 + 斯特拉克的挑战护手 [S2]"
+            - cell "3.702"
+            - cell "68.0%"
+            - cell "13.0%"
+            - cell "2,592"
+          - row "奈德丽：夜之锋刃 + 无尽之刃 + 朔极之矛 [S2] 3.729 67.9% 11.2% 11,871":
+            - cell "奈德丽：夜之锋刃 + 无尽之刃 + 朔极之矛 [S2]"
+            - cell "3.729"
+            - cell "67.9%"
+            - cell "11.2%"
+            - cell "11,871"
+          - row "奈德丽：无尽之刃 + 朔极之矛 + 斯特拉克的挑战护手 [S2] 3.767 67.0% 10.4% 88,288":
+            - cell "奈德丽：无尽之刃 + 朔极之矛 + 斯特拉克的挑战护手 [S2]"
+            - cell "3.767"
+            - cell "67.0%"
+            - cell "10.4%"
+            - cell "88,288"
+          - row "奈德丽：密银黎明 + 无尽之刃 + 朔极之矛 [S2] 3.767 67.3% 12.1% 1,675":
+            - cell "奈德丽：密银黎明 + 无尽之刃 + 朔极之矛 [S2]"
+            - cell "3.767"
+            - cell "67.3%"
+            - cell "12.1%"
+            - cell "1,675"
+          - row "奈德丽：巨人杀手 + 朔极之矛 + 斯特拉克的挑战护手 [S2] 3.777 65.8% 10.6% 1,278":
+            - cell "奈德丽：巨人杀手 + 朔极之矛 + 斯特拉克的挑战护手 [S2]"
+            - cell "3.777"
+            - cell "65.8%"
+            - cell "10.6%"
+            - cell "1,278"
+          - row "奈德丽：饮血剑 + 无尽之刃 + 朔极之矛 [S2] 3.786 66.4% 10.4% 5,945":
+            - cell "奈德丽：饮血剑 + 无尽之刃 + 朔极之矛 [S2]"
+            - cell "3.786"
+            - cell "66.4%"
+            - cell "10.4%"
+            - cell "5,945"
+          - row "奈德丽：正义之手 + 朔极之矛 + 斯特拉克的挑战护手 [S2] 3.800 66.9% 10.1% 3,562":
+            - cell "奈德丽：正义之手 + 朔极之矛 + 斯特拉克的挑战护手 [S2]"
+            - cell "3.800"
+            - cell "66.9%"
+            - cell "10.1%"
+            - cell "3,562"
+      - paragraph: 各行可能重叠，样本不相加；仅比较来源返回的候选。
+      - paragraph: 来源：MetaTFT Explorer；查询范围 18.4b，近 3 天，铂金及以上。[S1]
+      - link "↗ [S1] MetaTFT Explorer · 组合筛选":
+        - /url: https://www.metatft.com/explorer
+      - link "↗ [S2] MetaTFT Explorer · 组合筛选 / equipment":
+        - /url: https://www.metatft.com/explorer
+      - button "查看这次回答的证据链"
+      - button "在筛选器查看"
+  - button "解释当前条件的查询结果"
+  - button "当前条件下有哪些完整出装？"
+  - generic: 发送给TFT助手
+  - textbox "发送给TFT助手":
+    - /placeholder: 询问阵容、装备或机制…
+  - generic: 依据当前资料回答
+  - button "发送消息": ↑
+- button "收起TFT助手" [expanded]:
+  - generic: ✧
+  - generic: TFT助手

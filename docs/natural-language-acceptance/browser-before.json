@@ -1,0 +1,896 @@
+[
+  {
+    "id": "trace_d8a15b9a-e75c-4cbf-b15c-c8aac6e477a7",
+    "mode": "answer",
+    "status": "completed",
+    "createdAt": "2026-10-11T06:49:38.572Z",
+    "expiresAt": "2026-10-11T07:49:38.572Z",
+    "completedAt": "2026-10-11T06:49:46.487Z",
+    "question": "现在查大龙和小法同场，小法带青龙刀，大龙带密银。看大龙完整出装，仍然全部段位、至少1000样本、按前四率给2套。",
+    "versionFilters": {
+      "mode": "natural_language_statistics",
+      "catalog": {
+        "set": 18,
+        "game": "tft",
+        "mutator": "TFTSet18",
+        "language": "zh_cn",
+        "fetchedAt": "2026-10-07T13:39:03.456Z",
+        "gamePatch": null,
+        "assetVersion": "16.20",
+        "rulesVersion": "set18-assets16.20-recipes18.4-v4"
+      },
+      "previousQuery": {
+        "rank": "ALL",
+        "view": "holders",
+        "itemId": "DA_SpearOfShojin",
+        "minSample": 1000,
+        "sort": "top4Rate",
+        "limit": 2
+      },
+      "pageFilter": null
+    },
+    "tools": [
+      {
+        "index": 1,
+        "name": "search_catalog",
+        "phase": "model",
+        "args": {
+          "query": "密银",
+          "kind": "item"
+        },
+        "toolCallId": "call_00_eeVgqtytkuJYr2oEh7ay5357",
+        "startedAt": "2026-10-11T06:49:40.761Z",
+        "completedAt": "2026-10-11T06:49:40.761Z",
+        "durationMs": 0,
+        "status": "ok",
+        "result": {
+          "matched": [
+            {
+              "id": "DA_Artifact_SilvermereDawn",
+              "name": "密银黎明",
+              "type": "item",
+              "category": "artifact"
+            }
+          ],
+          "scope": "current_catalog"
+        },
+        "selection": null,
+        "ranking": {
+          "method": "source_or_catalog_order",
+          "metric": null,
+          "direction": null,
+          "minimumSampleSize": null,
+          "basis": null,
+          "similarityScore": null,
+          "rerankScore": null,
+          "confidenceScore": null,
+          "note": "排序值是来源指标或目录匹配顺序，不是事实可信度；此工具未提供向量或重排分数。"
+        },
+        "contextSegmentId": "C2"
+      },
+      {
+        "index": 2,
+        "name": "query_tft_stats",
+        "phase": "model",
+        "args": {
+          "view": "filter",
+          "rank": "ALL",
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_18_ElderDragon"
+            },
+            {
+              "type": "champion",
+              "id": "DA_18_Veigar"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": "DA_18_Veigar"
+            },
+            {
+              "type": "item",
+              "id": "DA_Artifact_SilvermereDawn",
+              "holderId": "DA_18_ElderDragon"
+            }
+          ],
+          "carrierId": "DA_18_ElderDragon",
+          "resultView": "equipment",
+          "minSample": 1000,
+          "sort": "top4Rate",
+          "limit": 2
+        },
+        "toolCallId": "call_00_GSSOgxgiUsGJhbG38Wmg1237",
+        "startedAt": "2026-10-11T06:49:42.685Z",
+        "completedAt": "2026-10-11T06:49:44.238Z",
+        "durationMs": 1553,
+        "status": "ok",
+        "result": {
+          "status": "ok",
+          "query": {
+            "rank": "ALL",
+            "view": "filter",
+            "conditions": [
+              {
+                "type": "champion",
+                "id": "DA_18_ElderDragon"
+              },
+              {
+                "type": "champion",
+                "id": "DA_18_Veigar"
+              },
+              {
+                "type": "item",
+                "id": "DA_SpearOfShojin",
+                "holderId": "DA_18_Veigar"
+              },
+              {
+                "type": "item",
+                "id": "DA_Artifact_SilvermereDawn",
+                "holderId": "DA_18_ElderDragon"
+              }
+            ],
+            "carrierId": "DA_18_ElderDragon",
+            "resultView": "equipment",
+            "minSample": 1000,
+            "sort": "top4Rate",
+            "limit": 2
+          },
+          "stats": {
+            "winRate": 0,
+            "top4Rate": 0.75,
+            "sampleSize": 4,
+            "avgPlacement": 4
+          },
+          "coverage": {
+            "jointMatchQueries": false,
+            "jointConditions": true,
+            "matchedSamples": 4,
+            "matchedMatches": null,
+            "scope": {
+              "days": 3,
+              "patch": "18.4",
+              "queue": 1100,
+              "ranks": [
+                "BRONZE",
+                "CHALLENGER",
+                "DIAMOND",
+                "EMERALD",
+                "GOLD",
+                "GRANDMASTER",
+                "IRON",
+                "MASTER",
+                "PLATINUM",
+                "SILVER"
+              ],
+              "bPatch": "b",
+              "season": 18,
+              "server": null,
+              "carrierId": "DA_18_ElderDragon",
+              "conditions": [
+                {
+                  "id": "DA_Artifact_SilvermereDawn",
+                  "type": "item",
+                  "holderId": "DA_18_ElderDragon"
+                },
+                {
+                  "id": "DA_SpearOfShojin",
+                  "type": "item",
+                  "holderId": "DA_18_Veigar"
+                },
+                {
+                  "id": "DA_18_ElderDragon",
+                  "type": "champion"
+                },
+                {
+                  "id": "DA_18_Veigar",
+                  "type": "champion"
+                }
+              ],
+              "focusItemId": "DA_Artifact_SilvermereDawn",
+              "adapterVersion": 2
+            },
+            "snapshotId": "4b4870cb181b2b8180c27f117fbe5c58bca1a19876810e96be3e61fadc4fc2b4",
+            "cacheHit": true,
+            "expiresAt": "2026-10-11T06:58:54.504Z",
+            "sourceRows": {
+              "comps": 4,
+              "equipment": 4,
+              "teammates": 19
+            },
+            "exhaustive": false
+          },
+          "reason": null,
+          "querySemantics": "source_aggregate_same_board_conditions",
+          "citation": "[S1]",
+          "sourceEvidence": {
+            "source": "MetaTFT Explorer",
+            "url": "https://www.metatft.com/explorer",
+            "delivery": "mysql",
+            "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+            "snapshotId": "4b4870cb181b2b8180c27f117fbe5c58bca1a19876810e96be3e61fadc4fc2b4",
+            "sourcePatch": null,
+            "requestedPatch": "18.4b",
+            "sourceCurrentPatch": "18.4b",
+            "patchAttribution": {
+              "method": "explicit_request_and_source_metadata",
+              "statisticsResponsePatch": null
+            },
+            "set": 18,
+            "queueId": 1100,
+            "rank": "全部段位",
+            "rankFilter": "ALL",
+            "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+            "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+            "statisticalWindow": {
+              "days": 3,
+              "timeAnchor": "source_relative_window"
+            },
+            "fetchedAt": "2026-10-11T06:48:54.504Z"
+          },
+          "equipment": {
+            "status": "insufficient_samples",
+            "kind": "observed_builds",
+            "reason": "已有对应统计，但没有达到当前最低样本数；可降低样本门槛。",
+            "rows": []
+          },
+          "teammates": {
+            "status": "insufficient_samples",
+            "kind": "joint_teammates",
+            "reason": "已有对应统计，但没有达到当前最低样本数；可降低样本门槛。",
+            "rows": []
+          },
+          "comps": {
+            "status": "insufficient_samples",
+            "reason": "已有对应统计，但没有达到当前最低样本数；可降低样本门槛。",
+            "rows": []
+          }
+        },
+        "selection": {
+          "metric": "top4Rate",
+          "direction": null,
+          "minimumSampleSize": 1000,
+          "mode": "cached_aggregate_row_membership",
+          "matchedRows": null
+        },
+        "ranking": {
+          "method": "source_metric_sort",
+          "metric": "top4Rate",
+          "direction": null,
+          "minimumSampleSize": 1000,
+          "basis": null,
+          "similarityScore": null,
+          "rerankScore": null,
+          "confidenceScore": null,
+          "note": "排序值是来源指标或目录匹配顺序，不是事实可信度；此工具未提供向量或重排分数。"
+        },
+        "contextSegmentId": "C3"
+      }
+    ],
+    "statRows": [
+      {
+        "traceRowId": "T1:R1",
+        "sourceRowId": "DA_Artifact_SilvermereDawn",
+        "sourcePath": "data",
+        "toolIndex": 1,
+        "id": "DA_Artifact_SilvermereDawn",
+        "name": "密银黎明",
+        "kind": null,
+        "championId": null,
+        "itemIds": null,
+        "stats": null,
+        "citation": null,
+        "sourceEvidence": null,
+        "rank": 1,
+        "metricValue": null,
+        "similarityScore": null,
+        "rerankScore": null
+      }
+    ],
+    "modelContext": [
+      {
+        "id": "C1",
+        "kind": "page_context",
+        "phase": "prepare",
+        "content": "{\"rank\":\"PLATINUM_PLUS\",\"catalog\":{\"set\":18,\"game\":\"tft\",\"mutator\":\"TFTSet18\",\"language\":\"zh_cn\",\"fetchedAt\":\"2026-10-07T13:39:03.456Z\",\"gamePatch\":null,\"assetVersion\":\"16.20\",\"rulesVersion\":\"set18-assets16.20-recipes18.4-v4\"},\"page\":\"comps\",\"pageEntity\":null,\"mentions\":[{\"text\":\"大龙\",\"ambiguous\":false,\"candidates\":[{\"type\":\"champion\",\"id\":\"DA_18_ElderDragon\",\"name\":\"远古巨龙\"}]},{\"text\":\"小法\",\"ambiguous\":false,\"candidates\":[{\"type\":\"champion\",\"id\":\"DA_18_Veigar\",\"name\":\"维迦\"}]},{\"text\":\"小法\",\"ambiguous\":false,\"candidates\":[{\"type\":\"champion\",\"id\":\"DA_18_Veigar\",\"name\":\"维迦\"}]},{\"text\":\"青龙刀\",\"ambiguous\":false,\"candidates\":[{\"type\":\"item\",\"id\":\"DA_SpearOfShojin\",\"name\":\"朔极之矛\",\"category\":\"core\"}]},{\"text\":\"大龙\",\"ambiguous\":false,\"candidates\":[{\"type\":\"champion\",\"id\":\"DA_18_ElderDragon\",\"name\":\"远古巨龙\"}]},{\"text\":\"大龙\",\"ambiguous\":false,\"candidates\":[{\"type\":\"champion\",\"id\":\"DA_18_ElderDragon\",\"name\":\"远古巨龙\"}]}],\"pageSelection\":[],\"glossaryStatus\":\"available\",\"glossary\":[\"青龙刀\\n别名：无\\n分类：装备俗称\\n定义：通常指朔极之矛，是讨论法力获取与施法频率时常见的装备外号。\\n例句：问：青龙刀和蓝buff是一个东西吗？\\n例句：答：不是同一件装备。青龙刀通常指朔极之矛；二者的回蓝方式应按对应版本分别看。\\n容易误解：外号不保证名称、配方和回蓝机制跨版本相同；不要套用英雄联盟峡谷装备效果。\\n相关术语：\\n适用范围：云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变\\n证据标记：source_supported；有用法或概念来源不等于官方定义。\\n参考来源：https://www.18183.com/yundingzhiyi/201912/2520057.html；https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-12-notes/\\n核验状态：用户提供参考链接；本次接入未逐条独立复核。\\n本卡仅解释玩家语言。历史机制、英雄是否在场、装备效果和配方必须另查对应赛季，不能用术语卡代替当前统计。\"],\"previousQuery\":{\"rank\":\"ALL\",\"view\":\"holders\",\"itemId\":\"DA_SpearOfShojin\",\"minSample\":1000,\"sort\":\"top4Rate\",\"limit\":2},\"previousEntities\":[],\"pageFilter\":null}",
+        "truncated": false,
+        "redacted": true,
+        "submittedIn": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "C2",
+        "kind": "tool_result",
+        "phase": "model",
+        "toolName": "search_catalog",
+        "content": "{\"matched\":[{\"id\":\"DA_Artifact_SilvermereDawn\",\"name\":\"密银黎明\",\"type\":\"item\",\"category\":\"artifact\"}],\"scope\":\"current_catalog\"}",
+        "truncated": false,
+        "redacted": false,
+        "submittedIn": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": "C3",
+        "kind": "tool_result",
+        "phase": "model",
+        "toolName": "query_tft_stats",
+        "content": "{\"status\":\"ok\",\"query\":{\"rank\":\"ALL\",\"view\":\"filter\",\"conditions\":[{\"type\":\"champion\",\"id\":\"DA_18_ElderDragon\"},{\"type\":\"champion\",\"id\":\"DA_18_Veigar\"},{\"type\":\"item\",\"id\":\"DA_SpearOfShojin\",\"holderId\":\"DA_18_Veigar\"},{\"type\":\"item\",\"id\":\"DA_Artifact_SilvermereDawn\",\"holderId\":\"DA_18_ElderDragon\"}],\"carrierId\":\"DA_18_ElderDragon\",\"resultView\":\"equipment\",\"minSample\":1000,\"sort\":\"top4Rate\",\"limit\":2},\"stats\":{\"winRate\":0,\"top4Rate\":0.75,\"sampleSize\":4,\"avgPlacement\":4},\"coverage\":{\"jointMatchQueries\":false,\"jointConditions\":true,\"matchedSamples\":4,\"matchedMatches\":null,\"scope\":{\"days\":3,\"patch\":\"18.4\",\"queue\":1100,\"ranks\":[\"BRONZE\",\"CHALLENGER\",\"DIAMOND\",\"EMERALD\",\"GOLD\",\"GRANDMASTER\",\"IRON\",\"MASTER\",\"PLATINUM\",\"SILVER\"],\"bPatch\":\"b\",\"season\":18,\"server\":null,\"carrierId\":\"DA_18_ElderDragon\",\"conditions\":[{\"id\":\"DA_Artifact_SilvermereDawn\",\"type\":\"item\",\"holderId\":\"DA_18_ElderDragon\"},{\"id\":\"DA_SpearOfShojin\",\"type\":\"item\",\"holderId\":\"DA_18_Veigar\"},{\"id\":\"DA_18_ElderDragon\",\"type\":\"champion\"},{\"id\":\"DA_18_Veigar\",\"type\":\"champion\"}],\"focusItemId\":\"DA_Artifact_SilvermereDawn\",\"adapterVersion\":2},\"snapshotId\":\"4b4870cb181b2b8180c27f117fbe5c58bca1a19876810e96be3e61fadc4fc2b4\",\"cacheHit\":true,\"expiresAt\":\"2026-10-11T06:58:54.504Z\",\"sourceRows\":{\"comps\":4,\"equipment\":4,\"teammates\":19},\"exhaustive\":false},\"reason\":null,\"querySemantics\":\"source_aggregate_same_board_conditions\",\"citation\":\"[S1]\",\"sourceEvidence\":{\"source\":\"MetaTFT Explorer\",\"url\":\"https://www.metatft.com/explorer\",\"delivery\":\"mysql\",\"releaseId\":\"0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b\",\"snapshotId\":\"4b4870cb181b2b8180c27f117fbe5c58bca1a19876810e96be3e61fadc4fc2b4\",\"sourcePatch\":null,\"requestedPatch\":\"18.4b\",\"sourceCurrentPatch\":\"18.4b\",\"patchAttribution\":{\"method\":\"explicit_request_and_source_metadata\",\"statisticsResponsePatch\":null},\"set\":18,\"queueId\":1100,\"rank\":\"全部段位\",\"rankFilter\":\"ALL\",\"population\":\"MetaTFT 默认地区范围 · 普通排位 · 近 3 天\",\"sampleDenominator\":\"来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。\",\"statisticalWindow\":{\"days\":3,\"timeAnchor\":\"source_relative_window\"},\"fetchedAt\":\"2026-10-11T06:48:54.504Z\"},\"equipment\":{\"status\":\"insufficient_samples\",\"kind\":\"observed_builds\",\"reason\":\"已有对应统计，但没有达到当前最低样本数；可降低样本门槛。\",\"rows\":[]},\"teammates\":{\"status\":\"insufficient_samples\",\"kind\":\"joint_teammates\",\"reason\":\"已有对应统计，但没有达到当前最低样本数；可降低样本门槛。\",\"rows\":[]},\"comps\":{\"status\":\"insufficient_samples\",\"reason\":\"已有对应统计，但没有达到当前最低样本数；可降低样本门槛。\",\"rows\":[]}}",
+        "truncated": false,
+        "redacted": false,
+        "submittedIn": [
+          3
+        ]
+      }
+    ],
+    "modelInputs": [
+      {
+        "turn": 1,
+        "submittedAt": "2026-10-11T06:49:38.581Z",
+        "segmentIds": [
+          "C1"
+        ],
+        "delivery": "passed_to_completion",
+        "providerAccepted": null
+      },
+      {
+        "turn": 2,
+        "submittedAt": "2026-10-11T06:49:40.761Z",
+        "segmentIds": [
+          "C1",
+          "C2"
+        ],
+        "delivery": "passed_to_completion",
+        "providerAccepted": null
+      },
+      {
+        "turn": 3,
+        "submittedAt": "2026-10-11T06:49:44.238Z",
+        "segmentIds": [
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "delivery": "passed_to_completion",
+        "providerAccepted": null
+      }
+    ],
+    "citations": {
+      "retrieved": [
+        {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "4b4870cb181b2b8180c27f117fbe5c58bca1a19876810e96be3e61fadc4fc2b4",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "rank": "全部段位",
+          "rankFilter": "ALL",
+          "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+          "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "fetchedAt": "2026-10-11T06:48:54.504Z",
+          "id": "S1",
+          "type": "statistics",
+          "title": "MetaTFT Explorer · 组合筛选"
+        }
+      ],
+      "cited": [
+        {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "4b4870cb181b2b8180c27f117fbe5c58bca1a19876810e96be3e61fadc4fc2b4",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "rank": "全部段位",
+          "rankFilter": "ALL",
+          "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+          "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "fetchedAt": "2026-10-11T06:48:54.504Z",
+          "id": "S1",
+          "type": "statistics",
+          "title": "MetaTFT Explorer · 组合筛选"
+        }
+      ],
+      "unresolvedIds": []
+    },
+    "budget": {
+      "limit": 4,
+      "executed": 2,
+      "denied": 0,
+      "remaining": 2
+    },
+    "cache": {
+      "reads": [
+        {
+          "toolIndex": 1,
+          "name": "search_catalog",
+          "status": null,
+          "delivery": null,
+          "cacheKey": null,
+          "fetchedAt": null,
+          "sourceTime": null,
+          "sourcePatch": null,
+          "ageSeconds": null
+        },
+        {
+          "toolIndex": 2,
+          "name": "query_tft_stats",
+          "status": "ok",
+          "delivery": "mysql",
+          "cacheKey": null,
+          "fetchedAt": "2026-10-11T06:48:54.504Z",
+          "sourceTime": null,
+          "sourcePatch": null,
+          "ageSeconds": 49
+        }
+      ],
+      "redis": {
+        "status": "not_connected",
+        "hit": null
+      },
+      "onlineRefresh": false,
+      "note": "delivery来自实际工具；未探测Redis命中。ageSeconds按原始采集时间计算，未知时间为null；数据缓存不由本次读取刷新。"
+    },
+    "storageTruncated": false
+  },
+  {
+    "id": "trace_289d5c8e-7037-4867-ac2b-232d424c70f8",
+    "mode": "answer",
+    "status": "completed",
+    "createdAt": "2026-10-11T06:49:08.962Z",
+    "expiresAt": "2026-10-11T07:49:08.962Z",
+    "completedAt": "2026-10-11T06:49:11.951Z",
+    "question": "全部段位青龙刀给谁好？至少1000样本，按前四率给2个。",
+    "versionFilters": {
+      "mode": "natural_language_statistics",
+      "catalog": {
+        "set": 18,
+        "game": "tft",
+        "mutator": "TFTSet18",
+        "language": "zh_cn",
+        "fetchedAt": "2026-10-07T13:39:03.456Z",
+        "gamePatch": null,
+        "assetVersion": "16.20",
+        "rulesVersion": "set18-assets16.20-recipes18.4-v4"
+      },
+      "previousQuery": null,
+      "pageFilter": null
+    },
+    "tools": [
+      {
+        "index": 1,
+        "name": "query_tft_stats",
+        "phase": "model",
+        "args": {
+          "view": "holders",
+          "itemId": "DA_SpearOfShojin",
+          "rank": "ALL",
+          "minSample": 1000,
+          "sort": "top4Rate",
+          "limit": 2
+        },
+        "toolCallId": "call_00_VHiAq6uYNrCREN3XApcf2326",
+        "startedAt": "2026-10-11T06:49:10.104Z",
+        "completedAt": "2026-10-11T06:49:10.113Z",
+        "durationMs": 9,
+        "status": "ok",
+        "result": {
+          "status": "ok",
+          "query": {
+            "rank": "ALL",
+            "view": "holders",
+            "itemId": "DA_SpearOfShojin",
+            "minSample": 1000,
+            "sort": "top4Rate",
+            "limit": 2
+          },
+          "selection": {
+            "matchedRows": 65,
+            "qualifiedRows": 55,
+            "minSample": 1000,
+            "sort": "top4Rate",
+            "limit": 2
+          },
+          "reason": null,
+          "data": [
+            {
+              "id": "DA_Taric18",
+              "championId": "DA_Taric18",
+              "itemId": "DA_SpearOfShojin",
+              "name": "塔里克",
+              "stats": {
+                "winRate": 0.21583601286173631,
+                "pickRate": null,
+                "top4Rate": 0.699959807073955,
+                "sampleSize": 4976,
+                "avgPlacement": 3.4489549839228295
+              },
+              "citation": "[S1]"
+            },
+            {
+              "id": "DA_18_Ivern",
+              "championId": "DA_18_Ivern",
+              "itemId": "DA_SpearOfShojin",
+              "name": "艾翁",
+              "stats": {
+                "winRate": 0.29910561834295474,
+                "pickRate": null,
+                "top4Rate": 0.6669688592568501,
+                "sampleSize": 245980,
+                "avgPlacement": 3.47133100252053
+              },
+              "citation": "[S1]"
+            }
+          ],
+          "sourceEvidence": {
+            "source": "MetaTFT Explorer",
+            "url": "https://www.metatft.com/explorer",
+            "delivery": "mysql",
+            "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+            "snapshotId": "ddce90dbc4df058408b9727c13e935ca2c9f5b749dd453d1b105bfce3794bdfa",
+            "recordHash": "506ab533cb78192c0e1efc710ded074b8f6ad7c9fba10f292059027e2dec2c54",
+            "sourcePatch": null,
+            "requestedPatch": "18.4b",
+            "sourceCurrentPatch": "18.4b",
+            "patchAttribution": {
+              "method": "explicit_request_and_source_metadata",
+              "statisticsResponsePatch": null
+            },
+            "set": 18,
+            "queueId": 1100,
+            "queue": "Ranked",
+            "rank": "全部段位",
+            "rankFilter": "ALL",
+            "population": {
+              "queue": "Ranked",
+              "rank": "全部段位",
+              "rankFilter": "ALL",
+              "region": null
+            },
+            "statisticalWindow": {
+              "days": 3,
+              "timeAnchor": "source_relative_window"
+            },
+            "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+            "fetchedAt": "2026-10-11T05:54:37.803Z",
+            "expiresAt": "2026-10-11T11:54:37.803Z",
+            "statisticsKind": "item_holder_first_occurrence",
+            "sourceReturnedRows": 182,
+            "exhaustive": false
+          },
+          "citation": "[S1]",
+          "note": "仅比较来源已返回的对应统计行。"
+        },
+        "selection": {
+          "matchedRows": 65,
+          "qualifiedRows": 55,
+          "minSample": 1000,
+          "sort": "top4Rate",
+          "limit": 2
+        },
+        "ranking": {
+          "method": "source_or_catalog_order",
+          "metric": null,
+          "direction": null,
+          "minimumSampleSize": null,
+          "basis": null,
+          "similarityScore": null,
+          "rerankScore": null,
+          "confidenceScore": null,
+          "note": "排序值是来源指标或目录匹配顺序，不是事实可信度；此工具未提供向量或重排分数。"
+        },
+        "contextSegmentId": "C2"
+      }
+    ],
+    "statRows": [
+      {
+        "traceRowId": "T1:R1",
+        "sourceRowId": "DA_Taric18",
+        "sourcePath": "data",
+        "toolIndex": 1,
+        "id": "DA_Taric18",
+        "name": "塔里克",
+        "kind": null,
+        "championId": "DA_Taric18",
+        "itemIds": null,
+        "stats": {
+          "winRate": 0.21583601286173631,
+          "pickRate": null,
+          "top4Rate": 0.699959807073955,
+          "sampleSize": 4976,
+          "avgPlacement": 3.4489549839228295
+        },
+        "citation": "[S1]",
+        "sourceEvidence": {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "ddce90dbc4df058408b9727c13e935ca2c9f5b749dd453d1b105bfce3794bdfa",
+          "recordHash": "506ab533cb78192c0e1efc710ded074b8f6ad7c9fba10f292059027e2dec2c54",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "queue": "Ranked",
+          "rank": "全部段位",
+          "rankFilter": "ALL",
+          "population": {
+            "queue": "Ranked",
+            "rank": "全部段位",
+            "rankFilter": "ALL",
+            "region": null
+          },
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+          "fetchedAt": "2026-10-11T05:54:37.803Z",
+          "expiresAt": "2026-10-11T11:54:37.803Z",
+          "statisticsKind": "item_holder_first_occurrence",
+          "sourceReturnedRows": 182,
+          "exhaustive": false
+        },
+        "rank": 1,
+        "metricValue": null,
+        "similarityScore": null,
+        "rerankScore": null
+      },
+      {
+        "traceRowId": "T1:R2",
+        "sourceRowId": "DA_18_Ivern",
+        "sourcePath": "data",
+        "toolIndex": 1,
+        "id": "DA_18_Ivern",
+        "name": "艾翁",
+        "kind": null,
+        "championId": "DA_18_Ivern",
+        "itemIds": null,
+        "stats": {
+          "winRate": 0.29910561834295474,
+          "pickRate": null,
+          "top4Rate": 0.6669688592568501,
+          "sampleSize": 245980,
+          "avgPlacement": 3.47133100252053
+        },
+        "citation": "[S1]",
+        "sourceEvidence": {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "ddce90dbc4df058408b9727c13e935ca2c9f5b749dd453d1b105bfce3794bdfa",
+          "recordHash": "506ab533cb78192c0e1efc710ded074b8f6ad7c9fba10f292059027e2dec2c54",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "queue": "Ranked",
+          "rank": "全部段位",
+          "rankFilter": "ALL",
+          "population": {
+            "queue": "Ranked",
+            "rank": "全部段位",
+            "rankFilter": "ALL",
+            "region": null
+          },
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+          "fetchedAt": "2026-10-11T05:54:37.803Z",
+          "expiresAt": "2026-10-11T11:54:37.803Z",
+          "statisticsKind": "item_holder_first_occurrence",
+          "sourceReturnedRows": 182,
+          "exhaustive": false
+        },
+        "rank": 2,
+        "metricValue": null,
+        "similarityScore": null,
+        "rerankScore": null
+      }
+    ],
+    "modelContext": [
+      {
+        "id": "C1",
+        "kind": "page_context",
+        "phase": "prepare",
+        "content": "{\"rank\":\"PLATINUM_PLUS\",\"catalog\":{\"set\":18,\"game\":\"tft\",\"mutator\":\"TFTSet18\",\"language\":\"zh_cn\",\"fetchedAt\":\"2026-10-07T13:39:03.456Z\",\"gamePatch\":null,\"assetVersion\":\"16.20\",\"rulesVersion\":\"set18-assets16.20-recipes18.4-v4\"},\"page\":\"comps\",\"pageEntity\":null,\"mentions\":[{\"text\":\"青龙刀\",\"ambiguous\":false,\"candidates\":[{\"type\":\"item\",\"id\":\"DA_SpearOfShojin\",\"name\":\"朔极之矛\",\"category\":\"core\"}]}],\"pageSelection\":[],\"glossaryStatus\":\"available\",\"glossary\":[\"青龙刀\\n别名：无\\n分类：装备俗称\\n定义：通常指朔极之矛，是讨论法力获取与施法频率时常见的装备外号。\\n例句：问：青龙刀和蓝buff是一个东西吗？\\n例句：答：不是同一件装备。青龙刀通常指朔极之矛；二者的回蓝方式应按对应版本分别看。\\n容易误解：外号不保证名称、配方和回蓝机制跨版本相同；不要套用英雄联盟峡谷装备效果。\\n相关术语：\\n适用范围：云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变\\n证据标记：source_supported；有用法或概念来源不等于官方定义。\\n参考来源：https://www.18183.com/yundingzhiyi/201912/2520057.html；https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-12-notes/\\n核验状态：用户提供参考链接；本次接入未逐条独立复核。\\n本卡仅解释玩家语言。历史机制、英雄是否在场、装备效果和配方必须另查对应赛季，不能用术语卡代替当前统计。\"],\"previousQuery\":null,\"previousEntities\":[],\"pageFilter\":null}",
+        "truncated": false,
+        "redacted": true,
+        "submittedIn": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": "C2",
+        "kind": "tool_result",
+        "phase": "model",
+        "toolName": "query_tft_stats",
+        "content": "{\"status\":\"ok\",\"query\":{\"rank\":\"ALL\",\"view\":\"holders\",\"itemId\":\"DA_SpearOfShojin\",\"minSample\":1000,\"sort\":\"top4Rate\",\"limit\":2},\"selection\":{\"matchedRows\":65,\"qualifiedRows\":55,\"minSample\":1000,\"sort\":\"top4Rate\",\"limit\":2},\"reason\":null,\"data\":[{\"id\":\"DA_Taric18\",\"championId\":\"DA_Taric18\",\"itemId\":\"DA_SpearOfShojin\",\"name\":\"塔里克\",\"stats\":{\"winRate\":0.21583601286173631,\"pickRate\":null,\"top4Rate\":0.699959807073955,\"sampleSize\":4976,\"avgPlacement\":3.4489549839228295},\"citation\":\"[S1]\"},{\"id\":\"DA_18_Ivern\",\"championId\":\"DA_18_Ivern\",\"itemId\":\"DA_SpearOfShojin\",\"name\":\"艾翁\",\"stats\":{\"winRate\":0.29910561834295474,\"pickRate\":null,\"top4Rate\":0.6669688592568501,\"sampleSize\":245980,\"avgPlacement\":3.47133100252053},\"citation\":\"[S1]\"}],\"sourceEvidence\":{\"source\":\"MetaTFT Explorer\",\"url\":\"https://www.metatft.com/explorer\",\"delivery\":\"mysql\",\"releaseId\":\"0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b\",\"snapshotId\":\"ddce90dbc4df058408b9727c13e935ca2c9f5b749dd453d1b105bfce3794bdfa\",\"recordHash\":\"506ab533cb78192c0e1efc710ded074b8f6ad7c9fba10f292059027e2dec2c54\",\"sourcePatch\":null,\"requestedPatch\":\"18.4b\",\"sourceCurrentPatch\":\"18.4b\",\"patchAttribution\":{\"method\":\"explicit_request_and_source_metadata\",\"statisticsResponsePatch\":null},\"set\":18,\"queueId\":1100,\"queue\":\"Ranked\",\"rank\":\"全部段位\",\"rankFilter\":\"ALL\",\"population\":{\"queue\":\"Ranked\",\"rank\":\"全部段位\",\"rankFilter\":\"ALL\",\"region\":null},\"statisticalWindow\":{\"days\":3,\"timeAnchor\":\"source_relative_window\"},\"sampleDenominator\":\"来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。\",\"fetchedAt\":\"2026-10-11T05:54:37.803Z\",\"expiresAt\":\"2026-10-11T11:54:37.803Z\",\"statisticsKind\":\"item_holder_first_occurrence\",\"sourceReturnedRows\":182,\"exhaustive\":false},\"citation\":\"[S1]\",\"note\":\"仅比较来源已返回的对应统计行。\"}",
+        "truncated": false,
+        "redacted": false,
+        "submittedIn": [
+          2
+        ]
+      }
+    ],
+    "modelInputs": [
+      {
+        "turn": 1,
+        "submittedAt": "2026-10-11T06:49:08.971Z",
+        "segmentIds": [
+          "C1"
+        ],
+        "delivery": "passed_to_completion",
+        "providerAccepted": null
+      },
+      {
+        "turn": 2,
+        "submittedAt": "2026-10-11T06:49:10.114Z",
+        "segmentIds": [
+          "C1",
+          "C2"
+        ],
+        "delivery": "passed_to_completion",
+        "providerAccepted": null
+      }
+    ],
+    "citations": {
+      "retrieved": [
+        {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "ddce90dbc4df058408b9727c13e935ca2c9f5b749dd453d1b105bfce3794bdfa",
+          "recordHash": "506ab533cb78192c0e1efc710ded074b8f6ad7c9fba10f292059027e2dec2c54",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "queue": "Ranked",
+          "rank": "全部段位",
+          "rankFilter": "ALL",
+          "population": {
+            "queue": "Ranked",
+            "rank": "全部段位",
+            "rankFilter": "ALL",
+            "region": null
+          },
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+          "fetchedAt": "2026-10-11T05:54:37.803Z",
+          "expiresAt": "2026-10-11T11:54:37.803Z",
+          "statisticsKind": "item_holder_first_occurrence",
+          "sourceReturnedRows": 182,
+          "exhaustive": false,
+          "id": "S1",
+          "type": "statistics",
+          "title": "MetaTFT Explorer · 装备携带者"
+        }
+      ],
+      "cited": [
+        {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "ddce90dbc4df058408b9727c13e935ca2c9f5b749dd453d1b105bfce3794bdfa",
+          "recordHash": "506ab533cb78192c0e1efc710ded074b8f6ad7c9fba10f292059027e2dec2c54",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "queue": "Ranked",
+          "rank": "全部段位",
+          "rankFilter": "ALL",
+          "population": {
+            "queue": "Ranked",
+            "rank": "全部段位",
+            "rankFilter": "ALL",
+            "region": null
+          },
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+          "fetchedAt": "2026-10-11T05:54:37.803Z",
+          "expiresAt": "2026-10-11T11:54:37.803Z",
+          "statisticsKind": "item_holder_first_occurrence",
+          "sourceReturnedRows": 182,
+          "exhaustive": false,
+          "id": "S1",
+          "type": "statistics",
+          "title": "MetaTFT Explorer · 装备携带者"
+        }
+      ],
+      "unresolvedIds": []
+    },
+    "budget": {
+      "limit": 4,
+      "executed": 1,
+      "denied": 0,
+      "remaining": 3
+    },
+    "cache": {
+      "reads": [
+        {
+          "toolIndex": 1,
+          "name": "query_tft_stats",
+          "status": "ok",
+          "delivery": "mysql",
+          "cacheKey": null,
+          "fetchedAt": "2026-10-11T05:54:37.803Z",
+          "sourceTime": null,
+          "sourcePatch": null,
+          "ageSeconds": 3272
+        }
+      ],
+      "redis": {
+        "status": "not_connected",
+        "hit": null
+      },
+      "onlineRefresh": false,
+      "note": "delivery来自实际工具；未探测Redis命中。ageSeconds按原始采集时间计算，未知时间为null；数据缓存不由本次读取刷新。"
+    },
+    "storageTruncated": false
+  }
+]

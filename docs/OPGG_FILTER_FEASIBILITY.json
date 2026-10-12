@@ -1,0 +1,402 @@
+{
+  "checkedAt": "2026-10-11T04:33:58.319Z",
+  "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+  "currentPatch": "18.4",
+  "item": {
+    "id": "DA_Artifact_SilvermereDawn",
+    "name": "密银黎明"
+  },
+  "execution": {
+    "mysqlTransaction": "READ ONLY, REPEATABLE READ",
+    "sqlMutationStatements": false,
+    "providerCalls": false,
+    "productionRoutingChanged": false,
+    "browserAcceptancePerformed": false
+  },
+  "snapshots": {
+    "totalOpgg": 204,
+    "statistics": 202,
+    "groups": [
+      {
+        "tool": "tft_get_champion_item_build",
+        "snapshots": 74,
+        "liveSnapshots": 74,
+        "rawRows": 24604,
+        "rowFields": [
+          "avgPlacement",
+          "characterId",
+          "itemCount",
+          "itemNames",
+          "top4Count",
+          "top4Rate",
+          "totalChampionCount",
+          "winCount",
+          "winRate"
+        ],
+        "snapshotsWithDeclaredPatch": 0
+      },
+      {
+        "tool": "tft_list_champions_for_item",
+        "snapshots": 127,
+        "liveSnapshots": 126,
+        "rawRows": 2458,
+        "rowFields": [
+          "avgPlacement",
+          "characterId",
+          "top4Count",
+          "top4Rate",
+          "totalCount",
+          "winCount",
+          "winRate"
+        ],
+        "snapshotsWithDeclaredPatch": 0
+      },
+      {
+        "tool": "tft_list_meta_decks",
+        "snapshots": 1,
+        "liveSnapshots": 1,
+        "rawRows": 10,
+        "rowFields": [
+          "badge",
+          "cost",
+          "early",
+          "id",
+          "middle",
+          "name",
+          "stat",
+          "teamCode",
+          "traits",
+          "units"
+        ],
+        "snapshotsWithDeclaredPatch": 0
+      }
+    ]
+  },
+  "sql": {
+    "file": "scripts/sql/opgg-filter-candidates.sql",
+    "holderParams": [
+      "opgg:4f10f7fdbfedf7a0d44083f0b368c2e1fb8bafbcdc24c378984fb2632bfb5163",
+      "18.4",
+      100
+    ],
+    "buildParams": [
+      "opgg:ccb1d1a7053b159331d2d622824131931e3684940130cdb80b3c8f1926a6ed22",
+      "18.4",
+      "DA_Nidalee18_AP",
+      "DA_Artifact_SilvermereDawn",
+      100
+    ],
+    "holderCandidateRows": 5,
+    "buildCandidateRows": 3,
+    "holderRows": [
+      {
+        "championId": "DA_18_ElderDragon",
+        "name": "远古巨龙",
+        "stats": {
+          "sampleSize": 753,
+          "avgPlacement": 3.4,
+          "top4Rate": 0.6773,
+          "winRate": 0.3041,
+          "pickRate": null
+        }
+      },
+      {
+        "championId": "DA_18_GnarSmall",
+        "name": "纳尔",
+        "stats": {
+          "sampleSize": 126,
+          "avgPlacement": 3.71,
+          "top4Rate": 0.627,
+          "winRate": 0.2381,
+          "pickRate": null
+        }
+      },
+      {
+        "championId": "DA_Nidalee18_AP",
+        "name": "奈德丽",
+        "stats": {
+          "sampleSize": 1140,
+          "avgPlacement": 3.82,
+          "top4Rate": 0.6491,
+          "winRate": 0.1351,
+          "pickRate": null
+        }
+      },
+      {
+        "championId": "DA_18_Camille",
+        "name": "卡蜜尔",
+        "stats": {
+          "sampleSize": 256,
+          "avgPlacement": 4.13,
+          "top4Rate": 0.5977,
+          "winRate": 0.1055,
+          "pickRate": null
+        }
+      },
+      {
+        "championId": "DA_Brambleback18",
+        "name": "绯红印记树怪",
+        "stats": {
+          "sampleSize": 188,
+          "avgPlacement": 4.71,
+          "top4Rate": 0.4096,
+          "winRate": 0.0904,
+          "pickRate": null
+        }
+      }
+    ],
+    "completeBuilds": [
+      {
+        "championId": "DA_Nidalee18_AP",
+        "itemIds": [
+          "DA_Artifact_SilvermereDawn",
+          "DA_BlueBuff",
+          "DA_SteraksGage"
+        ],
+        "itemNames": [
+          "密银黎明",
+          "蓝霸符",
+          "斯特拉克的挑战护手"
+        ],
+        "name": "奈德丽",
+        "stats": {
+          "sampleSize": 214,
+          "avgPlacement": 3.47,
+          "top4Rate": 0.7336,
+          "winRate": 0.1495,
+          "pickRate": null
+        }
+      },
+      {
+        "championId": "DA_Nidalee18_AP",
+        "itemIds": [
+          "DA_Artifact_SilvermereDawn",
+          "DA_InfinityEdge",
+          "DA_SpearOfShojin"
+        ],
+        "itemNames": [
+          "密银黎明",
+          "无尽之刃",
+          "朔极之矛"
+        ],
+        "name": "奈德丽",
+        "stats": {
+          "sampleSize": 162,
+          "avgPlacement": 3.67,
+          "top4Rate": 0.679,
+          "winRate": 0.1481,
+          "pickRate": null
+        }
+      },
+      {
+        "championId": "DA_Nidalee18_AP",
+        "itemIds": [
+          "DA_Artifact_SilvermereDawn",
+          "DA_InfinityEdge",
+          "DA_SteraksGage"
+        ],
+        "itemNames": [
+          "密银黎明",
+          "无尽之刃",
+          "斯特拉克的挑战护手"
+        ],
+        "name": "奈德丽",
+        "stats": {
+          "sampleSize": 101,
+          "avgPlacement": 3.73,
+          "top4Rate": 0.6733,
+          "winRate": 0.1485,
+          "pickRate": null
+        }
+      }
+    ],
+    "buildSelectionAfterSqlMinimum": {
+      "mode": "observed_conditional_three_item_builds",
+      "metric": "avgPlacement",
+      "direction": "asc",
+      "minimumSampleSize": 100,
+      "matchedRows": 3,
+      "qualifiedRows": 3,
+      "statisticScope": "champion_occurrences_with_exact_three_item_build",
+      "samplesCombined": false
+    },
+    "checks": {
+      "holderSqlMatchesPublishedApi": true,
+      "selectedBuildSqlMatchesPublishedApi": true,
+      "wrongPatchEmpty": true,
+      "missingSnapshotEmpty": true
+    }
+  },
+  "api": {
+    "holders": {
+      "allRows": 9,
+      "qualifiedRows": 5,
+      "evidence": {
+        "source": "OP.GG MCP",
+        "delivery": "mysql",
+        "sourcePatch": null,
+        "assignedPatch": "18.4",
+        "effectivePatch": "18.4",
+        "fetchedAt": "2026-10-07T14:43:37.393Z",
+        "sampleDenominator": null
+      }
+    },
+    "builds": {
+      "status": "ok",
+      "selection": {
+        "mode": "observed_conditional_three_item_builds",
+        "metric": "avgPlacement",
+        "direction": "asc",
+        "minimumSampleSize": 100,
+        "matchedRows": 14,
+        "qualifiedRows": 3,
+        "statisticScope": "champion_occurrences_with_exact_three_item_build",
+        "samplesCombined": false
+      },
+      "evidence": {
+        "source": "OP.GG MCP",
+        "delivery": "mysql",
+        "sourcePatch": null,
+        "assignedPatch": "18.4",
+        "effectivePatch": "18.4",
+        "fetchedAt": "2026-10-07T14:47:09.119Z",
+        "sampleDenominator": null
+      }
+    },
+    "research": {
+      "schemaVersion": 2,
+      "status": "ok",
+      "coverage": {
+        "jointMatchQueries": true,
+        "sourceMatches": 36,
+        "matchedMatches": 3,
+        "matchedParticipants": 4,
+        "currentPatch": "18.4"
+      },
+      "columns": {
+        "equipment": {
+          "status": "ok",
+          "rows": 12,
+          "reason": null,
+          "evidence": {
+            "source": "Riot Games Match API",
+            "delivery": "mysql",
+            "sourcePatch": null,
+            "assignedPatch": "18.4",
+            "effectivePatch": "18.4",
+            "fetchedAt": "2026-10-09T16:11:13.272Z",
+            "sampleDenominator": "每个组合内去重的玩家终局记录；不同组合可能重叠。"
+          }
+        },
+        "teammates": {
+          "status": "ok",
+          "rows": 21,
+          "reason": null,
+          "evidence": {
+            "source": "Riot Games Match API",
+            "delivery": "mysql",
+            "sourcePatch": null,
+            "assignedPatch": "18.4",
+            "effectivePatch": "18.4",
+            "fetchedAt": "2026-10-09T16:11:13.272Z",
+            "sampleDenominator": "每个组合内去重的玩家终局记录；不同组合可能重叠。"
+          }
+        },
+        "comps": {
+          "status": "ok",
+          "rows": 4,
+          "reason": null,
+          "evidence": {
+            "source": "Riot Games Match API",
+            "delivery": "mysql",
+            "sourcePatch": null,
+            "assignedPatch": "18.4",
+            "effectivePatch": "18.4",
+            "fetchedAt": "2026-10-09T16:11:13.272Z",
+            "sampleDenominator": "每个组合内去重的玩家终局记录；不同组合可能重叠。"
+          }
+        }
+      }
+    },
+    "riot": {
+      "matches": {
+        "total": 87,
+        "readyCurrent": 36,
+        "quarantined": 51,
+        "otherPatch": 0
+      },
+      "participantsCurrent": 288,
+      "latestFetchedAt": "2026-10-09T16:15:53.275Z",
+      "worker": {
+        "status": "failed",
+        "lastAttemptAt": "2026-10-11T04:08:41.954Z",
+        "nextRunAt": "2026-10-12T04:08:41.954Z",
+        "errorCode": "RIOT_AUTHENTICATION_FAILED"
+      },
+      "lastJob": {
+        "status": "failed",
+        "updatedAt": "2026-10-11T04:08:41.944Z",
+        "pendingCount": 4
+      },
+      "patchAttribution": "比赛时间推定主补丁；热修未知"
+    },
+    "comps": {
+      "status": "ready",
+      "rows": 10,
+      "evidence": {
+        "source": "OP.GG MCP",
+        "delivery": "mysql",
+        "sourcePatch": null,
+        "assignedPatch": "18.4",
+        "effectivePatch": "18.4",
+        "fetchedAt": "2026-10-07T13:36:26.808Z",
+        "sampleDenominator": null
+      }
+    },
+    "explorerUnits": {
+      "status": "cached",
+      "rows": 74,
+      "evidence": {
+        "source": "Tactics.tools",
+        "delivery": "version_cache",
+        "sourcePatch": "18.4",
+        "assignedPatch": null,
+        "effectivePatch": "18.4",
+        "fetchedAt": "2026-10-07T19:44:17.585Z",
+        "sampleDenominator": "source statsData.units[unitId].count (unit occurrences)"
+      }
+    },
+    "explorerEquipment": {
+      "status": "cached",
+      "rows": 126,
+      "evidence": {
+        "source": "Tactics.tools",
+        "delivery": "version_cache",
+        "sourcePatch": "18.4",
+        "assignedPatch": null,
+        "effectivePatch": "18.4",
+        "fetchedAt": "2026-10-07T19:44:18.051Z",
+        "sampleDenominator": "source statsData.items[rowIndex].count (item occurrences)"
+      }
+    },
+    "explorerHolders": {
+      "status": "cached",
+      "rows": 2458,
+      "evidence": {
+        "source": "OP.GG MCP",
+        "delivery": "mysql",
+        "sourcePatch": null,
+        "assignedPatch": "18.4",
+        "effectivePatch": "18.4",
+        "fetchedAt": "2026-10-07T14:38:49.759Z",
+        "sampleDenominator": null
+      }
+    }
+  },
+  "limitations": [
+    "OP.GG sample counts are source aggregate occurrences, not matches stored in this database.",
+    "Build and holder rows do not identify matches, participants, or teammates.",
+    "SQL examples do not implement arbitrary joint conditions or the frontend.",
+    "Inferred patches remain inferred; source rank, region, and sampling window are unknown."
+  ]
+}

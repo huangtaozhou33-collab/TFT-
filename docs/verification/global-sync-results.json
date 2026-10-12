@@ -1,0 +1,107 @@
+{
+  "checkedAt": "2026-10-11T10:21:12.573Z",
+  "jobs": [
+    {
+      "id": "meta-comps",
+      "status": "success",
+      "enabled": true,
+      "intervalHours": 24,
+      "lastStartedAt": 1791711754149,
+      "lastFinishedAt": 1791711769027,
+      "progress": {
+        "empty": 0,
+        "errors": [],
+        "failed": 0,
+        "target": 12,
+        "changed": 12,
+        "completed": 12,
+        "unchanged": 0,
+        "sourcePatch": null,
+        "requestedPatch": "18.4b"
+      }
+    },
+    {
+      "id": "meta-overall",
+      "status": "success",
+      "enabled": true,
+      "intervalHours": 24,
+      "lastStartedAt": 1791711769148,
+      "lastFinishedAt": 1791711779002,
+      "progress": {
+        "empty": 0,
+        "errors": [],
+        "failed": 0,
+        "target": 12,
+        "changed": 12,
+        "completed": 12,
+        "unchanged": 0,
+        "sourcePatch": null,
+        "requestedPatch": "18.4b"
+      }
+    },
+    {
+      "id": "meta-builds",
+      "status": "partial",
+      "enabled": true,
+      "intervalHours": 24,
+      "lastStartedAt": 1791711784148,
+      "lastFinishedAt": 1791712473954,
+      "progress": {
+        "empty": 108,
+        "errors": [
+          {
+            "code": "METATFT_UNAVAILABLE",
+            "kind": "builds",
+            "rank": "ALL",
+            "entityId": "DA_Sentinel18",
+            "httpStatus": 500
+          }
+        ],
+        "failed": 1,
+        "target": 888,
+        "changed": 887,
+        "completed": 888,
+        "unchanged": 0,
+        "sourcePatch": null,
+        "requestedPatch": "18.4b"
+      }
+    },
+    {
+      "id": "meta-holders",
+      "status": "success",
+      "enabled": true,
+      "intervalHours": 24,
+      "lastStartedAt": 1791712474128,
+      "lastFinishedAt": 1791713308685,
+      "progress": {
+        "empty": 12,
+        "errors": [],
+        "failed": 0,
+        "target": 1644,
+        "changed": 1644,
+        "completed": 1644,
+        "unchanged": 0,
+        "sourcePatch": null,
+        "requestedPatch": "18.4b"
+      }
+    },
+    {
+      "id": "opgg-reference",
+      "status": "success",
+      "enabled": true,
+      "intervalHours": 24,
+      "lastStartedAt": 1791713314102,
+      "lastFinishedAt": 1791714047831,
+      "progress": {
+        "scope": "source_defined",
+        "failed": 0,
+        "target": 202,
+        "changed": 196,
+        "completed": 202,
+        "unchanged": 5,
+        "sourcePatch": null,
+        "unsupported": 1
+      }
+    }
+  ]
+}

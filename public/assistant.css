@@ -1,0 +1,92 @@
+/* The assistant floats independently of the current page and its layout. */
+#assistant-panel.expanded{top:22px;width:min(940px,calc(100vw - 48px));height:auto;max-height:calc(100dvh - 110px)}
+#assistant-panel #chat-expand{width:auto;min-width:44px;white-space:nowrap;font-size:12px}
+#assistant-panel.expanded .chat-log{padding:22px 30px}
+#assistant-panel.expanded .chat-message{max-width:100%}
+#assistant-panel.expanded .chat-card-team.composition{grid-template-columns:repeat(auto-fit,minmax(72px,1fr))}
+#assistant-panel.expanded .chat-card-metrics dd{font-size:22px}
+@media(max-width:600px){#assistant-panel.expanded{width:calc(100vw - 20px);right:10px}#assistant-panel.expanded .chat-log{padding:12px}#assistant-panel.expanded .chat-card-team.composition{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.app-shell {
+  --assistant-edge: 24px;
+  --assistant-bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+}
+#content-layout { grid-template-columns: minmax(0, 1fr); }
+
+.assistant-launcher {
+  position: fixed;
+  right: var(--assistant-edge);
+  bottom: var(--assistant-bottom);
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 48px;
+  padding: 8px 18px 8px 12px;
+  border: 1px solid var(--accent-line);
+  border-radius: 28px;
+  background: linear-gradient(125deg, var(--accent-raised), var(--accent-surface));
+  box-shadow: 0 8px 28px var(--shadow-color);
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 500;
+  transition: border-color .16s, background .16s;
+}
+.assistant-launcher:hover { border-color: var(--green); background: var(--accent-raised); }
+.assistant-launcher[aria-expanded="true"] { border-color: var(--accent-line); }
+.assistant-launcher-symbol { font-size: 27px; line-height: 1; color: var(--green); }
+
+#assistant-panel {
+  position: fixed;
+  inset: auto var(--assistant-edge) calc(var(--assistant-bottom) + 64px) auto;
+  z-index: 50;
+  width: min(420px, calc(100% - var(--assistant-edge) - var(--assistant-edge)));
+  height: min(660px, calc(100dvh - var(--assistant-bottom) - 88px));
+  min-height: 0;
+  max-height: calc(100dvh - var(--assistant-bottom) - 88px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--accent-line);
+  border-radius: 16px;
+  background: var(--surface-sunken);
+  box-shadow: 0 18px 65px var(--shadow-color);
+  animation: arrive .18s ease;
+}
+#assistant-panel[hidden] { display: none; }
+#assistant-panel .assistant-heading { padding: 15px 17px; flex-shrink: 0; }
+#assistant-panel .assistant-heading-actions { margin-left: auto; display: flex; gap: 4px; }
+#assistant-panel .assistant-heading .icon-button { margin-left: 0; }
+#assistant-panel .assistant-context { padding: 11px 17px; flex-shrink: 0; }
+#assistant-panel .assistant-context #chat-context { margin-top: 3px; }
+#assistant-panel .chat-log { min-height: 0; padding: 17px; overscroll-behavior: contain; }
+#assistant-panel .chat-bottom { padding: 12px 15px 14px; flex-shrink: 0; }
+
+@media (max-width: 760px) {
+  .app-shell {
+    --assistant-edge: 16px;
+    --assistant-bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  }
+}
+@media (max-height: 820px) {
+  #assistant-panel .assistant-heading { padding: 10px 15px; }
+  #assistant-panel .assistant-context { padding: 7px 15px; }
+  #assistant-panel .assistant-context .eyebrow,
+  #assistant-panel #chat-context-detail,
+  #assistant-panel .chat-disclaimer { display: none; }
+  #assistant-panel .chat-log { padding: 12px 15px; gap: 14px; }
+  #assistant-panel .chat-bottom { padding: 9px 12px; }
+  #assistant-panel .chat-suggestions { margin-bottom: 6px; }
+  #assistant-panel textarea { height: 48px; min-height: 48px; max-height: 80px; padding: 8px 10px; }
+}
+@media (max-height: 600px) {
+  #assistant-panel .assistant-heading { padding: 10px 15px; }
+  #assistant-panel .assistant-context,
+  #assistant-panel .chat-suggestions,
+  #assistant-panel .chat-disclaimer { display: none; }
+  #assistant-panel .chat-bottom { padding: 9px 12px; }
+  #assistant-panel textarea { min-height: 44px; padding: 8px 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #assistant-panel { animation: none; }
+  .assistant-launcher { transition: none; }
+}

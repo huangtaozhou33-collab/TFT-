@@ -1,0 +1,33 @@
+# Build context whitelist. Credentials and local development files never enter it.
+**
+!package.json
+!package-lock.json
+!server/
+!server/**
+!public/
+!public/**
+!scripts/
+!scripts/**
+!data/
+!data/**
+**/.env
+**/.env.*
+**/.git/**
+**/.codex/**
+**/.agents/**
+**/node_modules/**
+**/tmp/**
+**/secrets/**
+**/*credentials*
+**/*.pem
+**/*.key
+**/*.log
+**/__pycache__/**
+data/raw/**
+data/**/raw/**
+data/**/pending/**
+data/**/sync.lock.json
+data/**/*.next.json
+# The distributable seed pack contains verified current snapshot payloads.
+# Keep processed manifests for the legacy source-asset diagnostics.
+data/stats/**/snapshots/**

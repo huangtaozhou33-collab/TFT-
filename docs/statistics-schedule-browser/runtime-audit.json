@@ -1,0 +1,149 @@
+{
+  "checkedAt": "2026-10-11T08:02:20.271Z",
+  "versions": [
+    {
+      "version": 1
+    },
+    {
+      "version": 2
+    },
+    {
+      "version": 3
+    },
+    {
+      "version": 4
+    },
+    {
+      "version": 5
+    },
+    {
+      "version": 6
+    },
+    {
+      "version": 7
+    },
+    {
+      "version": 8
+    }
+  ],
+  "jobs": [
+    {
+      "id": "meta-builds",
+      "enabled": 1,
+      "interval_hours": 24,
+      "status": "scheduled",
+      "progress": null
+    },
+    {
+      "id": "meta-comps",
+      "enabled": 1,
+      "interval_hours": 24,
+      "status": "success",
+      "progress": {
+        "empty": 0,
+        "errors": [],
+        "failed": 0,
+        "target": 12,
+        "changed": 12,
+        "completed": 12,
+        "unchanged": 0,
+        "sourcePatch": null,
+        "requestedPatch": "18.4b"
+      }
+    },
+    {
+      "id": "meta-holders",
+      "enabled": 1,
+      "interval_hours": 24,
+      "status": "scheduled",
+      "progress": null
+    },
+    {
+      "id": "meta-overall",
+      "enabled": 1,
+      "interval_hours": 24,
+      "status": "scheduled",
+      "progress": null
+    },
+    {
+      "id": "opgg-reference",
+      "enabled": 1,
+      "interval_hours": 24,
+      "status": "running",
+      "progress": {
+        "scope": "source_defined",
+        "failed": 0,
+        "target": 202,
+        "changed": 1,
+        "completed": 10,
+        "unchanged": 9,
+        "sourcePatch": null,
+        "unsupported": 0
+      }
+    }
+  ],
+  "runs": [
+    {
+      "job_id": "opgg-reference",
+      "status": "running",
+      "started_at": 1791705689049,
+      "finished_at": null,
+      "report": {
+        "scope": "source_defined",
+        "failed": 0,
+        "target": 202,
+        "changed": 1,
+        "completed": 10,
+        "unchanged": 9,
+        "sourcePatch": null,
+        "unsupported": 0
+      }
+    },
+    {
+      "job_id": "opgg-reference",
+      "status": "interrupted",
+      "started_at": 1791705441327,
+      "finished_at": 1791705689033,
+      "report": {
+        "scope": "source_defined",
+        "failed": 0,
+        "target": 202,
+        "changed": 60,
+        "completed": 60,
+        "unchanged": 0,
+        "sourcePatch": null,
+        "unsupported": 0
+      }
+    },
+    {
+      "job_id": "meta-comps",
+      "status": "success",
+      "started_at": 1791705381329,
+      "finished_at": 1791705395571,
+      "report": {
+        "empty": 0,
+        "errors": [],
+        "failed": 0,
+        "target": 12,
+        "changed": 12,
+        "completed": 12,
+        "unchanged": 0,
+        "sourcePatch": null,
+        "requestedPatch": "18.4b"
+      }
+    }
+  ],
+  "references": {
+    "snapshots": 67,
+    "queryKeys": 66
+  },
+  "localReads": {
+    "before": 2596,
+    "after": 2596,
+    "firstSnapshot": "fd0d3148e6ea4b287be097d9ad3b7dcfc1b63fc2e11a06e2c713fcffd0f4e71a",
+    "secondSnapshot": "fd0d3148e6ea4b287be097d9ad3b7dcfc1b63fc2e11a06e2c713fcffd0f4e71a",
+    "rows": 60,
+    "redisRows": 60,
+    "redisTtl": 300
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "checks": [
+    {
+      "id": "metatft:cluster:426006",
+      "name": "神谕 · 提莫 · 阿利斯塔",
+      "sampleSize": 38388,
+      "foundInAnswer": true
+    },
+    {
+      "id": "metatft:cluster:426013",
+      "name": "神谕 · 提莫",
+      "sampleSize": 28792,
+      "foundInAnswer": true
+    },
+    {
+      "id": "metatft:cluster:426021",
+      "name": "迅捷射手 · 凯尔",
+      "sampleSize": 217016,
+      "foundInAnswer": true
+    }
+  ],
+  "source": {
+    "source": "MetaTFT Comps",
+    "url": "https://www.metatft.com/comps",
+    "delivery": "mysql",
+    "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+    "snapshotId": "78e3201f4563d14a356a17ab2331ba00c89469246b43b02d389b7d97654c7c7c",
+    "recordHash": "4639e8f7cd65109d9c7fffa8c49bcb524edaf5a3a1153bf5eb616ca88533baf1",
+    "sourcePatch": null,
+    "requestedPatch": "18.4b",
+    "sourceCurrentPatch": "18.4b",
+    "patchAttribution": {
+      "method": "explicit_request_and_source_metadata",
+      "statisticsResponsePatch": null
+    },
+    "set": 18,
+    "queueId": 1100,
+    "queue": "Ranked",
+    "rank": "铂金及以上",
+    "rankFilter": "PLATINUM_PLUS",
+    "population": {
+      "queue": "Ranked",
+      "rank": "铂金及以上",
+      "rankFilter": "PLATINUM_PLUS",
+      "region": null
+    },
+    "statisticalWindow": {
+      "days": 3,
+      "timeAnchor": "source_relative_window"
+    },
+    "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+    "fetchedAt": "2026-10-11T05:52:31.821Z",
+    "expiresAt": "2026-10-11T11:52:31.821Z",
+    "sourceTime": "2026-10-11T05:52:30.236Z",
+    "statisticsKind": "comp_cluster",
+    "sourceReturnedRows": 61,
+    "exhaustive": false,
+    "populationDenominator": 6733635
+  },
+  "query": {
+    "rank": "PLATINUM_PLUS",
+    "view": "comps",
+    "coreCosts": [
+      2
+    ],
+    "sort": "top4Rate",
+    "minSample": 1000,
+    "limit": 3
+  },
+  "tools": [
+    {
+      "name": "query_tft_stats",
+      "args": {
+        "view": "comps",
+        "coreCosts": [
+          2
+        ],
+        "rank": "PLATINUM_PLUS",
+        "sort": "top4Rate",
+        "minSample": 1000,
+        "limit": 3
+      }
+    }
+  ],
+  "reasoningObserved": true
+}

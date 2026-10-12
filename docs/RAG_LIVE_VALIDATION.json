@@ -1,0 +1,528 @@
+{
+  "checkedAt": "2026-10-09T14:56:35.691Z",
+  "releaseId": "fe92ca09d6d297928310d365e6f751a122aa983968b614d5861559016105c724",
+  "patch": "18.4",
+  "indexedChunks": 678,
+  "cacheHit": true,
+  "passed": 10,
+  "total": 10,
+  "results": [
+    {
+      "id": "wisp_radiantize_exact",
+      "query": "普通版光明化法杖什么时候能出现？需要多少金币，再次出现有什么冷却？",
+      "passed": true,
+      "status": "ready",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 1,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.844961,
+          "acceptedVectorCandidates": 1,
+          "strongLexicalCandidates": 1,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "expectedRank": 1,
+      "patchIsolated": true,
+      "imagesPresent": true,
+      "evidence": [
+        {
+          "id": "chunk:af4214f46cf6757ce5452c44bc4ba2cb77352ff2416294fee125aac10f08778b",
+          "documentId": "wisp-offering:DA_18_Radiantize",
+          "title": "光明化 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        }
+      ]
+    },
+    {
+      "id": "wisp_supercritical_conditions",
+      "query": "超级暴击法杖需要什么前提？",
+      "passed": true,
+      "status": "ready",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 40,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.8636888,
+          "acceptedVectorCandidates": 40,
+          "strongLexicalCandidates": 0,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "expectedRank": 2,
+      "patchIsolated": true,
+      "imagesPresent": true,
+      "evidence": [
+        {
+          "id": "chunk:2758943931089bf3fdb9f9c78b93aa2bb49da25a9a9a9d6b36b71053be85981d",
+          "documentId": "wisp-offering:DA_18_SupercriticalUpgrade",
+          "title": "超级暴击 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        },
+        {
+          "id": "chunk:284a65fdbd713c353d255fcac8133138b56065d3ba7869670aa819ed4266b77e",
+          "documentId": "wisp-offering:DA_18_Supercritical",
+          "title": "超级暴击 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        },
+        {
+          "id": "chunk:017105999cbb9074c56b9b99b5ad47e8f6f3d6dbc72d47c7626235b758e770dd",
+          "documentId": "wisp-offering:DA_BigBoom18_Upgrade",
+          "title": "大爆炸 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        },
+        {
+          "id": "chunk:09e344c92512c53100da09073a08e69f89f551d47cd381d07d1e86baf5c3e77b",
+          "documentId": "wisp-offering:DA_Artifactinate18",
+          "title": "神器化 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        },
+        {
+          "id": "chunk:0fb853700b2f194ace5b4ffa677084ea6340cd636bf12821d24fb099c03406de",
+          "documentId": "wisp-offering:DA_FlashFire18",
+          "title": "爆燃 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        },
+        {
+          "id": "chunk:0443c761e3e459973685ee2213a4ccff79faf5c3aafe3ad862145ae474c66205",
+          "documentId": "wisp-offering:DA_Jungling18",
+          "title": "野区 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        }
+      ]
+    },
+    {
+      "id": "trait_ladder_six_branches",
+      "query": "羁绊天梯有6种非独特羁绊时给什么？两种奖励分别有多少概率？",
+      "passed": true,
+      "status": "ready",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 40,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.90383303,
+          "acceptedVectorCandidates": 40,
+          "strongLexicalCandidates": 14,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "expectedRank": 1,
+      "patchIsolated": true,
+      "imagesPresent": true,
+      "evidence": [
+        {
+          "id": "chunk:28146d3b894c5f926f385a8a3bf17f8e83c548f2aedcfe52deb5ecefc9f41c0a",
+          "documentId": "library:trait-ladder",
+          "title": "羁绊天梯 · 分档奖励 · 羁绊数量 → 奖励分支 · 6种非独特羁绊",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:17303b4d0649e245db8145815276174db5850970813b32fb9f607f55aacfba11",
+          "documentId": "library:trait-ladder",
+          "title": "羁绊天梯 · 分档奖励 · 羁绊数量 → 奖励分支 · 2种非独特羁绊",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:07f9549624955296ea1e82b7e5bf0a5c3a4251a092612e3bb43c0eb1ffc00ef6",
+          "documentId": "library:trait-ladder",
+          "title": "羁绊天梯 · 分档奖励 · 羁绊数量 → 奖励分支 · 5种非独特羁绊",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:14824e49979a06bf3c90ce951c95f0f664efc2ed9ac4a58d303a6b2b5a868682",
+          "documentId": "library:trait-ladder",
+          "title": "羁绊天梯 · 分档奖励 · 羁绊数量 → 奖励分支 · 14种非独特羁绊",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:52d43a3da274aca442f763c76c3bf01d2e7ba07c7f98f68b86239765c25f2b56",
+          "documentId": "library:trait-ladder",
+          "title": "羁绊天梯 · 分档奖励 · 羁绊数量 → 奖励分支 · 11种非独特羁绊",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:4b6458de5dc88504053c0a1d79183917a3f4d7da4c1381d8b24aeba8fe131e14",
+          "documentId": "library:trait-ladder",
+          "title": "羁绊天梯 · 分档奖励 · 羁绊数量 → 奖励分支 · 3种非独特羁绊",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        }
+      ]
+    },
+    {
+      "id": "blue_loot_orb_stage_four",
+      "query": "第4阶段起蓝色战利品法球能开出什么？",
+      "passed": true,
+      "status": "ready",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 40,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.8482247,
+          "acceptedVectorCandidates": 40,
+          "strongLexicalCandidates": 0,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "expectedRank": 1,
+      "patchIsolated": true,
+      "imagesPresent": true,
+      "evidence": [
+        {
+          "id": "chunk:d9cc8178c580c294a171a0de1dc197f03e144b51b197557cca1704be2005d8b0",
+          "documentId": "library:loot-orb-contents",
+          "title": "战利品法球内容 · 蓝球 · 第4阶段起 · 蓝球，第4阶段起",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:254386b4133ccf4e87ec24958b907abb89bf7f8ee373cd627bda3cfd9ef6f267",
+          "documentId": "library:loot-orb-contents",
+          "title": "战利品法球内容 · 金球 · 第4阶段起 · 金球，第4阶段起",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:6631a29243e487d6e5e0351cb8c0010ff7545321cb160e4b5e7fa859cba8f3f8",
+          "documentId": "library:loot-orb-contents",
+          "title": "战利品法球内容 · 蓝球 · 第1/2/3阶段 · 蓝球，第1/2/3阶段",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:047728d7646a182726d043359bcc5852d603ad8c36acb64142b9a51102f754f1",
+          "documentId": "library:loot-orb-contents",
+          "title": "战利品法球内容 · 灰球 · 第3阶段起 · 灰球，第3阶段起",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:1efdee49588428b1f6f39f0d7b9278d031631f27100cb469c8b72510ea67368a",
+          "documentId": "library:loot-orb-contents",
+          "title": "战利品法球内容 · 棱彩球 · 第3阶段起 · 棱彩球，第3阶段起",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:333dd5256ba70b6a754d67dff8f0491fb4b1626fdcbbff2ca44a13ab3dec2d4f",
+          "documentId": "library:loot-orb-contents",
+          "title": "战利品法球内容",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        }
+      ]
+    },
+    {
+      "id": "shop_level_eight_four_cost",
+      "query": "8级商店刷四费卡的概率是多少？",
+      "passed": true,
+      "status": "ready",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 40,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.78168845,
+          "acceptedVectorCandidates": 40,
+          "strongLexicalCandidates": 0,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "expectedRank": 1,
+      "patchIsolated": true,
+      "imagesPresent": true,
+      "evidence": [
+        {
+          "id": "chunk:275326a166bd4ea77ef4d3670b36104246fc06ed37d2c51ef8f31d0af3d39b44",
+          "documentId": "library:shop-odds",
+          "title": "商店概率、卡池与升级经验 · 商店费用分布",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:000eda1942f02ba83db0aec153bcbe10f4203059d3131b126745e0e7d62bfafb",
+          "documentId": "library:shop-odds",
+          "title": "商店概率、卡池与升级经验 · 升至下一等级所需经验",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:72b9342166fc11f088f8d783794b2a61ca26333946cb088f3fbe38008074471a",
+          "documentId": "library:riftbeast",
+          "title": "峡谷野怪 · 特殊商店概率 · 概率 / 最多拷贝数",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:b62598f695e1d15208a37d0ae39a623c9fa15d55b931e5cd9bc771820de339e6",
+          "documentId": "library:shop-odds",
+          "title": "商店概率、卡池与升级经验",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:88775d11627ec78f4e161e6426e47bc05f85e3d33dafb8ccd056c91e5ea5dc26",
+          "documentId": "library:shop-odds",
+          "title": "商店概率、卡池与升级经验 · 卡池容量",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:3e2d43955de39276ef55411c1c0ab28a89d892a89cbd93294b0eb289284f1a2e",
+          "documentId": "library:riftbeast",
+          "title": "峡谷野怪 · 特殊商店概率",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        }
+      ]
+    },
+    {
+      "id": "shop_odds_english_alias",
+      "query": "Shop odds 八级四费概率",
+      "passed": true,
+      "status": "ready",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 40,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.72702813,
+          "acceptedVectorCandidates": 40,
+          "strongLexicalCandidates": 4,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "expectedRank": 1,
+      "patchIsolated": true,
+      "imagesPresent": true,
+      "evidence": [
+        {
+          "id": "chunk:275326a166bd4ea77ef4d3670b36104246fc06ed37d2c51ef8f31d0af3d39b44",
+          "documentId": "library:shop-odds",
+          "title": "商店概率、卡池与升级经验 · 商店费用分布",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:000eda1942f02ba83db0aec153bcbe10f4203059d3131b126745e0e7d62bfafb",
+          "documentId": "library:shop-odds",
+          "title": "商店概率、卡池与升级经验 · 升至下一等级所需经验",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:b62598f695e1d15208a37d0ae39a623c9fa15d55b931e5cd9bc771820de339e6",
+          "documentId": "library:shop-odds",
+          "title": "商店概率、卡池与升级经验",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:88775d11627ec78f4e161e6426e47bc05f85e3d33dafb8ccd056c91e5ea5dc26",
+          "documentId": "library:shop-odds",
+          "title": "商店概率、卡池与升级经验 · 卡池容量",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:3e2d43955de39276ef55411c1c0ab28a89d892a89cbd93294b0eb289284f1a2e",
+          "documentId": "library:riftbeast",
+          "title": "峡谷野怪 · 特殊商店概率",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        },
+        {
+          "id": "chunk:72b9342166fc11f088f8d783794b2a61ca26333946cb088f3fbe38008074471a",
+          "documentId": "library:riftbeast",
+          "title": "峡谷野怪 · 特殊商店概率 · 概率 / 最多拷贝数",
+          "sourcePatch": "18.4",
+          "imageCount": 1
+        }
+      ]
+    },
+    {
+      "id": "supercritical_english_alias",
+      "query": "Supercritical 法杖出现条件",
+      "passed": true,
+      "status": "ready",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 40,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.8149263,
+          "acceptedVectorCandidates": 40,
+          "strongLexicalCandidates": 2,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "expectedRank": 2,
+      "patchIsolated": true,
+      "imagesPresent": true,
+      "evidence": [
+        {
+          "id": "chunk:2758943931089bf3fdb9f9c78b93aa2bb49da25a9a9a9d6b36b71053be85981d",
+          "documentId": "wisp-offering:DA_18_SupercriticalUpgrade",
+          "title": "超级暴击 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        },
+        {
+          "id": "chunk:284a65fdbd713c353d255fcac8133138b56065d3ba7869670aa819ed4266b77e",
+          "documentId": "wisp-offering:DA_18_Supercritical",
+          "title": "超级暴击 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        },
+        {
+          "id": "chunk:09e344c92512c53100da09073a08e69f89f551d47cd381d07d1e86baf5c3e77b",
+          "documentId": "wisp-offering:DA_Artifactinate18",
+          "title": "神器化 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        },
+        {
+          "id": "chunk:082eded9be19921b7a2e0e738d1af20df4d2d8372b807d6eb5a2153a7c499643",
+          "documentId": "wisp-offering:DA_18_UltraAscension_Prismatic",
+          "title": "终极飞升 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        },
+        {
+          "id": "chunk:15b38e570a0163bc3e403dbc3d90ef76d0bc76e6148c9f0ce6282f3912dcdd13",
+          "documentId": "wisp-offering:DA_GrowUp18_Upgrade",
+          "title": "长大 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        },
+        {
+          "id": "chunk:017105999cbb9074c56b9b99b5ad47e8f6f3d6dbc72d47c7626235b758e770dd",
+          "documentId": "wisp-offering:DA_BigBoom18_Upgrade",
+          "title": "大爆炸 · 法杖出现条件",
+          "sourcePatch": "18.4",
+          "imageCount": 0
+        }
+      ]
+    },
+    {
+      "id": "unrelated_cooking",
+      "query": "请给我番茄炒蛋的做法",
+      "passed": true,
+      "status": "not_found",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 0,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.36120176,
+          "acceptedVectorCandidates": 0,
+          "strongLexicalCandidates": 0,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "expectedRank": null,
+      "patchIsolated": true,
+      "imagesPresent": true,
+      "evidence": []
+    },
+    {
+      "id": "unrelated_weather",
+      "query": "今天天气怎么样",
+      "passed": true,
+      "status": "not_found",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 0,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.3678125,
+          "acceptedVectorCandidates": 0,
+          "strongLexicalCandidates": 0,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "expectedRank": null,
+      "patchIsolated": true,
+      "imagesPresent": true,
+      "evidence": []
+    },
+    {
+      "id": "unrelated_passport",
+      "query": "如何办理护照",
+      "passed": true,
+      "status": "not_found",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 0,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.30319172,
+          "acceptedVectorCandidates": 0,
+          "strongLexicalCandidates": 0,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "expectedRank": null,
+      "patchIsolated": true,
+      "imagesPresent": true,
+      "evidence": []
+    }
+  ],
+  "scope": "10 retrieval smoke cases; not a complete quality benchmark or a chat-generation evaluation."
+}

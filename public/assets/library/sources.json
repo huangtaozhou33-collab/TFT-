@@ -1,0 +1,11 @@
+{
+  "loot-orbs-set18.png": {
+    "source": "Little Buddy Bot",
+    "pageUrl": "https://www.littlebuddybot.com/tft-loot-orb-contents",
+    "imageUrl": "https://assets.zyrosite.com/A85M9B5RkKFMqVXr/set-18-tables-patch-18.1-orbs-6Dcjz7Q9IWtpuu12.png",
+    "sha256": "445baec81afd5a1bcd3fb0f4a519a859435d3a6fed8419d817647d281b9c407e",
+    "imageUpdatedAt": "2026-08-26",
+    "fetchedAt": "2026-10-08T07:59:05.215Z",
+    "usage": "Unmodified source artwork; CSS viewports display game icons next to the native Chinese tables. Quantities and probabilities come from the reviewed library release."
+  }
+}

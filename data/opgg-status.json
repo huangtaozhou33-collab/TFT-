@@ -1,0 +1,88 @@
+{
+  "endpoint": "https://mcp-api.op.gg/mcp",
+  "fetchedAt": "2026-10-09T15:02:44.555Z",
+  "dnsOrder": "ipv4first",
+  "status": "live",
+  "stages": [
+    {
+      "name": "initialize+tools/list",
+      "status": "ok",
+      "protocol": "2025-06-18",
+      "serverInfo": {
+        "name": "OP.GG MCP Server",
+        "version": "1.0.0"
+      },
+      "toolCount": 29
+    },
+    {
+      "name": "tft_list_meta_decks",
+      "status": "ok",
+      "bodyKeys": [
+        "data",
+        "metadata"
+      ],
+      "payloadBytes": 48946
+    },
+    {
+      "name": "tft_list_item_combinations",
+      "status": "ok",
+      "bodyKeys": [
+        "set",
+        "version",
+        "type",
+        "lang",
+        "data",
+        "tierList",
+        "specialEffectList",
+        "categoryList",
+        "itemFrameAssets"
+      ],
+      "payloadBytes": 461208
+    },
+    {
+      "name": "tft_list_augments",
+      "status": "ok",
+      "bodyKeys": [
+        "headers",
+        "rows",
+        "header_description"
+      ],
+      "payloadBytes": 46870
+    },
+    {
+      "name": "tft_get_champion_item_build",
+      "status": "ok",
+      "bodyKeys": [
+        "data"
+      ],
+      "payloadBytes": 342956
+    },
+    {
+      "name": "tft_list_champions_for_item",
+      "status": "ok",
+      "bodyKeys": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "payloadBytes": 2115
+    },
+    {
+      "name": "tft_get_play_style",
+      "status": "schema_verified",
+      "reason": "Requires a real player region and PUUID. No player identifier was supplied; no profile was collected."
+    }
+  ]
+}

@@ -1,0 +1,2037 @@
+{
+  "schemaVersion": 1,
+  "status": "live",
+  "delivery": "version_cache",
+  "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+  "context": {
+    "game": "tft",
+    "set": 18,
+    "mutator": "TFTSet18",
+    "assetVersion": "16.20",
+    "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+    "gamePatch": null
+  },
+  "coverage": {
+    "sourceRows": 90,
+    "acceptedRows": 89,
+    "excludedRows": 1,
+    "cachedTraits": 35,
+    "totalTraits": 35,
+    "complete": false,
+    "excluded": [
+      {
+        "sourceKey": "DA_18_Eclipse__1",
+        "reason": "outside_current_catalog"
+      }
+    ],
+    "note": "complete 表示来源行均可映射；cachedTraits/totalTraits 单独说明当前目录的羁绊覆盖，不声称全部潜在档位均有样本。"
+  },
+  "data": [
+    {
+      "id": "DA_18_Greenfather__1",
+      "traitId": "DA_18_Greenfather",
+      "name": "翠神",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_greenfather.png",
+      "tier": 1,
+      "level": 1,
+      "minUnits": 1,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.89,
+        "top4Rate": 0.5977,
+        "winRate": 0.2298,
+        "sampleSize": 3229
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_Juggernaut18__1",
+      "traitId": "DA_Juggernaut18",
+      "name": "主宰",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_juggernaut.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.41,
+        "top4Rate": 0.5253,
+        "winRate": 0.1297,
+        "sampleSize": 5837
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_FloraFatalis18__2",
+      "traitId": "DA_FloraFatalis18",
+      "name": "绝命花妖",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_florafatalis.png",
+      "tier": 2,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.22,
+        "top4Rate": 0.5577000000000001,
+        "winRate": 0.12960000000000002,
+        "sampleSize": 2191
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_Riftbeast18__2",
+      "traitId": "DA_Riftbeast18",
+      "name": "峡谷野怪",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_riftbeast.png",
+      "tier": 2,
+      "level": 5,
+      "minUnits": 5,
+      "maxUnits": 6,
+      "stats": {
+        "avgPlacement": 5.88,
+        "top4Rate": 0.2683,
+        "winRate": 0,
+        "sampleSize": 41
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_DravenUniqueTrait18__1",
+      "traitId": "DA_DravenUniqueTrait18",
+      "name": "赏金猎人",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_bountyseeker.png",
+      "tier": 1,
+      "level": 1,
+      "minUnits": 1,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.27,
+        "top4Rate": 0.522,
+        "winRate": 0.2164,
+        "sampleSize": 1594
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Blackthorn__2",
+      "traitId": "DA_18_Blackthorn",
+      "name": "黑荆棘",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_oldgod.png",
+      "tier": 2,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 5,
+      "stats": {
+        "avgPlacement": 4.15,
+        "top4Rate": 0.5512,
+        "winRate": 0.14550000000000002,
+        "sampleSize": 488
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_ApexPredator__1",
+      "traitId": "DA_18_ApexPredator",
+      "name": "顶级掠食者",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_apexpredator.png",
+      "tier": 1,
+      "level": 1,
+      "minUnits": 1,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.08,
+        "top4Rate": 0.5585,
+        "winRate": 0.2231,
+        "sampleSize": 1932
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Inferno__1",
+      "traitId": "DA_18_Inferno",
+      "name": "地狱火",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_inferno.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 2,
+      "stats": {
+        "avgPlacement": 4.17,
+        "top4Rate": 0.5689,
+        "winRate": 0.1515,
+        "sampleSize": 4087
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Blossom__4",
+      "traitId": "DA_18_Blossom",
+      "name": "灵魂莲华",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_blossom.png",
+      "tier": 4,
+      "level": 9,
+      "minUnits": 9,
+      "maxUnits": 10,
+      "stats": {
+        "avgPlacement": 4.21,
+        "top4Rate": 0.5,
+        "winRate": 0.07139999999999999,
+        "sampleSize": 28
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 3,
+        "sourceOrdinal": 4,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Coven__1",
+      "traitId": "DA_18_Coven",
+      "name": "魔女",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_coven.png",
+      "tier": 1,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.75,
+        "top4Rate": 0.4559,
+        "winRate": 0.1335,
+        "sampleSize": 397
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_LuxUniqueTrait__1",
+      "traitId": "DA_18_LuxUniqueTrait",
+      "name": "自然之力！大元素使",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_avatar.png",
+      "tier": 1,
+      "level": 1,
+      "minUnits": 1,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.56,
+        "top4Rate": 0.6581999999999999,
+        "winRate": 0.2547,
+        "sampleSize": 1896
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Fae__1",
+      "traitId": "DA_18_Fae",
+      "name": "花仙子",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_fae.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.93,
+        "top4Rate": 0.41450000000000004,
+        "winRate": 0.0819,
+        "sampleSize": 842
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Blossom__2",
+      "traitId": "DA_18_Blossom",
+      "name": "灵魂莲华",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_blossom.png",
+      "tier": 2,
+      "level": 5,
+      "minUnits": 5,
+      "maxUnits": 6,
+      "stats": {
+        "avgPlacement": 4.34,
+        "top4Rate": 0.5195000000000001,
+        "winRate": 0.1082,
+        "sampleSize": 231
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Invoker__3",
+      "traitId": "DA_18_Invoker",
+      "name": "神谕",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_invoker.png",
+      "tier": 3,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 4,
+      "stats": {
+        "avgPlacement": 4.47,
+        "top4Rate": 0.5075,
+        "winRate": 0.102,
+        "sampleSize": 402
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Adaptor__3",
+      "traitId": "DA_18_Adaptor",
+      "name": "魔战士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_adaptor.png",
+      "tier": 3,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.87,
+        "top4Rate": 0.6667000000000001,
+        "winRate": 0.0667,
+        "sampleSize": 15
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Slayer__3",
+      "traitId": "DA_18_Slayer",
+      "name": "狂战士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_ravager.png",
+      "tier": 3,
+      "level": 6,
+      "minUnits": 6,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.14,
+        "top4Rate": 0.6071,
+        "winRate": 0.035699999999999996,
+        "sampleSize": 28
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Battlemage__1",
+      "traitId": "DA_18_Battlemage",
+      "name": "魔岩巨兽",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_monolith.png",
+      "tier": 1,
+      "level": 1,
+      "minUnits": 1,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.56,
+        "top4Rate": 0.4946,
+        "winRate": 0.09369999999999999,
+        "sampleSize": 1484
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_ZyraUniqueTrait__1",
+      "traitId": "DA_18_ZyraUniqueTrait",
+      "name": "荆棘之兴",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_zyraorigin.png",
+      "tier": 1,
+      "level": 1,
+      "minUnits": 1,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.47,
+        "top4Rate": 0.5154,
+        "winRate": 0.11259999999999999,
+        "sampleSize": 3108
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Lunar__3",
+      "traitId": "DA_18_Lunar",
+      "name": "月蚀骑士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_lunar.png",
+      "tier": 3,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 4,
+      "stats": {
+        "avgPlacement": 3.43,
+        "top4Rate": 0.7104,
+        "winRate": 0.1967,
+        "sampleSize": 183
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Elderwood__5",
+      "traitId": "DA_18_Elderwood",
+      "name": "永恒之森",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_elderwood.png",
+      "tier": 5,
+      "level": 11,
+      "minUnits": 11,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 1,
+        "top4Rate": 1,
+        "winRate": 1,
+        "sampleSize": 11
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 4,
+        "sourceOrdinal": 5,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Rival__3",
+      "traitId": "DA_18_Rival",
+      "name": "宿敌",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_rival.png",
+      "tier": 3,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.95,
+        "top4Rate": 0.3846,
+        "winRate": 0.11539999999999999,
+        "sampleSize": 78
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Inferno__3",
+      "traitId": "DA_18_Inferno",
+      "name": "地狱火",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_inferno.png",
+      "tier": 3,
+      "level": 5,
+      "minUnits": 5,
+      "maxUnits": 6,
+      "stats": {
+        "avgPlacement": 4.2,
+        "top4Rate": 0.5442,
+        "winRate": 0.1907,
+        "sampleSize": 215
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Lunar__2",
+      "traitId": "DA_18_Lunar",
+      "name": "月蚀骑士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_lunar.png",
+      "tier": 2,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 3.83,
+        "top4Rate": 0.6225,
+        "winRate": 0.1865,
+        "sampleSize": 445
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Rival__1",
+      "traitId": "DA_18_Rival",
+      "name": "宿敌",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_rival.png",
+      "tier": 1,
+      "level": 1,
+      "minUnits": 1,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.37,
+        "top4Rate": 0.5241,
+        "winRate": 0.1458,
+        "sampleSize": 1015
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_Primal18__1",
+      "traitId": "DA_Primal18",
+      "name": "野兽之灵",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_primal.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.48,
+        "top4Rate": 0.5111,
+        "winRate": 0.10439999999999999,
+        "sampleSize": 4089
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Adaptor__1",
+      "traitId": "DA_18_Adaptor",
+      "name": "魔战士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_adaptor.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 2,
+      "stats": {
+        "avgPlacement": 4.49,
+        "top4Rate": 0.5295000000000001,
+        "winRate": 0.0579,
+        "sampleSize": 1849
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Elderwood__4",
+      "traitId": "DA_18_Elderwood",
+      "name": "永恒之森",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_elderwood.png",
+      "tier": 4,
+      "level": 9,
+      "minUnits": 9,
+      "maxUnits": 10,
+      "stats": {
+        "avgPlacement": 3.11,
+        "top4Rate": 0.7395999999999999,
+        "winRate": 0.2708,
+        "sampleSize": 96
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 3,
+        "sourceOrdinal": 4,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_Riftbeast18__4",
+      "traitId": "DA_Riftbeast18",
+      "name": "峡谷野怪",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_riftbeast.png",
+      "tier": 4,
+      "level": 10,
+      "minUnits": 10,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 2.47,
+        "top4Rate": 0.8529000000000001,
+        "winRate": 0.4118,
+        "sampleSize": 34
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 3,
+        "sourceOrdinal": 4,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Brawler__1",
+      "traitId": "DA_18_Brawler",
+      "name": "斗士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_brawler.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.31,
+        "top4Rate": 0.5311,
+        "winRate": 0.1309,
+        "sampleSize": 4088
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Coven__2",
+      "traitId": "DA_18_Coven",
+      "name": "魔女",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_coven.png",
+      "tier": 2,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 4,
+      "stats": {
+        "avgPlacement": 5.58,
+        "top4Rate": 0.2923,
+        "winRate": 0.1231,
+        "sampleSize": 65
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Spellweaver__2",
+      "traitId": "DA_18_Spellweaver",
+      "name": "法师",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_spellweaver.png",
+      "tier": 2,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 5,
+      "stats": {
+        "avgPlacement": 3.88,
+        "top4Rate": 0.6007,
+        "winRate": 0.1734,
+        "sampleSize": 894
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Invoker__2",
+      "traitId": "DA_18_Invoker",
+      "name": "神谕",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_invoker.png",
+      "tier": 2,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.57,
+        "top4Rate": 0.47409999999999997,
+        "winRate": 0.1204,
+        "sampleSize": 656
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Invoker__4",
+      "traitId": "DA_18_Invoker",
+      "name": "神谕",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_invoker.png",
+      "tier": 4,
+      "level": 5,
+      "minUnits": 5,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.7,
+        "top4Rate": 0.6667000000000001,
+        "winRate": 0.16390000000000002,
+        "sampleSize": 183
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 3,
+        "sourceOrdinal": 4,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Blackthorn__1",
+      "traitId": "DA_18_Blackthorn",
+      "name": "黑荆棘",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_oldgod.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.4,
+        "top4Rate": 0.5184000000000001,
+        "winRate": 0.1152,
+        "sampleSize": 2552
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Elderwood__2",
+      "traitId": "DA_18_Elderwood",
+      "name": "永恒之森",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_elderwood.png",
+      "tier": 2,
+      "level": 5,
+      "minUnits": 5,
+      "maxUnits": 6,
+      "stats": {
+        "avgPlacement": 4.6,
+        "top4Rate": 0.4704,
+        "winRate": 0.12960000000000002,
+        "sampleSize": 270
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Defender__2",
+      "traitId": "DA_18_Defender",
+      "name": "护卫",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_defender.png",
+      "tier": 2,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 5,
+      "stats": {
+        "avgPlacement": 3.89,
+        "top4Rate": 0.6301,
+        "winRate": 0.16440000000000002,
+        "sampleSize": 73
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Sprykin__1",
+      "traitId": "DA_18_Sprykin",
+      "name": "约德尔人和朋友",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_sprykin.png",
+      "tier": 1,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 4,
+      "stats": {
+        "avgPlacement": 4.2,
+        "top4Rate": 0.5386,
+        "winRate": 0.15560000000000002,
+        "sampleSize": 919
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Sprykin__2",
+      "traitId": "DA_18_Sprykin",
+      "name": "约德尔人和朋友",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_sprykin.png",
+      "tier": 2,
+      "level": 5,
+      "minUnits": 5,
+      "maxUnits": 6,
+      "stats": {
+        "avgPlacement": 4.31,
+        "top4Rate": 0.5846,
+        "winRate": 0.15380000000000002,
+        "sampleSize": 65
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Vanguard__3",
+      "traitId": "DA_18_Vanguard",
+      "name": "重装战士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_vanguard.png",
+      "tier": 3,
+      "level": 6,
+      "minUnits": 6,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.76,
+        "top4Rate": 0.6133,
+        "winRate": 0.2,
+        "sampleSize": 75
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Lunar__4",
+      "traitId": "DA_18_Lunar",
+      "name": "月蚀骑士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_lunar.png",
+      "tier": 4,
+      "level": 5,
+      "minUnits": 5,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.36,
+        "top4Rate": 0.6933,
+        "winRate": 0.25329999999999997,
+        "sampleSize": 75
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 3,
+        "sourceOrdinal": 4,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Vanguard__2",
+      "traitId": "DA_18_Vanguard",
+      "name": "重装战士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_vanguard.png",
+      "tier": 2,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 5,
+      "stats": {
+        "avgPlacement": 4.37,
+        "top4Rate": 0.5129,
+        "winRate": 0.1616,
+        "sampleSize": 928
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Executioner__3",
+      "traitId": "DA_18_Executioner",
+      "name": "裁决使",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_executioner.png",
+      "tier": 3,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.72,
+        "top4Rate": 0.6537000000000001,
+        "winRate": 0.1745,
+        "sampleSize": 722
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Blossom__3",
+      "traitId": "DA_18_Blossom",
+      "name": "灵魂莲华",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_blossom.png",
+      "tier": 3,
+      "level": 7,
+      "minUnits": 7,
+      "maxUnits": 8,
+      "stats": {
+        "avgPlacement": 4.52,
+        "top4Rate": 0.5063,
+        "winRate": 0.1772,
+        "sampleSize": 79
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Rapidfire__3",
+      "traitId": "DA_18_Rapidfire",
+      "name": "迅捷射手",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_rapidfire.png",
+      "tier": 3,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 4,
+      "stats": {
+        "avgPlacement": 4,
+        "top4Rate": 0.62,
+        "winRate": 0.14,
+        "sampleSize": 50
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Slayer__2",
+      "traitId": "DA_18_Slayer",
+      "name": "狂战士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_ravager.png",
+      "tier": 2,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 5,
+      "stats": {
+        "avgPlacement": 4.5,
+        "top4Rate": 0.4914,
+        "winRate": 0.0603,
+        "sampleSize": 116
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Executioner__2",
+      "traitId": "DA_18_Executioner",
+      "name": "裁决使",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_executioner.png",
+      "tier": 2,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.15,
+        "top4Rate": 0.5661,
+        "winRate": 0.1476,
+        "sampleSize": 1240
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Elderwood__3",
+      "traitId": "DA_18_Elderwood",
+      "name": "永恒之森",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_elderwood.png",
+      "tier": 3,
+      "level": 7,
+      "minUnits": 7,
+      "maxUnits": 8,
+      "stats": {
+        "avgPlacement": 4.46,
+        "top4Rate": 0.48700000000000004,
+        "winRate": 0.1201,
+        "sampleSize": 308
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Inferno__4",
+      "traitId": "DA_18_Inferno",
+      "name": "地狱火",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_inferno.png",
+      "tier": 4,
+      "level": 7,
+      "minUnits": 7,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 2.94,
+        "top4Rate": 0.76,
+        "winRate": 0.44,
+        "sampleSize": 50
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 3,
+        "sourceOrdinal": 4,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Brawler__2",
+      "traitId": "DA_18_Brawler",
+      "name": "斗士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_brawler.png",
+      "tier": 2,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 5,
+      "stats": {
+        "avgPlacement": 3.65,
+        "top4Rate": 0.6729999999999999,
+        "winRate": 0.18960000000000002,
+        "sampleSize": 211
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Blossom__5",
+      "traitId": "DA_18_Blossom",
+      "name": "灵魂莲华",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_blossom.png",
+      "tier": 5,
+      "level": 11,
+      "minUnits": 11,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 1.83,
+        "top4Rate": 1,
+        "winRate": 0.6667000000000001,
+        "sampleSize": 6
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 4,
+        "sourceOrdinal": 5,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Inferno__2",
+      "traitId": "DA_18_Inferno",
+      "name": "地狱火",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_inferno.png",
+      "tier": 2,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 4,
+      "stats": {
+        "avgPlacement": 4.38,
+        "top4Rate": 0.5199,
+        "winRate": 0.1318,
+        "sampleSize": 554
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Coven__4",
+      "traitId": "DA_18_Coven",
+      "name": "魔女",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_coven.png",
+      "tier": 4,
+      "level": 7,
+      "minUnits": 7,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 5.55,
+        "top4Rate": 0.2727,
+        "winRate": 0.2273,
+        "sampleSize": 22
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 3,
+        "sourceOrdinal": 4,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_Juggernaut18__3",
+      "traitId": "DA_Juggernaut18",
+      "name": "主宰",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_juggernaut.png",
+      "tier": 3,
+      "level": 6,
+      "minUnits": 6,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.37,
+        "top4Rate": 0.5275,
+        "winRate": 0.133,
+        "sampleSize": 1293
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Rapidfire__4",
+      "traitId": "DA_18_Rapidfire",
+      "name": "迅捷射手",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_rapidfire.png",
+      "tier": 4,
+      "level": 5,
+      "minUnits": 5,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.83,
+        "top4Rate": 0.6311,
+        "winRate": 0.1359,
+        "sampleSize": 103
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 3,
+        "sourceOrdinal": 4,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Fae__2",
+      "traitId": "DA_18_Fae",
+      "name": "花仙子",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_fae.png",
+      "tier": 2,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.62,
+        "top4Rate": 0.4518,
+        "winRate": 0.1535,
+        "sampleSize": 228
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_FloraFatalis18__1",
+      "traitId": "DA_FloraFatalis18",
+      "name": "绝命花妖",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_florafatalis.png",
+      "tier": 1,
+      "level": 1,
+      "minUnits": 1,
+      "maxUnits": 1,
+      "stats": {
+        "avgPlacement": 4.51,
+        "top4Rate": 0.49229999999999996,
+        "winRate": 0.1391,
+        "sampleSize": 2222
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_Juggernaut18__2",
+      "traitId": "DA_Juggernaut18",
+      "name": "主宰",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_juggernaut.png",
+      "tier": 2,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 5,
+      "stats": {
+        "avgPlacement": 4.85,
+        "top4Rate": 0.4255,
+        "winRate": 0.1106,
+        "sampleSize": 832
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Summoner__1",
+      "traitId": "DA_18_Summoner",
+      "name": "召唤师",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_summoner.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 2,
+      "stats": {
+        "avgPlacement": 4.46,
+        "top4Rate": 0.5109,
+        "winRate": 0.1217,
+        "sampleSize": 2243
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Rapidfire__1",
+      "traitId": "DA_18_Rapidfire",
+      "name": "迅捷射手",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_rapidfire.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 2,
+      "stats": {
+        "avgPlacement": 4.47,
+        "top4Rate": 0.5227,
+        "winRate": 0.0855,
+        "sampleSize": 2292
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Caustic__1",
+      "traitId": "DA_18_Caustic",
+      "name": "帝王斑蝶",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_caustic.png",
+      "tier": 1,
+      "level": 1,
+      "minUnits": 1,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.42,
+        "top4Rate": 0.541,
+        "winRate": 0.0768,
+        "sampleSize": 2344
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Rapidfire__2",
+      "traitId": "DA_18_Rapidfire",
+      "name": "迅捷射手",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_rapidfire.png",
+      "tier": 2,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.14,
+        "top4Rate": 0.583,
+        "winRate": 0.10210000000000001,
+        "sampleSize": 235
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Defender__1",
+      "traitId": "DA_18_Defender",
+      "name": "护卫",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_defender.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.4,
+        "top4Rate": 0.5126,
+        "winRate": 0.1336,
+        "sampleSize": 3644
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_Riftbeast18__1",
+      "traitId": "DA_Riftbeast18",
+      "name": "峡谷野怪",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_riftbeast.png",
+      "tier": 1,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 4,
+      "stats": {
+        "avgPlacement": 4.31,
+        "top4Rate": 0.5213,
+        "winRate": 0.1592,
+        "sampleSize": 3209
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Solar__1",
+      "traitId": "DA_18_Solar",
+      "name": "日蚀骑士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_solar.png",
+      "tier": 1,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.61,
+        "top4Rate": 0.4893,
+        "winRate": 0.078,
+        "sampleSize": 513
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_Riftbeast18__3",
+      "traitId": "DA_Riftbeast18",
+      "name": "峡谷野怪",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_riftbeast.png",
+      "tier": 3,
+      "level": 7,
+      "minUnits": 7,
+      "maxUnits": 9,
+      "stats": {
+        "avgPlacement": 4.24,
+        "top4Rate": 0.5549000000000001,
+        "winRate": 0.10710000000000001,
+        "sampleSize": 364
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Sprykin__3",
+      "traitId": "DA_18_Sprykin",
+      "name": "约德尔人和朋友",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_sprykin.png",
+      "tier": 3,
+      "level": 7,
+      "minUnits": 7,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.71,
+        "top4Rate": 0.8571,
+        "winRate": 0,
+        "sampleSize": 7
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Brawler__3",
+      "traitId": "DA_18_Brawler",
+      "name": "斗士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_brawler.png",
+      "tier": 3,
+      "level": 6,
+      "minUnits": 6,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.89,
+        "top4Rate": 0.7222,
+        "winRate": 0.11109999999999999,
+        "sampleSize": 18
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Summoner__2",
+      "traitId": "DA_18_Summoner",
+      "name": "召唤师",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_summoner.png",
+      "tier": 2,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.45,
+        "top4Rate": 0.5329,
+        "winRate": 0.0908,
+        "sampleSize": 1002
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Blackthorn__3",
+      "traitId": "DA_18_Blackthorn",
+      "name": "黑荆棘",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_oldgod.png",
+      "tier": 3,
+      "level": 6,
+      "minUnits": 6,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.64,
+        "top4Rate": 0.6713,
+        "winRate": 0.23079999999999998,
+        "sampleSize": 143
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_Primal18__2",
+      "traitId": "DA_Primal18",
+      "name": "野兽之灵",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_primal.png",
+      "tier": 2,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.05,
+        "top4Rate": 0.5699000000000001,
+        "winRate": 0.1505,
+        "sampleSize": 279
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Hunter__1",
+      "traitId": "DA_18_Hunter",
+      "name": "猎人",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_hunter.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 2,
+      "stats": {
+        "avgPlacement": 4.48,
+        "top4Rate": 0.4941,
+        "winRate": 0.14529999999999998,
+        "sampleSize": 1528
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Slayer__1",
+      "traitId": "DA_18_Slayer",
+      "name": "狂战士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_ravager.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.33,
+        "top4Rate": 0.5346,
+        "winRate": 0.1202,
+        "sampleSize": 1805
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_AluneUniqueTrait18__1",
+      "traitId": "DA_AluneUniqueTrait18",
+      "name": "月华神女",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_attuned.png",
+      "tier": 1,
+      "level": 1,
+      "minUnits": 1,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.69,
+        "top4Rate": 0.6476000000000001,
+        "winRate": 0.2167,
+        "sampleSize": 1961
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Blossom__1",
+      "traitId": "DA_18_Blossom",
+      "name": "灵魂莲华",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_blossom.png",
+      "tier": 1,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 4,
+      "stats": {
+        "avgPlacement": 4.52,
+        "top4Rate": 0.512,
+        "winRate": 0.10220000000000001,
+        "sampleSize": 1830
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Defender__3",
+      "traitId": "DA_18_Defender",
+      "name": "护卫",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_defender.png",
+      "tier": 3,
+      "level": 6,
+      "minUnits": 6,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.09,
+        "top4Rate": 0.5522,
+        "winRate": 0.1741,
+        "sampleSize": 201
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_Emerald18__1",
+      "traitId": "DA_Emerald18",
+      "name": "宝石骑士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_emeraldaspect.png",
+      "tier": 1,
+      "level": 1,
+      "minUnits": 1,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 3.99,
+        "top4Rate": 0.5852,
+        "winRate": 0.2066,
+        "sampleSize": 3799
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Coven__3",
+      "traitId": "DA_18_Coven",
+      "name": "魔女",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_coven.png",
+      "tier": 3,
+      "level": 5,
+      "minUnits": 5,
+      "maxUnits": 6,
+      "stats": {
+        "avgPlacement": 5.56,
+        "top4Rate": 0.2632,
+        "winRate": 0.10529999999999999,
+        "sampleSize": 57
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Spellweaver__1",
+      "traitId": "DA_18_Spellweaver",
+      "name": "法师",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_spellweaver.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.41,
+        "top4Rate": 0.5156000000000001,
+        "winRate": 0.1316,
+        "sampleSize": 3945
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Invoker__1",
+      "traitId": "DA_18_Invoker",
+      "name": "神谕",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_invoker.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 2,
+      "stats": {
+        "avgPlacement": 4.38,
+        "top4Rate": 0.537,
+        "winRate": 0.1012,
+        "sampleSize": 2836
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Vanguard__1",
+      "traitId": "DA_18_Vanguard",
+      "name": "重装战士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_vanguard.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.32,
+        "top4Rate": 0.5353,
+        "winRate": 0.1365,
+        "sampleSize": 5782
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Adaptor__2",
+      "traitId": "DA_18_Adaptor",
+      "name": "魔战士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_adaptor.png",
+      "tier": 2,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 3.97,
+        "top4Rate": 0.6291,
+        "winRate": 0.0993,
+        "sampleSize": 151
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Lunar__1",
+      "traitId": "DA_18_Lunar",
+      "name": "月蚀骑士",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_lunar.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 2,
+      "stats": {
+        "avgPlacement": 4.32,
+        "top4Rate": 0.5418,
+        "winRate": 0.1112,
+        "sampleSize": 2510
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Executioner__1",
+      "traitId": "DA_18_Executioner",
+      "name": "裁决使",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_executioner.png",
+      "tier": 1,
+      "level": 2,
+      "minUnits": 2,
+      "maxUnits": 2,
+      "stats": {
+        "avgPlacement": 4.73,
+        "top4Rate": 0.45270000000000005,
+        "winRate": 0.1121,
+        "sampleSize": 1712
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Hunter__2",
+      "traitId": "DA_18_Hunter",
+      "name": "猎人",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_hunter.png",
+      "tier": 2,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 3,
+      "stats": {
+        "avgPlacement": 4.62,
+        "top4Rate": 0.4603,
+        "winRate": 0.10679999999999999,
+        "sampleSize": 365
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 1,
+        "sourceOrdinal": 2,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Maokai_UniqueTrait__1",
+      "traitId": "DA_18_Maokai_UniqueTrait",
+      "name": "远古树精",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_oldgrowth.png",
+      "tier": 1,
+      "level": 1,
+      "minUnits": 1,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.13,
+        "top4Rate": 0.563,
+        "winRate": 0.1949,
+        "sampleSize": 3700
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Hunter__3",
+      "traitId": "DA_18_Hunter",
+      "name": "猎人",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_hunter.png",
+      "tier": 3,
+      "level": 4,
+      "minUnits": 4,
+      "maxUnits": 4,
+      "stats": {
+        "avgPlacement": 4.3,
+        "top4Rate": 0.5797,
+        "winRate": 0.1014,
+        "sampleSize": 69
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Hunter__4",
+      "traitId": "DA_18_Hunter",
+      "name": "猎人",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_hunter.png",
+      "tier": 4,
+      "level": 5,
+      "minUnits": 5,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 4.6,
+        "top4Rate": 0.5,
+        "winRate": 0,
+        "sampleSize": 10
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 3,
+        "sourceOrdinal": 4,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Elderwood__1",
+      "traitId": "DA_18_Elderwood",
+      "name": "永恒之森",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_elderwood.png",
+      "tier": 1,
+      "level": 3,
+      "minUnits": 3,
+      "maxUnits": 4,
+      "stats": {
+        "avgPlacement": 4.26,
+        "top4Rate": 0.5339,
+        "winRate": 0.1464,
+        "sampleSize": 2186
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 0,
+        "sourceOrdinal": 1,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    },
+    {
+      "id": "DA_18_Spellweaver__3",
+      "traitId": "DA_18_Spellweaver",
+      "name": "法师",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/ux/traiticons/trait_icon_18_spellweaver.png",
+      "tier": 3,
+      "level": 6,
+      "minUnits": 6,
+      "maxUnits": 25000,
+      "stats": {
+        "avgPlacement": 2.91,
+        "top4Rate": 0.8015000000000001,
+        "winRate": 0.25739999999999996,
+        "sampleSize": 136
+      },
+      "mapping": {
+        "method": "exact_trait_id_and_one_based_effect_index",
+        "effectIndex": 2,
+        "sourceOrdinal": 3,
+        "semantics": "minUnits is the catalog activation threshold; tier is the source ordinal"
+      }
+    }
+  ],
+  "evidence": {
+    "source": "Tactics.tools",
+    "url": "https://tactics.tools/traits",
+    "endpoint": "https://tactics.tools/traits",
+    "sourcePatch": "18.4",
+    "gamePatch": "18.4",
+    "set": 18,
+    "queue": "Ranked",
+    "rank": "Diamond+",
+    "population": {
+      "queue": "Ranked",
+      "rank": "Diamond+",
+      "region": null
+    },
+    "region": null,
+    "statisticalWindow": {
+      "selection": "page patch 18.4",
+      "from": null,
+      "to": null
+    },
+    "fetchedAt": "2026-10-07T14:47:39.457Z",
+    "sourceTime": "2026-10-07T13:56:35.000Z",
+    "delivery": "version_cache",
+    "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+    "assetVersion": "16.20",
+    "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+    "sampleDenominator": "source statsData.traits[key].count (trait-tier occurrences)",
+    "sourceTotalEntries": 14635,
+    "sourceTotalEntriesMeaning": "page statsData.totalEntries; separate source sample, not OP.GG game count",
+    "sourceHTMLSha256": "7f5b812020f6264d11d5bad1ad5792ac8cf89585252901f7737fc7c1fb85012c",
+    "aperture": {
+      "patch": {
+        "_0": 16200
+      },
+      "rankGroup": 1,
+      "gameType": 0,
+      "queue": 1100
+    },
+    "mappingMethod": "exact_trait_id_and_one_based_effect_index",
+    "rateUnit": "fraction (source percentages divided by 100)",
+    "unsupportedDimensions": [
+      "region",
+      "star",
+      "cross_source_population_comparison"
+    ],
+    "note": "按来源羁绊档位统计；不代表全队因果收益，不与 OP.GG 样本或段位口径合并。"
+  },
+  "reason": null
+}

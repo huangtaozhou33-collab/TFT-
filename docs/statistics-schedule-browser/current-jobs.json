@@ -1,0 +1,149 @@
+{
+  "jobs": [
+    {
+      "id": "meta-comps",
+      "name": "MetaTFT 阵容榜",
+      "kind": "comps",
+      "paths": [
+        "https://api-hc.metatft.com/tft-comps-api/comps_data",
+        "https://api-hc.metatft.com/tft-comps-api/comps_stats"
+      ],
+      "enabled": true,
+      "intervalHours": 24,
+      "revision": 5,
+      "status": "success",
+      "nextRunAt": 1791791795571,
+      "lastStartedAt": 1791705381329,
+      "lastFinishedAt": 1791705395571,
+      "lastSuccessAt": 1791705395571,
+      "progress": {
+        "empty": 0,
+        "errors": [],
+        "failed": 0,
+        "target": 12,
+        "changed": 12,
+        "completed": 12,
+        "unchanged": 0,
+        "sourcePatch": null,
+        "requestedPatch": "18.4b"
+      }
+    },
+    {
+      "id": "meta-overall",
+      "name": "MetaTFT 棋子 / 装备 / 羁绊榜",
+      "kind": "overall",
+      "paths": [
+        "https://api-hc.metatft.com/tft-explorer-api/{total,units_unique,items_unique,traits}"
+      ],
+      "enabled": true,
+      "intervalHours": 24,
+      "revision": 1,
+      "status": "scheduled",
+      "nextRunAt": 1791791718404,
+      "lastStartedAt": null,
+      "lastFinishedAt": null,
+      "lastSuccessAt": null,
+      "progress": null
+    },
+    {
+      "id": "meta-builds",
+      "name": "MetaTFT 全棋子出装",
+      "kind": "builds",
+      "paths": [
+        "https://api-hc.metatft.com/tft-explorer-api/unit_builds/{championId}"
+      ],
+      "enabled": true,
+      "intervalHours": 24,
+      "revision": 1,
+      "status": "scheduled",
+      "nextRunAt": 1791791718408,
+      "lastStartedAt": null,
+      "lastFinishedAt": null,
+      "lastSuccessAt": null,
+      "progress": null
+    },
+    {
+      "id": "meta-holders",
+      "name": "MetaTFT 全装备持有者",
+      "kind": "holders",
+      "paths": [
+        "https://api-hc.metatft.com/tft-explorer-api/item_units_unique/{itemId}-1"
+      ],
+      "enabled": true,
+      "intervalHours": 24,
+      "revision": 1,
+      "status": "scheduled",
+      "nextRunAt": 1791791718411,
+      "lastStartedAt": null,
+      "lastFinishedAt": null,
+      "lastSuccessAt": null,
+      "progress": null
+    },
+    {
+      "id": "opgg-reference",
+      "name": "OP.GG 独立参考数据",
+      "kind": "reference",
+      "paths": [
+        "https://mcp-api.op.gg/mcp → tft_list_meta_decks",
+        "tft_get_champion_item_build(champion_id)",
+        "tft_list_champions_for_item(item_id)"
+      ],
+      "enabled": true,
+      "intervalHours": 24,
+      "revision": 2,
+      "status": "running",
+      "nextRunAt": 1791705436244,
+      "lastStartedAt": 1791705441327,
+      "lastFinishedAt": null,
+      "lastSuccessAt": null,
+      "progress": {
+        "scope": "source_defined",
+        "failed": 0,
+        "target": 202,
+        "changed": 20,
+        "completed": 20,
+        "unchanged": 0,
+        "sourcePatch": null,
+        "unsupported": 0
+      }
+    }
+  ],
+  "runs": [
+    {
+      "id": "3ae5605a-06bb-461c-bfe0-a9f299063d63",
+      "job_id": "opgg-reference",
+      "started_at": 1791705441327,
+      "finished_at": null,
+      "status": "running",
+      "report": {
+        "scope": "source_defined",
+        "failed": 0,
+        "target": 202,
+        "changed": 20,
+        "completed": 20,
+        "unchanged": 0,
+        "sourcePatch": null,
+        "unsupported": 0
+      }
+    },
+    {
+      "id": "8d8d03e2-d1d9-4c9d-9ed5-97c85bbac288",
+      "job_id": "meta-comps",
+      "started_at": 1791705381329,
+      "finished_at": 1791705395571,
+      "status": "success",
+      "report": {
+        "empty": 0,
+        "errors": [],
+        "failed": 0,
+        "target": 12,
+        "changed": 12,
+        "completed": 12,
+        "unchanged": 0,
+        "sourcePatch": null,
+        "requestedPatch": "18.4b"
+      }
+    }
+  ],
+  "note": "周期从保存或上次完成时起计算。服务停止时不采集，恢复后补一次到期任务，不补跑每个漏掉的周期。MetaTFT 覆盖全部 12 种段位范围；OP.GG 只作独立参考，不替代页面统计。资料库不参与定时同步；复杂筛选按需缓存 10 分钟。"
+}

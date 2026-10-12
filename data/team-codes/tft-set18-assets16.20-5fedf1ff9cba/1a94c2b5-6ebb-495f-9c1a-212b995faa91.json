@@ -1,0 +1,748 @@
+{
+  "schemaVersion": 1,
+  "status": "cached",
+  "delivery": "version_cache",
+  "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+  "context": {
+    "game": "tft",
+    "set": 18,
+    "mutator": "TFTSet18",
+    "assetVersion": "16.20",
+    "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+    "gamePatch": null
+  },
+  "championFingerprint": "4acb2457674584b8909f807d29b5ef049b0cf03028a4f62fb1c8eaefac9eb453",
+  "entries": [
+    {
+      "championId": "DA_18_Ahri",
+      "name": "阿狸",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_ahri/skins/base/images/tft18_ahri_splash_tile_27.png",
+      "v1": 1,
+      "v2": 1001
+    },
+    {
+      "championId": "DA_18_Akali_AD",
+      "name": "阿卡丽",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_akali/skins/base/images/tft18_akali_splash_tile_2.png",
+      "v1": 2,
+      "v2": 1002
+    },
+    {
+      "championId": "DA_18_Alistar",
+      "name": "阿利斯塔",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_alistar/skins/base/images/tft18_alistar_splash_tile_40.png",
+      "v1": 3,
+      "v2": 1003
+    },
+    {
+      "championId": "DA_18_Alune",
+      "name": "拉露恩",
+      "cost": 5,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_alune/skins/base/images/tft18_alune_splash_tile_15.png",
+      "v1": 4,
+      "v2": 1004
+    },
+    {
+      "championId": "DA_18_Aphelios",
+      "name": "厄斐琉斯",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_aphelios/skins/base/images/tft18_aphelios_splash_tile_0.png",
+      "v1": 5,
+      "v2": 1007
+    },
+    {
+      "championId": "DA_18_Ashe",
+      "name": "艾希",
+      "cost": 5,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_ashe/skins/base/images/tft18_ashe_splash_tile_76.png",
+      "v1": 6,
+      "v2": 1008
+    },
+    {
+      "championId": "DA_18_Azir",
+      "name": "阿兹尔",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_azir/skins/base/images/tft18_azir_splash_tile_5.png",
+      "v1": 7,
+      "v2": 1009
+    },
+    {
+      "championId": "DA_18_Caitlyn",
+      "name": "凯特琳",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_caitlyn/skins/base/images/tft18_caitlyn_splash_tile_30.png",
+      "v1": 8,
+      "v2": 1012
+    },
+    {
+      "championId": "DA_18_Camille",
+      "name": "卡蜜尔",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_camille/skins/base/images/tft18_camille_splash_tile_2.png",
+      "v1": 9,
+      "v2": 1013
+    },
+    {
+      "championId": "DA_18_Cassiopeia",
+      "name": "卡西奥佩娅",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_cassiopeia/skins/base/images/tft18_cassiopeia_splash_tile_18.png",
+      "v1": 10,
+      "v2": 1014
+    },
+    {
+      "championId": "DA_18_Diana",
+      "name": "黛安娜",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_diana/skins/base/images/tft18_diana_splash_tile_0.png",
+      "v1": 11,
+      "v2": 1018
+    },
+    {
+      "championId": "DA_18_ElderDragon",
+      "name": "远古巨龙",
+      "cost": 5,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_elderdragon/skins/base/images/t_18_elderdragon_teamplannersplash.png",
+      "v1": 12,
+      "v2": 1020
+    },
+    {
+      "championId": "DA_18_Elise",
+      "name": "伊莉丝",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_elise/skins/base/images/tft18_elise_splash_tile_24.png",
+      "v1": 13,
+      "v2": 1021
+    },
+    {
+      "championId": "DA_18_Ezreal",
+      "name": "伊泽瑞尔",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_ezreal/skins/base/images/tft18_ezreal_splash_tile_1.png",
+      "v1": 14,
+      "v2": 1023
+    },
+    {
+      "championId": "DA_18_GnarSmall",
+      "name": "纳尔",
+      "cost": 5,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_gnar/skins/base/images/tft18_gnar_splash_tile_0.png",
+      "v1": 15,
+      "v2": 1025
+    },
+    {
+      "championId": "DA_18_Hecarim",
+      "name": "赫卡里姆",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_hecarim/skins/base/images/tft18_hecarim_splash_tile_5.png",
+      "v1": 16,
+      "v2": 1027
+    },
+    {
+      "championId": "DA_18_Ivern",
+      "name": "艾翁",
+      "cost": 5,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_ivern/skins/base/images/tft18_ivern_splash_tile_0.png",
+      "v1": 17,
+      "v2": 1028
+    },
+    {
+      "championId": "DA_18_Kayle",
+      "name": "凯尔",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_kayle/skins/base/images/tft18_kayle_splash_tile_42.png",
+      "v1": 18,
+      "v2": 1034
+    },
+    {
+      "championId": "DA_18_Kennen",
+      "name": "凯南",
+      "cost": 5,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_kennen/skins/base/images/tft18_kennen_splash_tile_8.png",
+      "v1": 19,
+      "v2": 1035
+    },
+    {
+      "championId": "DA_18_KhaZix",
+      "name": "卡兹克",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_khazix/skins/base/images/tft18_khazix_splash_tile_0.png",
+      "v1": 20,
+      "v2": 1036
+    },
+    {
+      "championId": "DA_18_Kobuko",
+      "name": "可酷伯",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_kobuko/skins/base/images/tft18_kobuko_splash_tile_2.png",
+      "v1": 21,
+      "v2": 1085
+    },
+    {
+      "championId": "DA_18_LeBlanc",
+      "name": "乐芙兰",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_leblanc/skins/base/images/tft18_leblanc_splash_tile_5.png",
+      "v1": 22,
+      "v2": 1040
+    },
+    {
+      "championId": "DA_18_Leona",
+      "name": "蕾欧娜",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_leona/skins/base/images/tft18_leona_splash_tile_10.png",
+      "v1": 23,
+      "v2": 1041
+    },
+    {
+      "championId": "DA_18_Lillia",
+      "name": "莉莉娅",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lillia/skins/base/images/tft18_lillia_splash_tile_28.png",
+      "v1": 24,
+      "v2": 1042
+    },
+    {
+      "championId": "DA_18_Malphite",
+      "name": "墨菲特",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_malphite/skins/base/images/tft18_malphite_splash_tile_27.png",
+      "v1": 25,
+      "v2": 1044
+    },
+    {
+      "championId": "DA_18_Maokai",
+      "name": "茂凯",
+      "cost": 5,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_maokai/skins/base/images/tft18_maokai_splash_tile_0.png",
+      "v1": 26,
+      "v2": 1045
+    },
+    {
+      "championId": "DA_18_MasterYi_AD",
+      "name": "易",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_masteryi/skins/base/images/tft18_masteryi_splash_tile_52.png",
+      "v1": 27,
+      "v2": 1046
+    },
+    {
+      "championId": "DA_18_Morgana",
+      "name": "莫甘娜",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_morgana/skins/base/images/tft18_morgana_splash_tile_26.png",
+      "v1": 28,
+      "v2": 1048
+    },
+    {
+      "championId": "DA_18_Ornn",
+      "name": "奥恩",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_ornn/skins/base/images/tft18_ornn_splash_tile_2.png",
+      "v1": 29,
+      "v2": 1055
+    },
+    {
+      "championId": "DA_18_Rakan",
+      "name": "洛",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_rakan/skins/base/images/tft18_rakan_splash_tile_9.png",
+      "v1": 30,
+      "v2": 1056
+    },
+    {
+      "championId": "DA_18_Rammus",
+      "name": "拉莫斯",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_rammus/skins/base/images/tft18_rammus_splash_tile_26.png",
+      "v1": 31,
+      "v2": 1057
+    },
+    {
+      "championId": "DA_18_RekSai",
+      "name": "雷克塞",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_reksai/skins/base/images/tft18_reksai_splash_tile_17.png",
+      "v1": 32,
+      "v2": 1059
+    },
+    {
+      "championId": "DA_18_Rengar",
+      "name": "雷恩加尔",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_rengar/skins/base/images/tft18_rengar_splash_tile_0.png",
+      "v1": 33,
+      "v2": 1060
+    },
+    {
+      "championId": "DA_18_Sejuani",
+      "name": "瑟庄妮",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_sejuani/skins/base/images/tft18_sejuani_splash_tile_26.png",
+      "v1": 34,
+      "v2": 1063
+    },
+    {
+      "championId": "DA_18_Sentry",
+      "name": "苍蓝哨戒",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_sentry/skins/base/images/t_18_sentry_teamplannersplash.png",
+      "v1": 35,
+      "v2": 1065
+    },
+    {
+      "championId": "DA_18_Sett",
+      "name": "瑟提",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_sett/skins/base/images/tft18_sett_splash_tile_38.png",
+      "v1": 36,
+      "v2": 1066
+    },
+    {
+      "championId": "DA_18_Shen",
+      "name": "慎",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_shen/skins/base/images/tft18_shen_splash_tile_16.png",
+      "v1": 37,
+      "v2": 1067
+    },
+    {
+      "championId": "DA_18_Sivir",
+      "name": "希维尔",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_sivir/skins/base/images/tft18_sivir_splash_tile_61.png",
+      "v1": 38,
+      "v2": 1068
+    },
+    {
+      "championId": "DA_18_Soraka",
+      "name": "索拉卡",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_soraka/skins/base/images/tft18_soraka_splash_tile_53.png",
+      "v1": 39,
+      "v2": 1070
+    },
+    {
+      "championId": "DA_18_Teemo",
+      "name": "提莫",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_teemo/skins/base/images/tft18_teemo_splash_tile_0.png",
+      "v1": 40,
+      "v2": 1073
+    },
+    {
+      "championId": "DA_18_Tristana",
+      "name": "崔丝塔娜",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_tristana/skins/base/images/tft18_tristana_splash_tile_61.png",
+      "v1": 41,
+      "v2": 1075
+    },
+    {
+      "championId": "DA_18_Varus",
+      "name": "韦鲁斯",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_varus/skins/base/images/tft18_varus_splash_tile_9.png",
+      "v1": 42,
+      "v2": 1077
+    },
+    {
+      "championId": "DA_18_Veigar",
+      "name": "维迦",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_veigar/skins/base/images/tft18_veigar_splash_tile_13.png",
+      "v1": 43,
+      "v2": 1078
+    },
+    {
+      "championId": "DA_18_Warwick",
+      "name": "沃里克",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_warwick/skins/base/images/tft18_warwick_splash_tile_35.png",
+      "v1": 44,
+      "v2": 1080
+    },
+    {
+      "championId": "DA_18_Xayah",
+      "name": "霞",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_xayah/skins/base/images/tft18_xayah_splash_tile_8.png",
+      "v1": 45,
+      "v2": 1081
+    },
+    {
+      "championId": "DA_18_Yorick",
+      "name": "约里克",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_yorick/skins/base/images/tft18_yorick_splash_tile_30.png",
+      "v1": 46,
+      "v2": 1082
+    },
+    {
+      "championId": "DA_18_Yunara",
+      "name": "芸阿娜",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_yunara/skins/base/images/tft18_yunara_splash_tile_0.png",
+      "v1": 47,
+      "v2": 1083
+    },
+    {
+      "championId": "DA_18_Zyra",
+      "name": "婕拉",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_zyra/skins/base/images/tft18_zyra_splash_tile_0.png",
+      "v1": 48,
+      "v2": 1084
+    },
+    {
+      "championId": "DA_Amumu18",
+      "name": "阿木木",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_amumu/skins/base/images/tft18_amumu_splash_tile_17.png",
+      "v1": 49,
+      "v2": 1005
+    },
+    {
+      "championId": "DA_Brambleback18",
+      "name": "绯红印记树怪",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_brambleback/skins/base/images/t_18_brambleback_teamplannersplash.png",
+      "v1": 50,
+      "v2": 1011
+    },
+    {
+      "championId": "DA_Cinderling18",
+      "name": "绯红树怪",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_cinderling/skins/base/images/t_18_cinderling_teamplannersplash.png",
+      "v1": 51,
+      "v2": 1015
+    },
+    {
+      "championId": "DA_CrimsonRaptor18",
+      "name": "深红锋喙鸟",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_raptor/skins/base/images/t_18_crimsonraptor_teamplannersplash.png",
+      "v1": 52,
+      "v2": 1058
+    },
+    {
+      "championId": "DA_Draven18",
+      "name": "德莱文",
+      "cost": 5,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_draven/skins/base/images/tft18_draven_splash_tile_5.png",
+      "v1": 53,
+      "v2": 1019
+    },
+    {
+      "championId": "DA_Fiddlesticks18",
+      "name": "费德提克",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_fiddlesticks/skins/base/images/tft18_fiddlesticks_splash_tile_46.png",
+      "v1": 54,
+      "v2": 1024
+    },
+    {
+      "championId": "DA_Gromp18_AP",
+      "name": "魔沼蛙",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_gromp/skins/base/images/t_18_gromp_teamplannersplash.png",
+      "v1": 55,
+      "v2": 1026
+    },
+    {
+      "championId": "DA_Karma18",
+      "name": "卡尔玛",
+      "cost": 1,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_karma/skins/base/images/tft18_karma_splash_tile_70.png",
+      "v1": 56,
+      "v2": 1031
+    },
+    {
+      "championId": "DA_KogMaw18_AD",
+      "name": "克格莫",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_kogmaw/skins/base/images/tft18_kogmaw_splash_tile_3.png",
+      "v1": 57,
+      "v2": 1038
+    },
+    {
+      "championId": "DA_Krug18",
+      "name": "远古石甲虫",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_krug/skins/base/images/t_18_krug_teamplannersplash.png",
+      "v1": 58,
+      "v2": 1039
+    },
+    {
+      "championId": "DA_Lux18_Base",
+      "name": "拉克丝",
+      "cost": 5,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_tile_7.png",
+      "v1": 59,
+      "v2": 1029
+    },
+    {
+      "championId": "DA_Murkwolf18",
+      "name": "暗影狼",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_murkwolf/skins/base/images/t_18_murkwolf_teamplannersplash.png",
+      "v1": 60,
+      "v2": 1049
+    },
+    {
+      "championId": "DA_Nidalee18_AP",
+      "name": "奈德丽",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_nidalee/skins/base/images/tft18_nidalee_splash_tile_0.png",
+      "v1": 61,
+      "v2": 1051
+    },
+    {
+      "championId": "DA_Scuttlecrab18",
+      "name": "峡谷迅捷蟹",
+      "cost": 2,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_scuttlecrab/skins/base/images/t_18_scuttlecrab_teamplannersplash.png",
+      "v1": 62,
+      "v2": 1062
+    },
+    {
+      "championId": "DA_Sentinel18",
+      "name": "苍蓝雕纹魔像",
+      "cost": 4,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_sentinel/skins/base/images/t_18_sentinel_teamplannersplash.png",
+      "v1": 63,
+      "v2": 1064
+    },
+    {
+      "championId": "DA_Taric18",
+      "name": "塔里克",
+      "cost": 5,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_taric/skins/base/images/tft18_taric_splash_tile_1.png",
+      "v1": 64,
+      "v2": 1072
+    },
+    {
+      "championId": "DA_Vi18",
+      "name": "蔚",
+      "cost": 3,
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_vi/skins/base/images/tft18_vi_splash_tile_39.png",
+      "v1": 65,
+      "v2": 1079
+    }
+  ],
+  "v1": {
+    "1": "DA_18_Ahri",
+    "2": "DA_18_Akali_AD",
+    "3": "DA_18_Alistar",
+    "4": "DA_18_Alune",
+    "5": "DA_18_Aphelios",
+    "6": "DA_18_Ashe",
+    "7": "DA_18_Azir",
+    "8": "DA_18_Caitlyn",
+    "9": "DA_18_Camille",
+    "10": "DA_18_Cassiopeia",
+    "11": "DA_18_Diana",
+    "12": "DA_18_ElderDragon",
+    "13": "DA_18_Elise",
+    "14": "DA_18_Ezreal",
+    "15": "DA_18_GnarSmall",
+    "16": "DA_18_Hecarim",
+    "17": "DA_18_Ivern",
+    "18": "DA_18_Kayle",
+    "19": "DA_18_Kennen",
+    "20": "DA_18_KhaZix",
+    "21": "DA_18_Kobuko",
+    "22": "DA_18_LeBlanc",
+    "23": "DA_18_Leona",
+    "24": "DA_18_Lillia",
+    "25": "DA_18_Malphite",
+    "26": "DA_18_Maokai",
+    "27": "DA_18_MasterYi_AD",
+    "28": "DA_18_Morgana",
+    "29": "DA_18_Ornn",
+    "30": "DA_18_Rakan",
+    "31": "DA_18_Rammus",
+    "32": "DA_18_RekSai",
+    "33": "DA_18_Rengar",
+    "34": "DA_18_Sejuani",
+    "35": "DA_18_Sentry",
+    "36": "DA_18_Sett",
+    "37": "DA_18_Shen",
+    "38": "DA_18_Sivir",
+    "39": "DA_18_Soraka",
+    "40": "DA_18_Teemo",
+    "41": "DA_18_Tristana",
+    "42": "DA_18_Varus",
+    "43": "DA_18_Veigar",
+    "44": "DA_18_Warwick",
+    "45": "DA_18_Xayah",
+    "46": "DA_18_Yorick",
+    "47": "DA_18_Yunara",
+    "48": "DA_18_Zyra",
+    "49": "DA_Amumu18",
+    "50": "DA_Brambleback18",
+    "51": "DA_Cinderling18",
+    "52": "DA_CrimsonRaptor18",
+    "53": "DA_Draven18",
+    "54": "DA_Fiddlesticks18",
+    "55": "DA_Gromp18_AP",
+    "56": "DA_Karma18",
+    "57": "DA_KogMaw18_AD",
+    "58": "DA_Krug18",
+    "59": "DA_Lux18_Base",
+    "60": "DA_Murkwolf18",
+    "61": "DA_Nidalee18_AP",
+    "62": "DA_Scuttlecrab18",
+    "63": "DA_Sentinel18",
+    "64": "DA_Taric18",
+    "65": "DA_Vi18"
+  },
+  "v2": {
+    "1001": "DA_18_Ahri",
+    "1002": "DA_18_Akali_AD",
+    "1003": "DA_18_Alistar",
+    "1004": "DA_18_Alune",
+    "1005": "DA_Amumu18",
+    "1007": "DA_18_Aphelios",
+    "1008": "DA_18_Ashe",
+    "1009": "DA_18_Azir",
+    "1011": "DA_Brambleback18",
+    "1012": "DA_18_Caitlyn",
+    "1013": "DA_18_Camille",
+    "1014": "DA_18_Cassiopeia",
+    "1015": "DA_Cinderling18",
+    "1018": "DA_18_Diana",
+    "1019": "DA_Draven18",
+    "1020": "DA_18_ElderDragon",
+    "1021": "DA_18_Elise",
+    "1023": "DA_18_Ezreal",
+    "1024": "DA_Fiddlesticks18",
+    "1025": "DA_18_GnarSmall",
+    "1026": "DA_Gromp18_AP",
+    "1027": "DA_18_Hecarim",
+    "1028": "DA_18_Ivern",
+    "1029": "DA_Lux18_Base",
+    "1031": "DA_Karma18",
+    "1034": "DA_18_Kayle",
+    "1035": "DA_18_Kennen",
+    "1036": "DA_18_KhaZix",
+    "1038": "DA_KogMaw18_AD",
+    "1039": "DA_Krug18",
+    "1040": "DA_18_LeBlanc",
+    "1041": "DA_18_Leona",
+    "1042": "DA_18_Lillia",
+    "1044": "DA_18_Malphite",
+    "1045": "DA_18_Maokai",
+    "1046": "DA_18_MasterYi_AD",
+    "1048": "DA_18_Morgana",
+    "1049": "DA_Murkwolf18",
+    "1051": "DA_Nidalee18_AP",
+    "1055": "DA_18_Ornn",
+    "1056": "DA_18_Rakan",
+    "1057": "DA_18_Rammus",
+    "1058": "DA_CrimsonRaptor18",
+    "1059": "DA_18_RekSai",
+    "1060": "DA_18_Rengar",
+    "1062": "DA_Scuttlecrab18",
+    "1063": "DA_18_Sejuani",
+    "1064": "DA_Sentinel18",
+    "1065": "DA_18_Sentry",
+    "1066": "DA_18_Sett",
+    "1067": "DA_18_Shen",
+    "1068": "DA_18_Sivir",
+    "1070": "DA_18_Soraka",
+    "1072": "DA_Taric18",
+    "1073": "DA_18_Teemo",
+    "1075": "DA_18_Tristana",
+    "1077": "DA_18_Varus",
+    "1078": "DA_18_Veigar",
+    "1079": "DA_Vi18",
+    "1080": "DA_18_Warwick",
+    "1081": "DA_18_Xayah",
+    "1082": "DA_18_Yorick",
+    "1083": "DA_18_Yunara",
+    "1084": "DA_18_Zyra",
+    "1085": "DA_18_Kobuko"
+  },
+  "coverage": {
+    "sourceRows": 65,
+    "mappedChampions": 65,
+    "catalogChampions": 74,
+    "excluded": [],
+    "unmappedCatalog": [
+      {
+        "id": "DA_18_Lux_Inferno",
+        "name": "拉克丝 (地狱火)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_Lux18_Blackthorn",
+        "name": "拉克丝 (黑荆棘)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_18_Lux_Fae",
+        "name": "拉克丝 (花仙子)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_Lux18_Blossom",
+        "name": "拉克丝 (灵魂莲华)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_18_Lux_Coven",
+        "name": "拉克丝 (魔女)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_18_Lux_Sunbeam",
+        "name": "拉克丝 (日蚀骑士)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_18_Lux_Primal",
+        "name": "拉克丝 (野兽之灵)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_18_Lux_Elderwood",
+        "name": "拉克丝 (永恒之森)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      },
+      {
+        "id": "DA_18_Lux_Moonbeam",
+        "name": "拉克丝 (月蚀骑士)",
+        "reason": "not_in_current_pc_teamplanner_source"
+      }
+    ],
+    "complete": false
+  },
+  "evidence": {
+    "source": "CommunityDragon · PC Team Planner",
+    "url": "https://raw.communitydragon.org/16.20/plugins/rcp-be-lol-game-data/global/default/v1/tftchampions-teamplanner.json",
+    "assetVersion": "16.20",
+    "set": 18,
+    "mutator": "TFTSet18",
+    "sourcePatch": null,
+    "gamePatch": null,
+    "fetchedAt": "2026-10-08T06:45:28.855Z",
+    "sourceTime": "Sat, 12 Sep 2026 00:36:20 GMT",
+    "rawJSONSha256": "c6f94a2c861e442a95e629e8558c9a357405e86830343fb504e26adaa75e3b62",
+    "idJoin": "exact_character_id_to_current_catalog",
+    "v1Mapping": "full_source_character_id_sorted_en_alphabetical_one_based",
+    "v2Mapping": "source_team_planner_code_integer",
+    "formatResearch": [
+      "https://github.com/ttkienn/TFT-Team-Planner-Code/blob/main/TFT.js",
+      "https://gist.github.com/bangingheads/243e396f78be1a4d49dc0577abf57a0b"
+    ],
+    "officialSupport": "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/teamfight-tactics-patch-13-7-notes-2025/",
+    "compatibility": "source_format_and_10_cached_deck_codes_verified; real_game_client_not_tested",
+    "populationCostAvailable": false,
+    "note": "两个格式的块宽为2或3个十六进制字符，不是2或3个字节。原生码不含装备、棋盘坐标或星级；资产版本不等于统计补丁。"
+  }
+}

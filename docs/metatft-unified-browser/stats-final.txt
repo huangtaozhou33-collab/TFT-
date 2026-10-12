@@ -1,0 +1,665 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 大数据
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - region "装备与棋子大数据":
+    - button "← 返回大数据"
+    - button "加入条件筛选 ↗"
+    - generic "密银黎明"
+    - text: 奥恩神器
+    - heading "密银黎明" [level=1]
+    - paragraph
+    - generic: 均次
+    - strong: "4.12"
+    - generic: 前四
+    - strong: 57.8%
+    - generic: 登顶
+    - strong: 14.6%
+    - generic: 样本
+    - strong: 47,705
+    - generic: MetaTFT Explorer
+    - generic: 统计版本 18.4b · 查询范围
+    - generic: 铂金及以上
+    - generic "版本依据"
+    - heading "装备携带者" [level=2]
+    - text: 最低样本
+    - combobox "携带者最低样本":
+      - option "不限"
+      - option "100" [selected]
+      - option "500"
+      - option "1000"
+    - generic: MetaTFT Explorer
+    - generic: 统计版本 18.4b · 查询范围
+    - generic: 铂金及以上
+    - generic "版本依据"
+    - article:
+      - button "远古巨龙 远古巨龙":
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+      - generic: 均次
+      - strong: "3.42"
+      - generic: 前四
+      - strong: 67.6%
+      - generic: 登顶
+      - strong: 30.5%
+      - generic: 样本
+      - strong: 9,015
+      - button "查看搭配 →"
+    - article:
+      - button "卡蜜尔 卡蜜尔":
+        - generic "卡蜜尔"
+        - strong: 卡蜜尔
+      - generic: 均次
+      - strong: "3.74"
+      - generic: 前四
+      - strong: 67.0%
+      - generic: 登顶
+      - strong: 13.7%
+      - generic: 样本
+      - strong: 4,016
+      - button "查看搭配 →"
+    - article:
+      - button "阿利斯塔 阿利斯塔":
+        - generic "阿利斯塔"
+        - strong: 阿利斯塔
+      - generic: 均次
+      - strong: "3.87"
+      - generic: 前四
+      - strong: 62.6%
+      - generic: 登顶
+      - strong: 15.5%
+      - generic: 样本
+      - strong: "618"
+      - button "查看搭配 →"
+    - article:
+      - button "雷克塞 雷克塞":
+        - generic "雷克塞"
+        - strong: 雷克塞
+      - generic: 均次
+      - strong: "3.88"
+      - generic: 前四
+      - strong: 61.9%
+      - generic: 登顶
+      - strong: 15.8%
+      - generic: 样本
+      - strong: "628"
+      - button "查看搭配 →"
+    - article:
+      - button "瑟庄妮 瑟庄妮":
+        - generic "瑟庄妮"
+        - strong: 瑟庄妮
+      - generic: 均次
+      - strong: "3.92"
+      - generic: 前四
+      - strong: 62.4%
+      - generic: 登顶
+      - strong: 16.6%
+      - generic: 样本
+      - strong: "367"
+      - button "查看搭配 →"
+    - article:
+      - button "奈德丽 奈德丽":
+        - generic "奈德丽"
+        - strong: 奈德丽
+      - generic: 均次
+      - strong: "3.93"
+      - generic: 前四
+      - strong: 63.0%
+      - generic: 登顶
+      - strong: 11.5%
+      - generic: 样本
+      - strong: 15,839
+      - button "查看搭配 →"
+    - article:
+      - button "纳尔 纳尔":
+        - generic "纳尔"
+        - strong: 纳尔
+      - generic: 均次
+      - strong: "3.96"
+      - generic: 前四
+      - strong: 59.0%
+      - generic: 登顶
+      - strong: 17.6%
+      - generic: 样本
+      - strong: 1,356
+      - button "查看搭配 →"
+    - article:
+      - button "蕾欧娜 蕾欧娜":
+        - generic "蕾欧娜"
+        - strong: 蕾欧娜
+      - generic: 均次
+      - strong: "4.11"
+      - generic: 前四
+      - strong: 57.5%
+      - generic: 登顶
+      - strong: 13.1%
+      - generic: 样本
+      - strong: "398"
+      - button "查看搭配 →"
+    - article:
+      - button "塔里克 塔里克":
+        - generic "塔里克"
+        - strong: 塔里克
+      - generic: 均次
+      - strong: "4.17"
+      - generic: 前四
+      - strong: 56.2%
+      - generic: 登顶
+      - strong: 21.1%
+      - generic: 样本
+      - strong: "265"
+      - button "查看搭配 →"
+    - article:
+      - button "伊泽瑞尔 伊泽瑞尔":
+        - generic "伊泽瑞尔"
+        - strong: 伊泽瑞尔
+      - generic: 均次
+      - strong: "4.19"
+      - generic: 前四
+      - strong: 54.7%
+      - generic: 登顶
+      - strong: 14.5%
+      - generic: 样本
+      - strong: 1,034
+      - button "查看搭配 →"
+    - article:
+      - button "洛 洛":
+        - generic "洛"
+        - strong: 洛
+      - generic: 均次
+      - strong: "4.28"
+      - generic: 前四
+      - strong: 55.1%
+      - generic: 登顶
+      - strong: 11.8%
+      - generic: 样本
+      - strong: "127"
+      - button "查看搭配 →"
+    - article:
+      - button "阿卡丽 阿卡丽":
+        - generic "阿卡丽"
+        - strong: 阿卡丽
+      - generic: 均次
+      - strong: "4.35"
+      - generic: 前四
+      - strong: 55.3%
+      - generic: 登顶
+      - strong: 8.4%
+      - generic: 样本
+      - strong: "438"
+      - button "查看搭配 →"
+    - article:
+      - button "费德提克 费德提克":
+        - generic "费德提克"
+        - strong: 费德提克
+      - generic: 均次
+      - strong: "4.37"
+      - generic: 前四
+      - strong: 56.1%
+      - generic: 登顶
+      - strong: 9.5%
+      - generic: 样本
+      - strong: "529"
+      - button "查看搭配 →"
+    - article:
+      - button "奥恩 奥恩":
+        - generic "奥恩"
+        - strong: 奥恩
+      - generic: 均次
+      - strong: "4.39"
+      - generic: 前四
+      - strong: 52.6%
+      - generic: 登顶
+      - strong: 12.9%
+      - generic: 样本
+      - strong: "675"
+      - button "查看搭配 →"
+    - article:
+      - button "克格莫 克格莫":
+        - generic "克格莫"
+        - strong: 克格莫
+      - generic: 均次
+      - strong: "4.41"
+      - generic: 前四
+      - strong: 54.0%
+      - generic: 登顶
+      - strong: 9.4%
+      - generic: 样本
+      - strong: "820"
+      - button "查看搭配 →"
+    - article:
+      - button "茂凯 茂凯":
+        - generic "茂凯"
+        - strong: 茂凯
+      - generic: 均次
+      - strong: "4.55"
+      - generic: 前四
+      - strong: 50.4%
+      - generic: 登顶
+      - strong: 14.5%
+      - generic: 样本
+      - strong: "393"
+      - button "查看搭配 →"
+    - article:
+      - button "绯红印记树怪 绯红印记树怪":
+        - generic "绯红印记树怪"
+        - strong: 绯红印记树怪
+      - generic: 均次
+      - strong: "4.65"
+      - generic: 前四
+      - strong: 47.1%
+      - generic: 登顶
+      - strong: 8.4%
+      - generic: 样本
+      - strong: 2,237
+      - button "查看搭配 →"
+    - article:
+      - button "拉莫斯 拉莫斯":
+        - generic "拉莫斯"
+        - strong: 拉莫斯
+      - generic: 均次
+      - strong: "4.67"
+      - generic: 前四
+      - strong: 47.3%
+      - generic: 登顶
+      - strong: 9.3%
+      - generic: 样本
+      - strong: "421"
+      - button "查看搭配 →"
+    - article:
+      - button "芸阿娜 芸阿娜":
+        - generic "芸阿娜"
+        - strong: 芸阿娜
+      - generic: 均次
+      - strong: "4.68"
+      - generic: 前四
+      - strong: 47.1%
+      - generic: 登顶
+      - strong: 7.5%
+      - generic: 样本
+      - strong: "531"
+      - button "查看搭配 →"
+    - article:
+      - button "希维尔 希维尔":
+        - generic "希维尔"
+        - strong: 希维尔
+      - generic: 均次
+      - strong: "4.72"
+      - generic: 前四
+      - strong: 44.5%
+      - generic: 登顶
+      - strong: 10.6%
+      - generic: 样本
+      - strong: "348"
+      - button "查看搭配 →"
+    - article:
+      - button "莉莉娅 莉莉娅":
+        - generic "莉莉娅"
+        - strong: 莉莉娅
+      - generic: 均次
+      - strong: "4.74"
+      - generic: 前四
+      - strong: 47.6%
+      - generic: 登顶
+      - strong: 9.9%
+      - generic: 样本
+      - strong: "191"
+      - button "查看搭配 →"
+    - article:
+      - button "瑟提 瑟提":
+        - generic "瑟提":
+          - generic: 瑟
+        - strong: 瑟提
+      - generic: 均次
+      - strong: "4.76"
+      - generic: 前四
+      - strong: 44.4%
+      - generic: 登顶
+      - strong: 7.6%
+      - generic: 样本
+      - strong: "630"
+      - button "查看搭配 →"
+    - article:
+      - button "绯红树怪 绯红树怪":
+        - generic "绯红树怪":
+          - generic: 绯
+        - strong: 绯红树怪
+      - generic: 均次
+      - strong: "4.89"
+      - generic: 前四
+      - strong: 43.9%
+      - generic: 登顶
+      - strong: 10.3%
+      - generic: 样本
+      - strong: "223"
+      - button "查看搭配 →"
+    - article:
+      - button "赫卡里姆 赫卡里姆":
+        - generic "赫卡里姆":
+          - generic: 赫
+        - strong: 赫卡里姆
+      - generic: 均次
+      - strong: "4.89"
+      - generic: 前四
+      - strong: 41.6%
+      - generic: 登顶
+      - strong: 8.4%
+      - generic: 样本
+      - strong: "514"
+      - button "查看搭配 →"
+    - article:
+      - button "韦鲁斯 韦鲁斯":
+        - generic "韦鲁斯":
+          - generic: 韦
+        - strong: 韦鲁斯
+      - generic: 均次
+      - strong: "4.91"
+      - generic: 前四
+      - strong: 40.4%
+      - generic: 登顶
+      - strong: 7.7%
+      - generic: 样本
+      - strong: "183"
+      - button "查看搭配 →"
+    - article:
+      - button "苍蓝雕纹魔像 苍蓝雕纹魔像":
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍
+        - strong: 苍蓝雕纹魔像
+      - generic: 均次
+      - strong: "4.93"
+      - generic: 前四
+      - strong: 42.3%
+      - generic: 登顶
+      - strong: 7.3%
+      - generic: 样本
+      - strong: "560"
+      - button "查看搭配 →"
+    - article:
+      - button "阿木木 阿木木":
+        - generic "阿木木":
+          - generic: 阿
+        - strong: 阿木木
+      - generic: 均次
+      - strong: "4.96"
+      - generic: 前四
+      - strong: 41.3%
+      - generic: 登顶
+      - strong: 9.7%
+      - generic: 样本
+      - strong: "484"
+      - button "查看搭配 →"
+    - article:
+      - button "峡谷迅捷蟹 峡谷迅捷蟹":
+        - generic "峡谷迅捷蟹":
+          - generic: 峡
+        - strong: 峡谷迅捷蟹
+      - generic: 均次
+      - strong: "4.99"
+      - generic: 前四
+      - strong: 41.0%
+      - generic: 登顶
+      - strong: 6.2%
+      - generic: 样本
+      - strong: "468"
+      - button "查看搭配 →"
+    - article:
+      - button "凯南 凯南":
+        - generic "凯南":
+          - generic: 凯
+        - strong: 凯南
+      - generic: 均次
+      - strong: "5.01"
+      - generic: 前四
+      - strong: 39.7%
+      - generic: 登顶
+      - strong: 8.8%
+      - generic: 样本
+      - strong: "353"
+      - button "查看搭配 →"
+    - article:
+      - button "艾希 艾希":
+        - generic "艾希":
+          - generic: 艾
+        - strong: 艾希
+      - generic: 均次
+      - strong: "5.13"
+      - generic: 前四
+      - strong: 33.3%
+      - generic: 登顶
+      - strong: 7.5%
+      - generic: 样本
+      - strong: "120"
+      - button "查看搭配 →"
+    - article:
+      - button "霞 霞":
+        - generic "霞":
+          - generic: 霞
+        - strong: 霞
+      - generic: 均次
+      - strong: "5.13"
+      - generic: 前四
+      - strong: 37.5%
+      - generic: 登顶
+      - strong: 8.9%
+      - generic: 样本
+      - strong: "112"
+      - button "查看搭配 →"
+    - article:
+      - button "慎 慎":
+        - generic "慎":
+          - generic: 慎
+        - strong: 慎
+      - generic: 均次
+      - strong: "5.23"
+      - generic: 前四
+      - strong: 36.6%
+      - generic: 登顶
+      - strong: 6.1%
+      - generic: 样本
+      - strong: "131"
+      - button "查看搭配 →"
+    - article:
+      - button "远古石甲虫 远古石甲虫":
+        - generic "远古石甲虫":
+          - generic: 远
+        - strong: 远古石甲虫
+      - generic: 均次
+      - strong: "5.26"
+      - generic: 前四
+      - strong: 38.7%
+      - generic: 登顶
+      - strong: 5.9%
+      - generic: 样本
+      - strong: "186"
+      - button "查看搭配 →"
+    - article:
+      - button "卡兹克 卡兹克":
+        - generic "卡兹克":
+          - generic: 卡
+        - strong: 卡兹克
+      - generic: 均次
+      - strong: "5.31"
+      - generic: 前四
+      - strong: 38.2%
+      - generic: 登顶
+      - strong: 3.3%
+      - generic: 样本
+      - strong: "212"
+      - button "查看搭配 →"
+    - article:
+      - button "雷恩加尔 雷恩加尔":
+        - generic "雷恩加尔":
+          - generic: 雷
+        - strong: 雷恩加尔
+      - generic: 均次
+      - strong: "5.41"
+      - generic: 前四
+      - strong: 33.8%
+      - generic: 登顶
+      - strong: 5.0%
+      - generic: 样本
+      - strong: "400"
+      - button "查看搭配 →"
+    - article:
+      - button "黛安娜 黛安娜":
+        - generic "黛安娜":
+          - generic: 黛
+        - strong: 黛安娜
+      - generic: 均次
+      - strong: "5.44"
+      - generic: 前四
+      - strong: 33.6%
+      - generic: 登顶
+      - strong: 5.6%
+      - generic: 样本
+      - strong: "447"
+      - button "查看搭配 →"
+    - article:
+      - button "沃里克 沃里克":
+        - generic "沃里克":
+          - generic: 沃
+        - strong: 沃里克
+      - generic: 均次
+      - strong: "5.47"
+      - generic: 前四
+      - strong: 32.7%
+      - generic: 登顶
+      - strong: 3.1%
+      - generic: 样本
+      - strong: "159"
+      - button "查看搭配 →"
+    - article:
+      - button "暗影狼 暗影狼":
+        - generic "暗影狼":
+          - generic: 暗
+        - strong: 暗影狼
+      - generic: 均次
+      - strong: "5.56"
+      - generic: 前四
+      - strong: 29.0%
+      - generic: 登顶
+      - strong: 3.3%
+      - generic: 样本
+      - strong: "449"
+      - button "查看搭配 →"
+    - article:
+      - button "蔚 蔚":
+        - generic "蔚":
+          - generic: 蔚
+        - strong: 蔚
+      - generic: 均次
+      - strong: "5.6"
+      - generic: 前四
+      - strong: 30.2%
+      - generic: 登顶
+      - strong: 3.5%
+      - generic: 样本
+      - strong: "457"
+      - button "查看搭配 →"
+    - article:
+      - button "莫甘娜 莫甘娜":
+        - generic "莫甘娜":
+          - generic: 莫
+        - strong: 莫甘娜
+      - generic: 均次
+      - strong: "5.68"
+      - generic: 前四
+      - strong: 27.3%
+      - generic: 登顶
+      - strong: 5.0%
+      - generic: 样本
+      - strong: "139"
+      - button "查看搭配 →"
+    - article:
+      - button "墨菲特 墨菲特":
+        - generic "墨菲特":
+          - generic: 墨
+        - strong: 墨菲特
+      - generic: 均次
+      - strong: "5.7"
+      - generic: 前四
+      - strong: 27.0%
+      - generic: 登顶
+      - strong: 3.6%
+      - generic: 样本
+      - strong: "196"
+      - button "查看搭配 →"
+    - article:
+      - button "伊莉丝 伊莉丝":
+        - generic "伊莉丝":
+          - generic: 伊
+        - strong: 伊莉丝
+      - generic: 均次
+      - strong: "6.47"
+      - generic: 前四
+      - strong: 13.5%
+      - generic: 登顶
+      - strong: 4.8%
+      - generic: 样本
+      - strong: "126"
+      - button "查看搭配 →"
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手

@@ -1,0 +1,17 @@
+.chat-result-cards{display:grid;gap:10px;margin:10px 0;min-width:0}
+.chat-result-card[hidden]{display:none}
+.chat-query-card{border:1px solid var(--accent-line);border-radius:12px;padding:16px;background:var(--accent-surface);line-height:1.7}.chat-query-card small{display:block;color:var(--dim);margin-bottom:9px}.chat-condition{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:5px 0}.chat-comp-picker{padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);color:var(--text);width:100%;font-size:13px}
+.chat-result-card{padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);min-width:0}
+.chat-card-heading{display:flex;align-items:center;gap:7px;margin-bottom:10px;line-height:1.5}
+.chat-card-heading strong{flex:1;font-size:12px;overflow-wrap:anywhere}.chat-card-heading small{color:var(--dim)}
+.chat-card-order{display:grid;place-items:center;flex:none;width:22px;height:22px;border-radius:6px;background:var(--accent-surface);color:var(--green);font-size:11px}
+.chat-entity-chip{display:inline-flex;align-items:center;gap:6px;padding:3px 5px;border:1px solid var(--line-soft);border-radius:6px;background:var(--panel2);max-width:100%;font-size:11px;line-height:1.5;text-align:left;color:var(--text);vertical-align:middle}
+button.chat-entity-chip:hover{border-color:var(--green)}.chat-entity-chip:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+.chat-entity-chip .entity-image{width:32px;height:32px;flex:none;border-radius:5px}.chat-entity-chip.items .entity-image{width:26px;height:26px}
+.chat-entity-chip span:not(.entity-image):not(.image-fallback){overflow-wrap:anywhere}.chat-entity-chip small{font-size:9px;color:var(--green)}
+.chat-card-items,.chat-card-team{display:flex;flex-wrap:wrap;gap:6px;margin:7px 0}.chat-card-unit{padding:6px;border-radius:7px;background:var(--panel2);width:100%;min-width:0}.chat-card-unit .chat-card-items{margin-bottom:0}.chat-card-unit .chat-entity-chip.items{font-size:10px}
+.chat-card-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;border-top:1px solid var(--line-soft);padding-top:9px;margin:10px 0 0}
+.chat-card-metrics dt{font-size:10px;color:var(--dim)}.chat-card-metrics dd{margin:1px 0 0;font-size:12px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere;color:var(--text)}
+.markdown-content .chat-card-caption{color:var(--dim);font-size:10px;line-height:1.7;margin:7px 0}
+.chat-card-team.composition{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.composition .chat-card-unit{padding:4px}.composition .chat-entity-chip.champions{display:flex;flex-direction:column;width:100%;padding:4px 1px;font-size:10px;gap:2px;text-align:center}.composition .chat-entity-chip.champions .entity-image{width:38px;height:38px}
+.chat-card-items.compact{gap:2px;justify-content:center}.compact .chat-entity-chip{padding:1px;border:0}.compact .chat-entity-chip.items .entity-image{width:19px;height:19px}.compact .chat-entity-chip>span:not(.entity-image){display:none}

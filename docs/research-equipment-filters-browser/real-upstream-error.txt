@@ -1,0 +1,128 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 筛选器
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - region "多条件筛选器":
+    - text: TFT / EXPLORER
+    - heading "筛选器" [level=1]
+    - generic: 添加条件，查看同一组条件下的搭配
+    - generic "苍蓝雕纹魔像"
+    - strong: 苍蓝雕纹魔像
+    - button "移除苍蓝雕纹魔像条件": ×
+    - generic: ⌕
+    - combobox "添加筛选条件" [expanded]: 最佳
+    - button "清空"
+    - listbox "匹配的棋子与装备":
+      - generic: 没有匹配项
+    - paragraph: MetaTFT · 普通排位 · 近 3 天 · 全部段位。全部条件须在同一阵容中成立；可为每件装备分别指定佩戴者，重复添加表示需要多件。
+    - button "重试查询"
+    - generic: 段位
+    - combobox "筛选器统计段位":
+      - option "铂金及以上"
+      - option "全部段位" [selected]
+      - option "黑铁"
+      - option "青铜"
+      - option "白银"
+      - option "黄金"
+      - option "铂金"
+      - option "翡翠"
+      - option "钻石"
+      - option "大师"
+      - option "宗师"
+      - option "王者"
+    - status: 查询未完成
+    - text: 最低样本
+    - combobox "检索样本门槛":
+      - option "不限"
+      - option "50"
+      - option "100" [selected]
+      - option "500"
+      - option "1000"
+    - text: 排序
+    - combobox "检索结果排序":
+      - option "平均名次" [selected]
+      - option "前四率"
+      - option "登顶率"
+      - option "样本数"
+    - region "装备结果":
+      - heading "装备" [level=2]
+      - paragraph
+      - group "出装包含的装备类别":
+        - generic: 出装包含
+        - checkbox "奥恩神器" [checked]
+        - text: 奥恩神器
+        - checkbox "光明装备" [active]
+        - text: 光明装备
+      - generic: MetaTFT 暂未完成查询（HTTP 500），请稍后重试。
+    - region "队友结果":
+      - heading "队友" [level=2]
+      - paragraph
+      - generic: MetaTFT 暂未完成查询（HTTP 500），请稍后重试。
+    - region "推荐阵容结果":
+      - heading "推荐阵容" [level=2]
+      - paragraph
+      - generic: MetaTFT 暂未完成查询（HTTP 500），请稍后重试。
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手

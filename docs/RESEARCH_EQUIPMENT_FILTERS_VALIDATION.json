@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-11T06:25:39.856Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "predeployment page has results and no category switches",
+      "passed": true
+    },
+    {
+      "name": "old JS can query after deployment",
+      "passed": true
+    },
+    {
+      "name": "both categories default to included",
+      "passed": true
+    },
+    {
+      "name": "artifact off excludes Silvermere builds, retains radiant builds",
+      "passed": true
+    },
+    {
+      "name": "both off excludes both categories",
+      "passed": true
+    },
+    {
+      "name": "display switches preserve the same cohort",
+      "passed": true
+    },
+    {
+      "name": "refresh restores both unchecked switches and displayed rows",
+      "passed": true
+    },
+    {
+      "name": "explicit required artifact is kept when display hides all builds",
+      "passed": true
+    },
+    {
+      "name": "enabling artifact restores matching builds",
+      "passed": true
+    },
+    {
+      "name": "another champion restores radiant builds",
+      "passed": true
+    },
+    {
+      "name": "real upstream failure is preserved after a toggle",
+      "passed": true
+    },
+    {
+      "name": "real zero samples remain distinct from hidden builds",
+      "passed": true
+    },
+    {
+      "name": "deliverable retains user rank and sample threshold",
+      "passed": true
+    },
+    {
+      "name": "deployed application health",
+      "passed": true
+    }
+  ],
+  "automatedTests": {
+    "total": 430,
+    "passed": 430,
+    "failed": 0,
+    "skipped": 0,
+    "paidModelCalls": false
+  },
+  "deployment": {
+    "image": "sha256:9b67f808970080899d69878532bfc59ee87794f965041678d780afb8d16e2059",
+    "status": "ok",
+    "version": "4.0.0"
+  },
+  "evidenceDirectory": "research-equipment-filters-browser/",
+  "screenshot": "research-equipment-filters-browser/filters-visible.png",
+  "limitations": [
+    "Display categories affect only returned equipment builds; cohort samples and other columns do not change.",
+    "MetaTFT upstream candidate limits and ALL/Sentinel HTTP 500 remain.",
+    "No database schema change or data deletion; normal queries may persist snapshots."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "checkedAt": "2026-10-11T04:23:41.567Z",
+  "status": "deployed",
+  "url": "http://127.0.0.1:3001",
+  "version": "4.0.0",
+  "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+  "previousReleaseId": "bcb4d129c5dfe331dcab0ccc5b77270d4d280ccec5a5c712713c53fddadbe9ab",
+  "counts": {
+    "glossaryEntries": 191,
+    "glossaryDocuments": 191,
+    "glossaryChunks": 191,
+    "allDocuments": 832,
+    "allChunks": 940,
+    "eligibleChunks": 869,
+    "indexedVectors": 869,
+    "ruleVectors": 678
+  },
+  "index": {
+    "release_id": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+    "profile_hash": "fb288a630ec7bdc1a11d6d185941e0926df6424b0883400dd05194ba306fe10c",
+    "collection_name": "tft_fb288a630ec7bdc1_0f7e3fe3455735de",
+    "state": "ready",
+    "indexed_chunks": 869,
+    "model": "qwen3.7-text-embedding",
+    "dimensions": 1024,
+    "verification": "Index command returned ready only after strong-consistency retrieval verified all 869 IDs and their release, patch and scope."
+  },
+  "preservation": {
+    "nonGlossarySnapshotsCompared": 209,
+    "changedSnapshots": 0,
+    "statisticsAttributionUnchanged": true,
+    "riotCountsUnchanged": true,
+    "riot": {
+      "status": "ready",
+      "currentPatch": "18.4",
+      "season": 18,
+      "matches": {
+        "total": 87,
+        "readyCurrent": 36,
+        "quarantined": 51,
+        "otherPatch": 0
+      },
+      "participantsCurrent": 288
+    },
+    "oldReleaseAndVectorCollectionRetained": true,
+    "mysqlBackup": {
+      "path": "tmp/v4-mysql-before-20261011.sql",
+      "bytes": 52741111,
+      "sha256": "fccfc5245b65afb6bd474f8517a29b60a2f4b8813254ebe6445d5b469711ffdc1",
+      "restoreTested": false
+    },
+    "oldAppImage": "tft-workbench:3.0.0",
+    "deletedDataVolumes": false
+  },
+  "infrastructure": {
+    "status": "passed",
+    "checks": [
+      "mysql_seed_counts",
+      "redis_cache",
+      "knowledge_sources_and_images",
+      "stats_patch_attribution_and_isolation",
+      "patch_isolation_all_paths",
+      "milvus_real_create_upsert_filtered_search"
+    ],
+    "counts": {
+      "entities": 844,
+      "documents": 832,
+      "chunks": 940
+    },
+    "embeddingProviderCalled": false
+  },
+  "liveRetrievalReport": "V4_GLOSSARY_LIVE_VALIDATION.json",
+  "initialInfrastructureFailure": {
+    "message": "Index verification did not find every eligible current-release chunk.",
+    "cause": "Temporary smoke fixtures omitted scope, so the real Milvus scope filter excluded them.",
+    "fix": "Explicit patch scopes plus one general glossary-scope fixture; assert current and general IDs are included and old/unreviewed IDs are excluded.",
+    "productionIndexChangedByFix": false
+  },
+  "providerUse": {
+    "indexEmbedding": true,
+    "liveQueryEmbedding": true,
+    "chatModel": false,
+    "ordinaryInfrastructureChecks": false
+  },
+  "limits": [
+    "Smoke retrieval checks do not establish generated-answer accuracy.",
+    "Reference links retain user-supplied verification labels; not independently rechecked.",
+    "Backup was created and hashed, but restoration was not exercised."
+  ],
+  "finalIndexVerification": "V4_FINAL_INDEX_VERIFICATION.json",
+  "browserReport": "V4_DEPLOYMENT_BROWSER_VALIDATION.json",
+  "screenshot": "V4_DATABASE_UI.png",
+  "tests": {
+    "command": "npm test",
+    "total": 374,
+    "passed": 374,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "durationMs": 7903.8871,
+    "paidProviderCalls": 0
+  },
+  "traceDisplayFix": {
+    "before": "Developer preview falsely said vector search was absent and labelled all model calls zero.",
+    "after": "Reports tool retrieval mode and fallback status; chat calls and Embedding possibility are distinct; tool envelopes and knowledge evidence count separately.",
+    "validatedInBrowser": true
+  }
+}

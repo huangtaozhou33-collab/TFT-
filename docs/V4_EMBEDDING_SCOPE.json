@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-11T04:18:38.611Z",
+  "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+  "currentPatch": "18.4",
+  "glossaryDocuments": 191,
+  "eligibleChunks": 869,
+  "kinds": {
+    "augment_rule": 246,
+    "glossary": 191,
+    "library": 119,
+    "wisp_offering": 313
+  },
+  "sourceHosts": [
+    "docs.google.com",
+    "forum.gamer.com.tw",
+    "gl.ali213.net",
+    "lol.17173.com",
+    "m.hupu.com",
+    "news.17173.com",
+    "ol.3dmgame.com",
+    "teamfighttactics.leagueoflegends.com",
+    "www.18183.com",
+    "www.9game.cn",
+    "www.bilibili.com",
+    "www.gamersky.com",
+    "www.littlebuddybot.com",
+    "www.sohu.com",
+    "www.taptap.cn"
+  ],
+  "suspectedCredentialChunks": 0,
+  "hasPersonalNoteChunks": false,
+  "embeddingDestination": "https://llm-su9hxpma6wd2rb3x.cn-beijing.maas.aliyuncs.com",
+  "embeddingModel": "qwen3.7-text-embedding",
+  "dimensions": 1024,
+  "description": "191 user/editorial terminology chunks and 678 pre-existing public rules chunks; personal notes, chat transcripts and raw match records are not eligible chunk kinds. Credential pattern scan is heuristic, not a full security audit.",
+  "providerCallScope": "Explicit V4 indexing and separate live retrieval acceptance only; no chat generation."
+}

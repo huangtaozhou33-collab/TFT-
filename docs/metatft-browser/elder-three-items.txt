@@ -1,0 +1,375 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 筛选器
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - region "多条件筛选器":
+    - text: TFT / EXPLORER
+    - heading "筛选器" [level=1]
+    - generic: 添加条件，查看同一组条件下的搭配
+    - generic "密银黎明"
+    - strong: 密银黎明
+    - combobox "密银黎明佩戴者":
+      - option "任意英雄携带"
+      - option "远古巨龙携带" [selected]
+    - button "移除密银黎明条件": ×
+    - generic "远古巨龙"
+    - strong: 远古巨龙
+    - button "移除远古巨龙条件": ×
+    - generic "无尽之刃"
+    - strong: 无尽之刃
+    - combobox "无尽之刃佩戴者":
+      - option "任意英雄携带"
+      - option "远古巨龙携带" [selected]
+    - button "移除无尽之刃条件": ×
+    - generic "强袭者的链枷"
+    - strong: 强袭者的链枷
+    - combobox "强袭者的链枷佩戴者":
+      - option "任意英雄携带"
+      - option "远古巨龙携带" [selected]
+    - button "移除强袭者的链枷条件": ×
+    - generic: ⌕
+    - combobox "添加筛选条件" [active]
+    - button "清空"
+    - paragraph: MetaTFT · 普通排位 · 近 3 天 · 铂金及以上。全部条件须在同一阵容中成立；可为每件装备分别指定佩戴者，重复添加表示需要多件。
+    - status: 4 个条件 · MetaTFT · 905 份统计样本 · MySQL 新采集快照
+    - text: 最低样本
+    - combobox "检索样本门槛":
+      - option "不限"
+      - option "50"
+      - option "100" [selected]
+      - option "500"
+      - option "1000"
+    - text: 排序
+    - combobox "检索结果排序":
+      - option "平均名次"
+      - option "前四率"
+      - option "登顶率"
+      - option "样本数" [selected]
+    - region "装备结果":
+      - heading "装备" [level=2]
+      - generic: "1"
+      - paragraph: 该棋子的三件套 · 同时满足全部阵容条件 · 18.4b · 查询范围
+      - article:
+        - generic "远古巨龙"
+        - strong: 远古巨龙
+        - button "筛选密银黎明":
+          - generic "密银黎明"
+        - button "筛选无尽之刃":
+          - generic "无尽之刃"
+        - button "筛选强袭者的链枷":
+          - generic "强袭者的链枷"
+        - generic: 均次
+        - strong: "3.05"
+        - generic: 前四
+        - strong: 73.9%
+        - generic: 登顶
+        - strong: 38.3%
+        - generic: 样本
+        - strong: "905"
+    - region "队友结果":
+      - heading "队友" [level=2]
+      - generic: "16"
+      - paragraph: 同时满足全部条件的阵容中的队友 · 18.4b · 查询范围
+      - article:
+        - button "添加队友苍蓝雕纹魔像":
+          - generic "苍蓝雕纹魔像"
+          - strong: 苍蓝雕纹魔像
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.87"
+        - generic: 前四
+        - strong: 77.2%
+        - generic: 登顶
+        - strong: 41.0%
+        - generic: 样本
+        - strong: "804"
+      - article:
+        - button "添加队友塔里克":
+          - generic "塔里克"
+          - strong: 塔里克
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.65"
+        - generic: 前四
+        - strong: 80.2%
+        - generic: 登顶
+        - strong: 45.4%
+        - generic: 样本
+        - strong: "643"
+      - article:
+        - button "添加队友茂凯":
+          - generic "茂凯"
+          - strong: 茂凯
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.04"
+        - generic: 前四
+        - strong: 72.9%
+        - generic: 登顶
+        - strong: 40.3%
+        - generic: 样本
+        - strong: "538"
+      - article:
+        - button "添加队友阿木木":
+          - generic "阿木木"
+          - strong: 阿木木
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.16"
+        - generic: 前四
+        - strong: 69.6%
+        - generic: 登顶
+        - strong: 40.0%
+        - generic: 样本
+        - strong: "487"
+      - article:
+        - button "添加队友艾翁":
+          - generic "艾翁"
+          - strong: 艾翁
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.96"
+        - generic: 前四
+        - strong: 73.8%
+        - generic: 登顶
+        - strong: 43.3%
+        - generic: 样本
+        - strong: "466"
+      - article:
+        - button "添加队友凯南":
+          - generic "凯南"
+          - strong: 凯南
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.84"
+        - generic: 前四
+        - strong: 75.6%
+        - generic: 登顶
+        - strong: 44.1%
+        - generic: 样本
+        - strong: "451"
+      - article:
+        - button "添加队友德莱文":
+          - generic "德莱文"
+          - strong: 德莱文
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.99"
+        - generic: 前四
+        - strong: 72.8%
+        - generic: 登顶
+        - strong: 42.3%
+        - generic: 样本
+        - strong: "378"
+      - article:
+        - button "添加队友远古石甲虫":
+          - generic "远古石甲虫"
+          - strong: 远古石甲虫
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.9"
+        - generic: 前四
+        - strong: 78.9%
+        - generic: 登顶
+        - strong: 36.5%
+        - generic: 样本
+        - strong: "299"
+      - article:
+        - button "添加队友苍蓝哨戒":
+          - generic "苍蓝哨戒"
+          - strong: 苍蓝哨戒
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.69"
+        - generic: 前四
+        - strong: 82.6%
+        - generic: 登顶
+        - strong: 39.7%
+        - generic: 样本
+        - strong: "282"
+      - article:
+        - button "添加队友绯红印记树怪":
+          - generic "绯红印记树怪"
+          - strong: 绯红印记树怪
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.8"
+        - generic: 前四
+        - strong: 81.1%
+        - generic: 登顶
+        - strong: 36.6%
+        - generic: 样本
+        - strong: "254"
+      - article:
+        - button "添加队友纳尔":
+          - generic "纳尔"
+          - strong: 纳尔
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.46"
+        - generic: 前四
+        - strong: 88.1%
+        - generic: 登顶
+        - strong: 41.1%
+        - generic: 样本
+        - strong: "236"
+      - article:
+        - button "添加队友暗影狼":
+          - generic "暗影狼"
+          - strong: 暗影狼
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.82"
+        - generic: 前四
+        - strong: 81.2%
+        - generic: 登顶
+        - strong: 36.8%
+        - generic: 样本
+        - strong: "223"
+      - article:
+        - button "添加队友峡谷迅捷蟹":
+          - generic "峡谷迅捷蟹"
+          - strong: 峡谷迅捷蟹
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.22"
+        - generic: 前四
+        - strong: 71.0%
+        - generic: 登顶
+        - strong: 33.2%
+        - generic: 样本
+        - strong: "193"
+      - article:
+        - button "添加队友艾希":
+          - generic "艾希"
+          - strong: 艾希
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.98"
+        - generic: 前四
+        - strong: 74.1%
+        - generic: 登顶
+        - strong: 38.1%
+        - generic: 样本
+        - strong: "139"
+      - article:
+        - button "添加队友绯红树怪":
+          - generic "绯红树怪"
+          - strong: 绯红树怪
+          - generic: ＋
+        - generic: 均次
+        - strong: "2.58"
+        - generic: 前四
+        - strong: 82.2%
+        - generic: 登顶
+        - strong: 44.2%
+        - generic: 样本
+        - strong: "129"
+      - article:
+        - button "添加队友蔚":
+          - generic "蔚"
+          - strong: 蔚
+          - generic: ＋
+        - generic: 均次
+        - strong: "3.62"
+        - generic: 前四
+        - strong: 64.0%
+        - generic: 登顶
+        - strong: 28.0%
+        - generic: 样本
+        - strong: "100"
+    - region "推荐阵容结果":
+      - heading "推荐阵容" [level=2]
+      - generic: "1"
+      - paragraph: 同时满足全部条件的棋子组合 · 18.4b · 查询范围
+      - article:
+        - heading "远古巨龙 · 艾翁 · 凯南 · 茂凯 · 阿木木 · 德莱文 · 苍蓝雕纹魔像 · 塔里克" [level=3]
+        - generic "远古巨龙":
+          - generic: 远古巨龙
+        - generic "艾翁":
+          - generic: 艾翁
+        - generic "凯南":
+          - generic: 凯南
+        - generic "茂凯":
+          - generic: 茂凯
+        - generic "阿木木":
+          - generic: 阿木木
+        - generic "德莱文":
+          - generic: 德莱文
+        - generic "苍蓝雕纹魔像":
+          - generic: 苍蓝雕纹魔像
+        - generic "塔里克":
+          - generic: 塔里克
+        - generic: 均次
+        - strong: "2.46"
+        - generic: 前四
+        - strong: 81.6%
+        - generic: 登顶
+        - strong: 49.4%
+        - generic: 样本
+        - strong: "158"
+    - generic "数据范围 · MetaTFT / MySQL · 905 份统计样本"
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手

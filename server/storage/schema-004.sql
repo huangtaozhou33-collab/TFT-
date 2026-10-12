@@ -1,0 +1,1 @@
+ALTER TABLE riot_matches ADD COLUMN raw_json LONGTEXT NULL;

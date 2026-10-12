@@ -1,0 +1,254 @@
+{
+  "first": {
+    "status": "ready",
+    "releaseId": "bcb4d129c5dfe331dcab0ccc5b77270d4d280ccec5a5c712713c53fddadbe9ab",
+    "context": {
+      "set": 18,
+      "gamePatch": "18.4"
+    },
+    "retrieval": {
+      "mode": "hybrid",
+      "vectorStatus": "ready",
+      "cacheHit": true,
+      "candidates": 10,
+      "relevance": {
+        "metric": "COSINE",
+        "minVectorScore": 0.5,
+        "maxVectorScore": 0.63600034,
+        "acceptedVectorCandidates": 10,
+        "strongLexicalCandidates": 3,
+        "applied": true
+      },
+      "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+    },
+    "evidence": [
+      {
+        "id": "chunk:507dbc7ca7a6884a8f06e8a92e48acf0853c571bfb6957a2494f2d60cf8add07",
+        "documentId": "glossary:stabilize",
+        "title": "锁血",
+        "text": "锁血\n别名：稳血、止血\n分类：战力与节奏\n定义：通过提升阵容质量、装备或站位，让接下来几轮的掉血压力明显减小，常用于描述阵容暂时稳定。\n例句：“先找两星前排锁血”表示希望先解决当前战斗承压问题。\n容易误解：锁血是局势判断，不是游戏的无敌机制，也不保证每一回合获胜或完全不掉血。\n相关术语：质量、战力、主坦、容错\n适用范围：通用玩家用语；不是补丁规则或强度统计。",
+        "sourcePatch": null,
+        "source": {
+          "kind": "project_editorial",
+          "name": "本项目术语整理",
+          "note": "解释常见玩家用语，不是官方规则、版本更新或装备强度证据。具体机制与统计需查对应版本来源。",
+          "editedAt": "2026-10-10",
+          "revision": "editorial-v1-3da2c9a9a83e060e",
+          "sourcePatch": null
+        },
+        "images": [],
+        "entityIds": [],
+        "kind": "glossary",
+        "scope": "general",
+        "editorialRevision": "editorial-v1-3da2c9a9a83e060e"
+      },
+      {
+        "id": "chunk:0a875690bdb28e6ea742bd7474ca91b891a57f142ef7dba5b386b4cf899d1568",
+        "documentId": "glossary:roll-down",
+        "title": "大D",
+        "text": "大D\n别名：大搜、大搜牌、大d\n分类：经济与搜牌\n定义：在较短时间内投入较多金币搜牌，尝试尽快提高当前阵容质量。\n例句：“升人口后大D找主C和主坦”是在说明这一回合的资源投入方向。\n容易误解：大D不必然指把金币花光；停手点仍需结合升级结果、血量和后续计划判断。\n相关术语：D牌、慢D、质量、锁血\n适用范围：通用玩家用语；不是补丁规则或强度统计。",
+        "sourcePatch": null,
+        "source": {
+          "kind": "project_editorial",
+          "name": "本项目术语整理",
+          "note": "解释常见玩家用语，不是官方规则、版本更新或装备强度证据。具体机制与统计需查对应版本来源。",
+          "editedAt": "2026-10-10",
+          "revision": "editorial-v1-3da2c9a9a83e060e",
+          "sourcePatch": null
+        },
+        "images": [],
+        "entityIds": [],
+        "kind": "glossary",
+        "scope": "general",
+        "editorialRevision": "editorial-v1-3da2c9a9a83e060e"
+      },
+      {
+        "id": "chunk:22a946198bc3d734a1a0fad3ae27f8e80381df2d64405aadf8fcd03dab6f2683",
+        "documentId": "glossary:slow-roll",
+        "title": "慢D",
+        "text": "慢D\n别名：慢搜、慢搜牌、慢d\n分类：经济与搜牌\n定义：保留一部分经济储备，用超出计划保留金币的部分逐回合搜牌，以延长寻找目标弈子的机会。保留多少金币取决于局面。\n例句：“先慢D追三，血量危险再提速”表示当前搜牌投入较克制，之后会根据战力和血量调整。\n容易误解：慢D不等于每局都固定保留某个金币数，也不保证追到三星。\n相关术语：D牌、卡利息、追三、大D\n适用范围：通用玩家用语；不是补丁规则或强度统计。",
+        "sourcePatch": null,
+        "source": {
+          "kind": "project_editorial",
+          "name": "本项目术语整理",
+          "note": "解释常见玩家用语，不是官方规则、版本更新或装备强度证据。具体机制与统计需查对应版本来源。",
+          "editedAt": "2026-10-10",
+          "revision": "editorial-v1-3da2c9a9a83e060e",
+          "sourcePatch": null
+        },
+        "images": [],
+        "entityIds": [],
+        "kind": "glossary",
+        "scope": "general",
+        "editorialRevision": "editorial-v1-3da2c9a9a83e060e"
+      },
+      {
+        "id": "chunk:4778535945c70d57727a20429796da3cb1162bb5bd2ec5e282f1a2ebb69f4b99",
+        "documentId": "glossary:roll",
+        "title": "D牌",
+        "text": "D牌\n别名：搜牌、搜卡、刷牌、D卡、抽卡\n分类：经济与搜牌\n定义：花费金币刷新商店，寻找需要的弈子。D来自常见的刷新快捷键叫法。\n例句：“这回合D牌补质量”是在说刷新商店找升级或补齐阵容的棋子。\n容易误解：D牌本身不保证找到目标；具体概率取决于当前版本规则、等级和剩余卡池。\n相关术语：慢D、大D、卡利息\n适用范围：通用玩家用语；不是补丁规则或强度统计。",
+        "sourcePatch": null,
+        "source": {
+          "kind": "project_editorial",
+          "name": "本项目术语整理",
+          "note": "解释常见玩家用语，不是官方规则、版本更新或装备强度证据。具体机制与统计需查对应版本来源。",
+          "editedAt": "2026-10-10",
+          "revision": "editorial-v1-3da2c9a9a83e060e",
+          "sourcePatch": null
+        },
+        "images": [],
+        "entityIds": [],
+        "kind": "glossary",
+        "scope": "general",
+        "editorialRevision": "editorial-v1-3da2c9a9a83e060e"
+      },
+      {
+        "id": "chunk:8cdc2b16043d15019912bc8e0d693fdede14deaa40312162b178e46be74dc255",
+        "documentId": "glossary:safety-margin",
+        "title": "容错",
+        "text": "容错\n别名：容错率\n分类：战力与节奏\n定义：当前局面还能承受多少失利、搜牌未果或操作失误的余地，通常与血量、经济及战力有关。\n例句：“血量低了，容错不多”表示后续决策需要更谨慎地处理失败风险。\n容易误解：口语里的容错率通常不是经过统计计算的概率，也不能直接换算成固定可输回合数。\n相关术语：锁血、卖血、战力\n适用范围：通用玩家用语；不是补丁规则或强度统计。",
+        "sourcePatch": null,
+        "source": {
+          "kind": "project_editorial",
+          "name": "本项目术语整理",
+          "note": "解释常见玩家用语，不是官方规则、版本更新或装备强度证据。具体机制与统计需查对应版本来源。",
+          "editedAt": "2026-10-10",
+          "revision": "editorial-v1-3da2c9a9a83e060e",
+          "sourcePatch": null
+        },
+        "images": [],
+        "entityIds": [],
+        "kind": "glossary",
+        "scope": "general",
+        "editorialRevision": "editorial-v1-3da2c9a9a83e060e"
+      }
+    ],
+    "reason": null
+  },
+  "second": {
+    "status": "ready",
+    "releaseId": "bcb4d129c5dfe331dcab0ccc5b77270d4d280ccec5a5c712713c53fddadbe9ab",
+    "context": {
+      "set": 18,
+      "gamePatch": "18.4"
+    },
+    "retrieval": {
+      "mode": "hybrid",
+      "vectorStatus": "ready",
+      "cacheHit": true,
+      "candidates": 10,
+      "relevance": {
+        "metric": "COSINE",
+        "minVectorScore": 0.5,
+        "maxVectorScore": 0.63600034,
+        "acceptedVectorCandidates": 10,
+        "strongLexicalCandidates": 3,
+        "applied": true
+      },
+      "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+    },
+    "evidence": [
+      {
+        "id": "chunk:507dbc7ca7a6884a8f06e8a92e48acf0853c571bfb6957a2494f2d60cf8add07",
+        "documentId": "glossary:stabilize",
+        "title": "锁血",
+        "text": "锁血\n别名：稳血、止血\n分类：战力与节奏\n定义：通过提升阵容质量、装备或站位，让接下来几轮的掉血压力明显减小，常用于描述阵容暂时稳定。\n例句：“先找两星前排锁血”表示希望先解决当前战斗承压问题。\n容易误解：锁血是局势判断，不是游戏的无敌机制，也不保证每一回合获胜或完全不掉血。\n相关术语：质量、战力、主坦、容错\n适用范围：通用玩家用语；不是补丁规则或强度统计。",
+        "sourcePatch": null,
+        "source": {
+          "kind": "project_editorial",
+          "name": "本项目术语整理",
+          "note": "解释常见玩家用语，不是官方规则、版本更新或装备强度证据。具体机制与统计需查对应版本来源。",
+          "editedAt": "2026-10-10",
+          "revision": "editorial-v1-3da2c9a9a83e060e",
+          "sourcePatch": null
+        },
+        "images": [],
+        "entityIds": [],
+        "kind": "glossary",
+        "scope": "general",
+        "editorialRevision": "editorial-v1-3da2c9a9a83e060e"
+      },
+      {
+        "id": "chunk:0a875690bdb28e6ea742bd7474ca91b891a57f142ef7dba5b386b4cf899d1568",
+        "documentId": "glossary:roll-down",
+        "title": "大D",
+        "text": "大D\n别名：大搜、大搜牌、大d\n分类：经济与搜牌\n定义：在较短时间内投入较多金币搜牌，尝试尽快提高当前阵容质量。\n例句：“升人口后大D找主C和主坦”是在说明这一回合的资源投入方向。\n容易误解：大D不必然指把金币花光；停手点仍需结合升级结果、血量和后续计划判断。\n相关术语：D牌、慢D、质量、锁血\n适用范围：通用玩家用语；不是补丁规则或强度统计。",
+        "sourcePatch": null,
+        "source": {
+          "kind": "project_editorial",
+          "name": "本项目术语整理",
+          "note": "解释常见玩家用语，不是官方规则、版本更新或装备强度证据。具体机制与统计需查对应版本来源。",
+          "editedAt": "2026-10-10",
+          "revision": "editorial-v1-3da2c9a9a83e060e",
+          "sourcePatch": null
+        },
+        "images": [],
+        "entityIds": [],
+        "kind": "glossary",
+        "scope": "general",
+        "editorialRevision": "editorial-v1-3da2c9a9a83e060e"
+      },
+      {
+        "id": "chunk:22a946198bc3d734a1a0fad3ae27f8e80381df2d64405aadf8fcd03dab6f2683",
+        "documentId": "glossary:slow-roll",
+        "title": "慢D",
+        "text": "慢D\n别名：慢搜、慢搜牌、慢d\n分类：经济与搜牌\n定义：保留一部分经济储备，用超出计划保留金币的部分逐回合搜牌，以延长寻找目标弈子的机会。保留多少金币取决于局面。\n例句：“先慢D追三，血量危险再提速”表示当前搜牌投入较克制，之后会根据战力和血量调整。\n容易误解：慢D不等于每局都固定保留某个金币数，也不保证追到三星。\n相关术语：D牌、卡利息、追三、大D\n适用范围：通用玩家用语；不是补丁规则或强度统计。",
+        "sourcePatch": null,
+        "source": {
+          "kind": "project_editorial",
+          "name": "本项目术语整理",
+          "note": "解释常见玩家用语，不是官方规则、版本更新或装备强度证据。具体机制与统计需查对应版本来源。",
+          "editedAt": "2026-10-10",
+          "revision": "editorial-v1-3da2c9a9a83e060e",
+          "sourcePatch": null
+        },
+        "images": [],
+        "entityIds": [],
+        "kind": "glossary",
+        "scope": "general",
+        "editorialRevision": "editorial-v1-3da2c9a9a83e060e"
+      },
+      {
+        "id": "chunk:4778535945c70d57727a20429796da3cb1162bb5bd2ec5e282f1a2ebb69f4b99",
+        "documentId": "glossary:roll",
+        "title": "D牌",
+        "text": "D牌\n别名：搜牌、搜卡、刷牌、D卡、抽卡\n分类：经济与搜牌\n定义：花费金币刷新商店，寻找需要的弈子。D来自常见的刷新快捷键叫法。\n例句：“这回合D牌补质量”是在说刷新商店找升级或补齐阵容的棋子。\n容易误解：D牌本身不保证找到目标；具体概率取决于当前版本规则、等级和剩余卡池。\n相关术语：慢D、大D、卡利息\n适用范围：通用玩家用语；不是补丁规则或强度统计。",
+        "sourcePatch": null,
+        "source": {
+          "kind": "project_editorial",
+          "name": "本项目术语整理",
+          "note": "解释常见玩家用语，不是官方规则、版本更新或装备强度证据。具体机制与统计需查对应版本来源。",
+          "editedAt": "2026-10-10",
+          "revision": "editorial-v1-3da2c9a9a83e060e",
+          "sourcePatch": null
+        },
+        "images": [],
+        "entityIds": [],
+        "kind": "glossary",
+        "scope": "general",
+        "editorialRevision": "editorial-v1-3da2c9a9a83e060e"
+      },
+      {
+        "id": "chunk:8cdc2b16043d15019912bc8e0d693fdede14deaa40312162b178e46be74dc255",
+        "documentId": "glossary:safety-margin",
+        "title": "容错",
+        "text": "容错\n别名：容错率\n分类：战力与节奏\n定义：当前局面还能承受多少失利、搜牌未果或操作失误的余地，通常与血量、经济及战力有关。\n例句：“血量低了，容错不多”表示后续决策需要更谨慎地处理失败风险。\n容易误解：口语里的容错率通常不是经过统计计算的概率，也不能直接换算成固定可输回合数。\n相关术语：锁血、卖血、战力\n适用范围：通用玩家用语；不是补丁规则或强度统计。",
+        "sourcePatch": null,
+        "source": {
+          "kind": "project_editorial",
+          "name": "本项目术语整理",
+          "note": "解释常见玩家用语，不是官方规则、版本更新或装备强度证据。具体机制与统计需查对应版本来源。",
+          "editedAt": "2026-10-10",
+          "revision": "editorial-v1-3da2c9a9a83e060e",
+          "sourcePatch": null
+        },
+        "images": [],
+        "entityIds": [],
+        "kind": "glossary",
+        "scope": "general",
+        "editorialRevision": "editorial-v1-3da2c9a9a83e060e"
+      }
+    ],
+    "reason": null
+  }
+}

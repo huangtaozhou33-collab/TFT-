@@ -1,0 +1,502 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 大数据
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - region "装备与棋子大数据":
+    - button "← 返回大数据"
+    - button "加入条件筛选 ↗"
+    - generic "阿狸"
+    - text: 4 费 / 棋子
+    - heading "阿狸" [level=1]
+    - paragraph: 灵魂莲华 · 法师
+    - heading "完整出装" [level=2]
+    - checkbox "奥恩神器"
+    - text: 奥恩神器
+    - text: 最低样本
+    - combobox "出装最低样本":
+      - option "不限"
+      - option "100"
+      - option "500"
+      - option "1000" [selected]
+    - article:
+      - button "查看神谕纹章":
+        - generic "神谕纹章"
+      - button "查看珠光护手":
+        - generic "珠光护手"
+      - button "查看光明版灭世者的死亡之帽":
+        - generic "光明版灭世者的死亡之帽"
+      - generic: 均次
+      - strong: "3.49"
+      - generic: 前四
+      - strong: 68.6%
+      - generic: 登顶
+      - strong: 23.5%
+      - generic: 样本
+      - strong: 1,222
+    - article:
+      - button "查看莫雷洛秘典":
+        - generic "莫雷洛秘典"
+      - button "查看朔极之矛":
+        - generic "朔极之矛"
+      - button "查看虚空之杖":
+        - generic "虚空之杖"
+      - generic: 均次
+      - strong: "3.71"
+      - generic: 前四
+      - strong: 65.9%
+      - generic: 登顶
+      - strong: 16.6%
+      - generic: 样本
+      - strong: 1,726
+    - article:
+      - button "查看裁决使纹章":
+        - generic "裁决使纹章"
+      - button "查看莫雷洛秘典":
+        - generic "莫雷洛秘典"
+      - button "查看朔极之矛":
+        - generic "朔极之矛"
+      - generic: 均次
+      - strong: "3.77"
+      - generic: 前四
+      - strong: 65.6%
+      - generic: 登顶
+      - strong: 13.7%
+      - generic: 样本
+      - strong: 2,080
+    - generic: MetaTFT Explorer
+    - generic: 统计版本 18.4b · 查询范围
+    - generic: 铂金及以上
+    - generic "版本依据"
+    - table:
+      - rowgroup:
+        - row "装备组合 均次 前四率 登顶率 样本":
+          - columnheader "装备组合"
+          - columnheader "均次"
+          - columnheader "前四率"
+          - columnheader "登顶率"
+          - columnheader "样本"
+      - rowgroup:
+        - row "查看神谕纹章 查看珠光护手 查看光明版灭世者的死亡之帽 3.49 68.6% 23.5% 1,222":
+          - cell "查看神谕纹章 查看珠光护手 查看光明版灭世者的死亡之帽":
+            - button "查看神谕纹章":
+              - generic "神谕纹章"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看光明版灭世者的死亡之帽":
+              - generic "光明版灭世者的死亡之帽"
+          - cell "3.49"
+          - cell "68.6%"
+          - cell "23.5%"
+          - cell "1,222"
+        - row "查看莫雷洛秘典 查看朔极之矛 查看虚空之杖 3.71 65.9% 16.6% 1,726":
+          - cell "查看莫雷洛秘典 查看朔极之矛 查看虚空之杖":
+            - button "查看莫雷洛秘典":
+              - generic "莫雷洛秘典"
+            - button "查看朔极之矛":
+              - generic "朔极之矛"
+            - button "查看虚空之杖":
+              - generic "虚空之杖"
+          - cell "3.71"
+          - cell "65.9%"
+          - cell "16.6%"
+          - cell "1,726"
+        - row "查看裁决使纹章 查看莫雷洛秘典 查看朔极之矛 3.77 65.6% 13.7% 2,080":
+          - cell "查看裁决使纹章 查看莫雷洛秘典 查看朔极之矛":
+            - button "查看裁决使纹章":
+              - generic "裁决使纹章"
+            - button "查看莫雷洛秘典":
+              - generic "莫雷洛秘典"
+            - button "查看朔极之矛":
+              - generic "朔极之矛"
+          - cell "3.77"
+          - cell "65.6%"
+          - cell "13.7%"
+          - cell "2,080"
+        - row "查看裁决使纹章 查看蓝霸符 查看灭世者的死亡之帽 3.81 64.9% 14.1% 1,779":
+          - cell "查看裁决使纹章 查看蓝霸符 查看灭世者的死亡之帽":
+            - button "查看裁决使纹章":
+              - generic "裁决使纹章"
+            - button "查看蓝霸符":
+              - generic "蓝霸符"
+            - button "查看灭世者的死亡之帽":
+              - generic "灭世者的死亡之帽"
+          - cell "3.81"
+          - cell "64.9%"
+          - cell "14.1%"
+          - cell "1,779"
+        - row "查看光明版珠光护手 查看朔极之矛 查看强袭者的链枷 3.88 61.4% 15.7% 2,141":
+          - cell "查看光明版珠光护手 查看朔极之矛 查看强袭者的链枷":
+            - button "查看光明版珠光护手":
+              - generic "光明版珠光护手"
+            - button "查看朔极之矛":
+              - generic "朔极之矛"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "3.88"
+          - cell "61.4%"
+          - cell "15.7%"
+          - cell "2,141"
+        - row "查看珠光护手 查看朔极之矛 查看光明版强袭者的链枷 3.91 63.6% 13.6% 1,104":
+          - cell "查看珠光护手 查看朔极之矛 查看光明版强袭者的链枷":
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看朔极之矛":
+              - generic "朔极之矛"
+            - button "查看光明版强袭者的链枷":
+              - generic "光明版强袭者的链枷"
+          - cell "3.91"
+          - cell "63.6%"
+          - cell "13.6%"
+          - cell "1,104"
+        - row "查看灭世者的死亡之帽 查看灭世者的死亡之帽 查看朔极之矛 3.96 60.2% 14.8% 1,525":
+          - cell "查看灭世者的死亡之帽 查看灭世者的死亡之帽 查看朔极之矛":
+            - button "查看灭世者的死亡之帽":
+              - generic "灭世者的死亡之帽"
+            - button "查看灭世者的死亡之帽":
+              - generic "灭世者的死亡之帽"
+            - button "查看朔极之矛":
+              - generic "朔极之矛"
+          - cell "3.96"
+          - cell "60.2%"
+          - cell "14.8%"
+          - cell "1,525"
+        - row "查看莫雷洛秘典 查看灭世者的死亡之帽 查看朔极之矛 3.97 61.6% 12.6% 1,134":
+          - cell "查看莫雷洛秘典 查看灭世者的死亡之帽 查看朔极之矛":
+            - button "查看莫雷洛秘典":
+              - generic "莫雷洛秘典"
+            - button "查看灭世者的死亡之帽":
+              - generic "灭世者的死亡之帽"
+            - button "查看朔极之矛":
+              - generic "朔极之矛"
+          - cell "3.97"
+          - cell "61.6%"
+          - cell "12.6%"
+          - cell "1,134"
+        - row "查看神谕纹章 查看珠光护手 查看灭世者的死亡之帽 3.98 60.9% 15.3% 14,780":
+          - cell "查看神谕纹章 查看珠光护手 查看灭世者的死亡之帽":
+            - button "查看神谕纹章":
+              - generic "神谕纹章"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看灭世者的死亡之帽":
+              - generic "灭世者的死亡之帽"
+          - cell "3.98"
+          - cell "60.9%"
+          - cell "15.3%"
+          - cell "14,780"
+        - row "查看裁决使纹章 查看蓝霸符 查看珠光护手 4 61.3% 13.1% 1,662":
+          - cell "查看裁决使纹章 查看蓝霸符 查看珠光护手":
+            - button "查看裁决使纹章":
+              - generic "裁决使纹章"
+            - button "查看蓝霸符":
+              - generic "蓝霸符"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+          - cell "4"
+          - cell "61.3%"
+          - cell "13.1%"
+          - cell "1,662"
+        - row "查看蓝霸符 查看珠光护手 查看莫雷洛秘典 4 61.1% 12.0% 1,261":
+          - cell "查看蓝霸符 查看珠光护手 查看莫雷洛秘典":
+            - button "查看蓝霸符":
+              - generic "蓝霸符"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看莫雷洛秘典":
+              - generic "莫雷洛秘典"
+          - cell "4"
+          - cell "61.1%"
+          - cell "12.0%"
+          - cell "1,261"
+        - row "查看珠光护手 查看纳什之牙 查看强袭者的链枷 4.04 59.0% 13.7% 6,889":
+          - cell "查看珠光护手 查看纳什之牙 查看强袭者的链枷":
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看纳什之牙":
+              - generic "纳什之牙"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "4.04"
+          - cell "59.0%"
+          - cell "13.7%"
+          - cell "6,889"
+        - row "查看神谕纹章 查看珠光护手 查看强袭者的链枷 4.06 59.5% 13.6% 33,617":
+          - cell "查看神谕纹章 查看珠光护手 查看强袭者的链枷":
+            - button "查看神谕纹章":
+              - generic "神谕纹章"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "4.06"
+          - cell "59.5%"
+          - cell "13.6%"
+          - cell "33,617"
+        - row "查看裁决使纹章 查看灭世者的死亡之帽 查看朔极之矛 4.07 60.0% 11.9% 4,012":
+          - cell "查看裁决使纹章 查看灭世者的死亡之帽 查看朔极之矛":
+            - button "查看裁决使纹章":
+              - generic "裁决使纹章"
+            - button "查看灭世者的死亡之帽":
+              - generic "灭世者的死亡之帽"
+            - button "查看朔极之矛":
+              - generic "朔极之矛"
+          - cell "4.07"
+          - cell "60.0%"
+          - cell "11.9%"
+          - cell "4,012"
+        - row "查看珠光护手 查看光明版灭世者的死亡之帽 查看朔极之矛 4.08 57.7% 14.4% 2,012":
+          - cell "查看珠光护手 查看光明版灭世者的死亡之帽 查看朔极之矛":
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看光明版灭世者的死亡之帽":
+              - generic "光明版灭世者的死亡之帽"
+            - button "查看朔极之矛":
+              - generic "朔极之矛"
+          - cell "4.08"
+          - cell "57.7%"
+          - cell "14.4%"
+          - cell "2,012"
+        - row "查看珠光护手 查看光明版朔极之矛 查看强袭者的链枷 4.11 57.0% 12.8% 1,121":
+          - cell "查看珠光护手 查看光明版朔极之矛 查看强袭者的链枷":
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看光明版朔极之矛":
+              - generic "光明版朔极之矛"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "4.11"
+          - cell "57.0%"
+          - cell "12.8%"
+          - cell "1,121"
+        - row "查看适应性头盔 查看珠光护手 查看灭世者的死亡之帽 4.11 57.6% 11.2% 1,814":
+          - cell "查看适应性头盔 查看珠光护手 查看灭世者的死亡之帽":
+            - button "查看适应性头盔":
+              - generic "适应性头盔"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看灭世者的死亡之帽":
+              - generic "灭世者的死亡之帽"
+          - cell "4.11"
+          - cell "57.6%"
+          - cell "11.2%"
+          - cell "1,814"
+        - row "查看珠光护手 查看纳什之牙 查看纳什之牙 4.13 57.7% 13.7% 2,785":
+          - cell "查看珠光护手 查看纳什之牙 查看纳什之牙":
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看纳什之牙":
+              - generic "纳什之牙"
+            - button "查看纳什之牙":
+              - generic "纳什之牙"
+          - cell "4.13"
+          - cell "57.7%"
+          - cell "13.7%"
+          - cell "2,785"
+        - row "查看蓝霸符 查看灭世者的死亡之帽 查看朔极之矛 4.13 57.3% 13.8% 1,377":
+          - cell "查看蓝霸符 查看灭世者的死亡之帽 查看朔极之矛":
+            - button "查看蓝霸符":
+              - generic "蓝霸符"
+            - button "查看灭世者的死亡之帽":
+              - generic "灭世者的死亡之帽"
+            - button "查看朔极之矛":
+              - generic "朔极之矛"
+          - cell "4.13"
+          - cell "57.3%"
+          - cell "13.8%"
+          - cell "1,377"
+        - row "查看珠光护手 查看纳什之牙 查看灭世者的死亡之帽 4.16 56.6% 12.6% 3,369":
+          - cell "查看珠光护手 查看纳什之牙 查看灭世者的死亡之帽":
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看纳什之牙":
+              - generic "纳什之牙"
+            - button "查看灭世者的死亡之帽":
+              - generic "灭世者的死亡之帽"
+          - cell "4.16"
+          - cell "56.6%"
+          - cell "12.6%"
+          - cell "3,369"
+        - row "查看蓝霸符 查看珠光护手 查看灭世者的死亡之帽 4.16 57.0% 12.5% 10,519":
+          - cell "查看蓝霸符 查看珠光护手 查看灭世者的死亡之帽":
+            - button "查看蓝霸符":
+              - generic "蓝霸符"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看灭世者的死亡之帽":
+              - generic "灭世者的死亡之帽"
+          - cell "4.16"
+          - cell "57.0%"
+          - cell "12.5%"
+          - cell "10,519"
+        - row "查看蓝霸符 查看珠光护手 查看强袭者的链枷 4.17 56.7% 12.2% 12,069":
+          - cell "查看蓝霸符 查看珠光护手 查看强袭者的链枷":
+            - button "查看蓝霸符":
+              - generic "蓝霸符"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "4.17"
+          - cell "56.7%"
+          - cell "12.2%"
+          - cell "12,069"
+        - row "查看裁决使纹章 查看朔极之矛 查看强袭者的链枷 4.22 56.2% 12.2% 1,362":
+          - cell "查看裁决使纹章 查看朔极之矛 查看强袭者的链枷":
+            - button "查看裁决使纹章":
+              - generic "裁决使纹章"
+            - button "查看朔极之矛":
+              - generic "朔极之矛"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "4.22"
+          - cell "56.2%"
+          - cell "12.2%"
+          - cell "1,362"
+        - row "查看珠光护手 查看朔极之矛 查看强袭者的链枷 4.22 55.8% 11.9% 94,489":
+          - cell "查看珠光护手 查看朔极之矛 查看强袭者的链枷":
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看朔极之矛":
+              - generic "朔极之矛"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "4.22"
+          - cell "55.8%"
+          - cell "11.9%"
+          - cell "94,489"
+        - row "查看大天使之杖 查看大天使之杖 查看珠光护手 4.24 55.2% 11.6% 2,046":
+          - cell "查看大天使之杖 查看大天使之杖 查看珠光护手":
+            - button "查看大天使之杖":
+              - generic "大天使之杖"
+            - button "查看大天使之杖":
+              - generic "大天使之杖"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+          - cell "4.24"
+          - cell "55.2%"
+          - cell "11.6%"
+          - cell "2,046"
+        - row "查看珠光护手 查看灭世者的死亡之帽 查看朔极之矛 4.24 55.4% 11.5% 29,164":
+          - cell "查看珠光护手 查看灭世者的死亡之帽 查看朔极之矛":
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看灭世者的死亡之帽":
+              - generic "灭世者的死亡之帽"
+            - button "查看朔极之矛":
+              - generic "朔极之矛"
+          - cell "4.24"
+          - cell "55.4%"
+          - cell "11.5%"
+          - cell "29,164"
+        - row "查看神谕纹章 查看大天使之杖 查看珠光护手 4.26 54.7% 12.4% 3,194":
+          - cell "查看神谕纹章 查看大天使之杖 查看珠光护手":
+            - button "查看神谕纹章":
+              - generic "神谕纹章"
+            - button "查看大天使之杖":
+              - generic "大天使之杖"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+          - cell "4.26"
+          - cell "54.7%"
+          - cell "12.4%"
+          - cell "3,194"
+        - row "查看巨人杀手 查看珠光护手 查看纳什之牙 4.26 55.3% 11.0% 1,077":
+          - cell "查看巨人杀手 查看珠光护手 查看纳什之牙":
+            - button "查看巨人杀手":
+              - generic "巨人杀手"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看纳什之牙":
+              - generic "纳什之牙"
+          - cell "4.26"
+          - cell "55.3%"
+          - cell "11.0%"
+          - cell "1,077"
+        - row "查看适应性头盔 查看珠光护手 查看强袭者的链枷 4.26 54.4% 11.3% 2,115":
+          - cell "查看适应性头盔 查看珠光护手 查看强袭者的链枷":
+            - button "查看适应性头盔":
+              - generic "适应性头盔"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+            - button "查看强袭者的链枷":
+              - generic "强袭者的链枷"
+          - cell "4.26"
+          - cell "54.4%"
+          - cell "11.3%"
+          - cell "2,115"
+        - row "查看适应性头盔 查看蓝霸符 查看珠光护手 4.27 54.3% 11.8% 2,459":
+          - cell "查看适应性头盔 查看蓝霸符 查看珠光护手":
+            - button "查看适应性头盔":
+              - generic "适应性头盔"
+            - button "查看蓝霸符":
+              - generic "蓝霸符"
+            - button "查看珠光护手":
+              - generic "珠光护手"
+          - cell "4.27"
+          - cell "54.3%"
+          - cell "11.8%"
+          - cell "2,459"
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手

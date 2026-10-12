@@ -1,0 +1,299 @@
+{
+  "checkedAt": "2026-10-11T04:19:12.736Z",
+  "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+  "indexedChunks": 869,
+  "cacheHit": true,
+  "passed": 5,
+  "total": 5,
+  "providerUseExplicit": true,
+  "chatModelCalled": false,
+  "results": [
+    {
+      "query": "速八是什么意思？",
+      "passed": true,
+      "checks": {
+        "currentRelease": true,
+        "hybrid": true,
+        "expectedCards": true,
+        "scope": true,
+        "originalContent": true,
+        "ambiguity": true,
+        "status": true
+      },
+      "status": "ready",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 2,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.7655728,
+          "acceptedVectorCandidates": 4,
+          "strongLexicalCandidates": 2,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "terminology": {
+        "mentions": [
+          {
+            "text": "速八",
+            "ambiguous": true,
+            "candidates": [
+              {
+                "id": "fast-eight",
+                "term": "速八（升八级）"
+              },
+              {
+                "id": "fast-eighth",
+                "term": "速八（第八出局）"
+              }
+            ]
+          }
+        ],
+        "truncated": false
+      },
+      "evidence": [
+        {
+          "documentId": "glossary:fast-eight",
+          "title": "速八（升八级）",
+          "scope": "general",
+          "sourcePatch": null,
+          "evidenceStatus": "source_supported",
+          "verificationStatus": "not_independently_verified"
+        },
+        {
+          "documentId": "glossary:fast-eighth",
+          "title": "速八（第八出局）",
+          "scope": "general",
+          "sourcePatch": null,
+          "evidenceStatus": "source_supported",
+          "verificationStatus": "not_independently_verified"
+        }
+      ]
+    },
+    {
+      "query": "卡牌是什么意思？",
+      "passed": true,
+      "checks": {
+        "currentRelease": true,
+        "hybrid": true,
+        "expectedCards": true,
+        "scope": true,
+        "originalContent": true,
+        "ambiguity": true,
+        "status": true
+      },
+      "status": "ready",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 2,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.74488914,
+          "acceptedVectorCandidates": 24,
+          "strongLexicalCandidates": 2,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "terminology": {
+        "mentions": [
+          {
+            "text": "卡牌",
+            "ambiguous": true,
+            "candidates": [
+              {
+                "id": "deny-units",
+                "term": "卡牌（占牌）"
+              },
+              {
+                "id": "twisted-fate",
+                "term": "卡牌"
+              }
+            ]
+          }
+        ],
+        "truncated": false
+      },
+      "evidence": [
+        {
+          "documentId": "glossary:deny-units",
+          "title": "卡牌（占牌）",
+          "scope": "general",
+          "sourcePatch": null,
+          "evidenceStatus": "source_supported",
+          "verificationStatus": "not_independently_verified"
+        },
+        {
+          "documentId": "glossary:twisted-fate",
+          "title": "卡牌",
+          "scope": "general",
+          "sourcePatch": null,
+          "evidenceStatus": "editorial_common_usage",
+          "verificationStatus": "not_independently_verified"
+        }
+      ]
+    },
+    {
+      "query": "启动是什么意思？",
+      "passed": true,
+      "checks": {
+        "currentRelease": true,
+        "hybrid": true,
+        "expectedCards": true,
+        "scope": true,
+        "originalContent": true,
+        "ambiguity": true,
+        "status": true
+      },
+      "status": "ready",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 3,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.7380866,
+          "acceptedVectorCandidates": 4,
+          "strongLexicalCandidates": 2,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "terminology": {
+        "mentions": [
+          {
+            "text": "启动",
+            "ambiguous": true,
+            "candidates": [
+              {
+                "id": "combat-start",
+                "term": "启动（战斗状态）"
+              },
+              {
+                "id": "spend-start",
+                "term": "启动（运营投入）"
+              }
+            ]
+          }
+        ],
+        "truncated": false
+      },
+      "evidence": [
+        {
+          "documentId": "glossary:combat-start",
+          "title": "启动（战斗状态）",
+          "scope": "general",
+          "sourcePatch": null,
+          "evidenceStatus": "editorial_common_usage",
+          "verificationStatus": "not_independently_verified"
+        },
+        {
+          "documentId": "glossary:spend-start",
+          "title": "启动（运营投入）",
+          "scope": "general",
+          "sourcePatch": null,
+          "evidenceStatus": "editorial_common_usage",
+          "verificationStatus": "not_independently_verified"
+        }
+      ]
+    },
+    {
+      "query": "他说先吃利息，是什么意思？",
+      "passed": true,
+      "checks": {
+        "currentRelease": true,
+        "hybrid": true,
+        "expectedCards": true,
+        "scope": true,
+        "originalContent": true,
+        "ambiguity": true,
+        "status": true
+      },
+      "status": "ready",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 1,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.78323597,
+          "acceptedVectorCandidates": 8,
+          "strongLexicalCandidates": 1,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "terminology": {
+        "mentions": [
+          {
+            "text": "吃利息",
+            "ambiguous": false,
+            "candidates": [
+              {
+                "id": "earn-interest",
+                "term": "吃利息"
+              }
+            ]
+          }
+        ],
+        "truncated": false
+      },
+      "evidence": [
+        {
+          "documentId": "glossary:earn-interest",
+          "title": "吃利息",
+          "scope": "general",
+          "sourcePatch": null,
+          "evidenceStatus": "source_supported",
+          "verificationStatus": "not_independently_verified"
+        }
+      ]
+    },
+    {
+      "query": "请给我番茄炒蛋的做法",
+      "passed": true,
+      "checks": {
+        "currentRelease": true,
+        "hybrid": true,
+        "expectedCards": true,
+        "scope": true,
+        "originalContent": true,
+        "ambiguity": true,
+        "status": true
+      },
+      "status": "not_found",
+      "retrieval": {
+        "mode": "hybrid",
+        "vectorStatus": "ready",
+        "cacheHit": false,
+        "candidates": 0,
+        "relevance": {
+          "metric": "COSINE",
+          "minVectorScore": 0.5,
+          "maxVectorScore": 0.36133718,
+          "acceptedVectorCandidates": 0,
+          "strongLexicalCandidates": 0,
+          "applied": true
+        },
+        "scoreMeaning": "COSINE 相关度与检索排序，不代表事实置信度"
+      },
+      "terminology": {
+        "mentions": [],
+        "truncated": false
+      },
+      "evidence": []
+    }
+  ],
+  "limitation": "Real retrieval smoke checks, not a generated-answer or full quality evaluation. Cached requests do not call the embedding provider."
+}

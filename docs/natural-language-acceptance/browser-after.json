@@ -1,0 +1,1039 @@
+[
+  {
+    "id": "trace_dbf1a90c-412b-4bd7-ac99-d67065736bf2",
+    "mode": "answer",
+    "status": "completed",
+    "createdAt": "2026-10-11T06:51:26.440Z",
+    "expiresAt": "2026-10-11T07:51:26.440Z",
+    "completedAt": "2026-10-11T06:51:32.312Z",
+    "question": "新问题：黄金阿木木带光明无尽的完整出装，样本门槛0，给2套。",
+    "versionFilters": {
+      "mode": "natural_language_statistics",
+      "catalog": {
+        "set": 18,
+        "game": "tft",
+        "mutator": "TFTSet18",
+        "language": "zh_cn",
+        "fetchedAt": "2026-10-07T13:39:03.456Z",
+        "gamePatch": null,
+        "assetVersion": "16.20",
+        "rulesVersion": "set18-assets16.20-recipes18.4-v4"
+      },
+      "previousQuery": {
+        "rank": "ALL",
+        "view": "filter",
+        "conditions": [
+          {
+            "type": "champion",
+            "id": "DA_18_ElderDragon"
+          },
+          {
+            "type": "item",
+            "id": "DA_Artifact_SilvermereDawn",
+            "holderId": "DA_18_ElderDragon"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "resultView": "equipment",
+        "minSample": 100,
+        "sort": "top4Rate",
+        "limit": 2
+      },
+      "pageFilter": {
+        "conditions": [
+          {
+            "type": "champion",
+            "id": "DA_18_ElderDragon"
+          },
+          {
+            "type": "item",
+            "id": "DA_Artifact_SilvermereDawn",
+            "holderId": "DA_18_ElderDragon"
+          }
+        ],
+        "minSample": 100,
+        "sort": "top4Rate",
+        "rank": "ALL",
+        "dataSource": "metatft",
+        "carrierId": "DA_18_ElderDragon"
+      }
+    },
+    "tools": [
+      {
+        "index": 1,
+        "name": "query_tft_stats",
+        "phase": "model",
+        "args": {
+          "view": "filter",
+          "rank": "GOLD",
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_Amumu18"
+            },
+            {
+              "type": "item",
+              "id": "DA_InfinityEdgeRadiant",
+              "holderId": "DA_Amumu18"
+            }
+          ],
+          "carrierId": "DA_Amumu18",
+          "resultView": "equipment",
+          "minSample": 0,
+          "limit": 2
+        },
+        "toolCallId": "call_00_lZ7C7sn9JvkVFSxkrf7Z7199",
+        "startedAt": "2026-10-11T06:51:29.042Z",
+        "completedAt": "2026-10-11T06:51:30.175Z",
+        "durationMs": 1133,
+        "status": "ok",
+        "result": {
+          "status": "empty",
+          "query": {
+            "rank": "GOLD",
+            "view": "filter",
+            "conditions": [
+              {
+                "type": "champion",
+                "id": "DA_Amumu18"
+              },
+              {
+                "type": "item",
+                "id": "DA_InfinityEdgeRadiant",
+                "holderId": "DA_Amumu18"
+              }
+            ],
+            "carrierId": "DA_Amumu18",
+            "resultView": "equipment",
+            "minSample": 0,
+            "limit": 2,
+            "sort": "avgPlacement"
+          },
+          "stats": {
+            "sampleSize": 0,
+            "avgPlacement": null,
+            "top4Rate": null,
+            "winRate": null
+          },
+          "coverage": {
+            "jointMatchQueries": false,
+            "jointConditions": true,
+            "matchedSamples": 0,
+            "matchedMatches": null,
+            "scope": {
+              "adapterVersion": 2,
+              "conditions": [
+                {
+                  "type": "item",
+                  "id": "DA_InfinityEdgeRadiant",
+                  "holderId": "DA_Amumu18"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_Amumu18"
+                }
+              ],
+              "carrierId": "DA_Amumu18",
+              "focusItemId": "DA_InfinityEdgeRadiant",
+              "season": 18,
+              "patch": "18.4",
+              "bPatch": "b",
+              "queue": 1100,
+              "days": 3,
+              "ranks": [
+                "GOLD"
+              ],
+              "server": null
+            },
+            "snapshotId": "3683781733eee3e5078d923dea5332e939b5135fd640f5c1712c9a32f736f433",
+            "cacheHit": false,
+            "expiresAt": "2026-10-11T07:01:30.151Z",
+            "sourceRows": {},
+            "exhaustive": false
+          },
+          "reason": "没有满足全部条件的样本，未放宽条件或改用其他来源。",
+          "querySemantics": "source_aggregate_same_board_conditions",
+          "citation": "[S1]",
+          "sourceEvidence": {
+            "source": "MetaTFT Explorer",
+            "url": "https://www.metatft.com/explorer",
+            "delivery": "mysql",
+            "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+            "snapshotId": "3683781733eee3e5078d923dea5332e939b5135fd640f5c1712c9a32f736f433",
+            "sourcePatch": null,
+            "requestedPatch": "18.4b",
+            "sourceCurrentPatch": "18.4b",
+            "patchAttribution": {
+              "method": "explicit_request_and_source_metadata",
+              "statisticsResponsePatch": null
+            },
+            "set": 18,
+            "queueId": 1100,
+            "rank": "黄金",
+            "rankFilter": "GOLD",
+            "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+            "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+            "statisticalWindow": {
+              "days": 3,
+              "timeAnchor": "source_relative_window"
+            },
+            "fetchedAt": "2026-10-11T06:51:30.151Z"
+          },
+          "equipment": {
+            "status": "empty",
+            "kind": "observed_builds",
+            "reason": "MetaTFT 当前范围内没有同时满足全部条件的样本。",
+            "rows": []
+          },
+          "teammates": {
+            "status": "empty",
+            "kind": "joint_teammates",
+            "reason": "MetaTFT 当前范围内没有同时满足全部条件的样本。",
+            "rows": []
+          },
+          "comps": {
+            "status": "empty",
+            "reason": "MetaTFT 当前范围内没有同时满足全部条件的样本。",
+            "rows": []
+          }
+        },
+        "selection": {
+          "metric": "avgPlacement",
+          "direction": null,
+          "minimumSampleSize": 0,
+          "mode": "cached_aggregate_row_membership",
+          "matchedRows": null
+        },
+        "ranking": {
+          "method": "source_metric_sort",
+          "metric": "avgPlacement",
+          "direction": "asc",
+          "minimumSampleSize": 0,
+          "basis": null,
+          "similarityScore": null,
+          "rerankScore": null,
+          "confidenceScore": null,
+          "note": "排序值是来源指标或目录匹配顺序，不是事实可信度；此工具未提供向量或重排分数。"
+        },
+        "contextSegmentId": "C2"
+      }
+    ],
+    "statRows": [],
+    "modelContext": [
+      {
+        "id": "C1",
+        "kind": "page_context",
+        "phase": "prepare",
+        "content": "{\"rank\":\"ALL\",\"catalog\":{\"set\":18,\"game\":\"tft\",\"mutator\":\"TFTSet18\",\"language\":\"zh_cn\",\"fetchedAt\":\"2026-10-07T13:39:03.456Z\",\"gamePatch\":null,\"assetVersion\":\"16.20\",\"rulesVersion\":\"set18-assets16.20-recipes18.4-v4\"},\"page\":\"explorer\",\"pageEntity\":null,\"mentions\":[{\"text\":\"阿木木\",\"ambiguous\":false,\"candidates\":[{\"type\":\"champion\",\"id\":\"DA_Amumu18\",\"name\":\"阿木木\"}]},{\"text\":\"光明无尽\",\"ambiguous\":false,\"candidates\":[{\"type\":\"item\",\"id\":\"DA_InfinityEdgeRadiant\",\"name\":\"光明版无尽之刃\",\"category\":\"radiant\"}]}],\"pageSelection\":[],\"glossaryStatus\":\"available\",\"glossary\":[\"无尽\\n别名：无\\n分类：装备俗称\\n定义：一般是无尽之刃的简称，出装讨论中通常涉及暴击相关收益。\\n例句：问：他说无尽必备，是不是所有输出都要出？\\n例句：答：无尽一般指无尽之刃；是否需要取决于技能、已有暴击来源和当局版本。\\n容易误解：不能由外号推出技能必然无法暴击、暴击必然溢出或固定的无尽加法爆组合。\\n相关术语：\\n适用范围：云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变\\n证据标记：editorial_common_usage；有用法或概念来源不等于官方定义。\\n参考来源：https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-12-23-notes/；https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-23-notes/\\n核验状态：用户提供参考链接；本次接入未逐条独立复核。\\n本卡仅解释玩家语言。历史机制、英雄是否在场、装备效果和配方必须另查对应赛季，不能用术语卡代替当前统计。\"],\"previousQuery\":{\"rank\":\"ALL\",\"view\":\"filter\",\"conditions\":[{\"type\":\"champion\",\"id\":\"DA_18_ElderDragon\"},{\"type\":\"item\",\"id\":\"DA_Artifact_SilvermereDawn\",\"holderId\":\"DA_18_ElderDragon\"}],\"carrierId\":\"DA_18_ElderDragon\",\"resultView\":\"equipment\",\"minSample\":100,\"sort\":\"top4Rate\",\"limit\":2},\"previousEntities\":[],\"pageFilter\":{\"conditions\":[{\"type\":\"champion\",\"id\":\"DA_18_ElderDragon\"},{\"type\":\"item\",\"id\":\"DA_Artifact_SilvermereDawn\",\"holderId\":\"DA_18_ElderDragon\"}],\"minSample\":100,\"sort\":\"top4Rate\",\"rank\":\"ALL\",\"dataSource\":\"metatft\",\"carrierId\":\"DA_18_ElderDragon\"}}",
+        "truncated": false,
+        "redacted": true,
+        "submittedIn": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": "C2",
+        "kind": "tool_result",
+        "phase": "model",
+        "toolName": "query_tft_stats",
+        "content": "{\"status\":\"empty\",\"query\":{\"rank\":\"GOLD\",\"view\":\"filter\",\"conditions\":[{\"type\":\"champion\",\"id\":\"DA_Amumu18\"},{\"type\":\"item\",\"id\":\"DA_InfinityEdgeRadiant\",\"holderId\":\"DA_Amumu18\"}],\"carrierId\":\"DA_Amumu18\",\"resultView\":\"equipment\",\"minSample\":0,\"limit\":2,\"sort\":\"avgPlacement\"},\"stats\":{\"sampleSize\":0,\"avgPlacement\":null,\"top4Rate\":null,\"winRate\":null},\"coverage\":{\"jointMatchQueries\":false,\"jointConditions\":true,\"matchedSamples\":0,\"matchedMatches\":null,\"scope\":{\"adapterVersion\":2,\"conditions\":[{\"type\":\"item\",\"id\":\"DA_InfinityEdgeRadiant\",\"holderId\":\"DA_Amumu18\"},{\"type\":\"champion\",\"id\":\"DA_Amumu18\"}],\"carrierId\":\"DA_Amumu18\",\"focusItemId\":\"DA_InfinityEdgeRadiant\",\"season\":18,\"patch\":\"18.4\",\"bPatch\":\"b\",\"queue\":1100,\"days\":3,\"ranks\":[\"GOLD\"],\"server\":null},\"snapshotId\":\"3683781733eee3e5078d923dea5332e939b5135fd640f5c1712c9a32f736f433\",\"cacheHit\":false,\"expiresAt\":\"2026-10-11T07:01:30.151Z\",\"sourceRows\":{},\"exhaustive\":false},\"reason\":\"没有满足全部条件的样本，未放宽条件或改用其他来源。\",\"querySemantics\":\"source_aggregate_same_board_conditions\",\"citation\":\"[S1]\",\"sourceEvidence\":{\"source\":\"MetaTFT Explorer\",\"url\":\"https://www.metatft.com/explorer\",\"delivery\":\"mysql\",\"releaseId\":\"0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b\",\"snapshotId\":\"3683781733eee3e5078d923dea5332e939b5135fd640f5c1712c9a32f736f433\",\"sourcePatch\":null,\"requestedPatch\":\"18.4b\",\"sourceCurrentPatch\":\"18.4b\",\"patchAttribution\":{\"method\":\"explicit_request_and_source_metadata\",\"statisticsResponsePatch\":null},\"set\":18,\"queueId\":1100,\"rank\":\"黄金\",\"rankFilter\":\"GOLD\",\"population\":\"MetaTFT 默认地区范围 · 普通排位 · 近 3 天\",\"sampleDenominator\":\"来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。\",\"statisticalWindow\":{\"days\":3,\"timeAnchor\":\"source_relative_window\"},\"fetchedAt\":\"2026-10-11T06:51:30.151Z\"},\"equipment\":{\"status\":\"empty\",\"kind\":\"observed_builds\",\"reason\":\"MetaTFT 当前范围内没有同时满足全部条件的样本。\",\"rows\":[]},\"teammates\":{\"status\":\"empty\",\"kind\":\"joint_teammates\",\"reason\":\"MetaTFT 当前范围内没有同时满足全部条件的样本。\",\"rows\":[]},\"comps\":{\"status\":\"empty\",\"reason\":\"MetaTFT 当前范围内没有同时满足全部条件的样本。\",\"rows\":[]}}",
+        "truncated": false,
+        "redacted": false,
+        "submittedIn": [
+          2
+        ]
+      }
+    ],
+    "modelInputs": [
+      {
+        "turn": 1,
+        "submittedAt": "2026-10-11T06:51:26.465Z",
+        "segmentIds": [
+          "C1"
+        ],
+        "delivery": "passed_to_completion",
+        "providerAccepted": null
+      },
+      {
+        "turn": 2,
+        "submittedAt": "2026-10-11T06:51:30.176Z",
+        "segmentIds": [
+          "C1",
+          "C2"
+        ],
+        "delivery": "passed_to_completion",
+        "providerAccepted": null
+      }
+    ],
+    "citations": {
+      "retrieved": [
+        {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "3683781733eee3e5078d923dea5332e939b5135fd640f5c1712c9a32f736f433",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "rank": "黄金",
+          "rankFilter": "GOLD",
+          "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+          "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "fetchedAt": "2026-10-11T06:51:30.151Z",
+          "id": "S1",
+          "type": "statistics",
+          "title": "MetaTFT Explorer · 组合筛选"
+        }
+      ],
+      "cited": [
+        {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "3683781733eee3e5078d923dea5332e939b5135fd640f5c1712c9a32f736f433",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "rank": "黄金",
+          "rankFilter": "GOLD",
+          "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+          "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "fetchedAt": "2026-10-11T06:51:30.151Z",
+          "id": "S1",
+          "type": "statistics",
+          "title": "MetaTFT Explorer · 组合筛选"
+        }
+      ],
+      "unresolvedIds": []
+    },
+    "budget": {
+      "limit": 12,
+      "executed": 1,
+      "denied": 0,
+      "remaining": 11
+    },
+    "cache": {
+      "reads": [
+        {
+          "toolIndex": 1,
+          "name": "query_tft_stats",
+          "status": "empty",
+          "delivery": "mysql",
+          "cacheKey": null,
+          "fetchedAt": "2026-10-11T06:51:30.151Z",
+          "sourceTime": null,
+          "sourcePatch": null,
+          "ageSeconds": 0
+        }
+      ],
+      "redis": {
+        "status": "not_connected",
+        "hit": null
+      },
+      "onlineRefresh": false,
+      "note": "delivery来自实际工具；未探测Redis命中。ageSeconds按原始采集时间计算，未知时间为null；数据缓存不由本次读取刷新。"
+    },
+    "storageTruncated": false
+  },
+  {
+    "id": "trace_ab343fdd-2178-41a9-aeab-89e130325190",
+    "mode": "answer",
+    "status": "completed",
+    "createdAt": "2026-10-11T06:51:05.582Z",
+    "expiresAt": "2026-10-11T07:51:05.582Z",
+    "completedAt": "2026-10-11T06:51:13.918Z",
+    "question": "把小法和他那把青龙刀都去掉，其他不变，样本门槛降到100。",
+    "versionFilters": {
+      "mode": "natural_language_statistics",
+      "catalog": {
+        "set": 18,
+        "game": "tft",
+        "mutator": "TFTSet18",
+        "language": "zh_cn",
+        "fetchedAt": "2026-10-07T13:39:03.456Z",
+        "gamePatch": null,
+        "assetVersion": "16.20",
+        "rulesVersion": "set18-assets16.20-recipes18.4-v4"
+      },
+      "previousQuery": {
+        "rank": "ALL",
+        "view": "filter",
+        "conditions": [
+          {
+            "type": "champion",
+            "id": "DA_18_ElderDragon"
+          },
+          {
+            "type": "champion",
+            "id": "DA_18_Veigar"
+          },
+          {
+            "type": "item",
+            "id": "DA_SpearOfShojin",
+            "holderId": "DA_18_Veigar"
+          },
+          {
+            "type": "item",
+            "id": "DA_Artifact_SilvermereDawn",
+            "holderId": "DA_18_ElderDragon"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "resultView": "equipment",
+        "minSample": 1000,
+        "sort": "top4Rate",
+        "limit": 2
+      },
+      "pageFilter": null
+    },
+    "tools": [
+      {
+        "index": 1,
+        "name": "query_tft_stats",
+        "phase": "model",
+        "args": {
+          "view": "filter",
+          "rank": "ALL",
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_Artifact_SilvermereDawn",
+              "holderId": "DA_18_ElderDragon"
+            }
+          ],
+          "carrierId": "DA_18_ElderDragon",
+          "resultView": "equipment",
+          "minSample": 100,
+          "sort": "top4Rate",
+          "limit": 2
+        },
+        "toolCallId": "call_00_8aE3teByJ1ueMKcW8BqH5018",
+        "startedAt": "2026-10-11T06:51:08.054Z",
+        "completedAt": "2026-10-11T06:51:11.892Z",
+        "durationMs": 3838,
+        "status": "ok",
+        "result": {
+          "status": "ok",
+          "query": {
+            "rank": "ALL",
+            "view": "filter",
+            "conditions": [
+              {
+                "type": "champion",
+                "id": "DA_18_ElderDragon"
+              },
+              {
+                "type": "item",
+                "id": "DA_Artifact_SilvermereDawn",
+                "holderId": "DA_18_ElderDragon"
+              }
+            ],
+            "carrierId": "DA_18_ElderDragon",
+            "resultView": "equipment",
+            "minSample": 100,
+            "sort": "top4Rate",
+            "limit": 2
+          },
+          "stats": {
+            "sampleSize": 11326,
+            "avgPlacement": 3.353611160162458,
+            "top4Rate": 0.6876214020837013,
+            "winRate": 0.3150273706515981
+          },
+          "coverage": {
+            "jointMatchQueries": false,
+            "jointConditions": true,
+            "matchedSamples": 11326,
+            "matchedMatches": null,
+            "scope": {
+              "adapterVersion": 2,
+              "conditions": [
+                {
+                  "type": "item",
+                  "id": "DA_Artifact_SilvermereDawn",
+                  "holderId": "DA_18_ElderDragon"
+                },
+                {
+                  "type": "champion",
+                  "id": "DA_18_ElderDragon"
+                }
+              ],
+              "carrierId": "DA_18_ElderDragon",
+              "focusItemId": "DA_Artifact_SilvermereDawn",
+              "season": 18,
+              "patch": "18.4",
+              "bPatch": "b",
+              "queue": 1100,
+              "days": 3,
+              "ranks": [
+                "BRONZE",
+                "CHALLENGER",
+                "DIAMOND",
+                "EMERALD",
+                "GOLD",
+                "GRANDMASTER",
+                "IRON",
+                "MASTER",
+                "PLATINUM",
+                "SILVER"
+              ],
+              "server": null
+            },
+            "snapshotId": "b8be99e38ca5229af9f0380b99ab953ef89a8ff54f889805e3e0f310113d2524",
+            "cacheHit": false,
+            "expiresAt": "2026-10-11T07:01:11.780Z",
+            "sourceRows": {
+              "equipment": 600,
+              "teammates": 124,
+              "comps": 250
+            },
+            "exhaustive": false
+          },
+          "reason": null,
+          "querySemantics": "source_aggregate_same_board_conditions",
+          "citation": "[S1]",
+          "sourceEvidence": {
+            "source": "MetaTFT Explorer",
+            "url": "https://www.metatft.com/explorer",
+            "delivery": "mysql",
+            "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+            "snapshotId": "b8be99e38ca5229af9f0380b99ab953ef89a8ff54f889805e3e0f310113d2524",
+            "sourcePatch": null,
+            "requestedPatch": "18.4b",
+            "sourceCurrentPatch": "18.4b",
+            "patchAttribution": {
+              "method": "explicit_request_and_source_metadata",
+              "statisticsResponsePatch": null
+            },
+            "set": 18,
+            "queueId": 1100,
+            "rank": "全部段位",
+            "rankFilter": "ALL",
+            "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+            "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+            "statisticalWindow": {
+              "days": 3,
+              "timeAnchor": "source_relative_window"
+            },
+            "fetchedAt": "2026-10-11T06:51:11.780Z"
+          },
+          "equipment": {
+            "status": "ok",
+            "kind": "observed_builds",
+            "reason": null,
+            "rows": [
+              {
+                "id": "metatft:equipment:e03d4312e6239356700ab5cd4039095cff068d4b6e237cddfb68ce6db2930576",
+                "championId": "DA_18_ElderDragon",
+                "name": "远古巨龙",
+                "stats": {
+                  "winRate": 0.4318181818181818,
+                  "top4Rate": 0.8106060606060606,
+                  "sampleSize": 132,
+                  "avgPlacement": 2.742424242424242
+                },
+                "items": [
+                  {
+                    "id": "DA_Artifact_SilvermereDawn",
+                    "name": "密银黎明"
+                  },
+                  {
+                    "id": "DA_BlueBuff",
+                    "name": "蓝霸符"
+                  },
+                  {
+                    "id": "DA_SteraksGage",
+                    "name": "斯特拉克的挑战护手"
+                  }
+                ],
+                "citation": "[S2]"
+              },
+              {
+                "id": "metatft:equipment:8c18c70ea852c94168c6025283d3e15673b071078de197f668ec690107f0e372",
+                "championId": "DA_18_ElderDragon",
+                "name": "远古巨龙",
+                "stats": {
+                  "winRate": 0.4059539918809202,
+                  "top4Rate": 0.7618403247631935,
+                  "sampleSize": 739,
+                  "avgPlacement": 2.8633288227334237
+                },
+                "items": [
+                  {
+                    "id": "DA_Artifact_SilvermereDawn",
+                    "name": "密银黎明"
+                  },
+                  {
+                    "id": "DA_BlueBuff",
+                    "name": "蓝霸符"
+                  },
+                  {
+                    "id": "DA_InfinityEdge",
+                    "name": "无尽之刃"
+                  }
+                ],
+                "citation": "[S2]"
+              }
+            ]
+          },
+          "teammates": {
+            "status": "ok",
+            "kind": "joint_teammates",
+            "reason": null,
+            "rows": [
+              {
+                "id": "metatft:teammates:414d982d0286cdd41382b7a7bb8e87d5d4faf95a15c97c3ee029aac26aec1bbf",
+                "championId": "DA_18_GnarSmall",
+                "name": "纳尔",
+                "stats": {
+                  "winRate": 0.372836719337848,
+                  "top4Rate": 0.791948833709556,
+                  "sampleSize": 2658,
+                  "avgPlacement": 2.8190368698269377
+                },
+                "citation": "[S3]"
+              },
+              {
+                "id": "metatft:teammates:537e9d8be02cb4b20418a88142a90aa8904ed01d8bf7d703142b4dd3b2f118db",
+                "championId": "DA_Lux18_Base",
+                "name": "拉克丝",
+                "stats": {
+                  "winRate": 0.42068361086765993,
+                  "top4Rate": 0.782646801051709,
+                  "sampleSize": 1141,
+                  "avgPlacement": 2.794916739702016
+                },
+                "citation": "[S3]"
+              }
+            ]
+          },
+          "comps": {
+            "status": "ok",
+            "reason": null,
+            "rows": [
+              {
+                "id": "metatft:comps:fed8941cf1d2f3d8db7ede2cceabc6bce9c2a8406431d73452315ac6475d8133",
+                "name": "远古巨龙 · 纳尔 · 苍蓝哨戒 · 绯红印记树怪 · 远古石甲虫 · 暗影狼 · 苍蓝雕纹魔像 · 塔里克",
+                "stats": {
+                  "winRate": 0.4655797101449275,
+                  "top4Rate": 0.9239130434782608,
+                  "sampleSize": 552,
+                  "avgPlacement": 2.128623188405797
+                },
+                "units": [
+                  {
+                    "id": "DA_18_ElderDragon",
+                    "name": "远古巨龙",
+                    "cost": 5,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_GnarSmall",
+                    "name": "纳尔",
+                    "cost": 5,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Sentry",
+                    "name": "苍蓝哨戒",
+                    "cost": 1,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Brambleback18",
+                    "name": "绯红印记树怪",
+                    "cost": 4,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Krug18",
+                    "name": "远古石甲虫",
+                    "cost": 3,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Murkwolf18",
+                    "name": "暗影狼",
+                    "cost": 2,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Sentinel18",
+                    "name": "苍蓝雕纹魔像",
+                    "cost": 4,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Taric18",
+                    "name": "塔里克",
+                    "cost": 5,
+                    "items": []
+                  }
+                ],
+                "citation": "[S4]"
+              },
+              {
+                "id": "metatft:comps:a0e0a88e513d1974097aff69479450e3da2e1354df3d4ca41ac95b1c9dbe3204",
+                "name": "拉露恩 · 卡西奥佩娅 · 黛安娜 · 远古巨龙 · 伊莉丝 · 莫甘娜 · 苍蓝雕纹魔像 · 塔里克",
+                "stats": {
+                  "winRate": 0.36153846153846153,
+                  "top4Rate": 0.8076923076923077,
+                  "sampleSize": 130,
+                  "avgPlacement": 2.8153846153846156
+                },
+                "units": [
+                  {
+                    "id": "DA_18_Alune",
+                    "name": "拉露恩",
+                    "cost": 5,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Cassiopeia",
+                    "name": "卡西奥佩娅",
+                    "cost": 3,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Diana",
+                    "name": "黛安娜",
+                    "cost": 3,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_ElderDragon",
+                    "name": "远古巨龙",
+                    "cost": 5,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Elise",
+                    "name": "伊莉丝",
+                    "cost": 2,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_18_Morgana",
+                    "name": "莫甘娜",
+                    "cost": 4,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Sentinel18",
+                    "name": "苍蓝雕纹魔像",
+                    "cost": 4,
+                    "items": []
+                  },
+                  {
+                    "id": "DA_Taric18",
+                    "name": "塔里克",
+                    "cost": 5,
+                    "items": []
+                  }
+                ],
+                "citation": "[S4]"
+              }
+            ]
+          }
+        },
+        "selection": {
+          "metric": "top4Rate",
+          "direction": null,
+          "minimumSampleSize": 100,
+          "mode": "cached_aggregate_row_membership",
+          "matchedRows": null
+        },
+        "ranking": {
+          "method": "source_metric_sort",
+          "metric": "top4Rate",
+          "direction": "desc",
+          "minimumSampleSize": 100,
+          "basis": null,
+          "similarityScore": null,
+          "rerankScore": null,
+          "confidenceScore": null,
+          "note": "排序值是来源指标或目录匹配顺序，不是事实可信度；此工具未提供向量或重排分数。"
+        },
+        "contextSegmentId": "C2"
+      }
+    ],
+    "statRows": [],
+    "modelContext": [
+      {
+        "id": "C1",
+        "kind": "page_context",
+        "phase": "prepare",
+        "content": "{\"rank\":\"PLATINUM_PLUS\",\"catalog\":{\"set\":18,\"game\":\"tft\",\"mutator\":\"TFTSet18\",\"language\":\"zh_cn\",\"fetchedAt\":\"2026-10-07T13:39:03.456Z\",\"gamePatch\":null,\"assetVersion\":\"16.20\",\"rulesVersion\":\"set18-assets16.20-recipes18.4-v4\"},\"page\":\"comps\",\"pageEntity\":null,\"mentions\":[{\"text\":\"小法\",\"ambiguous\":false,\"candidates\":[{\"type\":\"champion\",\"id\":\"DA_18_Veigar\",\"name\":\"维迦\"}]},{\"text\":\"青龙刀\",\"ambiguous\":false,\"candidates\":[{\"type\":\"item\",\"id\":\"DA_SpearOfShojin\",\"name\":\"朔极之矛\",\"category\":\"core\"}]}],\"pageSelection\":[],\"glossaryStatus\":\"available\",\"glossary\":[\"青龙刀\\n别名：无\\n分类：装备俗称\\n定义：通常指朔极之矛，是讨论法力获取与施法频率时常见的装备外号。\\n例句：问：青龙刀和蓝buff是一个东西吗？\\n例句：答：不是同一件装备。青龙刀通常指朔极之矛；二者的回蓝方式应按对应版本分别看。\\n容易误解：外号不保证名称、配方和回蓝机制跨版本相同；不要套用英雄联盟峡谷装备效果。\\n相关术语：\\n适用范围：云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变\\n证据标记：source_supported；有用法或概念来源不等于官方定义。\\n参考来源：https://www.18183.com/yundingzhiyi/201912/2520057.html；https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-12-notes/\\n核验状态：用户提供参考链接；本次接入未逐条独立复核。\\n本卡仅解释玩家语言。历史机制、英雄是否在场、装备效果和配方必须另查对应赛季，不能用术语卡代替当前统计。\"],\"previousQuery\":{\"rank\":\"ALL\",\"view\":\"filter\",\"conditions\":[{\"type\":\"champion\",\"id\":\"DA_18_ElderDragon\"},{\"type\":\"champion\",\"id\":\"DA_18_Veigar\"},{\"type\":\"item\",\"id\":\"DA_SpearOfShojin\",\"holderId\":\"DA_18_Veigar\"},{\"type\":\"item\",\"id\":\"DA_Artifact_SilvermereDawn\",\"holderId\":\"DA_18_ElderDragon\"}],\"carrierId\":\"DA_18_ElderDragon\",\"resultView\":\"equipment\",\"minSample\":1000,\"sort\":\"top4Rate\",\"limit\":2},\"previousEntities\":[],\"pageFilter\":null}",
+        "truncated": false,
+        "redacted": true,
+        "submittedIn": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": "C2",
+        "kind": "tool_result",
+        "phase": "model",
+        "toolName": "query_tft_stats",
+        "content": "{\"status\":\"ok\",\"query\":{\"rank\":\"ALL\",\"view\":\"filter\",\"conditions\":[{\"type\":\"champion\",\"id\":\"DA_18_ElderDragon\"},{\"type\":\"item\",\"id\":\"DA_Artifact_SilvermereDawn\",\"holderId\":\"DA_18_ElderDragon\"}],\"carrierId\":\"DA_18_ElderDragon\",\"resultView\":\"equipment\",\"minSample\":100,\"sort\":\"top4Rate\",\"limit\":2},\"stats\":{\"sampleSize\":11326,\"avgPlacement\":3.353611160162458,\"top4Rate\":0.6876214020837013,\"winRate\":0.3150273706515981},\"coverage\":{\"jointMatchQueries\":false,\"jointConditions\":true,\"matchedSamples\":11326,\"matchedMatches\":null,\"scope\":{\"adapterVersion\":2,\"conditions\":[{\"type\":\"item\",\"id\":\"DA_Artifact_SilvermereDawn\",\"holderId\":\"DA_18_ElderDragon\"},{\"type\":\"champion\",\"id\":\"DA_18_ElderDragon\"}],\"carrierId\":\"DA_18_ElderDragon\",\"focusItemId\":\"DA_Artifact_SilvermereDawn\",\"season\":18,\"patch\":\"18.4\",\"bPatch\":\"b\",\"queue\":1100,\"days\":3,\"ranks\":[\"BRONZE\",\"CHALLENGER\",\"DIAMOND\",\"EMERALD\",\"GOLD\",\"GRANDMASTER\",\"IRON\",\"MASTER\",\"PLATINUM\",\"SILVER\"],\"server\":null},\"snapshotId\":\"b8be99e38ca5229af9f0380b99ab953ef89a8ff54f889805e3e0f310113d2524\",\"cacheHit\":false,\"expiresAt\":\"2026-10-11T07:01:11.780Z\",\"sourceRows\":{\"equipment\":600,\"teammates\":124,\"comps\":250},\"exhaustive\":false},\"reason\":null,\"querySemantics\":\"source_aggregate_same_board_conditions\",\"citation\":\"[S1]\",\"sourceEvidence\":{\"source\":\"MetaTFT Explorer\",\"url\":\"https://www.metatft.com/explorer\",\"delivery\":\"mysql\",\"releaseId\":\"0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b\",\"snapshotId\":\"b8be99e38ca5229af9f0380b99ab953ef89a8ff54f889805e3e0f310113d2524\",\"sourcePatch\":null,\"requestedPatch\":\"18.4b\",\"sourceCurrentPatch\":\"18.4b\",\"patchAttribution\":{\"method\":\"explicit_request_and_source_metadata\",\"statisticsResponsePatch\":null},\"set\":18,\"queueId\":1100,\"rank\":\"全部段位\",\"rankFilter\":\"ALL\",\"population\":\"MetaTFT 默认地区范围 · 普通排位 · 近 3 天\",\"sampleDenominator\":\"来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。\",\"statisticalWindow\":{\"days\":3,\"timeAnchor\":\"source_relative_window\"},\"fetchedAt\":\"2026-10-11T06:51:11.780Z\"},\"equipment\":{\"status\":\"ok\",\"kind\":\"observed_builds\",\"reason\":null,\"rows\":[{\"id\":\"metatft:equipment:e03d4312e6239356700ab5cd4039095cff068d4b6e237cddfb68ce6db2930576\",\"championId\":\"DA_18_ElderDragon\",\"name\":\"远古巨龙\",\"stats\":{\"winRate\":0.4318181818181818,\"top4Rate\":0.8106060606060606,\"sampleSize\":132,\"avgPlacement\":2.742424242424242},\"items\":[{\"id\":\"DA_Artifact_SilvermereDawn\",\"name\":\"密银黎明\"},{\"id\":\"DA_BlueBuff\",\"name\":\"蓝霸符\"},{\"id\":\"DA_SteraksGage\",\"name\":\"斯特拉克的挑战护手\"}],\"citation\":\"[S2]\"},{\"id\":\"metatft:equipment:8c18c70ea852c94168c6025283d3e15673b071078de197f668ec690107f0e372\",\"championId\":\"DA_18_ElderDragon\",\"name\":\"远古巨龙\",\"stats\":{\"winRate\":0.4059539918809202,\"top4Rate\":0.7618403247631935,\"sampleSize\":739,\"avgPlacement\":2.8633288227334237},\"items\":[{\"id\":\"DA_Artifact_SilvermereDawn\",\"name\":\"密银黎明\"},{\"id\":\"DA_BlueBuff\",\"name\":\"蓝霸符\"},{\"id\":\"DA_InfinityEdge\",\"name\":\"无尽之刃\"}],\"citation\":\"[S2]\"}]},\"teammates\":{\"status\":\"ok\",\"kind\":\"joint_teammates\",\"reason\":null,\"rows\":[{\"id\":\"metatft:teammates:414d982d0286cdd41382b7a7bb8e87d5d4faf95a15c97c3ee029aac26aec1bbf\",\"championId\":\"DA_18_GnarSmall\",\"name\":\"纳尔\",\"stats\":{\"winRate\":0.372836719337848,\"top4Rate\":0.791948833709556,\"sampleSize\":2658,\"avgPlacement\":2.8190368698269377},\"citation\":\"[S3]\"},{\"id\":\"metatft:teammates:537e9d8be02cb4b20418a88142a90aa8904ed01d8bf7d703142b4dd3b2f118db\",\"championId\":\"DA_Lux18_Base\",\"name\":\"拉克丝\",\"stats\":{\"winRate\":0.42068361086765993,\"top4Rate\":0.782646801051709,\"sampleSize\":1141,\"avgPlacement\":2.794916739702016},\"citation\":\"[S3]\"}]},\"comps\":{\"status\":\"ok\",\"reason\":null,\"rows\":[{\"id\":\"metatft:comps:fed8941cf1d2f3d8db7ede2cceabc6bce9c2a8406431d73452315ac6475d8133\",\"name\":\"远古巨龙 · 纳尔 · 苍蓝哨戒 · 绯红印记树怪 · 远古石甲虫 · 暗影狼 · 苍蓝雕纹魔像 · 塔里克\",\"stats\":{\"winRate\":0.4655797101449275,\"top4Rate\":0.9239130434782608,\"sampleSize\":552,\"avgPlacement\":2.128623188405797},\"units\":[{\"id\":\"DA_18_ElderDragon\",\"name\":\"远古巨龙\",\"cost\":5,\"items\":[]},{\"id\":\"DA_18_GnarSmall\",\"name\":\"纳尔\",\"cost\":5,\"items\":[]},{\"id\":\"DA_18_Sentry\",\"name\":\"苍蓝哨戒\",\"cost\":1,\"items\":[]},{\"id\":\"DA_Brambleback18\",\"name\":\"绯红印记树怪\",\"cost\":4,\"items\":[]},{\"id\":\"DA_Krug18\",\"name\":\"远古石甲虫\",\"cost\":3,\"items\":[]},{\"id\":\"DA_Murkwolf18\",\"name\":\"暗影狼\",\"cost\":2,\"items\":[]},{\"id\":\"DA_Sentinel18\",\"name\":\"苍蓝雕纹魔像\",\"cost\":4,\"items\":[]},{\"id\":\"DA_Taric18\",\"name\":\"塔里克\",\"cost\":5,\"items\":[]}],\"citation\":\"[S4]\"},{\"id\":\"metatft:comps:a0e0a88e513d1974097aff69479450e3da2e1354df3d4ca41ac95b1c9dbe3204\",\"name\":\"拉露恩 · 卡西奥佩娅 · 黛安娜 · 远古巨龙 · 伊莉丝 · 莫甘娜 · 苍蓝雕纹魔像 · 塔里克\",\"stats\":{\"winRate\":0.36153846153846153,\"top4Rate\":0.8076923076923077,\"sampleSize\":130,\"avgPlacement\":2.8153846153846156},\"units\":[{\"id\":\"DA_18_Alune\",\"name\":\"拉露恩\",\"cost\":5,\"items\":[]},{\"id\":\"DA_18_Cassiopeia\",\"name\":\"卡西奥佩娅\",\"cost\":3,\"items\":[]},{\"id\":\"DA_18_Diana\",\"name\":\"黛安娜\",\"cost\":3,\"items\":[]},{\"id\":\"DA_18_ElderDragon\",\"name\":\"远古巨龙\",\"cost\":5,\"items\":[]},{\"id\":\"DA_18_Elise\",\"name\":\"伊莉丝\",\"cost\":2,\"items\":[]},{\"id\":\"DA_18_Morgana\",\"name\":\"莫甘娜\",\"cost\":4,\"items\":[]},{\"id\":\"DA_Sentinel18\",\"name\":\"苍蓝雕纹魔像\",\"cost\":4,\"items\":[]},{\"id\":\"DA_Taric18\",\"name\":\"塔里克\",\"cost\":5,\"items\":[]}],\"citation\":\"[S4]\"}]}}",
+        "truncated": false,
+        "redacted": false,
+        "submittedIn": [
+          2
+        ]
+      }
+    ],
+    "modelInputs": [
+      {
+        "turn": 1,
+        "submittedAt": "2026-10-11T06:51:05.662Z",
+        "segmentIds": [
+          "C1"
+        ],
+        "delivery": "passed_to_completion",
+        "providerAccepted": null
+      },
+      {
+        "turn": 2,
+        "submittedAt": "2026-10-11T06:51:11.893Z",
+        "segmentIds": [
+          "C1",
+          "C2"
+        ],
+        "delivery": "passed_to_completion",
+        "providerAccepted": null
+      }
+    ],
+    "citations": {
+      "retrieved": [
+        {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "b8be99e38ca5229af9f0380b99ab953ef89a8ff54f889805e3e0f310113d2524",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "rank": "全部段位",
+          "rankFilter": "ALL",
+          "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+          "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "fetchedAt": "2026-10-11T06:51:11.780Z",
+          "id": "S1",
+          "type": "statistics",
+          "title": "MetaTFT Explorer · 组合筛选"
+        },
+        {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "b8be99e38ca5229af9f0380b99ab953ef89a8ff54f889805e3e0f310113d2524",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "rank": "全部段位",
+          "rankFilter": "ALL",
+          "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+          "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "fetchedAt": "2026-10-11T06:51:11.780Z",
+          "id": "S2",
+          "type": "statistics",
+          "title": "MetaTFT Explorer · 组合筛选 / equipment"
+        },
+        {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "b8be99e38ca5229af9f0380b99ab953ef89a8ff54f889805e3e0f310113d2524",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "rank": "全部段位",
+          "rankFilter": "ALL",
+          "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+          "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "fetchedAt": "2026-10-11T06:51:11.780Z",
+          "id": "S3",
+          "type": "statistics",
+          "title": "MetaTFT Explorer · 组合筛选 / teammates"
+        },
+        {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "b8be99e38ca5229af9f0380b99ab953ef89a8ff54f889805e3e0f310113d2524",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "rank": "全部段位",
+          "rankFilter": "ALL",
+          "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+          "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "fetchedAt": "2026-10-11T06:51:11.780Z",
+          "id": "S4",
+          "type": "statistics",
+          "title": "MetaTFT Explorer · 组合筛选 / comps"
+        }
+      ],
+      "cited": [
+        {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "b8be99e38ca5229af9f0380b99ab953ef89a8ff54f889805e3e0f310113d2524",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "rank": "全部段位",
+          "rankFilter": "ALL",
+          "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+          "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "fetchedAt": "2026-10-11T06:51:11.780Z",
+          "id": "S1",
+          "type": "statistics",
+          "title": "MetaTFT Explorer · 组合筛选"
+        },
+        {
+          "source": "MetaTFT Explorer",
+          "url": "https://www.metatft.com/explorer",
+          "delivery": "mysql",
+          "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+          "snapshotId": "b8be99e38ca5229af9f0380b99ab953ef89a8ff54f889805e3e0f310113d2524",
+          "sourcePatch": null,
+          "requestedPatch": "18.4b",
+          "sourceCurrentPatch": "18.4b",
+          "patchAttribution": {
+            "method": "explicit_request_and_source_metadata",
+            "statisticsResponsePatch": null
+          },
+          "set": 18,
+          "queueId": 1100,
+          "rank": "全部段位",
+          "rankFilter": "ALL",
+          "population": "MetaTFT 默认地区范围 · 普通排位 · 近 3 天",
+          "sampleDenominator": "来源按玩家名次聚合的观测数；未取得独立比赛 ID，不同组合可能重叠。",
+          "statisticalWindow": {
+            "days": 3,
+            "timeAnchor": "source_relative_window"
+          },
+          "fetchedAt": "2026-10-11T06:51:11.780Z",
+          "id": "S2",
+          "type": "statistics",
+          "title": "MetaTFT Explorer · 组合筛选 / equipment"
+        }
+      ],
+      "unresolvedIds": []
+    },
+    "budget": {
+      "limit": 12,
+      "executed": 1,
+      "denied": 0,
+      "remaining": 11
+    },
+    "cache": {
+      "reads": [
+        {
+          "toolIndex": 1,
+          "name": "query_tft_stats",
+          "status": "ok",
+          "delivery": "mysql",
+          "cacheKey": null,
+          "fetchedAt": "2026-10-11T06:51:11.780Z",
+          "sourceTime": null,
+          "sourcePatch": null,
+          "ageSeconds": 0
+        }
+      ],
+      "redis": {
+        "status": "not_connected",
+        "hit": null
+      },
+      "onlineRefresh": false,
+      "note": "delivery来自实际工具；未探测Redis命中。ageSeconds按原始采集时间计算，未知时间为null；数据缓存不由本次读取刷新。"
+    },
+    "storageTruncated": false
+  }
+]

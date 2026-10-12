@@ -1,0 +1,836 @@
+{
+  "context": {
+    "set": 18,
+    "game": "tft",
+    "mutator": "TFTSet18",
+    "language": "zh_cn",
+    "fetchedAt": "2026-10-07T13:39:03.456Z",
+    "gamePatch": null,
+    "assetVersion": "16.20",
+    "rulesVersion": "set18-assets16.20-recipes18.4-v4"
+  },
+  "entries": [
+    {
+      "id": "DA_AdaptiveHelm",
+      "source": "Gain an additional 15% Mana from all sources. The wearer gains an additional bonus based on their Role:\n\nTanks and Fighters: Gain 30 Armor and Magic Resistance.\n\nOther Roles: Gain 10% Attack Damage and Ability Power.",
+      "zh": "从所有来源获得的法力值额外提高15%。携带者还会根据其定位获得额外加成：\n\n坦克和战士：获得30护甲和魔抗。\n\n其他定位：获得10%攻击力和法术强度。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_AegisOfDawn",
+      "source": "Every 2.5 seconds, steal 3 Armor from enemies within 1-hex and heal ? of the holder's Armor.\n\nIf Aegis of Dusk is also equipped, trigger this item's effect every 1.25 seconds instead.\n\nHealing increases based on Stage.",
+      "zh": "每2.5秒，从1格内的敌人处偷取3护甲，并治疗相当于携带者护甲值?的生命值。\n\n如果同时装备了黄昏圣盾，则改为每1.25秒触发一次此效果。\n\n治疗量随阶段提高。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_AegisOfDusk",
+      "source": "Every 2.5 seconds, steal 3 Magic Resist from enemies within 1-hex and deal 18% of the holder's Magic Resist as magic damage.\n\nIf Aegis of Dawn is also equipped, trigger this item's effect every 1.25 seconds instead.\n\nDamage increases based on Stage.",
+      "zh": "每2.5秒，从1格内的敌人处偷取3魔抗，并造成相当于携带者魔抗18%的魔法伤害。\n\n如果同时装备了黎明圣盾，则改为每1.25秒触发一次此效果。\n\n伤害随阶段提高。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_JeweledGauntlet",
+      "source": "Gain Precision.\n\nPrecision: Ability damage can critically strike. Extra Precision grants 10% Critical Strike Damage.",
+      "zh": "获得精准。\n\n精准：技能伤害可以暴击。额外的精准效果提供10%暴击伤害。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Component_BFSword",
+      "source": "+10% Attack Damage",
+      "zh": "+10%攻击力",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_BlightingJewel",
+      "source": "Dealing magic damage reduces the target’s Magic Resist by 3. If their Magic Resist is 0, grant the holder 4 Mana instead.\n\nAbility damage can only trigger on each enemy once every 0.5 seconds.",
+      "zh": "造成魔法伤害时，使目标的魔抗降低3。如果目标魔抗为0，则改为为携带者提供4法力值。\n\n技能伤害对每个敌人最多每0.5秒触发一次。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Bloodthirster",
+      "source": "Once per combat at 50% Health, gain a 30% max Health Shield that lasts up to 5 seconds.",
+      "zh": "每场战斗一次：生命值降至50%时，获得相当于30%最大生命值的护盾，最多持续5秒。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_BlueBuff",
+      "source": "Gain 10% additional Attack Damage and Ability Power from all sources.",
+      "zh": "从所有来源获得的攻击力和法术强度额外提高10%。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_BrambleVest",
+      "source": "Gain 6% max Health.\n\nTake 5% reduced damage from attacks. When struck by any attack, deal 100 magic damage to all adjacent enemies.\n\nCooldown: 2 seconds",
+      "zh": "获得6%最大生命值。\n\n受到的普攻伤害降低5%。被普攻击中时，对所有邻格敌人造成100魔法伤害。\n\n冷却时间：2秒",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Component_ChainVest",
+      "source": "+20 Armor",
+      "zh": "+20护甲",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Crownguard",
+      "source": "Combat start: Gain a 25% max Health Shield for 8 seconds.\nWhen the shield expires, gain 20% Ability Power.",
+      "zh": "战斗开始时：获得相当于25%最大生命值的护盾，持续8秒。\n护盾到期后，获得20%法术强度。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_CrownguardRadiant",
+      "source": "Combat start: Gain a 50% max Health Shield for 8 seconds.\nWhen the shield expires, gain 50% Ability Power.",
+      "zh": "战斗开始时：获得相当于50%最大生命值的护盾，持续8秒。\n护盾到期后，获得50%法术强度。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_Dawncore",
+      "source": "Reduce the holder's max Mana by 10. Subsequent spellcasts reduce max Mana by 5%, to a minimum of 15.",
+      "zh": "携带者的最大法力值降低10。后续每次施法使最大法力值降低5%，最低降至15。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_DragonsClaw",
+      "source": "Gain 6% max Health. Every 2 seconds, heal 2.5% max Health.",
+      "zh": "获得6%最大生命值。每2秒治疗2.5%最大生命值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_EternalPact",
+      "source": "Combat start: Form a pact with the highest Health allied champion, If they die, gain 10 Mana regen and 40% Ability Power.\n\nWhen the ally uses their ability, gain 10 Mana. Every 6 seconds, shield your ally for 200% of the holder's Ability Power.",
+      "zh": "战斗开始时：与生命值最高的友方英雄缔结契约。如果该英雄阵亡，获得10法力回复和40%法术强度。\n\n该友军施放技能时，获得10法力值。每6秒，为该友军提供相当于携带者法术强度200%的护盾。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Evenshroud",
+      "source": "30% Sunder enemies within 2 hexes. Gain 15 Armor and Magic Resist for the first 15 seconds of combat.\n\nSunder: Reduce Armor",
+      "zh": "使2格内敌人的护甲降低30%。在战斗的前15秒获得15护甲和魔抗。\n\n破甲：降低护甲",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_EvenshroudRadiant",
+      "source": "30% Sunder enemies within 3 hexes. Gain 50 Armor and Magic Resist for the first 20 seconds of combat.\n\nSunder: Reduce Armor",
+      "zh": "使3格内敌人的护甲降低30%。在战斗的前20秒获得50护甲和魔抗。\n\n破甲：降低护甲",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_ProtectorsVow",
+      "source": "Combat Start: Gain 20 Mana.\n\nAt 40% Health, gain 15 Mana and a Shield equal to 20% max Health.",
+      "zh": "战斗开始时：获得20法力值。\n\n生命值降至40%时，获得15法力值和相当于20%最大生命值的护盾。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_ProtectorsVowRadiant",
+      "source": "Combat Start: Gain 40 Mana.\n\nAt 40% Health, gain 30 Mana and a Shield equal to 50% max Health",
+      "zh": "战斗开始时：获得40法力值。\n\n生命值降至40%时，获得30法力值和相当于50%最大生命值的护盾。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_Fishbones",
+      "source": "The holder's attacks target random enemies. Gain +2 Attack Range.",
+      "zh": "携带者的普攻以随机敌人为目标。获得+2攻击距离。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_NavoriFlickerblade",
+      "source": "Attacks grant 4% stacking Attack Speed. Every 3 attacks also grant 2% Attack Damage and 2% Ability Power.",
+      "zh": "每次普攻获得4%可叠加的攻速。每3次普攻还会获得2%攻击力和2%法术强度。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_ForbiddenIdol",
+      "source": "Shields have 40% of their value converted to max Health instead.",
+      "zh": "护盾值的40%转而转化为最大生命值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_TacticiansCrown",
+      "source": "Your team gains +1 maximum team size.\n\n10% chance to drop 1 gold when you win combat.\n\n...the Heart of a hero...",
+      "zh": "队伍最大上场人数+1。\n\n赢得战斗时，有10%概率掉落1金币。\n\n……一颗英雄之心……",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Component_FryingPan",
+      "source": "...why else would it be here?",
+      "zh": "……不然它为什么会在这里？",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_GamblersBlade",
+      "source": "Grant 1% bonus Attack Speed per gold in your bank (up to 30 gold).\n\nEach attack has a 6% chance to drop 1 gold.\n\nGold generated this game: ?\n\nUnique - only 1 per champion",
+      "zh": "每拥有1金币，获得1%额外攻速（最多计入30金币）。\n\n每次普攻有6%概率掉落1金币。\n\n本局已生成金币：?\n\n唯一：每个英雄只能装备1件",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Component_GiantsBelt",
+      "source": "+150 Health",
+      "zh": "+150生命值",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_GiantSlayer",
+      "source": "Gain 15% additional Damage Amp against Tanks.",
+      "zh": "对坦克获得额外15%伤害增幅。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_StrikersFlail",
+      "source": "Critical Strikes grant 5% Damage Amp for 5 seconds, stacking up to 4 times.",
+      "zh": "暴击会提供5%伤害增幅，持续5秒，最多叠加4层。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_EdgeOfNight",
+      "source": "At 40% Health, briefly become untargetable, shed negative effects, and heal 15% missing health.",
+      "zh": "生命值降至40%时，短暂变为不可被选取，清除负面效果，并治疗15%已损失生命值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_GuinsoosRageblade",
+      "source": "Gain 7% stacking Attack Speed every second.",
+      "zh": "每秒获得7%可叠加的攻速。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_HandOfJustice",
+      "source": "Gain 2 effects:\n• 18% Attack Damage and 18% Ability Power.\n• 15% Omnivamp.\n\nWhile above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp.",
+      "zh": "获得2个效果：\n• 18%攻击力和18%法术强度。\n• 15%全能吸血。\n\n生命值高于50%时，攻击力和法术强度加成翻倍。生命值低于50%时，全能吸血翻倍。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_HellfireHatchet",
+      "source": "Attacks deal 3% of the holder's max Health as bonus physical damage. For every 1% missing Health, gain 1.5% Attack Speed.",
+      "zh": "普攻造成相当于携带者最大生命值3%的额外物理伤害。每损失1%生命值，获得1.5%攻速。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_HextechGunblade",
+      "source": "Heal the lowest percent Health ally for 20% of damage dealt.\n\nAlly Healing: ?",
+      "zh": "为生命值百分比最低的友军治疗相当于所造成伤害20%的生命值。\n\n友军治疗量：?",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_HorizonFocus",
+      "source": "Stunning an enemy causes lightning to strike them, dealing 30% of their max Health as magic damage.",
+      "zh": "使敌人眩晕时，闪电会击中该敌人，造成相当于其最大生命值30%的魔法伤害。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_Hullcrusher",
+      "source": "Combat Start: If there are no adjacent allies, gain 400 Health, 10% Attack Damage, and 10% Ability Power.",
+      "zh": "战斗开始时：如果没有邻格友军，获得400生命值、10%攻击力和10%法术强度。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_TheIndomitable",
+      "source": "The holder's Move Speed is drastically reduced.\n\nGain 15% max Health, Unstoppable, and pull the current target into melee range.",
+      "zh": "携带者的移动速度大幅降低。\n\n获得15%最大生命值及不可阻挡，并将当前目标拉至近战范围。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_InfinityEdge",
+      "source": "Gain Precision.\n\nPrecision: Ability damage can critically strike. Extra Precision grants 10% Critical Strike Damage.",
+      "zh": "获得精准。\n\n精准：技能伤害可以暴击。额外的精准效果提供10%暴击伤害。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_IonicSpark",
+      "source": "30% Shred enemies within 2 hexes. When enemies cast an Ability, deal magic damage equal to 150% of the Mana spent.\n\nShred: Reduce Magic Resist",
+      "zh": "使2格内敌人的魔抗降低30%。敌人施放技能时，对其造成相当于所消耗法力值150%的魔法伤害。\n\n魔抗击碎：降低魔抗",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_GargoyleStoneplate",
+      "source": "Gain 10 Armor and 10 Magic Resist for each enemy targeting the holder.",
+      "zh": "每有一个敌人以携带者为目标，获得10护甲和10魔抗。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_AdaptiveHelm_Radiant",
+      "source": "Gain an additional 30% Mana from all sources. The wearer gains an additional bonus based on their Role:\n\nTanks and Fighters: Gain 80 Armor and Magic Resistance.\n\nOther Roles: Gain 40% Attack Damage and Ability Power.",
+      "zh": "从所有来源获得的法力值额外提高30%。携带者还会根据其定位获得额外加成：\n\n坦克和战士：获得80护甲和魔抗。\n\n其他定位：获得40%攻击力和法术强度。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_LastWhisper",
+      "source": "Attacks and Ability damage 30% Sunders the target for 3 seconds. This effect does not stack.\n\nSunder: Reduce Armor",
+      "zh": "普攻和技能伤害使目标的护甲降低30%，持续3秒。此效果不叠加。\n\n破甲：降低护甲",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_LichBane",
+      "source": "The holder’s first attack after each Ability cast deals ? bonus magic damage.\n\nDamage increases based on Stage.",
+      "zh": "携带者每次施法后的首次普攻造成?额外魔法伤害。\n\n伤害随阶段提高。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_LightshieldCrest",
+      "source": "Every 3 seconds, Shields the lowest percent Health ally for 70% of the holder’s combined Armor and Magic Resist for 5 seconds.\n\nOn death grants this shield to all allies.",
+      "zh": "每3秒，为生命值百分比最低的友军提供相当于携带者护甲与魔抗总和70%的护盾，持续5秒。\n\n阵亡时，为所有友军提供此护盾。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Deathblade",
+      "source": "Perfect peace and calm for the holder - and all who face it.?",
+      "zh": "为携带者，以及所有面对它的人，带来彻底的平静与安宁。?",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_ArchangelsStaff",
+      "source": "Combat start: Gain 20% Ability Power every 5 seconds in combat.",
+      "zh": "战斗开始后：每5秒获得20%法术强度。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_LudensTempest",
+      "source": "100% of overkill damage plus 130 is dealt as magic damage to the two enemies nearest the target.",
+      "zh": "将100%溢出伤害加上130，以魔法伤害的形式施加给距离目标最近的两名敌人。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_Mittens",
+      "source": "Shrinks the holder, granting them increased movement speed and immunity to Slow, Burn, and Wound.\n\nSlow: Reduces Attack Speed.\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
+      "zh": "缩小携带者，使其移动速度提高，并免疫攻速削减、灼烧和重伤。\n\n攻速削减：降低攻击速度。\n灼烧：每秒造成相当于目标最大生命值一定百分比的真实伤害。\n重伤：降低受到的治疗。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_MogulsMail",
+      "source": "Grants 1 Armor, 1 Magic Resist, and 5 Health when taking damage, stacking up to 35 times.\n\nAt full stacks, grant 1 gold and continue gaining 1 gold every 11 seconds.\n\nGold generated this game: ?\n\nUnique - only 1 per champion",
+      "zh": "受到伤害时，获得1护甲、1魔抗和5生命值，最多叠加35层。\n\n叠满后获得1金币，此后每11秒继续获得1金币。\n\n本局已生成金币：?\n\n唯一：每个英雄只能装备1件",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Morellonomicon",
+      "source": "Attacks and Abilities deal 1% Burn and 33% Wound to enemies for 10 seconds.\n\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
+      "zh": "普攻和技能对敌人施加1%灼烧和33%重伤，持续10秒。\n\n灼烧：每秒造成相当于目标最大生命值一定百分比的真实伤害。\n重伤：降低受到的治疗。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_NashorsTooth",
+      "source": "Attacks grant 2 bonus Mana, increased to ? if they critically strike.",
+      "zh": "普攻额外提供2法力值，暴击时提高至?。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_NashorsToothRadiant",
+      "source": "Attacks grant 4 bonus Mana, increased to ? if they critically strike.",
+      "zh": "普攻额外提供4法力值，暴击时提高至?。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Component_NeedlesslyLargeRod",
+      "source": "+10% Ability Power",
+      "zh": "+10%法术强度",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Component_NegatronCloak",
+      "source": "+20 Magic Resist",
+      "zh": "+20魔抗",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_DeathsDefiance",
+      "source": "50% of the damage the holder receives is instead dealt over 4 seconds as non-lethal damage.\n\nUnique - only 1 per champion",
+      "zh": "携带者受到伤害的50%改为在4秒内以非致命伤害的形式承受。\n\n唯一：每个英雄只能装备1件",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_Manazane",
+      "source": "After casting the first time in combat, gain 110 Mana over 5 seconds.",
+      "zh": "战斗中首次施法后，在5秒内获得110法力值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_GoldCollector",
+      "source": "Attacks and Abilities execute enemies below 12% of their maximum Health. Executions on champions have a 33% chance to drop 1 gold.\n\nGold collected: ?\n\nUnique - only 1 per champion",
+      "zh": "普攻和技能会处决生命值低于最大生命值12%的敌人。处决英雄时，有33%概率掉落1金币。\n\n已收集金币：?\n\n唯一：每个英雄只能装备1件",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_InfinityForce",
+      "source": "Tons of EVERYTHING!",
+      "zh": "全方位的巨额提升！",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_ZhonyasParadox",
+      "source": "Once per combat at 40% Health, become invulnerable and untargetable for 3 seconds.\n\nUnique - only 1 per champion",
+      "zh": "每场战斗一次：生命值降至40%时，变为无敌且不可被选取，持续3秒。\n\n唯一：每个英雄只能装备1件",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Quicksilver",
+      "source": "Combat Start: Unstoppable for 18 seconds.\n\nGain 3% stacking Attack Speed every second.",
+      "zh": "战斗开始时：获得不可阻挡，持续18秒。\n\n每秒获得3%可叠加的攻速。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_RabadonsDeathcap",
+      "source": "This humble hat can help you make, or unmake, the world itself.?",
+      "zh": "这顶不起眼的帽子，能帮助你创造世界，也能毁灭世界。?",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_ArchangelsStaffRadiant",
+      "source": "Combat start: Gain 40% Ability Power every 5 seconds in combat.",
+      "zh": "战斗开始后：每5秒获得40%法术强度。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_BloodthirsterRadiant",
+      "source": "Once per combat at 50% Health, gain a 60% max Health Shield that lasts up to 5 seconds.",
+      "zh": "每场战斗一次：生命值降至50%时，获得相当于60%最大生命值的护盾，最多持续5秒。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_BlueBuffRadiant",
+      "source": "Gain 20% additional Attack Damage and Ability Power from all sources.",
+      "zh": "从所有来源获得的攻击力和法术强度额外提高20%。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_BrambleVestRadiant",
+      "source": "Gain 12% max Health.\n\nTake 10% reduced damage from attacks. When struck by any attack, deal 200 magic damage to all adjacent enemies.\n\nCooldown: 2 seconds",
+      "zh": "获得12%最大生命值。\n\n受到的普攻伤害降低10%。被普攻击中时，对所有邻格敌人造成200魔法伤害。\n\n冷却时间：2秒",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_DeathbladeRadiant",
+      "source": "It glows in the presence of enemies. Or friends. Or anything alive, really.?",
+      "zh": "敌人、朋友，或者任何活物靠近时，它都会发光。?",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_DragonsClawRadiant",
+      "source": "Gain 28% max Health.\n\nEvery 2 seconds, heal 5% max Health.",
+      "zh": "获得28%最大生命值。\n\n每2秒治疗5%最大生命值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_EdgeOfNightRadiant",
+      "source": "At 40% Health, briefly become untargetable, shed negative effects, and heal all missing health.",
+      "zh": "生命值降至40%时，短暂变为不可被选取，清除负面效果，并治疗全部已损失生命值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_GargoyleStoneplate_Radiant",
+      "source": "Gain 20 Armor and 20 Magic Resist for each enemy targeting the holder.",
+      "zh": "每有一个敌人以携带者为目标，获得20护甲和20魔抗。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_GiantSlayer_Radiant",
+      "source": "Gain 30% additional Damage Amp against Tanks.",
+      "zh": "对坦克获得额外30%伤害增幅。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_GuinsoosRagebladeRadiant",
+      "source": "Gain 16% stacking Attack Speed every second.",
+      "zh": "每秒获得16%可叠加的攻速。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_HandOfJusticeRadiant",
+      "source": "Gain 2 effects:\n• 35% Attack Damage and 35% Ability Power.\n• 30% Omnivamp.\n\nWhile above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp.",
+      "zh": "获得2个效果：\n• 35%攻击力和35%法术强度。\n• 30%全能吸血。\n\n生命值高于50%时，攻击力和法术强度加成翻倍。生命值低于50%时，全能吸血翻倍。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_HextechGunbladeRadiant",
+      "source": "Heal the lowest percent Health ally for 40% of damage dealt.\n\nAlly Healing: ?",
+      "zh": "为生命值百分比最低的友军治疗相当于所造成伤害40%的生命值。\n\n友军治疗量：?",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_InfinityEdgeRadiant",
+      "source": "Gain Precision.\n\nPrecision: Ability damage can critically strike. Extra Precision grants 10% Critical Strike Damage.",
+      "zh": "获得精准。\n\n精准：技能伤害可以暴击。额外的精准效果提供10%暴击伤害。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_IonicSparkRadiant",
+      "source": "30% Shred enemies within 2 hexes. When enemies cast an Ability, deal magic damage equal to 300% of the Mana spent.\n\nShred: Reduce Magic Resist",
+      "zh": "使2格内敌人的魔抗降低30%。敌人施放技能时，对其造成相当于所消耗法力值300%的魔法伤害。\n\n魔抗击碎：降低魔抗",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_JeweledGauntletRadiant",
+      "source": "Gain Precision.\n\nPrecision: Ability damage can critically strike. Extra Precision grants 10% Critical Strike Damage.",
+      "zh": "获得精准。\n\n精准：技能伤害可以暴击。额外的精准效果提供10%暴击伤害。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_LastWhisperRadiant",
+      "source": "Attacks and Ability damage 30% Sunders the target for the rest of combat. This effect does not stack.\n\nSunder: Reduce Armor",
+      "zh": "普攻和技能伤害使目标的护甲降低30%，持续至战斗结束。此效果不叠加。\n\n破甲：降低护甲",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_MorellonomiconRadiant",
+      "source": "Attacks and Abilities deal 2% Burn and 33% Wound to enemies for 10 seconds.\n\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
+      "zh": "普攻和技能对敌人施加2%灼烧和33%重伤，持续10秒。\n\n灼烧：每秒造成相当于目标最大生命值一定百分比的真实伤害。\n重伤：降低受到的治疗。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_QuicksilverRadiant",
+      "source": "Combat Start: Unstoppable for 45 seconds.\n\nGain 6% stacking Attack Speed every second.",
+      "zh": "战斗开始时：获得不可阻挡，持续45秒。\n\n每秒获得6%可叠加的攻速。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_RabadonsDeathcap_Radiant",
+      "source": "It's witnessed - and unleashed - miracles and calamities both.?",
+      "zh": "它见证过，也释放过奇迹与灾难。?",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_RedBuffRadiant",
+      "source": "Attacks and Abilities 2% Burn and 33% Wound enemies for 5 seconds.\n\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
+      "zh": "普攻和技能对敌人施加2%灼烧和33%重伤，持续5秒。\n\n灼烧：每秒造成相当于目标最大生命值一定百分比的真实伤害。\n重伤：降低受到的治疗。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_SpiritVisage_Radiant",
+      "source": "Regenerate 4% of missing Health each second.",
+      "zh": "每秒回复4%已损失生命值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_KrakensFury_Radiant",
+      "source": "Attacks grant 7% stacking Attack Damage, up to 15 attacks. After 15 attacks, gain 30% Attack Speed.",
+      "zh": "普攻提供7%可叠加的攻击力，最多计入15次普攻。15次普攻后，获得30%攻速。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_SpearOfShojinRadiant",
+      "source": "Attacks grant 10 bonus Mana.",
+      "zh": "普攻额外提供10法力值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_VoidStaffRadiant",
+      "source": "Attacks and Ability damage 30% Shred the target for the rest of combat. This effect does not stack.\n\nShred: Reduce Magic Resist",
+      "zh": "普攻和技能伤害使目标的魔抗降低30%，持续至战斗结束。此效果不叠加。\n\n魔抗击碎：降低魔抗",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_SteadfastHeartRadiant",
+      "source": "Gain 10% Durability. While above 50% Health, instead gain 30% Durability.?",
+      "zh": "获得10%伤害减免。生命值高于50%时，改为获得30%伤害减免。?",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_StrikersFlailRadiant",
+      "source": "Critical Strikes grant 10% Damage Amp for 5 seconds, stacking up to 4 times.",
+      "zh": "暴击会提供10%伤害增幅，持续5秒，最多叠加4层。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_SunfireCape_Radiant",
+      "source": "Gain 16% max Health.\n\nEvery 2 seconds, deal 2% Burn and 33% Wound to an enemy within 2 hexes for 10 seconds.\n\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
+      "zh": "获得16%最大生命值。\n\n每2秒，对2格内的一名敌人施加2%灼烧和33%重伤，持续10秒。\n\n灼烧：每秒造成相当于目标最大生命值一定百分比的真实伤害。\n重伤：降低受到的治疗。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_ThiefsGlovesRadiant",
+      "source": "Each round: Equip 2 random Radiant items\n\n[Consumes 3 item slots.]",
+      "zh": "每回合：装备2件随机光明装备。\n\n[占用3个装备栏。]",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_TitansResolve_Radiant",
+      "source": "Gain 4% Attack Damage and 4% Ability Power when attacking or taking damage, stacking up to 25 times.\n\nAt full stacks, gain 20% Damage Amp and Unstoppable.",
+      "zh": "普攻或受到伤害时，获得4%攻击力和4%法术强度，最多叠加25层。\n\n叠满后，获得20%伤害增幅及不可阻挡。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_WarmogsArmorRadiant",
+      "source": "Gain 36% max Health.",
+      "zh": "获得36%最大生命值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_RapidFireCannon",
+      "source": "Gain +1 Attack Range, increased by 1 whenever the holder kills an enemy.",
+      "zh": "获得+1攻击距离，携带者每击杀一个敌人再增加1。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Component_RecurveBow",
+      "source": "+10% Attack Speed",
+      "zh": "+10%攻速",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_RedBuff",
+      "source": "Attacks and Abilities 1% Burn and 33% Wound enemies for 5 seconds.\n\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
+      "zh": "普攻和技能对敌人施加1%灼烧和33%重伤，持续5秒。\n\n灼烧：每秒造成相当于目标最大生命值一定百分比的真实伤害。\n重伤：降低受到的治疗。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_SpiritVisage",
+      "source": "Regenerate 2% of missing Health each second.",
+      "zh": "每秒回复2%已损失生命值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_KrakensFury",
+      "source": "Attacks grant 3.5% stacking Attack Damage, up to 15 attacks. After 15 attacks, gain 15% Attack Speed.",
+      "zh": "普攻提供3.5%可叠加的攻击力，最多计入15次普攻。15次普攻后，获得15%攻速。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_SeekersArmguard",
+      "source": "Takedowns increase the holder’s Armor, Magic Resist, and Ability Power by 20.",
+      "zh": "参与击杀会使携带者的护甲、魔抗和法术强度各提高20。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_SilvermereDawn",
+      "source": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds.\n\nThe holder’s Attack Speed is locked at 0.5.",
+      "zh": "免疫眩晕，且携带者的普攻会使目标眩晕0.8秒。\n\n携带者的攻速锁定为0.5。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Component_SparringGloves",
+      "source": "+20% Critical Strike Chance",
+      "zh": "+20%暴击几率",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Component_Spatula",
+      "source": "It must do something...",
+      "zh": "它一定能派上用场……",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_SpearOfShojin",
+      "source": "Attacks grant 5 bonus Mana.",
+      "zh": "普攻额外提供5法力值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_StatikkShiv",
+      "source": "Every 3rd attack deals 15 + 35% of the holder's Ability Power as additional magic damage to 6 enemies.",
+      "zh": "每第3次普攻对6名敌人造成额外魔法伤害，数值为15加上携带者法术强度的35%。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_SteadfastHeart",
+      "source": "Gain 5% Durability. While above 50% Health, instead gain 15% Durability.?",
+      "zh": "获得5%伤害减免。生命值高于50%时，改为获得15%伤害减免。?",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_SteraksGage",
+      "source": "At 60% Health, gain a Shield equal to 40% of the wearer's maximum Health that rapidly decays over 4 seconds.",
+      "zh": "生命值降至60%时，获得相当于携带者最大生命值40%的护盾，护盾在4秒内快速衰减。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_SteraksGageRadiant",
+      "source": "At 60% Health, gain a Shield equal to 80% of the wearer's maximum Health that rapidly decays over 6 seconds.",
+      "zh": "生命值降至60%时，获得相当于携带者最大生命值80%的护盾，护盾在6秒内快速衰减。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_SunfireCape",
+      "source": "Gain 8% max Health.\n\nEvery 2 seconds, deal 1% Burn and 33% Wound to an enemy within 2 hexes for 10 seconds.\n\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
+      "zh": "获得8%最大生命值。\n\n每2秒，对2格内的一名敌人施加1%灼烧和33%重伤，持续10秒。\n\n灼烧：每秒造成相当于目标最大生命值一定百分比的真实伤害。\n重伤：降低受到的治疗。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_TacticiansCape",
+      "source": "Your team gains +1 maximum team size.\n\n10% chance to drop 1 gold after 10 seconds of combat.\n\n...and a bit of Luck.",
+      "zh": "队伍最大上场人数+1。\n\n战斗开始10秒后，有10%概率掉落1金币。\n\n……再加上一点运气。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_TacticiansShield",
+      "source": "Your team gains +1 maximum team size.\n\n10% chance to drop 1 gold when the holder dies.\n\nImbued with a Philosopher's wisdom...",
+      "zh": "队伍最大上场人数+1。\n\n携带者阵亡时，有10%概率掉落1金币。\n\n蕴含着哲人的智慧……",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Item_Artifact_TalismanOfAscension",
+      "source": "After 22 seconds gain 100% max Health, 12 Mana Regen, and 120% Damage Amp for the rest of combat.",
+      "zh": "22秒后获得100%最大生命值、12法力回复和120%伤害增幅，持续至战斗结束。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Component_TearOfTheGoddess",
+      "source": "+1 Mana Regeneration",
+      "zh": "+1法力回复",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_ThiefsGloves",
+      "source": "Each round: Equip 2 random items\n\n[Consumes 3 item slots.]",
+      "zh": "每回合：装备2件随机装备。\n\n[占用3个装备栏。]",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_TitanicHydra",
+      "source": "Attacks deal 2% of the holder's max Health plus 4% of their Attack Damage as bonus physical damage to the target and adjacent enemies.",
+      "zh": "普攻对目标和邻格敌人造成额外物理伤害，数值为携带者最大生命值的2%加上攻击力的4%。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_TitansResolve",
+      "source": "Gain 2% Attack Damage and Ability Power when attacking or taking damage, stacking up to 25 times.\n\nAt full stacks, gain 10% Damage Amp and become Unstoppable.",
+      "zh": "普攻或受到伤害时，获得2%攻击力和法术强度，最多叠加25层。\n\n叠满后，获得10%伤害增幅及不可阻挡。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_VoidGauntlet",
+      "source": "Combat Start: Store 30% max Health and 2.5% more every second. On death, unleash the stored Health as magic damage split between enemies within 4 hexes.\n\nUnique - only 1 per champion",
+      "zh": "战斗开始时：储存30%最大生命值，此后每秒再储存2.5%。阵亡时，将储存的生命值转化为魔法伤害，由4格内的敌人分摊。\n\n唯一：每个英雄只能装备1件",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_VoidStaff",
+      "source": "Attacks and Ability damage 30% Shred the target for 5 seconds. This effect does not stack.\n\nShred: Reduce Magic Resist",
+      "zh": "普攻和技能伤害使目标的魔抗降低30%，持续5秒。此效果不叠加。\n\n魔抗击碎：降低魔抗",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_WarmogsArmor",
+      "source": "Gain 18% max Health.",
+      "zh": "获得18%最大生命值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_Artifact_WitsEnd",
+      "source": "Attacks deal 25/45/65/85/100 bonus magic damage.\nHeals the holder for 25% of all magic damage dealt.\n\nDamage increases based on Stage.",
+      "zh": "普攻造成25/45/65/85/100额外魔法伤害。\n为携带者治疗相当于所造成全部魔法伤害25%的生命值。\n\n伤害随阶段提高。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemFae",
+      "source": "The holder gains the Fae trait.",
+      "zh": "携带者获得花仙子羁绊。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemHunter",
+      "source": "The holder gains the Hunter trait.\n\nTakedowns grant 15% Attack Damage.",
+      "zh": "携带者获得猎人羁绊。\n\n参与击杀提供15%攻击力。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemInferno",
+      "source": "The holder gains the Inferno trait.",
+      "zh": "携带者获得地狱火羁绊。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemRapidfire",
+      "source": "The holder gains the Rapidfire trait.\n\nAttacks deal 1% of the target's max Health as true damage.",
+      "zh": "携带者获得迅捷射手羁绊。\n\n普攻造成相当于目标最大生命值1%的真实伤害。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemElderwood",
+      "source": "The holder gains the Elderwood trait.",
+      "zh": "携带者获得永恒之森羁绊。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemSlayer",
+      "source": "The holder gains the Ravager trait.\n\nGain 3% Damage Amp per 300 Health restored.",
+      "zh": "携带者获得狂战士羁绊。\n\n每回复300生命值，获得3%伤害增幅。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemSprykin",
+      "source": "The holder gains the Sprykin trait.\n\nIf the holder is riding the BFF, gain an additional\n20% 15 15",
+      "zh": "携带者获得约德尔人和朋友羁绊。\n\n如果携带者正骑乘最好的朋友，获得额外加成：20% 15 15（来源未标明这些数值对应的属性）。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemVanguard",
+      "source": "The holder gains the Vanguard trait.\n\nIf the holder survives 22 seconds in player combat, gain 1 player health.",
+      "zh": "携带者获得重装战士羁绊。\n\n如果携带者在玩家战斗中存活22秒，回复1玩家生命值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemBlossom",
+      "source": "The holder gains the Blossom trait.",
+      "zh": "携带者获得灵魂莲华羁绊。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemSpellweaver",
+      "source": "The holder gains the Spellweaver trait.\n\nGain 2 Mana whenever an ally casts their Ability.",
+      "zh": "携带者获得法师羁绊。\n\n每当一名友军施放技能，获得2法力值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemInvoker",
+      "source": "The holder gains the Invoker trait.\n\nOn cast, gain Ability Power equal to 8% of Mana spent.",
+      "zh": "携带者获得神谕羁绊。\n\n施法时，获得相当于所消耗法力值8%的法术强度。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemLunar",
+      "source": "The holder gains the Lunar trait.",
+      "zh": "携带者获得月蚀骑士羁绊。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemBrawler",
+      "source": "The holder gains the Brawler trait.\n\nAttacks deal 2.5% of the holder's max Health as magic damage.",
+      "zh": "携带者获得斗士羁绊。\n\n普攻造成相当于携带者最大生命值2.5%的魔法伤害。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemBlackthorn",
+      "source": "The holder gains the Blackthorn trait.",
+      "zh": "携带者获得黑荆棘羁绊。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemExecutioner",
+      "source": "The holder gains the Executioner trait.\n\nDamage executes enemies below 8% of their max Health.",
+      "zh": "携带者获得裁决使羁绊。\n\n伤害会处决生命值低于最大生命值8%的敌人。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemPrimal",
+      "source": "The holder gains the Primal trait.",
+      "zh": "携带者获得野兽之灵羁绊。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemCoven",
+      "source": "The holder gains the Coven trait.",
+      "zh": "携带者获得魔女羁绊。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemDefender",
+      "source": "The holder gains the Defender trait.\n\nCombat Start: Gain 6% Attack Speed for every ally that starts in the front row.",
+      "zh": "携带者获得护卫羁绊。\n\n战斗开始时：每有一名友军从第一排开始战斗，获得6%攻速。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemFloraFatalis",
+      "source": "The holder gains the Flora Fatalis trait.",
+      "zh": "携带者获得绝命花妖羁绊。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemJuggernaut",
+      "source": "The holder gains the Juggernaut trait.\n\nGain 10 mana whenever a Juggernaut dies.",
+      "zh": "携带者获得主宰羁绊。\n\n每当一名主宰阵亡，获得10法力值。",
+      "translationKind": "project_translation"
+    },
+    {
+      "id": "DA_18_EmblemFloraFatalisAugment",
+      "source": "The holder gains the Flora Fatalis trait.\n\nThey gain 50% increased benefits from Flora Fatalis.",
+      "zh": "携带者获得绝命花妖羁绊。\n\n携带者从绝命花妖获得的收益提高50%。",
+      "translationKind": "project_translation"
+    }
+  ]
+}

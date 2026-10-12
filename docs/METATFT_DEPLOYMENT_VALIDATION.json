@@ -1,0 +1,1966 @@
+{
+  "status": "passed",
+  "capturedAt": "2026-10-11T05:05:15.690Z",
+  "scope": "Deployed localhost MetaTFT + MySQL integration; API, database and actual browser acceptance",
+  "url": "http://127.0.0.1:3001/#explorer",
+  "image": "sha256:fe51e94999d70ef6766e19e0cf411aff74482ab4e253025aadfbb9cd3bd63696",
+  "backup": {
+    "directory": "tmp/metatft-before",
+    "databaseDumpBytes": 76797224,
+    "databaseDumpSha256": "f59d7ca8f6cde558aca3926183ba00074cd006273fc12f3105e4e37906298792",
+    "imageTag": "tft-workbench-app:before-metatft-20261011",
+    "restoreRehearsed": false
+  },
+  "automatedTests": {
+    "full": {
+      "command": "npm test",
+      "passed": 392,
+      "failed": 0,
+      "skipped": 0,
+      "durationMs": 8784.3673,
+      "log": "tmp/metatft-all-tests.log"
+    },
+    "afterFinalDisplayChanges": {
+      "command": "node --test tests/research-render.test.mjs",
+      "passed": 7,
+      "failed": 0,
+      "log": "tmp/metatft-render-final.log"
+    },
+    "modelCalled": false
+  },
+  "api": {
+    "startedAt": "2026-10-11T05:00:42.498Z",
+    "base": "http://127.0.0.1:3001",
+    "modelCalled": false,
+    "records": [
+      {
+        "name": "item-only",
+        "query": {
+          "conditions": [
+            {
+              "type": "item",
+              "id": "DA_Artifact_SilvermereDawn",
+              "holderId": null
+            }
+          ],
+          "minSample": 100,
+          "sort": "avgPlacement",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "ok",
+        "snapshotId": "25426ebe43edfdcd7b5c5404e03e74c84eee389d98afe3b6e63e1d43f7d1ac99",
+        "cacheHit": false,
+        "matchedSamples": 47485,
+        "columns": {
+          "equipment": {
+            "count": 46,
+            "shown": 46,
+            "beforeMinimum": 161,
+            "status": "ok"
+          },
+          "teammates": {
+            "count": 42,
+            "shown": 42,
+            "beforeMinimum": 65,
+            "status": "ok"
+          },
+          "comps": {
+            "count": 22,
+            "shown": 22,
+            "beforeMinimum": 250,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "name": "elder-triple",
+        "query": {
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_Artifact_SilvermereDawn",
+              "holderId": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_InfinityEdge",
+              "holderId": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_StrikersFlail",
+              "holderId": "DA_18_ElderDragon"
+            }
+          ],
+          "carrierId": "DA_18_ElderDragon",
+          "minSample": 100,
+          "sort": "avgPlacement",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "ok",
+        "snapshotId": "4ef270d1080c1da5b7316182c83e6f9cb2ef301a85da1336807761781c788ea3",
+        "cacheHit": false,
+        "matchedSamples": 909,
+        "columns": {
+          "equipment": {
+            "count": 1,
+            "shown": 1,
+            "beforeMinimum": 1,
+            "status": "ok"
+          },
+          "teammates": {
+            "count": 16,
+            "shown": 16,
+            "beforeMinimum": 63,
+            "status": "ok"
+          },
+          "comps": {
+            "count": 1,
+            "shown": 1,
+            "beforeMinimum": 250,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "name": "reordered",
+        "query": {
+          "conditions": [
+            {
+              "type": "item",
+              "id": "DA_StrikersFlail",
+              "holderId": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_InfinityEdge",
+              "holderId": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_Artifact_SilvermereDawn",
+              "holderId": "DA_18_ElderDragon"
+            },
+            {
+              "type": "champion",
+              "id": "DA_18_ElderDragon"
+            }
+          ],
+          "carrierId": "DA_18_ElderDragon",
+          "minSample": 100,
+          "sort": "sampleSize",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "ok",
+        "snapshotId": "4ef270d1080c1da5b7316182c83e6f9cb2ef301a85da1336807761781c788ea3",
+        "cacheHit": true,
+        "matchedSamples": 909,
+        "columns": {
+          "equipment": {
+            "count": 1,
+            "shown": 1,
+            "beforeMinimum": 1,
+            "status": "ok"
+          },
+          "teammates": {
+            "count": 16,
+            "shown": 16,
+            "beforeMinimum": 63,
+            "status": "ok"
+          },
+          "comps": {
+            "count": 1,
+            "shown": 1,
+            "beforeMinimum": 250,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "name": "threshold",
+        "query": {
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_Artifact_SilvermereDawn",
+              "holderId": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_InfinityEdge",
+              "holderId": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_StrikersFlail",
+              "holderId": "DA_18_ElderDragon"
+            }
+          ],
+          "carrierId": "DA_18_ElderDragon",
+          "minSample": 100000000,
+          "sort": "avgPlacement",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "ok",
+        "snapshotId": "4ef270d1080c1da5b7316182c83e6f9cb2ef301a85da1336807761781c788ea3",
+        "cacheHit": true,
+        "matchedSamples": 909,
+        "columns": {
+          "equipment": {
+            "count": 0,
+            "shown": 0,
+            "beforeMinimum": 1,
+            "status": "insufficient_samples"
+          },
+          "teammates": {
+            "count": 0,
+            "shown": 0,
+            "beforeMinimum": 63,
+            "status": "insufficient_samples"
+          },
+          "comps": {
+            "count": 0,
+            "shown": 0,
+            "beforeMinimum": 250,
+            "status": "insufficient_samples"
+          }
+        }
+      },
+      {
+        "name": "two-champions",
+        "query": {
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_Artifact_SilvermereDawn",
+              "holderId": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_InfinityEdge",
+              "holderId": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_StrikersFlail",
+              "holderId": "DA_18_ElderDragon"
+            },
+            {
+              "type": "champion",
+              "id": "DA_18_Ivern"
+            }
+          ],
+          "carrierId": "DA_18_ElderDragon",
+          "minSample": 100,
+          "sort": "avgPlacement",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "ok",
+        "snapshotId": "07618ec350b226597018ee50ffc458a44f402bb4e9233e3549d41208863e7a62",
+        "cacheHit": false,
+        "matchedSamples": 469,
+        "columns": {
+          "equipment": {
+            "count": 1,
+            "shown": 1,
+            "beforeMinimum": 1,
+            "status": "ok"
+          },
+          "teammates": {
+            "count": 6,
+            "shown": 6,
+            "beforeMinimum": 50,
+            "status": "ok"
+          },
+          "comps": {
+            "count": 1,
+            "shown": 1,
+            "beforeMinimum": 214,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "name": "holder-changed",
+        "query": {
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_18_ElderDragon"
+            },
+            {
+              "type": "champion",
+              "id": "DA_18_Ivern"
+            },
+            {
+              "type": "item",
+              "id": "DA_Artifact_SilvermereDawn",
+              "holderId": "DA_18_Ivern"
+            },
+            {
+              "type": "item",
+              "id": "DA_InfinityEdge",
+              "holderId": "DA_18_ElderDragon"
+            },
+            {
+              "type": "item",
+              "id": "DA_StrikersFlail",
+              "holderId": "DA_18_ElderDragon"
+            }
+          ],
+          "carrierId": "DA_18_ElderDragon",
+          "minSample": 0,
+          "sort": "avgPlacement",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "ok",
+        "snapshotId": "a5e2fea6a2286f0ed104b1da027e6c6ae7af75d6dfbfea9f40b066f06f106be8",
+        "cacheHit": false,
+        "matchedSamples": 1,
+        "columns": {
+          "equipment": {
+            "count": 1,
+            "shown": 1,
+            "beforeMinimum": 1,
+            "status": "ok"
+          },
+          "teammates": {
+            "count": 6,
+            "shown": 6,
+            "beforeMinimum": 6,
+            "status": "ok"
+          },
+          "comps": {
+            "count": 1,
+            "shown": 1,
+            "beforeMinimum": 1,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "name": "nidalee-shojin",
+        "query": {
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": "DA_Nidalee18_AP"
+            }
+          ],
+          "carrierId": "DA_Nidalee18_AP",
+          "minSample": 100,
+          "sort": "avgPlacement",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "ok",
+        "snapshotId": "0cae5eb37c4202675af58b88d0e1040d7ea807a9f016cd04b9a7fdf4c8536704",
+        "cacheHit": true,
+        "matchedSamples": 293431,
+        "columns": {
+          "equipment": {
+            "count": 195,
+            "shown": 60,
+            "beforeMinimum": 555,
+            "status": "ok"
+          },
+          "teammates": {
+            "count": 64,
+            "shown": 60,
+            "beforeMinimum": 67,
+            "status": "ok"
+          },
+          "comps": {
+            "count": 120,
+            "shown": 60,
+            "beforeMinimum": 250,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "name": "nidalee-amumu",
+        "query": {
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "champion",
+              "id": "DA_Amumu18"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": "DA_Nidalee18_AP"
+            }
+          ],
+          "carrierId": "DA_Nidalee18_AP",
+          "minSample": 100,
+          "sort": "avgPlacement",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "ok",
+        "snapshotId": "3f4607b44457205d8419137cca81244df02f7f080b19895c37892c35cdf4af95",
+        "cacheHit": false,
+        "matchedSamples": 230717,
+        "columns": {
+          "equipment": {
+            "count": 148,
+            "shown": 60,
+            "beforeMinimum": 555,
+            "status": "ok"
+          },
+          "teammates": {
+            "count": 63,
+            "shown": 60,
+            "beforeMinimum": 65,
+            "status": "ok"
+          },
+          "comps": {
+            "count": 108,
+            "shown": 60,
+            "beforeMinimum": 250,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "name": "two-holders",
+        "query": {
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "champion",
+              "id": "DA_Amumu18"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "item",
+              "id": "DA_WarmogsArmor",
+              "holderId": "DA_Amumu18"
+            }
+          ],
+          "carrierId": "DA_Nidalee18_AP",
+          "minSample": 100,
+          "sort": "avgPlacement",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "ok",
+        "snapshotId": "ed755454a32ff7e02cb5613e76081f586269a60ee8656942e3b3cbb86a6f89a6",
+        "cacheHit": false,
+        "matchedSamples": 89429,
+        "columns": {
+          "equipment": {
+            "count": 68,
+            "shown": 60,
+            "beforeMinimum": 545,
+            "status": "ok"
+          },
+          "teammates": {
+            "count": 54,
+            "shown": 54,
+            "beforeMinimum": 64,
+            "status": "ok"
+          },
+          "comps": {
+            "count": 58,
+            "shown": 58,
+            "beforeMinimum": 250,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "name": "change-build-target",
+        "query": {
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "champion",
+              "id": "DA_Amumu18"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "item",
+              "id": "DA_WarmogsArmor",
+              "holderId": "DA_Amumu18"
+            }
+          ],
+          "carrierId": "DA_Amumu18",
+          "minSample": 100,
+          "sort": "avgPlacement",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "ok",
+        "snapshotId": "470e16ff50b9f798dc660733e07121967865e7bfeff0ab1514cc4b6378ad5a83",
+        "cacheHit": false,
+        "matchedSamples": 89432,
+        "columns": {
+          "equipment": {
+            "count": 68,
+            "shown": 60,
+            "beforeMinimum": 534,
+            "status": "ok"
+          },
+          "teammates": {
+            "count": 54,
+            "shown": 54,
+            "beforeMinimum": 64,
+            "status": "ok"
+          },
+          "comps": {
+            "count": 58,
+            "shown": 58,
+            "beforeMinimum": 250,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "name": "two-copies",
+        "query": {
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": "DA_Nidalee18_AP"
+            }
+          ],
+          "carrierId": "DA_Nidalee18_AP",
+          "minSample": 0,
+          "sort": "avgPlacement",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "ok",
+        "snapshotId": "df38fbe6fc76f2fb770c65ee0ec682348dc1730a8b8e08db1226de827009551a",
+        "cacheHit": false,
+        "matchedSamples": 1535,
+        "columns": {
+          "equipment": {
+            "count": 60,
+            "shown": 60,
+            "beforeMinimum": 60,
+            "status": "ok"
+          },
+          "teammates": {
+            "count": 64,
+            "shown": 60,
+            "beforeMinimum": 64,
+            "status": "ok"
+          },
+          "comps": {
+            "count": 250,
+            "shown": 60,
+            "beforeMinimum": 250,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "name": "bound-plus-unbound",
+        "query": {
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": null
+            }
+          ],
+          "carrierId": "DA_Nidalee18_AP",
+          "minSample": 0,
+          "sort": "avgPlacement",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "ok",
+        "snapshotId": "45d853a2526f7d2925e4633668aee3918838f1c05d46a31d3057212af62d15f4",
+        "cacheHit": false,
+        "matchedSamples": 34304,
+        "columns": {
+          "equipment": {
+            "count": 552,
+            "shown": 60,
+            "beforeMinimum": 552,
+            "status": "ok"
+          },
+          "teammates": {
+            "count": 66,
+            "shown": 60,
+            "beforeMinimum": 66,
+            "status": "ok"
+          },
+          "comps": {
+            "count": 250,
+            "shown": 60,
+            "beforeMinimum": 250,
+            "status": "ok"
+          }
+        }
+      },
+      {
+        "name": "real-zero",
+        "query": {
+          "conditions": [
+            {
+              "type": "champion",
+              "id": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": "DA_Nidalee18_AP"
+            },
+            {
+              "type": "item",
+              "id": "DA_SpearOfShojin",
+              "holderId": "DA_Nidalee18_AP"
+            }
+          ],
+          "carrierId": "DA_Nidalee18_AP",
+          "minSample": 0,
+          "sort": "avgPlacement",
+          "dataSource": "metatft"
+        },
+        "http": 200,
+        "status": "empty",
+        "snapshotId": "56b992f5197f571920110bf58f3d7ebc0ddfe9686628af4ad0b1b46a7a054924",
+        "cacheHit": false,
+        "matchedSamples": 0,
+        "columns": {
+          "equipment": {
+            "count": 0,
+            "shown": 0,
+            "beforeMinimum": 0,
+            "status": "empty"
+          },
+          "teammates": {
+            "count": 0,
+            "shown": 0,
+            "beforeMinimum": 0,
+            "status": "empty"
+          },
+          "comps": {
+            "count": 0,
+            "shown": 0,
+            "beforeMinimum": 0,
+            "status": "empty"
+          }
+        }
+      }
+    ],
+    "status": "passed",
+    "finishedAt": "2026-10-11T05:00:52.887Z"
+  },
+  "database": {
+    "status": "passed",
+    "checkedAt": "2026-10-11T05:03:46.942Z",
+    "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+    "schemaVersions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "snapshots": 31,
+    "byteVerifiedSnapshots": 14,
+    "legacyJsonOnlySnapshots": 17,
+    "legacyJsonHashMismatches": 15,
+    "rows": 16394,
+    "byteVerifiedRows": 6650,
+    "dimensions": {
+      "equipment": 8495,
+      "teammates": 1676,
+      "comps": 6223
+    },
+    "knowledge": {
+      "documents": 832,
+      "chunks": 940,
+      "sourceSnapshots": 210
+    },
+    "checks": [
+      "canonical_query_keys",
+      "original_response_hashes",
+      "exact_upstream_conditions",
+      "no_scope_expansion",
+      "source_and_request_patch_separation",
+      "rows_equal_source_histograms",
+      "stored_histogram_metrics",
+      "persisted_real_zero"
+    ],
+    "queries": [
+      {
+        "snapshotId": "62acf6487ac5eb8e2bc92d22a6b7c8c8717d2d007e3cbe83ef79ea94c85605bd",
+        "queryKey": "1431bc12dbf9009be5222420177635dcd61b4f5cfeb2ae9804cb8c4e4176d6c8",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_Artifact_SilvermereDawn",
+            "type": "item",
+            "holderId": null
+          }
+        ],
+        "carrierId": null,
+        "capturedAt": "2026-10-11T04:54:57.111Z",
+        "stats": {
+          "winRate": 0.1461629329620723,
+          "top4Rate": 0.5779226258279543,
+          "sampleSize": 47406,
+          "avgPlacement": 4.118824621355946
+        }
+      },
+      {
+        "snapshotId": "23810216c086153b908017c2f96166616717168fc1705804a0b792097bbdf1d9",
+        "queryKey": "1d553234ad0961174afa7c618dca7446a56a8133b32263390ddf243be1c29b31",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_18_ElderDragon",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "capturedAt": "2026-10-11T04:55:07.899Z",
+        "stats": {
+          "winRate": 0.2173039351875097,
+          "top4Rate": 0.5974826136098642,
+          "sampleSize": 896247,
+          "avgPlacement": 3.9001223992939447
+        }
+      },
+      {
+        "snapshotId": "8a0c497355fd9861b4769622f95bf3e17ee8820c9d77c507308c77b489d64a26",
+        "queryKey": "51c38467fab1de57cd0128d5e5c8227d59bc7cf050a855143a3c8ceec8d40910",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_Artifact_SilvermereDawn",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_18_ElderDragon",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "capturedAt": "2026-10-11T04:55:32.878Z",
+        "stats": {
+          "winRate": 0.30524198055214036,
+          "top4Rate": 0.6760925449871465,
+          "sampleSize": 8947,
+          "avgPlacement": 3.421817368950486
+        }
+      },
+      {
+        "snapshotId": "5803c035cf3b658bd9765b14bf6bccc89fecb11778df9f2f061751f4a845a7ed",
+        "queryKey": "68b46dca23e4849484c5d3cff4a2e9698089ca5cdd981fa90a9a42be6a90a25e",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_Artifact_SilvermereDawn",
+            "type": "item",
+            "holderId": null
+          },
+          {
+            "id": "DA_18_ElderDragon",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "capturedAt": "2026-10-11T04:55:32.944Z",
+        "stats": {
+          "winRate": 0.2917240023589542,
+          "top4Rate": 0.6694515431492039,
+          "sampleSize": 10174,
+          "avgPlacement": 3.474149793591508
+        }
+      },
+      {
+        "snapshotId": "e5723347254609693cc41f6063c4ee983fd837a72905126c9723d2222e32ddde",
+        "queryKey": "8d9f0e162f15e9b826274c1eb35907ff9531e57ebdd1f56cfcf6a25b55ae70b9",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_Artifact_SilvermereDawn",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_InfinityEdge",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_18_ElderDragon",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "capturedAt": "2026-10-11T04:55:42.605Z",
+        "stats": {
+          "winRate": 0.3198741478762454,
+          "top4Rate": 0.6970809299073588,
+          "sampleSize": 5721,
+          "avgPlacement": 3.3132319524558644
+        }
+      },
+      {
+        "snapshotId": "a06952a42bf69d891a891de97da0df4efd3ddbf4f4610e93893a332341ff0a5c",
+        "queryKey": "da46fa2947295f8423eaadfc66db848a1af7d3b5650fcbf5886260e427a82479",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_Artifact_SilvermereDawn",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_InfinityEdge",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_StrikersFlail",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_18_ElderDragon",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "capturedAt": "2026-10-11T04:55:58.171Z",
+        "stats": {
+          "winRate": 0.3834254143646409,
+          "top4Rate": 0.7392265193370166,
+          "sampleSize": 905,
+          "avgPlacement": 3.0486187845303867
+        }
+      },
+      {
+        "snapshotId": "a832eb7dcfe22128fe62f36a066f51b6bc507bb493b2f0ac3e8c503d00965ecd",
+        "queryKey": "ea65119f72c06d0898612332b856f7eb3ad44b3e7121574b6b1cbd6b36ee3e40",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_Artifact_SilvermereDawn",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_InfinityEdge",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_StrikersFlail",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_18_ElderDragon",
+            "type": "champion"
+          },
+          {
+            "id": "DA_18_Ivern",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "capturedAt": "2026-10-11T04:56:17.403Z",
+        "stats": {
+          "winRate": 0.4334763948497854,
+          "top4Rate": 0.7381974248927039,
+          "sampleSize": 466,
+          "avgPlacement": 2.959227467811159
+        }
+      },
+      {
+        "snapshotId": "586b4c91be503355d8a1a885cf8dafff33ca0525009505852d0b8b713ece0738",
+        "queryKey": "78835c94fa1c651bb334b462637be693dfed940ccf2cc2ebb2dfc2900b4b6294",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_InfinityEdge",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_StrikersFlail",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_Artifact_SilvermereDawn",
+            "type": "item",
+            "holderId": "DA_18_Ivern"
+          },
+          {
+            "id": "DA_18_ElderDragon",
+            "type": "champion"
+          },
+          {
+            "id": "DA_18_Ivern",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "capturedAt": "2026-10-11T04:56:36.770Z",
+        "stats": {
+          "winRate": 0,
+          "top4Rate": 0,
+          "sampleSize": 1,
+          "avgPlacement": 6
+        }
+      },
+      {
+        "snapshotId": "7c838c9e19a3da634639716d418317ca242f93e0d58461f7dc79d3c6ba45dab6",
+        "queryKey": "83d36adba38769ebadabdb1571bb7e7d391feabfbfda4cfabeb7c6723a22e0d5",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_InfinityEdge",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_StrikersFlail",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_Artifact_SilvermereDawn",
+            "type": "item",
+            "holderId": null
+          },
+          {
+            "id": "DA_18_ElderDragon",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "capturedAt": "2026-10-11T04:56:55.206Z",
+        "stats": {
+          "winRate": 0.36952380952380953,
+          "top4Rate": 0.7323809523809524,
+          "sampleSize": 1050,
+          "avgPlacement": 3.084761904761905
+        }
+      },
+      {
+        "snapshotId": "4d67bdcb4d762be26f7b8ea347fceae4efd0c100cdc38db17522176479f05c52",
+        "queryKey": "a694e790631b9da107cbef0e75fe4da17de9f0fbe58b44b245628a80653dc51d",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T04:57:21.935Z",
+        "stats": {
+          "winRate": 0.09016988925308075,
+          "top4Rate": 0.5834694789403495,
+          "sampleSize": 293191,
+          "avgPlacement": 4.1674437482733095
+        }
+      },
+      {
+        "snapshotId": "83f372d413cec085977bd1c8a2e2cc90c20ce22ec3bf5f67f3a72ed682c27830",
+        "queryKey": "8c88d9bb429a9f6f27104fea3db81b8b110f45b93458560967eee3a59a69bf33",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Amumu18",
+            "type": "champion"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T04:57:23.353Z",
+        "stats": {
+          "winRate": 0.0904113867764508,
+          "top4Rate": 0.6013717230698485,
+          "sampleSize": 230513,
+          "avgPlacement": 4.086880132573868
+        }
+      },
+      {
+        "snapshotId": "0c8335004414bd52525cb93cbd8cbd65dc1449633fd1176929ea01915b4b64e7",
+        "queryKey": "82506e037becc187ca052577db1f639b03f2e38c9936295d7b9e66a72350e5ae",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_WarmogsArmor",
+            "type": "item",
+            "holderId": "DA_Amumu18"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Amumu18",
+            "type": "champion"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T04:57:24.398Z",
+        "stats": {
+          "winRate": 0.10156022653504354,
+          "top4Rate": 0.6640028652653728,
+          "sampleSize": 89346,
+          "avgPlacement": 3.802777964318492
+        }
+      },
+      {
+        "snapshotId": "b80c60f47d7a29dd8630a77bf22ff5f3fff030001ebdaea5b2fef01521e695ef",
+        "queryKey": "b890a8f99655e263a4a8f3c7972c27486d75947e7908369d2059d35a4580b4fe",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_WarmogsArmor",
+            "type": "item",
+            "holderId": "DA_Amumu18"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Amumu18",
+            "type": "champion"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Amumu18",
+        "capturedAt": "2026-10-11T04:57:25.363Z",
+        "stats": {
+          "winRate": 0.10156022653504354,
+          "top4Rate": 0.6640028652653728,
+          "sampleSize": 89346,
+          "avgPlacement": 3.802777964318492
+        }
+      },
+      {
+        "snapshotId": "225241be1008a928ffa84a507b12c99086705d3b28332144eab9e8215702fa1f",
+        "queryKey": "94ed7c94e4a7a2102e513cebace45d451493f02c3ff2f03f0777fecceb90634e",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T04:57:26.302Z",
+        "stats": {
+          "winRate": 0.08213820078226858,
+          "top4Rate": 0.5241199478487614,
+          "sampleSize": 1534,
+          "avgPlacement": 4.450456323337679
+        }
+      },
+      {
+        "snapshotId": "8b99983beaf89889ed37da3b59abeeef1f1951f69cd5d8799929ceacfd610d72",
+        "queryKey": "1d8576be5a768273020b635e61e0e7b9a3b2e06a0206bba7bc6e45fcaf26bf51",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": null
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T04:57:27.667Z",
+        "stats": {
+          "winRate": 0.12676878191101384,
+          "top4Rate": 0.67054704595186,
+          "sampleSize": 34275,
+          "avgPlacement": 3.7394018964259663
+        }
+      },
+      {
+        "snapshotId": "ca6fcdbe721ed74720a1fe6b4e0ebe7493e716e0b7e7784d1c083123b8bcaa38",
+        "queryKey": "cc0434f1084bf4540d68b58f11616bd1114e691f6e40bd221c0cebcab3afee09",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T04:57:28.133Z",
+        "stats": {
+          "winRate": null,
+          "top4Rate": null,
+          "sampleSize": 0,
+          "avgPlacement": null
+        }
+      },
+      {
+        "snapshotId": "8afb074ecc73847f3ae18493eeaaf825104481b56e739bae9d7ceb886f4c0ff2",
+        "queryKey": "e6d03c1a34966330499626ed83e6238c3e9d1e6677d57cda59adf021a8fe96b6",
+        "adapterVersion": 1,
+        "conditions": [
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T05:00:01.855Z",
+        "stats": {
+          "winRate": 0.08826468799043037,
+          "top4Rate": 0.5444422576539089,
+          "sampleSize": 782476,
+          "avgPlacement": 4.347300108885129
+        }
+      },
+      {
+        "snapshotId": "0cae5eb37c4202675af58b88d0e1040d7ea807a9f016cd04b9a7fdf4c8536704",
+        "queryKey": "91730516f17a05134184a74dcffdc46a5775eba2c5ed70e0c1e87a4f9db85c05",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T05:00:42.007Z",
+        "stats": {
+          "winRate": 0.09017792939396314,
+          "top4Rate": 0.5834284721109904,
+          "sampleSize": 293431,
+          "avgPlacement": 4.167674853713479
+        }
+      },
+      {
+        "snapshotId": "25426ebe43edfdcd7b5c5404e03e74c84eee389d98afe3b6e63e1d43f7d1ac99",
+        "queryKey": "e375914e8fde482f70eceead0501278ef851d07ea5cd0eb53a4e20304d9ecd22",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_Artifact_SilvermereDawn",
+            "type": "item",
+            "holderId": null
+          }
+        ],
+        "carrierId": null,
+        "capturedAt": "2026-10-11T05:00:43.709Z",
+        "stats": {
+          "winRate": 0.14615141623670633,
+          "top4Rate": 0.578035169000737,
+          "sampleSize": 47485,
+          "avgPlacement": 4.118563756975887
+        }
+      },
+      {
+        "snapshotId": "4ef270d1080c1da5b7316182c83e6f9cb2ef301a85da1336807761781c788ea3",
+        "queryKey": "2c1bd62a7f58442abb33650d6da4bf293acd015aca2c9465d6e78b2f109e1117",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_Artifact_SilvermereDawn",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_InfinityEdge",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_StrikersFlail",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_18_ElderDragon",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "capturedAt": "2026-10-11T05:00:44.602Z",
+        "stats": {
+          "winRate": 0.38283828382838286,
+          "top4Rate": 0.7403740374037404,
+          "sampleSize": 909,
+          "avgPlacement": 3.046204620462046
+        }
+      },
+      {
+        "snapshotId": "07618ec350b226597018ee50ffc458a44f402bb4e9233e3549d41208863e7a62",
+        "queryKey": "534eb5677de923390243fb97f3aad7cd8fa921cf232a4b03f4a8daddac7faa53",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_Artifact_SilvermereDawn",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_InfinityEdge",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_StrikersFlail",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_18_ElderDragon",
+            "type": "champion"
+          },
+          {
+            "id": "DA_18_Ivern",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "capturedAt": "2026-10-11T05:00:45.488Z",
+        "stats": {
+          "winRate": 0.4328358208955224,
+          "top4Rate": 0.7398720682302772,
+          "sampleSize": 469,
+          "avgPlacement": 2.955223880597015
+        }
+      },
+      {
+        "snapshotId": "a5e2fea6a2286f0ed104b1da027e6c6ae7af75d6dfbfea9f40b066f06f106be8",
+        "queryKey": "c131306cb93cc9909c2e95f790bf20bf1693e72b1ee91013e0516223dc089aa9",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_InfinityEdge",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_StrikersFlail",
+            "type": "item",
+            "holderId": "DA_18_ElderDragon"
+          },
+          {
+            "id": "DA_Artifact_SilvermereDawn",
+            "type": "item",
+            "holderId": "DA_18_Ivern"
+          },
+          {
+            "id": "DA_18_ElderDragon",
+            "type": "champion"
+          },
+          {
+            "id": "DA_18_Ivern",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_18_ElderDragon",
+        "capturedAt": "2026-10-11T05:00:46.277Z",
+        "stats": {
+          "winRate": 0,
+          "top4Rate": 0,
+          "sampleSize": 1,
+          "avgPlacement": 6
+        }
+      },
+      {
+        "snapshotId": "3f4607b44457205d8419137cca81244df02f7f080b19895c37892c35cdf4af95",
+        "queryKey": "86be80874897bf393b7954590c4d9e2288aacbea07c7b864678d8a47226b9440",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Amumu18",
+            "type": "champion"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T05:00:47.606Z",
+        "stats": {
+          "winRate": 0.0904267999323847,
+          "top4Rate": 0.601312430380076,
+          "sampleSize": 230717,
+          "avgPlacement": 4.087176064182526
+        }
+      },
+      {
+        "snapshotId": "ed755454a32ff7e02cb5613e76081f586269a60ee8656942e3b3cbb86a6f89a6",
+        "queryKey": "cc5bc7a6f6a106e69bde6f3d62f77e15bb09cd1849a9e08d344fc788054e7a90",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_WarmogsArmor",
+            "type": "item",
+            "holderId": "DA_Amumu18"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Amumu18",
+            "type": "champion"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T05:00:48.916Z",
+        "stats": {
+          "winRate": 0.10154424180075816,
+          "top4Rate": 0.6639121537756209,
+          "sampleSize": 89429,
+          "avgPlacement": 3.8033411980453766
+        }
+      },
+      {
+        "snapshotId": "470e16ff50b9f798dc660733e07121967865e7bfeff0ab1514cc4b6378ad5a83",
+        "queryKey": "9deebdb2278d2929319c9951df978764de054fb81f980dfb46702111aad48778",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_WarmogsArmor",
+            "type": "item",
+            "holderId": "DA_Amumu18"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Amumu18",
+            "type": "champion"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Amumu18",
+        "capturedAt": "2026-10-11T05:00:50.222Z",
+        "stats": {
+          "winRate": 0.10155201717506038,
+          "top4Rate": 0.6639122461758654,
+          "sampleSize": 89432,
+          "avgPlacement": 3.8033366132927817
+        }
+      },
+      {
+        "snapshotId": "df38fbe6fc76f2fb770c65ee0ec682348dc1730a8b8e08db1226de827009551a",
+        "queryKey": "3c5414f28c4b93609040fbcc783a11db0ef70b9bab9a2f6c735907d6b8500e80",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T05:00:51.150Z",
+        "stats": {
+          "winRate": 0.08208469055374593,
+          "top4Rate": 0.5237785016286645,
+          "sampleSize": 1535,
+          "avgPlacement": 4.450814332247557
+        }
+      },
+      {
+        "snapshotId": "45d853a2526f7d2925e4633668aee3918838f1c05d46a31d3057212af62d15f4",
+        "queryKey": "f5d8b0611fa282790bf5ee3e79940186caf6e49e72cb43097d9ad02be08363e9",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": null
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T05:00:52.404Z",
+        "stats": {
+          "winRate": 0.1268073694029851,
+          "top4Rate": 0.6704757462686567,
+          "sampleSize": 34304,
+          "avgPlacement": 3.739680503731343
+        }
+      },
+      {
+        "snapshotId": "56b992f5197f571920110bf58f3d7ebc0ddfe9686628af4ad0b1b46a7a054924",
+        "queryKey": "e3b23b9ff3873492f92060bee4a4609f2b351b19bfbdaac497d05220e96a777a",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T05:00:52.873Z",
+        "stats": {
+          "winRate": null,
+          "top4Rate": null,
+          "sampleSize": 0,
+          "avgPlacement": null
+        }
+      },
+      {
+        "snapshotId": "6c558e20d169e19568e446c2c342974222586c68ceacaef8b0676593b43a6561",
+        "queryKey": "6853a6f3ee04d7f9ac3bfbb99aa231b9b63becbb93dccb9c47befb1073f88a4a",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_WarmogsArmor",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Amumu18",
+            "type": "champion"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T05:01:13.402Z",
+        "stats": {
+          "winRate": 0.17142857142857143,
+          "top4Rate": 0.5285714285714286,
+          "sampleSize": 70,
+          "avgPlacement": 4.271428571428571
+        }
+      },
+      {
+        "snapshotId": "cd376ad0041b0c177c207d33f1eead6de31c6919e769328811b9a8229d59ce38",
+        "queryKey": "e376b181159dd360f49e8915d4161643302e90d81b6e5a1750c71b08530a7327",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T05:01:46.971Z",
+        "stats": {
+          "winRate": 0.0882785015163167,
+          "top4Rate": 0.5444560549195343,
+          "sampleSize": 782818,
+          "avgPlacement": 4.347273568057965
+        }
+      },
+      {
+        "snapshotId": "80a81cbdb67dff8b1c5875447228bb828a4742e4ec5650ffb92d0d7e109971e8",
+        "queryKey": "fc42ac0606463b030effbd52b5f525054f3a1a887a71913f57c5d6668794a9da",
+        "adapterVersion": 2,
+        "conditions": [
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_SpearOfShojin",
+            "type": "item",
+            "holderId": "DA_Nidalee18_AP"
+          },
+          {
+            "id": "DA_Nidalee18_AP",
+            "type": "champion"
+          }
+        ],
+        "carrierId": "DA_Nidalee18_AP",
+        "capturedAt": "2026-10-11T05:01:58.553Z",
+        "stats": {
+          "winRate": 0.1,
+          "top4Rate": 0.5,
+          "sampleSize": 10,
+          "avgPlacement": 4.1
+        }
+      }
+    ],
+    "modelCalled": false,
+    "databaseMutations": false
+  },
+  "storage": {
+    "backend": "mysql",
+    "mysql": {
+      "status": "ready"
+    },
+    "redis": {
+      "status": "ready"
+    },
+    "milvus": {
+      "status": "connected",
+      "indexed": true,
+      "indexedChunks": 869
+    },
+    "embedding": {
+      "status": "configured"
+    },
+    "activeRelease": {
+      "id": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+      "season": 18,
+      "currentPatch": "18.4",
+      "seedPatch": "18.4",
+      "counts": {
+        "chunks": 940,
+        "tables": 81,
+        "entities": 844,
+        "documents": 832,
+        "snapshots": 210,
+        "tableRows": 846,
+        "opggSnapshots": 204,
+        "eligibleChunks": 869,
+        "glossaryChunks": 191,
+        "libraryDocuments": 44,
+        "eligibleDocuments": 787,
+        "glossaryDocuments": 191,
+        "sourceCapabilities": 4,
+        "statisticsSnapshots": 204,
+        "quarantinedStatisticsSnapshots": 202,
+        "patchVerifiedStatisticsSnapshots": 2
+      }
+    },
+    "knowledgeCounts": {
+      "documents": 832,
+      "eligibleDocuments": 787,
+      "chunks": 940,
+      "eligibleChunks": 869
+    },
+    "statistics": {
+      "total": 204,
+      "sourceDeclared": 2,
+      "assignedCurrent": 201,
+      "unavailable": 1
+    }
+  },
+  "health": {
+    "status": "ok",
+    "version": "4.0.0"
+  },
+  "browser": {
+    "status": "passed",
+    "tab": "original user tab 3",
+    "entry": "阵容首页 → 筛选器 → 清空 → 搜索 → 选中；未用预填 URL 代替操作",
+    "checks": [
+      "old v2 page queries after deployment before refresh",
+      "old page refresh migrates to MetaTFT preserving conditions",
+      "item search and holder rows",
+      "champion selection and explicit holder binding",
+      "two and three equipment predicates added incrementally",
+      "two champions AND",
+      "different equipment holders",
+      "remove holder champion unbinds its equipment",
+      "independent Nidalee and Amumu scenario",
+      "switch build target preserving bindings",
+      "minimum threshold versus true zero",
+      "repeated equipment copies retained",
+      "remove equipment restores positive results",
+      "refresh preserves copies, bindings, sort and threshold",
+      "actual app outage clears prior results and keeps conditions",
+      "Chinese error and retry recovery after restart",
+      "final image refresh"
+    ],
+    "finalItemExample": {
+      "itemId": "DA_Artifact_SilvermereDawn",
+      "allMatchedObservations": 47485,
+      "holderId": "DA_18_ElderDragon",
+      "holderObservations": 8958,
+      "displayedAvgPlacement": 3.42
+    },
+    "files": [
+      {
+        "file": "metatft-browser/before-disconnect.txt",
+        "bytes": 116415,
+        "sha256": "258415182cc7bf70dc3aba9b9228225104603568b1c20afe53995cfce57884c3"
+      },
+      {
+        "file": "metatft-browser/below-threshold.txt",
+        "bytes": 4364,
+        "sha256": "3958cdfe14b328d8f5e6ee28fb63e7937438bf80d12224ca2dbcc42f08304dbd"
+      },
+      {
+        "file": "metatft-browser/carrier-switched.txt",
+        "bytes": 108924,
+        "sha256": "5a92989215214ea15d2baff0944479ff63c4bbcc25a50160c662ddb9c1157993"
+      },
+      {
+        "file": "metatft-browser/different-holders.txt",
+        "bytes": 4662,
+        "sha256": "60e2b0e03ec8a808f348c37eff67d2f07c7e85430a63a0515dec574ed52b3821"
+      },
+      {
+        "file": "metatft-browser/disconnected.png",
+        "bytes": 71944,
+        "sha256": "5ceaa85fdca32a646ea9776bfb79de7e63e11e65e1852d30c0c1750f86f4aaad"
+      },
+      {
+        "file": "metatft-browser/disconnected.txt",
+        "bytes": 3297,
+        "sha256": "919076f3f120c7f96e0420db71840a2e682812a23142d0025e8b0bdc155583c1"
+      },
+      {
+        "file": "metatft-browser/elder-holder.txt",
+        "bytes": 28830,
+        "sha256": "88f7d8a51a70245de92485c7bb7e236eea6d0d67359392c7aec0e914b90fedce"
+      },
+      {
+        "file": "metatft-browser/elder-three-items.png",
+        "bytes": 120953,
+        "sha256": "8e2773e53cd676403d21684efea7e035c2054589206f77c61f34183d51c66f66"
+      },
+      {
+        "file": "metatft-browser/elder-three-items.txt",
+        "bytes": 11027,
+        "sha256": "b16c6b10932a271b5a90d9c4af0a6ccbbab9b3816783b1ca6bbe45b20db59880"
+      },
+      {
+        "file": "metatft-browser/final-disconnected.png",
+        "bytes": 78586,
+        "sha256": "66f72c7ff1dcfca6b8b5b745d1997dfa5a8ee30c1e3526fed36156f9b4adf9b8"
+      },
+      {
+        "file": "metatft-browser/final-disconnected.txt",
+        "bytes": 3724,
+        "sha256": "8d0565effd4c0abd484f95f84fabd7639a6b8de2e0359d9b412fafae063ef6f6"
+      },
+      {
+        "file": "metatft-browser/final-retry.txt",
+        "bytes": 109885,
+        "sha256": "a16cb4e4ece0d32b3ecf668f27f691f337ebbf848c5f1c3e41d4aa0f4bb23dc6"
+      },
+      {
+        "file": "metatft-browser/final.png",
+        "bytes": 159397,
+        "sha256": "a0a4c80c3ee590e33efc25ac177b83e4bb131393f9d164972ee42a0c4b08be4f"
+      },
+      {
+        "file": "metatft-browser/final.txt",
+        "bytes": 63709,
+        "sha256": "836cece28eb34d230020edd78968c71c2b4245720707bd2a9c3a6bea8e7a87c6"
+      },
+      {
+        "file": "metatft-browser/item-only.png",
+        "bytes": 147320,
+        "sha256": "6dc4e9fa67395ed8d532a87916c5cee5d220ec71a768d16288185b40e661dad7"
+      },
+      {
+        "file": "metatft-browser/item-only.txt",
+        "bytes": 60698,
+        "sha256": "09e1040b41e2702b0a3473f3e831cac3c7d9477462046503de6997d5dbcabc08"
+      },
+      {
+        "file": "metatft-browser/nidalee-amumu.txt",
+        "bytes": 112866,
+        "sha256": "600e67c709614e290fc14bd7527dd85d1b417c89dd1507653f3d930e52c079a5"
+      },
+      {
+        "file": "metatft-browser/old-page-after-deploy.png",
+        "bytes": 159975,
+        "sha256": "c4c9e2fd8c632b719b161e3c9d734e81970626d8841cf263ff8b6ff814b43017"
+      },
+      {
+        "file": "metatft-browser/old-page-after-deploy.txt",
+        "bytes": 61778,
+        "sha256": "26d71163372d23f1f28855bf92caf4f269568eace5d6c40e7d787d54e2af0e80"
+      },
+      {
+        "file": "metatft-browser/old-page-refreshed.txt",
+        "bytes": 115396,
+        "sha256": "173f21b63d402f7a54c32746ef7ac6d52e3762825d53e04ade8feb402feea76a"
+      },
+      {
+        "file": "metatft-browser/real-zero.png",
+        "bytes": 90422,
+        "sha256": "118e9554c17730336003485aba415f841760dcc74f7388cbe66ee6a4d98135ea"
+      },
+      {
+        "file": "metatft-browser/real-zero.txt",
+        "bytes": 4481,
+        "sha256": "ee01d4ddc2cbe18b393d03440ae6d08c985763309f7d8566cca3471ac391e614"
+      },
+      {
+        "file": "metatft-browser/reload-restored.txt",
+        "bytes": 112232,
+        "sha256": "4473909a227343b5308a2382f2439d5d9e24c993d54eb98ef7acc3c097609592"
+      },
+      {
+        "file": "metatft-browser/removed-holder-unbound.txt",
+        "bytes": 11077,
+        "sha256": "07f1a0ba1ce1420202e427b67774cea65cbaf87590b60b72c3e10348c14abecc"
+      },
+      {
+        "file": "metatft-browser/repeat-remove-and-reload.txt",
+        "bytes": 110103,
+        "sha256": "be845a25027b4f7135a1838bf30a4479ab815966efd55b5a519509f212eb81fd"
+      },
+      {
+        "file": "metatft-browser/repeated-equipment.txt",
+        "bytes": 109244,
+        "sha256": "612ac50ae6606beeadac9fe25bf03afabc832b9331ec2ab7fc67ffaf0cf73e6b"
+      },
+      {
+        "file": "metatft-browser/retry-recovered.txt",
+        "bytes": 113439,
+        "sha256": "399a1e205dbf234adec035e4341a5349c6ef9337284868b153cca5eef3aaea71"
+      },
+      {
+        "file": "metatft-browser/two-champions-three-items.txt",
+        "bytes": 7821,
+        "sha256": "aa61ff785bce7fe9c459a8bba04a2eae6ef72c8ddc4a00b2f3a533c78a085a95"
+      },
+      {
+        "file": "metatft-browser/two-holders.png",
+        "bytes": 159034,
+        "sha256": "3979289717d60d3285a252156beb05cce87f9d4b159b920b9e0c9e02ade516f5"
+      },
+      {
+        "file": "metatft-browser/two-separate-holders.txt",
+        "bytes": 107170,
+        "sha256": "bb06d06b7bcd0873132bf34f0ac1cf1badab06de9145482585b4dc87ed10b62c"
+      }
+    ],
+    "finalConsoleErrors": [],
+    "finalCheckedAt": "2026-10-11T05:05:52.947Z"
+  },
+  "correctedDuringAcceptance": [
+    {
+      "issue": "Sorting wide JSON columns in audit exceeded MySQL sort memory",
+      "code": "ER_OUT_OF_SORTMEMORY",
+      "fix": "Read unsorted JSON rows; sort in audit process without changing database memory settings"
+    },
+    {
+      "issue": "MySQL JSON float roundtrip changes last digits and cannot retain original response bytes",
+      "probe": {
+        "tested": 1000,
+        "changed": 81,
+        "example": {
+          "before": 0.12371134020618557,
+          "after": 0.12371134020618556
+        }
+      },
+      "fix": "Add nullable LONGTEXT evidence envelope, keep source bodyText plus hashes, use adapterVersion 2 query keys; preserve and exclude old version from query reuse",
+      "legacyLimitation": "17 JSON-only snapshots retained; 15 cannot reproduce old content hashes. No claim of byte verification for those snapshots."
+    }
+  ],
+  "limitations": [
+    "Unofficial public website API; no formal integration contract verified",
+    "Scope is source metadata current 18.4b, queue 1100, last 3 days, platinum+; statistics response does not echo patch",
+    "Candidate endpoints may truncate; SQL sorting and minimum apply to returned candidates, not guaranteed exhaustive optimum",
+    "Sample observations are not unique match IDs; different rows and snapshots may overlap",
+    "Traits are not supported by this adapter and return an explicit error",
+    "Unknown or failed requests do not switch source or broaden conditions",
+    "Metadata refresh 60 seconds; full-query snapshot TTL 10 minutes; no offline stale fallback",
+    "Source stability, rate limits, other modes and long-duration load not fully validated",
+    "No model or embedding provider calls; Milvus remains the existing knowledge index"
+  ]
+}

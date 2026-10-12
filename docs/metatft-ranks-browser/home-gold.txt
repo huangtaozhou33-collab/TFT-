@@ -1,0 +1,3711 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 阵容首页
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main [active]:
+  - generic: TEAM COMPOSITIONS
+  - heading "阵容推荐" [level=1]
+  - paragraph: 从来源阵容出发，看队员、装备与站位，再建立自己的规划。
+  - generic: 来源阵容
+  - generic: 赛季 18
+  - generic: 资源 16.20
+  - generic: 统计补丁 18.4b · 查询范围
+  - paragraph: MetaTFT · 普通排位 · 黄金 · 近 3 天。指标统计各阵容体系的不同变体；下列棋子和装备为来源代表配置。
+  - generic: 段位
+  - combobox "阵容统计段位":
+    - option "铂金及以上"
+    - option "全部段位"
+    - option "黑铁"
+    - option "青铜"
+    - option "白银"
+    - option "黄金" [selected]
+    - option "铂金"
+    - option "翡翠"
+    - option "钻石"
+    - option "大师"
+    - option "宗师"
+    - option "王者"
+  - generic: ⌕
+  - searchbox "搜索来源阵容"
+  - combobox "来源阵容排序":
+    - option "热门体系（样本数）" [selected]
+    - option "平均名次 ↑"
+    - option "前四率 ↓"
+    - option "样本数 ↓"
+  - generic: 60 / 60 套来源阵容
+  - button "刷新阵容"
+  - button "查看峡谷野怪 · 苍蓝哨戒的队员、装备、站位与统计":
+    - strong: 峡谷野怪 · 苍蓝哨戒
+    - generic: ↗
+    - generic "远古巨龙":
+      - generic "无尽之刃"
+      - generic "最后的轻语"
+      - generic "强袭者的链枷"
+      - generic: 远古巨龙
+    - generic "纳尔":
+      - generic: 纳尔
+    - generic "苍蓝哨戒 · 来源核心":
+      - generic "蓝霸符"
+      - generic "珠光护手"
+      - generic "灭世者的死亡之帽"
+      - generic: 苍蓝哨戒
+    - generic "绯红印记树怪":
+      - generic: 绯红印记树怪
+    - generic "远古石甲虫":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 远古石甲虫
+    - generic "暗影狼":
+      - generic: 暗影狼
+    - generic "苍蓝雕纹魔像":
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "【远古巨龙】占用2个弈子栏位，并提供+2【峡谷野怪】羁绊。":
+      - strong: "1"
+      - generic: 顶级掠食者
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "2"
+      - generic: 神谕
+    - generic "【狂战士】们获得10%全能吸血。此外，【狂战士】们造成额外伤害，对低于50%生命值的单位们翻倍。 (2) 12%额外伤害 (4) 25%额外伤害 (6) 40%额外伤害":
+      - strong: "2"
+      - generic: 狂战士
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "7"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.07"
+    - generic: 前四率
+    - strong: 58.7%
+    - generic: 登顶率
+    - strong: 15.2%
+    - generic: 阵容样本
+    - strong: 273,477
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看地狱火 · 远古巨龙的队员、装备、站位与统计":
+    - strong: 地狱火 · 远古巨龙
+    - generic: ↗
+    - generic "远古巨龙 · 来源核心":
+      - generic "无尽之刃"
+      - generic "最后的轻语"
+      - generic "强袭者的链枷"
+      - generic: 远古巨龙
+    - generic "艾翁":
+      - generic: 艾翁
+    - generic "凯南":
+      - generic "夜之锋刃"
+      - generic "正义之手"
+      - generic "珠光护手"
+      - generic: 凯南
+    - generic "茂凯":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 茂凯
+    - generic "阿木木":
+      - generic: 阿木木
+    - generic "德莱文":
+      - generic "鬼索的狂暴之刃"
+      - generic "海妖之怒"
+      - generic "海妖之怒"
+      - generic: 德莱文
+    - generic "苍蓝雕纹魔像":
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "【远古巨龙】占用2个弈子栏位，并提供+2【峡谷野怪】羁绊。":
+      - strong: "1"
+      - generic: 顶级掠食者
+    - generic "你最强大的那个【艾翁】在施放技能时获得1颗种子，且每场对战额外获得3颗。【艾翁】可消耗5颗种子在你的棋盘上培育1个格子，为格内的住民提供加成。 种子数：0/5 当前生物群落：":
+      - strong: "1"
+      - generic: 翠神
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "每当3格内的1名敌人阵亡时，你最强大的那个【远古树精】弈子获得30永久最大生命值。 当前：0":
+      - strong: "1"
+      - generic: 远古树精
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "选择1个【悬赏令】。你最强大的那个【德莱文】可以推进【悬赏令】进度以获取其奖励。在完成1个【悬赏令】后，能够选择另一个。":
+      - strong: "1"
+      - generic: 赏金猎人
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.77"
+    - generic: 前四率
+    - strong: 45.6%
+    - generic: 登顶率
+    - strong: 17.4%
+    - generic: 阵容样本
+    - strong: 191,807
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看重装战士 · 伊莉丝 · 卡西奥佩娅的队员、装备、站位与统计":
+    - strong: 重装战士 · 伊莉丝 · 卡西奥佩娅
+    - generic: ↗
+    - generic "卡西奥佩娅 · 来源核心":
+      - generic "海克斯科技枪刃"
+      - generic "珠光护手"
+      - generic "朔极之矛"
+      - generic: 卡西奥佩娅
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "伊莉丝 · 来源核心":
+      - generic "石像鬼石板甲"
+      - generic "鬼索的狂暴之刃"
+      - generic "泰坦的坚决"
+      - generic: 伊莉丝
+    - generic "赫卡里姆":
+      - generic: 赫卡里姆
+    - generic "莫甘娜":
+      - generic "适应性头盔"
+      - generic "莫雷洛秘典"
+      - generic "虚空之杖"
+      - generic: 莫甘娜
+    - generic "洛":
+      - generic: 洛
+    - generic "苍蓝雕纹魔像":
+      - generic "圣盾使的誓约"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "通过击杀弈子们收集【魔女精粹】，输掉玩家对战回合时还会增加更多。 初始值为40【魔女精粹】，选择将【魔女精粹】兑换为奖励或是继续收集【魔女精粹】。每项奖励所需的【魔女精粹】数量都会进一步增加。 (3)每次击杀+2【魔女精粹】，每次失败+22【魔女精粹】 (4)每次击杀+2【魔女精粹】，每次失败+28【魔女精粹】 (5)每次击杀+3【魔女精粹】，每次失败+35【魔女精粹】 (7)每次击杀+10【魔女精粹】，每次失败+60【魔女精粹】":
+      - strong: "3"
+      - generic: 魔女
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "2"
+      - generic: 神谕
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "6"
+      - generic: 重装战士
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic: 平均名次
+    - strong: "5.38"
+    - generic: 前四率
+    - strong: 32.0%
+    - generic: 登顶率
+    - strong: 8.2%
+    - generic: 阵容样本
+    - strong: 182,033
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看绝命花妖 · 阿兹尔的队员、装备、站位与统计":
+    - strong: 绝命花妖 · 阿兹尔
+    - generic: ↗
+    - generic "阿兹尔 · 来源核心":
+      - generic "鬼索的狂暴之刃"
+      - generic "海克斯科技枪刃"
+      - generic "灭世者的死亡之帽"
+      - generic: 阿兹尔
+    - generic "拉莫斯":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "石像鬼石板甲"
+      - generic: 拉莫斯
+    - generic "索拉卡":
+      - generic: 索拉卡
+    - generic "提莫":
+      - generic: 提莫
+    - generic "维迦":
+      - generic: 维迦
+    - generic "婕拉":
+      - generic "莫雷洛秘典"
+      - generic "朔极之矛"
+      - generic "虚空之杖"
+      - generic: 婕拉
+    - generic "费德提克":
+      - generic "石像鬼石板甲"
+      - generic "离子火花"
+      - generic "日炎斗篷"
+      - generic: 费德提克
+    - generic "战斗开始前，位于【黑荆棘格】内的友军被献祭，为你的弈子们提供生命值。 【黑荆棘】弈子们基于【祭品】的定位、星级和费用，获得额外属性， (2) 175 (4) 350 ；额外加成提升30% (6) 600 ；额外加成提升60%":
+      - strong: "2"
+      - generic: 黑荆棘
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "(2)【裁决使】们获得【技能暴击】和15%暴击几率。 (3)此外，敌人会被施加流血效果，在3秒内持续受到25%额外真实伤害。 (4)流血效果造成的伤害提升35%。":
+      - strong: "2"
+      - generic: 裁决使
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "获得【毛茸茸大朋友】。将1个【约德尔人和朋友】放置在【毛茸茸大朋友】身上以选择其【骑乘者】。 (3) 【骑乘者】获得 15% 和15% (5) 40% 35% ，【毛茸茸大朋友】50%的技能加成作用于你的【约德尔人…】弈子们 (7) 45% 45% ，【毛茸茸大朋友】100%的技能加成作用于你的【约德尔人…】弈子们。":
+      - strong: "3"
+      - generic: 约德尔人和朋友
+    - generic "【召唤师】们会以不同的方式强化其召唤物。 【约里克】：+30%生命值 【阿兹尔】：+20%伤害 【锋喙鸟】：+45%伤害 【婕拉】：+4植物攻击次数 (2)强化召唤物 (3)每种效果加成提升50%":
+      - strong: "2"
+      - generic: 召唤师
+    - generic "你的队伍获得5%伤害减免，在6或以上株【婕拉】的植物存活时，该数值提升至10%。":
+      - strong: "1"
+      - generic: 荆棘之兴
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "2"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "4.06"
+    - generic: 前四率
+    - strong: 57.9%
+    - generic: 登顶率
+    - strong: 16.7%
+    - generic: 阵容样本
+    - strong: 176,229
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看迅捷射手 · 凯尔的队员、装备、站位与统计":
+    - strong: 迅捷射手 · 凯尔
+    - generic: ↗
+    - generic "厄斐琉斯":
+      - generic "巨人杀手"
+      - generic "海妖之怒"
+      - generic "最后的轻语"
+      - generic: 厄斐琉斯
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "凯尔 · 来源核心":
+      - generic "鬼索的狂暴之刃"
+      - generic "珠光护手"
+      - generic "灭世者的死亡之帽"
+      - generic: 凯尔
+    - generic "蕾欧娜":
+      - generic: 蕾欧娜
+    - generic "瑟庄妮":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 瑟庄妮
+    - generic "慎":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 慎
+    - generic "韦鲁斯":
+      - generic: 韦鲁斯
+    - generic "阿木木":
+      - generic: 阿木木
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "3"
+      - generic: 地狱火
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "2"
+      - generic: 月蚀骑士
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "3"
+      - generic: 迅捷射手
+    - generic "(3)你的弈子们获得5%最大生命值护盾，并造成8%额外魔法伤害。每有1个不同的3星弈子，获得额外加成： 1：每有1个3星弈子，提升1%护盾值和魔法伤害。 3：15% 和12 5：将40%额外魔法伤害转换为真实伤害。 7：在战斗期间内每过4秒，1个3星弈子飞升至4星。":
+      - strong: "3"
+      - generic: 日蚀骑士
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic: 平均名次
+    - strong: "4.24"
+    - generic: 前四率
+    - strong: 54.9%
+    - generic: 登顶率
+    - strong: 14.8%
+    - generic: 阵容样本
+    - strong: 174,488
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看永恒之森 · 伊泽瑞尔的队员、装备、站位与统计":
+    - strong: 永恒之森 · 伊泽瑞尔
+    - generic: ↗
+    - generic "阿利斯塔":
+      - generic: 阿利斯塔
+    - generic "伊泽瑞尔 · 来源核心":
+      - generic "无尽之刃"
+      - generic "朔极之矛"
+      - generic "强袭者的链枷"
+      - generic: 伊泽瑞尔
+    - generic "纳尔":
+      - generic "饮血剑"
+      - generic "斯特拉克的挑战护手"
+      - generic "泰坦的坚决"
+      - generic: 纳尔
+    - generic "赫卡里姆":
+      - generic "薄暮法袍"
+      - generic "日炎斗篷"
+      - generic "狂徒铠甲"
+      - generic: 赫卡里姆
+    - generic "乐芙兰":
+      - generic: 乐芙兰
+    - generic "奥恩":
+      - generic: 奥恩
+    - generic "索拉卡":
+      - generic "永恒之森纹章"
+      - generic "灭世者的死亡之帽"
+      - generic "朔极之矛"
+      - generic: 索拉卡
+    - generic "霞":
+      - generic: 霞
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "获得可放置的【永恒之森】植物。 (3)一棵【石皮树】和一株【生命花】。 (5)第二棵【石皮树】，并且【石皮树】获得200生命值 (7)以及【深林守卫】 (9)植物升至2星 (11)自然之力！！！植物升至3星，森林拥有了它自己的生命":
+      - strong: "7"
+      - generic: 永恒之森
+    - generic "(2)【裁决使】们获得【技能暴击】和15%暴击几率。 (3)此外，敌人会被施加流血效果，在3秒内持续受到25%额外真实伤害。 (4)流血效果造成的伤害提升35%。":
+      - strong: "2"
+      - generic: 裁决使
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "2"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "4.40"
+    - generic: 前四率
+    - strong: 50.8%
+    - generic: 登顶率
+    - strong: 14.3%
+    - generic: 阵容样本
+    - strong: 160,117
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看灵魂莲华 · 阿狸的队员、装备、站位与统计":
+    - strong: 灵魂莲华 · 阿狸
+    - generic: ↗
+    - generic "阿狸 · 来源核心":
+      - generic "珠光护手"
+      - generic "朔极之矛"
+      - generic "强袭者的链枷"
+      - generic: 阿狸
+    - generic "艾希":
+      - generic "最后的轻语"
+      - generic "红霸符"
+      - generic "朔极之矛"
+      - generic: 艾希
+    - generic "纳尔":
+      - generic: 纳尔
+    - generic "瑟提":
+      - generic "石像鬼石板甲"
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic: 瑟提
+    - generic "希维尔":
+      - generic: 希维尔
+    - generic "约里克":
+      - generic: 约里克
+    - generic "婕拉":
+      - generic: 婕拉
+    - generic "卡尔玛":
+      - generic: 卡尔玛
+    - generic "蔚":
+      - generic: 蔚
+    - generic "在对战后，你的【自然仙灵】将得到强化。 【灵魂莲华】弈子们获得物理加成、法术加成和10%最大生命值。 (3)【自然仙灵】得到升级，12% (5)商店每次都会刷新出【自然仙灵】，30% (7)在购买1个【自然仙灵】后，获得4 金币，50% (9)每回合你可以购买2个【自然仙灵】，55% (11)自然之力！！！【自然仙灵】的力量满溢而出，100%":
+      - strong: "5"
+      - generic: 灵魂莲华
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "【猎人】获得物理加成。如果1个【猎人】在3秒内没有切换过目标，他们获得10%伤害增幅。 (2) 20% (3) 30% (4) 45% (5) 60%":
+      - strong: "2"
+      - generic: 猎人
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "【召唤师】们会以不同的方式强化其召唤物。 【约里克】：+30%生命值 【阿兹尔】：+20%伤害 【锋喙鸟】：+45%伤害 【婕拉】：+4植物攻击次数 (2)强化召唤物 (3)每种效果加成提升50%":
+      - strong: "2"
+      - generic: 召唤师
+    - generic "你的队伍获得5%伤害减免，在6或以上株【婕拉】的植物存活时，该数值提升至10%。":
+      - strong: "1"
+      - generic: 荆棘之兴
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic: 平均名次
+    - strong: "4.62"
+    - generic: 前四率
+    - strong: 47.0%
+    - generic: 登顶率
+    - strong: 9.9%
+    - generic: 阵容样本
+    - strong: 119,488
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看月蚀骑士 · 厄斐琉斯 · 奈德丽的队员、装备、站位与统计":
+    - strong: 月蚀骑士 · 厄斐琉斯 · 奈德丽
+    - generic: ↗
+    - generic "厄斐琉斯 · 来源核心":
+      - generic "死亡之刃"
+      - generic "鬼索的狂暴之刃"
+      - generic "海妖之怒"
+      - generic: 厄斐琉斯
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "韦鲁斯":
+      - generic: 韦鲁斯
+    - generic "阿木木":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 阿木木
+    - generic "克格莫":
+      - generic: 克格莫
+    - generic "奈德丽 · 来源核心":
+      - generic "无尽之刃"
+      - generic "朔极之矛"
+      - generic "斯特拉克的挑战护手"
+      - generic: 奈德丽
+    - generic "苍蓝雕纹魔像":
+      - generic "圣盾使的誓约"
+      - generic "圣盾使的誓约"
+      - generic "圣盾使的誓约"
+      - generic: 苍蓝雕纹魔像
+    - generic "蔚":
+      - generic: 蔚
+    - generic "固有能力：【魔战士】的技能将根据其物理加成和法术加成中较高的属性转换形态。 【魔战士】们获得法术加成或物理加成，取决于两种加成中哪一者更高。 (2) 25%或 (3) 35%或 (4) 50%或":
+      - strong: "2"
+      - generic: 魔战士
+    - generic "【帝王斑蝶】的伤害会对敌人施加持续4秒的30%魔抗击碎与护甲击碎。 魔抗击碎：降低魔抗值 护甲击碎：降低护甲值。":
+      - strong: "1"
+      - generic: 帝王斑蝶
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "2"
+      - generic: 神谕
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "2"
+      - generic: 月蚀骑士
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "2"
+      - generic: 迅捷射手
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic: 平均名次
+    - strong: "3.95"
+    - generic: 前四率
+    - strong: 62.4%
+    - generic: 登顶率
+    - strong: 12.4%
+    - generic: 阵容样本
+    - strong: 106,909
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看永恒之森 · 德莱文的队员、装备、站位与统计":
+    - strong: 永恒之森 · 德莱文
+    - generic: ↗
+    - generic "阿利斯塔":
+      - generic: 阿利斯塔
+    - generic "伊泽瑞尔":
+      - generic "巨人杀手"
+      - generic "最后的轻语"
+      - generic "朔极之矛"
+      - generic: 伊泽瑞尔
+    - generic "纳尔":
+      - generic: 纳尔
+    - generic "艾翁":
+      - generic: 艾翁
+    - generic "凯南":
+      - generic "夜之锋刃"
+      - generic "正义之手"
+      - generic "强袭者的链枷"
+      - generic: 凯南
+    - generic "茂凯":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 茂凯
+    - generic "阿木木":
+      - generic: 阿木木
+    - generic "德莱文 · 来源核心":
+      - generic "死亡之刃"
+      - generic "鬼索的狂暴之刃"
+      - generic "海妖之怒"
+      - generic: 德莱文
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "获得可放置的【永恒之森】植物。 (3)一棵【石皮树】和一株【生命花】。 (5)第二棵【石皮树】，并且【石皮树】获得200生命值 (7)以及【深林守卫】 (9)植物升至2星 (11)自然之力！！！植物升至3星，森林拥有了它自己的生命":
+      - strong: "3"
+      - generic: 永恒之森
+    - generic "(2)【裁决使】们获得【技能暴击】和15%暴击几率。 (3)此外，敌人会被施加流血效果，在3秒内持续受到25%额外真实伤害。 (4)流血效果造成的伤害提升35%。":
+      - strong: "2"
+      - generic: 裁决使
+    - generic "你最强大的那个【艾翁】在施放技能时获得1颗种子，且每场对战额外获得3颗。【艾翁】可消耗5颗种子在你的棋盘上培育1个格子，为格内的住民提供加成。 种子数：0/5 当前生物群落：":
+      - strong: "1"
+      - generic: 翠神
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "每当3格内的1名敌人阵亡时，你最强大的那个【远古树精】弈子获得30永久最大生命值。 当前：0":
+      - strong: "1"
+      - generic: 远古树精
+    - generic "选择1个【悬赏令】。你最强大的那个【德莱文】可以推进【悬赏令】进度以获取其奖励。在完成1个【悬赏令】后，能够选择另一个。":
+      - strong: "1"
+      - generic: 赏金猎人
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic: 平均名次
+    - strong: "4.25"
+    - generic: 前四率
+    - strong: 52.5%
+    - generic: 登顶率
+    - strong: 20.9%
+    - generic: 阵容样本
+    - strong: 92,604
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看裁决使 · 卡兹克的队员、装备、站位与统计":
+    - strong: 裁决使 · 卡兹克
+    - generic: ↗
+    - generic "黛安娜":
+      - generic "正义之手"
+      - generic "离子火花"
+      - generic "珠光护手"
+      - generic: 黛安娜
+    - generic "伊泽瑞尔":
+      - generic "死亡之刃"
+      - generic "红霸符"
+      - generic "朔极之矛"
+      - generic: 伊泽瑞尔
+    - generic "赫卡里姆":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 赫卡里姆
+    - generic "卡兹克 · 来源核心":
+      - generic "正义之手"
+      - generic "纳什之牙"
+      - generic "灭世者的死亡之帽"
+      - generic: 卡兹克
+    - generic "奥恩":
+      - generic: 奥恩
+    - generic "索拉卡":
+      - generic: 索拉卡
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "获得可放置的【永恒之森】植物。 (3)一棵【石皮树】和一株【生命花】。 (5)第二棵【石皮树】，并且【石皮树】获得200生命值 (7)以及【深林守卫】 (9)植物升至2星 (11)自然之力！！！植物升至3星，森林拥有了它自己的生命":
+      - strong: "3"
+      - generic: 永恒之森
+    - generic "(2)【裁决使】们获得【技能暴击】和15%暴击几率。 (3)此外，敌人会被施加流血效果，在3秒内持续受到25%额外真实伤害。 (4)流血效果造成的伤害提升35%。":
+      - strong: "2"
+      - generic: 裁决使
+    - generic "(1)仅在登场了1个【宿敌】时激活。 【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 (1)【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 参与击杀会使【卡兹克】进化，永久为他提供你从【裁决使】、【迅捷射手】、【狂战士】或【法师】中选择的一项羁绊。 每参与8次击杀，【雷恩加尔】提供2/3/5金币。在参与30次击杀后，你的队伍获得5％物理加成，此后每次参与击杀再提升0.2% 。 【卡兹克】参与击杀数：0 / 0 【雷恩加尔】参与击杀数：0 已赚取的金币：0 (2)【宿敌】可以同时登场，并且他们的技能可以为彼此提供加成":
+      - strong: "1"
+      - generic: 宿敌
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "2"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "4.40"
+    - generic: 前四率
+    - strong: 51.6%
+    - generic: 登顶率
+    - strong: 14.0%
+    - generic: 阵容样本
+    - strong: 83,637
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看迅捷射手 · 凯尔 · 霞的队员、装备、站位与统计":
+    - strong: 迅捷射手 · 凯尔 · 霞
+    - generic: ↗
+    - generic "赫卡里姆":
+      - generic: 赫卡里姆
+    - generic "凯尔 · 来源核心":
+      - generic "巨人杀手"
+      - generic "珠光护手"
+      - generic "红霸符"
+      - generic: 凯尔
+    - generic "蕾欧娜":
+      - generic: 蕾欧娜
+    - generic "奥恩":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 奥恩
+    - generic "洛":
+      - generic: 洛
+    - generic "瑟庄妮":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 瑟庄妮
+    - generic "霞 · 来源核心":
+      - generic "巨人杀手"
+      - generic "鬼索的狂暴之刃"
+      - generic "无尽之刃"
+      - generic: 霞
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "获得可放置的【永恒之森】植物。 (3)一棵【石皮树】和一株【生命花】。 (5)第二棵【石皮树】，并且【石皮树】获得200生命值 (7)以及【深林守卫】 (9)植物升至2星 (11)自然之力！！！植物升至3星，森林拥有了它自己的生命":
+      - strong: "3"
+      - generic: 永恒之森
+    - generic "你的队伍的伤害、治疗强度和护盾强度会吸引【皮克斯仙灵】。 每个【皮克斯仙灵】为【花仙子】弈子们提供物理加成和法术加成，在其生命值降至50%时，他们基于【皮克斯仙灵】数量治疗生命值。 (2) 4.5%和2.5%治疗强度。 (4) 7%和4%治疗强度。在吸引了7个【皮克斯仙灵】后，转而开始吸引可提供金币的【黄金皮克斯仙灵】。":
+      - strong: "2"
+      - generic: 花仙子
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "2"
+      - generic: 迅捷射手
+    - generic "(3)你的弈子们获得5%最大生命值护盾，并造成8%额外魔法伤害。每有1个不同的3星弈子，获得额外加成： 1：每有1个3星弈子，提升1%护盾值和魔法伤害。 3：15% 和12 5：将40%额外魔法伤害转换为真实伤害。 7：在战斗期间内每过4秒，1个3星弈子飞升至4星。":
+      - strong: "3"
+      - generic: 日蚀骑士
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic: 平均名次
+    - strong: "4.69"
+    - generic: 前四率
+    - strong: 46.4%
+    - generic: 登顶率
+    - strong: 12.5%
+    - generic: 阵容样本
+    - strong: 78,073
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看法师 · 维迦的队员、装备、站位与统计":
+    - strong: 法师 · 维迦
+    - generic: ↗
+    - generic "阿利斯塔":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 阿利斯塔
+    - generic "卡西奥佩娅":
+      - generic: 卡西奥佩娅
+    - generic "乐芙兰":
+      - generic "蓝霸符"
+      - generic "莫雷洛秘典"
+      - generic "虚空之杖"
+      - generic: 乐芙兰
+    - generic "奥恩":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic: 奥恩
+    - generic "雷克塞":
+      - generic: 雷克塞
+    - generic "维迦 · 来源核心":
+      - generic "蓝霸符"
+      - generic "蓝霸符"
+      - generic "珠光护手"
+      - generic: 维迦
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "战斗开始前，位于【黑荆棘格】内的友军被献祭，为你的弈子们提供生命值。 【黑荆棘】弈子们基于【祭品】的定位、星级和费用，获得额外属性， (2) 175 (4) 350 ；额外加成提升30% (6) 600 ；额外加成提升60%":
+      - strong: "2"
+      - generic: 黑荆棘
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "获得可放置的【永恒之森】植物。 (3)一棵【石皮树】和一株【生命花】。 (5)第二棵【石皮树】，并且【石皮树】获得200生命值 (7)以及【深林守卫】 (9)植物升至2星 (11)自然之力！！！植物升至3星，森林拥有了它自己的生命":
+      - strong: "3"
+      - generic: 永恒之森
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "4"
+      - generic: 法师
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "1"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "4.54"
+    - generic: 前四率
+    - strong: 49.7%
+    - generic: 登顶率
+    - strong: 11.9%
+    - generic: 阵容样本
+    - strong: 71,249
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看护卫 · 卡西奥佩娅的队员、装备、站位与统计":
+    - strong: 护卫 · 卡西奥佩娅
+    - generic: ↗
+    - generic "卡西奥佩娅 · 来源核心":
+      - generic "大天使之杖"
+      - generic "大天使之杖"
+      - generic "海克斯科技枪刃"
+      - generic: 卡西奥佩娅
+    - generic "蕾欧娜":
+      - generic: 蕾欧娜
+    - generic "莉莉娅":
+      - generic "石像鬼石板甲"
+      - generic "日炎斗篷"
+      - generic "狂徒铠甲"
+      - generic: 莉莉娅
+    - generic "奥恩":
+      - generic: 奥恩
+    - generic "拉莫斯":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 拉莫斯
+    - generic "慎":
+      - generic: 慎
+    - generic "费德提克":
+      - generic "离子火花"
+      - generic "振奋盔甲"
+      - generic "日炎斗篷"
+      - generic: 费德提克
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "6"
+      - generic: 护卫
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "1"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "4.42"
+    - generic: 前四率
+    - strong: 52.2%
+    - generic: 登顶率
+    - strong: 8.7%
+    - generic: 阵容样本
+    - strong: 62,009
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看主宰 · 艾希的队员、装备、站位与统计":
+    - strong: 主宰 · 艾希
+    - generic: ↗
+    - generic "艾希 · 来源核心":
+      - generic "最后的轻语"
+      - generic "红霸符"
+      - generic "朔极之矛"
+      - generic: 艾希
+    - generic "艾翁":
+      - generic: 艾翁
+    - generic "凯南":
+      - generic: 凯南
+    - generic "茂凯":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 茂凯
+    - generic "洛":
+      - generic: 洛
+    - generic "希维尔":
+      - generic "无尽之刃"
+      - generic "最后的轻语"
+      - generic "强袭者的链枷"
+      - generic: 希维尔
+    - generic "阿木木":
+      - generic "棘刺背心"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 阿木木
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "蔚":
+      - generic: 蔚
+    - generic "你最强大的那个【艾翁】在施放技能时获得1颗种子，且每场对战额外获得3颗。【艾翁】可消耗5颗种子在你的棋盘上培育1个格子，为格内的住民提供加成。 种子数：0/5 当前生物群落：":
+      - strong: "1"
+      - generic: 翠神
+    - generic "【猎人】获得物理加成。如果1个【猎人】在3秒内没有切换过目标，他们获得10%伤害增幅。 (2) 20% (3) 30% (4) 45% (5) 60%":
+      - strong: "2"
+      - generic: 猎人
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "每当3格内的1名敌人阵亡时，你最强大的那个【远古树精】弈子获得30永久最大生命值。 当前：0":
+      - strong: "1"
+      - generic: 远古树精
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "4"
+      - generic: 主宰
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic: 平均名次
+    - strong: "4.39"
+    - generic: 前四率
+    - strong: 51.1%
+    - generic: 登顶率
+    - strong: 15.4%
+    - generic: 阵容样本
+    - strong: 54,667
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看主宰 · 婕拉的队员、装备、站位与统计":
+    - strong: 主宰 · 婕拉
+    - generic: ↗
+    - generic "艾希":
+      - generic: 艾希
+    - generic "茂凯":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 茂凯
+    - generic "瑟庄妮":
+      - generic: 瑟庄妮
+    - generic "希维尔":
+      - generic "无尽之刃"
+      - generic "最后的轻语"
+      - generic "红霸符"
+      - generic: 希维尔
+    - generic "约里克":
+      - generic: 约里克
+    - generic "婕拉 · 来源核心":
+      - generic "大天使之杖"
+      - generic "大天使之杖"
+      - generic "海克斯科技枪刃"
+      - generic: 婕拉
+    - generic "阿木木":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 阿木木
+    - generic "峡谷迅捷蟹":
+      - generic: 峡谷迅捷蟹
+    - generic "蔚":
+      - generic: 蔚
+    - generic "【猎人】获得物理加成。如果1个【猎人】在3秒内没有切换过目标，他们获得10%伤害增幅。 (2) 20% (3) 30% (4) 45% (5) 60%":
+      - strong: "2"
+      - generic: 猎人
+    - generic "每当3格内的1名敌人阵亡时，你最强大的那个【远古树精】弈子获得30永久最大生命值。 当前：0":
+      - strong: "1"
+      - generic: 远古树精
+    - generic "【召唤师】们会以不同的方式强化其召唤物。 【约里克】：+30%生命值 【阿兹尔】：+20%伤害 【锋喙鸟】：+45%伤害 【婕拉】：+4植物攻击次数 (2)强化召唤物 (3)每种效果加成提升50%":
+      - strong: "2"
+      - generic: 召唤师
+    - generic "你的队伍获得5%伤害减免，在6或以上株【婕拉】的植物存活时，该数值提升至10%。":
+      - strong: "1"
+      - generic: 荆棘之兴
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "6"
+      - generic: 主宰
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic: 平均名次
+    - strong: "4.49"
+    - generic: 前四率
+    - strong: 49.8%
+    - generic: 登顶率
+    - strong: 12.1%
+    - generic: 阵容样本
+    - strong: 50,542
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看神谕 · 阿狸的队员、装备、站位与统计":
+    - strong: 神谕 · 阿狸
+    - generic: ↗
+    - generic "阿狸 · 来源核心":
+      - generic "神谕纹章"
+      - generic "珠光护手"
+      - generic "灭世者的死亡之帽"
+      - generic: 阿狸
+    - generic "莫甘娜":
+      - generic "莫雷洛秘典"
+      - generic "灭世者的死亡之帽"
+      - generic "虚空之杖"
+      - generic: 莫甘娜
+    - generic "苍蓝哨戒":
+      - generic: 苍蓝哨戒
+    - generic "瑟提":
+      - generic "石像鬼石板甲"
+      - generic "斯特拉克的挑战护手"
+      - generic "狂徒铠甲"
+      - generic: 瑟提
+    - generic "卡尔玛":
+      - generic: 卡尔玛
+    - generic "远古石甲虫":
+      - generic: 远古石甲虫
+    - generic "苍蓝雕纹魔像":
+      - generic "圣盾使的誓约"
+      - generic "圣盾使的誓约"
+      - generic "圣盾使的誓约"
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "在对战后，你的【自然仙灵】将得到强化。 【灵魂莲华】弈子们获得物理加成、法术加成和10%最大生命值。 (3)【自然仙灵】得到升级，12% (5)商店每次都会刷新出【自然仙灵】，30% (7)在购买1个【自然仙灵】后，获得4 金币，50% (9)每回合你可以购买2个【自然仙灵】，55% (11)自然之力！！！【自然仙灵】的力量满溢而出，100%":
+      - strong: "3"
+      - generic: 灵魂莲华
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "3"
+      - generic: 神谕
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.28"
+    - generic: 前四率
+    - strong: 54.5%
+    - generic: 登顶率
+    - strong: 14.2%
+    - generic: 阵容样本
+    - strong: 48,547
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看约德尔人和朋友 · 维迦的队员、装备、站位与统计":
+    - strong: 约德尔人和朋友 · 维迦
+    - generic: ↗
+    - generic "纳尔":
+      - generic: 纳尔
+    - generic "可酷伯":
+      - generic: 可酷伯
+    - generic "拉莫斯":
+      - generic "棘刺背心"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 拉莫斯
+    - generic "雷克塞":
+      - generic "巨龙之爪"
+      - generic "石像鬼石板甲"
+      - generic "石像鬼石板甲"
+      - generic: 雷克塞
+    - generic "瑟提":
+      - generic: 瑟提
+    - generic "提莫":
+      - generic "珠光护手"
+      - generic "纳什之牙"
+      - generic "虚空之杖"
+      - generic: 提莫
+    - generic "维迦 · 来源核心":
+      - generic "神谕纹章"
+      - generic "珠光护手"
+      - generic "朔极之矛"
+      - generic: 维迦
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "战斗开始前，位于【黑荆棘格】内的友军被献祭，为你的弈子们提供生命值。 【黑荆棘】弈子们基于【祭品】的定位、星级和费用，获得额外属性， (2) 175 (4) 350 ；额外加成提升30% (6) 600 ；额外加成提升60%":
+      - strong: "2"
+      - generic: 黑荆棘
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "4"
+      - generic: 斗士
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "获得【毛茸茸大朋友】。将1个【约德尔人和朋友】放置在【毛茸茸大朋友】身上以选择其【骑乘者】。 (3) 【骑乘者】获得 15% 和15% (5) 40% 35% ，【毛茸茸大朋友】50%的技能加成作用于你的【约德尔人…】弈子们 (7) 45% 45% ，【毛茸茸大朋友】100%的技能加成作用于你的【约德尔人…】弈子们。":
+      - strong: "5"
+      - generic: 约德尔人和朋友
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "1"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "4.81"
+    - generic: 前四率
+    - strong: 45.1%
+    - generic: 登顶率
+    - strong: 5.5%
+    - generic: 阵容样本
+    - strong: 48,424
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看约德尔人和朋友 · 拉莫斯的队员、装备、站位与统计":
+    - strong: 约德尔人和朋友 · 拉莫斯
+    - generic: ↗
+    - generic "可酷伯":
+      - generic: 可酷伯
+    - generic "莉莉娅":
+      - generic: 莉莉娅
+    - generic "莫甘娜":
+      - generic: 莫甘娜
+    - generic "拉莫斯 · 来源核心":
+      - generic "巨龙之爪"
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic: 拉莫斯
+    - generic "提莫":
+      - generic "蓝霸符"
+      - generic "海克斯科技枪刃"
+      - generic "珠光护手"
+      - generic: 提莫
+    - generic "崔丝塔娜":
+      - generic "鬼索的狂暴之刃"
+      - generic "海妖之怒"
+      - generic "最后的轻语"
+      - generic: 崔丝塔娜
+    - generic "维迦":
+      - generic: 维迦
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "你的队伍的伤害、治疗强度和护盾强度会吸引【皮克斯仙灵】。 每个【皮克斯仙灵】为【花仙子】弈子们提供物理加成和法术加成，在其生命值降至50%时，他们基于【皮克斯仙灵】数量治疗生命值。 (2) 4.5%和2.5%治疗强度。 (4) 7%和4%治疗强度。在吸引了7个【皮克斯仙灵】后，转而开始吸引可提供金币的【黄金皮克斯仙灵】。":
+      - strong: "2"
+      - generic: 花仙子
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "2"
+      - generic: 神谕
+    - generic "获得【毛茸茸大朋友】。将1个【约德尔人和朋友】放置在【毛茸茸大朋友】身上以选择其【骑乘者】。 (3) 【骑乘者】获得 15% 和15% (5) 40% 35% ，【毛茸茸大朋友】50%的技能加成作用于你的【约德尔人…】弈子们 (7) 45% 45% ，【毛茸茸大朋友】100%的技能加成作用于你的【约德尔人…】弈子们。":
+      - strong: "5"
+      - generic: 约德尔人和朋友
+    - generic: 平均名次
+    - strong: "4.82"
+    - generic: 前四率
+    - strong: 44.2%
+    - generic: 登顶率
+    - strong: 4.8%
+    - generic: 阵容样本
+    - strong: 45,595
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看永恒之森 · 厄斐琉斯的队员、装备、站位与统计":
+    - strong: 永恒之森 · 厄斐琉斯
+    - generic: ↗
+    - generic "阿利斯塔":
+      - generic: 阿利斯塔
+    - generic "厄斐琉斯 · 来源核心":
+      - generic "永恒之森纹章"
+      - generic "鬼索的狂暴之刃"
+      - generic "海妖之怒"
+      - generic: 厄斐琉斯
+    - generic "伊泽瑞尔":
+      - generic "死亡之刃"
+      - generic "无尽之刃"
+      - generic "朔极之矛"
+      - generic: 伊泽瑞尔
+    - generic "纳尔":
+      - generic: 纳尔
+    - generic "赫卡里姆":
+      - generic "薄暮法袍"
+      - generic "圣盾使的誓约"
+      - generic "日炎斗篷"
+      - generic: 赫卡里姆
+    - generic "乐芙兰":
+      - generic: 乐芙兰
+    - generic "莉莉娅":
+      - generic "永恒之森纹章"
+      - generic "薄暮法袍"
+      - generic "日炎斗篷"
+      - generic: 莉莉娅
+    - generic "奥恩":
+      - generic: 奥恩
+    - generic "霞":
+      - generic: 霞
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "获得可放置的【永恒之森】植物。 (3)一棵【石皮树】和一株【生命花】。 (5)第二棵【石皮树】，并且【石皮树】获得200生命值 (7)以及【深林守卫】 (9)植物升至2星 (11)自然之力！！！植物升至3星，森林拥有了它自己的生命":
+      - strong: "7"
+      - generic: 永恒之森
+    - generic "你的队伍的伤害、治疗强度和护盾强度会吸引【皮克斯仙灵】。 每个【皮克斯仙灵】为【花仙子】弈子们提供物理加成和法术加成，在其生命值降至50%时，他们基于【皮克斯仙灵】数量治疗生命值。 (2) 4.5%和2.5%治疗强度。 (4) 7%和4%治疗强度。在吸引了7个【皮克斯仙灵】后，转而开始吸引可提供金币的【黄金皮克斯仙灵】。":
+      - strong: "2"
+      - generic: 花仙子
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "2"
+      - generic: 迅捷射手
+    - generic: 平均名次
+    - strong: "3.90"
+    - generic: 前四率
+    - strong: 60.5%
+    - generic: 登顶率
+    - strong: 18.4%
+    - generic: 阵容样本
+    - strong: 44,757
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看裁决使 · 墨菲特的队员、装备、站位与统计":
+    - strong: 裁决使 · 墨菲特
+    - generic: ↗
+    - generic "阿兹尔":
+      - generic "鬼索的狂暴之刃"
+      - generic "海克斯科技枪刃"
+      - generic "灭世者的死亡之帽"
+      - generic: 阿兹尔
+    - generic "凯南":
+      - generic: 凯南
+    - generic "墨菲特 · 来源核心":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 墨菲特
+    - generic "索拉卡":
+      - generic "海克斯科技枪刃"
+      - generic "灭世者的死亡之帽"
+      - generic "朔极之矛"
+      - generic: 索拉卡
+    - generic "约里克":
+      - generic: 约里克
+    - generic "婕拉":
+      - generic "裁决使纹章"
+      - generic "朔极之矛"
+      - generic "虚空之杖"
+      - generic: 婕拉
+    - generic "阿木木":
+      - generic: 阿木木
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "每成为1名敌人的目标，【魔岩巨兽】获得10护甲和魔法抗性。":
+      - strong: "1"
+      - generic: 魔岩巨兽
+    - generic "战斗开始前，位于【黑荆棘格】内的友军被献祭，为你的弈子们提供生命值。 【黑荆棘】弈子们基于【祭品】的定位、星级和费用，获得额外属性， (2) 175 (4) 350 ；额外加成提升30% (6) 600 ；额外加成提升60%":
+      - strong: "2"
+      - generic: 黑荆棘
+    - generic "(2)【裁决使】们获得【技能暴击】和15%暴击几率。 (3)此外，敌人会被施加流血效果，在3秒内持续受到25%额外真实伤害。 (4)流血效果造成的伤害提升35%。":
+      - strong: "3"
+      - generic: 裁决使
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "【召唤师】们会以不同的方式强化其召唤物。 【约里克】：+30%生命值 【阿兹尔】：+20%伤害 【锋喙鸟】：+45%伤害 【婕拉】：+4植物攻击次数 (2)强化召唤物 (3)每种效果加成提升50%":
+      - strong: "3"
+      - generic: 召唤师
+    - generic "你的队伍获得5%伤害减免，在6或以上株【婕拉】的植物存活时，该数值提升至10%。":
+      - strong: "1"
+      - generic: 荆棘之兴
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "2"
+      - generic: 绝命花妖
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic: 平均名次
+    - strong: "4.34"
+    - generic: 前四率
+    - strong: 53.4%
+    - generic: 登顶率
+    - strong: 10.9%
+    - generic: 阵容样本
+    - strong: 39,352
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看花仙子 · 崔丝塔娜 · 希维尔的队员、装备、站位与统计":
+    - strong: 花仙子 · 崔丝塔娜 · 希维尔
+    - generic: ↗
+    - generic "可酷伯":
+      - generic: 可酷伯
+    - generic "莉莉娅":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 莉莉娅
+    - generic "洛":
+      - generic: 洛
+    - generic "拉莫斯":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 拉莫斯
+    - generic "希维尔 · 来源核心":
+      - generic "花仙子纹章"
+      - generic "最后的轻语"
+      - generic "红霸符"
+      - generic: 希维尔
+    - generic "崔丝塔娜 · 来源核心":
+      - generic "巨人杀手"
+      - generic "鬼索的狂暴之刃"
+      - generic "海克斯科技枪刃"
+      - generic: 崔丝塔娜
+    - generic "霞":
+      - generic: 霞
+    - generic "蔚":
+      - generic: 蔚
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "你的队伍的伤害、治疗强度和护盾强度会吸引【皮克斯仙灵】。 每个【皮克斯仙灵】为【花仙子】弈子们提供物理加成和法术加成，在其生命值降至50%时，他们基于【皮克斯仙灵】数量治疗生命值。 (2) 4.5%和2.5%治疗强度。 (4) 7%和4%治疗强度。在吸引了7个【皮克斯仙灵】后，转而开始吸引可提供金币的【黄金皮克斯仙灵】。":
+      - strong: "4"
+      - generic: 花仙子
+    - generic "【猎人】获得物理加成。如果1个【猎人】在3秒内没有切换过目标，他们获得10%伤害增幅。 (2) 20% (3) 30% (4) 45% (5) 60%":
+      - strong: "2"
+      - generic: 猎人
+    - generic "获得【毛茸茸大朋友】。将1个【约德尔人和朋友】放置在【毛茸茸大朋友】身上以选择其【骑乘者】。 (3) 【骑乘者】获得 15% 和15% (5) 40% 35% ，【毛茸茸大朋友】50%的技能加成作用于你的【约德尔人…】弈子们 (7) 45% 45% ，【毛茸茸大朋友】100%的技能加成作用于你的【约德尔人…】弈子们。":
+      - strong: "3"
+      - generic: 约德尔人和朋友
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic: 平均名次
+    - strong: "4.68"
+    - generic: 前四率
+    - strong: 46.4%
+    - generic: 登顶率
+    - strong: 9.8%
+    - generic: 阵容样本
+    - strong: 34,720
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看黑荆棘 · 阿兹尔的队员、装备、站位与统计":
+    - strong: 黑荆棘 · 阿兹尔
+    - generic: ↗
+    - generic "阿兹尔 · 来源核心":
+      - generic "鬼索的狂暴之刃"
+      - generic "珠光护手"
+      - generic "灭世者的死亡之帽"
+      - generic: 阿兹尔
+    - generic "墨菲特":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic: 墨菲特
+    - generic "雷克塞":
+      - generic: 雷克塞
+    - generic "索拉卡":
+      - generic: 索拉卡
+    - generic "维迦":
+      - generic: 维迦
+    - generic "沃里克":
+      - generic: 沃里克
+    - generic "婕拉":
+      - generic: 婕拉
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "每成为1名敌人的目标，【魔岩巨兽】获得10护甲和魔法抗性。":
+      - strong: "1"
+      - generic: 魔岩巨兽
+    - generic "战斗开始前，位于【黑荆棘格】内的友军被献祭，为你的弈子们提供生命值。 【黑荆棘】弈子们基于【祭品】的定位、星级和费用，获得额外属性， (2) 175 (4) 350 ；额外加成提升30% (6) 600 ；额外加成提升60%":
+      - strong: "6"
+      - generic: 黑荆棘
+    - generic "(2)【裁决使】们获得【技能暴击】和15%暴击几率。 (3)此外，敌人会被施加流血效果，在3秒内持续受到25%额外真实伤害。 (4)流血效果造成的伤害提升35%。":
+      - strong: "2"
+      - generic: 裁决使
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "【召唤师】们会以不同的方式强化其召唤物。 【约里克】：+30%生命值 【阿兹尔】：+20%伤害 【锋喙鸟】：+45%伤害 【婕拉】：+4植物攻击次数 (2)强化召唤物 (3)每种效果加成提升50%":
+      - strong: "2"
+      - generic: 召唤师
+    - generic "你的队伍获得5%伤害减免，在6或以上株【婕拉】的植物存活时，该数值提升至10%。":
+      - strong: "1"
+      - generic: 荆棘之兴
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "2"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "5.23"
+    - generic: 前四率
+    - strong: 36.2%
+    - generic: 登顶率
+    - strong: 5.5%
+    - generic: 阵容样本
+    - strong: 34,054
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看魔战士 · 易 · 雷恩加尔的队员、装备、站位与统计":
+    - strong: 魔战士 · 易 · 雷恩加尔
+    - generic: ↗
+    - generic "易 · 来源核心":
+      - generic "斗士纹章"
+      - generic "夜之锋刃"
+      - generic "鬼索的狂暴之刃"
+      - generic: 易
+    - generic "雷恩加尔 · 来源核心":
+      - generic "夜之锋刃"
+      - generic "鬼索的狂暴之刃"
+      - generic "泰坦的坚决"
+      - generic: 雷恩加尔
+    - generic "瑟提":
+      - generic: 瑟提
+    - generic "约里克":
+      - generic: 约里克
+    - generic "远古石甲虫":
+      - generic: 远古石甲虫
+    - generic "奈德丽":
+      - generic "饮血剑"
+      - generic "无尽之刃"
+      - generic "斯特拉克的挑战护手"
+      - generic: 奈德丽
+    - generic "蔚":
+      - generic "薄暮法袍"
+      - generic "日炎斗篷"
+      - generic "狂徒铠甲"
+      - generic: 蔚
+    - generic "固有能力：【魔战士】的技能将根据其物理加成和法术加成中较高的属性转换形态。 【魔战士】们获得法术加成或物理加成，取决于两种加成中哪一者更高。 (2) 25%或 (3) 35%或 (4) 50%或":
+      - strong: "2"
+      - generic: 魔战士
+    - generic "在对战后，你的【自然仙灵】将得到强化。 【灵魂莲华】弈子们获得物理加成、法术加成和10%最大生命值。 (3)【自然仙灵】得到升级，12% (5)商店每次都会刷新出【自然仙灵】，30% (7)在购买1个【自然仙灵】后，获得4 金币，50% (9)每回合你可以购买2个【自然仙灵】，55% (11)自然之力！！！【自然仙灵】的力量满溢而出，100%":
+      - strong: "3"
+      - generic: 灵魂莲华
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "(1)仅在登场了1个【宿敌】时激活。 【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 (1)【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 参与击杀会使【卡兹克】进化，永久为他提供你从【裁决使】、【迅捷射手】、【狂战士】或【法师】中选择的一项羁绊。 每参与8次击杀，【雷恩加尔】提供2/3/5金币。在参与30次击杀后，你的队伍获得5％物理加成，此后每次参与击杀再提升0.2% 。 【卡兹克】参与击杀数：0 / 0 【雷恩加尔】参与击杀数：0 已赚取的金币：0 (2)【宿敌】可以同时登场，并且他们的技能可以为彼此提供加成":
+      - strong: "1"
+      - generic: 宿敌
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic: 平均名次
+    - strong: "4.51"
+    - generic: 前四率
+    - strong: 50.1%
+    - generic: 登顶率
+    - strong: 11.3%
+    - generic: 阵容样本
+    - strong: 31,833
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看宿敌 · 卡兹克的队员、装备、站位与统计":
+    - strong: 宿敌 · 卡兹克
+    - generic: ↗
+    - generic "厄斐琉斯":
+      - generic: 厄斐琉斯
+    - generic "黛安娜":
+      - generic "日炎斗篷"
+      - generic: 黛安娜
+    - generic "伊泽瑞尔":
+      - generic: 伊泽瑞尔
+    - generic "赫卡里姆":
+      - generic "薄暮法袍"
+      - generic "石像鬼石板甲"
+      - generic "坚定之心"
+      - generic: 赫卡里姆
+    - generic "卡兹克 · 来源核心":
+      - generic "正义之手"
+      - generic "正义之手"
+      - generic "灭世者的死亡之帽"
+      - generic: 卡兹克
+    - generic "乐芙兰":
+      - generic: 乐芙兰
+    - generic "雷恩加尔":
+      - generic "夜之锋刃"
+      - generic "鬼索的狂暴之刃"
+      - generic "泰坦的坚决"
+      - generic: 雷恩加尔
+    - generic "获得可放置的【永恒之森】植物。 (3)一棵【石皮树】和一株【生命花】。 (5)第二棵【石皮树】，并且【石皮树】获得200生命值 (7)以及【深林守卫】 (9)植物升至2星 (11)自然之力！！！植物升至3星，森林拥有了它自己的生命":
+      - strong: "3"
+      - generic: 永恒之森
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "2"
+      - generic: 月蚀骑士
+    - generic "(1)仅在登场了1个【宿敌】时激活。 【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 (1)【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 参与击杀会使【卡兹克】进化，永久为他提供你从【裁决使】、【迅捷射手】、【狂战士】或【法师】中选择的一项羁绊。 每参与8次击杀，【雷恩加尔】提供2/3/5金币。在参与30次击杀后，你的队伍获得5％物理加成，此后每次参与击杀再提升0.2% 。 【卡兹克】参与击杀数：0 / 0 【雷恩加尔】参与击杀数：0 已赚取的金币：0 (2)【宿敌】可以同时登场，并且他们的技能可以为彼此提供加成":
+      - strong: "2"
+      - generic: 宿敌
+    - generic "【狂战士】们获得10%全能吸血。此外，【狂战士】们造成额外伤害，对低于50%生命值的单位们翻倍。 (2) 12%额外伤害 (4) 25%额外伤害 (6) 40%额外伤害":
+      - strong: "2"
+      - generic: 狂战士
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic: 平均名次
+    - strong: "4.41"
+    - generic: 前四率
+    - strong: 51.6%
+    - generic: 登顶率
+    - strong: 12.7%
+    - generic: 阵容样本
+    - strong: 31,708
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看地狱火 · 阿木木的队员、装备、站位与统计":
+    - strong: 地狱火 · 阿木木
+    - generic: ↗
+    - generic "拉露恩":
+      - generic "适应性头盔"
+      - generic "珠光护手"
+      - generic "朔极之矛"
+      - generic: 拉露恩
+    - generic "厄斐琉斯":
+      - generic "死亡之刃"
+      - generic "无尽之刃"
+      - generic "海妖之怒"
+      - generic: 厄斐琉斯
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "凯尔":
+      - generic: 凯尔
+    - generic "蕾欧娜":
+      - generic: 蕾欧娜
+    - generic "瑟庄妮":
+      - generic: 瑟庄妮
+    - generic "慎":
+      - generic: 慎
+    - generic "阿木木 · 来源核心":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 阿木木
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "3"
+      - generic: 月蚀骑士
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "2"
+      - generic: 迅捷射手
+    - generic "(3)你的弈子们获得5%最大生命值护盾，并造成8%额外魔法伤害。每有1个不同的3星弈子，获得额外加成： 1：每有1个3星弈子，提升1%护盾值和魔法伤害。 3：15% 和12 5：将40%额外魔法伤害转换为真实伤害。 7：在战斗期间内每过4秒，1个3星弈子飞升至4星。":
+      - strong: "3"
+      - generic: 日蚀骑士
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "你最强大的那个【拉露恩】在每一次施放技能后，推进一次【月相】。当【月相】在弦月或以下时，你的队伍获得7%伤害减免。在弦月之上时，你的队伍获得7%伤害增幅。":
+      - strong: "1"
+      - generic: 月华神女
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic: 平均名次
+    - strong: "4.96"
+    - generic: 前四率
+    - strong: 41.1%
+    - generic: 登顶率
+    - strong: 7.0%
+    - generic: 阵容样本
+    - strong: 28,441
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看地狱火 · 阿卡丽的队员、装备、站位与统计":
+    - strong: 地狱火 · 阿卡丽
+    - generic: ↗
+    - generic "阿卡丽 · 来源核心":
+      - generic "夜之锋刃"
+      - generic "正义之手"
+      - generic "无尽之刃"
+      - generic: 阿卡丽
+    - generic "卡蜜尔":
+      - generic "正义之手"
+      - generic "无尽之刃"
+      - generic "水银"
+      - generic: 卡蜜尔
+    - generic "凯尔":
+      - generic: 凯尔
+    - generic "蕾欧娜":
+      - generic: 蕾欧娜
+    - generic "奥恩":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 奥恩
+    - generic "瑟庄妮":
+      - generic: 瑟庄妮
+    - generic "韦鲁斯":
+      - generic "死亡之刃"
+      - generic "巨人杀手"
+      - generic "朔极之矛"
+      - generic: 韦鲁斯
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "2"
+      - generic: 迅捷射手
+    - generic "【狂战士】们获得10%全能吸血。此外，【狂战士】们造成额外伤害，对低于50%生命值的单位们翻倍。 (2) 12%额外伤害 (4) 25%额外伤害 (6) 40%额外伤害":
+      - strong: "2"
+      - generic: 狂战士
+    - generic "(3)你的弈子们获得5%最大生命值护盾，并造成8%额外魔法伤害。每有1个不同的3星弈子，获得额外加成： 1：每有1个3星弈子，提升1%护盾值和魔法伤害。 3：15% 和12 5：将40%额外魔法伤害转换为真实伤害。 7：在战斗期间内每过4秒，1个3星弈子飞升至4星。":
+      - strong: "3"
+      - generic: 日蚀骑士
+    - generic: 平均名次
+    - strong: "4.84"
+    - generic: 前四率
+    - strong: 44.6%
+    - generic: 登顶率
+    - strong: 8.0%
+    - generic: 阵容样本
+    - strong: 28,406
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看花仙子 · 霞的队员、装备、站位与统计":
+    - strong: 花仙子 · 霞
+    - generic: ↗
+    - generic "赫卡里姆":
+      - generic: 赫卡里姆
+    - generic "莉莉娅":
+      - generic: 莉莉娅
+    - generic "奥恩":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 奥恩
+    - generic "洛":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 洛
+    - generic "崔丝塔娜":
+      - generic: 崔丝塔娜
+    - generic "韦鲁斯":
+      - generic "巨人杀手"
+      - generic "无尽之刃"
+      - generic "朔极之矛"
+      - generic: 韦鲁斯
+    - generic "霞 · 来源核心":
+      - generic "死亡之刃"
+      - generic "鬼索的狂暴之刃"
+      - generic "海妖之怒"
+      - generic: 霞
+    - generic "阿木木":
+      - generic: 阿木木
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "获得可放置的【永恒之森】植物。 (3)一棵【石皮树】和一株【生命花】。 (5)第二棵【石皮树】，并且【石皮树】获得200生命值 (7)以及【深林守卫】 (9)植物升至2星 (11)自然之力！！！植物升至3星，森林拥有了它自己的生命":
+      - strong: "3"
+      - generic: 永恒之森
+    - generic "你的队伍的伤害、治疗强度和护盾强度会吸引【皮克斯仙灵】。 每个【皮克斯仙灵】为【花仙子】弈子们提供物理加成和法术加成，在其生命值降至50%时，他们基于【皮克斯仙灵】数量治疗生命值。 (2) 4.5%和2.5%治疗强度。 (4) 7%和4%治疗强度。在吸引了7个【皮克斯仙灵】后，转而开始吸引可提供金币的【黄金皮克斯仙灵】。":
+      - strong: "4"
+      - generic: 花仙子
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "2"
+      - generic: 迅捷射手
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic: 平均名次
+    - strong: "5.53"
+    - generic: 前四率
+    - strong: 31.3%
+    - generic: 登顶率
+    - strong: 5.1%
+    - generic: 阵容样本
+    - strong: 27,130
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看狂战士 · 沃里克的队员、装备、站位与统计":
+    - strong: 狂战士 · 沃里克
+    - generic: ↗
+    - generic "阿兹尔":
+      - generic: 阿兹尔
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "墨菲特":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 墨菲特
+    - generic "雷克塞":
+      - generic: 雷克塞
+    - generic "沃里克 · 来源核心":
+      - generic "朔极之矛"
+      - generic "斯特拉克的挑战护手"
+      - generic "泰坦的坚决"
+      - generic: 沃里克
+    - generic "绯红印记树怪":
+      - generic "黑荆棘纹章"
+      - generic "夜之锋刃"
+      - generic "正义之手"
+      - generic: 绯红印记树怪
+    - generic "远古石甲虫":
+      - generic: 远古石甲虫
+    - generic "暗影狼":
+      - generic "夜之锋刃"
+      - generic "鬼索的狂暴之刃"
+      - generic "正义之手"
+      - generic: 暗影狼
+    - generic "每成为1名敌人的目标，【魔岩巨兽】获得10护甲和魔法抗性。":
+      - strong: "1"
+      - generic: 魔岩巨兽
+    - generic "战斗开始前，位于【黑荆棘格】内的友军被献祭，为你的弈子们提供生命值。 【黑荆棘】弈子们基于【祭品】的定位、星级和费用，获得额外属性， (2) 175 (4) 350 ；额外加成提升30% (6) 600 ；额外加成提升60%":
+      - strong: "4"
+      - generic: 黑荆棘
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "【狂战士】们获得10%全能吸血。此外，【狂战士】们造成额外伤害，对低于50%生命值的单位们翻倍。 (2) 12%额外伤害 (4) 25%额外伤害 (6) 40%额外伤害":
+      - strong: "4"
+      - generic: 狂战士
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.47"
+    - generic: 前四率
+    - strong: 52.2%
+    - generic: 登顶率
+    - strong: 7.3%
+    - generic: 阵容样本
+    - strong: 27,039
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看黑荆棘 · 维迦的队员、装备、站位与统计":
+    - strong: 黑荆棘 · 维迦
+    - generic: ↗
+    - generic "阿兹尔":
+      - generic "鬼索的狂暴之刃"
+      - generic "海克斯科技枪刃"
+      - generic "虚空之杖"
+      - generic: 阿兹尔
+    - generic "可酷伯":
+      - generic: 可酷伯
+    - generic "墨菲特":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 墨菲特
+    - generic "拉莫斯":
+      - generic: 拉莫斯
+    - generic "雷克塞":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 雷克塞
+    - generic "索拉卡":
+      - generic: 索拉卡
+    - generic "维迦 · 来源核心":
+      - generic "蓝霸符"
+      - generic "海克斯科技枪刃"
+      - generic "珠光护手"
+      - generic: 维迦
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "每成为1名敌人的目标，【魔岩巨兽】获得10护甲和魔法抗性。":
+      - strong: "1"
+      - generic: 魔岩巨兽
+    - generic "战斗开始前，位于【黑荆棘格】内的友军被献祭，为你的弈子们提供生命值。 【黑荆棘】弈子们基于【祭品】的定位、星级和费用，获得额外属性， (2) 175 (4) 350 ；额外加成提升30% (6) 600 ；额外加成提升60%":
+      - strong: "4"
+      - generic: 黑荆棘
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "(2)【裁决使】们获得【技能暴击】和15%暴击几率。 (3)此外，敌人会被施加流血效果，在3秒内持续受到25%额外真实伤害。 (4)流血效果造成的伤害提升35%。":
+      - strong: "2"
+      - generic: 裁决使
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "获得【毛茸茸大朋友】。将1个【约德尔人和朋友】放置在【毛茸茸大朋友】身上以选择其【骑乘者】。 (3) 【骑乘者】获得 15% 和15% (5) 40% 35% ，【毛茸茸大朋友】50%的技能加成作用于你的【约德尔人…】弈子们 (7) 45% 45% ，【毛茸茸大朋友】100%的技能加成作用于你的【约德尔人…】弈子们。":
+      - strong: "3"
+      - generic: 约德尔人和朋友
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "2"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "5.18"
+    - generic: 前四率
+    - strong: 37.8%
+    - generic: 登顶率
+    - strong: 5.7%
+    - generic: 阵容样本
+    - strong: 26,927
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看月蚀骑士 · 厄斐琉斯的队员、装备、站位与统计":
+    - strong: 月蚀骑士 · 厄斐琉斯
+    - generic: ↗
+    - generic "拉露恩":
+      - generic "适应性头盔"
+      - generic "灭世者的死亡之帽"
+      - generic "朔极之矛"
+      - generic: 拉露恩
+    - generic "厄斐琉斯 · 来源核心":
+      - generic "死亡之刃"
+      - generic "巨人杀手"
+      - generic "最后的轻语"
+      - generic: 厄斐琉斯
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "凯尔":
+      - generic: 凯尔
+    - generic "蕾欧娜":
+      - generic: 蕾欧娜
+    - generic "茂凯":
+      - generic "重装战士纹章"
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic: 茂凯
+    - generic "瑟庄妮":
+      - generic: 瑟庄妮
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "3"
+      - generic: 月蚀骑士
+    - generic "每当3格内的1名敌人阵亡时，你最强大的那个【远古树精】弈子获得30永久最大生命值。 当前：0":
+      - strong: "1"
+      - generic: 远古树精
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "2"
+      - generic: 迅捷射手
+    - generic "(3)你的弈子们获得5%最大生命值护盾，并造成8%额外魔法伤害。每有1个不同的3星弈子，获得额外加成： 1：每有1个3星弈子，提升1%护盾值和魔法伤害。 3：15% 和12 5：将40%额外魔法伤害转换为真实伤害。 7：在战斗期间内每过4秒，1个3星弈子飞升至4星。":
+      - strong: "3"
+      - generic: 日蚀骑士
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "你最强大的那个【拉露恩】在每一次施放技能后，推进一次【月相】。当【月相】在弦月或以下时，你的队伍获得7%伤害减免。在弦月之上时，你的队伍获得7%伤害增幅。":
+      - strong: "1"
+      - generic: 月华神女
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "1"
+      - generic: 绝命花妖
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic: 平均名次
+    - strong: "4.45"
+    - generic: 前四率
+    - strong: 50.8%
+    - generic: 登顶率
+    - strong: 12.5%
+    - generic: 阵容样本
+    - strong: 26,341
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看重装战士 · 莫甘娜 · 拉露恩的队员、装备、站位与统计":
+    - strong: 重装战士 · 莫甘娜 · 拉露恩
+    - generic: ↗
+    - generic "拉露恩 · 来源核心":
+      - generic "大天使之杖"
+      - generic "珠光护手"
+      - generic "朔极之矛"
+      - generic: 拉露恩
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "赫卡里姆":
+      - generic: 赫卡里姆
+    - generic "艾翁":
+      - generic: 艾翁
+    - generic "莉莉娅":
+      - generic: 莉莉娅
+    - generic "莫甘娜 · 来源核心":
+      - generic "海克斯科技枪刃"
+      - generic "莫雷洛秘典"
+      - generic "虚空之杖"
+      - generic: 莫甘娜
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "苍蓝雕纹魔像":
+      - generic "石像鬼石板甲"
+      - generic "圣盾使的誓约"
+      - generic "狂徒铠甲"
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic: 塔里克
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "你最强大的那个【艾翁】在施放技能时获得1颗种子，且每场对战额外获得3颗。【艾翁】可消耗5颗种子在你的棋盘上培育1个格子，为格内的住民提供加成。 种子数：0/5 当前生物群落：":
+      - strong: "1"
+      - generic: 翠神
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "2"
+      - generic: 神谕
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "2"
+      - generic: 月蚀骑士
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "4"
+      - generic: 重装战士
+    - generic "你最强大的那个【拉露恩】在每一次施放技能后，推进一次【月相】。当【月相】在弦月或以下时，你的队伍获得7%伤害减免。在弦月之上时，你的队伍获得7%伤害增幅。":
+      - strong: "1"
+      - generic: 月华神女
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "1"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "4.00"
+    - generic: 前四率
+    - strong: 58.0%
+    - generic: 登顶率
+    - strong: 21.9%
+    - generic: 阵容样本
+    - strong: 26,230
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看峡谷野怪 · 魔沼蛙的队员、装备、站位与统计":
+    - strong: 峡谷野怪 · 魔沼蛙
+    - generic: ↗
+    - generic "苍蓝哨戒":
+      - generic "蓝霸符"
+      - generic "珠光护手"
+      - generic "灭世者的死亡之帽"
+      - generic: 苍蓝哨戒
+    - generic "绯红印记树怪":
+      - generic: 绯红印记树怪
+    - generic "魔沼蛙 · 来源核心":
+      - generic "蓝霸符"
+      - generic "珠光护手"
+      - generic "灭世者的死亡之帽"
+      - generic: 魔沼蛙
+    - generic "克格莫":
+      - generic: 克格莫
+    - generic "远古石甲虫":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 远古石甲虫
+    - generic "暗影狼":
+      - generic: 暗影狼
+    - generic "峡谷迅捷蟹":
+      - generic "斗士纹章"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 峡谷迅捷蟹
+    - generic "苍蓝雕纹魔像":
+      - generic: 苍蓝雕纹魔像
+    - generic "固有能力：【魔战士】的技能将根据其物理加成和法术加成中较高的属性转换形态。 【魔战士】们获得法术加成或物理加成，取决于两种加成中哪一者更高。 (2) 25%或 (3) 35%或 (4) 50%或":
+      - strong: "2"
+      - generic: 魔战士
+    - generic "【帝王斑蝶】的伤害会对敌人施加持续4秒的30%魔抗击碎与护甲击碎。 魔抗击碎：降低魔抗值 护甲击碎：降低护甲值。":
+      - strong: "1"
+      - generic: 帝王斑蝶
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "3"
+      - generic: 神谕
+    - generic "【狂战士】们获得10%全能吸血。此外，【狂战士】们造成额外伤害，对低于50%生命值的单位们翻倍。 (2) 12%额外伤害 (4) 25%额外伤害 (6) 40%额外伤害":
+      - strong: "2"
+      - generic: 狂战士
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "7"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.90"
+    - generic: 前四率
+    - strong: 43.4%
+    - generic: 登顶率
+    - strong: 6.7%
+    - generic: 阵容样本
+    - strong: 24,980
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看裁决使 · 瑟提的队员、装备、站位与统计":
+    - strong: 裁决使 · 瑟提
+    - generic: ↗
+    - generic "阿狸":
+      - generic "裁决使纹章"
+      - generic "蓝霸符"
+      - generic "灭世者的死亡之帽"
+      - generic: 阿狸
+    - generic "阿利斯塔":
+      - generic: 阿利斯塔
+    - generic "伊泽瑞尔":
+      - generic "死亡之刃"
+      - generic "最后的轻语"
+      - generic "朔极之矛"
+      - generic: 伊泽瑞尔
+    - generic "奥恩":
+      - generic: 奥恩
+    - generic "瑟提 · 来源核心":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 瑟提
+    - generic "索拉卡":
+      - generic "海克斯科技枪刃"
+      - generic "灭世者的死亡之帽"
+      - generic "朔极之矛"
+      - generic: 索拉卡
+    - generic "芸阿娜":
+      - generic: 芸阿娜
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "在对战后，你的【自然仙灵】将得到强化。 【灵魂莲华】弈子们获得物理加成、法术加成和10%最大生命值。 (3)【自然仙灵】得到升级，12% (5)商店每次都会刷新出【自然仙灵】，30% (7)在购买1个【自然仙灵】后，获得4 金币，50% (9)每回合你可以购买2个【自然仙灵】，55% (11)自然之力！！！【自然仙灵】的力量满溢而出，100%":
+      - strong: "3"
+      - generic: 灵魂莲华
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "获得可放置的【永恒之森】植物。 (3)一棵【石皮树】和一株【生命花】。 (5)第二棵【石皮树】，并且【石皮树】获得200生命值 (7)以及【深林守卫】 (9)植物升至2星 (11)自然之力！！！植物升至3星，森林拥有了它自己的生命":
+      - strong: "3"
+      - generic: 永恒之森
+    - generic "(2)【裁决使】们获得【技能暴击】和15%暴击几率。 (3)此外，敌人会被施加流血效果，在3秒内持续受到25%额外真实伤害。 (4)流血效果造成的伤害提升35%。":
+      - strong: "3"
+      - generic: 裁决使
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "2"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "4.11"
+    - generic: 前四率
+    - strong: 58.5%
+    - generic: 登顶率
+    - strong: 12.5%
+    - generic: 阵容样本
+    - strong: 24,356
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看主宰 · 凯特琳的队员、装备、站位与统计":
+    - strong: 主宰 · 凯特琳
+    - generic: ↗
+    - generic "凯特琳 · 来源核心":
+      - generic "鬼索的狂暴之刃"
+      - generic "海克斯科技枪刃"
+      - generic "海妖之怒"
+      - generic: 凯特琳
+    - generic "洛":
+      - generic: 洛
+    - generic "瑟庄妮":
+      - generic "棘刺背心"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 瑟庄妮
+    - generic "希维尔":
+      - generic "无尽之刃"
+      - generic "最后的轻语"
+      - generic "红霸符"
+      - generic: 希维尔
+    - generic "约里克":
+      - generic: 约里克
+    - generic "阿木木":
+      - generic: 阿木木
+    - generic "峡谷迅捷蟹":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 峡谷迅捷蟹
+    - generic "蔚":
+      - generic: 蔚
+    - generic "【猎人】获得物理加成。如果1个【猎人】在3秒内没有切换过目标，他们获得10%伤害增幅。 (2) 20% (3) 30% (4) 45% (5) 60%":
+      - strong: "2"
+      - generic: 猎人
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "6"
+      - generic: 主宰
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic: 平均名次
+    - strong: "4.88"
+    - generic: 前四率
+    - strong: 43.4%
+    - generic: 登顶率
+    - strong: 6.2%
+    - generic: 阵容样本
+    - strong: 24,046
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看主宰 · 婕拉 · 阿兹尔的队员、装备、站位与统计":
+    - strong: 主宰 · 婕拉 · 阿兹尔
+    - generic: ↗
+    - generic "阿兹尔 · 来源核心":
+      - generic "巨人杀手"
+      - generic "鬼索的狂暴之刃"
+      - generic "灭世者的死亡之帽"
+      - generic: 阿兹尔
+    - generic "洛":
+      - generic: 洛
+    - generic "瑟庄妮":
+      - generic: 瑟庄妮
+    - generic "约里克":
+      - generic: 约里克
+    - generic "婕拉 · 来源核心":
+      - generic "裁决使纹章"
+      - generic "蓝霸符"
+      - generic "虚空之杖"
+      - generic: 婕拉
+    - generic "阿木木":
+      - generic "石像鬼石板甲"
+      - generic "坚定之心"
+      - generic "日炎斗篷"
+      - generic: 阿木木
+    - generic "峡谷迅捷蟹":
+      - generic: 峡谷迅捷蟹
+    - generic "蔚":
+      - generic: 蔚
+    - generic "【召唤师】们会以不同的方式强化其召唤物。 【约里克】：+30%生命值 【阿兹尔】：+20%伤害 【锋喙鸟】：+45%伤害 【婕拉】：+4植物攻击次数 (2)强化召唤物 (3)每种效果加成提升50%":
+      - strong: "3"
+      - generic: 召唤师
+    - generic "你的队伍获得5%伤害减免，在6或以上株【婕拉】的植物存活时，该数值提升至10%。":
+      - strong: "1"
+      - generic: 荆棘之兴
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "6"
+      - generic: 主宰
+    - generic: 平均名次
+    - strong: "4.79"
+    - generic: 前四率
+    - strong: 44.6%
+    - generic: 登顶率
+    - strong: 7.5%
+    - generic: 阵容样本
+    - strong: 22,771
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看主宰 · 婕拉 · 奈德丽的队员、装备、站位与统计":
+    - strong: 主宰 · 婕拉 · 奈德丽
+    - generic: ↗
+    - generic "洛":
+      - generic: 洛
+    - generic "瑟庄妮":
+      - generic: 瑟庄妮
+    - generic "约里克":
+      - generic: 约里克
+    - generic "婕拉 · 来源核心":
+      - generic "大天使之杖"
+      - generic "大天使之杖"
+      - generic "海克斯科技枪刃"
+      - generic: 婕拉
+    - generic "阿木木":
+      - generic "石像鬼石板甲"
+      - generic "日炎斗篷"
+      - generic "狂徒铠甲"
+      - generic: 阿木木
+    - generic "奈德丽 · 来源核心":
+      - generic "大天使之杖"
+      - generic "鬼索的狂暴之刃"
+      - generic "虚空之杖"
+      - generic: 奈德丽
+    - generic "峡谷迅捷蟹":
+      - generic: 峡谷迅捷蟹
+    - generic "蔚":
+      - generic "石像鬼石板甲"
+      - generic "离子火花"
+      - generic "狂徒铠甲"
+      - generic: 蔚
+    - generic "【召唤师】们会以不同的方式强化其召唤物。 【约里克】：+30%生命值 【阿兹尔】：+20%伤害 【锋喙鸟】：+45%伤害 【婕拉】：+4植物攻击次数 (2)强化召唤物 (3)每种效果加成提升50%":
+      - strong: "2"
+      - generic: 召唤师
+    - generic "你的队伍获得5%伤害减免，在6或以上株【婕拉】的植物存活时，该数值提升至10%。":
+      - strong: "1"
+      - generic: 荆棘之兴
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "6"
+      - generic: 主宰
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic: 平均名次
+    - strong: "4.49"
+    - generic: 前四率
+    - strong: 50.3%
+    - generic: 登顶率
+    - strong: 10.2%
+    - generic: 阵容样本
+    - strong: 21,830
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看重装战士 · 莫甘娜的队员、装备、站位与统计":
+    - strong: 重装战士 · 莫甘娜
+    - generic: ↗
+    - generic "拉露恩":
+      - generic "适应性头盔"
+      - generic "灭世者的死亡之帽"
+      - generic "朔极之矛"
+      - generic: 拉露恩
+    - generic "卡西奥佩娅":
+      - generic: 卡西奥佩娅
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "远古巨龙":
+      - generic: 远古巨龙
+    - generic "伊莉丝":
+      - generic: 伊莉丝
+    - generic "莫甘娜 · 来源核心":
+      - generic "法师纹章"
+      - generic "莫雷洛秘典"
+      - generic "虚空之杖"
+      - generic: 莫甘娜
+    - generic "苍蓝雕纹魔像":
+      - generic "石像鬼石板甲"
+      - generic "圣盾使的誓约"
+      - generic "狂徒铠甲"
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "【远古巨龙】占用2个弈子栏位，并提供+2【峡谷野怪】羁绊。":
+      - strong: "1"
+      - generic: 顶级掠食者
+    - generic "通过击杀弈子们收集【魔女精粹】，输掉玩家对战回合时还会增加更多。 初始值为40【魔女精粹】，选择将【魔女精粹】兑换为奖励或是继续收集【魔女精粹】。每项奖励所需的【魔女精粹】数量都会进一步增加。 (3)每次击杀+2【魔女精粹】，每次失败+22【魔女精粹】 (4)每次击杀+2【魔女精粹】，每次失败+28【魔女精粹】 (5)每次击杀+3【魔女精粹】，每次失败+35【魔女精粹】 (7)每次击杀+10【魔女精粹】，每次失败+60【魔女精粹】":
+      - strong: "3"
+      - generic: 魔女
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "2"
+      - generic: 神谕
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "2"
+      - generic: 月蚀骑士
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "4"
+      - generic: 重装战士
+    - generic "你最强大的那个【拉露恩】在每一次施放技能后，推进一次【月相】。当【月相】在弦月或以下时，你的队伍获得7%伤害减免。在弦月之上时，你的队伍获得7%伤害增幅。":
+      - strong: "1"
+      - generic: 月华神女
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.13"
+    - generic: 前四率
+    - strong: 55.2%
+    - generic: 登顶率
+    - strong: 20.4%
+    - generic: 阵容样本
+    - strong: 21,724
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看魔战士 · 易的队员、装备、站位与统计":
+    - strong: 魔战士 · 易
+    - generic: ↗
+    - generic "易 · 来源核心":
+      - generic "斗士纹章"
+      - generic "夜之锋刃"
+      - generic "鬼索的狂暴之刃"
+      - generic: 易
+    - generic "瑟提":
+      - generic: 瑟提
+    - generic "约里克":
+      - generic: 约里克
+    - generic "克格莫":
+      - generic "巨人杀手"
+      - generic "无尽之刃"
+      - generic "红霸符"
+      - generic: 克格莫
+    - generic "远古石甲虫":
+      - generic: 远古石甲虫
+    - generic "奈德丽":
+      - generic "饮血剑"
+      - generic "无尽之刃"
+      - generic "斯特拉克的挑战护手"
+      - generic: 奈德丽
+    - generic "蔚":
+      - generic "斗士纹章"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 蔚
+    - generic "固有能力：【魔战士】的技能将根据其物理加成和法术加成中较高的属性转换形态。 【魔战士】们获得法术加成或物理加成，取决于两种加成中哪一者更高。 (2) 25%或 (3) 35%或 (4) 50%或":
+      - strong: "3"
+      - generic: 魔战士
+    - generic "在对战后，你的【自然仙灵】将得到强化。 【灵魂莲华】弈子们获得物理加成、法术加成和10%最大生命值。 (3)【自然仙灵】得到升级，12% (5)商店每次都会刷新出【自然仙灵】，30% (7)在购买1个【自然仙灵】后，获得4 金币，50% (9)每回合你可以购买2个【自然仙灵】，55% (11)自然之力！！！【自然仙灵】的力量满溢而出，100%":
+      - strong: "3"
+      - generic: 灵魂莲华
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "【帝王斑蝶】的伤害会对敌人施加持续4秒的30%魔抗击碎与护甲击碎。 魔抗击碎：降低魔抗值 护甲击碎：降低护甲值。":
+      - strong: "1"
+      - generic: 帝王斑蝶
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic: 平均名次
+    - strong: "4.66"
+    - generic: 前四率
+    - strong: 47.7%
+    - generic: 登顶率
+    - strong: 6.1%
+    - generic: 阵容样本
+    - strong: 21,195
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看灵魂莲华 · 芸阿娜的队员、装备、站位与统计":
+    - strong: 灵魂莲华 · 芸阿娜
+    - generic: ↗
+    - generic "凯尔":
+      - generic: 凯尔
+    - generic "乐芙兰":
+      - generic "莫雷洛秘典"
+      - generic "朔极之矛"
+      - generic "虚空之杖"
+      - generic: 乐芙兰
+    - generic "蕾欧娜":
+      - generic: 蕾欧娜
+    - generic "瑟庄妮":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 瑟庄妮
+    - generic "约里克":
+      - generic: 约里克
+    - generic "芸阿娜 · 来源核心":
+      - generic "死亡之刃"
+      - generic "最后的轻语"
+      - generic "朔极之矛"
+      - generic: 芸阿娜
+    - generic "卡尔玛":
+      - generic "大天使之杖"
+      - generic "蓝霸符"
+      - generic "珠光护手"
+      - generic: 卡尔玛
+    - generic "在对战后，你的【自然仙灵】将得到强化。 【灵魂莲华】弈子们获得物理加成、法术加成和10%最大生命值。 (3)【自然仙灵】得到升级，12% (5)商店每次都会刷新出【自然仙灵】，30% (7)在购买1个【自然仙灵】后，获得4 金币，50% (9)每回合你可以购买2个【自然仙灵】，55% (11)自然之力！！！【自然仙灵】的力量满溢而出，100%":
+      - strong: "3"
+      - generic: 灵魂莲华
+    - generic "(3)你的弈子们获得5%最大生命值护盾，并造成8%额外魔法伤害。每有1个不同的3星弈子，获得额外加成： 1：每有1个3星弈子，提升1%护盾值和魔法伤害。 3：15% 和12 5：将40%额外魔法伤害转换为真实伤害。 7：在战斗期间内每过4秒，1个3星弈子飞升至4星。":
+      - strong: "3"
+      - generic: 日蚀骑士
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic: 平均名次
+    - strong: "5.21"
+    - generic: 前四率
+    - strong: 37.1%
+    - generic: 登顶率
+    - strong: 7.6%
+    - generic: 阵容样本
+    - strong: 20,642
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看神谕 · 莫甘娜的队员、装备、站位与统计":
+    - strong: 神谕 · 莫甘娜
+    - generic: ↗
+    - generic "拉露恩":
+      - generic "神谕纹章"
+      - generic "大天使之杖"
+      - generic "灭世者的死亡之帽"
+      - generic: 拉露恩
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "赫卡里姆":
+      - generic: 赫卡里姆
+    - generic "莫甘娜 · 来源核心":
+      - generic "海克斯科技枪刃"
+      - generic "莫雷洛秘典"
+      - generic "虚空之杖"
+      - generic: 莫甘娜
+    - generic "苍蓝哨戒":
+      - generic: 苍蓝哨戒
+    - generic "绯红印记树怪":
+      - generic "夜之锋刃"
+      - generic "水银"
+      - generic "斯特拉克的挑战护手"
+      - generic: 绯红印记树怪
+    - generic "克格莫":
+      - generic: 克格莫
+    - generic "苍蓝雕纹魔像":
+      - generic "适应性头盔"
+      - generic "石像鬼石板甲"
+      - generic "圣盾使的誓约"
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "【帝王斑蝶】的伤害会对敌人施加持续4秒的30%魔抗击碎与护甲击碎。 魔抗击碎：降低魔抗值 护甲击碎：降低护甲值。":
+      - strong: "1"
+      - generic: 帝王斑蝶
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "4"
+      - generic: 神谕
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "2"
+      - generic: 月蚀骑士
+    - generic "【狂战士】们获得10%全能吸血。此外，【狂战士】们造成额外伤害，对低于50%生命值的单位们翻倍。 (2) 12%额外伤害 (4) 25%额外伤害 (6) 40%额外伤害":
+      - strong: "2"
+      - generic: 狂战士
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "4"
+      - generic: 重装战士
+    - generic "你最强大的那个【拉露恩】在每一次施放技能后，推进一次【月相】。当【月相】在弦月或以下时，你的队伍获得7%伤害减免。在弦月之上时，你的队伍获得7%伤害增幅。":
+      - strong: "1"
+      - generic: 月华神女
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.10"
+    - generic: 前四率
+    - strong: 57.9%
+    - generic: 登顶率
+    - strong: 14.3%
+    - generic: 阵容样本
+    - strong: 20,363
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看裁决使 · 阿兹尔的队员、装备、站位与统计":
+    - strong: 裁决使 · 阿兹尔
+    - generic: ↗
+    - generic "阿兹尔 · 来源核心":
+      - generic "鬼索的狂暴之刃"
+      - generic "海克斯科技枪刃"
+      - generic "灭世者的死亡之帽"
+      - generic: 阿兹尔
+    - generic "卡兹克":
+      - generic: 卡兹克
+    - generic "雷克塞":
+      - generic: 雷克塞
+    - generic "瑟提":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "日炎斗篷"
+      - generic: 瑟提
+    - generic "约里克":
+      - generic: 约里克
+    - generic "芸阿娜":
+      - generic: 芸阿娜
+    - generic "婕拉":
+      - generic "黑荆棘纹章"
+      - generic "裁决使纹章"
+      - generic "虚空之杖"
+      - generic: 婕拉
+    - generic "蔚":
+      - generic "棘刺背心"
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic: 蔚
+    - generic "战斗开始前，位于【黑荆棘格】内的友军被献祭，为你的弈子们提供生命值。 【黑荆棘】弈子们基于【祭品】的定位、星级和费用，获得额外属性， (2) 175 (4) 350 ；额外加成提升30% (6) 600 ；额外加成提升60%":
+      - strong: "2"
+      - generic: 黑荆棘
+    - generic "在对战后，你的【自然仙灵】将得到强化。 【灵魂莲华】弈子们获得物理加成、法术加成和10%最大生命值。 (3)【自然仙灵】得到升级，12% (5)商店每次都会刷新出【自然仙灵】，30% (7)在购买1个【自然仙灵】后，获得4 金币，50% (9)每回合你可以购买2个【自然仙灵】，55% (11)自然之力！！！【自然仙灵】的力量满溢而出，100%":
+      - strong: "3"
+      - generic: 灵魂莲华
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "(2)【裁决使】们获得【技能暴击】和15%暴击几率。 (3)此外，敌人会被施加流血效果，在3秒内持续受到25%额外真实伤害。 (4)流血效果造成的伤害提升35%。":
+      - strong: "3"
+      - generic: 裁决使
+    - generic "(1)仅在登场了1个【宿敌】时激活。 【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 (1)【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 参与击杀会使【卡兹克】进化，永久为他提供你从【裁决使】、【迅捷射手】、【狂战士】或【法师】中选择的一项羁绊。 每参与8次击杀，【雷恩加尔】提供2/3/5金币。在参与30次击杀后，你的队伍获得5％物理加成，此后每次参与击杀再提升0.2% 。 【卡兹克】参与击杀数：0 / 0 【雷恩加尔】参与击杀数：0 已赚取的金币：0 (2)【宿敌】可以同时登场，并且他们的技能可以为彼此提供加成":
+      - strong: "1"
+      - generic: 宿敌
+    - generic "【召唤师】们会以不同的方式强化其召唤物。 【约里克】：+30%生命值 【阿兹尔】：+20%伤害 【锋喙鸟】：+45%伤害 【婕拉】：+4植物攻击次数 (2)强化召唤物 (3)每种效果加成提升50%":
+      - strong: "3"
+      - generic: 召唤师
+    - generic "你的队伍获得5%伤害减免，在6或以上株【婕拉】的植物存活时，该数值提升至10%。":
+      - strong: "1"
+      - generic: 荆棘之兴
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic: 平均名次
+    - strong: "4.57"
+    - generic: 前四率
+    - strong: 48.9%
+    - generic: 登顶率
+    - strong: 9.1%
+    - generic: 阵容样本
+    - strong: 20,281
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看法师 · 阿狸的队员、装备、站位与统计":
+    - strong: 法师 · 阿狸
+    - generic: ↗
+    - generic "阿狸 · 来源核心":
+      - generic "灭世者的死亡之帽"
+      - generic "朔极之矛"
+      - generic "强袭者的链枷"
+      - generic: 阿狸
+    - generic "拉露恩":
+      - generic "红霸符"
+      - generic "朔极之矛"
+      - generic "虚空之杖"
+      - generic: 拉露恩
+    - generic "卡西奥佩娅":
+      - generic: 卡西奥佩娅
+    - generic "纳尔":
+      - generic: 纳尔
+    - generic "莉莉娅":
+      - generic "法师纹章"
+      - generic "圣盾使的誓约"
+      - generic "圣盾使的誓约"
+      - generic: 莉莉娅
+    - generic "瑟提":
+      - generic "棘刺背心"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 瑟提
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "卡尔玛":
+      - generic: 卡尔玛
+    - generic "在对战后，你的【自然仙灵】将得到强化。 【灵魂莲华】弈子们获得物理加成、法术加成和10%最大生命值。 (3)【自然仙灵】得到升级，12% (5)商店每次都会刷新出【自然仙灵】，30% (7)在购买1个【自然仙灵】后，获得4 金币，50% (9)每回合你可以购买2个【自然仙灵】，55% (11)自然之力！！！【自然仙灵】的力量满溢而出，100%":
+      - strong: "3"
+      - generic: 灵魂莲华
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "6"
+      - generic: 法师
+    - generic "你最强大的那个【拉露恩】在每一次施放技能后，推进一次【月相】。当【月相】在弦月或以下时，你的队伍获得7%伤害减免。在弦月之上时，你的队伍获得7%伤害增幅。":
+      - strong: "1"
+      - generic: 月华神女
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "1"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "4.91"
+    - generic: 前四率
+    - strong: 42.4%
+    - generic: 登顶率
+    - strong: 7.0%
+    - generic: 阵容样本
+    - strong: 18,051
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看野兽之灵 · 奈德丽的队员、装备、站位与统计":
+    - strong: 野兽之灵 · 奈德丽
+    - generic: ↗
+    - generic "莉莉娅":
+      - generic: 莉莉娅
+    - generic "洛":
+      - generic: 洛
+    - generic "慎":
+      - generic: 慎
+    - generic "希维尔":
+      - generic "死亡之刃"
+      - generic "红霸符"
+      - generic "朔极之矛"
+      - generic: 希维尔
+    - generic "阿木木":
+      - generic "冕卫"
+      - generic "巨龙之爪"
+      - generic "狂徒铠甲"
+      - generic: 阿木木
+    - generic "克格莫":
+      - generic: 克格莫
+    - generic "奈德丽 · 来源核心":
+      - generic "猎人纹章"
+      - generic "夜之锋刃"
+      - generic "斯特拉克的挑战护手"
+      - generic: 奈德丽
+    - generic "苍蓝雕纹魔像":
+      - generic: 苍蓝雕纹魔像
+    - generic "固有能力：【魔战士】的技能将根据其物理加成和法术加成中较高的属性转换形态。 【魔战士】们获得法术加成或物理加成，取决于两种加成中哪一者更高。 (2) 25%或 (3) 35%或 (4) 50%或":
+      - strong: "2"
+      - generic: 魔战士
+    - generic "【帝王斑蝶】的伤害会对敌人施加持续4秒的30%魔抗击碎与护甲击碎。 魔抗击碎：降低魔抗值 护甲击碎：降低护甲值。":
+      - strong: "1"
+      - generic: 帝王斑蝶
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "你的队伍的伤害、治疗强度和护盾强度会吸引【皮克斯仙灵】。 每个【皮克斯仙灵】为【花仙子】弈子们提供物理加成和法术加成，在其生命值降至50%时，他们基于【皮克斯仙灵】数量治疗生命值。 (2) 4.5%和2.5%治疗强度。 (4) 7%和4%治疗强度。在吸引了7个【皮克斯仙灵】后，转而开始吸引可提供金币的【黄金皮克斯仙灵】。":
+      - strong: "2"
+      - generic: 花仙子
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "2"
+      - generic: 神谕
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic: 平均名次
+    - strong: "4.67"
+    - generic: 前四率
+    - strong: 47.0%
+    - generic: 登顶率
+    - strong: 7.5%
+    - generic: 阵容样本
+    - strong: 17,301
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看重装战士 · 伊莉丝的队员、装备、站位与统计":
+    - strong: 重装战士 · 伊莉丝
+    - generic: ↗
+    - generic "卡西奥佩娅":
+      - generic "珠光护手"
+      - generic "朔极之矛"
+      - generic "虚空之杖"
+      - generic: 卡西奥佩娅
+    - generic "黛安娜":
+      - generic "正义之手"
+      - generic "离子火花"
+      - generic "珠光护手"
+      - generic: 黛安娜
+    - generic "伊莉丝 · 来源核心":
+      - generic "狂战士纹章"
+      - generic "鬼索的狂暴之刃"
+      - generic "泰坦的坚决"
+      - generic: 伊莉丝
+    - generic "赫卡里姆":
+      - generic "圣盾使的誓约"
+      - generic "振奋盔甲"
+      - generic "日炎斗篷"
+      - generic: 赫卡里姆
+    - generic "洛":
+      - generic: 洛
+    - generic "苍蓝雕纹魔像":
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "6"
+      - generic: 重装战士
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic: 平均名次
+    - strong: "5.68"
+    - generic: 前四率
+    - strong: 28.0%
+    - generic: 登顶率
+    - strong: 3.7%
+    - generic: 阵容样本
+    - strong: 16,932
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看重装战士 · 厄斐琉斯的队员、装备、站位与统计":
+    - strong: 重装战士 · 厄斐琉斯
+    - generic: ↗
+    - generic "厄斐琉斯 · 来源核心":
+      - generic "死亡之刃"
+      - generic "海妖之怒"
+      - generic "红霸符"
+      - generic: 厄斐琉斯
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "赫卡里姆":
+      - generic: 赫卡里姆
+    - generic "婕拉":
+      - generic: 婕拉
+    - generic "绯红印记树怪":
+      - generic "迅捷射手纹章"
+      - generic "夜之锋刃"
+      - generic "斯特拉克的挑战护手"
+      - generic: 绯红印记树怪
+    - generic "深红锋喙鸟":
+      - generic "鬼索的狂暴之刃"
+      - generic "海克斯科技枪刃"
+      - generic "海妖之怒"
+      - generic: 深红锋喙鸟
+    - generic "苍蓝雕纹魔像":
+      - generic "石像鬼石板甲"
+      - generic "圣盾使的誓约"
+      - generic "狂徒铠甲"
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "2"
+      - generic: 月蚀骑士
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "2"
+      - generic: 迅捷射手
+    - generic "【狂战士】们获得10%全能吸血。此外，【狂战士】们造成额外伤害，对低于50%生命值的单位们翻倍。 (2) 12%额外伤害 (4) 25%额外伤害 (6) 40%额外伤害":
+      - strong: "2"
+      - generic: 狂战士
+    - generic "【召唤师】们会以不同的方式强化其召唤物。 【约里克】：+30%生命值 【阿兹尔】：+20%伤害 【锋喙鸟】：+45%伤害 【婕拉】：+4植物攻击次数 (2)强化召唤物 (3)每种效果加成提升50%":
+      - strong: "2"
+      - generic: 召唤师
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "4"
+      - generic: 重装战士
+    - generic "你的队伍获得5%伤害减免，在6或以上株【婕拉】的植物存活时，该数值提升至10%。":
+      - strong: "1"
+      - generic: 荆棘之兴
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.19"
+    - generic: 前四率
+    - strong: 56.7%
+    - generic: 登顶率
+    - strong: 11.1%
+    - generic: 阵容样本
+    - strong: 16,737
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看狂战士 · 绯红印记树怪的队员、装备、站位与统计":
+    - strong: 狂战士 · 绯红印记树怪
+    - generic: ↗
+    - generic "卡蜜尔":
+      - generic: 卡蜜尔
+    - generic "黛安娜":
+      - generic "夜之锋刃"
+      - generic "正义之手"
+      - generic "珠光护手"
+      - generic: 黛安娜
+    - generic "伊莉丝":
+      - generic "狂战士纹章"
+      - generic "鬼索的狂暴之刃"
+      - generic "泰坦的坚决"
+      - generic: 伊莉丝
+    - generic "赫卡里姆":
+      - generic: 赫卡里姆
+    - generic "沃里克":
+      - generic: 沃里克
+    - generic "绯红印记树怪 · 来源核心":
+      - generic "夜之锋刃"
+      - generic "正义之手"
+      - generic "斯特拉克的挑战护手"
+      - generic: 绯红印记树怪
+    - generic "暗影狼":
+      - generic: 暗影狼
+    - generic "苍蓝雕纹魔像":
+      - generic "石像鬼石板甲"
+      - generic "圣盾使的誓约"
+      - generic "振奋盔甲"
+      - generic: 苍蓝雕纹魔像
+    - generic "【狂战士】们获得10%全能吸血。此外，【狂战士】们造成额外伤害，对低于50%生命值的单位们翻倍。 (2) 12%额外伤害 (4) 25%额外伤害 (6) 40%额外伤害":
+      - strong: "6"
+      - generic: 狂战士
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "4"
+      - generic: 重装战士
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.29"
+    - generic: 前四率
+    - strong: 55.9%
+    - generic: 登顶率
+    - strong: 7.0%
+    - generic: 阵容样本
+    - strong: 15,544
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看灵魂莲华 · 阿狸 · 瑟提的队员、装备、站位与统计":
+    - strong: 灵魂莲华 · 阿狸 · 瑟提
+    - generic: ↗
+    - generic "阿狸 · 来源核心":
+      - generic "大天使之杖"
+      - generic "大天使之杖"
+      - generic "珠光护手"
+      - generic: 阿狸
+    - generic "瑟提 · 来源核心":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 瑟提
+    - generic "慎":
+      - generic: 慎
+    - generic "约里克":
+      - generic: 约里克
+    - generic "婕拉":
+      - generic "海克斯科技枪刃"
+      - generic "朔极之矛"
+      - generic "虚空之杖"
+      - generic: 婕拉
+    - generic "阿木木":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 阿木木
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "远古石甲虫":
+      - generic: 远古石甲虫
+    - generic "在对战后，你的【自然仙灵】将得到强化。 【灵魂莲华】弈子们获得物理加成、法术加成和10%最大生命值。 (3)【自然仙灵】得到升级，12% (5)商店每次都会刷新出【自然仙灵】，30% (7)在购买1个【自然仙灵】后，获得4 金币，50% (9)每回合你可以购买2个【自然仙灵】，55% (11)自然之力！！！【自然仙灵】的力量满溢而出，100%":
+      - strong: "3"
+      - generic: 灵魂莲华
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "【召唤师】们会以不同的方式强化其召唤物。 【约里克】：+30%生命值 【阿兹尔】：+20%伤害 【锋喙鸟】：+45%伤害 【婕拉】：+4植物攻击次数 (2)强化召唤物 (3)每种效果加成提升50%":
+      - strong: "2"
+      - generic: 召唤师
+    - generic "你的队伍获得5%伤害减免，在6或以上株【婕拉】的植物存活时，该数值提升至10%。":
+      - strong: "1"
+      - generic: 荆棘之兴
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "1"
+      - generic: 绝命花妖
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic: 平均名次
+    - strong: "4.40"
+    - generic: 前四率
+    - strong: 51.8%
+    - generic: 登顶率
+    - strong: 11.1%
+    - generic: 阵容样本
+    - strong: 14,702
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看神谕 · 提莫的队员、装备、站位与统计":
+    - strong: 神谕 · 提莫
+    - generic: ↗
+    - generic "莫甘娜":
+      - generic "莫雷洛秘典"
+      - generic "灭世者的死亡之帽"
+      - generic "虚空之杖"
+      - generic: 莫甘娜
+    - generic "拉莫斯":
+      - generic "巨龙之爪"
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic: 拉莫斯
+    - generic "苍蓝哨戒":
+      - generic: 苍蓝哨戒
+    - generic "提莫 · 来源核心":
+      - generic "海克斯科技枪刃"
+      - generic "珠光护手"
+      - generic "灭世者的死亡之帽"
+      - generic: 提莫
+    - generic "维迦":
+      - generic: 维迦
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "远古石甲虫":
+      - generic: 远古石甲虫
+    - generic "苍蓝雕纹魔像":
+      - generic "石像鬼石板甲"
+      - generic "圣盾使的誓约"
+      - generic "狂徒铠甲"
+      - generic: 苍蓝雕纹魔像
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "4"
+      - generic: 神谕
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "获得【毛茸茸大朋友】。将1个【约德尔人和朋友】放置在【毛茸茸大朋友】身上以选择其【骑乘者】。 (3) 【骑乘者】获得 15% 和15% (5) 40% 35% ，【毛茸茸大朋友】50%的技能加成作用于你的【约德尔人…】弈子们 (7) 45% 45% ，【毛茸茸大朋友】100%的技能加成作用于你的【约德尔人…】弈子们。":
+      - strong: "3"
+      - generic: 约德尔人和朋友
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "1"
+      - generic: 绝命花妖
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.21"
+    - generic: 前四率
+    - strong: 57.1%
+    - generic: 登顶率
+    - strong: 8.9%
+    - generic: 阵容样本
+    - strong: 14,179
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看神谕 · 提莫 · 阿利斯塔的队员、装备、站位与统计":
+    - strong: 神谕 · 提莫 · 阿利斯塔
+    - generic: ↗
+    - generic "阿利斯塔 · 来源核心":
+      - generic "石像鬼石板甲"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 阿利斯塔
+    - generic "赫卡里姆":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 赫卡里姆
+    - generic "可酷伯":
+      - generic: 可酷伯
+    - generic "乐芙兰":
+      - generic "巨人杀手"
+      - generic "珠光护手"
+      - generic "朔极之矛"
+      - generic: 乐芙兰
+    - generic "莫甘娜":
+      - generic: 莫甘娜
+    - generic "提莫 · 来源核心":
+      - generic "莫雷洛秘典"
+      - generic "朔极之矛"
+      - generic "虚空之杖"
+      - generic: 提莫
+    - generic "维迦":
+      - generic: 维迦
+    - generic "苍蓝雕纹魔像":
+      - generic: 苍蓝雕纹魔像
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "获得可放置的【永恒之森】植物。 (3)一棵【石皮树】和一株【生命花】。 (5)第二棵【石皮树】，并且【石皮树】获得200生命值 (7)以及【深林守卫】 (9)植物升至2星 (11)自然之力！！！植物升至3星，森林拥有了它自己的生命":
+      - strong: "3"
+      - generic: 永恒之森
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "3"
+      - generic: 神谕
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "获得【毛茸茸大朋友】。将1个【约德尔人和朋友】放置在【毛茸茸大朋友】身上以选择其【骑乘者】。 (3) 【骑乘者】获得 15% 和15% (5) 40% 35% ，【毛茸茸大朋友】50%的技能加成作用于你的【约德尔人…】弈子们 (7) 45% 45% ，【毛茸茸大朋友】100%的技能加成作用于你的【约德尔人…】弈子们。":
+      - strong: "3"
+      - generic: 约德尔人和朋友
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic: 平均名次
+    - strong: "4.09"
+    - generic: 前四率
+    - strong: 59.8%
+    - generic: 登顶率
+    - strong: 9.4%
+    - generic: 阵容样本
+    - strong: 14,123
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看月蚀骑士 · 厄斐琉斯 · 莉莉娅的队员、装备、站位与统计":
+    - strong: 月蚀骑士 · 厄斐琉斯 · 莉莉娅
+    - generic: ↗
+    - generic "阿利斯塔":
+      - generic: 阿利斯塔
+    - generic "拉露恩":
+      - generic "珠光护手"
+      - generic "纳什之牙"
+      - generic "朔极之矛"
+      - generic: 拉露恩
+    - generic "厄斐琉斯 · 来源核心":
+      - generic "无尽之刃"
+      - generic "海妖之怒"
+      - generic "最后的轻语"
+      - generic: 厄斐琉斯
+    - generic "黛安娜":
+      - generic "离子火花"
+      - generic: 黛安娜
+    - generic "纳尔":
+      - generic: 纳尔
+    - generic "赫卡里姆":
+      - generic: 赫卡里姆
+    - generic "莉莉娅 · 来源核心":
+      - generic "薄暮法袍"
+      - generic "振奋盔甲"
+      - generic "日炎斗篷"
+      - generic: 莉莉娅
+    - generic "奥恩":
+      - generic: 奥恩
+    - generic "霞":
+      - generic: 霞
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "获得可放置的【永恒之森】植物。 (3)一棵【石皮树】和一株【生命花】。 (5)第二棵【石皮树】，并且【石皮树】获得200生命值 (7)以及【深林守卫】 (9)植物升至2星 (11)自然之力！！！植物升至3星，森林拥有了它自己的生命":
+      - strong: "5"
+      - generic: 永恒之森
+    - generic "你的队伍的伤害、治疗强度和护盾强度会吸引【皮克斯仙灵】。 每个【皮克斯仙灵】为【花仙子】弈子们提供物理加成和法术加成，在其生命值降至50%时，他们基于【皮克斯仙灵】数量治疗生命值。 (2) 4.5%和2.5%治疗强度。 (4) 7%和4%治疗强度。在吸引了7个【皮克斯仙灵】后，转而开始吸引可提供金币的【黄金皮克斯仙灵】。":
+      - strong: "2"
+      - generic: 花仙子
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "3"
+      - generic: 月蚀骑士
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "2"
+      - generic: 迅捷射手
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "你最强大的那个【拉露恩】在每一次施放技能后，推进一次【月相】。当【月相】在弦月或以下时，你的队伍获得7%伤害减免。在弦月之上时，你的队伍获得7%伤害增幅。":
+      - strong: "1"
+      - generic: 月华神女
+    - generic: 平均名次
+    - strong: "4.37"
+    - generic: 前四率
+    - strong: 52.4%
+    - generic: 登顶率
+    - strong: 11.9%
+    - generic: 阵容样本
+    - strong: 14,070
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看绝命花妖 · 索拉卡的队员、装备、站位与统计":
+    - strong: 绝命花妖 · 索拉卡
+    - generic: ↗
+    - generic "拉露恩":
+      - generic: 拉露恩
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "艾翁":
+      - generic: 艾翁
+    - generic "凯南":
+      - generic "夜之锋刃"
+      - generic "正义之手"
+      - generic "虚空之杖"
+      - generic: 凯南
+    - generic "茂凯":
+      - generic: 茂凯
+    - generic "索拉卡 · 来源核心":
+      - generic "蓝霸符"
+      - generic "灭世者的死亡之帽"
+      - generic "强袭者的链枷"
+      - generic: 索拉卡
+    - generic "阿木木":
+      - generic "石像鬼石板甲"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 阿木木
+    - generic "费德提克":
+      - generic: 费德提克
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "(2)【裁决使】们获得【技能暴击】和15%暴击几率。 (3)此外，敌人会被施加流血效果，在3秒内持续受到25%额外真实伤害。 (4)流血效果造成的伤害提升35%。":
+      - strong: "2"
+      - generic: 裁决使
+    - generic "你最强大的那个【艾翁】在施放技能时获得1颗种子，且每场对战额外获得3颗。【艾翁】可消耗5颗种子在你的棋盘上培育1个格子，为格内的住民提供加成。 种子数：0/5 当前生物群落：":
+      - strong: "1"
+      - generic: 翠神
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "2"
+      - generic: 月蚀骑士
+    - generic "每当3格内的1名敌人阵亡时，你最强大的那个【远古树精】弈子获得30永久最大生命值。 当前：0":
+      - strong: "1"
+      - generic: 远古树精
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "你最强大的那个【拉露恩】在每一次施放技能后，推进一次【月相】。当【月相】在弦月或以下时，你的队伍获得7%伤害减免。在弦月之上时，你的队伍获得7%伤害增幅。":
+      - strong: "1"
+      - generic: 月华神女
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "2"
+      - generic: 绝命花妖
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic: 平均名次
+    - strong: "4.74"
+    - generic: 前四率
+    - strong: 45.4%
+    - generic: 登顶率
+    - strong: 8.6%
+    - generic: 阵容样本
+    - strong: 13,260
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看花仙子 · 崔丝塔娜的队员、装备、站位与统计":
+    - strong: 花仙子 · 崔丝塔娜
+    - generic: ↗
+    - generic "莉莉娅":
+      - generic: 莉莉娅
+    - generic "洛":
+      - generic: 洛
+    - generic "拉莫斯":
+      - generic "重装战士纹章"
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic: 拉莫斯
+    - generic "雷恩加尔":
+      - generic "花仙子纹章"
+      - generic "约德尔人和朋友纹章"
+      - generic "斯特拉克的挑战护手"
+      - generic: 雷恩加尔
+    - generic "希维尔":
+      - generic: 希维尔
+    - generic "崔丝塔娜 · 来源核心":
+      - generic "鬼索的狂暴之刃"
+      - generic "海妖之怒"
+      - generic "海妖之怒"
+      - generic: 崔丝塔娜
+    - generic "蔚":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 蔚
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "你的队伍的伤害、治疗强度和护盾强度会吸引【皮克斯仙灵】。 每个【皮克斯仙灵】为【花仙子】弈子们提供物理加成和法术加成，在其生命值降至50%时，他们基于【皮克斯仙灵】数量治疗生命值。 (2) 4.5%和2.5%治疗强度。 (4) 7%和4%治疗强度。在吸引了7个【皮克斯仙灵】后，转而开始吸引可提供金币的【黄金皮克斯仙灵】。":
+      - strong: "4"
+      - generic: 花仙子
+    - generic "【猎人】获得物理加成。如果1个【猎人】在3秒内没有切换过目标，他们获得10%伤害增幅。 (2) 20% (3) 30% (4) 45% (5) 60%":
+      - strong: "2"
+      - generic: 猎人
+    - generic "(1)仅在登场了1个【宿敌】时激活。 【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 (1)【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 参与击杀会使【卡兹克】进化，永久为他提供你从【裁决使】、【迅捷射手】、【狂战士】或【法师】中选择的一项羁绊。 每参与8次击杀，【雷恩加尔】提供2/3/5金币。在参与30次击杀后，你的队伍获得5％物理加成，此后每次参与击杀再提升0.2% 。 【卡兹克】参与击杀数：0 / 0 【雷恩加尔】参与击杀数：0 已赚取的金币：0 (2)【宿敌】可以同时登场，并且他们的技能可以为彼此提供加成":
+      - strong: "1"
+      - generic: 宿敌
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic: 平均名次
+    - strong: "4.99"
+    - generic: 前四率
+    - strong: 40.5%
+    - generic: 登顶率
+    - strong: 11.1%
+    - generic: 阵容样本
+    - strong: 12,986
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看猎人 · 希维尔的队员、装备、站位与统计":
+    - strong: 猎人 · 希维尔
+    - generic: ↗
+    - generic "墨菲特":
+      - generic "冕卫"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 墨菲特
+    - generic "雷克塞":
+      - generic: 雷克塞
+    - generic "希维尔 · 来源核心":
+      - generic "无尽之刃"
+      - generic "红霸符"
+      - generic "强袭者的链枷"
+      - generic: 希维尔
+    - generic "绯红树怪":
+      - generic: 绯红树怪
+    - generic "克格莫":
+      - generic "金锅铲冠冕"
+      - generic: 克格莫
+    - generic "远古石甲虫":
+      - generic: 远古石甲虫
+    - generic "奈德丽":
+      - generic "无尽之刃"
+      - generic "朔极之矛"
+      - generic "斯特拉克的挑战护手"
+      - generic: 奈德丽
+    - generic "苍蓝雕纹魔像":
+      - generic: 苍蓝雕纹魔像
+    - generic "固有能力：【魔战士】的技能将根据其物理加成和法术加成中较高的属性转换形态。 【魔战士】们获得法术加成或物理加成，取决于两种加成中哪一者更高。 (2) 25%或 (3) 35%或 (4) 50%或":
+      - strong: "2"
+      - generic: 魔战士
+    - generic "每成为1名敌人的目标，【魔岩巨兽】获得10护甲和魔法抗性。":
+      - strong: "1"
+      - generic: 魔岩巨兽
+    - generic "战斗开始前，位于【黑荆棘格】内的友军被献祭，为你的弈子们提供生命值。 【黑荆棘】弈子们基于【祭品】的定位、星级和费用，获得额外属性， (2) 175 (4) 350 ；额外加成提升30% (6) 600 ；额外加成提升60%":
+      - strong: "2"
+      - generic: 黑荆棘
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "【帝王斑蝶】的伤害会对敌人施加持续4秒的30%魔抗击碎与护甲击碎。 魔抗击碎：降低魔抗值 护甲击碎：降低护甲值。":
+      - strong: "1"
+      - generic: 帝王斑蝶
+    - generic "【猎人】获得物理加成。如果1个【猎人】在3秒内没有切换过目标，他们获得10%伤害增幅。 (2) 20% (3) 30% (4) 45% (5) 60%":
+      - strong: "2"
+      - generic: 猎人
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "2"
+      - generic: 神谕
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.41"
+    - generic: 前四率
+    - strong: 52.7%
+    - generic: 登顶率
+    - strong: 10.9%
+    - generic: 阵容样本
+    - strong: 12,535
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看灵魂莲华 · 瑟提的队员、装备、站位与统计":
+    - strong: 灵魂莲华 · 瑟提
+    - generic: ↗
+    - generic "艾希":
+      - generic "最后的轻语"
+      - generic "红霸符"
+      - generic "朔极之矛"
+      - generic: 艾希
+    - generic "远古巨龙":
+      - generic: 远古巨龙
+    - generic "纳尔":
+      - generic "饮血剑"
+      - generic "斯特拉克的挑战护手"
+      - generic "泰坦的坚决"
+      - generic: 纳尔
+    - generic "凯南":
+      - generic: 凯南
+    - generic "瑟提 · 来源核心":
+      - generic "石像鬼石板甲"
+      - generic "日炎斗篷"
+      - generic "狂徒铠甲"
+      - generic: 瑟提
+    - generic "约里克":
+      - generic: 约里克
+    - generic "阿木木":
+      - generic: 阿木木
+    - generic "绯红树怪":
+      - generic: 绯红树怪
+    - generic "【远古巨龙】占用2个弈子栏位，并提供+2【峡谷野怪】羁绊。":
+      - strong: "1"
+      - generic: 顶级掠食者
+    - generic "在对战后，你的【自然仙灵】将得到强化。 【灵魂莲华】弈子们获得物理加成、法术加成和10%最大生命值。 (3)【自然仙灵】得到升级，12% (5)商店每次都会刷新出【自然仙灵】，30% (7)在购买1个【自然仙灵】后，获得4 金币，50% (9)每回合你可以购买2个【自然仙灵】，55% (11)自然之力！！！【自然仙灵】的力量满溢而出，100%":
+      - strong: "3"
+      - generic: 灵魂莲华
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "【猎人】获得物理加成。如果1个【猎人】在3秒内没有切换过目标，他们获得10%伤害增幅。 (2) 20% (3) 30% (4) 45% (5) 60%":
+      - strong: "2"
+      - generic: 猎人
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.62"
+    - generic: 前四率
+    - strong: 47.0%
+    - generic: 登顶率
+    - strong: 10.8%
+    - generic: 阵容样本
+    - strong: 11,507
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看神谕 · 奈德丽的队员、装备、站位与统计":
+    - strong: 神谕 · 奈德丽
+    - generic: ↗
+    - generic "莫甘娜":
+      - generic "海克斯科技枪刃"
+      - generic "红霸符"
+      - generic "虚空之杖"
+      - generic: 莫甘娜
+    - generic "苍蓝哨戒":
+      - generic: 苍蓝哨戒
+    - generic "克格莫":
+      - generic "金铲铲冠冕"
+      - generic: 克格莫
+    - generic "奈德丽 · 来源核心":
+      - generic "夜之锋刃"
+      - generic "正义之手"
+      - generic "无尽之刃"
+      - generic: 奈德丽
+    - generic "峡谷迅捷蟹":
+      - generic: 峡谷迅捷蟹
+    - generic "苍蓝雕纹魔像":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "蔚":
+      - generic: 蔚
+    - generic "固有能力：【魔战士】的技能将根据其物理加成和法术加成中较高的属性转换形态。 【魔战士】们获得法术加成或物理加成，取决于两种加成中哪一者更高。 (2) 25%或 (3) 35%或 (4) 50%或":
+      - strong: "2"
+      - generic: 魔战士
+    - generic "【帝王斑蝶】的伤害会对敌人施加持续4秒的30%魔抗击碎与护甲击碎。 魔抗击碎：降低魔抗值 护甲击碎：降低护甲值。":
+      - strong: "1"
+      - generic: 帝王斑蝶
+    - generic "你的队伍获得法力回复，【神谕】获得更多。 (2) 1 | 3 (3) 1 | 4 (4) 2 | 6 (5) 2 | 8":
+      - strong: "4"
+      - generic: 神谕
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "在四种【兽灵赐福】中选择一项获取。 (2) (4)":
+      - strong: "2"
+      - generic: 野兽之灵
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.49"
+    - generic: 前四率
+    - strong: 51.4%
+    - generic: 登顶率
+    - strong: 8.9%
+    - generic: 阵容样本
+    - strong: 9,859
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看宿敌 · 卡兹克 · 费德提克的队员、装备、站位与统计":
+    - strong: 宿敌 · 卡兹克 · 费德提克
+    - generic: ↗
+    - generic "厄斐琉斯":
+      - generic "鬼索的狂暴之刃"
+      - generic "无尽之刃"
+      - generic "海妖之怒"
+      - generic: 厄斐琉斯
+    - generic "阿兹尔":
+      - generic "鬼索的狂暴之刃"
+      - generic "海克斯科技枪刃"
+      - generic "灭世者的死亡之帽"
+      - generic: 阿兹尔
+    - generic "黛安娜":
+      - generic: 黛安娜
+    - generic "卡兹克 · 来源核心":
+      - generic "夜之锋刃"
+      - generic "正义之手"
+      - generic "灭世者的死亡之帽"
+      - generic: 卡兹克
+    - generic "洛":
+      - generic: 洛
+    - generic "拉莫斯":
+      - generic: 拉莫斯
+    - generic "崔丝塔娜":
+      - generic: 崔丝塔娜
+    - generic "维迦":
+      - generic: 维迦
+    - generic "费德提克 · 来源核心":
+      - generic "石像鬼石板甲"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 费德提克
+    - generic "战斗开始前，位于【黑荆棘格】内的友军被献祭，为你的弈子们提供生命值。 【黑荆棘】弈子们基于【祭品】的定位、星级和费用，获得额外属性， (2) 175 (4) 350 ；额外加成提升30% (6) 600 ；额外加成提升60%":
+      - strong: "2"
+      - generic: 黑荆棘
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "2"
+      - generic: 护卫
+    - generic "你的队伍的伤害、治疗强度和护盾强度会吸引【皮克斯仙灵】。 每个【皮克斯仙灵】为【花仙子】弈子们提供物理加成和法术加成，在其生命值降至50%时，他们基于【皮克斯仙灵】数量治疗生命值。 (2) 4.5%和2.5%治疗强度。 (4) 7%和4%治疗强度。在吸引了7个【皮克斯仙灵】后，转而开始吸引可提供金币的【黄金皮克斯仙灵】。":
+      - strong: "2"
+      - generic: 花仙子
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "2"
+      - generic: 月蚀骑士
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "2"
+      - generic: 迅捷射手
+    - generic "(1)仅在登场了1个【宿敌】时激活。 【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 (1)【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 参与击杀会使【卡兹克】进化，永久为他提供你从【裁决使】、【迅捷射手】、【狂战士】或【法师】中选择的一项羁绊。 每参与8次击杀，【雷恩加尔】提供2/3/5金币。在参与30次击杀后，你的队伍获得5％物理加成，此后每次参与击杀再提升0.2% 。 【卡兹克】参与击杀数：0 / 0 【雷恩加尔】参与击杀数：0 已赚取的金币：0 (2)【宿敌】可以同时登场，并且他们的技能可以为彼此提供加成":
+      - strong: "1"
+      - generic: 宿敌
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "获得【毛茸茸大朋友】。将1个【约德尔人和朋友】放置在【毛茸茸大朋友】身上以选择其【骑乘者】。 (3) 【骑乘者】获得 15% 和15% (5) 40% 35% ，【毛茸茸大朋友】50%的技能加成作用于你的【约德尔人…】弈子们 (7) 45% 45% ，【毛茸茸大朋友】100%的技能加成作用于你的【约德尔人…】弈子们。":
+      - strong: "3"
+      - generic: 约德尔人和朋友
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "1"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "5.25"
+    - generic: 前四率
+    - strong: 36.2%
+    - generic: 登顶率
+    - strong: 5.6%
+    - generic: 阵容样本
+    - strong: 8,554
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看黑荆棘 · 芸阿娜的队员、装备、站位与统计":
+    - strong: 黑荆棘 · 芸阿娜
+    - generic: ↗
+    - generic "阿利斯塔":
+      - generic "石像鬼石板甲"
+      - generic "圣盾使的誓约"
+      - generic "振奋盔甲"
+      - generic: 阿利斯塔
+    - generic "阿兹尔":
+      - generic "大天使之杖"
+      - generic "鬼索的狂暴之刃"
+      - generic "海克斯科技枪刃"
+      - generic: 阿兹尔
+    - generic "伊泽瑞尔":
+      - generic: 伊泽瑞尔
+    - generic "雷克塞":
+      - generic: 雷克塞
+    - generic "沃里克":
+      - generic "裁决使纹章"
+      - generic "朔极之矛"
+      - generic "斯特拉克的挑战护手"
+      - generic: 沃里克
+    - generic "芸阿娜 · 来源核心":
+      - generic "黑荆棘纹章"
+      - generic "最后的轻语"
+      - generic "朔极之矛"
+      - generic: 芸阿娜
+    - generic "暗影狼":
+      - generic: 暗影狼
+    - generic "战斗开始前，位于【黑荆棘格】内的友军被献祭，为你的弈子们提供生命值。 【黑荆棘】弈子们基于【祭品】的定位、星级和费用，获得额外属性， (2) 175 (4) 350 ；额外加成提升30% (6) 600 ；额外加成提升60%":
+      - strong: "4"
+      - generic: 黑荆棘
+    - generic "你的队伍获得120最大生命值。【斗士】们获得更多。 (2) 25% (4) 40% (6) 65%":
+      - strong: "2"
+      - generic: 斗士
+    - generic "(2)【裁决使】们获得【技能暴击】和15%暴击几率。 (3)此外，敌人会被施加流血效果，在3秒内持续受到25%额外真实伤害。 (4)流血效果造成的伤害提升35%。":
+      - strong: "3"
+      - generic: 裁决使
+    - generic "【狂战士】们获得10%全能吸血。此外，【狂战士】们造成额外伤害，对低于50%生命值的单位们翻倍。 (2) 12%额外伤害 (4) 25%额外伤害 (6) 40%额外伤害":
+      - strong: "2"
+      - generic: 狂战士
+    - generic: 平均名次
+    - strong: "4.75"
+    - generic: 前四率
+    - strong: 45.8%
+    - generic: 登顶率
+    - strong: 8.5%
+    - generic: 阵容样本
+    - strong: 7,884
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看迅捷射手 · 厄斐琉斯的队员、装备、站位与统计":
+    - strong: 迅捷射手 · 厄斐琉斯
+    - generic: ↗
+    - generic "厄斐琉斯 · 来源核心":
+      - generic "死亡之刃"
+      - generic "无尽之刃"
+      - generic "强袭者的链枷"
+      - generic: 厄斐琉斯
+    - generic "洛":
+      - generic: 洛
+    - generic "韦鲁斯":
+      - generic: 韦鲁斯
+    - generic "霞":
+      - generic: 霞
+    - generic "阿木木":
+      - generic "重装战士纹章"
+      - generic "石像鬼石板甲"
+      - generic "狂徒铠甲"
+      - generic: 阿木木
+    - generic "绯红印记树怪":
+      - generic "迅捷射手纹章"
+      - generic "夜之锋刃"
+      - generic "水银"
+      - generic: 绯红印记树怪
+    - generic "深红锋喙鸟":
+      - generic: 深红锋喙鸟
+    - generic "苍蓝雕纹魔像":
+      - generic "圣盾使的誓约"
+      - generic "圣盾使的誓约"
+      - generic "圣盾使的誓约"
+      - generic: 苍蓝雕纹魔像
+    - generic "你的队伍的伤害、治疗强度和护盾强度会吸引【皮克斯仙灵】。 每个【皮克斯仙灵】为【花仙子】弈子们提供物理加成和法术加成，在其生命值降至50%时，他们基于【皮克斯仙灵】数量治疗生命值。 (2) 4.5%和2.5%治疗强度。 (4) 7%和4%治疗强度。在吸引了7个【皮克斯仙灵】后，转而开始吸引可提供金币的【黄金皮克斯仙灵】。":
+      - strong: "2"
+      - generic: 花仙子
+    - generic "【地狱火】的伤害会对敌人施加持续3秒的灼烧和重伤效果。【地狱火】的灼烧效果可以和其它灼烧效果叠加。 (2) 1%灼烧效果，33%重伤 效果 (3)在对战后，你的1个不包含【地狱火】弈子的商店栏位会被引燃，刷新出高一阶的弈子。 (5)引燃2个商店栏位，施加3%灼烧效果 (7)引燃4个商店栏位，施加4%灼烧效果":
+      - strong: "2"
+      - generic: 地狱火
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "5"
+      - generic: 迅捷射手
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "2"
+      - generic: 重装战士
+    - generic "你的队伍获得伤害减免。【主宰】们获得更多。 (2) 4% 或20% (4) 6% 或33% (6) 8% 或42%":
+      - strong: "2"
+      - generic: 主宰
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.11"
+    - generic: 前四率
+    - strong: 59.1%
+    - generic: 登顶率
+    - strong: 11.6%
+    - generic: 阵容样本
+    - strong: 7,782
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看护卫 · 雷恩加尔的队员、装备、站位与统计":
+    - strong: 护卫 · 雷恩加尔
+    - generic: ↗
+    - generic "卡西奥佩娅":
+      - generic "大天使之杖"
+      - generic "海克斯科技枪刃"
+      - generic "朔极之矛"
+      - generic: 卡西奥佩娅
+    - generic "莉莉娅":
+      - generic: 莉莉娅
+    - generic "奥恩":
+      - generic: 奥恩
+    - generic "拉莫斯":
+      - generic "棘刺背心"
+      - generic "振奋盔甲"
+      - generic "狂徒铠甲"
+      - generic: 拉莫斯
+    - generic "雷恩加尔 · 来源核心":
+      - generic "护卫纹章"
+      - generic "鬼索的狂暴之刃"
+      - generic "泰坦的坚决"
+      - generic: 雷恩加尔
+    - generic "慎":
+      - generic: 慎
+    - generic "费德提克":
+      - generic "适应性头盔"
+      - generic "冕卫"
+      - generic "泰坦的坚决"
+      - generic: 费德提克
+    - generic "你的队伍获得12护甲和魔法抗性。【护卫】获得更多。 (2) 25 (4) 60 (6) 115":
+      - strong: "6"
+      - generic: 护卫
+    - generic "(1)仅在登场了1个【宿敌】时激活。 【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 (1)【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 参与击杀会使【卡兹克】进化，永久为他提供你从【裁决使】、【迅捷射手】、【狂战士】或【法师】中选择的一项羁绊。 每参与8次击杀，【雷恩加尔】提供2/3/5金币。在参与30次击杀后，你的队伍获得5％物理加成，此后每次参与击杀再提升0.2% 。 【卡兹克】参与击杀数：0 / 0 【雷恩加尔】参与击杀数：0 已赚取的金币：0 (2)【宿敌】可以同时登场，并且他们的技能可以为彼此提供加成":
+      - strong: "1"
+      - generic: 宿敌
+    - generic "你的队伍获得10%法术加成。【法师】们获得更多，每当1个【法师】施放技能时还会额外提升法术加成。 (2) 10% ，每次施放技能+1% (4) 30% ，每次施放技能+1% (6) 55% ，每次施放技能+2%":
+      - strong: "2"
+      - generic: 法师
+    - generic "【绝命花妖】弈子们在参与击杀时收割敌人，获得： (1) 10法力值 (2)并为最低生命值的的友军治疗8%最大生命值。":
+      - strong: "1"
+      - generic: 绝命花妖
+    - generic: 平均名次
+    - strong: "4.26"
+    - generic: 前四率
+    - strong: 54.9%
+    - generic: 登顶率
+    - strong: 13.3%
+    - generic: 阵容样本
+    - strong: 7,191
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - button "查看重装战士 · 深红锋喙鸟的队员、装备、站位与统计":
+    - strong: 重装战士 · 深红锋喙鸟
+    - generic: ↗
+    - generic "厄斐琉斯":
+      - generic: 厄斐琉斯
+    - generic "黛安娜":
+      - generic "正义之手"
+      - generic "离子火花"
+      - generic "珠光护手"
+      - generic: 黛安娜
+    - generic "赫卡里姆":
+      - generic "圣盾使的誓约"
+      - generic "狂徒铠甲"
+      - generic "狂徒铠甲"
+      - generic: 赫卡里姆
+    - generic "雷恩加尔":
+      - generic "夜之锋刃"
+      - generic "鬼索的狂暴之刃"
+      - generic "泰坦的坚决"
+      - generic: 雷恩加尔
+    - generic "绯红印记树怪":
+      - generic: 绯红印记树怪
+    - generic "深红锋喙鸟 · 来源核心":
+      - generic "巨人杀手"
+      - generic "鬼索的狂暴之刃"
+      - generic "海妖之怒"
+      - generic: 深红锋喙鸟
+    - generic "苍蓝雕纹魔像":
+      - generic: 苍蓝雕纹魔像
+    - generic "塔里克":
+      - generic: 塔里克
+    - generic "【月蚀骑士】弈子们及其邻格友军获得攻击速度和法术加成。【月蚀骑士】弈子们额外获得100%。 (2) 7% ，7% (3) 12% ，10% (4) 16% ，14% (5) 20% ，18%":
+      - strong: "2"
+      - generic: 月蚀骑士
+    - generic "你的队伍获得10%攻击速度。【迅捷射手】弈子们每次攻击还会获得额外攻击速度，至多叠加10层。 (2)每次攻击+3% (3)每次攻击+5% (4)每次攻击+8% (5)每次攻击+12%":
+      - strong: "2"
+      - generic: 迅捷射手
+    - generic "(1)仅在登场了1个【宿敌】时激活。 【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 (1)【宿敌】收集参与击杀数，如果参与了对另一名【宿敌】的击杀，获得+3参与击杀数。 参与击杀会使【卡兹克】进化，永久为他提供你从【裁决使】、【迅捷射手】、【狂战士】或【法师】中选择的一项羁绊。 每参与8次击杀，【雷恩加尔】提供2/3/5金币。在参与30次击杀后，你的队伍获得5％物理加成，此后每次参与击杀再提升0.2% 。 【卡兹克】参与击杀数：0 / 0 【雷恩加尔】参与击杀数：0 已赚取的金币：0 (2)【宿敌】可以同时登场，并且他们的技能可以为彼此提供加成":
+      - strong: "1"
+      - generic: 宿敌
+    - generic "【狂战士】们获得10%全能吸血。此外，【狂战士】们造成额外伤害，对低于50%生命值的单位们翻倍。 (2) 12%额外伤害 (4) 25%额外伤害 (6) 40%额外伤害":
+      - strong: "2"
+      - generic: 狂战士
+    - generic "战斗开始时及降至50%生命值时，【重装战士】们获得持续10秒的最大生命值护盾。 (2) 18%最大生命值 (4) 30%最大生命值 (6) 40%最大生命值。在拥有护盾时获得5%伤害减免。":
+      - strong: "4"
+      - generic: 重装战士
+    - generic "将1名友军拖至你最强大的那个【塔里克】身上即可将他们进行配对，通过【塔里克】的技能为友军提供强大的加成。":
+      - strong: "1"
+      - generic: 宝石骑士
+    - generic "(3)使用【阿尔法印记】为1个【峡谷野怪】提供独特的增益 (5)每3场对战后，你的下一次商店会被【峡谷野怪】们占领。 (7)战斗开始时及之后每5秒，【峡谷野怪】们成长并获得 6% 6% 6% +5 +5 +50 +1 (10)自然之力！！！+2最大队伍规模":
+      - strong: "3"
+      - generic: 峡谷野怪
+    - generic: 平均名次
+    - strong: "4.62"
+    - generic: 前四率
+    - strong: 47.9%
+    - generic: 登顶率
+    - strong: 11.5%
+    - generic: 阵容样本
+    - strong: 6,991
+    - generic: 来源 · MetaTFT Comps
+    - generic: 查看完整阵容 →
+  - generic: ↗
+  - link "MetaTFT Comps":
+    - /url: https://www.metatft.com/comps
+  - generic: 数据库快照
+  - term: 来源时间
+  - definition: 2026/10/11 16:57
+  - term: 采集时间
+  - definition: 2026/10/11 16:57
+  - term: 统计补丁
+  - definition: 18.4b · 查询范围
+  - generic "版本依据"
+  - paragraph: 普通排位 · 黄金 · 近 3 天。指标属于阵容体系，包含不同变体；代表配置的装备不构成固定三件套联合统计。
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手

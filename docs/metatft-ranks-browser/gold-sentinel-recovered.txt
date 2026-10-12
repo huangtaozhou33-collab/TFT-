@@ -1,0 +1,5073 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 大数据
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - region "装备与棋子大数据":
+    - button "← 返回大数据"
+    - button "加入条件筛选 ↗"
+    - generic "苍蓝雕纹魔像"
+    - text: 4 费 / 棋子
+    - heading "苍蓝雕纹魔像" [level=1]
+    - paragraph: 峡谷野怪 · 重装战士 · 神谕
+    - generic: 段位
+    - combobox "统计段位":
+      - option "铂金及以上"
+      - option "全部段位"
+      - option "黑铁"
+      - option "青铜"
+      - option "白银"
+      - option "黄金" [selected]
+      - option "铂金"
+      - option "翡翠"
+      - option "钻石"
+      - option "大师"
+      - option "宗师"
+      - option "王者"
+    - heading "完整出装" [level=2]
+    - checkbox "奥恩神器" [checked]
+    - text: 奥恩神器
+    - checkbox "光明装备" [checked]
+    - text: 光明装备
+    - text: 最低样本
+    - combobox "出装最低样本":
+      - option "不限" [selected]
+      - option "100"
+      - option "500"
+      - option "1000"
+    - article:
+      - button "查看适应性头盔":
+        - generic "适应性头盔"
+      - button "查看适应性头盔":
+        - generic "适应性头盔"
+      - button "查看冕卫":
+        - generic "冕卫"
+      - generic: 均次
+      - strong: "2.82"
+      - generic: 前四
+      - strong: 79.8%
+      - generic: 登顶
+      - strong: 29.4%
+      - generic: 样本
+      - strong: "109"
+    - article:
+      - button "查看适应性头盔":
+        - generic "适应性头盔"
+      - button "查看薄暮法袍":
+        - generic "薄暮法袍"
+      - button "查看日炎斗篷":
+        - generic "日炎斗篷"
+      - generic: 均次
+      - strong: "2.82"
+      - generic: 前四
+      - strong: 83.6%
+      - generic: 登顶
+      - strong: 26.9%
+      - generic: 样本
+      - strong: "134"
+    - article:
+      - button "查看斗士纹章":
+        - generic "斗士纹章"
+      - button "查看圣盾使的誓约":
+        - generic "圣盾使的誓约"
+      - button "查看狂徒铠甲":
+        - generic "狂徒铠甲"
+      - generic: 均次
+      - strong: "2.88"
+      - generic: 前四
+      - strong: 83.8%
+      - generic: 登顶
+      - strong: 24.8%
+      - generic: 样本
+      - strong: "105"
+    - generic: MetaTFT Explorer
+    - generic: 统计版本 18.4b · 查询范围
+    - generic: 黄金
+    - generic "版本依据"
+    - paragraph: 共 332 条符合当前条件的来源出装，全部列出。来源可能限制候选数量，未返回的组合不能据此认定零样本。
+    - table:
+      - rowgroup:
+        - row "装备组合 均次 前四率 登顶率 样本":
+          - columnheader "装备组合"
+          - columnheader "均次"
+          - columnheader "前四率"
+          - columnheader "登顶率"
+          - columnheader "样本"
+      - rowgroup:
+        - row "查看适应性头盔 查看适应性头盔 查看冕卫 2.82 79.8% 29.4% 109":
+          - cell "查看适应性头盔 查看适应性头盔 查看冕卫":
+            - button "查看适应性头盔":
+              - generic "适应性头盔"
+            - button "查看适应性头盔":
+              - generic "适应性头盔"
+            - button "查看冕卫":
+              - generic "冕卫"
+          - cell "2.82"
+          - cell "79.8%"
+          - cell "29.4%"
+          - cell "109"
+        - row "查看适应性头盔 查看薄暮法袍 查看日炎斗篷 2.82 83.6% 26.9% 134":
+          - cell "查看适应性头盔 查看薄暮法袍 查看日炎斗篷":
+            - button "查看适应性头盔":
+              - generic "适应性头盔"
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍"
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷"
+          - cell "2.82"
+          - cell "83.6%"
+          - cell "26.9%"
+          - cell "134"
+        - row "查看斗士纹章 查看圣盾使的誓约 查看狂徒铠甲 2.88 83.8% 24.8% 105":
+          - cell "查看斗士纹章 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看斗士纹章":
+              - generic "斗士纹章"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲"
+          - cell "2.88"
+          - cell "83.8%"
+          - cell "24.8%"
+          - cell "105"
+        - row "查看棘刺背心 查看离子火花 查看圣盾使的誓约 2.95 80.9% 22.8% 136":
+          - cell "查看棘刺背心 查看离子火花 查看圣盾使的誓约":
+            - button "查看棘刺背心":
+              - generic "棘刺背心"
+            - button "查看离子火花":
+              - generic "离子火花"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+          - cell "2.95"
+          - cell "80.9%"
+          - cell "22.8%"
+          - cell "136"
+        - row "查看棘刺背心 查看薄暮法袍 查看圣盾使的誓约 2.96 80.5% 25.1% 195":
+          - cell "查看棘刺背心 查看薄暮法袍 查看圣盾使的誓约":
+            - button "查看棘刺背心":
+              - generic "棘刺背心"
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+          - cell "2.96"
+          - cell "80.5%"
+          - cell "25.1%"
+          - cell "195"
+        - row "查看适应性头盔 查看薄暮法袍 查看圣盾使的誓约 2.97 79.5% 28.1% 366":
+          - cell "查看适应性头盔 查看薄暮法袍 查看圣盾使的誓约":
+            - button "查看适应性头盔":
+              - generic "适应性头盔"
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+          - cell "2.97"
+          - cell "79.5%"
+          - cell "28.1%"
+          - cell "366"
+        - row "查看冕卫 查看巨龙之爪 查看坚定之心 2.99 78.0% 25.6% 82":
+          - cell "查看冕卫 查看巨龙之爪 查看坚定之心":
+            - button "查看冕卫":
+              - generic "冕卫"
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪"
+            - button "查看坚定之心":
+              - generic "坚定之心"
+          - cell "2.99"
+          - cell "78.0%"
+          - cell "25.6%"
+          - cell "82"
+        - row "查看冕卫 查看坚定之心 查看日炎斗篷 2.99 83.5% 24.2% 91":
+          - cell "查看冕卫 查看坚定之心 查看日炎斗篷":
+            - button "查看冕卫":
+              - generic "冕卫"
+            - button "查看坚定之心":
+              - generic "坚定之心"
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷"
+          - cell "2.99"
+          - cell "83.5%"
+          - cell "24.2%"
+          - cell "91"
+        - row "查看冕卫 查看冕卫 查看圣盾使的誓约 3 81.9% 16.9% 83":
+          - cell "查看冕卫 查看冕卫 查看圣盾使的誓约":
+            - button "查看冕卫":
+              - generic "冕卫"
+            - button "查看冕卫":
+              - generic "冕卫"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+          - cell "3"
+          - cell "81.9%"
+          - cell "16.9%"
+          - cell "83"
+        - row "查看适应性头盔 查看冕卫 查看巨龙之爪 3.01 82.6% 20.9% 86":
+          - cell "查看适应性头盔 查看冕卫 查看巨龙之爪":
+            - button "查看适应性头盔":
+              - generic "适应性头盔"
+            - button "查看冕卫":
+              - generic "冕卫"
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪"
+          - cell "3.01"
+          - cell "82.6%"
+          - cell "20.9%"
+          - cell "86"
+        - row "查看冕卫 查看离子火花 查看圣盾使的誓约 3.02 79.1% 26.7% 172":
+          - cell "查看冕卫 查看离子火花 查看圣盾使的誓约":
+            - button "查看冕卫":
+              - generic "冕卫"
+            - button "查看离子火花":
+              - generic "离子火花"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+          - cell "3.02"
+          - cell "79.1%"
+          - cell "26.7%"
+          - cell "172"
+        - row "查看适应性头盔 查看冕卫 查看圣盾使的誓约 3.02 78.8% 26.8% 679":
+          - cell "查看适应性头盔 查看冕卫 查看圣盾使的誓约":
+            - button "查看适应性头盔":
+              - generic "适应性头盔"
+            - button "查看冕卫":
+              - generic "冕卫"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+          - cell "3.02"
+          - cell "78.8%"
+          - cell "26.8%"
+          - cell "679"
+        - row "查看离子火花 查看圣盾使的誓约 查看圣盾使的誓约 3.03 77.6% 24.2% 380":
+          - cell "查看离子火花 查看圣盾使的誓约 查看圣盾使的誓约":
+            - button "查看离子火花":
+              - generic "离子火花"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+          - cell "3.03"
+          - cell "77.6%"
+          - cell "24.2%"
+          - cell "380"
+        - row "查看适应性头盔 查看蓝霸符 查看圣盾使的誓约 3.03 80.5% 23.0% 87":
+          - cell "查看适应性头盔 查看蓝霸符 查看圣盾使的誓约":
+            - button "查看适应性头盔":
+              - generic "适应性头盔"
+            - button "查看蓝霸符":
+              - generic "蓝霸符"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+          - cell "3.03"
+          - cell "80.5%"
+          - cell "23.0%"
+          - cell "87"
+        - row "查看冕卫 查看薄暮法袍 查看圣盾使的誓约 3.04 81.1% 23.6% 212":
+          - cell "查看冕卫 查看薄暮法袍 查看圣盾使的誓约":
+            - button "查看冕卫":
+              - generic "冕卫"
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+          - cell "3.04"
+          - cell "81.1%"
+          - cell "23.6%"
+          - cell "212"
+        - row "查看薄暮法袍 查看离子火花 查看日炎斗篷 3.06 81.0% 23.2% 142":
+          - cell "查看薄暮法袍 查看离子火花 查看日炎斗篷":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍"
+            - button "查看离子火花":
+              - generic "离子火花"
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷"
+          - cell "3.06"
+          - cell "81.0%"
+          - cell "23.2%"
+          - cell "142"
+        - row "查看斗士纹章 查看圣盾使的誓约 查看振奋盔甲 3.06 77.1% 26.5% 83":
+          - cell "查看斗士纹章 查看圣盾使的誓约 查看振奋盔甲":
+            - button "查看斗士纹章":
+              - generic "斗士纹章"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲"
+          - cell "3.06"
+          - cell "77.1%"
+          - cell "26.5%"
+          - cell "83"
+        - row "查看适应性头盔 查看离子火花 查看圣盾使的誓约 3.06 80.9% 23.7% 278":
+          - cell "查看适应性头盔 查看离子火花 查看圣盾使的誓约":
+            - button "查看适应性头盔":
+              - generic "适应性头盔"
+            - button "查看离子火花":
+              - generic "离子火花"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+          - cell "3.06"
+          - cell "80.9%"
+          - cell "23.7%"
+          - cell "278"
+        - row "查看薄暮法袍 查看圣盾使的誓约 查看日炎斗篷 3.06 77.3% 25.3% 450":
+          - cell "查看薄暮法袍 查看圣盾使的誓约 查看日炎斗篷":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷"
+          - cell "3.06"
+          - cell "77.3%"
+          - cell "25.3%"
+          - cell "450"
+        - row "查看冕卫 查看狂徒铠甲 查看狂徒铠甲 3.08 79.8% 24.4% 119":
+          - cell "查看冕卫 查看狂徒铠甲 查看狂徒铠甲":
+            - button "查看冕卫":
+              - generic "冕卫"
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲"
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲"
+          - cell "3.08"
+          - cell "79.8%"
+          - cell "24.4%"
+          - cell "119"
+        - row "查看巨龙之爪 查看离子火花 查看圣盾使的誓约 3.09 80.2% 22.5% 182":
+          - cell "查看巨龙之爪 查看离子火花 查看圣盾使的誓约":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪"
+            - button "查看离子火花":
+              - generic "离子火花"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+          - cell "3.09"
+          - cell "80.2%"
+          - cell "22.5%"
+          - cell "182"
+        - row "查看适应性头盔 查看圣盾使的誓约 查看坚定之心 3.09 76.8% 21.9% 384":
+          - cell "查看适应性头盔 查看圣盾使的誓约 查看坚定之心":
+            - button "查看适应性头盔":
+              - generic "适应性头盔"
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约"
+            - button "查看坚定之心":
+              - generic "坚定之心"
+          - cell "3.09"
+          - cell "76.8%"
+          - cell "21.9%"
+          - cell "384"
+        - row "查看棘刺背心 查看圣盾使的誓约 查看圣盾使的誓约 3.09 78.4% 21.3% 380":
+          - cell "查看棘刺背心 查看圣盾使的誓约 查看圣盾使的誓约":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.09"
+          - cell "78.4%"
+          - cell "21.3%"
+          - cell "380"
+        - row "查看适应性头盔 查看棘刺背心 查看圣盾使的誓约 3.1 80.6% 22.6% 288":
+          - cell "查看适应性头盔 查看棘刺背心 查看圣盾使的誓约":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.1"
+          - cell "80.6%"
+          - cell "22.6%"
+          - cell "288"
+        - row "查看薄暮法袍 查看离子火花 查看圣盾使的誓约 3.1 77.4% 24.3% 115":
+          - cell "查看薄暮法袍 查看离子火花 查看圣盾使的誓约":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.1"
+          - cell "77.4%"
+          - cell "24.3%"
+          - cell "115"
+        - row "查看适应性头盔 查看适应性头盔 查看适应性头盔 3.11 77.2% 24.0% 167":
+          - cell "查看适应性头盔 查看适应性头盔 查看适应性头盔":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+          - cell "3.11"
+          - cell "77.2%"
+          - cell "24.0%"
+          - cell "167"
+        - row "查看适应性头盔 查看巨龙之爪 查看坚定之心 3.12 77.6% 20.0% 85":
+          - cell "查看适应性头盔 查看巨龙之爪 查看坚定之心":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.12"
+          - cell "77.6%"
+          - cell "20.0%"
+          - cell "85"
+        - row "查看适应性头盔 查看离子火花 查看日炎斗篷 3.12 74.2% 29.0% 93":
+          - cell "查看适应性头盔 查看离子火花 查看日炎斗篷":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.12"
+          - cell "74.2%"
+          - cell "29.0%"
+          - cell "93"
+        - row "查看冕卫 查看薄暮法袍 查看日炎斗篷 3.12 76.3% 25.8% 97":
+          - cell "查看冕卫 查看薄暮法袍 查看日炎斗篷":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.12"
+          - cell "76.3%"
+          - cell "25.8%"
+          - cell "97"
+        - row "查看适应性头盔 查看坚定之心 查看日炎斗篷 3.13 78.2% 22.7% 119":
+          - cell "查看适应性头盔 查看坚定之心 查看日炎斗篷":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.13"
+          - cell "78.2%"
+          - cell "22.7%"
+          - cell "119"
+        - row "查看适应性头盔 查看冕卫 查看日炎斗篷 3.13 79.4% 23.5% 102":
+          - cell "查看适应性头盔 查看冕卫 查看日炎斗篷":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.13"
+          - cell "79.4%"
+          - cell "23.5%"
+          - cell "102"
+        - row "查看棘刺背心 查看圣盾使的誓约 查看坚定之心 3.13 79.8% 18.6% 183":
+          - cell "查看棘刺背心 查看圣盾使的誓约 查看坚定之心":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.13"
+          - cell "79.8%"
+          - cell "18.6%"
+          - cell "183"
+        - row "查看圣盾使的誓约 查看圣盾使的誓约 查看坚定之心 3.14 78.3% 21.9% 517":
+          - cell "查看圣盾使的誓约 查看圣盾使的誓约 查看坚定之心":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.14"
+          - cell "78.3%"
+          - cell "21.9%"
+          - cell "517"
+        - row "查看冕卫 查看圣盾使的誓约 查看圣盾使的誓约 3.15 77.0% 23.0% 848":
+          - cell "查看冕卫 查看圣盾使的誓约 查看圣盾使的誓约":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.15"
+          - cell "77.0%"
+          - cell "23.0%"
+          - cell "848"
+        - row "查看主宰纹章 查看适应性头盔 查看圣盾使的誓约 3.15 74.4% 22.1% 86":
+          - cell "查看主宰纹章 查看适应性头盔 查看圣盾使的誓约":
+            - button "查看主宰纹章":
+              - generic "主宰纹章":
+                - generic: 主
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.15"
+          - cell "74.4%"
+          - cell "22.1%"
+          - cell "86"
+        - row "查看适应性头盔 查看适应性头盔 查看狂徒铠甲 3.16 73.3% 27.6% 232":
+          - cell "查看适应性头盔 查看适应性头盔 查看狂徒铠甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.16"
+          - cell "73.3%"
+          - cell "27.6%"
+          - cell "232"
+        - row "查看适应性头盔 查看适应性头盔 查看振奋盔甲 3.16 77.8% 20.4% 216":
+          - cell "查看适应性头盔 查看适应性头盔 查看振奋盔甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.16"
+          - cell "77.8%"
+          - cell "20.4%"
+          - cell "216"
+        - row "查看离子火花 查看圣盾使的誓约 查看坚定之心 3.16 76.4% 21.8% 110":
+          - cell "查看离子火花 查看圣盾使的誓约 查看坚定之心":
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.16"
+          - cell "76.4%"
+          - cell "21.8%"
+          - cell "110"
+        - row "查看巨龙之爪 查看薄暮法袍 查看坚定之心 3.17 76.9% 26.0% 104":
+          - cell "查看巨龙之爪 查看薄暮法袍 查看坚定之心":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.17"
+          - cell "76.9%"
+          - cell "26.0%"
+          - cell "104"
+        - row "查看薄暮法袍 查看圣盾使的誓约 查看圣盾使的誓约 3.18 75.9% 22.7% 582":
+          - cell "查看薄暮法袍 查看圣盾使的誓约 查看圣盾使的誓约":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.18"
+          - cell "75.9%"
+          - cell "22.7%"
+          - cell "582"
+        - row "查看冕卫 查看离子火花 查看日炎斗篷 3.18 73.6% 25.3% 91":
+          - cell "查看冕卫 查看离子火花 查看日炎斗篷":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.18"
+          - cell "73.6%"
+          - cell "25.3%"
+          - cell "91"
+        - row "查看适应性头盔 查看薄暮法袍 查看狂徒铠甲 3.19 77.8% 19.0% 153":
+          - cell "查看适应性头盔 查看薄暮法袍 查看狂徒铠甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.19"
+          - cell "77.8%"
+          - cell "19.0%"
+          - cell "153"
+        - row "查看适应性头盔 查看适应性头盔 查看圣盾使的誓约 3.19 76.5% 22.1% 1,274":
+          - cell "查看适应性头盔 查看适应性头盔 查看圣盾使的誓约":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.19"
+          - cell "76.5%"
+          - cell "22.1%"
+          - cell "1,274"
+        - row "查看适应性头盔 查看巨龙之爪 查看圣盾使的誓约 3.2 78.1% 22.1% 430":
+          - cell "查看适应性头盔 查看巨龙之爪 查看圣盾使的誓约":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.2"
+          - cell "78.1%"
+          - cell "22.1%"
+          - cell "430"
+        - row "查看适应性头盔 查看棘刺背心 查看日炎斗篷 3.2 76.2% 21.0% 105":
+          - cell "查看适应性头盔 查看棘刺背心 查看日炎斗篷":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.2"
+          - cell "76.2%"
+          - cell "21.0%"
+          - cell "105"
+        - row "查看适应性头盔 查看圣盾使的誓约 查看日炎斗篷 3.2 76.3% 21.9% 540":
+          - cell "查看适应性头盔 查看圣盾使的誓约 查看日炎斗篷":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.2"
+          - cell "76.3%"
+          - cell "21.9%"
+          - cell "540"
+        - row "查看适应性头盔 查看薄暮法袍 查看振奋盔甲 3.21 76.9% 24.6% 134":
+          - cell "查看适应性头盔 查看薄暮法袍 查看振奋盔甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.21"
+          - cell "76.9%"
+          - cell "24.6%"
+          - cell "134"
+        - row "查看棘刺背心 查看冕卫 查看振奋盔甲 3.21 73.4% 23.9% 109":
+          - cell "查看棘刺背心 查看冕卫 查看振奋盔甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.21"
+          - cell "73.4%"
+          - cell "23.9%"
+          - cell "109"
+        - row "查看棘刺背心 查看冕卫 查看圣盾使的誓约 3.22 74.6% 23.1% 134":
+          - cell "查看棘刺背心 查看冕卫 查看圣盾使的誓约":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.22"
+          - cell "74.6%"
+          - cell "23.1%"
+          - cell "134"
+        - row "查看适应性头盔 查看冕卫 查看狂徒铠甲 3.23 74.9% 21.5% 251":
+          - cell "查看适应性头盔 查看冕卫 查看狂徒铠甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.23"
+          - cell "74.9%"
+          - cell "21.5%"
+          - cell "251"
+        - row "查看圣盾使的誓约 查看坚定之心 查看日炎斗篷 3.23 73.8% 25.7% 362":
+          - cell "查看圣盾使的誓约 查看坚定之心 查看日炎斗篷":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.23"
+          - cell "73.8%"
+          - cell "25.7%"
+          - cell "362"
+        - row "查看薄暮法袍 查看离子火花 查看狂徒铠甲 3.23 75.2% 26.5% 113":
+          - cell "查看薄暮法袍 查看离子火花 查看狂徒铠甲":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.23"
+          - cell "75.2%"
+          - cell "26.5%"
+          - cell "113"
+        - row "查看适应性头盔 查看冕卫 查看石像鬼石板甲 3.23 74.3% 23.7% 342":
+          - cell "查看适应性头盔 查看冕卫 查看石像鬼石板甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.23"
+          - cell "74.3%"
+          - cell "23.7%"
+          - cell "342"
+        - row "查看冕卫 查看巨龙之爪 查看圣盾使的誓约 3.24 76.7% 20.2% 262":
+          - cell "查看冕卫 查看巨龙之爪 查看圣盾使的誓约":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.24"
+          - cell "76.7%"
+          - cell "20.2%"
+          - cell "262"
+        - row "查看适应性头盔 查看棘刺背心 查看巨龙之爪 3.24 76.4% 20.0% 140":
+          - cell "查看适应性头盔 查看棘刺背心 查看巨龙之爪":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+          - cell "3.24"
+          - cell "76.4%"
+          - cell "20.0%"
+          - cell "140"
+        - row "查看离子火花 查看圣盾使的誓约 查看日炎斗篷 3.25 72.8% 21.5% 302":
+          - cell "查看离子火花 查看圣盾使的誓约 查看日炎斗篷":
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.25"
+          - cell "72.8%"
+          - cell "21.5%"
+          - cell "302"
+        - row "查看棘刺背心 查看巨龙之爪 查看离子火花 3.25 74.6% 20.9% 134":
+          - cell "查看棘刺背心 查看巨龙之爪 查看离子火花":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+          - cell "3.25"
+          - cell "74.6%"
+          - cell "20.9%"
+          - cell "134"
+        - row "查看棘刺背心 查看薄暮法袍 查看日炎斗篷 3.25 77.2% 21.2% 189":
+          - cell "查看棘刺背心 查看薄暮法袍 查看日炎斗篷":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.25"
+          - cell "77.2%"
+          - cell "21.2%"
+          - cell "189"
+        - row "查看离子火花 查看圣盾使的誓约 查看狂徒铠甲 3.26 73.9% 25.4% 464":
+          - cell "查看离子火花 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.26"
+          - cell "73.9%"
+          - cell "25.4%"
+          - cell "464"
+        - row "查看冕卫 查看坚定之心 查看狂徒铠甲 3.26 72.8% 22.8% 162":
+          - cell "查看冕卫 查看坚定之心 查看狂徒铠甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.26"
+          - cell "72.8%"
+          - cell "22.8%"
+          - cell "162"
+        - row "查看适应性头盔 查看石像鬼石板甲 查看离子火花 3.26 73.3% 23.6% 165":
+          - cell "查看适应性头盔 查看石像鬼石板甲 查看离子火花":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+          - cell "3.26"
+          - cell "73.3%"
+          - cell "23.6%"
+          - cell "165"
+        - row "查看适应性头盔 查看巨龙之爪 查看日炎斗篷 3.26 75.6% 20.2% 168":
+          - cell "查看适应性头盔 查看巨龙之爪 查看日炎斗篷":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.26"
+          - cell "75.6%"
+          - cell "20.2%"
+          - cell "168"
+        - row "查看斗士纹章 查看石像鬼石板甲 查看日炎斗篷 3.26 73.0% 26.2% 126":
+          - cell "查看斗士纹章 查看石像鬼石板甲 查看日炎斗篷":
+            - button "查看斗士纹章":
+              - generic "斗士纹章":
+                - generic: 斗
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.26"
+          - cell "73.0%"
+          - cell "26.2%"
+          - cell "126"
+        - row "查看适应性头盔 查看日炎斗篷 查看狂徒铠甲 3.27 76.0% 19.2% 333":
+          - cell "查看适应性头盔 查看日炎斗篷 查看狂徒铠甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.27"
+          - cell "76.0%"
+          - cell "19.2%"
+          - cell "333"
+        - row "查看适应性头盔 查看冕卫 查看振奋盔甲 3.27 71.8% 18.8% 181":
+          - cell "查看适应性头盔 查看冕卫 查看振奋盔甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.27"
+          - cell "71.8%"
+          - cell "18.8%"
+          - cell "181"
+        - row "查看棘刺背心 查看离子火花 查看振奋盔甲 3.27 73.6% 27.9% 140":
+          - cell "查看棘刺背心 查看离子火花 查看振奋盔甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.27"
+          - cell "73.6%"
+          - cell "27.9%"
+          - cell "140"
+        - row "查看适应性头盔 查看薄暮法袍 查看石像鬼石板甲 3.27 74.3% 23.5% 230":
+          - cell "查看适应性头盔 查看薄暮法袍 查看石像鬼石板甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.27"
+          - cell "74.3%"
+          - cell "23.5%"
+          - cell "230"
+        - row "查看冕卫 查看圣盾使的誓约 查看坚定之心 3.28 76.1% 24.4% 176":
+          - cell "查看冕卫 查看圣盾使的誓约 查看坚定之心":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.28"
+          - cell "76.1%"
+          - cell "24.4%"
+          - cell "176"
+        - row "查看巨龙之爪 查看薄暮法袍 查看圣盾使的誓约 3.29 74.1% 22.7% 278":
+          - cell "查看巨龙之爪 查看薄暮法袍 查看圣盾使的誓约":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.29"
+          - cell "74.1%"
+          - cell "22.7%"
+          - cell "278"
+        - row "查看薄暮法袍 查看坚定之心 查看日炎斗篷 3.29 72.2% 25.1% 187":
+          - cell "查看薄暮法袍 查看坚定之心 查看日炎斗篷":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.29"
+          - cell "72.2%"
+          - cell "25.1%"
+          - cell "187"
+        - row "查看棘刺背心 查看圣盾使的誓约 查看振奋盔甲 3.29 72.3% 22.4% 477":
+          - cell "查看棘刺背心 查看圣盾使的誓约 查看振奋盔甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.29"
+          - cell "72.3%"
+          - cell "22.4%"
+          - cell "477"
+        - row "查看冕卫 查看圣盾使的誓约 查看日炎斗篷 3.29 73.8% 22.5% 267":
+          - cell "查看冕卫 查看圣盾使的誓约 查看日炎斗篷":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.29"
+          - cell "73.8%"
+          - cell "22.5%"
+          - cell "267"
+        - row "查看主宰纹章 查看圣盾使的誓约 查看狂徒铠甲 3.3 71.6% 27.2% 81":
+          - cell "查看主宰纹章 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看主宰纹章":
+              - generic "主宰纹章":
+                - generic: 主
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.3"
+          - cell "71.6%"
+          - cell "27.2%"
+          - cell "81"
+        - row "查看冕卫 查看日炎斗篷 查看狂徒铠甲 3.3 72.8% 21.0% 272":
+          - cell "查看冕卫 查看日炎斗篷 查看狂徒铠甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.3"
+          - cell "72.8%"
+          - cell "21.0%"
+          - cell "272"
+        - row "查看适应性头盔 查看离子火花 查看振奋盔甲 3.31 71.6% 20.2% 109":
+          - cell "查看适应性头盔 查看离子火花 查看振奋盔甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.31"
+          - cell "71.6%"
+          - cell "20.2%"
+          - cell "109"
+        - row "查看冕卫 查看薄暮法袍 查看狂徒铠甲 3.32 72.8% 19.9% 136":
+          - cell "查看冕卫 查看薄暮法袍 查看狂徒铠甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.32"
+          - cell "72.8%"
+          - cell "19.9%"
+          - cell "136"
+        - row "查看冕卫 查看离子火花 查看振奋盔甲 3.32 72.9% 18.7% 107":
+          - cell "查看冕卫 查看离子火花 查看振奋盔甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.32"
+          - cell "72.9%"
+          - cell "18.7%"
+          - cell "107"
+        - row "查看适应性头盔 查看离子火花 查看狂徒铠甲 3.32 74.1% 21.5% 135":
+          - cell "查看适应性头盔 查看离子火花 查看狂徒铠甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.32"
+          - cell "74.1%"
+          - cell "21.5%"
+          - cell "135"
+        - row "查看斗士纹章 查看石像鬼石板甲 查看圣盾使的誓约 3.32 75.4% 19.2% 167":
+          - cell "查看斗士纹章 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看斗士纹章":
+              - generic "斗士纹章":
+                - generic: 斗
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.32"
+          - cell "75.4%"
+          - cell "19.2%"
+          - cell "167"
+        - row "查看冕卫 查看石像鬼石板甲 查看离子火花 3.33 74.2% 24.2% 182":
+          - cell "查看冕卫 查看石像鬼石板甲 查看离子火花":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+          - cell "3.33"
+          - cell "74.2%"
+          - cell "24.2%"
+          - cell "182"
+        - row "查看圣盾使的誓约 查看圣盾使的誓约 查看圣盾使的誓约 3.33 72.8% 21.6% 3,689":
+          - cell "查看圣盾使的誓约 查看圣盾使的誓约 查看圣盾使的誓约":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.33"
+          - cell "72.8%"
+          - cell "21.6%"
+          - cell "3,689"
+        - row "查看薄暮法袍 查看振奋盔甲 查看日炎斗篷 3.33 72.4% 22.6% 442":
+          - cell "查看薄暮法袍 查看振奋盔甲 查看日炎斗篷":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.33"
+          - cell "72.4%"
+          - cell "22.6%"
+          - cell "442"
+        - row "查看棘刺背心 查看圣盾使的誓约 查看日炎斗篷 3.34 75.4% 17.7% 350":
+          - cell "查看棘刺背心 查看圣盾使的誓约 查看日炎斗篷":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.34"
+          - cell "75.4%"
+          - cell "17.7%"
+          - cell "350"
+        - row "查看冕卫 查看离子火花 查看狂徒铠甲 3.34 70.7% 24.4% 123":
+          - cell "查看冕卫 查看离子火花 查看狂徒铠甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.34"
+          - cell "70.7%"
+          - cell "24.4%"
+          - cell "123"
+        - row "查看离子火花 查看日炎斗篷 查看狂徒铠甲 3.34 72.2% 21.3% 352":
+          - cell "查看离子火花 查看日炎斗篷 查看狂徒铠甲":
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.34"
+          - cell "72.2%"
+          - cell "21.3%"
+          - cell "352"
+        - row "查看适应性头盔 查看振奋盔甲 查看振奋盔甲 3.35 75.2% 15.6% 109":
+          - cell "查看适应性头盔 查看振奋盔甲 查看振奋盔甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.35"
+          - cell "75.2%"
+          - cell "15.6%"
+          - cell "109"
+        - row "查看离子火花 查看坚定之心 查看日炎斗篷 3.36 76.5% 14.3% 119":
+          - cell "查看离子火花 查看坚定之心 查看日炎斗篷":
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.36"
+          - cell "76.5%"
+          - cell "14.3%"
+          - cell "119"
+        - row "查看离子火花 查看狂徒铠甲 查看狂徒铠甲 3.36 71.0% 21.0% 138":
+          - cell "查看离子火花 查看狂徒铠甲 查看狂徒铠甲":
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.36"
+          - cell "71.0%"
+          - cell "21.0%"
+          - cell "138"
+        - row "查看适应性头盔 查看狂徒铠甲 查看狂徒铠甲 3.37 71.3% 19.1% 157":
+          - cell "查看适应性头盔 查看狂徒铠甲 查看狂徒铠甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.37"
+          - cell "71.3%"
+          - cell "19.1%"
+          - cell "157"
+        - row "查看巨龙之爪 查看圣盾使的誓约 查看坚定之心 3.37 74.9% 18.6% 295":
+          - cell "查看巨龙之爪 查看圣盾使的誓约 查看坚定之心":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.37"
+          - cell "74.9%"
+          - cell "18.6%"
+          - cell "295"
+        - row "查看棘刺背心 查看薄暮法袍 查看振奋盔甲 3.37 72.6% 21.9% 219":
+          - cell "查看棘刺背心 查看薄暮法袍 查看振奋盔甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.37"
+          - cell "72.6%"
+          - cell "21.9%"
+          - cell "219"
+        - row "查看石像鬼石板甲 查看振奋盔甲 查看光明版狂徒铠甲 3.38 73.5% 22.2% 257":
+          - cell "查看石像鬼石板甲 查看振奋盔甲 查看光明版狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看光明版狂徒铠甲":
+              - generic "光明版狂徒铠甲":
+                - generic: 光
+          - cell "3.38"
+          - cell "73.5%"
+          - cell "22.2%"
+          - cell "257"
+        - row "查看斗士纹章 查看振奋盔甲 查看狂徒铠甲 3.38 70.2% 25.0% 84":
+          - cell "查看斗士纹章 查看振奋盔甲 查看狂徒铠甲":
+            - button "查看斗士纹章":
+              - generic "斗士纹章":
+                - generic: 斗
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.38"
+          - cell "70.2%"
+          - cell "25.0%"
+          - cell "84"
+        - row "查看棘刺背心 查看离子火花 查看日炎斗篷 3.38 72.8% 18.4% 136":
+          - cell "查看棘刺背心 查看离子火花 查看日炎斗篷":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.38"
+          - cell "72.8%"
+          - cell "18.4%"
+          - cell "136"
+        - row "查看适应性头盔 查看坚定之心 查看狂徒铠甲 3.38 71.5% 20.9% 239":
+          - cell "查看适应性头盔 查看坚定之心 查看狂徒铠甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.38"
+          - cell "71.5%"
+          - cell "20.9%"
+          - cell "239"
+        - row "查看冕卫 查看圣盾使的誓约 查看振奋盔甲 3.39 70.6% 19.5% 538":
+          - cell "查看冕卫 查看圣盾使的誓约 查看振奋盔甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.39"
+          - cell "70.6%"
+          - cell "19.5%"
+          - cell "538"
+        - row "查看石像鬼石板甲 查看圣盾使的誓约 查看光明版振奋盔甲 3.39 69.0% 21.4% 84":
+          - cell "查看石像鬼石板甲 查看圣盾使的誓约 查看光明版振奋盔甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看光明版振奋盔甲":
+              - generic "光明版振奋盔甲":
+                - generic: 光
+          - cell "3.39"
+          - cell "69.0%"
+          - cell "21.4%"
+          - cell "84"
+        - row "查看斗士纹章 查看圣盾使的誓约 查看圣盾使的誓约 3.39 68.7% 30.3% 99":
+          - cell "查看斗士纹章 查看圣盾使的誓约 查看圣盾使的誓约":
+            - button "查看斗士纹章":
+              - generic "斗士纹章":
+                - generic: 斗
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.39"
+          - cell "68.7%"
+          - cell "30.3%"
+          - cell "99"
+        - row "查看适应性头盔 查看振奋盔甲 查看坚定之心 3.39 72.2% 23.3% 180":
+          - cell "查看适应性头盔 查看振奋盔甲 查看坚定之心":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.39"
+          - cell "72.2%"
+          - cell "23.3%"
+          - cell "180"
+        - row "查看棘刺背心 查看薄暮法袍 查看坚定之心 3.4 74.0% 18.8% 96":
+          - cell "查看棘刺背心 查看薄暮法袍 查看坚定之心":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.4"
+          - cell "74.0%"
+          - cell "18.8%"
+          - cell "96"
+        - row "查看薄暮法袍 查看坚定之心 查看狂徒铠甲 3.4 74.2% 20.7% 256":
+          - cell "查看薄暮法袍 查看坚定之心 查看狂徒铠甲":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.4"
+          - cell "74.2%"
+          - cell "20.7%"
+          - cell "256"
+        - row "查看巨龙之爪 查看离子火花 查看日炎斗篷 3.4 70.5% 19.5% 190":
+          - cell "查看巨龙之爪 查看离子火花 查看日炎斗篷":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.4"
+          - cell "70.5%"
+          - cell "19.5%"
+          - cell "190"
+        - row "查看薄暮法袍 查看圣盾使的誓约 查看坚定之心 3.4 71.4% 25.0% 224":
+          - cell "查看薄暮法袍 查看圣盾使的誓约 查看坚定之心":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.4"
+          - cell "71.4%"
+          - cell "25.0%"
+          - cell "224"
+        - row "查看适应性头盔 查看圣盾使的誓约 查看圣盾使的誓约 3.41 72.5% 18.6% 5,793":
+          - cell "查看适应性头盔 查看圣盾使的誓约 查看圣盾使的誓约":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.41"
+          - cell "72.5%"
+          - cell "18.6%"
+          - cell "5,793"
+        - row "查看薄暮法袍 查看圣盾使的誓约 查看振奋盔甲 3.41 70.0% 19.3% 493":
+          - cell "查看薄暮法袍 查看圣盾使的誓约 查看振奋盔甲":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.41"
+          - cell "70.0%"
+          - cell "19.3%"
+          - cell "493"
+        - row "查看冕卫 查看薄暮法袍 查看振奋盔甲 3.41 67.7% 22.8% 127":
+          - cell "查看冕卫 查看薄暮法袍 查看振奋盔甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.41"
+          - cell "67.7%"
+          - cell "22.8%"
+          - cell "127"
+        - row "查看适应性头盔 查看巨龙之爪 查看狂徒铠甲 3.41 72.4% 18.3% 377":
+          - cell "查看适应性头盔 查看巨龙之爪 查看狂徒铠甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.41"
+          - cell "72.4%"
+          - cell "18.3%"
+          - cell "377"
+        - row "查看振奋盔甲 查看振奋盔甲 查看坚定之心 3.41 71.0% 15.0% 107":
+          - cell "查看振奋盔甲 查看振奋盔甲 查看坚定之心":
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.41"
+          - cell "71.0%"
+          - cell "15.0%"
+          - cell "107"
+        - row "查看适应性头盔 查看振奋盔甲 查看狂徒铠甲 3.41 72.0% 19.2% 610":
+          - cell "查看适应性头盔 查看振奋盔甲 查看狂徒铠甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.41"
+          - cell "72.0%"
+          - cell "19.2%"
+          - cell "610"
+        - row "查看黎明圣盾 查看圣盾使的誓约 查看狂徒铠甲 3.41 67.8% 19.5% 87":
+          - cell "查看黎明圣盾 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看黎明圣盾":
+              - generic "黎明圣盾":
+                - generic: 黎
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.41"
+          - cell "67.8%"
+          - cell "19.5%"
+          - cell "87"
+        - row "查看适应性头盔 查看圣盾使的誓约 查看振奋盔甲 3.42 72.0% 19.3% 1,401":
+          - cell "查看适应性头盔 查看圣盾使的誓约 查看振奋盔甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.42"
+          - cell "72.0%"
+          - cell "19.3%"
+          - cell "1,401"
+        - row "查看适应性头盔 查看适应性头盔 查看石像鬼石板甲 3.42 70.9% 22.6% 265":
+          - cell "查看适应性头盔 查看适应性头盔 查看石像鬼石板甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.42"
+          - cell "70.9%"
+          - cell "22.6%"
+          - cell "265"
+        - row "查看巨龙之爪 查看坚定之心 查看日炎斗篷 3.42 71.4% 22.0% 364":
+          - cell "查看巨龙之爪 查看坚定之心 查看日炎斗篷":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.42"
+          - cell "71.4%"
+          - cell "22.0%"
+          - cell "364"
+        - row "查看巨龙之爪 查看离子火花 查看坚定之心 3.43 68.5% 18.0% 89":
+          - cell "查看巨龙之爪 查看离子火花 查看坚定之心":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.43"
+          - cell "68.5%"
+          - cell "18.0%"
+          - cell "89"
+        - row "查看圣盾使的誓约 查看振奋盔甲 查看振奋盔甲 3.43 70.2% 21.6% 342":
+          - cell "查看圣盾使的誓约 查看振奋盔甲 查看振奋盔甲":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.43"
+          - cell "70.2%"
+          - cell "21.6%"
+          - cell "342"
+        - row "查看冕卫 查看巨龙之爪 查看狂徒铠甲 3.43 69.8% 20.6% 321":
+          - cell "查看冕卫 查看巨龙之爪 查看狂徒铠甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.43"
+          - cell "69.8%"
+          - cell "20.6%"
+          - cell "321"
+        - row "查看棘刺背心 查看坚定之心 查看日炎斗篷 3.44 71.0% 17.2% 169":
+          - cell "查看棘刺背心 查看坚定之心 查看日炎斗篷":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.44"
+          - cell "71.0%"
+          - cell "17.2%"
+          - cell "169"
+        - row "查看适应性头盔 查看棘刺背心 查看狂徒铠甲 3.44 70.4% 21.8% 243":
+          - cell "查看适应性头盔 查看棘刺背心 查看狂徒铠甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.44"
+          - cell "70.4%"
+          - cell "21.8%"
+          - cell "243"
+        - row "查看薄暮法袍 查看振奋盔甲 查看狂徒铠甲 3.44 69.9% 21.2% 481":
+          - cell "查看薄暮法袍 查看振奋盔甲 查看狂徒铠甲":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.44"
+          - cell "69.9%"
+          - cell "21.2%"
+          - cell "481"
+        - row "查看棘刺背心 查看石像鬼石板甲 查看离子火花 3.45 70.7% 19.8% 222":
+          - cell "查看棘刺背心 查看石像鬼石板甲 查看离子火花":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+          - cell "3.45"
+          - cell "70.7%"
+          - cell "19.8%"
+          - cell "222"
+        - row "查看冕卫 查看石像鬼石板甲 查看日炎斗篷 3.45 70.0% 22.1% 524":
+          - cell "查看冕卫 查看石像鬼石板甲 查看日炎斗篷":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.45"
+          - cell "70.0%"
+          - cell "22.1%"
+          - cell "524"
+        - row "查看巨龙之爪 查看离子火花 查看狂徒铠甲 3.46 73.3% 20.5% 292":
+          - cell "查看巨龙之爪 查看离子火花 查看狂徒铠甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.46"
+          - cell "73.3%"
+          - cell "20.5%"
+          - cell "292"
+        - row "查看离子火花 查看振奋盔甲 查看日炎斗篷 3.46 68.6% 21.2% 306":
+          - cell "查看离子火花 查看振奋盔甲 查看日炎斗篷":
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.46"
+          - cell "68.6%"
+          - cell "21.2%"
+          - cell "306"
+        - row "查看棘刺背心 查看巨龙之爪 查看坚定之心 3.47 69.4% 21.3% 216":
+          - cell "查看棘刺背心 查看巨龙之爪 查看坚定之心":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.47"
+          - cell "69.4%"
+          - cell "21.3%"
+          - cell "216"
+        - row "查看离子火花 查看振奋盔甲 查看狂徒铠甲 3.47 67.9% 21.8% 408":
+          - cell "查看离子火花 查看振奋盔甲 查看狂徒铠甲":
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.47"
+          - cell "67.9%"
+          - cell "21.8%"
+          - cell "408"
+        - row "查看石像鬼石板甲 查看离子火花 查看圣盾使的誓约 3.47 70.6% 21.9% 640":
+          - cell "查看石像鬼石板甲 查看离子火花 查看圣盾使的誓约":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.47"
+          - cell "70.6%"
+          - cell "21.9%"
+          - cell "640"
+        - row "查看离子火花 查看坚定之心 查看狂徒铠甲 3.47 68.8% 24.4% 160":
+          - cell "查看离子火花 查看坚定之心 查看狂徒铠甲":
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.47"
+          - cell "68.8%"
+          - cell "24.4%"
+          - cell "160"
+        - row "查看棘刺背心 查看巨龙之爪 查看圣盾使的誓约 3.47 71.3% 20.5% 513":
+          - cell "查看棘刺背心 查看巨龙之爪 查看圣盾使的誓约":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.47"
+          - cell "71.3%"
+          - cell "20.5%"
+          - cell "513"
+        - row "查看适应性头盔 查看棘刺背心 查看振奋盔甲 3.48 70.8% 21.7% 161":
+          - cell "查看适应性头盔 查看棘刺背心 查看振奋盔甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.48"
+          - cell "70.8%"
+          - cell "21.7%"
+          - cell "161"
+        - row "查看适应性头盔 查看圣盾使的誓约 查看狂徒铠甲 3.49 70.5% 20.4% 2,339":
+          - cell "查看适应性头盔 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.49"
+          - cell "70.5%"
+          - cell "20.4%"
+          - cell "2,339"
+        - row "查看斗士纹章 查看石像鬼石板甲 查看振奋盔甲 3.49 69.1% 21.6% 194":
+          - cell "查看斗士纹章 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看斗士纹章":
+              - generic "斗士纹章":
+                - generic: 斗
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.49"
+          - cell "69.1%"
+          - cell "21.6%"
+          - cell "194"
+        - row "查看冕卫 查看巨龙之爪 查看振奋盔甲 3.49 70.6% 17.2% 204":
+          - cell "查看冕卫 查看巨龙之爪 查看振奋盔甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.49"
+          - cell "70.6%"
+          - cell "17.2%"
+          - cell "204"
+        - row "查看冕卫 查看石像鬼石板甲 查看坚定之心 3.49 70.6% 18.9% 265":
+          - cell "查看冕卫 查看石像鬼石板甲 查看坚定之心":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.49"
+          - cell "70.6%"
+          - cell "18.9%"
+          - cell "265"
+        - row "查看圣盾使的誓约 查看日炎斗篷 查看狂徒铠甲 3.49 70.8% 19.9% 1,420":
+          - cell "查看圣盾使的誓约 查看日炎斗篷 查看狂徒铠甲":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.49"
+          - cell "70.8%"
+          - cell "19.9%"
+          - cell "1,420"
+        - row "查看薄暮法袍 查看圣盾使的誓约 查看狂徒铠甲 3.5 69.2% 20.7% 730":
+          - cell "查看薄暮法袍 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.5"
+          - cell "69.2%"
+          - cell "20.7%"
+          - cell "730"
+        - row "查看石像鬼石板甲 查看光明版圣盾使的誓约 查看狂徒铠甲 3.5 68.0% 28.4% 222":
+          - cell "查看石像鬼石板甲 查看光明版圣盾使的誓约 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看光明版圣盾使的誓约":
+              - generic "光明版圣盾使的誓约":
+                - generic: 光
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.5"
+          - cell "68.0%"
+          - cell "28.4%"
+          - cell "222"
+        - row "查看主宰纹章 查看石像鬼石板甲 查看圣盾使的誓约 3.5 70.3% 21.0% 138":
+          - cell "查看主宰纹章 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看主宰纹章":
+              - generic "主宰纹章":
+                - generic: 主
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.5"
+          - cell "70.3%"
+          - cell "21.0%"
+          - cell "138"
+        - row "查看薄暮法袍 查看振奋盔甲 查看坚定之心 3.5 70.1% 19.9% 211":
+          - cell "查看薄暮法袍 查看振奋盔甲 查看坚定之心":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.5"
+          - cell "70.1%"
+          - cell "19.9%"
+          - cell "211"
+        - row "查看振奋盔甲 查看振奋盔甲 查看日炎斗篷 3.5 72.7% 19.3% 161":
+          - cell "查看振奋盔甲 查看振奋盔甲 查看日炎斗篷":
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.5"
+          - cell "72.7%"
+          - cell "19.3%"
+          - cell "161"
+        - row "查看适应性头盔 查看石像鬼石板甲 查看圣盾使的誓约 3.51 69.0% 20.5% 2,259":
+          - cell "查看适应性头盔 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.51"
+          - cell "69.0%"
+          - cell "20.5%"
+          - cell "2,259"
+        - row "查看石像鬼石板甲 查看坚定之心 查看坚定之心 3.51 68.3% 19.8% 101":
+          - cell "查看石像鬼石板甲 查看坚定之心 查看坚定之心":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.51"
+          - cell "68.3%"
+          - cell "19.8%"
+          - cell "101"
+        - row "查看圣盾使的誓约 查看圣盾使的誓约 查看振奋盔甲 3.51 69.5% 19.1% 1,884":
+          - cell "查看圣盾使的誓约 查看圣盾使的誓约 查看振奋盔甲":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.51"
+          - cell "69.5%"
+          - cell "19.1%"
+          - cell "1,884"
+        - row "查看光明版石像鬼石板甲 查看圣盾使的誓约 查看狂徒铠甲 3.52 67.5% 26.3% 114":
+          - cell "查看光明版石像鬼石板甲 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看光明版石像鬼石板甲":
+              - generic "光明版石像鬼石板甲":
+                - generic: 光
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.52"
+          - cell "67.5%"
+          - cell "26.3%"
+          - cell "114"
+        - row "查看棘刺背心 查看薄暮法袍 查看狂徒铠甲 3.52 69.6% 21.8% 293":
+          - cell "查看棘刺背心 查看薄暮法袍 查看狂徒铠甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.52"
+          - cell "69.6%"
+          - cell "21.8%"
+          - cell "293"
+        - row "查看冕卫 查看圣盾使的誓约 查看狂徒铠甲 3.52 68.1% 21.9% 896":
+          - cell "查看冕卫 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.52"
+          - cell "68.1%"
+          - cell "21.9%"
+          - cell "896"
+        - row "查看冕卫 查看巨龙之爪 查看日炎斗篷 3.52 70.9% 19.2% 182":
+          - cell "查看冕卫 查看巨龙之爪 查看日炎斗篷":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.52"
+          - cell "70.9%"
+          - cell "19.2%"
+          - cell "182"
+        - row "查看薄暮法袍 查看日炎斗篷 查看狂徒铠甲 3.52 69.8% 20.6% 524":
+          - cell "查看薄暮法袍 查看日炎斗篷 查看狂徒铠甲":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.52"
+          - cell "69.8%"
+          - cell "20.6%"
+          - cell "524"
+        - row "查看离子火花 查看振奋盔甲 查看坚定之心 3.52 66.9% 23.8% 130":
+          - cell "查看离子火花 查看振奋盔甲 查看坚定之心":
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.52"
+          - cell "66.9%"
+          - cell "23.8%"
+          - cell "130"
+        - row "查看圣盾使的誓约 查看圣盾使的誓约 查看狂徒铠甲 3.52 70.5% 17.9% 4,913":
+          - cell "查看圣盾使的誓约 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.52"
+          - cell "70.5%"
+          - cell "17.9%"
+          - cell "4,913"
+        - row "查看离子火花 查看圣盾使的誓约 查看振奋盔甲 3.52 67.6% 19.0% 364":
+          - cell "查看离子火花 查看圣盾使的誓约 查看振奋盔甲":
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.52"
+          - cell "67.6%"
+          - cell "19.0%"
+          - cell "364"
+        - row "查看石像鬼石板甲 查看圣盾使的誓约 查看光明版狂徒铠甲 3.53 67.0% 27.8% 194":
+          - cell "查看石像鬼石板甲 查看圣盾使的誓约 查看光明版狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看光明版狂徒铠甲":
+              - generic "光明版狂徒铠甲":
+                - generic: 光
+          - cell "3.53"
+          - cell "67.0%"
+          - cell "27.8%"
+          - cell "194"
+        - row "查看棘刺背心 查看离子火花 查看狂徒铠甲 3.53 70.7% 22.0% 232":
+          - cell "查看棘刺背心 查看离子火花 查看狂徒铠甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.53"
+          - cell "70.7%"
+          - cell "22.0%"
+          - cell "232"
+        - row "查看冕卫 查看石像鬼石板甲 查看圣盾使的誓约 3.53 68.7% 20.8% 1,256":
+          - cell "查看冕卫 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.53"
+          - cell "68.7%"
+          - cell "20.8%"
+          - cell "1,256"
+        - row "查看巨龙之爪 查看巨龙之爪 查看石像鬼石板甲 3.53 64.0% 21.0% 100":
+          - cell "查看巨龙之爪 查看巨龙之爪 查看石像鬼石板甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.53"
+          - cell "64.0%"
+          - cell "21.0%"
+          - cell "100"
+        - row "查看冕卫 查看石像鬼石板甲 查看石像鬼石板甲 3.53 67.6% 22.3% 457":
+          - cell "查看冕卫 查看石像鬼石板甲 查看石像鬼石板甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.53"
+          - cell "67.6%"
+          - cell "22.3%"
+          - cell "457"
+        - row "查看棘刺背心 查看冕卫 查看石像鬼石板甲 3.53 69.6% 20.4% 230":
+          - cell "查看棘刺背心 查看冕卫 查看石像鬼石板甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.53"
+          - cell "69.6%"
+          - cell "20.4%"
+          - cell "230"
+        - row "查看振奋盔甲 查看振奋盔甲 查看狂徒铠甲 3.54 69.5% 20.2% 282":
+          - cell "查看振奋盔甲 查看振奋盔甲 查看狂徒铠甲":
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.54"
+          - cell "69.5%"
+          - cell "20.2%"
+          - cell "282"
+        - row "查看主宰纹章 查看圣盾使的誓约 查看圣盾使的誓约 3.54 71.3% 20.5% 122":
+          - cell "查看主宰纹章 查看圣盾使的誓约 查看圣盾使的誓约":
+            - button "查看主宰纹章":
+              - generic "主宰纹章":
+                - generic: 主
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.54"
+          - cell "71.3%"
+          - cell "20.5%"
+          - cell "122"
+        - row "查看石像鬼石板甲 查看圣盾使的誓约 查看坚定之心 3.54 68.5% 20.4% 1,201":
+          - cell "查看石像鬼石板甲 查看圣盾使的誓约 查看坚定之心":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.54"
+          - cell "68.5%"
+          - cell "20.4%"
+          - cell "1,201"
+        - row "查看适应性头盔 查看视界专注 查看圣盾使的誓约 3.54 67.3% 17.6% 153":
+          - cell "查看适应性头盔 查看视界专注 查看圣盾使的誓约":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看视界专注":
+              - generic "视界专注":
+                - generic: 视
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.54"
+          - cell "67.3%"
+          - cell "17.6%"
+          - cell "153"
+        - row "查看巨龙之爪 查看巨龙之爪 查看狂徒铠甲 3.55 66.0% 20.8% 106":
+          - cell "查看巨龙之爪 查看巨龙之爪 查看狂徒铠甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.55"
+          - cell "66.0%"
+          - cell "20.8%"
+          - cell "106"
+        - row "查看薄暮法袍 查看石像鬼石板甲 查看坚定之心 3.55 68.9% 18.2% 402":
+          - cell "查看薄暮法袍 查看石像鬼石板甲 查看坚定之心":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.55"
+          - cell "68.9%"
+          - cell "18.2%"
+          - cell "402"
+        - row "查看棘刺背心 查看圣盾使的誓约 查看狂徒铠甲 3.55 69.1% 18.1% 929":
+          - cell "查看棘刺背心 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.55"
+          - cell "69.1%"
+          - cell "18.1%"
+          - cell "929"
+        - row "查看适应性头盔 查看巨龙之爪 查看石像鬼石板甲 3.55 67.3% 20.5% 342":
+          - cell "查看适应性头盔 查看巨龙之爪 查看石像鬼石板甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.55"
+          - cell "67.3%"
+          - cell "20.5%"
+          - cell "342"
+        - row "查看光明版巨龙之爪 查看石像鬼石板甲 查看狂徒铠甲 3.56 68.5% 24.1% 108":
+          - cell "查看光明版巨龙之爪 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看光明版巨龙之爪":
+              - generic "光明版巨龙之爪":
+                - generic: 光
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.56"
+          - cell "68.5%"
+          - cell "24.1%"
+          - cell "108"
+        - row "查看圣盾使的誓约 查看坚定之心 查看狂徒铠甲 3.56 68.8% 21.3% 878":
+          - cell "查看圣盾使的誓约 查看坚定之心 查看狂徒铠甲":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.56"
+          - cell "68.8%"
+          - cell "21.3%"
+          - cell "878"
+        - row "查看薄暮法袍 查看振奋盔甲 查看振奋盔甲 3.56 70.2% 17.9% 84":
+          - cell "查看薄暮法袍 查看振奋盔甲 查看振奋盔甲":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.56"
+          - cell "70.2%"
+          - cell "17.9%"
+          - cell "84"
+        - row "查看棘刺背心 查看冕卫 查看狂徒铠甲 3.56 67.3% 19.0% 205":
+          - cell "查看棘刺背心 查看冕卫 查看狂徒铠甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.56"
+          - cell "67.3%"
+          - cell "19.0%"
+          - cell "205"
+        - row "查看适应性头盔 查看振奋盔甲 查看日炎斗篷 3.57 69.4% 18.9% 281":
+          - cell "查看适应性头盔 查看振奋盔甲 查看日炎斗篷":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.57"
+          - cell "69.4%"
+          - cell "18.9%"
+          - cell "281"
+        - row "查看巨龙之爪 查看圣盾使的誓约 查看圣盾使的誓约 3.57 68.7% 18.8% 825":
+          - cell "查看巨龙之爪 查看圣盾使的誓约 查看圣盾使的誓约":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.57"
+          - cell "68.7%"
+          - cell "18.8%"
+          - cell "825"
+        - row "查看巨龙之爪 查看石像鬼石板甲 查看离子火花 3.57 69.6% 19.3% 280":
+          - cell "查看巨龙之爪 查看石像鬼石板甲 查看离子火花":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+          - cell "3.57"
+          - cell "69.6%"
+          - cell "19.3%"
+          - cell "280"
+        - row "查看巨龙之爪 查看薄暮法袍 查看日炎斗篷 3.57 67.3% 18.4% 294":
+          - cell "查看巨龙之爪 查看薄暮法袍 查看日炎斗篷":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.57"
+          - cell "67.3%"
+          - cell "18.4%"
+          - cell "294"
+        - row "查看斗士纹章 查看石像鬼石板甲 查看狂徒铠甲 3.58 68.0% 21.6% 347":
+          - cell "查看斗士纹章 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看斗士纹章":
+              - generic "斗士纹章":
+                - generic: 斗
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.58"
+          - cell "68.0%"
+          - cell "21.6%"
+          - cell "347"
+        - row "查看棘刺背心 查看振奋盔甲 查看日炎斗篷 3.58 67.6% 19.7% 466":
+          - cell "查看棘刺背心 查看振奋盔甲 查看日炎斗篷":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.58"
+          - cell "67.6%"
+          - cell "19.7%"
+          - cell "466"
+        - row "查看棘刺背心 查看振奋盔甲 查看坚定之心 3.58 70.3% 17.2% 232":
+          - cell "查看棘刺背心 查看振奋盔甲 查看坚定之心":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.58"
+          - cell "70.3%"
+          - cell "17.2%"
+          - cell "232"
+        - row "查看圣盾使的誓约 查看圣盾使的誓约 查看光明版圣盾使的誓约 3.58 68.2% 19.3% 88":
+          - cell "查看圣盾使的誓约 查看圣盾使的誓约 查看光明版圣盾使的誓约":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看光明版圣盾使的誓约":
+              - generic "光明版圣盾使的誓约":
+                - generic: 光
+          - cell "3.58"
+          - cell "68.2%"
+          - cell "19.3%"
+          - cell "88"
+        - row "查看圣盾使的誓约 查看狂徒铠甲 查看狂徒铠甲 3.58 68.3% 17.8% 725":
+          - cell "查看圣盾使的誓约 查看狂徒铠甲 查看狂徒铠甲":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.58"
+          - cell "68.3%"
+          - cell "17.8%"
+          - cell "725"
+        - row "查看适应性头盔 查看石像鬼石板甲 查看坚定之心 3.58 68.8% 17.0% 330":
+          - cell "查看适应性头盔 查看石像鬼石板甲 查看坚定之心":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.58"
+          - cell "68.8%"
+          - cell "17.0%"
+          - cell "330"
+        - row "查看棘刺背心 查看冕卫 查看巨龙之爪 3.59 65.1% 16.7% 126":
+          - cell "查看棘刺背心 查看冕卫 查看巨龙之爪":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+          - cell "3.59"
+          - cell "65.1%"
+          - cell "16.7%"
+          - cell "126"
+        - row "查看棘刺背心 查看石像鬼石板甲 查看圣盾使的誓约 3.59 67.9% 19.4% 959":
+          - cell "查看棘刺背心 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.59"
+          - cell "67.9%"
+          - cell "19.4%"
+          - cell "959"
+        - row "查看圣盾使的誓约 查看振奋盔甲 查看日炎斗篷 3.6 68.4% 17.5% 933":
+          - cell "查看圣盾使的誓约 查看振奋盔甲 查看日炎斗篷":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.6"
+          - cell "68.4%"
+          - cell "17.5%"
+          - cell "933"
+        - row "查看视界专注 查看圣盾使的誓约 查看圣盾使的誓约 3.6 68.9% 16.7% 180":
+          - cell "查看视界专注 查看圣盾使的誓约 查看圣盾使的誓约":
+            - button "查看视界专注":
+              - generic "视界专注":
+                - generic: 视
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.6"
+          - cell "68.9%"
+          - cell "16.7%"
+          - cell "180"
+        - row "查看坚定之心 查看日炎斗篷 查看狂徒铠甲 3.6 67.1% 19.7% 538":
+          - cell "查看坚定之心 查看日炎斗篷 查看狂徒铠甲":
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.6"
+          - cell "67.1%"
+          - cell "19.7%"
+          - cell "538"
+        - row "查看巨龙之爪 查看薄暮法袍 查看振奋盔甲 3.6 67.6% 18.2% 247":
+          - cell "查看巨龙之爪 查看薄暮法袍 查看振奋盔甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.6"
+          - cell "67.6%"
+          - cell "18.2%"
+          - cell "247"
+        - row "查看适应性头盔 查看巨龙之爪 查看振奋盔甲 3.6 67.8% 17.8% 202":
+          - cell "查看适应性头盔 查看巨龙之爪 查看振奋盔甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.6"
+          - cell "67.8%"
+          - cell "17.8%"
+          - cell "202"
+        - row "查看冕卫 查看振奋盔甲 查看狂徒铠甲 3.6 67.6% 20.5% 463":
+          - cell "查看冕卫 查看振奋盔甲 查看狂徒铠甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.6"
+          - cell "67.6%"
+          - cell "20.5%"
+          - cell "463"
+        - row "查看棘刺背心 查看石像鬼石板甲 查看坚定之心 3.6 66.3% 22.4% 362":
+          - cell "查看棘刺背心 查看石像鬼石板甲 查看坚定之心":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.6"
+          - cell "66.3%"
+          - cell "22.4%"
+          - cell "362"
+        - row "查看主宰纹章 查看石像鬼石板甲 查看振奋盔甲 3.61 64.6% 20.0% 175":
+          - cell "查看主宰纹章 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看主宰纹章":
+              - generic "主宰纹章":
+                - generic: 主
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.61"
+          - cell "64.6%"
+          - cell "20.0%"
+          - cell "175"
+        - row "查看石像鬼石板甲 查看圣盾使的誓约 查看圣盾使的誓约 3.61 66.9% 18.5% 4,106":
+          - cell "查看石像鬼石板甲 查看圣盾使的誓约 查看圣盾使的誓约":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.61"
+          - cell "66.9%"
+          - cell "18.5%"
+          - cell "4,106"
+        - row "查看禁忌雕像 查看圣盾使的誓约 查看圣盾使的誓约 3.61 70.1% 18.9% 127":
+          - cell "查看禁忌雕像 查看圣盾使的誓约 查看圣盾使的誓约":
+            - button "查看禁忌雕像":
+              - generic "禁忌雕像":
+                - generic: 禁
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.61"
+          - cell "70.1%"
+          - cell "18.9%"
+          - cell "127"
+        - row "查看光明版石像鬼石板甲 查看振奋盔甲 查看狂徒铠甲 3.61 62.7% 27.2% 158":
+          - cell "查看光明版石像鬼石板甲 查看振奋盔甲 查看狂徒铠甲":
+            - button "查看光明版石像鬼石板甲":
+              - generic "光明版石像鬼石板甲":
+                - generic: 光
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.61"
+          - cell "62.7%"
+          - cell "27.2%"
+          - cell "158"
+        - row "查看冕卫 查看巨龙之爪 查看石像鬼石板甲 3.61 66.5% 19.6% 409":
+          - cell "查看冕卫 查看巨龙之爪 查看石像鬼石板甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.61"
+          - cell "66.5%"
+          - cell "19.6%"
+          - cell "409"
+        - row "查看石像鬼石板甲 查看离子火花 查看日炎斗篷 3.61 64.8% 19.4% 645":
+          - cell "查看石像鬼石板甲 查看离子火花 查看日炎斗篷":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.61"
+          - cell "64.8%"
+          - cell "19.4%"
+          - cell "645"
+        - row "查看薄暮法袍 查看石像鬼石板甲 查看离子火花 3.62 67.7% 21.5% 158":
+          - cell "查看薄暮法袍 查看石像鬼石板甲 查看离子火花":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+          - cell "3.62"
+          - cell "67.7%"
+          - cell "21.5%"
+          - cell "158"
+        - row "查看冕卫 查看石像鬼石板甲 查看振奋盔甲 3.63 66.8% 19.6% 1,167":
+          - cell "查看冕卫 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.63"
+          - cell "66.8%"
+          - cell "19.6%"
+          - cell "1,167"
+        - row "查看适应性头盔 查看石像鬼石板甲 查看日炎斗篷 3.63 65.6% 19.9% 602":
+          - cell "查看适应性头盔 查看石像鬼石板甲 查看日炎斗篷":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.63"
+          - cell "65.6%"
+          - cell "19.9%"
+          - cell "602"
+        - row "查看圣盾使的誓约 查看振奋盔甲 查看狂徒铠甲 3.64 66.9% 19.1% 2,733":
+          - cell "查看圣盾使的誓约 查看振奋盔甲 查看狂徒铠甲":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.64"
+          - cell "66.9%"
+          - cell "19.1%"
+          - cell "2,733"
+        - row "查看冕卫 查看薄暮法袍 查看石像鬼石板甲 3.64 63.6% 20.8% 236":
+          - cell "查看冕卫 查看薄暮法袍 查看石像鬼石板甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.64"
+          - cell "63.6%"
+          - cell "20.8%"
+          - cell "236"
+        - row "查看石像鬼石板甲 查看离子火花 查看狂徒铠甲 3.64 66.9% 20.8% 1,468":
+          - cell "查看石像鬼石板甲 查看离子火花 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.64"
+          - cell "66.9%"
+          - cell "20.8%"
+          - cell "1,468"
+        - row "查看圣盾使的誓约 查看圣盾使的誓约 查看日炎斗篷 3.64 66.6% 20.0% 1,160":
+          - cell "查看圣盾使的誓约 查看圣盾使的誓约 查看日炎斗篷":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.64"
+          - cell "66.6%"
+          - cell "20.0%"
+          - cell "1,160"
+        - row "查看石像鬼石板甲 查看振奋盔甲 查看斯特拉克的挑战护手 3.64 69.7% 17.9% 145":
+          - cell "查看石像鬼石板甲 查看振奋盔甲 查看斯特拉克的挑战护手":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手":
+                - generic: 斯
+          - cell "3.64"
+          - cell "69.7%"
+          - cell "17.9%"
+          - cell "145"
+        - row "查看日炎斗篷 查看狂徒铠甲 查看狂徒铠甲 3.65 67.2% 15.6% 411":
+          - cell "查看日炎斗篷 查看狂徒铠甲 查看狂徒铠甲":
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.65"
+          - cell "67.2%"
+          - cell "15.6%"
+          - cell "411"
+        - row "查看冕卫 查看振奋盔甲 查看坚定之心 3.65 66.9% 17.3% 133":
+          - cell "查看冕卫 查看振奋盔甲 查看坚定之心":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.65"
+          - cell "66.9%"
+          - cell "17.3%"
+          - cell "133"
+        - row "查看棘刺背心 查看巨龙之爪 查看日炎斗篷 3.66 67.5% 15.1% 557":
+          - cell "查看棘刺背心 查看巨龙之爪 查看日炎斗篷":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.66"
+          - cell "67.5%"
+          - cell "15.1%"
+          - cell "557"
+        - row "查看适应性头盔 查看石像鬼石板甲 查看石像鬼石板甲 3.66 66.2% 19.4% 444":
+          - cell "查看适应性头盔 查看石像鬼石板甲 查看石像鬼石板甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.66"
+          - cell "66.2%"
+          - cell "19.4%"
+          - cell "444"
+        - row "查看石像鬼石板甲 查看圣盾使的誓约 查看斯特拉克的挑战护手 3.66 69.1% 20.4% 152":
+          - cell "查看石像鬼石板甲 查看圣盾使的誓约 查看斯特拉克的挑战护手":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手":
+                - generic: 斯
+          - cell "3.66"
+          - cell "69.1%"
+          - cell "20.4%"
+          - cell "152"
+        - row "查看冕卫 查看石像鬼石板甲 查看狂徒铠甲 3.67 65.6% 20.5% 2,204":
+          - cell "查看冕卫 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.67"
+          - cell "65.6%"
+          - cell "20.5%"
+          - cell "2,204"
+        - row "查看大亨之铠 查看石像鬼石板甲 查看圣盾使的誓约 3.67 62.1% 24.3% 103":
+          - cell "查看大亨之铠 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看大亨之铠":
+              - generic "大亨之铠":
+                - generic: 大
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.67"
+          - cell "62.1%"
+          - cell "24.3%"
+          - cell "103"
+        - row "查看巨龙之爪 查看石像鬼石板甲 查看坚定之心 3.67 66.1% 18.3% 613":
+          - cell "查看巨龙之爪 查看石像鬼石板甲 查看坚定之心":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.67"
+          - cell "66.1%"
+          - cell "18.3%"
+          - cell "613"
+        - row "查看主宰纹章 查看石像鬼石板甲 查看日炎斗篷 3.68 66.7% 19.8% 96":
+          - cell "查看主宰纹章 查看石像鬼石板甲 查看日炎斗篷":
+            - button "查看主宰纹章":
+              - generic "主宰纹章":
+                - generic: 主
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.68"
+          - cell "66.7%"
+          - cell "19.8%"
+          - cell "96"
+        - row "查看薄暮法袍 查看石像鬼石板甲 查看圣盾使的誓约 3.68 66.3% 18.9% 1,062":
+          - cell "查看薄暮法袍 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.68"
+          - cell "66.3%"
+          - cell "18.9%"
+          - cell "1,062"
+        - row "查看薄暮法袍 查看石像鬼石板甲 查看狂徒铠甲 3.68 66.3% 19.0% 1,683":
+          - cell "查看薄暮法袍 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.68"
+          - cell "66.3%"
+          - cell "19.0%"
+          - cell "1,683"
+        - row "查看巨龙之爪 查看薄暮法袍 查看石像鬼石板甲 3.69 65.5% 18.9% 386":
+          - cell "查看巨龙之爪 查看薄暮法袍 查看石像鬼石板甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.69"
+          - cell "65.5%"
+          - cell "18.9%"
+          - cell "386"
+        - row "查看巨龙之爪 查看圣盾使的誓约 查看狂徒铠甲 3.69 65.8% 16.8% 1,794":
+          - cell "查看巨龙之爪 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.69"
+          - cell "65.8%"
+          - cell "16.8%"
+          - cell "1,794"
+        - row "查看石像鬼石板甲 查看光明版振奋盔甲 查看狂徒铠甲 3.69 62.5% 20.9% 277":
+          - cell "查看石像鬼石板甲 查看光明版振奋盔甲 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看光明版振奋盔甲":
+              - generic "光明版振奋盔甲":
+                - generic: 光
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.69"
+          - cell "62.5%"
+          - cell "20.9%"
+          - cell "277"
+        - row "查看棘刺背心 查看日炎斗篷 查看狂徒铠甲 3.7 64.7% 17.9% 691":
+          - cell "查看棘刺背心 查看日炎斗篷 查看狂徒铠甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.7"
+          - cell "64.7%"
+          - cell "17.9%"
+          - cell "691"
+        - row "查看适应性头盔 查看棘刺背心 查看石像鬼石板甲 3.7 65.1% 17.7% 232":
+          - cell "查看适应性头盔 查看棘刺背心 查看石像鬼石板甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.7"
+          - cell "65.1%"
+          - cell "17.7%"
+          - cell "232"
+        - row "查看冕卫 查看振奋盔甲 查看日炎斗篷 3.7 67.3% 17.7% 226":
+          - cell "查看冕卫 查看振奋盔甲 查看日炎斗篷":
+            - button "查看冕卫":
+              - generic "冕卫":
+                - generic: 冕
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.7"
+          - cell "67.3%"
+          - cell "17.7%"
+          - cell "226"
+        - row "查看适应性头盔 查看圣盾使的誓约 查看光明版圣盾使的誓约 3.7 66.7% 12.6% 87":
+          - cell "查看适应性头盔 查看圣盾使的誓约 查看光明版圣盾使的誓约":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看光明版圣盾使的誓约":
+              - generic "光明版圣盾使的誓约":
+                - generic: 光
+          - cell "3.7"
+          - cell "66.7%"
+          - cell "12.6%"
+          - cell "87"
+        - row "查看石像鬼石板甲 查看坚定之心 查看日炎斗篷 3.71 64.7% 19.4% 966":
+          - cell "查看石像鬼石板甲 查看坚定之心 查看日炎斗篷":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.71"
+          - cell "64.7%"
+          - cell "19.4%"
+          - cell "966"
+        - row "查看薄暮法袍 查看狂徒铠甲 查看狂徒铠甲 3.71 60.0% 17.3% 150":
+          - cell "查看薄暮法袍 查看狂徒铠甲 查看狂徒铠甲":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.71"
+          - cell "60.0%"
+          - cell "17.3%"
+          - cell "150"
+        - row "查看棘刺背心 查看坚定之心 查看狂徒铠甲 3.71 64.0% 17.7% 328":
+          - cell "查看棘刺背心 查看坚定之心 查看狂徒铠甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.71"
+          - cell "64.0%"
+          - cell "17.7%"
+          - cell "328"
+        - row "查看圣盾使的誓约 查看振奋盔甲 查看坚定之心 3.72 65.2% 14.9% 563":
+          - cell "查看圣盾使的誓约 查看振奋盔甲 查看坚定之心":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.72"
+          - cell "65.2%"
+          - cell "14.9%"
+          - cell "563"
+        - row "查看适应性头盔 查看石像鬼石板甲 查看狂徒铠甲 3.72 64.5% 18.1% 2,029":
+          - cell "查看适应性头盔 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.72"
+          - cell "64.5%"
+          - cell "18.1%"
+          - cell "2,029"
+        - row "查看圣盾使的誓约 查看光明版圣盾使的誓约 查看狂徒铠甲 3.72 65.6% 21.1% 90":
+          - cell "查看圣盾使的誓约 查看光明版圣盾使的誓约 查看狂徒铠甲":
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看光明版圣盾使的誓约":
+              - generic "光明版圣盾使的誓约":
+                - generic: 光
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.72"
+          - cell "65.6%"
+          - cell "21.1%"
+          - cell "90"
+        - row "查看薄暮法袍 查看石像鬼石板甲 查看石像鬼石板甲 3.73 63.5% 18.1% 419":
+          - cell "查看薄暮法袍 查看石像鬼石板甲 查看石像鬼石板甲":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.73"
+          - cell "63.5%"
+          - cell "18.1%"
+          - cell "419"
+        - row "查看振奋盔甲 查看坚定之心 查看日炎斗篷 3.73 64.9% 20.0% 436":
+          - cell "查看振奋盔甲 查看坚定之心 查看日炎斗篷":
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.73"
+          - cell "64.9%"
+          - cell "20.0%"
+          - cell "436"
+        - row "查看适应性头盔 查看石像鬼石板甲 查看振奋盔甲 3.73 64.6% 17.1% 1,237":
+          - cell "查看适应性头盔 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看适应性头盔":
+              - generic "适应性头盔":
+                - generic: 适
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.73"
+          - cell "64.6%"
+          - cell "17.1%"
+          - cell "1,237"
+        - row "查看视界专注 查看石像鬼石板甲 查看圣盾使的誓约 3.73 63.4% 26.0% 123":
+          - cell "查看视界专注 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看视界专注":
+              - generic "视界专注":
+                - generic: 视
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.73"
+          - cell "63.4%"
+          - cell "26.0%"
+          - cell "123"
+        - row "查看石像鬼石板甲 查看离子火花 查看坚定之心 3.73 66.4% 15.9% 214":
+          - cell "查看石像鬼石板甲 查看离子火花 查看坚定之心":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.73"
+          - cell "66.4%"
+          - cell "15.9%"
+          - cell "214"
+        - row "查看光盾徽章 查看石像鬼石板甲 查看圣盾使的誓约 3.73 63.6% 21.2% 132":
+          - cell "查看光盾徽章 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看光盾徽章":
+              - generic "光盾徽章":
+                - generic: 光
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.73"
+          - cell "63.6%"
+          - cell "21.2%"
+          - cell "132"
+        - row "查看薄暮法袍 查看石像鬼石板甲 查看日炎斗篷 3.74 64.6% 18.1% 900":
+          - cell "查看薄暮法袍 查看石像鬼石板甲 查看日炎斗篷":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.74"
+          - cell "64.6%"
+          - cell "18.1%"
+          - cell "900"
+        - row "查看棘刺背心 查看巨龙之爪 查看振奋盔甲 3.74 64.6% 16.4% 979":
+          - cell "查看棘刺背心 查看巨龙之爪 查看振奋盔甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.74"
+          - cell "64.6%"
+          - cell "16.4%"
+          - cell "979"
+        - row "查看石像鬼石板甲 查看斯特拉克的挑战护手 查看日炎斗篷 3.75 59.4% 18.9% 106":
+          - cell "查看石像鬼石板甲 查看斯特拉克的挑战护手 查看日炎斗篷":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手":
+                - generic: 斯
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.75"
+          - cell "59.4%"
+          - cell "18.9%"
+          - cell "106"
+        - row "查看光盾徽章 查看圣盾使的誓约 查看狂徒铠甲 3.75 67.0% 20.4% 103":
+          - cell "查看光盾徽章 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看光盾徽章":
+              - generic "光盾徽章":
+                - generic: 光
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.75"
+          - cell "67.0%"
+          - cell "20.4%"
+          - cell "103"
+        - row "查看石像鬼石板甲 查看石像鬼石板甲 查看坚定之心 3.75 63.8% 18.0% 550":
+          - cell "查看石像鬼石板甲 查看石像鬼石板甲 查看坚定之心":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.75"
+          - cell "63.8%"
+          - cell "18.0%"
+          - cell "550"
+        - row "查看石像鬼石板甲 查看圣盾使的誓约 查看泰坦的坚决 3.76 67.8% 15.6% 90":
+          - cell "查看石像鬼石板甲 查看圣盾使的誓约 查看泰坦的坚决":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.76"
+          - cell "67.8%"
+          - cell "15.6%"
+          - cell "90"
+        - row "查看石像鬼石板甲 查看圣盾使的誓约 查看日炎斗篷 3.76 63.7% 18.9% 2,358":
+          - cell "查看石像鬼石板甲 查看圣盾使的誓约 查看日炎斗篷":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.76"
+          - cell "63.7%"
+          - cell "18.9%"
+          - cell "2,358"
+        - row "查看石像鬼石板甲 查看圣盾使的誓约 查看振奋盔甲 3.76 64.4% 18.3% 6,025":
+          - cell "查看石像鬼石板甲 查看圣盾使的誓约 查看振奋盔甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.76"
+          - cell "64.4%"
+          - cell "18.3%"
+          - cell "6,025"
+        - row "查看巨龙之爪 查看圣盾使的誓约 查看振奋盔甲 3.77 63.6% 17.2% 990":
+          - cell "查看巨龙之爪 查看圣盾使的誓约 查看振奋盔甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.77"
+          - cell "63.6%"
+          - cell "17.2%"
+          - cell "990"
+        - row "查看棘刺背心 查看薄暮法袍 查看石像鬼石板甲 3.77 67.0% 15.9% 333":
+          - cell "查看棘刺背心 查看薄暮法袍 查看石像鬼石板甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.77"
+          - cell "67.0%"
+          - cell "15.9%"
+          - cell "333"
+        - row "查看振奋盔甲 查看日炎斗篷 查看狂徒铠甲 3.77 64.7% 15.9% 1,412":
+          - cell "查看振奋盔甲 查看日炎斗篷 查看狂徒铠甲":
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.77"
+          - cell "64.7%"
+          - cell "15.9%"
+          - cell "1,412"
+        - row "查看巨龙之爪 查看振奋盔甲 查看坚定之心 3.77 65.3% 15.3% 452":
+          - cell "查看巨龙之爪 查看振奋盔甲 查看坚定之心":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.77"
+          - cell "65.3%"
+          - cell "15.3%"
+          - cell "452"
+        - row "查看巨龙之爪 查看日炎斗篷 查看狂徒铠甲 3.77 64.2% 16.2% 1,425":
+          - cell "查看巨龙之爪 查看日炎斗篷 查看狂徒铠甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.77"
+          - cell "64.2%"
+          - cell "16.2%"
+          - cell "1,425"
+        - row "查看棘刺背心 查看巨龙之爪 查看石像鬼石板甲 3.78 64.4% 16.4% 1,144":
+          - cell "查看棘刺背心 查看巨龙之爪 查看石像鬼石板甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.78"
+          - cell "64.4%"
+          - cell "16.4%"
+          - cell "1,144"
+        - row "查看石像鬼石板甲 查看圣盾使的誓约 查看狂徒铠甲 3.78 63.5% 19.3% 14,650":
+          - cell "查看石像鬼石板甲 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.78"
+          - cell "63.5%"
+          - cell "19.3%"
+          - cell "14,650"
+        - row "查看棘刺背心 查看石像鬼石板甲 查看日炎斗篷 3.78 64.4% 15.3% 922":
+          - cell "查看棘刺背心 查看石像鬼石板甲 查看日炎斗篷":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.78"
+          - cell "64.4%"
+          - cell "15.3%"
+          - cell "922"
+        - row "查看石像鬼石板甲 查看日炎斗篷 查看光明版狂徒铠甲 3.79 66.0% 24.3% 103":
+          - cell "查看石像鬼石板甲 查看日炎斗篷 查看光明版狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看光明版狂徒铠甲":
+              - generic "光明版狂徒铠甲":
+                - generic: 光
+          - cell "3.79"
+          - cell "66.0%"
+          - cell "24.3%"
+          - cell "103"
+        - row "查看棘刺背心 查看巨龙之爪 查看薄暮法袍 3.79 63.5% 19.8% 192":
+          - cell "查看棘刺背心 查看巨龙之爪 查看薄暮法袍":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+          - cell "3.79"
+          - cell "63.5%"
+          - cell "19.8%"
+          - cell "192"
+        - row "查看巨龙之爪 查看石像鬼石板甲 查看圣盾使的誓约 3.79 63.7% 16.7% 1,843":
+          - cell "查看巨龙之爪 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.79"
+          - cell "63.7%"
+          - cell "16.7%"
+          - cell "1,843"
+        - row "查看薄暮法袍 查看石像鬼石板甲 查看振奋盔甲 3.79 63.1% 17.4% 1,207":
+          - cell "查看薄暮法袍 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.79"
+          - cell "63.1%"
+          - cell "17.4%"
+          - cell "1,207"
+        - row "查看坚定之心 查看狂徒铠甲 查看狂徒铠甲 3.79 64.0% 17.1% 222":
+          - cell "查看坚定之心 查看狂徒铠甲 查看狂徒铠甲":
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.79"
+          - cell "64.0%"
+          - cell "17.1%"
+          - cell "222"
+        - row "查看巨龙之爪 查看圣盾使的誓约 查看日炎斗篷 3.8 63.5% 16.8% 679":
+          - cell "查看巨龙之爪 查看圣盾使的誓约 查看日炎斗篷":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.8"
+          - cell "63.5%"
+          - cell "16.8%"
+          - cell "679"
+        - row "查看棘刺背心 查看振奋盔甲 查看狂徒铠甲 3.8 63.9% 17.2% 988":
+          - cell "查看棘刺背心 查看振奋盔甲 查看狂徒铠甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.8"
+          - cell "63.9%"
+          - cell "17.2%"
+          - cell "988"
+        - row "查看石像鬼石板甲 查看狂徒铠甲 查看狂徒铠甲 3.81 63.1% 17.3% 2,689":
+          - cell "查看石像鬼石板甲 查看狂徒铠甲 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.81"
+          - cell "63.1%"
+          - cell "17.3%"
+          - cell "2,689"
+        - row "查看石像鬼石板甲 查看日炎斗篷 查看狂徒铠甲 3.81 62.7% 18.0% 5,568":
+          - cell "查看石像鬼石板甲 查看日炎斗篷 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.81"
+          - cell "62.7%"
+          - cell "18.0%"
+          - cell "5,568"
+        - row "查看石像鬼石板甲 查看振奋盔甲 查看日炎斗篷 3.81 63.1% 17.0% 3,775":
+          - cell "查看石像鬼石板甲 查看振奋盔甲 查看日炎斗篷":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.81"
+          - cell "63.1%"
+          - cell "17.0%"
+          - cell "3,775"
+        - row "查看巨龙之爪 查看振奋盔甲 查看日炎斗篷 3.81 62.7% 15.8% 919":
+          - cell "查看巨龙之爪 查看振奋盔甲 查看日炎斗篷":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.81"
+          - cell "62.7%"
+          - cell "15.8%"
+          - cell "919"
+        - row "查看顽强不屈 查看石像鬼石板甲 查看振奋盔甲 3.81 61.0% 21.9% 210":
+          - cell "查看顽强不屈 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看顽强不屈":
+              - generic "顽强不屈":
+                - generic: 顽
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.81"
+          - cell "61.0%"
+          - cell "21.9%"
+          - cell "210"
+        - row "查看巨龙之爪 查看薄暮法袍 查看狂徒铠甲 3.82 62.3% 18.4% 342":
+          - cell "查看巨龙之爪 查看薄暮法袍 查看狂徒铠甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看薄暮法袍":
+              - generic "薄暮法袍":
+                - generic: 薄
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.82"
+          - cell "62.3%"
+          - cell "18.4%"
+          - cell "342"
+        - row "查看石像鬼石板甲 查看斯特拉克的挑战护手 查看狂徒铠甲 3.82 61.5% 22.5% 218":
+          - cell "查看石像鬼石板甲 查看斯特拉克的挑战护手 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手":
+                - generic: 斯
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.82"
+          - cell "61.5%"
+          - cell "22.5%"
+          - cell "218"
+        - row "查看棘刺背心 查看石像鬼石板甲 查看石像鬼石板甲 3.82 63.7% 16.3% 449":
+          - cell "查看棘刺背心 查看石像鬼石板甲 查看石像鬼石板甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.82"
+          - cell "63.7%"
+          - cell "16.3%"
+          - cell "449"
+        - row "查看石像鬼石板甲 查看光明版石像鬼石板甲 查看狂徒铠甲 3.82 61.7% 17.5% 154":
+          - cell "查看石像鬼石板甲 查看光明版石像鬼石板甲 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看光明版石像鬼石板甲":
+              - generic "光明版石像鬼石板甲":
+                - generic: 光
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.82"
+          - cell "61.7%"
+          - cell "17.5%"
+          - cell "154"
+        - row "查看石像鬼石板甲 查看石像鬼石板甲 查看日炎斗篷 3.82 61.7% 17.4% 1,222":
+          - cell "查看石像鬼石板甲 查看石像鬼石板甲 查看日炎斗篷":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.82"
+          - cell "61.7%"
+          - cell "17.4%"
+          - cell "1,222"
+        - row "查看石像鬼石板甲 查看石像鬼石板甲 查看离子火花 3.82 62.6% 20.8% 289":
+          - cell "查看石像鬼石板甲 查看石像鬼石板甲 查看离子火花":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+          - cell "3.82"
+          - cell "62.6%"
+          - cell "20.8%"
+          - cell "289"
+        - row "查看巨龙之爪 查看石像鬼石板甲 查看日炎斗篷 3.83 63.4% 16.5% 1,771":
+          - cell "查看巨龙之爪 查看石像鬼石板甲 查看日炎斗篷":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "3.83"
+          - cell "63.4%"
+          - cell "16.5%"
+          - cell "1,771"
+        - row "查看巨龙之爪 查看离子火花 查看振奋盔甲 3.83 64.6% 11.2% 161":
+          - cell "查看巨龙之爪 查看离子火花 查看振奋盔甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.83"
+          - cell "64.6%"
+          - cell "11.2%"
+          - cell "161"
+        - row "查看振奋盔甲 查看坚定之心 查看狂徒铠甲 3.83 63.8% 15.9% 823":
+          - cell "查看振奋盔甲 查看坚定之心 查看狂徒铠甲":
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.83"
+          - cell "63.8%"
+          - cell "15.9%"
+          - cell "823"
+        - row "查看巨龙之爪 查看石像鬼石板甲 查看石像鬼石板甲 3.84 61.7% 16.5% 713":
+          - cell "查看巨龙之爪 查看石像鬼石板甲 查看石像鬼石板甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.84"
+          - cell "61.7%"
+          - cell "16.5%"
+          - cell "713"
+        - row "查看巨龙之爪 查看坚定之心 查看狂徒铠甲 3.84 63.4% 14.8% 655":
+          - cell "查看巨龙之爪 查看坚定之心 查看狂徒铠甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.84"
+          - cell "63.4%"
+          - cell "14.8%"
+          - cell "655"
+        - row "查看石像鬼石板甲 查看坚定之心 查看狂徒铠甲 3.84 63.3% 17.1% 2,958":
+          - cell "查看石像鬼石板甲 查看坚定之心 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.84"
+          - cell "63.3%"
+          - cell "17.1%"
+          - cell "2,958"
+        - row "查看顽强不屈 查看圣盾使的誓约 查看狂徒铠甲 3.85 62.4% 17.6% 85":
+          - cell "查看顽强不屈 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看顽强不屈":
+              - generic "顽强不屈":
+                - generic: 顽
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.85"
+          - cell "62.4%"
+          - cell "17.6%"
+          - cell "85"
+        - row "查看石像鬼石板甲 查看离子火花 查看振奋盔甲 3.85 61.4% 18.9% 769":
+          - cell "查看石像鬼石板甲 查看离子火花 查看振奋盔甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看离子火花":
+              - generic "离子火花":
+                - generic: 离
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.85"
+          - cell "61.4%"
+          - cell "18.9%"
+          - cell "769"
+        - row "查看石像鬼石板甲 查看石像鬼石板甲 查看圣盾使的誓约 3.85 62.8% 16.3% 2,016":
+          - cell "查看石像鬼石板甲 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.85"
+          - cell "62.8%"
+          - cell "16.3%"
+          - cell "2,016"
+        - row "查看石像鬼石板甲 查看振奋盔甲 查看振奋盔甲 3.85 61.5% 16.2% 955":
+          - cell "查看石像鬼石板甲 查看振奋盔甲 查看振奋盔甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.85"
+          - cell "61.5%"
+          - cell "16.2%"
+          - cell "955"
+        - row "查看棘刺背心 查看巨龙之爪 查看狂徒铠甲 3.86 62.5% 17.0% 3,581":
+          - cell "查看棘刺背心 查看巨龙之爪 查看狂徒铠甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.86"
+          - cell "62.5%"
+          - cell "17.0%"
+          - cell "3,581"
+        - row "查看护卫纹章 查看石像鬼石板甲 查看狂徒铠甲 3.86 65.4% 12.0% 191":
+          - cell "查看护卫纹章 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看护卫纹章":
+              - generic "护卫纹章":
+                - generic: 护
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.86"
+          - cell "65.4%"
+          - cell "12.0%"
+          - cell "191"
+        - row "查看棘刺背心 查看狂徒铠甲 查看狂徒铠甲 3.87 65.3% 12.3% 300":
+          - cell "查看棘刺背心 查看狂徒铠甲 查看狂徒铠甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.87"
+          - cell "65.3%"
+          - cell "12.3%"
+          - cell "300"
+        - row "查看主宰纹章 查看石像鬼石板甲 查看狂徒铠甲 3.87 62.7% 15.5% 303":
+          - cell "查看主宰纹章 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看主宰纹章":
+              - generic "主宰纹章":
+                - generic: 主
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.87"
+          - cell "62.7%"
+          - cell "15.5%"
+          - cell "303"
+        - row "查看棘刺背心 查看石像鬼石板甲 查看振奋盔甲 3.88 61.6% 15.6% 1,636":
+          - cell "查看棘刺背心 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.88"
+          - cell "61.6%"
+          - cell "15.6%"
+          - cell "1,636"
+        - row "查看巨龙之爪 查看石像鬼石板甲 查看斯特拉克的挑战护手 3.88 67.1% 12.9% 85":
+          - cell "查看巨龙之爪 查看石像鬼石板甲 查看斯特拉克的挑战护手":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手":
+                - generic: 斯
+          - cell "3.88"
+          - cell "67.1%"
+          - cell "12.9%"
+          - cell "85"
+        - row "查看石像鬼石板甲 查看振奋盔甲 查看狂徒铠甲 3.88 61.4% 17.4% 13,698":
+          - cell "查看石像鬼石板甲 查看振奋盔甲 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.88"
+          - cell "61.4%"
+          - cell "17.4%"
+          - cell "13,698"
+        - row "查看振奋盔甲 查看振奋盔甲 查看振奋盔甲 3.89 61.1% 13.9% 108":
+          - cell "查看振奋盔甲 查看振奋盔甲 查看振奋盔甲":
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.89"
+          - cell "61.1%"
+          - cell "13.9%"
+          - cell "108"
+        - row "查看棘刺背心 查看石像鬼石板甲 查看狂徒铠甲 3.89 62.0% 16.0% 3,102":
+          - cell "查看棘刺背心 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.89"
+          - cell "62.0%"
+          - cell "16.0%"
+          - cell "3,102"
+        - row "查看巨龙之爪 查看石像鬼石板甲 查看狂徒铠甲 3.9 61.5% 17.0% 5,085":
+          - cell "查看巨龙之爪 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.9"
+          - cell "61.5%"
+          - cell "17.0%"
+          - cell "5,085"
+        - row "查看巨龙之爪 查看振奋盔甲 查看狂徒铠甲 3.9 61.3% 16.0% 1,597":
+          - cell "查看巨龙之爪 查看振奋盔甲 查看狂徒铠甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.9"
+          - cell "61.3%"
+          - cell "16.0%"
+          - cell "1,597"
+        - row "查看光盾徽章 查看石像鬼石板甲 查看狂徒铠甲 3.9 61.1% 19.7% 370":
+          - cell "查看光盾徽章 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看光盾徽章":
+              - generic "光盾徽章":
+                - generic: 光
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.9"
+          - cell "61.1%"
+          - cell "19.7%"
+          - cell "370"
+        - row "查看棘刺背心 查看振奋盔甲 查看振奋盔甲 3.9 63.3% 13.3% 120":
+          - cell "查看棘刺背心 查看振奋盔甲 查看振奋盔甲":
+            - button "查看棘刺背心":
+              - generic "棘刺背心":
+                - generic: 棘
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.9"
+          - cell "63.3%"
+          - cell "13.3%"
+          - cell "120"
+        - row "查看石像鬼石板甲 查看石像鬼石板甲 查看石像鬼石板甲 3.9 60.4% 16.2% 845":
+          - cell "查看石像鬼石板甲 查看石像鬼石板甲 查看石像鬼石板甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "3.9"
+          - cell "60.4%"
+          - cell "16.2%"
+          - cell "845"
+        - row "查看振奋盔甲 查看狂徒铠甲 查看狂徒铠甲 3.9 61.7% 14.6% 535":
+          - cell "查看振奋盔甲 查看狂徒铠甲 查看狂徒铠甲":
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.9"
+          - cell "61.7%"
+          - cell "14.6%"
+          - cell "535"
+        - row "查看石像鬼石板甲 查看振奋盔甲 查看坚定之心 3.9 61.4% 16.2% 1,766":
+          - cell "查看石像鬼石板甲 查看振奋盔甲 查看坚定之心":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看坚定之心":
+              - generic "坚定之心":
+                - generic: 坚
+          - cell "3.9"
+          - cell "61.4%"
+          - cell "16.2%"
+          - cell "1,766"
+        - row "查看黎明圣盾 查看石像鬼石板甲 查看圣盾使的誓约 3.94 64.3% 16.9% 154":
+          - cell "查看黎明圣盾 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看黎明圣盾":
+              - generic "黎明圣盾":
+                - generic: 黎
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.94"
+          - cell "64.3%"
+          - cell "16.9%"
+          - cell "154"
+        - row "查看石像鬼石板甲 查看狂徒铠甲 查看光明版狂徒铠甲 3.94 57.7% 20.5% 156":
+          - cell "查看石像鬼石板甲 查看狂徒铠甲 查看光明版狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看光明版狂徒铠甲":
+              - generic "光明版狂徒铠甲":
+                - generic: 光
+          - cell "3.94"
+          - cell "57.7%"
+          - cell "20.5%"
+          - cell "156"
+        - row "查看石像鬼石板甲 查看石像鬼石板甲 查看狂徒铠甲 3.96 59.5% 17.8% 5,947":
+          - cell "查看石像鬼石板甲 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.96"
+          - cell "59.5%"
+          - cell "17.8%"
+          - cell "5,947"
+        - row "查看月蚀骑士纹章 查看石像鬼石板甲 查看狂徒铠甲 3.96 60.0% 12.7% 110":
+          - cell "查看月蚀骑士纹章 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看月蚀骑士纹章":
+              - generic "月蚀骑士纹章":
+                - generic: 月
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.96"
+          - cell "60.0%"
+          - cell "12.7%"
+          - cell "110"
+        - row "查看虚空护手 查看石像鬼石板甲 查看狂徒铠甲 3.96 60.1% 15.5% 168":
+          - cell "查看虚空护手 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看虚空护手":
+              - generic "虚空护手":
+                - generic: 虚
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.96"
+          - cell "60.1%"
+          - cell "15.5%"
+          - cell "168"
+        - row "查看巨龙之爪 查看石像鬼石板甲 查看振奋盔甲 3.97 60.3% 14.7% 2,584":
+          - cell "查看巨龙之爪 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.97"
+          - cell "60.3%"
+          - cell "14.7%"
+          - cell "2,584"
+        - row "查看巨龙之爪 查看狂徒铠甲 查看狂徒铠甲 3.98 58.6% 14.1% 425":
+          - cell "查看巨龙之爪 查看狂徒铠甲 查看狂徒铠甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "3.98"
+          - cell "58.6%"
+          - cell "14.1%"
+          - cell "425"
+        - row "查看禁忌雕像 查看石像鬼石板甲 查看圣盾使的誓约 3.98 57.1% 20.7% 140":
+          - cell "查看禁忌雕像 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看禁忌雕像":
+              - generic "禁忌雕像":
+                - generic: 禁
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "3.98"
+          - cell "57.1%"
+          - cell "20.7%"
+          - cell "140"
+        - row "查看光盾徽章 查看石像鬼石板甲 查看振奋盔甲 3.98 61.7% 14.8% 162":
+          - cell "查看光盾徽章 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看光盾徽章":
+              - generic "光盾徽章":
+                - generic: 光
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "3.98"
+          - cell "61.7%"
+          - cell "14.8%"
+          - cell "162"
+        - row "查看石像鬼石板甲 查看日炎斗篷 查看泰坦的坚决 3.99 62.1% 16.8% 95":
+          - cell "查看石像鬼石板甲 查看日炎斗篷 查看泰坦的坚决":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "3.99"
+          - cell "62.1%"
+          - cell "16.8%"
+          - cell "95"
+        - row "查看石像鬼石板甲 查看泰坦的坚决 查看狂徒铠甲 4 59.2% 18.0% 250":
+          - cell "查看石像鬼石板甲 查看泰坦的坚决 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4"
+          - cell "59.2%"
+          - cell "18.0%"
+          - cell "250"
+        - row "查看大亨之铠 查看石像鬼石板甲 查看振奋盔甲 4.01 58.9% 14.1% 192":
+          - cell "查看大亨之铠 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看大亨之铠":
+              - generic "大亨之铠":
+                - generic: 大
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "4.01"
+          - cell "58.9%"
+          - cell "14.1%"
+          - cell "192"
+        - row "查看石像鬼石板甲 查看光明版石像鬼石板甲 查看振奋盔甲 4.01 58.8% 16.7% 102":
+          - cell "查看石像鬼石板甲 查看光明版石像鬼石板甲 查看振奋盔甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看光明版石像鬼石板甲":
+              - generic "光明版石像鬼石板甲":
+                - generic: 光
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "4.01"
+          - cell "58.8%"
+          - cell "16.7%"
+          - cell "102"
+        - row "查看黄昏圣盾 查看石像鬼石板甲 查看狂徒铠甲 4.03 59.3% 13.3% 285":
+          - cell "查看黄昏圣盾 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看黄昏圣盾":
+              - generic "黄昏圣盾":
+                - generic: 黄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4.03"
+          - cell "59.3%"
+          - cell "13.3%"
+          - cell "285"
+        - row "查看巨龙之爪 查看振奋盔甲 查看振奋盔甲 4.03 57.4% 14.9% 188":
+          - cell "查看巨龙之爪 查看振奋盔甲 查看振奋盔甲":
+            - button "查看巨龙之爪":
+              - generic "巨龙之爪":
+                - generic: 巨
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "4.03"
+          - cell "57.4%"
+          - cell "14.9%"
+          - cell "188"
+        - row "查看视界专注 查看圣盾使的誓约 查看狂徒铠甲 4.03 55.3% 17.0% 94":
+          - cell "查看视界专注 查看圣盾使的誓约 查看狂徒铠甲":
+            - button "查看视界专注":
+              - generic "视界专注":
+                - generic: 视
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4.03"
+          - cell "55.3%"
+          - cell "17.0%"
+          - cell "94"
+        - row "查看视界专注 查看石像鬼石板甲 查看狂徒铠甲 4.03 58.6% 16.4% 152":
+          - cell "查看视界专注 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看视界专注":
+              - generic "视界专注":
+                - generic: 视
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4.03"
+          - cell "58.6%"
+          - cell "16.4%"
+          - cell "152"
+        - row "查看顽强不屈 查看石像鬼石板甲 查看狂徒铠甲 4.04 58.0% 14.9% 350":
+          - cell "查看顽强不屈 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看顽强不屈":
+              - generic "顽强不屈":
+                - generic: 顽
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4.04"
+          - cell "58.0%"
+          - cell "14.9%"
+          - cell "350"
+        - row "查看黄昏圣盾 查看石像鬼石板甲 查看圣盾使的誓约 4.05 58.4% 13.3% 113":
+          - cell "查看黄昏圣盾 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看黄昏圣盾":
+              - generic "黄昏圣盾":
+                - generic: 黄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "4.05"
+          - cell "58.4%"
+          - cell "13.3%"
+          - cell "113"
+        - row "查看石像鬼石板甲 查看石像鬼石板甲 查看振奋盔甲 4.06 57.4% 16.8% 3,008":
+          - cell "查看石像鬼石板甲 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "4.06"
+          - cell "57.4%"
+          - cell "16.8%"
+          - cell "3,008"
+        - row "查看顽强不屈 查看石像鬼石板甲 查看圣盾使的誓约 4.06 56.3% 16.2% 142":
+          - cell "查看顽强不屈 查看石像鬼石板甲 查看圣盾使的誓约":
+            - button "查看顽强不屈":
+              - generic "顽强不屈":
+                - generic: 顽
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+          - cell "4.06"
+          - cell "56.3%"
+          - cell "16.2%"
+          - cell "142"
+        - row "查看黎明圣盾 查看石像鬼石板甲 查看振奋盔甲 4.1 60.4% 15.4% 182":
+          - cell "查看黎明圣盾 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看黎明圣盾":
+              - generic "黎明圣盾":
+                - generic: 黎
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "4.1"
+          - cell "60.4%"
+          - cell "15.4%"
+          - cell "182"
+        - row "查看石像鬼石板甲 查看日炎斗篷 查看日炎斗篷 4.11 54.4% 12.6% 103":
+          - cell "查看石像鬼石板甲 查看日炎斗篷 查看日炎斗篷":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+            - button "查看日炎斗篷":
+              - generic "日炎斗篷":
+                - generic: 日
+          - cell "4.11"
+          - cell "54.4%"
+          - cell "12.6%"
+          - cell "103"
+        - row "查看狂徒铠甲 查看狂徒铠甲 查看狂徒铠甲 4.11 58.4% 8.1% 221":
+          - cell "查看狂徒铠甲 查看狂徒铠甲 查看狂徒铠甲":
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4.11"
+          - cell "58.4%"
+          - cell "8.1%"
+          - cell "221"
+        - row "查看永恒之森纹章 查看石像鬼石板甲 查看振奋盔甲 4.12 58.6% 18.2% 99":
+          - cell "查看永恒之森纹章 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看永恒之森纹章":
+              - generic "永恒之森纹章":
+                - generic: 永
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "4.12"
+          - cell "58.6%"
+          - cell "18.2%"
+          - cell "99"
+        - row "查看石像鬼石板甲 查看圣盾使的誓约 查看光明版圣盾使的誓约 4.12 56.7% 15.5% 97":
+          - cell "查看石像鬼石板甲 查看圣盾使的誓约 查看光明版圣盾使的誓约":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看圣盾使的誓约":
+              - generic "圣盾使的誓约":
+                - generic: 圣
+            - button "查看光明版圣盾使的誓约":
+              - generic "光明版圣盾使的誓约":
+                - generic: 光
+          - cell "4.12"
+          - cell "56.7%"
+          - cell "15.5%"
+          - cell "97"
+        - row "查看大亨之铠 查看石像鬼石板甲 查看狂徒铠甲 4.18 57.1% 16.3% 294":
+          - cell "查看大亨之铠 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看大亨之铠":
+              - generic "大亨之铠":
+                - generic: 大
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4.18"
+          - cell "57.1%"
+          - cell "16.3%"
+          - cell "294"
+        - row "查看顽强不屈 查看石像鬼石板甲 查看石像鬼石板甲 4.26 54.9% 9.8% 82":
+          - cell "查看顽强不屈 查看石像鬼石板甲 查看石像鬼石板甲":
+            - button "查看顽强不屈":
+              - generic "顽强不屈":
+                - generic: 顽
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+          - cell "4.26"
+          - cell "54.9%"
+          - cell "9.8%"
+          - cell "82"
+        - row "查看石像鬼石板甲 查看振奋盔甲 查看泰坦的坚决 4.27 56.9% 9.2% 153":
+          - cell "查看石像鬼石板甲 查看振奋盔甲 查看泰坦的坚决":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+            - button "查看泰坦的坚决":
+              - generic "泰坦的坚决":
+                - generic: 泰
+          - cell "4.27"
+          - cell "56.9%"
+          - cell "9.2%"
+          - cell "153"
+        - row "查看黄昏圣盾 查看石像鬼石板甲 查看振奋盔甲 4.29 53.7% 12.3% 162":
+          - cell "查看黄昏圣盾 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看黄昏圣盾":
+              - generic "黄昏圣盾":
+                - generic: 黄
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "4.29"
+          - cell "53.7%"
+          - cell "12.3%"
+          - cell "162"
+        - row "查看石像鬼石板甲 查看光明版圣盾使的誓约 查看振奋盔甲 4.34 48.9% 18.2% 88":
+          - cell "查看石像鬼石板甲 查看光明版圣盾使的誓约 查看振奋盔甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看光明版圣盾使的誓约":
+              - generic "光明版圣盾使的誓约":
+                - generic: 光
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "4.34"
+          - cell "48.9%"
+          - cell "18.2%"
+          - cell "88"
+        - row "查看禁忌雕像 查看石像鬼石板甲 查看狂徒铠甲 4.36 53.0% 14.8% 230":
+          - cell "查看禁忌雕像 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看禁忌雕像":
+              - generic "禁忌雕像":
+                - generic: 禁
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4.36"
+          - cell "53.0%"
+          - cell "14.8%"
+          - cell "230"
+        - row "查看黎明圣盾 查看石像鬼石板甲 查看狂徒铠甲 4.37 53.7% 12.1% 307":
+          - cell "查看黎明圣盾 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看黎明圣盾":
+              - generic "黎明圣盾":
+                - generic: 黎
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4.37"
+          - cell "53.7%"
+          - cell "12.1%"
+          - cell "307"
+        - row "查看永恒之森纹章 查看石像鬼石板甲 查看狂徒铠甲 4.38 52.3% 12.1% 149":
+          - cell "查看永恒之森纹章 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看永恒之森纹章":
+              - generic "永恒之森纹章":
+                - generic: 永
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4.38"
+          - cell "52.3%"
+          - cell "12.1%"
+          - cell "149"
+        - row "查看碎舰者 查看石像鬼石板甲 查看狂徒铠甲 4.38 51.6% 16.8% 95":
+          - cell "查看碎舰者 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看碎舰者":
+              - generic "碎舰者":
+                - generic: 碎
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4.38"
+          - cell "51.6%"
+          - cell "16.8%"
+          - cell "95"
+        - row "查看禁忌雕像 查看石像鬼石板甲 查看振奋盔甲 4.41 51.2% 12.5% 160":
+          - cell "查看禁忌雕像 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看禁忌雕像":
+              - generic "禁忌雕像":
+                - generic: 禁
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "4.41"
+          - cell "51.2%"
+          - cell "12.5%"
+          - cell "160"
+        - row "查看石像鬼石板甲 查看石像鬼石板甲 查看斯特拉克的挑战护手 4.42 48.8% 13.1% 84":
+          - cell "查看石像鬼石板甲 查看石像鬼石板甲 查看斯特拉克的挑战护手":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看斯特拉克的挑战护手":
+              - generic "斯特拉克的挑战护手":
+                - generic: 斯
+          - cell "4.42"
+          - cell "48.8%"
+          - cell "13.1%"
+          - cell "84"
+        - row "查看石像鬼石板甲 查看飞升护符 查看狂徒铠甲 4.44 55.4% 6.6% 121":
+          - cell "查看石像鬼石板甲 查看飞升护符 查看狂徒铠甲":
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看飞升护符":
+              - generic "飞升护符":
+                - generic: 飞
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4.44"
+          - cell "55.4%"
+          - cell "6.6%"
+          - cell "121"
+        - row "查看约德尔人和朋友纹章 查看石像鬼石板甲 查看狂徒铠甲 4.61 48.3% 5.7% 87":
+          - cell "查看约德尔人和朋友纹章 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看约德尔人和朋友纹章":
+              - generic "约德尔人和朋友纹章":
+                - generic: 约
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "4.61"
+          - cell "48.3%"
+          - cell "5.7%"
+          - cell "87"
+        - row "查看魔女纹章 查看石像鬼石板甲 查看振奋盔甲 4.89 42.2% 10.8% 83":
+          - cell "查看魔女纹章 查看石像鬼石板甲 查看振奋盔甲":
+            - button "查看魔女纹章":
+              - generic "魔女纹章":
+                - generic: 魔
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看振奋盔甲":
+              - generic "振奋盔甲":
+                - generic: 振
+          - cell "4.89"
+          - cell "42.2%"
+          - cell "10.8%"
+          - cell "83"
+        - row "查看魔女纹章 查看石像鬼石板甲 查看狂徒铠甲 5.04 34.5% 13.5% 171":
+          - cell "查看魔女纹章 查看石像鬼石板甲 查看狂徒铠甲":
+            - button "查看魔女纹章":
+              - generic "魔女纹章":
+                - generic: 魔
+            - button "查看石像鬼石板甲":
+              - generic "石像鬼石板甲":
+                - generic: 石
+            - button "查看狂徒铠甲":
+              - generic "狂徒铠甲":
+                - generic: 狂
+          - cell "5.04"
+          - cell "34.5%"
+          - cell "13.5%"
+          - cell "171"
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手

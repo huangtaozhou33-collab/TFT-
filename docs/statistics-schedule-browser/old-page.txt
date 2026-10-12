@@ -1,0 +1,527 @@
+DEVELOPER CONSOLE
+
+开发者模式
+
+核对数据、检索结果与回答来源。当前操作均为本地只读预览。
+
+刷新本地资料
+只读模式
+▦ 数据资产总览
+▤ 来源记录与字段
+⌕ 检索调试器
+⌘ 回答证据链
+↻ 更新与发布
+当前赛季 18
+资源版本 16.20
+规则版本 set18-assets16.20-recipes18.4-v4
+tft-set18-assets16.20-5fedf1ff9cba
+英雄与形态 74
+装备 137
+羁绊 35
+强化符文 249
+赛季玩法 349
+当前 RAG 知识库
+知识文档
+832
+当前可检索文档
+787
+知识片段
+940
+Milvus 已索引片段
+869
+
+文档与片段是当前数据库发布的实际计数；当前补丁资料及通用术语共 869 个片段符合检索条件。通用术语不代表该补丁的数值规则。Milvus 数量来自索引状态，索引记录数不等于本次回答引用数。
+
+存储与索引
+MySQL
+当前业务读取方式
+MySQL
+就绪
+Milvus
+已连接
+Redis
+就绪
+Embedding
+已配置
+当前数据库发布
+0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b
+当前查询补丁
+18.4
+初始资料补丁
+18.4
+向量索引
+已构建
+已索引片段
+869
+发布包历史统计快照（不含 MetaTFT）
+204
+来源声明版本
+2
+当前补丁推定归属
+201
+当前查询不可用
+1
+
+推定归属依据采集日期和补丁日历，不等于来源声明；原始版本字段保持原样，归属依据单独记录。
+
+下方来源包清单扫描随应用附带的 JSON 资产；上方连接与索引状态来自运行中的存储服务。
+
+MetaTFT 统计数据库
+目录统计快照
+2,584
+目录统计记录
+390,604
+组合查询快照
+63
+组合查询记录
+32,193
+目录查询键
+2567
+未过期目录快照
+2567
+组合查询键
+56
+未过期组合快照
+0
+统计时间
+2026/10/11 18:55
+
+快照数包含当前发布保留的历史采集；未过期不等于当前补丁或完整覆盖。记录数不是比赛数或样本数，目录覆盖须另按补丁、段位与适配器版本核验。
+
+阵容首页、大数据、筛选器和自然语言统计查询共用 MetaTFT 服务。目录快照保鲜 6 小时，组合查询保鲜 10 分钟；过期后保留审计记录，不会自动删除或混入当前结果。
+
+Riot 比赛数据库
+状态
+就绪
+当前补丁
+18.4
+赛季
+18
+最近采集
+2026/10/10 03:15
+已入库比赛
+87
+当前可查询比赛
+36
+当前玩家终局
+288
+待核验比赛
+51
+
+其他补丁比赛 0 场。比赛数、玩家终局数与 RAG 文档数量分别统计。未知或无法归属当前版本的比赛不会进入当前筛选结果。
+
+最近采集任务
+失败
+任务状态更新时间
+2026/10/11 15:08
+待处理比赛
+4
+定时采集
+失败
+最近运行
+2026/10/11 15:08
+下次运行
+2026/10/12 15:08
+最近入库与核验记录 · 12 条
+待补充装备映射 · 2 个 ID
+来源资产归档 · 含历史修订
+来源包
+20
+来源记录（含历史）
+5,348
+当前工具映射记录
+1,935
+来源校验失败
+0
+
+这些是 JSON 来源包按实体和规则生成的展示记录，包含留存修订；不是独立文章，也不是 RAG 文档或向量数量。工具映射只表示目录层有读取入口，运行时仍会检查来源、补丁和统计能力。
+
+记录用途 / 留存原因	数量
+当前来源记录 · 已映射工具	1,935
+历史修订 · 保留供追溯	3,312
+阵容码编号 · 不参与知识问答	75
+参考版本或冲突规则	7
+专家评级 · 尚未匹配实体	13
+法杖条件 · 实体身份未核实	6
+
+1 个来源包的本机快照未提供或不可读。Docker 镜像未打包原始 OP.GG 快照；这与 MySQL 中已导入的资料是两条独立检查。
+
+来源包与快照
+版本
+全部版本
+tft-set18-assets16.20-5fedf1ff9cba
+来源
+全部来源
+CommunityDragon · PC Team Planner
+CommunityDragon + OP.GG recipes
+Little Buddy Bot · 中文核验
+Little Buddy Bot + Riot Games
+MetaTFT · Spencer
+OP.GG MCP
+Tactics.tools
+Tactics.tools + CommunityDragon
+状态
+全部状态
+本机快照不可读
+就绪
+留存修订
+赛季
+全部赛季
+18
+补丁
+全部补丁
+18.4
+未知
+筛选
+重置
+数据资产	来源 / 补丁	版本 / 赛季	状态	校验 / 检索	指纹
+
+当前赛季静态目录
+catalog
+查看记录数量
+	
+CommunityDragon + OP.GG recipes
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	就绪	
+结构有效 · 无哈希记录
+已映射工具
+
+当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+
+允许工具：search_catalog
+	51a2071704889055cbdbce83135c629ef6505b179e6bb78152fc96065556acca
+
+OP.GG 统计快照
+stats
+查看记录数量
+	
+OP.GG MCP
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	本机快照不可读	
+本机快照不可读
+本机快照不可读
+
+本机来源快照未提供或不可读；Docker 镜像不打包原始 OP.GG 快照。这不是数据库损坏结论，数据库发布与索引状态请看存储面板。
+
+	2d36d38fb5e07a38315a439c76f84b2feb8e077036a739f02b401650d522a605
+
+羁绊档位统计
+traits
+查看记录数量
+	
+Tactics.tools
+补丁 18.4
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	就绪	
+哈希校验通过
+已映射工具
+
+当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+
+允许工具：get_trait_stats
+	8db495dd003ab8074d831dfbefdd55385ad819689f45fa2dabc010e13ade4b8f
+
+弈子与装备整体统计
+explorer
+查看记录数量
+	
+Tactics.tools
+补丁 18.4
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	就绪	
+哈希校验通过
+已映射工具
+
+当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+
+允许工具：get_explorer_stats
+	0d71a8a3dcb4414f979d55f052a9c3db8ae948ac4b344227788a4d1bba515511
+
+赛季法杖图鉴与规则
+mechanics
+查看记录数量
+	
+Tactics.tools + CommunityDragon
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	就绪	
+哈希校验通过
+已映射工具
+
+当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+
+允许工具：get_season_mechanic
+	be2e6306915378f7132aace2a6daeda474722bdc5fb78f938d1e8d7a531398aa
+
+赛季法杖图鉴与规则
+mechanics
+查看记录数量
+	
+Tactics.tools + CommunityDragon
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	留存修订	
+结构有效 · 无哈希记录
+仅供查看
+
+不是当前生效清单指向的修订，仅供查看。
+
+	b926c802cdfc49a5c0cfc491dd016c8baefe7cb92aa5363e20cfafcdd1e659bf
+
+赛季法杖图鉴与规则
+mechanics
+查看记录数量
+	
+Tactics.tools + CommunityDragon
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	留存修订	
+结构有效 · 无哈希记录
+仅供查看
+
+不是当前生效清单指向的修订，仅供查看。
+
+	125588214bcf3c10e6e49e38b37e4f79fc3a7004eb7bfa6f9b87fbb6404f52d7
+
+法杖出现条件
+conditions
+查看记录数量
+	
+Little Buddy Bot + Riot Games
+补丁 18.4
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	就绪	
+哈希校验通过
+已映射工具
+
+当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+
+允许工具：get_season_mechanic
+	f7e680ad839db5a9c4a556fe492f05fba6f60670fbd0ffcb9b43ced7571ada3e
+
+法杖出现条件
+conditions
+查看记录数量
+	
+Little Buddy Bot + Riot Games
+补丁 18.4
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	留存修订	
+结构有效 · 无哈希记录
+仅供查看
+
+不是当前生效清单指向的修订，仅供查看。
+
+	ed38386bf5c1121c03e0f6517961a05bd215817a7a4baee01c7e95a8ce1c3202
+
+法杖出现条件
+conditions
+查看记录数量
+	
+Little Buddy Bot + Riot Games
+补丁 18.4
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	留存修订	
+结构有效 · 无哈希记录
+仅供查看
+
+不是当前生效清单指向的修订，仅供查看。
+
+	855b7f6a86fabc700c6c819dc5526e40728e1b438c5206498f22c30c2225b571
+
+法杖出现条件
+conditions
+查看记录数量
+	
+Little Buddy Bot + Riot Games
+补丁 18.4
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	留存修订	
+结构有效 · 无哈希记录
+仅供查看
+
+不是当前生效清单指向的修订，仅供查看。
+
+	0f2022bcb5031e3fdd7c2426024ab1d4f0e2e5ebdf888f2e21af82d509e45ebf
+
+中文机制与海克斯奖励
+library
+查看记录数量
+	
+Little Buddy Bot · 中文核验
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	就绪	
+哈希校验通过
+已映射工具
+
+当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+
+允许工具：get_library_knowledge
+	a871151807da42fd62fe18707679c5288381746e824bb6561f80f4790af5cd3e
+
+中文机制与海克斯奖励
+library
+查看记录数量
+	
+Little Buddy Bot · 中文核验
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	留存修订	
+结构有效 · 无哈希记录
+仅供查看
+
+不是当前生效清单指向的修订，仅供查看。
+
+	6c9605cca335fad1c660038490c2918e63788e473c36abf81be8a84351d55de6
+
+中文机制与海克斯奖励
+library
+查看记录数量
+	
+Little Buddy Bot · 中文核验
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	留存修订	
+结构有效 · 无哈希记录
+仅供查看
+
+不是当前生效清单指向的修订，仅供查看。
+
+	ef164a7de046767726d6cd6d31f96958ffb2ed8d7e7cb11ca7899af331c399da
+
+中文机制与海克斯奖励
+library
+查看记录数量
+	
+Little Buddy Bot · 中文核验
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	留存修订	
+结构有效 · 无哈希记录
+仅供查看
+
+不是当前生效清单指向的修订，仅供查看。
+
+	bfb648f240a94c6d2a30524ca5102a55e8025a65ee50564d44528cbd96525e20
+
+中文机制与海克斯奖励
+library
+查看记录数量
+	
+Little Buddy Bot · 中文核验
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	留存修订	
+结构有效 · 无哈希记录
+仅供查看
+
+不是当前生效清单指向的修订，仅供查看。
+
+	a156761fb541d2850c655fbeaf40ea1eb9b7c4c907a9ad864793e9edb459d9aa
+
+中文机制与海克斯奖励
+library
+查看记录数量
+	
+Little Buddy Bot · 中文核验
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	留存修订	
+结构有效 · 无哈希记录
+仅供查看
+
+不是当前生效清单指向的修订，仅供查看。
+
+	660ed49f74200c4374109f646ee932bfd11b725c7c61438b1d91a65180d9e648
+
+PC 原生阵容码映射
+teamcodes
+查看记录数量
+	
+CommunityDragon · PC Team Planner
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	就绪	
+哈希校验通过
+仅供查看
+
+PC 阵容码解析使用的编号映射资料；不进入 AI 游戏统计检索，也不是向量索引。
+
+	8b4c89168f6c1fb46c9d2941bdb2591e114b77ed632ec6e4415f94a349120e88
+
+PC 原生阵容码映射
+teamcodes
+查看记录数量
+	
+CommunityDragon · PC Team Planner
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	留存修订	
+结构有效 · 无哈希记录
+仅供查看
+
+不是当前生效清单指向的修订，仅供查看。
+
+	9119f7f88cdb5df6a2bfd00342615683aa43a6f2da0579d8277b5ba4cf98d27c
+
+法杖专家评级
+ratings
+查看记录数量
+	
+MetaTFT · Spencer
+补丁 未知
+	
+tft-set18-assets16.20-5fedf1ff9cba
+赛季 18 · 当前
+	就绪	
+结构有效 · 无哈希记录
+已映射工具
+
+当前版本包有效，可由列出的本地工具读取；不表示这条资料在某次回答中已被使用。
+
+允许工具：get_season_mechanic
+	e8bc6e95a3203a11110494c5bbac9597d12178688cdadc485958d69a4a5e5f6a
+第 1 / 1 页 · 20 条 · 每页 30
+‹ 上一页
+下一页 ›

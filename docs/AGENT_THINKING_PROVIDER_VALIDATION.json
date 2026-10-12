@@ -1,0 +1,82 @@
+{
+  "test": "explicit paid provider acceptance; followup with verified previous query",
+  "httpStatus": 200,
+  "elapsedMs": 3910,
+  "reply": "**推荐阵容体系**：包含 2 费来源核心。样本至少 1000，前四率从高到低，最多 3 条。\n\n| 名称 / 配置 | 均次 | 前四率 | 登顶率 | 样本 |\n| --- | ---: | ---: | ---: | ---: |\n| 神谕 · 提莫 · 阿利斯塔；队员：阿利斯塔、赫卡里姆、可酷伯、乐芙兰、莫甘娜、提莫、维迦、苍蓝雕纹魔像 [S1] | 4.292 | 56.3% | 6.8% | 38,388 |\n| 神谕 · 提莫；队员：莫甘娜、拉莫斯、苍蓝哨戒、提莫、维迦、费德提克、远古石甲虫、苍蓝雕纹魔像 [S1] | 4.369 | 53.8% | 7.5% | 28,792 |\n| 迅捷射手 · 凯尔；队员：厄斐琉斯、黛安娜、凯尔、蕾欧娜、瑟庄妮、慎、韦鲁斯、阿木木 [S1] | 4.308 | 53.7% | 14.1% | 217,016 |\n\n这是阵容体系不同变体的统计，不能当作固定出装的联合胜率。\n\n符合费用条件的核心：神谕 · 提莫 · 阿利斯塔 → 阿利斯塔（2费）、提莫（2费）；神谕 · 提莫 → 提莫（2费）；迅捷射手 · 凯尔 → 凯尔（2费）。\n\n这些是按核心费用筛出的候选；来源未提供明确追三星标签，不能仅凭费用确认赌狗玩法。\n\n来源：MetaTFT Comps；查询范围 18.4b，近 3 天，铂金及以上。[S1]",
+  "evidence": [
+    {
+      "source": "MetaTFT Comps",
+      "url": "https://www.metatft.com/comps",
+      "delivery": "mysql",
+      "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+      "snapshotId": "78e3201f4563d14a356a17ab2331ba00c89469246b43b02d389b7d97654c7c7c",
+      "recordHash": "4639e8f7cd65109d9c7fffa8c49bcb524edaf5a3a1153bf5eb616ca88533baf1",
+      "sourcePatch": null,
+      "requestedPatch": "18.4b",
+      "sourceCurrentPatch": "18.4b",
+      "patchAttribution": {
+        "method": "explicit_request_and_source_metadata",
+        "statisticsResponsePatch": null
+      },
+      "set": 18,
+      "queueId": 1100,
+      "queue": "Ranked",
+      "rank": "铂金及以上",
+      "rankFilter": "PLATINUM_PLUS",
+      "population": {
+        "queue": "Ranked",
+        "rank": "铂金及以上",
+        "rankFilter": "PLATINUM_PLUS",
+        "region": null
+      },
+      "statisticalWindow": {
+        "days": 3,
+        "timeAnchor": "source_relative_window"
+      },
+      "sampleDenominator": "来源按玩家最终名次聚合的观测数；不是独立比赛场数，重叠记录不相加。",
+      "fetchedAt": "2026-10-11T05:52:31.821Z",
+      "expiresAt": "2026-10-11T11:52:31.821Z",
+      "sourceTime": "2026-10-11T05:52:30.236Z",
+      "statisticsKind": "comp_cluster",
+      "sourceReturnedRows": 61,
+      "exhaustive": false,
+      "note": "指标统计该阵容体系的不同变体；棋子与装备来自来源代表配置，未统计整套固定装备或站位的联合胜率。代表配置的采样范围由来源决定，不能当作当前筛选结果。",
+      "id": "S1",
+      "type": "statistics",
+      "title": "MetaTFT Comps · 推荐阵容体系"
+    }
+  ],
+  "suggestedActions": [],
+  "queryState": {
+    "rank": "PLATINUM_PLUS",
+    "view": "comps",
+    "coreCosts": [
+      2
+    ],
+    "sort": "top4Rate",
+    "minSample": 1000,
+    "limit": 3
+  },
+  "draftVersion": 0,
+  "answerMode": "natural_language_statistics",
+  "usage": {
+    "prompt_tokens": 7371,
+    "completion_tokens": 573,
+    "total_tokens": 7944
+  },
+  "traceId": "trace_933aef33-4a44-4d5f-88f9-b901beda191e",
+  "execution": {
+    "modelCalls": 2,
+    "toolCalls": 1,
+    "reasoningObserved": true,
+    "settings": {
+      "thinking": "enabled",
+      "reasoningEffort": "high",
+      "maxTokens": 8192,
+      "maxToolCalls": 12,
+      "maxRounds": 8,
+      "requestTimeoutMs": 120000,
+      "turnTimeoutMs": 240000
+    }
+  }
+}

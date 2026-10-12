@@ -1,0 +1,219 @@
+{
+  "checkedAt": "2026-10-09T16:47:17.160Z",
+  "phase": "agent",
+  "configuredModel": "deepseek-flash",
+  "scope": "Small one-shot terminology audit, not access to pretraining data or a general accuracy benchmark.",
+  "calls": [
+    {
+      "question": "豹女和木木同时上场，豹女带饮血，查最佳三件套及样本量。",
+      "usage": {
+        "prompt_tokens": 5204,
+        "completion_tokens": 106,
+        "total_tokens": 5310,
+        "prompt_tokens_details": {
+          "cached_tokens": 4992
+        },
+        "prompt_cache_hit_tokens": 4992,
+        "prompt_cache_miss_tokens": 212
+      },
+      "toolCalls": [
+        {
+          "name": "search_catalog",
+          "arguments": "{\"query\": \"豹女 木木\", \"kind\": \"champions\"}"
+        },
+        {
+          "name": "search_catalog",
+          "arguments": "{\"query\": \"饮血剑\", \"kind\": \"items\"}"
+        }
+      ]
+    },
+    {
+      "question": "豹女和木木同时上场，豹女带饮血，查最佳三件套及样本量。",
+      "usage": {
+        "prompt_tokens": 6100,
+        "completion_tokens": 60,
+        "total_tokens": 6160,
+        "prompt_tokens_details": {
+          "cached_tokens": 5248
+        },
+        "prompt_cache_hit_tokens": 5248,
+        "prompt_cache_miss_tokens": 852
+      },
+      "toolCalls": [
+        {
+          "name": "search_catalog",
+          "arguments": "{\"kind\": \"champions\", \"query\": \"奈德丽 豹女\"}"
+        }
+      ]
+    },
+    {
+      "question": "豹女和木木同时上场，豹女带饮血，查最佳三件套及样本量。",
+      "usage": {
+        "prompt_tokens": 6499,
+        "completion_tokens": 253,
+        "total_tokens": 6752,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "prompt_cache_hit_tokens": 6144,
+        "prompt_cache_miss_tokens": 355
+      },
+      "toolCalls": [
+        {
+          "name": "get_conditional_builds",
+          "arguments": "{\"champion_id\": \"DA_Nidalee18_AP\", \"required_item_ids\": [\"DA_Bloodthirster\"], \"sort\": \"avgPlacement\", \"sort_direction\": \"asc\"}"
+        },
+        {
+          "name": "get_research_stats",
+          "arguments": "{\"carrierId\": \"DA_Nidalee18_AP\", \"conditions\": [{\"type\": \"champion\", \"id\": \"DA_Nidalee18_AP\"}, {\"type\": \"champion\", \"id\": \"DA_Amumu18\"}, {\"type\": \"item\", \"id\": \"DA_Bloodthirster\", \"holderId\": \"DA_Nidalee18_AP\"}], \"sort\": \"avgPlacement\"}"
+        }
+      ]
+    },
+    {
+      "question": "豹女和木木同时上场，豹女带饮血，查最佳三件套及样本量。",
+      "usage": {
+        "prompt_tokens": 9377,
+        "completion_tokens": 182,
+        "total_tokens": 9559,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "prompt_cache_hit_tokens": 3072,
+        "prompt_cache_miss_tokens": 6305
+      },
+      "toolCalls": []
+    },
+    {
+      "question": "卡50慢D和大D有什么区别？锁血是不是每回合都要赢？",
+      "usage": {
+        "prompt_tokens": 5197,
+        "completion_tokens": 135,
+        "total_tokens": 5332,
+        "prompt_tokens_details": {
+          "cached_tokens": 4992
+        },
+        "prompt_cache_hit_tokens": 4992,
+        "prompt_cache_miss_tokens": 205
+      },
+      "toolCalls": [
+        {
+          "name": "search_knowledge",
+          "arguments": "{\"query\": \"卡50慢D 大D 经济 利息 金币 每回合 锁血 连败 血线\", \"limit\": 6}"
+        },
+        {
+          "name": "get_library_knowledge",
+          "arguments": "{\"query\": \"金币利息 每回合收益 升级 商店刷新 血量\"}"
+        }
+      ]
+    },
+    {
+      "question": "卡50慢D和大D有什么区别？锁血是不是每回合都要赢？",
+      "usage": {
+        "prompt_tokens": 8555,
+        "completion_tokens": 462,
+        "total_tokens": 9017,
+        "prompt_tokens_details": {
+          "cached_tokens": 5248
+        },
+        "prompt_cache_hit_tokens": 5248,
+        "prompt_cache_miss_tokens": 3307
+      },
+      "toolCalls": []
+    }
+  ],
+  "results": [
+    {
+      "question": "豹女和木木同时上场，豹女带饮血，查最佳三件套及样本量。",
+      "reply": "**奈德丽（豹女）+ 阿木木同时上场的联合统计未取到（工具预算已用完），以下为奈德丽锁定饮血剑的观测三件套统计。**\n\n**奈德丽（锁定饮血剑）最佳三件套**\n- 饮血剑 + 无尽之刃 + 朔极之矛\n- 均次 3.56｜前四率 71.43%｜登顶率 14.1%｜样本 553\n- 补丁 18.4（按采集时间推定）｜来源 OP.GG [S4]\n\n依据：按均次升序、样本门槛100筛选后的已收录组合第一名；该统计为“仅奈德丽带此三件套”的样本，不含与阿木木同场的逐对局联合条件，样本量不做混合相加。",
+      "tools": [
+        {
+          "name": "search_catalog",
+          "phase": "model",
+          "args": {
+            "query": "豹女 木木",
+            "kind": "champions"
+          }
+        },
+        {
+          "name": "search_catalog",
+          "phase": "model",
+          "args": {
+            "query": "饮血剑",
+            "kind": "items"
+          }
+        },
+        {
+          "name": "search_catalog",
+          "phase": "model",
+          "args": {
+            "query": "奈德丽 豹女",
+            "kind": "champions"
+          }
+        },
+        {
+          "name": "get_conditional_builds",
+          "phase": "model",
+          "args": {
+            "champion_id": "DA_Nidalee18_AP",
+            "required_item_ids": [
+              "DA_Bloodthirster"
+            ],
+            "sort": "avgPlacement",
+            "sort_direction": "asc"
+          },
+          "status": "ok",
+          "query": {
+            "championId": "DA_Nidalee18_AP",
+            "requiredItemIds": [
+              "DA_Bloodthirster"
+            ],
+            "excludedItemIds": [],
+            "minSample": 100,
+            "sort": "avgPlacement",
+            "sortDirection": "asc"
+          }
+        },
+        {
+          "name": "get_research_stats",
+          "phase": "model",
+          "args": {}
+        }
+      ]
+    },
+    {
+      "question": "卡50慢D和大D有什么区别？锁血是不是每回合都要赢？",
+      "reply": "这两个都是通用运营概念，站内知识库目前只收录了具体机制条目（商店费用分布、升级经验、卡池容量等 [S8]），没有专门解释“卡50慢D／大D”“锁血要不要每回合赢”的词条，所以下面只说能核验的机制基础，不编来源没有的胜率或节奏数值。\n\n**卡50慢D vs 大D**\n- 共同点：都是“刷新商店搜牌”，区别在于是否刻意保留 50 金币这一档（利息门槛）以及一次投入多少金币。\n- 卡50慢D：把金币稳在 50 附近，每回合只花利息之外的溢出部分搜牌，节奏慢、搜的次数少但经济不断档。\n- 大D：在某个关键等级（常见 7 级或 8 级）一次把金币大量投入刷新，短时间内把核心刷出来、追质量，代价是之后经济见底、等级进度会被拖慢。\n- 能核验的量化依据只有商店概率与升级经验 [S8]：例如 7 级商店 4 费概率约 10%、8 级约 30%，升级经验 6→7 需 36、7→8 需 56。所以“大D”通常在目标费用的概率档位上做，而卡50更适合前期攒经济、把等级抬到目标档位后再搜。\n\n**锁血是不是每回合都要赢**\n- 不是。锁血指把血量维持在安全线以上、不被淘汰，判定标准是与“血量/排名危险线”的关系，不是每回合必须赢。\n- 连败本身不致命，致命的是掉到会被淘汰的位次；连败还能配合经济与“连败连胜”类强化（如 [S6] 的连败连胜海克斯，阶段 2 可提供）形成收益。\n- 站内没有“锁血需连胜多少回合”的机制条目，这部分无法给来源支撑的定量结论。\n\n一个短说明：以上机制细节（利息门槛具体数值、锁血安全线）当前知识库未收录，仅 [S8] 的商店概率／升级经验可用。",
+      "tools": [
+        {
+          "name": "search_knowledge",
+          "phase": "model",
+          "args": {
+            "query": "卡50慢D 大D 经济 利息 金币 每回合 锁血 连败 血线",
+            "limit": 6
+          },
+          "status": "ready",
+          "retrieval": {
+            "mode": "lexical"
+          },
+          "evidenceTitles": [
+            "远征 · 牺牲奖励 · 达到累计33金币价值",
+            "花仙子 · 皮克斯与金币",
+            "花仙子 · 皮克斯与金币 · 普通皮克斯累计效果",
+            "花仙子 · 皮克斯与金币 · 黄金皮克斯奖励",
+            "连败连胜才能连鸡 · 海克斯出现条件",
+            "获得21金币 · 海克斯出现条件"
+          ]
+        },
+        {
+          "name": "get_library_knowledge",
+          "phase": "model",
+          "args": {
+            "query": "金币利息 每回合收益 升级 商店刷新 血量"
+          },
+          "status": "ready"
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-10-09T16:47:28.059Z"
+}

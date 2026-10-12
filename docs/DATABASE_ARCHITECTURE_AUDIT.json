@@ -1,0 +1,2380 @@
+{
+  "auditedAt": "2026-10-11T06:06:02.135Z",
+  "readOnly": true,
+  "consistentSnapshot": true,
+  "modelCalled": false,
+  "active": {
+    "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+    "season": 18,
+    "currentPatch": "18.4",
+    "rulesSourcePatch": "18.4"
+  },
+  "tables": [
+    {
+      "name": "change_log",
+      "ENGINE": "InnoDB",
+      "dataBytes": 196608,
+      "indexBytes": 16384,
+      "rows": 110,
+      "activeReleaseRows": 4,
+      "columns": [
+        {
+          "name": "id",
+          "type": "bigint",
+          "nullable": "NO"
+        },
+        {
+          "name": "release_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "kind",
+          "type": "varchar(40)",
+          "nullable": "NO"
+        },
+        {
+          "name": "detail",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp(3)",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "changes_release",
+          "nonUnique": 1,
+          "columnsList": "release_id,id"
+        },
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "id"
+        }
+      ]
+    },
+    {
+      "name": "data_releases",
+      "ENGINE": "InnoDB",
+      "dataBytes": 212992,
+      "indexBytes": 0,
+      "rows": 3,
+      "activeReleaseRows": null,
+      "columns": [
+        {
+          "name": "id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "season",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "source_patch",
+          "type": "varchar(24)",
+          "nullable": "NO"
+        },
+        {
+          "name": "state",
+          "type": "enum('staged','published')",
+          "nullable": "NO"
+        },
+        {
+          "name": "manifest",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "created_at",
+          "type": "timestamp(3)",
+          "nullable": "NO"
+        },
+        {
+          "name": "published_at",
+          "type": "timestamp(3)",
+          "nullable": "YES"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "id"
+        }
+      ]
+    },
+    {
+      "name": "entities",
+      "ENGINE": "InnoDB",
+      "dataBytes": 17416192,
+      "indexBytes": 491520,
+      "rows": 2532,
+      "activeReleaseRows": 844,
+      "columns": [
+        {
+          "name": "release_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "entity_id",
+          "type": "varchar(240)",
+          "nullable": "NO"
+        },
+        {
+          "name": "kind",
+          "type": "varchar(32)",
+          "nullable": "NO"
+        },
+        {
+          "name": "name",
+          "type": "varchar(240)",
+          "nullable": "NO"
+        },
+        {
+          "name": "aliases",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "payload",
+          "type": "json",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "entity_names",
+          "nonUnique": 1,
+          "columnsList": "release_id,kind,name"
+        },
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "release_id,entity_id"
+        }
+      ]
+    },
+    {
+      "name": "index_jobs",
+      "ENGINE": "InnoDB",
+      "dataBytes": 16384,
+      "indexBytes": 0,
+      "rows": 3,
+      "activeReleaseRows": 1,
+      "columns": [
+        {
+          "name": "release_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "profile_hash",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "collection_name",
+          "type": "varchar(160)",
+          "nullable": "NO"
+        },
+        {
+          "name": "state",
+          "type": "enum('pending','running','ready','failed')",
+          "nullable": "NO"
+        },
+        {
+          "name": "indexed_chunks",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "profile",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "error_code",
+          "type": "varchar(80)",
+          "nullable": "YES"
+        },
+        {
+          "name": "updated_at",
+          "type": "timestamp(3)",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "release_id,profile_hash"
+        }
+      ]
+    },
+    {
+      "name": "knowledge_chunks",
+      "ENGINE": "InnoDB",
+      "dataBytes": 19628032,
+      "indexBytes": 3178496,
+      "rows": 2478,
+      "activeReleaseRows": 940,
+      "columns": [
+        {
+          "name": "release_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "chunk_id",
+          "type": "varchar(80)",
+          "nullable": "NO"
+        },
+        {
+          "name": "document_id",
+          "type": "varchar(240)",
+          "nullable": "NO"
+        },
+        {
+          "name": "ordinal",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "title",
+          "type": "varchar(500)",
+          "nullable": "NO"
+        },
+        {
+          "name": "text",
+          "type": "mediumtext",
+          "nullable": "NO"
+        },
+        {
+          "name": "source_patch",
+          "type": "varchar(24)",
+          "nullable": "YES"
+        },
+        {
+          "name": "eligible",
+          "type": "tinyint(1)",
+          "nullable": "NO"
+        },
+        {
+          "name": "entity_ids",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "content_hash",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "payload",
+          "type": "json",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "chunk_scope",
+          "nonUnique": 1,
+          "columnsList": "release_id,eligible,source_patch"
+        },
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "release_id,chunk_id"
+        },
+        {
+          "name": "release_id",
+          "nonUnique": 1,
+          "columnsList": "release_id,document_id"
+        }
+      ]
+    },
+    {
+      "name": "knowledge_documents",
+      "ENGINE": "InnoDB",
+      "dataBytes": 18530304,
+      "indexBytes": 409600,
+      "rows": 2154,
+      "activeReleaseRows": 832,
+      "columns": [
+        {
+          "name": "release_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "document_id",
+          "type": "varchar(240)",
+          "nullable": "NO"
+        },
+        {
+          "name": "kind",
+          "type": "varchar(40)",
+          "nullable": "NO"
+        },
+        {
+          "name": "title",
+          "type": "varchar(500)",
+          "nullable": "NO"
+        },
+        {
+          "name": "source_patch",
+          "type": "varchar(24)",
+          "nullable": "YES"
+        },
+        {
+          "name": "eligible",
+          "type": "tinyint(1)",
+          "nullable": "NO"
+        },
+        {
+          "name": "review_status",
+          "type": "varchar(80)",
+          "nullable": "NO"
+        },
+        {
+          "name": "entity_ids",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "source",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "payload",
+          "type": "json",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "knowledge_scope",
+          "nonUnique": 1,
+          "columnsList": "release_id,eligible,source_patch"
+        },
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "release_id,document_id"
+        }
+      ]
+    },
+    {
+      "name": "metatft_dataset_rows",
+      "ENGINE": "InnoDB",
+      "dataBytes": 869122048,
+      "indexBytes": 116326400,
+      "rows": 390604,
+      "activeReleaseRows": null,
+      "columns": [
+        {
+          "name": "dataset_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "dimension",
+          "type": "varchar(24)",
+          "nullable": "NO"
+        },
+        {
+          "name": "row_key",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "entity_id",
+          "type": "varchar(240)",
+          "nullable": "NO"
+        },
+        {
+          "name": "sample_size",
+          "type": "bigint",
+          "nullable": "NO"
+        },
+        {
+          "name": "avg_placement",
+          "type": "double",
+          "nullable": "NO"
+        },
+        {
+          "name": "placement_count",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "payload",
+          "type": "json",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "metatft_dataset_entity",
+          "nonUnique": 1,
+          "columnsList": "dataset_id,dimension,entity_id"
+        },
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "dataset_id,dimension,row_key"
+        }
+      ]
+    },
+    {
+      "name": "metatft_datasets",
+      "ENGINE": "InnoDB",
+      "dataBytes": 114900992,
+      "indexBytes": 1589248,
+      "rows": 2584,
+      "activeReleaseRows": 2584,
+      "columns": [
+        {
+          "name": "id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "release_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "dataset_key",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "kind",
+          "type": "varchar(24)",
+          "nullable": "NO"
+        },
+        {
+          "name": "entity_id",
+          "type": "varchar(240)",
+          "nullable": "NO"
+        },
+        {
+          "name": "query_scope",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "source_metadata",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "raw_response_text",
+          "type": "longtext",
+          "nullable": "NO"
+        },
+        {
+          "name": "content_hash",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "summary",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "captured_at",
+          "type": "bigint",
+          "nullable": "NO"
+        },
+        {
+          "name": "expires_at",
+          "type": "bigint",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "metatft_dataset_lookup",
+          "nonUnique": 1,
+          "columnsList": "release_id,dataset_key,captured_at"
+        },
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "id"
+        }
+      ]
+    },
+    {
+      "name": "metatft_query_rows",
+      "ENGINE": "InnoDB",
+      "dataBytes": 55574528,
+      "indexBytes": 13844480,
+      "rows": 23457,
+      "activeReleaseRows": null,
+      "columns": [
+        {
+          "name": "snapshot_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "dimension",
+          "type": "varchar(24)",
+          "nullable": "NO"
+        },
+        {
+          "name": "row_key",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "champion_id",
+          "type": "varchar(240)",
+          "nullable": "YES"
+        },
+        {
+          "name": "item_ids",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "unit_ids",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "placement_count",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "sample_size",
+          "type": "bigint",
+          "nullable": "NO"
+        },
+        {
+          "name": "avg_placement",
+          "type": "double",
+          "nullable": "NO"
+        },
+        {
+          "name": "top4_rate",
+          "type": "double",
+          "nullable": "NO"
+        },
+        {
+          "name": "win_rate",
+          "type": "double",
+          "nullable": "NO"
+        },
+        {
+          "name": "payload",
+          "type": "json",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "metatft_rows_champion",
+          "nonUnique": 1,
+          "columnsList": "snapshot_id,dimension,champion_id"
+        },
+        {
+          "name": "metatft_rows_samples",
+          "nonUnique": 1,
+          "columnsList": "snapshot_id,dimension,sample_size"
+        },
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "snapshot_id,dimension,row_key"
+        }
+      ]
+    },
+    {
+      "name": "metatft_query_snapshots",
+      "ENGINE": "InnoDB",
+      "dataBytes": 14172160,
+      "indexBytes": 16384,
+      "rows": 45,
+      "activeReleaseRows": 45,
+      "columns": [
+        {
+          "name": "id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "release_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "query_key",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "season",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "requested_patch",
+          "type": "varchar(24)",
+          "nullable": "NO"
+        },
+        {
+          "name": "requested_b_patch",
+          "type": "varchar(12)",
+          "nullable": "NO"
+        },
+        {
+          "name": "query_scope",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "source_metadata",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "raw_responses",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "content_hash",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "summary",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "captured_at",
+          "type": "bigint",
+          "nullable": "NO"
+        },
+        {
+          "name": "expires_at",
+          "type": "bigint",
+          "nullable": "NO"
+        },
+        {
+          "name": "raw_response_text",
+          "type": "longtext",
+          "nullable": "YES"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "metatft_query_lookup",
+          "nonUnique": 1,
+          "columnsList": "release_id,query_key,captured_at"
+        },
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "id"
+        }
+      ]
+    },
+    {
+      "name": "reward_branches",
+      "ENGINE": "InnoDB",
+      "dataBytes": 2637824,
+      "indexBytes": 0,
+      "rows": 2538,
+      "activeReleaseRows": 846,
+      "columns": [
+        {
+          "name": "release_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "document_id",
+          "type": "varchar(240)",
+          "nullable": "NO"
+        },
+        {
+          "name": "table_no",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "row_no",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "condition_text",
+          "type": "text",
+          "nullable": "NO"
+        },
+        {
+          "name": "probability",
+          "type": "decimal(12,10)",
+          "nullable": "YES"
+        },
+        {
+          "name": "payload",
+          "type": "json",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "release_id,document_id,table_no,row_no"
+        }
+      ]
+    },
+    {
+      "name": "riot_collection_jobs",
+      "ENGINE": "InnoDB",
+      "dataBytes": 16384,
+      "indexBytes": 0,
+      "rows": 3,
+      "activeReleaseRows": null,
+      "columns": [
+        {
+          "name": "job_key",
+          "type": "varchar(160)",
+          "nullable": "NO"
+        },
+        {
+          "name": "payload",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "updated_at",
+          "type": "timestamp(3)",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "job_key"
+        }
+      ]
+    },
+    {
+      "name": "riot_matches",
+      "ENGINE": "InnoDB",
+      "dataBytes": 6832128,
+      "indexBytes": 32768,
+      "rows": 87,
+      "activeReleaseRows": null,
+      "columns": [
+        {
+          "name": "match_id",
+          "type": "varchar(80)",
+          "nullable": "NO"
+        },
+        {
+          "name": "platform",
+          "type": "varchar(16)",
+          "nullable": "NO"
+        },
+        {
+          "name": "region",
+          "type": "varchar(16)",
+          "nullable": "NO"
+        },
+        {
+          "name": "queue_id",
+          "type": "int",
+          "nullable": "YES"
+        },
+        {
+          "name": "season",
+          "type": "int",
+          "nullable": "YES"
+        },
+        {
+          "name": "game_started_at",
+          "type": "bigint",
+          "nullable": "YES"
+        },
+        {
+          "name": "game_ended_at",
+          "type": "bigint",
+          "nullable": "YES"
+        },
+        {
+          "name": "raw_game_version",
+          "type": "varchar(240)",
+          "nullable": "YES"
+        },
+        {
+          "name": "source_patch",
+          "type": "varchar(24)",
+          "nullable": "YES"
+        },
+        {
+          "name": "assigned_patch",
+          "type": "varchar(24)",
+          "nullable": "YES"
+        },
+        {
+          "name": "patch_attribution",
+          "type": "json",
+          "nullable": "YES"
+        },
+        {
+          "name": "status",
+          "type": "varchar(32)",
+          "nullable": "NO"
+        },
+        {
+          "name": "content_hash",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "quality",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "raw_payload",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "fetched_at",
+          "type": "bigint",
+          "nullable": "NO"
+        },
+        {
+          "name": "ingested_at",
+          "type": "timestamp(3)",
+          "nullable": "NO"
+        },
+        {
+          "name": "raw_json",
+          "type": "longtext",
+          "nullable": "YES"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "match_id"
+        },
+        {
+          "name": "riot_match_scope",
+          "nonUnique": 1,
+          "columnsList": "status,season,assigned_patch,queue_id"
+        },
+        {
+          "name": "riot_match_time",
+          "nonUnique": 1,
+          "columnsList": "game_ended_at"
+        }
+      ]
+    },
+    {
+      "name": "riot_participants",
+      "ENGINE": "InnoDB",
+      "dataBytes": 4734976,
+      "indexBytes": 98304,
+      "rows": 689,
+      "activeReleaseRows": null,
+      "columns": [
+        {
+          "name": "match_id",
+          "type": "varchar(80)",
+          "nullable": "NO"
+        },
+        {
+          "name": "participant_index",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "placement",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "level",
+          "type": "int",
+          "nullable": "YES"
+        },
+        {
+          "name": "composition_key",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "units_json",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "traits_json",
+          "type": "json",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "match_id,participant_index"
+        },
+        {
+          "name": "riot_composition",
+          "nonUnique": 1,
+          "columnsList": "composition_key"
+        }
+      ]
+    },
+    {
+      "name": "riot_traits",
+      "ENGINE": "InnoDB",
+      "dataBytes": 1589248,
+      "indexBytes": 540672,
+      "rows": 7162,
+      "activeReleaseRows": null,
+      "columns": [
+        {
+          "name": "match_id",
+          "type": "varchar(80)",
+          "nullable": "NO"
+        },
+        {
+          "name": "participant_index",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "trait_id",
+          "type": "varchar(240)",
+          "nullable": "NO"
+        },
+        {
+          "name": "style",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "tier_current",
+          "type": "int",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "match_id,participant_index,trait_id"
+        },
+        {
+          "name": "riot_trait",
+          "nonUnique": 1,
+          "columnsList": "trait_id,style,match_id,participant_index"
+        }
+      ]
+    },
+    {
+      "name": "riot_unit_items",
+      "ENGINE": "InnoDB",
+      "dataBytes": 1589248,
+      "indexBytes": 1589248,
+      "rows": 8314,
+      "activeReleaseRows": null,
+      "columns": [
+        {
+          "name": "match_id",
+          "type": "varchar(80)",
+          "nullable": "NO"
+        },
+        {
+          "name": "participant_index",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "unit_index",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "item_index",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "item_id",
+          "type": "varchar(240)",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "match_id,participant_index,unit_index,item_index"
+        },
+        {
+          "name": "riot_item",
+          "nonUnique": 1,
+          "columnsList": "item_id,match_id,participant_index"
+        }
+      ]
+    },
+    {
+      "name": "riot_units",
+      "ENGINE": "InnoDB",
+      "dataBytes": 2637824,
+      "indexBytes": 278528,
+      "rows": 5622,
+      "activeReleaseRows": null,
+      "columns": [
+        {
+          "name": "match_id",
+          "type": "varchar(80)",
+          "nullable": "NO"
+        },
+        {
+          "name": "participant_index",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "unit_index",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "champion_id",
+          "type": "varchar(240)",
+          "nullable": "NO"
+        },
+        {
+          "name": "star_level",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "item_ids",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "build_key",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "valid_build",
+          "type": "tinyint(1)",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "match_id,participant_index,unit_index"
+        },
+        {
+          "name": "riot_champion",
+          "nonUnique": 1,
+          "columnsList": "champion_id,match_id,participant_index"
+        }
+      ]
+    },
+    {
+      "name": "runtime_state",
+      "ENGINE": "InnoDB",
+      "dataBytes": 16384,
+      "indexBytes": 16384,
+      "rows": 1,
+      "activeReleaseRows": null,
+      "columns": [
+        {
+          "name": "id",
+          "type": "tinyint",
+          "nullable": "NO"
+        },
+        {
+          "name": "current_patch",
+          "type": "varchar(24)",
+          "nullable": "NO"
+        },
+        {
+          "name": "active_release",
+          "type": "char(64)",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "active_release",
+          "nonUnique": 1,
+          "columnsList": "active_release"
+        },
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "id"
+        }
+      ]
+    },
+    {
+      "name": "schema_migrations",
+      "ENGINE": "InnoDB",
+      "dataBytes": 16384,
+      "indexBytes": 0,
+      "rows": 7,
+      "activeReleaseRows": null,
+      "columns": [
+        {
+          "name": "version",
+          "type": "int",
+          "nullable": "NO"
+        },
+        {
+          "name": "checksum",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "applied_at",
+          "type": "timestamp(3)",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "version"
+        }
+      ]
+    },
+    {
+      "name": "snapshot_patch_assignments",
+      "ENGINE": "InnoDB",
+      "dataBytes": 1589248,
+      "indexBytes": 0,
+      "rows": 603,
+      "activeReleaseRows": 201,
+      "columns": [
+        {
+          "name": "release_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "snapshot_key",
+          "type": "varchar(180)",
+          "nullable": "NO"
+        },
+        {
+          "name": "content_hash",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "assigned_patch",
+          "type": "varchar(24)",
+          "nullable": "NO"
+        },
+        {
+          "name": "attribution",
+          "type": "json",
+          "nullable": "NO"
+        },
+        {
+          "name": "updated_at",
+          "type": "timestamp(3)",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "release_id,snapshot_key"
+        }
+      ]
+    },
+    {
+      "name": "source_capabilities",
+      "ENGINE": "InnoDB",
+      "dataBytes": 16384,
+      "indexBytes": 0,
+      "rows": 12,
+      "activeReleaseRows": 4,
+      "columns": [
+        {
+          "name": "release_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "source_id",
+          "type": "varchar(80)",
+          "nullable": "NO"
+        },
+        {
+          "name": "capabilities",
+          "type": "json",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "release_id,source_id"
+        }
+      ]
+    },
+    {
+      "name": "source_snapshots",
+      "ENGINE": "InnoDB",
+      "dataBytes": 38322176,
+      "indexBytes": 0,
+      "rows": 629,
+      "activeReleaseRows": 210,
+      "columns": [
+        {
+          "name": "release_id",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "snapshot_key",
+          "type": "varchar(180)",
+          "nullable": "NO"
+        },
+        {
+          "name": "source_patch",
+          "type": "varchar(24)",
+          "nullable": "YES"
+        },
+        {
+          "name": "evidence_kind",
+          "type": "varchar(40)",
+          "nullable": "NO"
+        },
+        {
+          "name": "content_hash",
+          "type": "char(64)",
+          "nullable": "NO"
+        },
+        {
+          "name": "payload",
+          "type": "json",
+          "nullable": "NO"
+        }
+      ],
+      "indexes": [
+        {
+          "name": "PRIMARY",
+          "nonUnique": 0,
+          "columnsList": "release_id,snapshot_key"
+        }
+      ]
+    }
+  ],
+  "foreignKeys": [
+    {
+      "child": "change_log",
+      "parent": "data_releases",
+      "columns": [
+        "release_id"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "entities",
+      "parent": "data_releases",
+      "columns": [
+        "release_id"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "index_jobs",
+      "parent": "data_releases",
+      "columns": [
+        "release_id"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "knowledge_chunks",
+      "parent": "knowledge_documents",
+      "columns": [
+        "release_id",
+        "document_id"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "knowledge_documents",
+      "parent": "data_releases",
+      "columns": [
+        "release_id"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "metatft_dataset_rows",
+      "parent": "metatft_datasets",
+      "columns": [
+        "dataset_id"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "metatft_datasets",
+      "parent": "data_releases",
+      "columns": [
+        "release_id"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "metatft_query_rows",
+      "parent": "metatft_query_snapshots",
+      "columns": [
+        "snapshot_id"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "metatft_query_snapshots",
+      "parent": "data_releases",
+      "columns": [
+        "release_id"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "reward_branches",
+      "parent": "knowledge_documents",
+      "columns": [
+        "release_id",
+        "document_id"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "riot_participants",
+      "parent": "riot_matches",
+      "columns": [
+        "match_id"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "riot_traits",
+      "parent": "riot_participants",
+      "columns": [
+        "match_id",
+        "participant_index"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "riot_unit_items",
+      "parent": "riot_units",
+      "columns": [
+        "match_id",
+        "participant_index",
+        "unit_index"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "riot_units",
+      "parent": "riot_participants",
+      "columns": [
+        "match_id",
+        "participant_index"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "runtime_state",
+      "parent": "data_releases",
+      "columns": [
+        "active_release"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "snapshot_patch_assignments",
+      "parent": "source_snapshots",
+      "columns": [
+        "release_id",
+        "snapshot_key"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "source_capabilities",
+      "parent": "data_releases",
+      "columns": [
+        "release_id"
+      ],
+      "orphans": 0
+    },
+    {
+      "child": "source_snapshots",
+      "parent": "data_releases",
+      "columns": [
+        "release_id"
+      ],
+      "orphans": 0
+    }
+  ],
+  "migrations": [
+    {
+      "version": 1,
+      "file": "schema.sql",
+      "checksumMatches": true,
+      "appliedAt": "2026-10-09T14:14:41.241Z"
+    },
+    {
+      "version": 2,
+      "file": "schema-002.sql",
+      "checksumMatches": true,
+      "appliedAt": "2026-10-09T15:10:52.710Z"
+    },
+    {
+      "version": 3,
+      "file": "schema-003.sql",
+      "checksumMatches": true,
+      "appliedAt": "2026-10-09T16:06:54.954Z"
+    },
+    {
+      "version": 4,
+      "file": "schema-004.sql",
+      "checksumMatches": true,
+      "appliedAt": "2026-10-09T16:15:11.019Z"
+    },
+    {
+      "version": 5,
+      "file": "schema-005.sql",
+      "checksumMatches": true,
+      "appliedAt": "2026-10-11T04:54:33.695Z"
+    },
+    {
+      "version": 6,
+      "file": "schema-006.sql",
+      "checksumMatches": true,
+      "appliedAt": "2026-10-11T05:00:35.562Z"
+    },
+    {
+      "version": 7,
+      "file": "schema-007.sql",
+      "checksumMatches": true,
+      "appliedAt": "2026-10-11T05:15:26.775Z"
+    }
+  ],
+  "failures": [],
+  "notes": [
+    "Table row counts use COUNT(*); allocated bytes are MySQL information_schema estimates, not exact payload bytes.",
+    "Statistics records, source responses, matches, participants, documents, chunks and vector job counts are distinct units.",
+    "Retained MetaTFT snapshots include expired data and different ranks/adapters; this is not current query coverage.",
+    "This audit verifies SQL relationships and migration checksums; MetaTFT body hashes and metrics are audited separately."
+  ],
+  "metatft": {
+    "status": "ready",
+    "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+    "scope": "active_release_all_retained_snapshots",
+    "countedAt": "2026-10-11T06:06:04.465Z",
+    "datasets": {
+      "snapshots": 2584,
+      "unexpiredSnapshots": 2567,
+      "distinctKeys": 2567,
+      "rows": 390604
+    },
+    "queries": {
+      "snapshots": 45,
+      "unexpiredSnapshots": 4,
+      "distinctKeys": 42,
+      "rows": 23457
+    },
+    "sourcePatch": null,
+    "snapshotPolicy": {
+      "datasetsTtlHours": 6,
+      "queriesTtlMinutes": 10,
+      "automaticDeletion": false
+    },
+    "note": "快照数包含当前发布保留的历史采集；未过期不等于当前补丁或完整覆盖。记录数不是比赛数或样本数，目录覆盖须另按补丁、段位与适配器版本核验。"
+  },
+  "metaDatasetScopes": [
+    {
+      "kind": "builds",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "PLATINUM"
+      ],
+      "snapshots": 74,
+      "distinctKeys": 74,
+      "unexpiredSnapshots": "74"
+    },
+    {
+      "kind": "builds",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "GOLD"
+      ],
+      "snapshots": 74,
+      "distinctKeys": 74,
+      "unexpiredSnapshots": "74"
+    },
+    {
+      "kind": "builds",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "IRON"
+      ],
+      "snapshots": 74,
+      "distinctKeys": 74,
+      "unexpiredSnapshots": "74"
+    },
+    {
+      "kind": "builds",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "DIAMOND"
+      ],
+      "snapshots": 74,
+      "distinctKeys": 74,
+      "unexpiredSnapshots": "74"
+    },
+    {
+      "kind": "builds",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "GRANDMASTER"
+      ],
+      "snapshots": 74,
+      "distinctKeys": 74,
+      "unexpiredSnapshots": "74"
+    },
+    {
+      "kind": "builds",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "EMERALD"
+      ],
+      "snapshots": 74,
+      "distinctKeys": 74,
+      "unexpiredSnapshots": "74"
+    },
+    {
+      "kind": "builds",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "CHALLENGER"
+      ],
+      "snapshots": 74,
+      "distinctKeys": 74,
+      "unexpiredSnapshots": "74"
+    },
+    {
+      "kind": "builds",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "SILVER"
+      ],
+      "snapshots": 74,
+      "distinctKeys": 74,
+      "unexpiredSnapshots": "74"
+    },
+    {
+      "kind": "builds",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "BRONZE"
+      ],
+      "snapshots": 74,
+      "distinctKeys": 74,
+      "unexpiredSnapshots": "74"
+    },
+    {
+      "kind": "builds",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "MASTER"
+      ],
+      "snapshots": 74,
+      "distinctKeys": 74,
+      "unexpiredSnapshots": "74"
+    },
+    {
+      "kind": "builds",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "CHALLENGER",
+        "DIAMOND",
+        "EMERALD",
+        "GRANDMASTER",
+        "MASTER",
+        "PLATINUM"
+      ],
+      "snapshots": 80,
+      "distinctKeys": 74,
+      "unexpiredSnapshots": "74"
+    },
+    {
+      "kind": "builds",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "BRONZE",
+        "CHALLENGER",
+        "DIAMOND",
+        "EMERALD",
+        "GOLD",
+        "GRANDMASTER",
+        "IRON",
+        "MASTER",
+        "PLATINUM",
+        "SILVER"
+      ],
+      "snapshots": 73,
+      "distinctKeys": 73,
+      "unexpiredSnapshots": "73"
+    },
+    {
+      "kind": "comps",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "PLATINUM"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "comps",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "GOLD"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "comps",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "IRON"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "comps",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "DIAMOND"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "comps",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "GRANDMASTER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "comps",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "EMERALD"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "comps",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "CHALLENGER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "comps",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "SILVER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "comps",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "BRONZE"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "comps",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "MASTER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "comps",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "CHALLENGER",
+        "DIAMOND",
+        "EMERALD",
+        "GRANDMASTER",
+        "MASTER",
+        "PLATINUM"
+      ],
+      "snapshots": 4,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "comps",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "BRONZE",
+        "CHALLENGER",
+        "DIAMOND",
+        "EMERALD",
+        "GOLD",
+        "GRANDMASTER",
+        "IRON",
+        "MASTER",
+        "PLATINUM",
+        "SILVER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "holders",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "PLATINUM"
+      ],
+      "snapshots": 137,
+      "distinctKeys": 137,
+      "unexpiredSnapshots": "137"
+    },
+    {
+      "kind": "holders",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "GOLD"
+      ],
+      "snapshots": 137,
+      "distinctKeys": 137,
+      "unexpiredSnapshots": "137"
+    },
+    {
+      "kind": "holders",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "IRON"
+      ],
+      "snapshots": 137,
+      "distinctKeys": 137,
+      "unexpiredSnapshots": "137"
+    },
+    {
+      "kind": "holders",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "DIAMOND"
+      ],
+      "snapshots": 137,
+      "distinctKeys": 137,
+      "unexpiredSnapshots": "137"
+    },
+    {
+      "kind": "holders",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "GRANDMASTER"
+      ],
+      "snapshots": 137,
+      "distinctKeys": 137,
+      "unexpiredSnapshots": "137"
+    },
+    {
+      "kind": "holders",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "EMERALD"
+      ],
+      "snapshots": 137,
+      "distinctKeys": 137,
+      "unexpiredSnapshots": "137"
+    },
+    {
+      "kind": "holders",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "CHALLENGER"
+      ],
+      "snapshots": 137,
+      "distinctKeys": 137,
+      "unexpiredSnapshots": "137"
+    },
+    {
+      "kind": "holders",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "SILVER"
+      ],
+      "snapshots": 137,
+      "distinctKeys": 137,
+      "unexpiredSnapshots": "137"
+    },
+    {
+      "kind": "holders",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "BRONZE"
+      ],
+      "snapshots": 137,
+      "distinctKeys": 137,
+      "unexpiredSnapshots": "137"
+    },
+    {
+      "kind": "holders",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "MASTER"
+      ],
+      "snapshots": 137,
+      "distinctKeys": 137,
+      "unexpiredSnapshots": "137"
+    },
+    {
+      "kind": "holders",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "CHALLENGER",
+        "DIAMOND",
+        "EMERALD",
+        "GRANDMASTER",
+        "MASTER",
+        "PLATINUM"
+      ],
+      "snapshots": 142,
+      "distinctKeys": 137,
+      "unexpiredSnapshots": "137"
+    },
+    {
+      "kind": "holders",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "BRONZE",
+        "CHALLENGER",
+        "DIAMOND",
+        "EMERALD",
+        "GOLD",
+        "GRANDMASTER",
+        "IRON",
+        "MASTER",
+        "PLATINUM",
+        "SILVER"
+      ],
+      "snapshots": 137,
+      "distinctKeys": 137,
+      "unexpiredSnapshots": "137"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "PLATINUM"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "GOLD"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "IRON"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "DIAMOND"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "GRANDMASTER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "EMERALD"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "CHALLENGER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "SILVER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "BRONZE"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "MASTER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "CHALLENGER",
+        "DIAMOND",
+        "EMERALD",
+        "GRANDMASTER",
+        "MASTER",
+        "PLATINUM"
+      ],
+      "snapshots": 4,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 1,
+      "ranks": [
+        "BRONZE",
+        "CHALLENGER",
+        "DIAMOND",
+        "EMERALD",
+        "GOLD",
+        "GRANDMASTER",
+        "IRON",
+        "MASTER",
+        "PLATINUM",
+        "SILVER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 2,
+      "ranks": [
+        "GOLD"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 2,
+      "ranks": [
+        "IRON"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 2,
+      "ranks": [
+        "DIAMOND"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 2,
+      "ranks": [
+        "GRANDMASTER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 2,
+      "ranks": [
+        "EMERALD"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 2,
+      "ranks": [
+        "SILVER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 2,
+      "ranks": [
+        "BRONZE"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 2,
+      "ranks": [
+        "MASTER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 2,
+      "ranks": [
+        "CHALLENGER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 2,
+      "ranks": [
+        "PLATINUM"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 2,
+      "ranks": [
+        "CHALLENGER",
+        "DIAMOND",
+        "EMERALD",
+        "GRANDMASTER",
+        "MASTER",
+        "PLATINUM"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    },
+    {
+      "kind": "overall",
+      "patch": "18.4",
+      "bPatch": "b",
+      "adapterVersion": 2,
+      "ranks": [
+        "BRONZE",
+        "CHALLENGER",
+        "DIAMOND",
+        "EMERALD",
+        "GOLD",
+        "GRANDMASTER",
+        "IRON",
+        "MASTER",
+        "PLATINUM",
+        "SILVER"
+      ],
+      "snapshots": 1,
+      "distinctKeys": 1,
+      "unexpiredSnapshots": "1"
+    }
+  ],
+  "releases": [
+    {
+      "id": "fe92ca09d6d297928310d365e6f751a122aa983968b614d5861559016105c724",
+      "season": 18,
+      "source_patch": "18.4",
+      "state": "published",
+      "created_at": "2026-10-09T14:14:41.406Z",
+      "published_at": "2026-10-09T14:14:43.103Z"
+    },
+    {
+      "id": "bcb4d129c5dfe331dcab0ccc5b77270d4d280ccec5a5c712713c53fddadbe9ab",
+      "season": 18,
+      "source_patch": "18.4",
+      "state": "published",
+      "created_at": "2026-10-09T17:04:22.093Z",
+      "published_at": "2026-10-09T17:04:23.530Z"
+    },
+    {
+      "id": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+      "season": 18,
+      "source_patch": "18.4",
+      "state": "published",
+      "created_at": "2026-10-11T04:14:46.375Z",
+      "published_at": "2026-10-11T04:14:47.537Z"
+    }
+  ],
+  "vectorIndexJobs": [
+    {
+      "release_id": "fe92ca09d6d297928310d365e6f751a122aa983968b614d5861559016105c724",
+      "collection_name": "tft_2925766be15475f0_fe92ca09d6d29792",
+      "state": "ready",
+      "indexed_chunks": 678,
+      "updated_at": "2026-10-09T14:52:50.745Z"
+    },
+    {
+      "release_id": "bcb4d129c5dfe331dcab0ccc5b77270d4d280ccec5a5c712713c53fddadbe9ab",
+      "collection_name": "tft_fb288a630ec7bdc1_bcb4d129c5dfe331",
+      "state": "ready",
+      "indexed_chunks": 718,
+      "updated_at": "2026-10-09T17:10:25.470Z"
+    },
+    {
+      "release_id": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+      "collection_name": "tft_fb288a630ec7bdc1_0f7e3fe3455735de",
+      "state": "ready",
+      "indexed_chunks": 869,
+      "updated_at": "2026-10-11T04:18:31.833Z"
+    }
+  ],
+  "tableCount": 22,
+  "passed": true
+}

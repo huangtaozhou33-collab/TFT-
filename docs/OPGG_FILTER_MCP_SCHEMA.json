@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-11T04:29:10.253Z",
+  "endpoint": "https://mcp-api.op.gg/mcp",
+  "tools": [
+    {
+      "name": "tft_get_champion_item_build",
+      "description": "TFT tool for retrieving champion item build information.",
+      "required": [
+        "champion_id"
+      ],
+      "properties": {
+        "champion_id": {
+          "type": "string",
+          "description": "TFT champion ID (e.g., TFT17_Riven) to retrieve item builds for.",
+          "enumCount": 79
+        }
+      }
+    },
+    {
+      "name": "tft_get_play_style",
+      "description": "This tool provides comments on the playstyle of TFT champions.",
+      "required": [
+        "region",
+        "puuid"
+      ],
+      "properties": {
+        "region": {
+          "type": "string",
+          "description": "The TFT region code used to find the player's profile and matches. Examples: kr, br, eune"
+        },
+        "puuid": {
+          "type": "string",
+          "description": "Riot Account PUUID; a 78-character URL-safe identifier (alphanumeric with `-` and `_`); obtainable from the lol_get_summoner_profile tool response or from an external Riot API response."
+        }
+      }
+    },
+    {
+      "name": "tft_list_augments",
+      "description": "Retrieves metadata for all Teamfight Tactics augments with localized names and descriptions in a table-friendly JSON (headers/rows/header_description). Returns apiName, desc, name, tier, and imageUrl for all augments in the specified language.",
+      "required": [],
+      "properties": {
+        "lang": {
+          "type": "string",
+          "description": "Locale code Examples: en_US, ko_KR, ja_JP"
+        }
+      }
+    },
+    {
+      "name": "tft_list_champions_for_item",
+      "description": "TFT tool for retrieving champion recommendations for a specific item.",
+      "required": [
+        "item_id"
+      ],
+      "properties": {
+        "item_id": {
+          "type": "string",
+          "description": "TFT item ID (e.g., TFT17_AnimaSquadItem_Tier1_RocketSwarm) to get champion recommendations for.",
+          "enumCount": 142,
+          "silvermereDawnListed": true
+        }
+      }
+    },
+    {
+      "name": "tft_list_item_combinations",
+      "description": "TFT tool for retrieving information about item combinations and recipes.",
+      "required": [],
+      "properties": {
+        "lang": {
+          "type": "string",
+          "description": "Locale code Examples: en_US, ko_KR, ja_JP"
+        }
+      }
+    },
+    {
+      "name": "tft_list_meta_decks",
+      "description": "TFT deck list tool for retrieving current meta decks.",
+      "required": [],
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,4017 @@
+{
+  "schemaVersion": 1,
+  "status": "live",
+  "delivery": "version_cache",
+  "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+  "context": {
+    "game": "tft",
+    "set": 18,
+    "mutator": "TFTSet18",
+    "assetVersion": "16.20",
+    "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+    "gamePatch": null
+  },
+  "entityFingerprint": "c0f22fbacbc19fcbd19183793358703f7ccf6fcbc59c5963d98b07dabdb9e4d0",
+  "champions": [
+    {
+      "id": "DA_18_Aphelios",
+      "name": "厄斐琉斯",
+      "cost": 4,
+      "traits": [
+        "月蚀骑士",
+        "迅捷射手"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_aphelios/skins/base/images/tft18_aphelios_splash_tile_0.png",
+      "stats": {
+        "avgPlacement": 4.31,
+        "top4Rate": 0.5542,
+        "winRate": 0.0967,
+        "sampleSize": 3093,
+        "pickRate": 0.16621883061049011,
+        "playRatePer8": 1.329750644883921
+      },
+      "topItems": [
+        "DA_GiantSlayer",
+        "DA_KrakensFury",
+        "DA_RedBuff",
+        "DA_InfinityEdge",
+        "DA_GuinsoosRageblade"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Lux_Moonbeam",
+      "name": "拉克丝 (月蚀骑士)",
+      "cost": 5,
+      "traits": [
+        "月蚀骑士",
+        "自然之力！大元素使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_moonbeam_teamplanner.png",
+      "stats": {
+        "avgPlacement": 3.27,
+        "top4Rate": 0.7123,
+        "winRate": 0.263,
+        "sampleSize": 365,
+        "pickRate": 0.019615219260533105,
+        "playRatePer8": 0.15692175408426484
+      },
+      "topItems": [
+        "DA_VoidStaff",
+        "DA_SpearOfShojin",
+        "DA_NashorsTooth"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_ElderDragon",
+      "name": "远古巨龙",
+      "cost": 5,
+      "traits": [
+        "顶级掠食者",
+        "峡谷野怪"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_elderdragon/skins/base/images/t_18_elderdragon_teamplannersplash.png",
+      "stats": {
+        "avgPlacement": 4.11,
+        "top4Rate": 0.5511,
+        "winRate": 0.22,
+        "sampleSize": 2455,
+        "pickRate": 0.13193250214961308,
+        "playRatePer8": 1.0554600171969046
+      },
+      "topItems": [
+        "DA_LastWhisper",
+        "DA_SteraksGage",
+        "DA_StrikersFlail",
+        "DA_InfinityEdge",
+        "DA_GiantSlayer"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Xayah",
+      "name": "霞",
+      "cost": 1,
+      "traits": [
+        "永恒之森",
+        "花仙子",
+        "迅捷射手"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_xayah/skins/base/images/tft18_xayah_splash_tile_8.png",
+      "stats": {
+        "avgPlacement": 4.82,
+        "top4Rate": 0.44520000000000004,
+        "winRate": 0.0922,
+        "sampleSize": 1204,
+        "pickRate": 0.06470335339638865,
+        "playRatePer8": 0.5176268271711092
+      },
+      "topItems": [
+        "DA_GiantSlayer",
+        "DA_InfinityEdge",
+        "DA_HextechGunblade",
+        "DA_KrakensFury",
+        "DA_GuinsoosRageblade"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Sivir",
+      "name": "希维尔",
+      "cost": 4,
+      "traits": [
+        "野兽之灵",
+        "猎人"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_sivir/skins/base/images/tft18_sivir_splash_tile_61.png",
+      "stats": {
+        "avgPlacement": 4.65,
+        "top4Rate": 0.46299999999999997,
+        "winRate": 0.1215,
+        "sampleSize": 2823,
+        "pickRate": 0.15170894239036972,
+        "playRatePer8": 1.2136715391229578
+      },
+      "topItems": [
+        "DA_InfinityEdge",
+        "DA_StrikersFlail",
+        "DA_LastWhisper",
+        "DA_KrakensFury",
+        "DA_GiantSlayer"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Lux_Sunbeam",
+      "name": "拉克丝 (日蚀骑士)",
+      "cost": 5,
+      "traits": [
+        "日蚀骑士",
+        "自然之力！大元素使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_sunbeam_teamplanner.png",
+      "stats": {
+        "avgPlacement": 2.68,
+        "top4Rate": 0.84,
+        "winRate": 0.32,
+        "sampleSize": 25,
+        "pickRate": 0.0013435081685296646,
+        "playRatePer8": 0.010748065348237317
+      },
+      "topItems": [],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Lux_Elderwood",
+      "name": "拉克丝 (永恒之森)",
+      "cost": 5,
+      "traits": [
+        "永恒之森",
+        "自然之力！大元素使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_elderwood_teamplanner.png",
+      "stats": {
+        "avgPlacement": 3.44,
+        "top4Rate": 0.6692,
+        "winRate": 0.2707,
+        "sampleSize": 399,
+        "pickRate": 0.021442390369733447,
+        "playRatePer8": 0.17153912295786758
+      },
+      "topItems": [
+        "DA_VoidStaff",
+        "DA_RedBuff",
+        "DA_HextechGunblade",
+        "DA_GuinsoosRageblade",
+        "DA_SpearOfShojin"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Lux18_Blackthorn",
+      "name": "拉克丝 (黑荆棘)",
+      "cost": 5,
+      "traits": [
+        "黑荆棘",
+        "自然之力！大元素使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_blackthorn_teamplanner.png",
+      "stats": {
+        "avgPlacement": 3.39,
+        "top4Rate": 0.6973999999999999,
+        "winRate": 0.2526,
+        "sampleSize": 380,
+        "pickRate": 0.020421324161650902,
+        "playRatePer8": 0.16337059329320722
+      },
+      "topItems": [
+        "DA_StrikersFlail",
+        "DA_VoidStaff",
+        "DA_RedBuff",
+        "DA_NashorsTooth",
+        "DA_SpearOfShojin"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Murkwolf18",
+      "name": "暗影狼",
+      "cost": 2,
+      "traits": [
+        "峡谷野怪",
+        "狂战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_murkwolf/skins/base/images/t_18_murkwolf_teamplannersplash.png",
+      "stats": {
+        "avgPlacement": 4.48,
+        "top4Rate": 0.5085000000000001,
+        "winRate": 0.0922,
+        "sampleSize": 824,
+        "pickRate": 0.04428202923473775,
+        "playRatePer8": 0.354256233877902
+      },
+      "topItems": [
+        "DA_Bloodthirster",
+        "DA_EdgeOfNight",
+        "DA_InfinityEdge",
+        "DA_SteraksGage",
+        "DA_LastWhisper"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_RekSai",
+      "name": "雷克塞",
+      "cost": 1,
+      "traits": [
+        "黑荆棘",
+        "斗士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_reksai/skins/base/images/tft18_reksai_splash_tile_17.png",
+      "stats": {
+        "avgPlacement": 4.42,
+        "top4Rate": 0.5082,
+        "winRate": 0.1261,
+        "sampleSize": 1824,
+        "pickRate": 0.09802235597592433,
+        "playRatePer8": 0.7841788478073947
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_SteraksGage",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Karma18",
+      "name": "卡尔玛",
+      "cost": 1,
+      "traits": [
+        "灵魂莲华",
+        "法师"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_karma/skins/base/images/tft18_karma_splash_tile_70.png",
+      "stats": {
+        "avgPlacement": 4.7,
+        "top4Rate": 0.46909999999999996,
+        "winRate": 0.0951,
+        "sampleSize": 1503,
+        "pickRate": 0.08077171109200344,
+        "playRatePer8": 0.6461736887360275
+      },
+      "topItems": [
+        "DA_SpearOfShojin",
+        "DA_GiantSlayer",
+        "DA_RedBuff",
+        "DA_HextechGunblade",
+        "DA_VoidStaff"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Warwick",
+      "name": "沃里克",
+      "cost": 2,
+      "traits": [
+        "黑荆棘",
+        "狂战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_warwick/skins/base/images/tft18_warwick_splash_tile_35.png",
+      "stats": {
+        "avgPlacement": 4.68,
+        "top4Rate": 0.48340000000000005,
+        "winRate": 0.08560000000000001,
+        "sampleSize": 362,
+        "pickRate": 0.019453998280309543,
+        "playRatePer8": 0.15563198624247634
+      },
+      "topItems": [
+        "DA_TitansResolve",
+        "DA_SpearOfShojin",
+        "DA_SteraksGage",
+        "DA_InfinityEdge"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Elise",
+      "name": "伊莉丝",
+      "cost": 2,
+      "traits": [
+        "魔女",
+        "重装战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_elise/skins/base/images/tft18_elise_splash_tile_24.png",
+      "stats": {
+        "avgPlacement": 5.18,
+        "top4Rate": 0.3699,
+        "winRate": 0.1107,
+        "sampleSize": 976,
+        "pickRate": 0.052450558899398106,
+        "playRatePer8": 0.41960447119518485
+      },
+      "topItems": [
+        "DA_TitansResolve",
+        "DA_GuinsoosRageblade",
+        "DA_WarmogsArmor"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Kayle",
+      "name": "凯尔",
+      "cost": 2,
+      "traits": [
+        "日蚀骑士",
+        "迅捷射手"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_kayle/skins/base/images/tft18_kayle_splash_tile_42.png",
+      "stats": {
+        "avgPlacement": 4.78,
+        "top4Rate": 0.4586,
+        "winRate": 0.0771,
+        "sampleSize": 713,
+        "pickRate": 0.03831685296646604,
+        "playRatePer8": 0.3065348237317283
+      },
+      "topItems": [
+        "DA_RedBuff",
+        "DA_GiantSlayer",
+        "DA_GuinsoosRageblade",
+        "DA_HextechGunblade"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Rengar",
+      "name": "雷恩加尔",
+      "cost": 3,
+      "traits": [
+        "宿敌"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_rengar/skins/base/images/tft18_rengar_splash_tile_0.png",
+      "stats": {
+        "avgPlacement": 4.72,
+        "top4Rate": 0.46090000000000003,
+        "winRate": 0.12279999999999999,
+        "sampleSize": 562,
+        "pickRate": 0.03020206362854686,
+        "playRatePer8": 0.2416165090283749
+      },
+      "topItems": [
+        "DA_TitansResolve",
+        "DA_EdgeOfNight",
+        "DA_Bloodthirster",
+        "DA_SteraksGage",
+        "DA_GuinsoosRageblade"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Teemo",
+      "name": "提莫",
+      "cost": 2,
+      "traits": [
+        "约德尔人和朋友",
+        "神谕"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_teemo/skins/base/images/tft18_teemo_splash_tile_0.png",
+      "stats": {
+        "avgPlacement": 4.43,
+        "top4Rate": 0.5196000000000001,
+        "winRate": 0.1241,
+        "sampleSize": 943,
+        "pickRate": 0.05067712811693895,
+        "playRatePer8": 0.4054170249355116
+      },
+      "topItems": [
+        "DA_RedBuff",
+        "DA_VoidStaff",
+        "DA_HextechGunblade",
+        "DA_SpearOfShojin"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Rammus",
+      "name": "拉莫斯",
+      "cost": 3,
+      "traits": [
+        "约德尔人和朋友",
+        "护卫"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_rammus/skins/base/images/tft18_rammus_splash_tile_26.png",
+      "stats": {
+        "avgPlacement": 4.41,
+        "top4Rate": 0.5105,
+        "winRate": 0.1375,
+        "sampleSize": 1571,
+        "pickRate": 0.08442605331040413,
+        "playRatePer8": 0.6754084264832331
+      },
+      "topItems": [
+        "DA_WarmogsArmor"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Amumu18",
+      "name": "阿木木",
+      "cost": 4,
+      "traits": [
+        "地狱火",
+        "主宰"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_amumu/skins/base/images/tft18_amumu_splash_tile_17.png",
+      "stats": {
+        "avgPlacement": 4.34,
+        "top4Rate": 0.5302,
+        "winRate": 0.13949999999999999,
+        "sampleSize": 8074,
+        "pickRate": 0.4338993981083405,
+        "playRatePer8": 3.471195184866724
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Alune",
+      "name": "拉露恩",
+      "cost": 5,
+      "traits": [
+        "月华神女",
+        "月蚀骑士",
+        "法师"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_alune/skins/base/images/tft18_alune_splash_tile_15.png",
+      "stats": {
+        "avgPlacement": 3.68,
+        "top4Rate": 0.6472,
+        "winRate": 0.2169,
+        "sampleSize": 2517,
+        "pickRate": 0.13526440240756663,
+        "playRatePer8": 1.082115219260533
+      },
+      "topItems": [
+        "DA_VoidStaff",
+        "DA_GiantSlayer",
+        "DA_HextechGunblade",
+        "DA_SpearOfShojin",
+        "DA_RedBuff"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Taric18",
+      "name": "塔里克",
+      "cost": 5,
+      "traits": [
+        "宝石骑士",
+        "重装战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_taric/skins/base/images/tft18_taric_splash_tile_1.png",
+      "stats": {
+        "avgPlacement": 3.97,
+        "top4Rate": 0.5882000000000001,
+        "winRate": 0.2079,
+        "sampleSize": 4859,
+        "pickRate": 0.26112424763542563,
+        "playRatePer8": 2.088993981083405
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Caitlyn",
+      "name": "凯特琳",
+      "cost": 2,
+      "traits": [
+        "魔女",
+        "猎人"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_caitlyn/skins/base/images/tft18_caitlyn_splash_tile_30.png",
+      "stats": {
+        "avgPlacement": 5.65,
+        "top4Rate": 0.311,
+        "winRate": 0.0643,
+        "sampleSize": 373,
+        "pickRate": 0.020045141874462595,
+        "playRatePer8": 0.16036113499570076
+      },
+      "topItems": [
+        "DA_KrakensFury",
+        "DA_HextechGunblade",
+        "DA_GuinsoosRageblade",
+        "DA_LastWhisper",
+        "DA_InfinityEdge"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Lux18_Base",
+      "name": "拉克丝",
+      "cost": 5,
+      "traits": [
+        "自然之力！大元素使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_tile_7.png",
+      "stats": {
+        "avgPlacement": 3.79,
+        "top4Rate": 0.6315999999999999,
+        "winRate": 0,
+        "sampleSize": 19,
+        "pickRate": 0.001021066208082545,
+        "playRatePer8": 0.00816852966466036
+      },
+      "topItems": [],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_KogMaw18_AD",
+      "name": "克格莫",
+      "cost": 3,
+      "traits": [
+        "帝王斑蝶",
+        "魔战士",
+        "神谕"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_kogmaw/skins/base/images/tft18_kogmaw_splash_tile_3.png",
+      "stats": {
+        "avgPlacement": 4.39,
+        "top4Rate": 0.5458,
+        "winRate": 0.0842,
+        "sampleSize": 2935,
+        "pickRate": 0.15772785898538264,
+        "playRatePer8": 1.261822871883061
+      },
+      "topItems": [
+        "DA_HextechGunblade",
+        "DA_RedBuff",
+        "DA_GiantSlayer",
+        "DA_SpearOfShojin",
+        "DA_GuinsoosRageblade"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Alistar",
+      "name": "阿利斯塔",
+      "cost": 2,
+      "traits": [
+        "永恒之森",
+        "斗士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_alistar/skins/base/images/tft18_alistar_splash_tile_40.png",
+      "stats": {
+        "avgPlacement": 4.41,
+        "top4Rate": 0.5071,
+        "winRate": 0.1401,
+        "sampleSize": 2670,
+        "pickRate": 0.14348667239896817,
+        "playRatePer8": 1.1478933791917454
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Ezreal",
+      "name": "伊泽瑞尔",
+      "cost": 4,
+      "traits": [
+        "永恒之森",
+        "裁决使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_ezreal/skins/base/images/tft18_ezreal_splash_tile_1.png",
+      "stats": {
+        "avgPlacement": 4.31,
+        "top4Rate": 0.5275,
+        "winRate": 0.14429999999999998,
+        "sampleSize": 2633,
+        "pickRate": 0.14149828030954428,
+        "playRatePer8": 1.1319862424763543
+      },
+      "topItems": [
+        "DA_SpearOfShojin",
+        "DA_GiantSlayer",
+        "DA_RedBuff",
+        "DA_InfinityEdge",
+        "DA_StrikersFlail"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_GnarSmall",
+      "name": "纳尔",
+      "cost": 5,
+      "traits": [
+        "永恒之森",
+        "约德尔人和朋友",
+        "斗士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_gnar/skins/base/images/tft18_gnar_splash_tile_0.png",
+      "stats": {
+        "avgPlacement": 3.91,
+        "top4Rate": 0.6025,
+        "winRate": 0.1907,
+        "sampleSize": 2679,
+        "pickRate": 0.14397033533963888,
+        "playRatePer8": 1.151762682717111
+      },
+      "topItems": [
+        "DA_GiantSlayer",
+        "DA_EdgeOfNight",
+        "DA_InfinityEdge",
+        "DA_GuinsoosRageblade",
+        "DA_Bloodthirster"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Gromp18_AP",
+      "name": "魔沼蛙",
+      "cost": 2,
+      "traits": [
+        "峡谷野怪",
+        "魔战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_gromp/skins/base/images/t_18_gromp_teamplannersplash.png",
+      "stats": {
+        "avgPlacement": 4.73,
+        "top4Rate": 0.46759999999999996,
+        "winRate": 0.0958,
+        "sampleSize": 355,
+        "pickRate": 0.01907781599312124,
+        "playRatePer8": 0.15262252794496992
+      },
+      "topItems": [
+        "DA_InfinityEdge",
+        "DA_NashorsTooth",
+        "DA_SpearOfShojin"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Nidalee18_AP",
+      "name": "奈德丽",
+      "cost": 4,
+      "traits": [
+        "野兽之灵",
+        "魔战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_nidalee/skins/base/images/tft18_nidalee_splash_tile_0.png",
+      "stats": {
+        "avgPlacement": 4.45,
+        "top4Rate": 0.5297,
+        "winRate": 0.0793,
+        "sampleSize": 3051,
+        "pickRate": 0.16396173688736027,
+        "playRatePer8": 1.3116938950988821
+      },
+      "topItems": [
+        "DA_SteraksGage",
+        "DA_InfinityEdge",
+        "DA_Bloodthirster",
+        "DA_EdgeOfNight",
+        "DA_SpearOfShojin"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Rakan",
+      "name": "洛",
+      "cost": 1,
+      "traits": [
+        "花仙子",
+        "主宰",
+        "重装战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_rakan/skins/base/images/tft18_rakan_splash_tile_9.png",
+      "stats": {
+        "avgPlacement": 4.95,
+        "top4Rate": 0.4156,
+        "winRate": 0.0943,
+        "sampleSize": 2885,
+        "pickRate": 0.1550408426483233,
+        "playRatePer8": 1.2403267411865864
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Malphite",
+      "name": "墨菲特",
+      "cost": 4,
+      "traits": [
+        "黑荆棘",
+        "魔岩巨兽"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_malphite/skins/base/images/tft18_malphite_splash_tile_27.png",
+      "stats": {
+        "avgPlacement": 4.57,
+        "top4Rate": 0.488,
+        "winRate": 0.0978,
+        "sampleSize": 1871,
+        "pickRate": 0.1005481513327601,
+        "playRatePer8": 0.8043852106620808
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_SteraksGage"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Cassiopeia",
+      "name": "卡西奥佩娅",
+      "cost": 3,
+      "traits": [
+        "魔女",
+        "法师"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_cassiopeia/skins/base/images/tft18_cassiopeia_splash_tile_18.png",
+      "stats": {
+        "avgPlacement": 4.51,
+        "top4Rate": 0.4904,
+        "winRate": 0.1402,
+        "sampleSize": 1662,
+        "pickRate": 0.08931642304385211,
+        "playRatePer8": 0.7145313843508169
+      },
+      "topItems": [
+        "DA_RedBuff",
+        "DA_HextechGunblade",
+        "DA_VoidStaff",
+        "DA_GiantSlayer",
+        "DA_SpearOfShojin"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Yunara",
+      "name": "芸阿娜",
+      "cost": 2,
+      "traits": [
+        "灵魂莲华",
+        "裁决使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_yunara/skins/base/images/tft18_yunara_splash_tile_0.png",
+      "stats": {
+        "avgPlacement": 4.76,
+        "top4Rate": 0.46799999999999997,
+        "winRate": 0.08789999999999999,
+        "sampleSize": 921,
+        "pickRate": 0.04949484092863285,
+        "playRatePer8": 0.3959587274290628
+      },
+      "topItems": [
+        "DA_SpearOfShojin",
+        "DA_LastWhisper",
+        "DA_StrikersFlail",
+        "DA_InfinityEdge",
+        "DA_RedBuff"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Azir",
+      "name": "阿兹尔",
+      "cost": 3,
+      "traits": [
+        "黑荆棘",
+        "裁决使",
+        "召唤师"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_azir/skins/base/images/tft18_azir_splash_tile_5.png",
+      "stats": {
+        "avgPlacement": 4.44,
+        "top4Rate": 0.5173,
+        "winRate": 0.1131,
+        "sampleSize": 2803,
+        "pickRate": 0.150634135855546,
+        "playRatePer8": 1.205073086844368
+      },
+      "topItems": [
+        "DA_GuinsoosRageblade",
+        "DA_HextechGunblade",
+        "DA_StrikersFlail",
+        "DA_GiantSlayer",
+        "DA_VoidStaff"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Lux_Inferno",
+      "name": "拉克丝 (地狱火)",
+      "cost": 5,
+      "traits": [
+        "地狱火",
+        "自然之力！大元素使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_inferno_teamplanner.png",
+      "stats": {
+        "avgPlacement": 3.8,
+        "top4Rate": 0.6091,
+        "winRate": 0.2833,
+        "sampleSize": 353,
+        "pickRate": 0.018970335339638864,
+        "playRatePer8": 0.1517626827171109
+      },
+      "topItems": [
+        "DA_SpearOfShojin",
+        "DA_HextechGunblade",
+        "DA_NashorsTooth",
+        "DA_GiantSlayer"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Lillia",
+      "name": "莉莉娅",
+      "cost": 4,
+      "traits": [
+        "花仙子",
+        "护卫"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lillia/skins/base/images/tft18_lillia_splash_tile_28.png",
+      "stats": {
+        "avgPlacement": 4.52,
+        "top4Rate": 0.488,
+        "winRate": 0.1305,
+        "sampleSize": 1578,
+        "pickRate": 0.08480223559759244,
+        "playRatePer8": 0.6784178847807395
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_KhaZix",
+      "name": "卡兹克",
+      "cost": 3,
+      "traits": [
+        "宿敌"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_khazix/skins/base/images/tft18_khazix_splash_tile_0.png",
+      "stats": {
+        "avgPlacement": 4.33,
+        "top4Rate": 0.5287,
+        "winRate": 0.13269999999999998,
+        "sampleSize": 957,
+        "pickRate": 0.05142949269131556,
+        "playRatePer8": 0.4114359415305245
+      },
+      "topItems": [
+        "DA_NashorsTooth",
+        "DA_Bloodthirster",
+        "DA_EdgeOfNight",
+        "DA_StrikersFlail",
+        "DA_HextechGunblade"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Krug18",
+      "name": "远古石甲虫",
+      "cost": 3,
+      "traits": [
+        "峡谷野怪",
+        "斗士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_krug/skins/base/images/t_18_krug_teamplannersplash.png",
+      "stats": {
+        "avgPlacement": 4.51,
+        "top4Rate": 0.5038,
+        "winRate": 0.0993,
+        "sampleSize": 2618,
+        "pickRate": 0.1406921754084265,
+        "playRatePer8": 1.125537403267412
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Lux_Fae",
+      "name": "拉克丝 (花仙子)",
+      "cost": 5,
+      "traits": [
+        "花仙子",
+        "自然之力！大元素使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_fae_teamplanner.png",
+      "stats": {
+        "avgPlacement": 4.28,
+        "top4Rate": 0.5,
+        "winRate": 0.17190000000000003,
+        "sampleSize": 64,
+        "pickRate": 0.0034393809114359416,
+        "playRatePer8": 0.027515047291487533
+      },
+      "topItems": [],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Tristana",
+      "name": "崔丝塔娜",
+      "cost": 3,
+      "traits": [
+        "花仙子",
+        "约德尔人和朋友",
+        "猎人"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_tristana/skins/base/images/tft18_tristana_splash_tile_61.png",
+      "stats": {
+        "avgPlacement": 5.18,
+        "top4Rate": 0.37,
+        "winRate": 0.07339999999999999,
+        "sampleSize": 654,
+        "pickRate": 0.03514617368873603,
+        "playRatePer8": 0.28116938950988823
+      },
+      "topItems": [
+        "DA_InfinityEdge",
+        "DA_GuinsoosRageblade",
+        "DA_KrakensFury",
+        "DA_RedBuff",
+        "DA_HextechGunblade"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Ahri",
+      "name": "阿狸",
+      "cost": 4,
+      "traits": [
+        "灵魂莲华",
+        "法师"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_ahri/skins/base/images/tft18_ahri_splash_tile_27.png",
+      "stats": {
+        "avgPlacement": 4.39,
+        "top4Rate": 0.5273,
+        "winRate": 0.1211,
+        "sampleSize": 2602,
+        "pickRate": 0.1398323301805675,
+        "playRatePer8": 1.11865864144454
+      },
+      "topItems": [
+        "DA_StrikersFlail",
+        "DA_SpearOfShojin",
+        "DA_NashorsTooth",
+        "DA_GiantSlayer",
+        "DA_RedBuff"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Leona",
+      "name": "蕾欧娜",
+      "cost": 1,
+      "traits": [
+        "日蚀骑士",
+        "护卫"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_leona/skins/base/images/tft18_leona_splash_tile_10.png",
+      "stats": {
+        "avgPlacement": 4.8,
+        "top4Rate": 0.44789999999999996,
+        "winRate": 0.0894,
+        "sampleSize": 940,
+        "pickRate": 0.05051590713671539,
+        "playRatePer8": 0.4041272570937231
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Akali_AD",
+      "name": "阿卡丽",
+      "cost": 1,
+      "traits": [
+        "地狱火",
+        "魔战士",
+        "狂战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_akali/skins/base/images/tft18_akali_splash_tile_2.png",
+      "stats": {
+        "avgPlacement": 4.99,
+        "top4Rate": 0.4132,
+        "winRate": 0.08259999999999999,
+        "sampleSize": 484,
+        "pickRate": 0.026010318142734308,
+        "playRatePer8": 0.20808254514187446
+      },
+      "topItems": [
+        "DA_InfinityEdge",
+        "DA_StrikersFlail",
+        "DA_EdgeOfNight"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Scuttlecrab18",
+      "name": "峡谷迅捷蟹",
+      "cost": 2,
+      "traits": [
+        "峡谷野怪",
+        "主宰"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_scuttlecrab/skins/base/images/t_18_scuttlecrab_teamplannersplash.png",
+      "stats": {
+        "avgPlacement": 4.73,
+        "top4Rate": 0.4571,
+        "winRate": 0.1051,
+        "sampleSize": 2636,
+        "pickRate": 0.14165950128976784,
+        "playRatePer8": 1.1332760103181427
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Kobuko",
+      "name": "可酷伯",
+      "cost": 1,
+      "traits": [
+        "约德尔人和朋友",
+        "斗士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_kobuko/skins/base/images/tft18_kobuko_splash_tile_2.png",
+      "stats": {
+        "avgPlacement": 4.92,
+        "top4Rate": 0.4067,
+        "winRate": 0.10880000000000001,
+        "sampleSize": 386,
+        "pickRate": 0.020743766122098023,
+        "playRatePer8": 0.16595012897678418
+      },
+      "topItems": [
+        "DA_WarmogsArmor"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Hecarim",
+      "name": "赫卡里姆",
+      "cost": 3,
+      "traits": [
+        "永恒之森",
+        "重装战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_hecarim/skins/base/images/tft18_hecarim_splash_tile_5.png",
+      "stats": {
+        "avgPlacement": 4.54,
+        "top4Rate": 0.48009999999999997,
+        "winRate": 0.1232,
+        "sampleSize": 2735,
+        "pickRate": 0.1469797936371453,
+        "playRatePer8": 1.1758383490971624
+      },
+      "topItems": [
+        "DA_WarmogsArmor"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Maokai",
+      "name": "茂凯",
+      "cost": 5,
+      "traits": [
+        "远古树精",
+        "主宰"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_maokai/skins/base/images/tft18_maokai_splash_tile_0.png",
+      "stats": {
+        "avgPlacement": 4.14,
+        "top4Rate": 0.5574,
+        "winRate": 0.1945,
+        "sampleSize": 4659,
+        "pickRate": 0.25037618228718833,
+        "playRatePer8": 2.0030094582975067
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Yorick",
+      "name": "约里克",
+      "cost": 1,
+      "traits": [
+        "灵魂莲华",
+        "主宰",
+        "召唤师"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_yorick/skins/base/images/tft18_yorick_splash_tile_30.png",
+      "stats": {
+        "avgPlacement": 4.65,
+        "top4Rate": 0.4815,
+        "winRate": 0.1,
+        "sampleSize": 4091,
+        "pickRate": 0.21985167669819433,
+        "playRatePer8": 1.7588134135855547
+      },
+      "topItems": [
+        "DA_SteraksGage",
+        "DA_WarmogsArmor"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Sejuani",
+      "name": "瑟庄妮",
+      "cost": 2,
+      "traits": [
+        "日蚀骑士",
+        "主宰"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_sejuani/skins/base/images/tft18_sejuani_splash_tile_26.png",
+      "stats": {
+        "avgPlacement": 4.82,
+        "top4Rate": 0.4413,
+        "winRate": 0.08869999999999999,
+        "sampleSize": 2130,
+        "pickRate": 0.11446689595872743,
+        "playRatePer8": 0.9157351676698194
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Ivern",
+      "name": "艾翁",
+      "cost": 5,
+      "traits": [
+        "翠神"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_ivern/skins/base/images/tft18_ivern_splash_tile_0.png",
+      "stats": {
+        "avgPlacement": 3.9,
+        "top4Rate": 0.5954999999999999,
+        "winRate": 0.22940000000000002,
+        "sampleSize": 4089,
+        "pickRate": 0.21974419604471196,
+        "playRatePer8": 1.7579535683576957
+      },
+      "topItems": [
+        "DA_VoidStaff",
+        "DA_NashorsTooth",
+        "DA_RedBuff",
+        "DA_SpearOfShojin",
+        "DA_GuinsoosRageblade"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Soraka",
+      "name": "索拉卡",
+      "cost": 4,
+      "traits": [
+        "绝命花妖",
+        "裁决使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_soraka/skins/base/images/tft18_soraka_splash_tile_53.png",
+      "stats": {
+        "avgPlacement": 4.29,
+        "top4Rate": 0.5413,
+        "winRate": 0.1278,
+        "sampleSize": 3200,
+        "pickRate": 0.17196904557179707,
+        "playRatePer8": 1.3757523645743766
+      },
+      "topItems": [
+        "DA_GiantSlayer",
+        "DA_SpearOfShojin",
+        "DA_NashorsTooth",
+        "DA_VoidStaff",
+        "DA_StrikersFlail"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Camille",
+      "name": "卡蜜尔",
+      "cost": 1,
+      "traits": [
+        "魔女",
+        "狂战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_camille/skins/base/images/tft18_camille_splash_tile_2.png",
+      "stats": {
+        "avgPlacement": 5.75,
+        "top4Rate": 0.273,
+        "winRate": 0.0405,
+        "sampleSize": 370,
+        "pickRate": 0.019883920894239036,
+        "playRatePer8": 0.1590713671539123
+      },
+      "topItems": [
+        "DA_GiantSlayer",
+        "DA_SteraksGage",
+        "DA_InfinityEdge",
+        "DA_TitansResolve",
+        "DA_EdgeOfNight"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_MasterYi_AD",
+      "name": "易",
+      "cost": 3,
+      "traits": [
+        "灵魂莲华",
+        "魔战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_masteryi/skins/base/images/tft18_masteryi_splash_tile_52.png",
+      "stats": {
+        "avgPlacement": 4.81,
+        "top4Rate": 0.4714,
+        "winRate": 0.0738,
+        "sampleSize": 420,
+        "pickRate": 0.022570937231298365,
+        "playRatePer8": 0.18056749785038692
+      },
+      "topItems": [
+        "DA_GuinsoosRageblade",
+        "DA_EdgeOfNight",
+        "DA_Bloodthirster",
+        "DA_TitansResolve",
+        "DA_KrakensFury"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_CrimsonRaptor18",
+      "name": "深红锋喙鸟",
+      "cost": 3,
+      "traits": [
+        "峡谷野怪",
+        "召唤师",
+        "迅捷射手"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_raptor/skins/base/images/t_18_crimsonraptor_teamplannersplash.png",
+      "stats": {
+        "avgPlacement": 4.54,
+        "top4Rate": 0.504,
+        "winRate": 0.08689999999999999,
+        "sampleSize": 748,
+        "pickRate": 0.04019776440240757,
+        "playRatePer8": 0.32158211521926056
+      },
+      "topItems": [
+        "DA_GiantSlayer",
+        "DA_RedBuff",
+        "DA_GuinsoosRageblade",
+        "DA_KrakensFury",
+        "DA_InfinityEdge"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Zyra",
+      "name": "婕拉",
+      "cost": 4,
+      "traits": [
+        "荆棘之兴",
+        "召唤师"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_zyra/skins/base/images/tft18_zyra_splash_tile_0.png",
+      "stats": {
+        "avgPlacement": 4.45,
+        "top4Rate": 0.516,
+        "winRate": 0.1158,
+        "sampleSize": 3903,
+        "pickRate": 0.20974849527085124,
+        "playRatePer8": 1.67798796216681
+      },
+      "topItems": [
+        "DA_HextechGunblade",
+        "DA_VoidStaff",
+        "DA_RedBuff",
+        "DA_SpearOfShojin",
+        "DA_GuinsoosRageblade"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Vi18",
+      "name": "蔚",
+      "cost": 3,
+      "traits": [
+        "野兽之灵",
+        "主宰"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_vi/skins/base/images/tft18_vi_splash_tile_39.png",
+      "stats": {
+        "avgPlacement": 4.62,
+        "top4Rate": 0.48469999999999996,
+        "winRate": 0.0987,
+        "sampleSize": 5717,
+        "pickRate": 0.3072334479793637,
+        "playRatePer8": 2.4578675838349096
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Kennen",
+      "name": "凯南",
+      "cost": 5,
+      "traits": [
+        "地狱火",
+        "裁决使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_kennen/skins/base/images/tft18_kennen_splash_tile_8.png",
+      "stats": {
+        "avgPlacement": 4.01,
+        "top4Rate": 0.5793,
+        "winRate": 0.1974,
+        "sampleSize": 4474,
+        "pickRate": 0.2404342218400688,
+        "playRatePer8": 1.9234737747205504
+      },
+      "topItems": [
+        "DA_EdgeOfNight",
+        "DA_HextechGunblade",
+        "DA_VoidStaff",
+        "DA_StrikersFlail",
+        "DA_Bloodthirster"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Morgana",
+      "name": "莫甘娜",
+      "cost": 4,
+      "traits": [
+        "魔女",
+        "神谕"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_morgana/skins/base/images/tft18_morgana_splash_tile_26.png",
+      "stats": {
+        "avgPlacement": 4.47,
+        "top4Rate": 0.5022,
+        "winRate": 0.1371,
+        "sampleSize": 2539,
+        "pickRate": 0.13644668959587275,
+        "playRatePer8": 1.091573516766982
+      },
+      "topItems": [
+        "DA_VoidStaff",
+        "DA_HextechGunblade",
+        "DA_SpearOfShojin",
+        "DA_GiantSlayer",
+        "DA_RedBuff"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Fiddlesticks18",
+      "name": "费德提克",
+      "cost": 3,
+      "traits": [
+        "绝命花妖",
+        "护卫",
+        "法师"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_fiddlesticks/skins/base/images/tft18_fiddlesticks_splash_tile_46.png",
+      "stats": {
+        "avgPlacement": 4.35,
+        "top4Rate": 0.5282,
+        "winRate": 0.1308,
+        "sampleSize": 4688,
+        "pickRate": 0.2519346517626827,
+        "playRatePer8": 2.0154772141014616
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_TitansResolve",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Sett",
+      "name": "瑟提",
+      "cost": 4,
+      "traits": [
+        "灵魂莲华",
+        "斗士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_sett/skins/base/images/tft18_sett_splash_tile_38.png",
+      "stats": {
+        "avgPlacement": 4.49,
+        "top4Rate": 0.5085000000000001,
+        "winRate": 0.1059,
+        "sampleSize": 2824,
+        "pickRate": 0.1517626827171109,
+        "playRatePer8": 1.2141014617368873
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_SteraksGage",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Shen",
+      "name": "慎",
+      "cost": 2,
+      "traits": [
+        "地狱火",
+        "护卫"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_shen/skins/base/images/tft18_shen_splash_tile_16.png",
+      "stats": {
+        "avgPlacement": 4.68,
+        "top4Rate": 0.4685,
+        "winRate": 0.12689999999999999,
+        "sampleSize": 1080,
+        "pickRate": 0.058039552880481515,
+        "playRatePer8": 0.4643164230438521
+      },
+      "topItems": [
+        "DA_WarmogsArmor"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Lux_Primal",
+      "name": "拉克丝 (野兽之灵)",
+      "cost": 5,
+      "traits": [
+        "野兽之灵",
+        "自然之力！大元素使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_primal_teamplanner.png",
+      "stats": {
+        "avgPlacement": 3.52,
+        "top4Rate": 0.6709999999999999,
+        "winRate": 0.248,
+        "sampleSize": 383,
+        "pickRate": 0.020582545141874464,
+        "playRatePer8": 0.16466036113499571
+      },
+      "topItems": [
+        "DA_VoidStaff",
+        "DA_RedBuff",
+        "DA_SpearOfShojin",
+        "DA_HextechGunblade",
+        "DA_GiantSlayer"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Ashe",
+      "name": "艾希",
+      "cost": 5,
+      "traits": [
+        "灵魂莲华",
+        "猎人"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_ashe/skins/base/images/tft18_ashe_splash_tile_76.png",
+      "stats": {
+        "avgPlacement": 4.19,
+        "top4Rate": 0.5453,
+        "winRate": 0.1728,
+        "sampleSize": 2518,
+        "pickRate": 0.1353181427343078,
+        "playRatePer8": 1.0825451418744625
+      },
+      "topItems": [
+        "DA_RedBuff",
+        "DA_GiantSlayer",
+        "DA_SpearOfShojin",
+        "DA_InfinityEdge",
+        "DA_LastWhisper"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Draven18",
+      "name": "德莱文",
+      "cost": 5,
+      "traits": [
+        "赏金猎人"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_draven/skins/base/images/tft18_draven_splash_tile_5.png",
+      "stats": {
+        "avgPlacement": 4.24,
+        "top4Rate": 0.5257000000000001,
+        "winRate": 0.2175,
+        "sampleSize": 2060,
+        "pickRate": 0.11070507308684437,
+        "playRatePer8": 0.8856405846947549
+      },
+      "topItems": [
+        "DA_KrakensFury",
+        "DA_InfinityEdge",
+        "DA_GuinsoosRageblade",
+        "DA_LastWhisper",
+        "DA_GiantSlayer"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Sentinel18",
+      "name": "苍蓝雕纹魔像",
+      "cost": 4,
+      "traits": [
+        "峡谷野怪",
+        "重装战士",
+        "神谕"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_sentinel/skins/base/images/t_18_sentinel_teamplannersplash.png",
+      "stats": {
+        "avgPlacement": 4.33,
+        "top4Rate": 0.5315,
+        "winRate": 0.1389,
+        "sampleSize": 7558,
+        "pickRate": 0.40616938950988823,
+        "playRatePer8": 3.249355116079106
+      },
+      "topItems": [
+        "DA_WarmogsArmor",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Sentry",
+      "name": "苍蓝哨戒",
+      "cost": 1,
+      "traits": [
+        "峡谷野怪",
+        "神谕"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_sentry/skins/base/images/t_18_sentry_teamplannersplash.png",
+      "stats": {
+        "avgPlacement": 4.4,
+        "top4Rate": 0.5272,
+        "winRate": 0.111,
+        "sampleSize": 1982,
+        "pickRate": 0.10651332760103181,
+        "playRatePer8": 0.8521066208082545
+      },
+      "topItems": [
+        "DA_HextechGunblade",
+        "DA_VoidStaff",
+        "DA_GiantSlayer",
+        "DA_StrikersFlail"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Lux18_Blossom",
+      "name": "拉克丝 (灵魂莲华)",
+      "cost": 5,
+      "traits": [
+        "灵魂莲华",
+        "自然之力！大元素使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_blossom_teamplanner.png",
+      "stats": {
+        "avgPlacement": 3.67,
+        "top4Rate": 0.6614,
+        "winRate": 0.2165,
+        "sampleSize": 254,
+        "pickRate": 0.013650042992261392,
+        "playRatePer8": 0.10920034393809114
+      },
+      "topItems": [
+        "DA_SpearOfShojin",
+        "DA_VoidStaff"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Brambleback18",
+      "name": "绯红印记树怪",
+      "cost": 4,
+      "traits": [
+        "峡谷野怪",
+        "狂战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_brambleback/skins/base/images/t_18_brambleback_teamplannersplash.png",
+      "stats": {
+        "avgPlacement": 4.28,
+        "top4Rate": 0.5475,
+        "winRate": 0.1033,
+        "sampleSize": 1326,
+        "pickRate": 0.07125967325881341,
+        "playRatePer8": 0.5700773860705073
+      },
+      "topItems": [
+        "DA_EdgeOfNight",
+        "DA_Bloodthirster",
+        "DA_SteraksGage",
+        "DA_GiantSlayer",
+        "DA_InfinityEdge"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_Cinderling18",
+      "name": "绯红树怪",
+      "cost": 1,
+      "traits": [
+        "峡谷野怪",
+        "猎人"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_cinderling/skins/base/images/t_18_cinderling_teamplannersplash.png",
+      "stats": {
+        "avgPlacement": 4.81,
+        "top4Rate": 0.4525,
+        "winRate": 0.0818,
+        "sampleSize": 758,
+        "pickRate": 0.04073516766981943,
+        "playRatePer8": 0.32588134135855545
+      },
+      "topItems": [
+        "DA_GiantSlayer",
+        "DA_LastWhisper",
+        "DA_SpearOfShojin",
+        "DA_GuinsoosRageblade",
+        "DA_StrikersFlail"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Lux_Coven",
+      "name": "拉克丝 (魔女)",
+      "cost": 5,
+      "traits": [
+        "魔女",
+        "自然之力！大元素使"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_coven_teamplanner.png",
+      "stats": {
+        "avgPlacement": 4.31,
+        "top4Rate": 0.5,
+        "winRate": 0.2426,
+        "sampleSize": 136,
+        "pickRate": 0.007308684436801376,
+        "playRatePer8": 0.058469475494411005
+      },
+      "topItems": [
+        "DA_SpearOfShojin"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Varus",
+      "name": "韦鲁斯",
+      "cost": 1,
+      "traits": [
+        "地狱火",
+        "迅捷射手"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_varus/skins/base/images/tft18_varus_splash_tile_9.png",
+      "stats": {
+        "avgPlacement": 4.45,
+        "top4Rate": 0.5354,
+        "winRate": 0.0756,
+        "sampleSize": 2288,
+        "pickRate": 0.12295786758383491,
+        "playRatePer8": 0.9836629406706793
+      },
+      "topItems": [
+        "DA_InfinityEdge",
+        "DA_GuinsoosRageblade",
+        "DA_GiantSlayer",
+        "DA_LastWhisper",
+        "DA_SpearOfShojin"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_LeBlanc",
+      "name": "乐芙兰",
+      "cost": 2,
+      "traits": [
+        "永恒之森",
+        "法师"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_leblanc/skins/base/images/tft18_leblanc_splash_tile_5.png",
+      "stats": {
+        "avgPlacement": 4.36,
+        "top4Rate": 0.514,
+        "winRate": 0.1366,
+        "sampleSize": 2035,
+        "pickRate": 0.1093615649183147,
+        "playRatePer8": 0.8748925193465176
+      },
+      "topItems": [
+        "DA_VoidStaff",
+        "DA_SpearOfShojin",
+        "DA_HextechGunblade",
+        "DA_NashorsTooth",
+        "DA_GiantSlayer"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Veigar",
+      "name": "维迦",
+      "cost": 1,
+      "traits": [
+        "黑荆棘",
+        "约德尔人和朋友",
+        "法师"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_veigar/skins/base/images/tft18_veigar_splash_tile_13.png",
+      "stats": {
+        "avgPlacement": 4.3,
+        "top4Rate": 0.5331,
+        "winRate": 0.13970000000000002,
+        "sampleSize": 2298,
+        "pickRate": 0.12349527085124677,
+        "playRatePer8": 0.9879621668099742
+      },
+      "topItems": [
+        "DA_GiantSlayer",
+        "DA_HextechGunblade",
+        "DA_StrikersFlail",
+        "DA_SpearOfShojin",
+        "DA_NashorsTooth"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Diana",
+      "name": "黛安娜",
+      "cost": 3,
+      "traits": [
+        "月蚀骑士",
+        "狂战士",
+        "重装战士"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_diana/skins/base/images/tft18_diana_splash_tile_0.png",
+      "stats": {
+        "avgPlacement": 4.42,
+        "top4Rate": 0.5224,
+        "winRate": 0.1106,
+        "sampleSize": 4673,
+        "pickRate": 0.25112854686156494,
+        "playRatePer8": 2.0090283748925195
+      },
+      "topItems": [
+        "DA_TitansResolve",
+        "DA_Bloodthirster",
+        "DA_EdgeOfNight",
+        "DA_ThiefsGloves"
+      ],
+      "sourceId": "units"
+    },
+    {
+      "id": "DA_18_Ornn",
+      "name": "奥恩",
+      "cost": 1,
+      "traits": [
+        "永恒之森",
+        "护卫"
+      ],
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/characters/tft18_ornn/skins/base/images/tft18_ornn_splash_tile_2.png",
+      "stats": {
+        "avgPlacement": 4.44,
+        "top4Rate": 0.5046,
+        "winRate": 0.1268,
+        "sampleSize": 3060,
+        "pickRate": 0.16444539982803094,
+        "playRatePer8": 1.3155631986242475
+      },
+      "topItems": [
+        "DA_SteraksGage",
+        "DA_WarmogsArmor"
+      ],
+      "sourceId": "units"
+    }
+  ],
+  "items": [
+    {
+      "id": "DA_TacticiansCape",
+      "name": "金锅铲冠冕",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_tacticiansring.png",
+      "stats": {
+        "avgPlacement": 4.27,
+        "top4Rate": 0.5299,
+        "winRate": 0.141,
+        "sampleSize": 234,
+        "pickRate": 0.01257523645743766,
+        "playRatePer8": 0.10060189165950129
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemJuggernaut",
+      "name": "主宰纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_juggernaut.png",
+      "stats": {
+        "avgPlacement": 4.28,
+        "top4Rate": 0.53,
+        "winRate": 0.1502,
+        "sampleSize": 566,
+        "pickRate": 0.030417024935511607,
+        "playRatePer8": 0.24333619948409285
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemRapidfire",
+      "name": "迅捷射手纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_rapidfire.png",
+      "stats": {
+        "avgPlacement": 3.98,
+        "top4Rate": 0.6079,
+        "winRate": 0.1331,
+        "sampleSize": 556,
+        "pickRate": 0.02987962166809974,
+        "playRatePer8": 0.23903697334479793
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_GargoyleStoneplate_Radiant",
+      "name": "光明版石像鬼石板甲",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_gargoylestoneplateradiant.png",
+      "stats": {
+        "avgPlacement": 4.62,
+        "top4Rate": 0.4487,
+        "winRate": 0.141,
+        "sampleSize": 78,
+        "pickRate": 0.004191745485812554,
+        "playRatePer8": 0.03353396388650043
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_BrambleVest",
+      "name": "棘刺背心",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_bramblevest.png",
+      "stats": {
+        "avgPlacement": 4.1,
+        "top4Rate": 0.5775,
+        "winRate": 0.15380000000000002,
+        "sampleSize": 2627,
+        "pickRate": 0.14117583834909717,
+        "playRatePer8": 1.1294067067927773
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_ArchangelsStaff",
+      "name": "大天使之杖",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_archangelsstaff.png",
+      "stats": {
+        "avgPlacement": 4.23,
+        "top4Rate": 0.5535,
+        "winRate": 0.1414,
+        "sampleSize": 4605,
+        "pickRate": 0.24747420464316422,
+        "playRatePer8": 1.9797936371453138
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_LastWhisper",
+      "name": "最后的轻语",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_lastwhisper.png",
+      "stats": {
+        "avgPlacement": 4.29,
+        "top4Rate": 0.5334,
+        "winRate": 0.1561,
+        "sampleSize": 4278,
+        "pickRate": 0.2299011177987962,
+        "playRatePer8": 1.8392089423903697
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_EternalPact",
+      "name": "永恒契约",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft16_artifact_eternalpact.png",
+      "stats": {
+        "avgPlacement": 4.16,
+        "top4Rate": 0.5796,
+        "winRate": 0.11019999999999999,
+        "sampleSize": 245,
+        "pickRate": 0.013166380051590714,
+        "playRatePer8": 0.10533104041272572
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_EdgeOfNight",
+      "name": "夜之锋刃",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_guardianangel.png",
+      "stats": {
+        "avgPlacement": 4.04,
+        "top4Rate": 0.5832,
+        "winRate": 0.1557,
+        "sampleSize": 3172,
+        "pickRate": 0.17046431642304385,
+        "playRatePer8": 1.3637145313843508
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_TitansResolve_Radiant",
+      "name": "光明版泰坦的坚决",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_titansresolveradiant.png",
+      "stats": {
+        "avgPlacement": 3.29,
+        "top4Rate": 0.7082999999999999,
+        "winRate": 0.25,
+        "sampleSize": 24,
+        "pickRate": 0.0012897678417884782,
+        "playRatePer8": 0.010318142734307825
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_GiantSlayer_Radiant",
+      "name": "光明版巨人杀手",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_giantslayerradiant.png",
+      "stats": {
+        "avgPlacement": 3.82,
+        "top4Rate": 0.622,
+        "winRate": 0.18289999999999998,
+        "sampleSize": 82,
+        "pickRate": 0.0044067067927773,
+        "playRatePer8": 0.0352536543422184
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_TacticiansShield",
+      "name": "金锅锅冠冕",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_tacticiansscepter.png",
+      "stats": {
+        "avgPlacement": 3.91,
+        "top4Rate": 0.6545000000000001,
+        "winRate": 0.2545,
+        "sampleSize": 55,
+        "pickRate": 0.002955717970765262,
+        "playRatePer8": 0.023645743766122097
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemCoven",
+      "name": "魔女纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_coven.png",
+      "stats": {
+        "avgPlacement": 4.87,
+        "top4Rate": 0.40880000000000005,
+        "winRate": 0.1241,
+        "sampleSize": 137,
+        "pickRate": 0.007362424763542563,
+        "playRatePer8": 0.0588993981083405
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemBlackthorn",
+      "name": "黑荆棘纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_blackthorn.png",
+      "stats": {
+        "avgPlacement": 4.37,
+        "top4Rate": 0.5271,
+        "winRate": 0.131,
+        "sampleSize": 664,
+        "pickRate": 0.03568357695614789,
+        "playRatePer8": 0.28546861564918313
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemElderwood",
+      "name": "永恒之森纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_elderwood.png",
+      "stats": {
+        "avgPlacement": 4.17,
+        "top4Rate": 0.545,
+        "winRate": 0.1463,
+        "sampleSize": 622,
+        "pickRate": 0.033426483233018056,
+        "playRatePer8": 0.26741186586414445
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_DragonsClawRadiant",
+      "name": "光明版巨龙之爪",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_dragonsclawradiant.png",
+      "stats": {
+        "avgPlacement": 3.71,
+        "top4Rate": 0.6071,
+        "winRate": 0.2143,
+        "sampleSize": 28,
+        "pickRate": 0.0015047291487532244,
+        "playRatePer8": 0.012037833190025795
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_LightshieldCrest",
+      "name": "光盾徽章",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_lightshieldcrest.png",
+      "stats": {
+        "avgPlacement": 4.12,
+        "top4Rate": 0.5655,
+        "winRate": 0.1502,
+        "sampleSize": 313,
+        "pickRate": 0.0168207222699914,
+        "playRatePer8": 0.1345657781599312
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_SteadfastHeart",
+      "name": "坚定之心",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_nightharvester.png",
+      "stats": {
+        "avgPlacement": 4.14,
+        "top4Rate": 0.5710999999999999,
+        "winRate": 0.1445,
+        "sampleSize": 3917,
+        "pickRate": 0.21050085984522787,
+        "playRatePer8": 1.684006878761823
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_ForbiddenIdol",
+      "name": "禁忌雕像",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_forbiddenidol.png",
+      "stats": {
+        "avgPlacement": 4.28,
+        "top4Rate": 0.5179,
+        "winRate": 0.14880000000000002,
+        "sampleSize": 168,
+        "pickRate": 0.009028374892519347,
+        "playRatePer8": 0.07222699914015478
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_TitansResolve",
+      "name": "泰坦的坚决",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_titansresolve.png",
+      "stats": {
+        "avgPlacement": 4.16,
+        "top4Rate": 0.5606,
+        "winRate": 0.1437,
+        "sampleSize": 1907,
+        "pickRate": 0.10248280309544282,
+        "playRatePer8": 0.8198624247635425
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_HellfireHatchet",
+      "name": "恶火小斧",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_hellfirehatchet.png",
+      "stats": {
+        "avgPlacement": 4.42,
+        "top4Rate": 0.5455,
+        "winRate": 0.11359999999999999,
+        "sampleSize": 88,
+        "pickRate": 0.004729148753224419,
+        "playRatePer8": 0.037833190025795355
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_GiantSlayer",
+      "name": "巨人杀手",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_madredsbloodrazor.png",
+      "stats": {
+        "avgPlacement": 4.12,
+        "top4Rate": 0.5761,
+        "winRate": 0.1487,
+        "sampleSize": 4251,
+        "pickRate": 0.22845012897678418,
+        "playRatePer8": 1.8276010318142735
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_SpiritVisage_Radiant",
+      "name": "光明版振奋盔甲",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.png",
+      "stats": {
+        "avgPlacement": 4.27,
+        "top4Rate": 0.4727,
+        "winRate": 0.1636,
+        "sampleSize": 55,
+        "pickRate": 0.002955717970765262,
+        "playRatePer8": 0.023645743766122097
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_LastWhisperRadiant",
+      "name": "光明版最后的轻语",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_lastwhisperradiant.png",
+      "stats": {
+        "avgPlacement": 2.94,
+        "top4Rate": 0.6944,
+        "winRate": 0.4722,
+        "sampleSize": 36,
+        "pickRate": 0.001934651762682717,
+        "playRatePer8": 0.015477214101461736
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_ThiefsGloves",
+      "name": "窃贼手套",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_thiefsgloves.png",
+      "stats": {
+        "avgPlacement": 4.06,
+        "top4Rate": 0.5796,
+        "winRate": 0.1624,
+        "sampleSize": 5174,
+        "pickRate": 0.2780524505588994,
+        "playRatePer8": 2.224419604471195
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_TheIndomitable",
+      "name": "顽强不屈",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_theindomitable.png",
+      "stats": {
+        "avgPlacement": 4.59,
+        "top4Rate": 0.4731,
+        "winRate": 0.1505,
+        "sampleSize": 279,
+        "pickRate": 0.014993551160791058,
+        "playRatePer8": 0.11994840928632847
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemPrimal",
+      "name": "野兽之灵纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_primal.png",
+      "stats": {
+        "avgPlacement": 4.47,
+        "top4Rate": 0.4772,
+        "winRate": 0.134,
+        "sampleSize": 373,
+        "pickRate": 0.020045141874462595,
+        "playRatePer8": 0.16036113499570076
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_WarmogsArmorRadiant",
+      "name": "光明版狂徒铠甲",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_warmogsarmorradiant.png",
+      "stats": {
+        "avgPlacement": 4.01,
+        "top4Rate": 0.6437,
+        "winRate": 0.1839,
+        "sampleSize": 87,
+        "pickRate": 0.004675408426483233,
+        "playRatePer8": 0.037403267411865865
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_EvenshroudRadiant",
+      "name": "光明版薄暮法袍",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_spectralgauntletradiant.png",
+      "stats": {
+        "avgPlacement": 3.95,
+        "top4Rate": 0.55,
+        "winRate": 0.25,
+        "sampleSize": 20,
+        "pickRate": 0.0010748065348237317,
+        "playRatePer8": 0.008598452278589854
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_DragonsClaw",
+      "name": "巨龙之爪",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_dragonsclaw.png",
+      "stats": {
+        "avgPlacement": 4.17,
+        "top4Rate": 0.5611,
+        "winRate": 0.1404,
+        "sampleSize": 3839,
+        "pickRate": 0.20630911435941532,
+        "playRatePer8": 1.6504729148753225
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_Fishbones",
+      "name": "鱼骨头",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_fishbones.png",
+      "stats": {
+        "avgPlacement": 4.11,
+        "top4Rate": 0.6183,
+        "winRate": 0.1613,
+        "sampleSize": 186,
+        "pickRate": 0.009995700773860704,
+        "playRatePer8": 0.07996560619088564
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_JeweledGauntlet",
+      "name": "珠光护手",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_jeweledgauntlet.png",
+      "stats": {
+        "avgPlacement": 4.27,
+        "top4Rate": 0.5386,
+        "winRate": 0.1398,
+        "sampleSize": 6353,
+        "pickRate": 0.34141229578675836,
+        "playRatePer8": 2.731298366294067
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_HextechGunblade",
+      "name": "海克斯科技枪刃",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_hextechgunblade.png",
+      "stats": {
+        "avgPlacement": 4.26,
+        "top4Rate": 0.5421,
+        "winRate": 0.1421,
+        "sampleSize": 5861,
+        "pickRate": 0.31497205503009457,
+        "playRatePer8": 2.5197764402407565
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_ZhonyasParadox",
+      "name": "中娅悖论",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnzhonyasparadox.png",
+      "stats": {
+        "avgPlacement": 4.18,
+        "top4Rate": 0.5714,
+        "winRate": 0.11220000000000001,
+        "sampleSize": 98,
+        "pickRate": 0.005266552020636285,
+        "playRatePer8": 0.04213241616509028
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_CrownguardRadiant",
+      "name": "光明版冕卫",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_crownguardradiant.png",
+      "stats": {
+        "avgPlacement": 4.29,
+        "top4Rate": 0.4839,
+        "winRate": 0.1613,
+        "sampleSize": 31,
+        "pickRate": 0.0016659501289767841,
+        "playRatePer8": 0.013327601031814273
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_RabadonsDeathcap_Radiant",
+      "name": "光明版灭世者的死亡之帽",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_rabadonsdeathcapradiant.png",
+      "stats": {
+        "avgPlacement": 4.01,
+        "top4Rate": 0.6,
+        "winRate": 0.1677,
+        "sampleSize": 155,
+        "pickRate": 0.008329750644883921,
+        "playRatePer8": 0.06663800515907137
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_BloodthirsterRadiant",
+      "name": "光明版饮血剑",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_bloodthirsterradiant.png",
+      "stats": {
+        "avgPlacement": 4.27,
+        "top4Rate": 0.5,
+        "winRate": 0.2692,
+        "sampleSize": 26,
+        "pickRate": 0.0013972484952708513,
+        "playRatePer8": 0.01117798796216681
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Item_Artifact_TalismanOfAscension",
+      "name": "飞升护符",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_talismanofascension.png",
+      "stats": {
+        "avgPlacement": 3.96,
+        "top4Rate": 0.6159,
+        "winRate": 0.1159,
+        "sampleSize": 138,
+        "pickRate": 0.007416165090283749,
+        "playRatePer8": 0.05932932072226999
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemFloraFatalisAugment",
+      "name": "绝命花妖纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_florafatalis.png",
+      "stats": {
+        "avgPlacement": 4.31,
+        "top4Rate": 0.5667,
+        "winRate": 0.1167,
+        "sampleSize": 180,
+        "pickRate": 0.009673258813413585,
+        "playRatePer8": 0.07738607050730868
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemSpellweaver",
+      "name": "法师纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_spellweaver.png",
+      "stats": {
+        "avgPlacement": 4.04,
+        "top4Rate": 0.5628,
+        "winRate": 0.1841,
+        "sampleSize": 565,
+        "pickRate": 0.03036328460877042,
+        "playRatePer8": 0.24290627687016336
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_SunfireCape_Radiant",
+      "name": "光明版日炎斗篷",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_sunfirecaperadiant.png",
+      "stats": {
+        "avgPlacement": 4.07,
+        "top4Rate": 0.5185,
+        "winRate": 0.2593,
+        "sampleSize": 27,
+        "pickRate": 0.001450988822012038,
+        "playRatePer8": 0.011607910576096303
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_GargoyleStoneplate",
+      "name": "石像鬼石板甲",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_gargoylestoneplate.png",
+      "stats": {
+        "avgPlacement": 4.4,
+        "top4Rate": 0.5168,
+        "winRate": 0.1301,
+        "sampleSize": 13421,
+        "pickRate": 0.7212489251934652,
+        "playRatePer8": 5.769991401547721
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_RapidFireCannon",
+      "name": "疾射火炮",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_rapidfirecannon.png",
+      "stats": {
+        "avgPlacement": 4.73,
+        "top4Rate": 0.46,
+        "winRate": 0.06,
+        "sampleSize": 100,
+        "pickRate": 0.005374032674118658,
+        "playRatePer8": 0.04299226139294927
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Crownguard",
+      "name": "冕卫",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_crownguard.png",
+      "stats": {
+        "avgPlacement": 4.12,
+        "top4Rate": 0.5748,
+        "winRate": 0.146,
+        "sampleSize": 4814,
+        "pickRate": 0.2587059329320722,
+        "playRatePer8": 2.069647463456578
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_HorizonFocus",
+      "name": "视界专注",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_horizonfocus.png",
+      "stats": {
+        "avgPlacement": 3.55,
+        "top4Rate": 0.703,
+        "winRate": 0.22769999999999999,
+        "sampleSize": 101,
+        "pickRate": 0.0054277730008598455,
+        "playRatePer8": 0.043422184006878764
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_RabadonsDeathcap",
+      "name": "灭世者的死亡之帽",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_rabadonsdeathcap.png",
+      "stats": {
+        "avgPlacement": 4.09,
+        "top4Rate": 0.5734,
+        "winRate": 0.1523,
+        "sampleSize": 4083,
+        "pickRate": 0.21942175408426484,
+        "playRatePer8": 1.7553740326741187
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Bloodthirster",
+      "name": "饮血剑",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_bloodthirster.png",
+      "stats": {
+        "avgPlacement": 3.89,
+        "top4Rate": 0.6098,
+        "winRate": 0.17120000000000002,
+        "sampleSize": 1968,
+        "pickRate": 0.1057609630266552,
+        "playRatePer8": 0.8460877042132416
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_KrakensFury_Radiant",
+      "name": "光明版海妖之怒",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_krakenslayerradiant.png",
+      "stats": {
+        "avgPlacement": 3.96,
+        "top4Rate": 0.614,
+        "winRate": 0.193,
+        "sampleSize": 57,
+        "pickRate": 0.0030631986242476354,
+        "playRatePer8": 0.024505588993981083
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_HextechGunbladeRadiant",
+      "name": "光明版海克斯科技枪刃",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_hextechgunbladeradiant.png",
+      "stats": {
+        "avgPlacement": 4.54,
+        "top4Rate": 0.48310000000000003,
+        "winRate": 0.22469999999999998,
+        "sampleSize": 89,
+        "pickRate": 0.004782889079965606,
+        "playRatePer8": 0.03826311263972485
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_DeathbladeRadiant",
+      "name": "光明版死亡之刃",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_deathbladeradiant.png",
+      "stats": {
+        "avgPlacement": 4.15,
+        "top4Rate": 0.5402,
+        "winRate": 0.2069,
+        "sampleSize": 87,
+        "pickRate": 0.004675408426483233,
+        "playRatePer8": 0.037403267411865865
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemSlayer",
+      "name": "狂战士纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_ravager.png",
+      "stats": {
+        "avgPlacement": 4.29,
+        "top4Rate": 0.5632,
+        "winRate": 0.11349999999999999,
+        "sampleSize": 467,
+        "pickRate": 0.025096732588134135,
+        "playRatePer8": 0.20077386070507308
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemInvoker",
+      "name": "神谕纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_invoker.png",
+      "stats": {
+        "avgPlacement": 4.21,
+        "top4Rate": 0.5499,
+        "winRate": 0.1427,
+        "sampleSize": 911,
+        "pickRate": 0.04895743766122098,
+        "playRatePer8": 0.39165950128976784
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemInferno",
+      "name": "地狱火纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_inferno.png",
+      "stats": {
+        "avgPlacement": 4.37,
+        "top4Rate": 0.5188,
+        "winRate": 0.16,
+        "sampleSize": 850,
+        "pickRate": 0.0456792777300086,
+        "playRatePer8": 0.3654342218400688
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_LudensTempest",
+      "name": "卢登的激荡",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_ludenstempest.png",
+      "stats": {
+        "avgPlacement": 3.91,
+        "top4Rate": 0.5791,
+        "winRate": 0.18350000000000002,
+        "sampleSize": 278,
+        "pickRate": 0.01493981083404987,
+        "playRatePer8": 0.11951848667239896
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_IonicSpark",
+      "name": "离子火花",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_ionicspark.png",
+      "stats": {
+        "avgPlacement": 3.99,
+        "top4Rate": 0.5931000000000001,
+        "winRate": 0.16010000000000002,
+        "sampleSize": 2455,
+        "pickRate": 0.13193250214961308,
+        "playRatePer8": 1.0554600171969046
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_LichBane",
+      "name": "巫妖之祸",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/ornn_items/tft_item_artifact_lichbane.png",
+      "stats": {
+        "avgPlacement": 4.28,
+        "top4Rate": 0.5432,
+        "winRate": 0.10490000000000001,
+        "sampleSize": 162,
+        "pickRate": 0.008705932932072226,
+        "playRatePer8": 0.06964746345657781
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_RedBuff",
+      "name": "红霸符",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_rapidfirecannon.png",
+      "stats": {
+        "avgPlacement": 4.17,
+        "top4Rate": 0.5586,
+        "winRate": 0.15130000000000002,
+        "sampleSize": 5736,
+        "pickRate": 0.30825451418744626,
+        "playRatePer8": 2.46603611349957
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_MogulsMail",
+      "name": "大亨之铠",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft7_item_shimmerscalemogulsmail.png",
+      "stats": {
+        "avgPlacement": 4.63,
+        "top4Rate": 0.4754,
+        "winRate": 0.1202,
+        "sampleSize": 183,
+        "pickRate": 0.009834479793637146,
+        "playRatePer8": 0.07867583834909717
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_SteraksGage",
+      "name": "斯特拉克的挑战护手",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_steraksgage.png",
+      "stats": {
+        "avgPlacement": 4.16,
+        "top4Rate": 0.5716,
+        "winRate": 0.1301,
+        "sampleSize": 4342,
+        "pickRate": 0.23334049871023216,
+        "playRatePer8": 1.8667239896818573
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_BlueBuffRadiant",
+      "name": "光明版蓝霸符",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_bluebuffradiant.png",
+      "stats": {
+        "avgPlacement": 3.76,
+        "top4Rate": 0.6638,
+        "winRate": 0.2069,
+        "sampleSize": 116,
+        "pickRate": 0.006233877901977644,
+        "playRatePer8": 0.04987102321582115
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_SpearOfShojinRadiant",
+      "name": "光明版朔极之矛",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_spearofshojinradiant.png",
+      "stats": {
+        "avgPlacement": 4.49,
+        "top4Rate": 0.4943,
+        "winRate": 0.1839,
+        "sampleSize": 87,
+        "pickRate": 0.004675408426483233,
+        "playRatePer8": 0.037403267411865865
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Quicksilver",
+      "name": "水银",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_quicksilver.png",
+      "stats": {
+        "avgPlacement": 4.08,
+        "top4Rate": 0.5771000000000001,
+        "winRate": 0.1425,
+        "sampleSize": 1530,
+        "pickRate": 0.08222269991401547,
+        "playRatePer8": 0.6577815993121238
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_NavoriFlickerblade",
+      "name": "烁刃",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_navoriflickerplade.png",
+      "stats": {
+        "avgPlacement": 4.75,
+        "top4Rate": 0.4485,
+        "winRate": 0.12119999999999999,
+        "sampleSize": 330,
+        "pickRate": 0.017734307824591573,
+        "playRatePer8": 0.1418744625967326
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemHunter",
+      "name": "猎人纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_hunter.png",
+      "stats": {
+        "avgPlacement": 4.52,
+        "top4Rate": 0.5074000000000001,
+        "winRate": 0.11900000000000001,
+        "sampleSize": 538,
+        "pickRate": 0.028912295786758385,
+        "playRatePer8": 0.23129836629406708
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_StrikersFlailRadiant",
+      "name": "光明版强袭者的链枷",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_trapclawradiant.png",
+      "stats": {
+        "avgPlacement": 4.28,
+        "top4Rate": 0.5352,
+        "winRate": 0.16899999999999998,
+        "sampleSize": 71,
+        "pickRate": 0.003815563198624248,
+        "playRatePer8": 0.030524505588993982
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_QuicksilverRadiant",
+      "name": "光明版水银",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_quicksilverradiant.png",
+      "stats": {
+        "avgPlacement": 3.9,
+        "top4Rate": 0.7,
+        "winRate": 0.2,
+        "sampleSize": 20,
+        "pickRate": 0.0010748065348237317,
+        "playRatePer8": 0.008598452278589854
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_Mittens",
+      "name": "连指手套",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_mittens.png",
+      "stats": {
+        "avgPlacement": 4.5,
+        "top4Rate": 0.47200000000000003,
+        "winRate": 0.12,
+        "sampleSize": 125,
+        "pickRate": 0.006717540842648324,
+        "playRatePer8": 0.05374032674118659
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Evenshroud",
+      "name": "薄暮法袍",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_spectralgauntlet.png",
+      "stats": {
+        "avgPlacement": 4.09,
+        "top4Rate": 0.5744,
+        "winRate": 0.1678,
+        "sampleSize": 2432,
+        "pickRate": 0.13069647463456577,
+        "playRatePer8": 1.0455717970765261
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_BlightingJewel",
+      "name": "枯萎珠宝",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_blightingjewel.png",
+      "stats": {
+        "avgPlacement": 4,
+        "top4Rate": 0.6221,
+        "winRate": 0.1705,
+        "sampleSize": 217,
+        "pickRate": 0.01166165090283749,
+        "playRatePer8": 0.09329320722269992
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_BlueBuff",
+      "name": "蓝霸符",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_bluebuff.png",
+      "stats": {
+        "avgPlacement": 4.05,
+        "top4Rate": 0.5821999999999999,
+        "winRate": 0.1684,
+        "sampleSize": 3990,
+        "pickRate": 0.21442390369733447,
+        "playRatePer8": 1.7153912295786757
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_SpearOfShojin",
+      "name": "朔极之矛",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_spearofshojin.png",
+      "stats": {
+        "avgPlacement": 4.3,
+        "top4Rate": 0.5365,
+        "winRate": 0.141,
+        "sampleSize": 8919,
+        "pickRate": 0.47930997420464316,
+        "playRatePer8": 3.8344797936371453
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_InfinityForce",
+      "name": "三相之力",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornninfinityforce.png",
+      "stats": {
+        "avgPlacement": 4.39,
+        "top4Rate": 0.5431,
+        "winRate": 0.10339999999999999,
+        "sampleSize": 116,
+        "pickRate": 0.006233877901977644,
+        "playRatePer8": 0.04987102321582115
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_IonicSparkRadiant",
+      "name": "光明版离子火花",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_ionicsparkradiant.png",
+      "stats": {
+        "avgPlacement": 4.5,
+        "top4Rate": 0.44439999999999996,
+        "winRate": 0.11109999999999999,
+        "sampleSize": 18,
+        "pickRate": 0.0009673258813413585,
+        "playRatePer8": 0.007738607050730868
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_ArchangelsStaffRadiant",
+      "name": "光明版大天使之杖",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_archangelsstaffradiant.png",
+      "stats": {
+        "avgPlacement": 4.08,
+        "top4Rate": 0.5789,
+        "winRate": 0.10529999999999999,
+        "sampleSize": 76,
+        "pickRate": 0.00408426483233018,
+        "playRatePer8": 0.03267411865864144
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_Dawncore",
+      "name": "黎明核心",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_dawncore.png",
+      "stats": {
+        "avgPlacement": 3.69,
+        "top4Rate": 0.6613,
+        "winRate": 0.2097,
+        "sampleSize": 434,
+        "pickRate": 0.02332330180567498,
+        "playRatePer8": 0.18658641444539983
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_SteraksGageRadiant",
+      "name": "光明版斯特拉克的挑战护手",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_steraksgageradiant.png",
+      "stats": {
+        "avgPlacement": 4.86,
+        "top4Rate": 0.3864,
+        "winRate": 0.0909,
+        "sampleSize": 44,
+        "pickRate": 0.0023645743766122097,
+        "playRatePer8": 0.018916595012897677
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_StatikkShiv",
+      "name": "斯塔缇克电刃",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_stattikshiv.png",
+      "stats": {
+        "avgPlacement": 4.6,
+        "top4Rate": 0.4865,
+        "winRate": 0.08109999999999999,
+        "sampleSize": 111,
+        "pickRate": 0.005965176268271711,
+        "playRatePer8": 0.04772141014617369
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemDefender",
+      "name": "护卫纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_defender.png",
+      "stats": {
+        "avgPlacement": 4.14,
+        "top4Rate": 0.5540999999999999,
+        "winRate": 0.1537,
+        "sampleSize": 462,
+        "pickRate": 0.024828030954428204,
+        "playRatePer8": 0.19862424763542563
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_ThiefsGlovesRadiant",
+      "name": "光明版窃贼手套",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_thiefsglovesradiant.png",
+      "stats": {
+        "avgPlacement": 3.69,
+        "top4Rate": 0.6296,
+        "winRate": 0.2519,
+        "sampleSize": 135,
+        "pickRate": 0.007254944110060189,
+        "playRatePer8": 0.058039552880481515
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_HandOfJusticeRadiant",
+      "name": "光明版正义之手",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_handofjusticeradiant.png",
+      "stats": {
+        "avgPlacement": 3.44,
+        "top4Rate": 0.7406999999999999,
+        "winRate": 0.22219999999999998,
+        "sampleSize": 54,
+        "pickRate": 0.002901977644024076,
+        "playRatePer8": 0.023215821152192607
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_SpiritVisage",
+      "name": "振奋盔甲",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.png",
+      "stats": {
+        "avgPlacement": 4.19,
+        "top4Rate": 0.5597,
+        "winRate": 0.1475,
+        "sampleSize": 6402,
+        "pickRate": 0.3440455717970765,
+        "playRatePer8": 2.752364574376612
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_SeekersArmguard",
+      "name": "探索者的护臂",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_seekersarmguard.png",
+      "stats": {
+        "avgPlacement": 4.3,
+        "top4Rate": 0.5217,
+        "winRate": 0.1553,
+        "sampleSize": 161,
+        "pickRate": 0.00865219260533104,
+        "playRatePer8": 0.06921754084264832
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_ProtectorsVow",
+      "name": "圣盾使的誓约",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_frozenheart.png",
+      "stats": {
+        "avgPlacement": 4.12,
+        "top4Rate": 0.5719,
+        "winRate": 0.1502,
+        "sampleSize": 5307,
+        "pickRate": 0.28519991401547723,
+        "playRatePer8": 2.281599312123818
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_KrakensFury",
+      "name": "海妖之怒",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_krakenslayer.png",
+      "stats": {
+        "avgPlacement": 4.27,
+        "top4Rate": 0.5442,
+        "winRate": 0.1381,
+        "sampleSize": 3809,
+        "pickRate": 0.2046969045571797,
+        "playRatePer8": 1.6375752364574376
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_VoidGauntlet",
+      "name": "虚空护手",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft16_artifact_voidgauntlet.png",
+      "stats": {
+        "avgPlacement": 4.13,
+        "top4Rate": 0.5984,
+        "winRate": 0.1654,
+        "sampleSize": 127,
+        "pickRate": 0.006825021496130696,
+        "playRatePer8": 0.05460017196904557
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_MorellonomiconRadiant",
+      "name": "光明版莫雷洛秘典",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_morellonomiconradiant.png",
+      "stats": {
+        "avgPlacement": 4.15,
+        "top4Rate": 0.5294,
+        "winRate": 0.1471,
+        "sampleSize": 34,
+        "pickRate": 0.001827171109200344,
+        "playRatePer8": 0.014617368873602751
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_GuinsoosRagebladeRadiant",
+      "name": "光明版鬼索的狂暴之刃",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_guinsoosragebladeradiant.png",
+      "stats": {
+        "avgPlacement": 4.12,
+        "top4Rate": 0.5763,
+        "winRate": 0.1864,
+        "sampleSize": 177,
+        "pickRate": 0.009512037833190027,
+        "playRatePer8": 0.07609630266552021
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_InfinityEdgeRadiant",
+      "name": "光明版无尽之刃",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_infinityedgeradiant.png",
+      "stats": {
+        "avgPlacement": 4.44,
+        "top4Rate": 0.5089,
+        "winRate": 0.10710000000000001,
+        "sampleSize": 112,
+        "pickRate": 0.0060189165950128975,
+        "playRatePer8": 0.04815133276010318
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_WitsEnd",
+      "name": "智慧末刃",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_witsend.png",
+      "stats": {
+        "avgPlacement": 4.2,
+        "top4Rate": 0.5690999999999999,
+        "winRate": 0.0894,
+        "sampleSize": 123,
+        "pickRate": 0.00661006018916595,
+        "playRatePer8": 0.0528804815133276
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_TacticiansCrown",
+      "name": "金铲铲冠冕",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_forceofnature.png",
+      "stats": {
+        "avgPlacement": 3.96,
+        "top4Rate": 0.6,
+        "winRate": 0.17800000000000002,
+        "sampleSize": 455,
+        "pickRate": 0.024451848667239897,
+        "playRatePer8": 0.19561478933791918
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemBrawler",
+      "name": "斗士纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_brawler.png",
+      "stats": {
+        "avgPlacement": 4.2,
+        "top4Rate": 0.5709000000000001,
+        "winRate": 0.10769999999999999,
+        "sampleSize": 585,
+        "pickRate": 0.03143809114359415,
+        "playRatePer8": 0.2515047291487532
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemVanguard",
+      "name": "重装战士纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_vanguard.png",
+      "stats": {
+        "avgPlacement": 4.24,
+        "top4Rate": 0.5575,
+        "winRate": 0.1551,
+        "sampleSize": 574,
+        "pickRate": 0.0308469475494411,
+        "playRatePer8": 0.2467755803955288
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemBlossom",
+      "name": "灵魂莲华纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_blossom.png",
+      "stats": {
+        "avgPlacement": 4.58,
+        "top4Rate": 0.4793,
+        "winRate": 0.1244,
+        "sampleSize": 434,
+        "pickRate": 0.02332330180567498,
+        "playRatePer8": 0.18658641444539983
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_SilvermereDawn",
+      "name": "密银黎明",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_silvermeredawn.png",
+      "stats": {
+        "avgPlacement": 4.17,
+        "top4Rate": 0.5488000000000001,
+        "winRate": 0.1646,
+        "sampleSize": 164,
+        "pickRate": 0.0088134135855546,
+        "playRatePer8": 0.0705073086844368
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Morellonomicon",
+      "name": "莫雷洛秘典",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_morellonomicon.png",
+      "stats": {
+        "avgPlacement": 4.07,
+        "top4Rate": 0.578,
+        "winRate": 0.1555,
+        "sampleSize": 3922,
+        "pickRate": 0.2107695614789338,
+        "playRatePer8": 1.6861564918314704
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_GuinsoosRageblade",
+      "name": "鬼索的狂暴之刃",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_guinsoosrageblade.png",
+      "stats": {
+        "avgPlacement": 4.44,
+        "top4Rate": 0.5094,
+        "winRate": 0.13119999999999998,
+        "sampleSize": 8347,
+        "pickRate": 0.4485705073086844,
+        "playRatePer8": 3.5885640584694753
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_InfinityEdge",
+      "name": "无尽之刃",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_infinityedge.png",
+      "stats": {
+        "avgPlacement": 4.32,
+        "top4Rate": 0.5333,
+        "winRate": 0.1386,
+        "sampleSize": 7232,
+        "pickRate": 0.3886500429922614,
+        "playRatePer8": 3.1092003439380913
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_ProtectorsVowRadiant",
+      "name": "光明版圣盾使的誓约",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_frozenheartradiant.png",
+      "stats": {
+        "avgPlacement": 4.51,
+        "top4Rate": 0.4865,
+        "winRate": 0.1892,
+        "sampleSize": 37,
+        "pickRate": 0.001988392089423904,
+        "playRatePer8": 0.01590713671539123
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_EdgeOfNightRadiant",
+      "name": "光明版夜之锋刃",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_guardianangelradiant.png",
+      "stats": {
+        "avgPlacement": 4.09,
+        "top4Rate": 0.5581,
+        "winRate": 0.1628,
+        "sampleSize": 43,
+        "pickRate": 0.002310834049871023,
+        "playRatePer8": 0.018486672398968184
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_WarmogsArmor",
+      "name": "狂徒铠甲",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_warmogsarmor.png",
+      "stats": {
+        "avgPlacement": 4.3,
+        "top4Rate": 0.5353,
+        "winRate": 0.1348,
+        "sampleSize": 9676,
+        "pickRate": 0.5199914015477214,
+        "playRatePer8": 4.159931212381771
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemExecutioner",
+      "name": "裁决使纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_executioner.png",
+      "stats": {
+        "avgPlacement": 4.2,
+        "top4Rate": 0.5511,
+        "winRate": 0.1611,
+        "sampleSize": 1136,
+        "pickRate": 0.061049011177987965,
+        "playRatePer8": 0.4883920894239037
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemSprykin",
+      "name": "约德尔人和朋友纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_sprykin.png",
+      "stats": {
+        "avgPlacement": 4.54,
+        "top4Rate": 0.49450000000000005,
+        "winRate": 0.11810000000000001,
+        "sampleSize": 271,
+        "pickRate": 0.014563628546861565,
+        "playRatePer8": 0.11650902837489252
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemLunar",
+      "name": "月蚀骑士纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_lunar.png",
+      "stats": {
+        "avgPlacement": 4.26,
+        "top4Rate": 0.5239,
+        "winRate": 0.14150000000000001,
+        "sampleSize": 523,
+        "pickRate": 0.028106190885640585,
+        "playRatePer8": 0.22484952708512468
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_SteadfastHeartRadiant",
+      "name": "光明版坚定之心",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_nightharvesterradiant.png",
+      "stats": {
+        "avgPlacement": 3.93,
+        "top4Rate": 0.5517,
+        "winRate": 0.2069,
+        "sampleSize": 29,
+        "pickRate": 0.001558469475494411,
+        "playRatePer8": 0.012467755803955288
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_SunfireCape",
+      "name": "日炎斗篷",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_redbuff.png",
+      "stats": {
+        "avgPlacement": 4.1,
+        "top4Rate": 0.5774,
+        "winRate": 0.1507,
+        "sampleSize": 3682,
+        "pickRate": 0.197871883061049,
+        "playRatePer8": 1.582975064488392
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_AegisOfDawn",
+      "name": "黎明圣盾",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_aegisofdawn.png",
+      "stats": {
+        "avgPlacement": 4.34,
+        "top4Rate": 0.5608,
+        "winRate": 0.1149,
+        "sampleSize": 148,
+        "pickRate": 0.007953568357695616,
+        "playRatePer8": 0.06362854686156492
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_VoidStaff",
+      "name": "虚空之杖",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_voidstaff.png",
+      "stats": {
+        "avgPlacement": 4.14,
+        "top4Rate": 0.5622,
+        "winRate": 0.15289999999999998,
+        "sampleSize": 5998,
+        "pickRate": 0.32233447979363716,
+        "playRatePer8": 2.5786758383490973
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_GamblersBlade",
+      "name": "投机者之刃",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft7_item_shimmerscalegamblersblade.png",
+      "stats": {
+        "avgPlacement": 4.64,
+        "top4Rate": 0.48310000000000003,
+        "winRate": 0.12359999999999999,
+        "sampleSize": 89,
+        "pickRate": 0.004782889079965606,
+        "playRatePer8": 0.03826311263972485
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Deathblade",
+      "name": "死亡之刃",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_deathblade.png",
+      "stats": {
+        "avgPlacement": 4.22,
+        "top4Rate": 0.5516,
+        "winRate": 0.1374,
+        "sampleSize": 3776,
+        "pickRate": 0.20292347377472056,
+        "playRatePer8": 1.6233877901977645
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_Manazane",
+      "name": "魔蕴",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnmuramana.png",
+      "stats": {
+        "avgPlacement": 4.12,
+        "top4Rate": 0.5692,
+        "winRate": 0.1508,
+        "sampleSize": 325,
+        "pickRate": 0.017465606190885642,
+        "playRatePer8": 0.13972484952708514
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_AdaptiveHelm_Radiant",
+      "name": "光明版适应性头盔",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_adaptivehelmradiant.png",
+      "stats": {
+        "avgPlacement": 3.9,
+        "top4Rate": 0.6429,
+        "winRate": 0.20629999999999998,
+        "sampleSize": 126,
+        "pickRate": 0.00677128116938951,
+        "playRatePer8": 0.05417024935511608
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_NashorsToothRadiant",
+      "name": "光明版纳什之牙",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_leviathanradiant.png",
+      "stats": {
+        "avgPlacement": 3.51,
+        "top4Rate": 0.6857,
+        "winRate": 0.2286,
+        "sampleSize": 35,
+        "pickRate": 0.0018809114359415306,
+        "playRatePer8": 0.015047291487532245
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_StrikersFlail",
+      "name": "强袭者的链枷",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_powergauntlet.png",
+      "stats": {
+        "avgPlacement": 4.12,
+        "top4Rate": 0.5713,
+        "winRate": 0.1609,
+        "sampleSize": 4164,
+        "pickRate": 0.22377472055030095,
+        "playRatePer8": 1.7901977644024076
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_TitanicHydra",
+      "name": "巨型九头蛇",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_titanichydra.png",
+      "stats": {
+        "avgPlacement": 4.52,
+        "top4Rate": 0.4789,
+        "winRate": 0.1268,
+        "sampleSize": 71,
+        "pickRate": 0.003815563198624248,
+        "playRatePer8": 0.030524505588993982
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemFloraFatalis",
+      "name": "绝命花妖纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_florafatalis.png",
+      "stats": {
+        "avgPlacement": 4.19,
+        "top4Rate": 0.5577000000000001,
+        "winRate": 0.1484,
+        "sampleSize": 364,
+        "pickRate": 0.01956147893379192,
+        "playRatePer8": 0.15649183147033535
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_18_EmblemFae",
+      "name": "花仙子纹章",
+      "kind": "special",
+      "category": "emblem",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_fae.png",
+      "stats": {
+        "avgPlacement": 4.52,
+        "top4Rate": 0.47409999999999997,
+        "winRate": 0.158,
+        "sampleSize": 367,
+        "pickRate": 0.019722699914015478,
+        "playRatePer8": 0.15778159931212382
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_BrambleVestRadiant",
+      "name": "光明版棘刺背心",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_bramblevestradiant.png",
+      "stats": {
+        "avgPlacement": 4.45,
+        "top4Rate": 0.5172,
+        "winRate": 0.2069,
+        "sampleSize": 29,
+        "pickRate": 0.001558469475494411,
+        "playRatePer8": 0.012467755803955288
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_HandOfJustice",
+      "name": "正义之手",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_unstableconcoction.png",
+      "stats": {
+        "avgPlacement": 4.07,
+        "top4Rate": 0.581,
+        "winRate": 0.1598,
+        "sampleSize": 2878,
+        "pickRate": 0.154664660361135,
+        "playRatePer8": 1.23731728288908
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_AegisOfDusk",
+      "name": "黄昏圣盾",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_aegisofdusk.png",
+      "stats": {
+        "avgPlacement": 4.55,
+        "top4Rate": 0.4385,
+        "winRate": 0.1176,
+        "sampleSize": 187,
+        "pickRate": 0.010049441100601892,
+        "playRatePer8": 0.08039552880481514
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_AdaptiveHelm",
+      "name": "适应性头盔",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_adaptivehelm.png",
+      "stats": {
+        "avgPlacement": 4.01,
+        "top4Rate": 0.5951,
+        "winRate": 0.15539999999999998,
+        "sampleSize": 4794,
+        "pickRate": 0.2576311263972485,
+        "playRatePer8": 2.061049011177988
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_Hullcrusher",
+      "name": "碎舰者",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/particles/tft/item_icons/ornn_items/tft9_ornnitem_hullbreaker.png",
+      "stats": {
+        "avgPlacement": 4.59,
+        "top4Rate": 0.4815,
+        "winRate": 0.1259,
+        "sampleSize": 135,
+        "pickRate": 0.007254944110060189,
+        "playRatePer8": 0.058039552880481515
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_NashorsTooth",
+      "name": "纳什之牙",
+      "kind": "completed",
+      "category": "core",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft_item_leviathan.png",
+      "stats": {
+        "avgPlacement": 4.06,
+        "top4Rate": 0.5758,
+        "winRate": 0.1592,
+        "sampleSize": 2249,
+        "pickRate": 0.12086199484092863,
+        "playRatePer8": 0.9668959587274291
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_Artifact_GoldCollector",
+      "name": "金币收集者",
+      "kind": "special",
+      "category": "artifact",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnthecollector.png",
+      "stats": {
+        "avgPlacement": 4.37,
+        "top4Rate": 0.5315,
+        "winRate": 0.09910000000000001,
+        "sampleSize": 111,
+        "pickRate": 0.005965176268271711,
+        "playRatePer8": 0.04772141014617369
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_JeweledGauntletRadiant",
+      "name": "光明版珠光护手",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_jeweledgauntletradiant.png",
+      "stats": {
+        "avgPlacement": 4.4,
+        "top4Rate": 0.4863,
+        "winRate": 0.1438,
+        "sampleSize": 146,
+        "pickRate": 0.007846087704213241,
+        "playRatePer8": 0.06276870163370593
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_VoidStaffRadiant",
+      "name": "光明版虚空之杖",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_voidstaffradiant.png",
+      "stats": {
+        "avgPlacement": 4.25,
+        "top4Rate": 0.5085000000000001,
+        "winRate": 0.1864,
+        "sampleSize": 59,
+        "pickRate": 0.0031706792777300087,
+        "playRatePer8": 0.02536543422184007
+      },
+      "sourceId": "items"
+    },
+    {
+      "id": "DA_RedBuffRadiant",
+      "name": "光明版红霸符",
+      "kind": "special",
+      "category": "radiant",
+      "icon": "https://raw.communitydragon.org/16.20/game/assets/maps/tft/icons/items/hexcore/tft5_item_rapidfirecannonradiant.png",
+      "stats": {
+        "avgPlacement": 3.81,
+        "top4Rate": 0.5946,
+        "winRate": 0.16219999999999998,
+        "sampleSize": 37,
+        "pickRate": 0.001988392089423904,
+        "playRatePer8": 0.01590713671539123
+      },
+      "sourceId": "items"
+    }
+  ],
+  "coverage": {
+    "champions": {
+      "sourceRows": 74,
+      "cached": 74,
+      "total": 74,
+      "excluded": [],
+      "missing": []
+    },
+    "items": {
+      "sourceRows": 126,
+      "cached": 126,
+      "total": 127,
+      "excluded": [],
+      "missing": [
+        {
+          "id": "DA_Artifact_DeathsDefiance",
+          "name": "死亡之蔑",
+          "category": "artifact",
+          "reason": "not_in_public_source_snapshot"
+        }
+      ],
+      "componentsWithoutStatistics": [
+        "DA_Component_BFSword",
+        "DA_Component_ChainVest",
+        "DA_Component_FryingPan",
+        "DA_Component_GiantsBelt",
+        "DA_Component_NeedlesslyLargeRod",
+        "DA_Component_NegatronCloak",
+        "DA_Component_RecurveBow",
+        "DA_Component_SparringGloves",
+        "DA_Component_Spatula",
+        "DA_Component_TearOfTheGoddess"
+      ]
+    },
+    "unknownTopItems": [],
+    "complete": false,
+    "note": "整体行的样本相互重叠，不能相加推导对局总数；未录入项无统计值，不使用三件套或持有者行代替。"
+  },
+  "capabilities": {
+    "championOverallStats": true,
+    "itemOverallStats": true,
+    "jointFilters": false,
+    "conditionalCooccurrence": false,
+    "conditionalDelta": false,
+    "rankRegionFilters": false,
+    "starFilters": false,
+    "boardPositionStats": false,
+    "recentMatches": false
+  },
+  "evidence": {
+    "source": "Tactics.tools",
+    "sourcePatch": "18.4",
+    "gamePatch": "18.4",
+    "set": 18,
+    "population": {
+      "queue": "Ranked",
+      "rank": "Diamond+",
+      "region": null
+    },
+    "queue": "Ranked",
+    "rank": "Diamond+",
+    "region": null,
+    "delivery": "version_cache",
+    "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+    "assetVersion": "16.20",
+    "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+    "fetchedAt": "2026-10-07T19:44:18.051Z",
+    "sourceTime": "2026-10-07T17:57:22.000Z",
+    "sourceTotalEntries": 18608,
+    "sourceTotalEntriesMeaning": "source statsData.totalEntries; rows overlap and are not disjoint unique games",
+    "sources": [
+      {
+        "id": "units",
+        "source": "Tactics.tools",
+        "url": "https://tactics.tools/units",
+        "endpoint": "https://tactics.tools/units",
+        "set": 18,
+        "sourcePatch": "18.4",
+        "gamePatch": "18.4",
+        "population": {
+          "queue": "Ranked",
+          "rank": "Diamond+",
+          "region": null
+        },
+        "fetchedAt": "2026-10-07T19:44:17.585Z",
+        "sourceTime": "2026-10-07T17:57:22.000Z",
+        "sourceTotalEntries": 18608,
+        "sourceTotalEntriesMeaning": "source statsData.totalEntries; rows overlap and are not disjoint unique games",
+        "sampleDenominator": "source statsData.units[unitId].count (unit occurrences)",
+        "sourceHTMLSha256": "690b8f2fe8142672aa3b2bea4482d92a4a4f9cf02e1973d876d896bb75434a0b",
+        "aperture": {
+          "patch": {
+            "_0": 16200
+          },
+          "rankGroup": 1,
+          "gameType": 0,
+          "queue": 1100
+        },
+        "delivery": "version_cache",
+        "rateUnit": "fraction (source percentages divided by 100)",
+        "pickRateDefinition": "source count / source totalEntries",
+        "playRateDisplay": "public page displays count / totalEntries * 8, with the /8 unit; it is not a conditional probability"
+      },
+      {
+        "id": "items",
+        "source": "Tactics.tools",
+        "url": "https://tactics.tools/items",
+        "endpoint": "https://tactics.tools/items",
+        "set": 18,
+        "sourcePatch": "18.4",
+        "gamePatch": "18.4",
+        "population": {
+          "queue": "Ranked",
+          "rank": "Diamond+",
+          "region": null
+        },
+        "fetchedAt": "2026-10-07T19:44:18.051Z",
+        "sourceTime": "2026-10-07T17:57:22.000Z",
+        "sourceTotalEntries": 18608,
+        "sourceTotalEntriesMeaning": "source statsData.totalEntries; rows overlap and are not disjoint unique games",
+        "sampleDenominator": "source statsData.items[rowIndex].count (item occurrences)",
+        "sourceHTMLSha256": "60671b51846460ebcb8897e3d369a947fa0cb2776056f98a067cbd30a7c4c810",
+        "aperture": {
+          "patch": {
+            "_0": 16200
+          },
+          "rankGroup": 1,
+          "gameType": 0,
+          "queue": 1100
+        },
+        "delivery": "version_cache",
+        "rateUnit": "fraction (source percentages divided by 100)",
+        "pickRateDefinition": "source count / source totalEntries",
+        "playRateDisplay": "public page displays count / totalEntries * 8, with the /8 unit; it is not a conditional probability"
+      }
+    ],
+    "sampleDenominator": "each row is the source unit/item occurrence count; see its sourceId for the exact public page denominator",
+    "statisticalWindow": {
+      "selection": "page patch 18.4",
+      "from": null,
+      "to": null
+    },
+    "unsupportedDimensions": [
+      "conditional_AND_OR_unit_trait_item_filters",
+      "conditional_cooccurrence",
+      "conditional_delta",
+      "rank_selection",
+      "region_selection",
+      "star_selection",
+      "board_position_outcomes",
+      "recent_match_details"
+    ],
+    "note": "整体出现记录统计，可按本地实体属性和指标筛选；不构造条件对局样本、组合收益或跨来源排名。topItems仅保留来源列出的装备ID，不代表该搭配的胜率。"
+  },
+  "reason": null
+}

@@ -1,0 +1,68 @@
+{
+  "glossaryRelease": "bcb4d129c5dfe331dcab0ccc5b77270d4d280ccec5a5c712713c53fddadbe9ab",
+  "glossaryCount": 40,
+  "compsCount": 10,
+  "riot": {
+    "matches": {
+      "total": 87,
+      "readyCurrent": 36,
+      "quarantined": 51,
+      "otherPatch": 0
+    },
+    "participantsCurrent": 288
+  },
+  "checkedAt": "2026-10-09T17:14:46.1132972Z",
+  "storage": {
+    "backend": "mysql",
+    "mysql": {
+      "status": "ready"
+    },
+    "redis": {
+      "status": "ready"
+    },
+    "milvus": {
+      "status": "connected",
+      "indexed": true,
+      "indexedChunks": 718
+    },
+    "embedding": {
+      "status": "configured"
+    },
+    "activeRelease": {
+      "id": "bcb4d129c5dfe331dcab0ccc5b77270d4d280ccec5a5c712713c53fddadbe9ab",
+      "season": 18,
+      "currentPatch": "18.4",
+      "seedPatch": "18.4",
+      "counts": {
+        "chunks": 789,
+        "tables": 81,
+        "entities": 844,
+        "documents": 681,
+        "snapshots": 210,
+        "tableRows": 846,
+        "opggSnapshots": 204,
+        "eligibleChunks": 718,
+        "glossaryChunks": 40,
+        "libraryDocuments": 44,
+        "eligibleDocuments": 636,
+        "glossaryDocuments": 40,
+        "sourceCapabilities": 4,
+        "statisticsSnapshots": 204,
+        "quarantinedStatisticsSnapshots": 202,
+        "patchVerifiedStatisticsSnapshots": 2
+      }
+    },
+    "knowledgeCounts": {
+      "documents": 681,
+      "eligibleDocuments": 636,
+      "chunks": 789,
+      "eligibleChunks": 718
+    },
+    "statistics": {
+      "total": 204,
+      "sourceDeclared": 2,
+      "assignedCurrent": 201,
+      "unavailable": 1
+    }
+  }
+}

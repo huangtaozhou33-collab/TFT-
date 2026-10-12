@@ -1,0 +1,98 @@
+[
+  {
+    "id": "wisp_radiantize_exact",
+    "query": "普通版光明化法杖什么时候能出现？需要多少金币，再次出现有什么冷却？",
+    "entityId": "DA_18_Radiantize",
+    "expectedDocumentId": "wisp-offering:DA_18_Radiantize",
+    "requiredText": [
+      "当前18.4费用3金币，只有买得起时才能被提供",
+      "出现窗口：5-1 至 5-7（含端点）；6-1 至 10-1（含端点）",
+      "再次提供冷却：5 wisp_shops；从 offered 起算",
+      "满足它们不保证出现"
+    ]
+  },
+  {
+    "id": "wisp_supercritical_conditions",
+    "query": "超级暴击法杖需要什么前提？",
+    "expectedDocumentId": "wisp-offering:DA_18_Supercritical",
+    "requiredText": [
+      "队伍中（位置不限）至少 2 名可技能暴击的英雄",
+      "当前18.4费用2金币，只有买得起时才能被提供",
+      "出现窗口：4-2 至 4-7（含端点）；5-1 至 5-7（含端点）；6-1 至 10-1（含端点）",
+      "满足它们不保证出现"
+    ]
+  },
+  {
+    "id": "trait_ladder_six_branches",
+    "query": "羁绊天梯有6种非独特羁绊时给什么？两种奖励分别有多少概率？",
+    "expectedDocumentId": "library:trait-ladder",
+    "requiredText": [
+      "条件：6种非独特羁绊",
+      "概率分母：满足该档门槛后，领取该奖励分支的概率",
+      "6种 | 50% | 7金币",
+      "6种 | 50% | 2个3费弈子",
+      "这里的数量是不同羁绊种类，不是单个羁绊的单位人数；独特羁绊不计入。"
+    ]
+  },
+  {
+    "id": "blue_loot_orb_stage_four",
+    "query": "第4阶段起蓝色战利品法球能开出什么？",
+    "expectedDocumentId": "library:loot-orb-contents",
+    "requiredText": [
+      "条件：蓝球，第4阶段起",
+      "49% | 4金币 + 1个4费弈子",
+      "47% | 2金币 + 2个3费弈子",
+      "3% | 8金币 + 重铸器",
+      "1% | 3金币 + 英雄复制器",
+      "基础装备球与下列蓝球奖励表分开。"
+    ]
+  },
+  {
+    "id": "shop_level_eight_four_cost",
+    "query": "8级商店刷四费卡的概率是多少？",
+    "expectedDocumentId": "library:shop-odds",
+    "requiredText": [
+      "等级 | 1费 | 2费 | 3费 | 4费 | 5费",
+      "8级 | 15% | 20% | 32% | 30% | 3%",
+      "概率描述商店格子的费用分布，不是指定英雄出现概率。"
+    ]
+  },
+  {
+    "id": "shop_odds_english_alias",
+    "query": "Shop odds 八级四费概率",
+    "expectedDocumentId": "library:shop-odds",
+    "requiredText": [
+      "等级 | 1费 | 2费 | 3费 | 4费 | 5费",
+      "8级 | 15% | 20% | 32% | 30% | 3%",
+      "概率描述商店格子的费用分布，不是指定英雄出现概率。"
+    ]
+  },
+  {
+    "id": "supercritical_english_alias",
+    "query": "Supercritical 法杖出现条件",
+    "expectedDocumentId": "wisp-offering:DA_18_Supercritical",
+    "requiredText": [
+      "队伍中（位置不限）至少 2 名可技能暴击的英雄",
+      "当前18.4费用2金币，只有买得起时才能被提供",
+      "出现窗口：4-2 至 4-7（含端点）；5-1 至 5-7（含端点）；6-1 至 10-1（含端点）"
+    ]
+  },
+  {
+    "id": "unrelated_cooking",
+    "query": "请给我番茄炒蛋的做法",
+    "expectedDocumentId": null,
+    "expectNoEvidence": true
+  },
+  {
+    "id": "unrelated_weather",
+    "query": "今天天气怎么样",
+    "expectedDocumentId": null,
+    "expectNoEvidence": true
+  },
+  {
+    "id": "unrelated_passport",
+    "query": "如何办理护照",
+    "expectedDocumentId": null,
+    "expectNoEvidence": true
+  }
+]

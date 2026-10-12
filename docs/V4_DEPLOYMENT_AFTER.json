@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-10-11T04:23:41.787Z",
+  "phase": "AFTER",
+  "health": {
+    "status": "ok",
+    "version": "4.0.0",
+    "ai": {
+      "configured": true,
+      "model": "deepseek-flash",
+      "provider": "DeepSeek / compatible API",
+      "ready": false,
+      "checkedAt": null,
+      "reason": "尚未完成真实调用验证"
+    },
+    "scope": "国际服 PC TFT · 单用户本机研究"
+  },
+  "storage": {
+    "backend": "mysql",
+    "mysql": {
+      "status": "ready"
+    },
+    "redis": {
+      "status": "ready"
+    },
+    "milvus": {
+      "status": "connected",
+      "indexed": true,
+      "indexedChunks": 869
+    },
+    "embedding": {
+      "status": "configured"
+    },
+    "activeRelease": {
+      "id": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b",
+      "season": 18,
+      "currentPatch": "18.4",
+      "seedPatch": "18.4",
+      "counts": {
+        "chunks": 940,
+        "tables": 81,
+        "entities": 844,
+        "documents": 832,
+        "snapshots": 210,
+        "tableRows": 846,
+        "opggSnapshots": 204,
+        "eligibleChunks": 869,
+        "glossaryChunks": 191,
+        "libraryDocuments": 44,
+        "eligibleDocuments": 787,
+        "glossaryDocuments": 191,
+        "sourceCapabilities": 4,
+        "statisticsSnapshots": 204,
+        "quarantinedStatisticsSnapshots": 202,
+        "patchVerifiedStatisticsSnapshots": 2
+      }
+    },
+    "knowledgeCounts": {
+      "documents": 832,
+      "eligibleDocuments": 787,
+      "chunks": 940,
+      "eligibleChunks": 869
+    },
+    "statistics": {
+      "total": 204,
+      "sourceDeclared": 2,
+      "assignedCurrent": 201,
+      "unavailable": 1
+    }
+  },
+  "glossary": {
+    "count": 191,
+    "revision": "editorial-v1-7bd6109c63bc090f",
+    "edition": "v4",
+    "releaseId": "0f7e3fe3455735de8b173ee01d7b983cf0657de6cdb8c1f07096256969dc578b"
+  },
+  "riot": {
+    "status": "ready",
+    "currentPatch": "18.4",
+    "season": 18,
+    "matches": {
+      "total": 87,
+      "readyCurrent": 36,
+      "quarantined": 51,
+      "otherPatch": 0
+    },
+    "participantsCurrent": 288
+  },
+  "providerCalled": false
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "windows": [{
+    "platform": "kr", "season": 18, "patch": "18.4",
+    "from": "2026-10-08T12:00:00.000Z", "to": "2026-10-09T16:00:00.000Z",
+    "checkedAt": "2026-10-09T16:00:00.000Z", "method": "calendar_and_page_inference",
+    "evidenceUrls": [
+      "https://teamfighttactics.leagueoflegends.com/ko-kr/news/game-updates/teamfight-tactics-patch-18-4/",
+      "https://support.riotgames.com/en-us/tft/events/patch-schedule-teamfight-tactics/",
+      "https://op.gg/zh-cn/tft/meta-trends/comps"
+    ],
+    "note": "依据官方18.4公告、补丁日历与当前页面交叉推定主补丁。窗口起点是排除计划换版日后36小时的保守采样边界，不是已确认的韩服生效时刻；只覆盖核查时刻之前。10月8日韩文公告有热修且PC/移动端不同步，hotfix保持未知，不声称18.4B。",
+    "hotfix": null
+  }]
+}

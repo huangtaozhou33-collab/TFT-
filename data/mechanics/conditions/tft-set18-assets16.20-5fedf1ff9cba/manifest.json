@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+  "context": {
+    "game": "tft",
+    "set": 18,
+    "mutator": "TFTSet18",
+    "assetVersion": "16.20",
+    "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+    "gamePatch": null
+  },
+  "entityFingerprint": "68cf6a091d851342d806511663c219e4b5d5c0220f953449ff3511d99b7bb610",
+  "file": "720f7e5b-7d19-4cc6-908b-dcbe6755d05e.json",
+  "sha256": "f7e680ad839db5a9c4a556fe492f05fba6f60670fbd0ffcb9b43ced7571ada3e",
+  "fetchedAt": "2026-10-07T16:25:45.277Z",
+  "publishedAt": "2026-10-07T16:37:43.127Z",
+  "sourcePatch": "18.4",
+  "coverage": {
+    "currentEntities": 349,
+    "sourceRows": 372,
+    "mapped": 343,
+    "missing": 6,
+    "specialConditions": 159,
+    "cooldownMapped": 343,
+    "roundWindowMapped": 343,
+    "withAugmentExclusions": 24,
+    "unresolvedStructuredConditions": 0,
+    "boundaryConflicts": 22,
+    "excludedSourceRows": 29,
+    "weightVerified": 0,
+    "probabilityVerified": 0,
+    "complete": false
+  }
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c131a">
+  <meta name="application-version" content="4.0.0">
+  <meta name="description" content="PC TFT 中文资料库：直接查阅海克斯奖励、机制概率与触发条件，同时研究来源阵容和个人规划。">
+  <title>TFT Atelier V4 · 中文机制资料库</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <script src="/theme-init.js"></script>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/developer.css">
+  <link rel="stylesheet" href="/tft-board.css">
+  <link rel="stylesheet" href="/comps.css">
+  <link rel="stylesheet" href="/team-planner.css">
+  <link rel="stylesheet" href="/assistant.css">
+  <link rel="stylesheet" href="/chat-cards.css">
+  <link rel="stylesheet" href="/library.css">
+  <link rel="stylesheet" href="/data-browser.css">
+  <link rel="stylesheet" href="/theme.css">
+<link rel="stylesheet" href="/patch-notes.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">跳到主要内容</a>
+  <aside class="sidebar" id="sidebar" aria-label="主导航">
+    <a class="brand" href="#comps" aria-label="TFT Atelier 阵容与资料库"><span class="brand-mark">✦</span><span>TFT <strong>ATELIER</strong><small>阵容与资料库 / V4</small></span></a>
+    <p class="nav-caption">看阵容 · 管理阵容池</p>
+    <nav id="nav"></nav>
+    <div class="sidebar-bottom"><div class="local-label"><span class="status-dot"></span>当前版本资料</div><p>查阅真实来源，<br>理解阵容与机制。</p><button class="source-shortcut" data-view="sources">查看数据源状态 <span>↗</span></button></div>
+  </aside>
+  <div class="app-shell">
+    <div class="app-chrome">
+    <header class="topbar">
+      <div class="topbar-left"><button id="menu-toggle" class="icon-button mobile-only" aria-label="切换导航" aria-expanded="false">☰</button><span class="breadcrumb">TFT ATELIER <span>/</span> <strong id="breadcrumb">大数据</strong></span></div>
+      <div class="topbar-actions"><div class="theme-switch language-switch" role="group" aria-label="Language / 语言" data-no-translate><button type="button" data-language="zh-CN" aria-pressed="true">简中</button><button type="button" data-language="en-US" aria-pressed="false">EN</button></div><button id="global-search" class="search-trigger"><span>⌕</span> <span class="search-trigger-label">搜索图鉴与机制</span> <kbd>Ctrl K</kbd></button><div class="theme-switch" role="group" aria-label="显示模式"><button type="button" class="theme-choice" data-theme-choice="light" aria-pressed="false"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>白天</button><button type="button" class="theme-choice" data-theme-choice="dark" aria-pressed="false"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20 15.2A8.6 8.6 0 0 1 8.8 4a8.6 8.6 0 1 0 11.2 11.2Z"/></svg>黑夜</button></div><span class="avatar" title="本地玩家">你</span></div>
+    </header>
+    <div class="context-bar" id="context-bar" aria-label="当前版本与数据上下文"><div class="version-release"><span class="version-release-label">当前应用版本</span><strong>V4.0.0</strong></div><span class="context-pill">载入赛季与资料版本…</span></div>
+    </div>
+    <div class="content-layout" id="content-layout">
+      <main id="main" tabindex="-1" aria-live="polite"><div class="initial-loading"><span class="spinner"></span><p>正在连接资料库…</p><small>版本、配方与数据状态会独立核验。</small></div></main>
+    </div>
+      <aside class="assistant-panel" id="assistant-panel" role="dialog" aria-modal="false" aria-labelledby="assistant-title" hidden>
+        <div class="assistant-heading"><div class="assistant-symbol" aria-hidden="true">✧</div><div><h2 id="assistant-title">TFT助手</h2><p><span id="ai-dot" class="status-dot muted"></span><span id="ai-status">检查连接中</span></p></div><div class="assistant-heading-actions"><button id="chat-model-settings" class="icon-button" aria-label="模型与思考设置" title="模型与思考设置">⚙</button><button id="chat-expand" class="icon-button" aria-label="展开或缩小助手" aria-expanded="false">展开</button><button id="chat-clear" class="icon-button" aria-label="清空聊天记录" title="清空聊天记录">↺</button><button id="chat-close" class="icon-button" aria-label="收起TFT助手" title="收起">×</button></div></div>
+        <div class="assistant-context"><span class="eyebrow">当前资料</span><div id="chat-context"></div><p id="chat-context-detail"></p></div>
+        <div id="chat-log" class="chat-log" role="log" aria-label="聊天记录" aria-live="polite"></div>
+        <div class="chat-bottom"><div id="chat-suggestions" class="chat-suggestions"></div><form id="chat-form"><label class="sr-only" for="chat-input">发送给TFT助手</label><textarea id="chat-input" placeholder="询问阵容、装备或机制…" rows="2" maxlength="6000"></textarea><div class="chat-form-footer"><small id="chat-footer-status">依据当前资料回答</small><button id="chat-send" type="submit" aria-label="发送消息">↑</button></div></form><p class="chat-disclaimer">引用对应实际来源；未收录资料会明确说明。</p></div>
+      </aside>
+    <button id="chat-toggle" class="assistant-launcher" type="button" aria-label="打开TFT助手" aria-expanded="false" aria-controls="assistant-panel"><span class="assistant-launcher-symbol" aria-hidden="true">✧</span><span>TFT助手</span></button>
+  </div>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <dialog id="modal"><div id="modal-content"></div></dialog>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

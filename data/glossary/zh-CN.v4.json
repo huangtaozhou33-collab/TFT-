@@ -1,0 +1,5958 @@
+{
+  "schemaVersion": 1,
+  "language": "zh-CN",
+  "edition": "v4",
+  "receivedAt": "2026-10-11",
+  "evidenceLabels": {
+    "source_supported": "有用法或对应概念来源；不等于官方定义，也不表示本项目已逐条核验链接。",
+    "editorial_common_usage": "编者常见用法整理，不等于官方定义。"
+  },
+  "entries": [
+    {
+      "id": "operations",
+      "term": "运营",
+      "aliases": [
+        "经济运营"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "围绕金币、血量、等级和阵容强度安排资源与时机的决策过程。",
+      "disambiguation": "广义包含搜牌和站位配合；口语中“运营阵容”常与低费追三星阵容相对。",
+      "exampleQuestion": "运营就是一直存钱吗？",
+      "exampleAnswer": "不是；存钱、花钱补强和升级之间的取舍都属于运营。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202007/1306355.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：运营就是一直存钱吗？",
+        "答：不是；存钱、花钱补强和升级之间的取舍都属于运营。"
+      ],
+      "misconceptions": [
+        "广义包含搜牌和站位配合；口语中“运营阵容”常与低费追三星阵容相对。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "earn-interest",
+      "term": "吃利息",
+      "aliases": [
+        "吃息",
+        "吃X息",
+        "攒利息"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "保留符合当前规则的金币档位，获得回合结算的额外金币收入。",
+      "disambiguation": "利息档位、上限及结算方式可能被模式或效果改变，不能仅凭术语套用固定数值。",
+      "exampleQuestion": "他说先吃利息，是什么意思？",
+      "exampleAnswer": "意思是暂时保留一部分金币，争取后续经济收益。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202007/1306355.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：他说先吃利息，是什么意思？",
+        "答：意思是暂时保留一部分金币，争取后续经济收益。"
+      ],
+      "misconceptions": [
+        "利息档位、上限及结算方式可能被模式或效果改变，不能仅凭术语套用固定数值。"
+      ],
+      "relatedTerms": [
+        "卡利息",
+        "破利息",
+        "经济"
+      ]
+    },
+    {
+      "id": "hold-interest",
+      "term": "卡利息",
+      "aliases": [
+        "卡息",
+        "卡利息线",
+        "卡经济"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "花钱时尽量把余额维持在某个利息档位附近，兼顾当前投入和后续收入。",
+      "disambiguation": "“卡”意为控制余额，不是程序卡顿；具体保留档位应看局势。",
+      "exampleQuestion": "卡利息D和完全不D一样吗？",
+      "exampleAnswer": "不同；卡利息D仍然刷新商店，只是尽量不花掉所选档位的本金。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://lol.17173.com/news/02202023/161916125.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：卡利息D和完全不D一样吗？",
+        "答：不同；卡利息D仍然刷新商店，只是尽量不花掉所选档位的本金。"
+      ],
+      "misconceptions": [
+        "“卡”意为控制余额，不是程序卡顿；具体保留档位应看局势。"
+      ],
+      "relatedTerms": [
+        "吃利息",
+        "破利息",
+        "经济"
+      ]
+    },
+    {
+      "id": "greed-interest",
+      "term": "贪利息",
+      "aliases": [
+        "贪经济"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "为了多留金币获得后续收益，推迟原本可以进行的补强或升级。",
+      "disambiguation": "带评价色彩；留钱本身不等于失误，不能只用输掉一回合倒推。",
+      "exampleQuestion": "为什么说我这波贪了？",
+      "exampleAnswer": "可能是你继续存钱，却承担了更高的掉血风险；需要结合当时战力判断。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/201907/1200560_2.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：为什么说我这波贪了？",
+        "答：可能是你继续存钱，却承担了更高的掉血风险；需要结合当时战力判断。"
+      ],
+      "misconceptions": [
+        "带评价色彩；留钱本身不等于失误，不能只用输掉一回合倒推。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "break-interest",
+      "term": "破利息",
+      "aliases": [
+        "破息",
+        "掉利息"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "支出使金币余额低于原本可拿到的某档利息门槛。",
+      "disambiguation": "不代表这笔购买一定亏；需比较即时补强、留牌价值和后续收入。",
+      "exampleQuestion": "买这张牌破利息是什么意思？",
+      "exampleAnswer": "指买完以后余额跨过一个较低档位，可能少拿相应利息。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：买这张牌破利息是什么意思？",
+        "答：指买完以后余额跨过一个较低档位，可能少拿相应利息。"
+      ],
+      "misconceptions": [
+        "不代表这笔购买一定亏；需比较即时补强、留牌价值和后续收入。"
+      ],
+      "relatedTerms": [
+        "卡利息",
+        "追二",
+        "战力"
+      ]
+    },
+    {
+      "id": "save-economy",
+      "term": "养经济",
+      "aliases": [
+        "养钱",
+        "养经济线"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "减少非必要支出并积累金币，让后续刷新、买牌或升级更有余地。",
+      "disambiguation": "不是每回合完全不买牌，也不是无论掉多少血都存钱。",
+      "exampleQuestion": "现在说养经济，是放弃这局吗？",
+      "exampleAnswer": "不是；这是把部分资源留给之后使用，能否等待还要看血量与战力。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://m.hupu.com/bbs/628294911.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：现在说养经济，是放弃这局吗？",
+        "答：不是；这是把部分资源留给之后使用，能否等待还要看血量与战力。"
+      ],
+      "misconceptions": [
+        "不是每回合完全不买牌，也不是无论掉多少血都存钱。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "win-streak",
+      "term": "连胜",
+      "aliases": [
+        "走连胜",
+        "打连胜"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在一局游戏中连续赢下玩家对战回合；常被用来描述相应的经济运营路线。",
+      "disambiguation": "连续回合的判定、奖励及模式差异以当局规则为准。",
+      "exampleQuestion": "两局都吃鸡也叫连胜吗？",
+      "exampleAnswer": "日常可以这么说，但运营讨论里的连胜通常指同一局内连续赢回合。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202007/1306355.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：两局都吃鸡也叫连胜吗？",
+        "答：日常可以这么说，但运营讨论里的连胜通常指同一局内连续赢回合。"
+      ],
+      "misconceptions": [
+        "连续回合的判定、奖励及模式差异以当局规则为准。"
+      ],
+      "relatedTerms": [
+        "抢节奏",
+        "质量",
+        "连败"
+      ]
+    },
+    {
+      "id": "loss-streak",
+      "term": "连败",
+      "aliases": [
+        "走连败",
+        "吃连败",
+        "保连败"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在一局游戏中连续输掉玩家对战回合；有时是为积累资源而主动采取的路线。",
+      "disambiguation": "跨多局连续失利也能称连败，应根据金币、阶段等上下文消歧。",
+      "exampleQuestion": "连败就是故意玩吗？",
+      "exampleAnswer": "不一定；既可能是主动安排，也可能只是当前阵容打不过。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202007/1306355.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：连败就是故意玩吗？",
+        "答：不一定；既可能是主动安排，也可能只是当前阵容打不过。"
+      ],
+      "misconceptions": [
+        "跨多局连续失利也能称连败，应根据金币、阶段等上下文消歧。"
+      ],
+      "relatedTerms": [
+        "卖血",
+        "容错",
+        "连胜"
+      ]
+    },
+    {
+      "id": "protect-win-streak",
+      "term": "保连胜",
+      "aliases": [
+        "保胜"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "为了延续已有连胜，考虑提前投入资源增强当下战力。",
+      "disambiguation": "这是目标与取舍，不保证投入后一定取胜。",
+      "exampleQuestion": "保连胜为什么会花更多钱？",
+      "exampleAnswer": "因为断胜可能损失后续收益，玩家会衡量是否值得现在补强。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/201907/1202294.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：保连胜为什么会花更多钱？",
+        "答：因为断胜可能损失后续收益，玩家会衡量是否值得现在补强。"
+      ],
+      "misconceptions": [
+        "这是目标与取舍，不保证投入后一定取胜。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "close-loss-streak",
+      "term": "精致连败",
+      "aliases": [
+        "小败连败"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "连续输回合时尽可能击败对方更多单位，减少每次失利的血量损失。",
+      "disambiguation": "不是一种可无条件保证的结果；对手强度与站位都会影响。",
+      "exampleQuestion": "精致连败和空城有什么差别？",
+      "exampleAnswer": "前者希望输得少、换掉更多单位；空城则靠很弱甚至空的场面确保失利。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://m.hupu.com/bbs/45574257.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：精致连败和空城有什么差别？",
+        "答：前者希望输得少、换掉更多单位；空城则靠很弱甚至空的场面确保失利。"
+      ],
+      "misconceptions": [
+        "不是一种可无条件保证的结果；对手强度与站位都会影响。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "open-fort",
+      "term": "空城",
+      "aliases": [
+        "空城计",
+        "空城连败"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "主动不上单位或只上极少弱单位，以提高保持连败的确定性。",
+      "disambiguation": "不同玩家也会把极弱场面宽泛叫空城；风险是大量掉血。",
+      "exampleQuestion": "空城一定要把所有棋子卖掉吗？",
+      "exampleAnswer": "不一定；核心是降低场上战力，留牌和卖牌还涉及经济与转型需要。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://m.hupu.com/bbs/45574257.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：空城一定要把所有棋子卖掉吗？",
+        "答：不一定；核心是降低场上战力，留牌和卖牌还涉及经济与转型需要。"
+      ],
+      "misconceptions": [
+        "不同玩家也会把极弱场面宽泛叫空城；风险是大量掉血。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "trade-health",
+      "term": "卖血",
+      "aliases": [
+        "卖血运营",
+        "血量换经济"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "主动接受甚至制造掉血，换取经济积累、选择顺序或某些机制收益。",
+      "disambiguation": "依赖当局机制；不是所有模式都按血量决定选择优先级。",
+      "exampleQuestion": "卖血等于任何输掉的回合吗？",
+      "exampleAnswer": "不是；通常包含主动用血量换其他资源的意图。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/201908/1217271.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：卖血等于任何输掉的回合吗？",
+        "答：不是；通常包含主动用血量换其他资源的意图。"
+      ],
+      "misconceptions": [
+        "依赖当局机制；不是所有模式都按血量决定选择优先级。"
+      ],
+      "relatedTerms": [
+        "连败",
+        "容错",
+        "经济"
+      ]
+    },
+    {
+      "id": "break-loss-streak",
+      "term": "断连败",
+      "aliases": [
+        "断败"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "原本连续失利的过程中赢下一回合，使连败状态中断。",
+      "disambiguation": "也可能是主动结束连败开始保血，不能一概当坏事。",
+      "exampleQuestion": "明明赢了，为什么说被断连败？",
+      "exampleAnswer": "如果原计划靠连续失利拿资源，这次胜利可能打乱计划。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://m.hupu.com/bbs/45574257.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：明明赢了，为什么说被断连败？",
+        "答：如果原计划靠连续失利拿资源，这次胜利可能打乱计划。"
+      ],
+      "misconceptions": [
+        "也可能是主动结束连败开始保血，不能一概当坏事。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "alternating-results",
+      "term": "一胜一负",
+      "aliases": [
+        "胜负交替"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "回合胜负反复交替，难以维持持续的连胜或连败收益。",
+      "disambiguation": "不要求严格每两回合轮换，也常泛指胜负断续。",
+      "exampleQuestion": "一胜一负为什么常被说经济难受？",
+      "exampleAnswer": "因为连续回合奖励难以积累，但实际经济还要看利息和其他收入。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：一胜一负为什么常被说经济难受？",
+        "答：因为连续回合奖励难以积累，但实际经济还要看利息和其他收入。"
+      ],
+      "misconceptions": [
+        "不要求严格每两回合轮换，也常泛指胜负断续。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "level",
+      "term": "拉人口",
+      "aliases": [
+        "升人口",
+        "上人口",
+        "拉等级"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通常指花金币买经验以提升玩家等级，从而调整出场容量与商店环境。",
+      "disambiguation": "口语常以等级代称人口；特殊效果可能让出场容量与等级不同。",
+      "exampleQuestion": "拉人口是多买几个棋子吗？",
+      "exampleAnswer": "不是；通常是在说升级，买来的棋子可能仍待在备战区。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：拉人口是多买几个棋子吗？",
+        "答：不是；通常是在说升级，买来的棋子可能仍待在备战区。"
+      ],
+      "misconceptions": [
+        "口语常以等级代称人口；特殊效果可能让出场容量与等级不同。"
+      ],
+      "relatedTerms": [
+        "速八",
+        "D牌",
+        "追二"
+      ]
+    },
+    {
+      "id": "pre-level",
+      "term": "预拉人口",
+      "aliases": [
+        "预拉",
+        "预升"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "提前购买部分经验，使下一次自然获得经验时达到预期等级。",
+      "disambiguation": "需要核对当局自然经验和商店刷新顺序，不能照搬旧赛季回合表。",
+      "exampleQuestion": "预拉是不是现在就升级？",
+      "exampleAnswer": "未必；常指本回合先买经验，让下一回合自然升级。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：预拉是不是现在就升级？",
+        "答：未必；常指本回合先买经验，让下一回合自然升级。"
+      ],
+      "misconceptions": [
+        "需要核对当局自然经验和商店刷新顺序，不能照搬旧赛季回合表。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "fast-eight",
+      "term": "速八（升八级）",
+      "aliases": [
+        "速八",
+        "速8",
+        "快速上八",
+        "fast 8"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "以较快到达玩家八级为阶段目标，通常减少此前的部分搜牌投入。",
+      "disambiguation": "同形词另有“快速第八名出局”义项；没有跨版本固定升级回合。",
+      "exampleQuestion": "攻略说速八，是赶快拿第八吗？",
+      "exampleAnswer": "这里是在讲尽快升到八级；若说“又速八出局”，才可能指快速第八。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://forum.gamer.com.tw/C.php?bsn=17532&gothis=5989209&page=1&snA=681170"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：攻略说速八，是赶快拿第八吗？",
+        "答：这里是在讲尽快升到八级；若说“又速八出局”，才可能指快速第八。"
+      ],
+      "misconceptions": [
+        "同形词另有“快速第八名出局”义项；没有跨版本固定升级回合。"
+      ],
+      "relatedTerms": [
+        "上人口",
+        "经济",
+        "过渡",
+        "速八（第八出局）"
+      ]
+    },
+    {
+      "id": "level-nine",
+      "term": "上九",
+      "aliases": [
+        "拉九",
+        "上9",
+        "拉9"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "把玩家等级提升到九级，常用于描述后期资源投入方向。",
+      "disambiguation": "“九五”是阵容思路名称，不等于所有上九行为。",
+      "exampleQuestion": "上九就代表场上必定正好九个棋子吗？",
+      "exampleAnswer": "不是；通常指九级，实际出场容量还可能受当局特殊效果影响。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：上九就代表场上必定正好九个棋子吗？",
+        "答：不是；通常指九级，实际出场容量还可能受当局特殊效果影响。"
+      ],
+      "misconceptions": [
+        "“九五”是阵容思路名称，不等于所有上九行为。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "accelerate",
+      "term": "提速",
+      "aliases": [
+        "加速运营",
+        "加快节奏"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "相对于原计划或同局常见节奏，更早升级、搜牌或投入战力。",
+      "disambiguation": "相对概念，没有适用于所有版本的统一提速回合。",
+      "exampleQuestion": "这回合提速是什么意思？",
+      "exampleAnswer": "可能是把原本晚些花的钱提前投入；具体是哪种操作要看上下文。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：这回合提速是什么意思？",
+        "答：可能是把原本晚些花的钱提前投入；具体是哪种操作要看上下文。"
+      ],
+      "misconceptions": [
+        "相对概念，没有适用于所有版本的统一提速回合。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "push-tempo",
+      "term": "抢节奏",
+      "aliases": [
+        "抢先启动",
+        "提节奏"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "主动较早补强或启动，争取阶段战力优势并给对手施加压力。",
+      "disambiguation": "比“提速”更强调争取竞争优势；不等于每次都应提前花钱。",
+      "exampleQuestion": "抢节奏一定是大D吗？",
+      "exampleAnswer": "不一定；提前升级或合适的阵容替换也可能形成阶段优势。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://m.hupu.com/bbs/51996687.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：抢节奏一定是大D吗？",
+        "答：不一定；提前升级或合适的阵容替换也可能形成阶段优势。"
+      ],
+      "misconceptions": [
+        "比“提速”更强调争取竞争优势；不等于每次都应提前花钱。"
+      ],
+      "relatedTerms": [
+        "节奏",
+        "连胜",
+        "上人口"
+      ]
+    },
+    {
+      "id": "preserve-health",
+      "term": "稳血",
+      "aliases": [
+        "保血",
+        "稳住血量"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通过补强等手段减少持续掉血，让后续规划获得时间。",
+      "disambiguation": "比“锁血”语气更弱，不承诺连续获胜。",
+      "exampleQuestion": "稳血是不是一滴血都不能掉？",
+      "exampleAnswer": "不是；能减少大败、延长生存时间，也常被称为稳血。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/201908/1217271.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：稳血是不是一滴血都不能掉？",
+        "答：不是；能减少大败、延长生存时间，也常被称为稳血。"
+      ],
+      "misconceptions": [
+        "比“锁血”语气更弱，不承诺连续获胜。"
+      ],
+      "relatedTerms": [
+        "锁血"
+      ]
+    },
+    {
+      "id": "stabilize",
+      "term": "锁血",
+      "aliases": [
+        "锁住血量"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "阵容补强后连续赢下回合，使生命值在一段时间内不再下降。",
+      "disambiguation": "夸张说法，不是无敌机制；不限定必须残血才能使用。",
+      "exampleQuestion": "锁血是不是永久不会输了？",
+      "exampleAnswer": "不是；它只是对当前阶段战力与结果的描述，对手补强后仍可能失利。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.18183.com/yundingzhiyi/201911/2505280.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：锁血是不是永久不会输了？",
+        "答：不是；它只是对当前阶段战力与结果的描述，对手补强后仍可能失利。"
+      ],
+      "misconceptions": [
+        "夸张说法，不是无敌机制；不限定必须残血才能使用。"
+      ],
+      "relatedTerms": [
+        "质量",
+        "战力",
+        "主坦",
+        "容错",
+        "稳血"
+      ]
+    },
+    {
+      "id": "safety-margin",
+      "term": "容错",
+      "aliases": [
+        "容错空间",
+        "容错率"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "局面允许失利、错过目标或暂时不补强而不立即崩溃的余地。",
+      "disambiguation": "有时特指血量可承受的败场，有时泛指整体调整空间。",
+      "exampleQuestion": "血量高就一定容错高吗？",
+      "exampleAnswer": "通常更能承受失利，但经济、阵容和对手伤害也会影响实际余地。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://m.hupu.com/bbs/628294911.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：血量高就一定容错高吗？",
+        "答：通常更能承受失利，但经济、阵容和对手伤害也会影响实际余地。"
+      ],
+      "misconceptions": [
+        "有时特指血量可承受的败场，有时泛指整体调整空间。"
+      ],
+      "relatedTerms": [
+        "锁血",
+        "卖血",
+        "战力"
+      ]
+    },
+    {
+      "id": "one-loss-margin",
+      "term": "一波容错",
+      "aliases": [
+        "一轮容错"
+      ],
+      "category": "经济与运营",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "估计剩余血量只够再承担有限的一次失败，之后很可能面临淘汰。",
+      "disambiguation": "不宜机械转换为精确败场数；战败伤害并非固定。",
+      "exampleQuestion": "他说一波容错，是否输这波就一定走？",
+      "exampleAnswer": "用法有差异：有人指还能输一次，有人指下一次失败就走，需核对语境与血量。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：他说一波容错，是否输这波就一定走？",
+        "答：用法有差异：有人指还能输一次，有人指下一次失败就走，需核对语境与血量。"
+      ],
+      "misconceptions": [
+        "不宜机械转换为精确败场数；战败伤害并非固定。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "roll",
+      "term": "D牌",
+      "aliases": [
+        "D卡",
+        "搜牌",
+        "搜卡",
+        "抽卡",
+        "roll牌",
+        "刷牌"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通过刷新商店寻找需要的弈子；“D”来自常见默认刷新快捷键。",
+      "disambiguation": "刷新与买牌是两件事；键位可自定义，免费刷新也常沿用此称呼。",
+      "exampleQuestion": "主播说先D两下，是要买两张牌吗？",
+      "exampleAnswer": "通常指刷新商店两次，再根据出现的牌决定是否购买。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.18183.com/yundingzhiyi/201911/2505280.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：主播说先D两下，是要买两张牌吗？",
+        "答：通常指刷新商店两次，再根据出现的牌决定是否购买。"
+      ],
+      "misconceptions": [
+        "刷新与买牌是两件事；键位可自定义，免费刷新也常沿用此称呼。"
+      ],
+      "relatedTerms": [
+        "慢D",
+        "大D",
+        "卡利息"
+      ]
+    },
+    {
+      "id": "small-roll",
+      "term": "小D",
+      "aliases": [
+        "小搜",
+        "浅D"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "投入相对少量资源刷新商店，尝试完成局部补强。",
+      "disambiguation": "与大D是相对描述，不能自动替换成固定次数或金额。",
+      "exampleQuestion": "小D有固定要花多少金币吗？",
+      "exampleAnswer": "没有统一金额；通常强调控制投入，找有限几个提升点。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202108/1412560.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：小D有固定要花多少金币吗？",
+        "答：没有统一金额；通常强调控制投入，找有限几个提升点。"
+      ],
+      "misconceptions": [
+        "与大D是相对描述，不能自动替换成固定次数或金额。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "roll-down",
+      "term": "大D",
+      "aliases": [
+        "大搜",
+        "大抽",
+        "大搜牌",
+        "大d"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在短时间内投入较多金币刷新和买牌，争取明显提升场面。",
+      "disambiguation": "强调搜牌投入较大，不保证能成型。",
+      "exampleQuestion": "大D等于必须花光吗？",
+      "exampleAnswer": "不一定；找到目标强度后可能停手，花到几乎没有钱才更接近梭哈。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：大D等于必须花光吗？",
+        "答：不一定；找到目标强度后可能停手，花到几乎没有钱才更接近梭哈。"
+      ],
+      "misconceptions": [
+        "强调搜牌投入较大，不保证能成型。"
+      ],
+      "relatedTerms": [
+        "D牌",
+        "慢D",
+        "质量",
+        "锁血"
+      ]
+    },
+    {
+      "id": "slow-roll",
+      "term": "慢D",
+      "aliases": [
+        "慢搜",
+        "卡利息D",
+        "slow roll",
+        "慢搜牌",
+        "慢d"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "保留一部分经济本金，分多个回合逐步刷新找牌，常用于追星。",
+      "disambiguation": "不等于固定卡某个金币数；本金档位可随血量与局势调整。",
+      "exampleQuestion": "慢D为什么不是一直按刷新？",
+      "exampleAnswer": "重点是分回合、控制支出，通常会给后续收入留空间。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202007/1307980.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：慢D为什么不是一直按刷新？",
+        "答：重点是分回合、控制支出，通常会给后续收入留空间。"
+      ],
+      "misconceptions": [
+        "不等于固定卡某个金币数；本金档位可随血量与局势调整。"
+      ],
+      "relatedTerms": [
+        "D牌",
+        "卡利息",
+        "追三",
+        "大D"
+      ]
+    },
+    {
+      "id": "all-in",
+      "term": "梭哈",
+      "aliases": [
+        "all in",
+        "all-in",
+        "搜光",
+        "D光"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "短时间内投入大部分甚至全部可用金币，集中争取当前目标。",
+      "disambiguation": "通常指搜牌买牌，有时包括升级；不是对成功率的保证。",
+      "exampleQuestion": "梭哈和大D有什么区别？",
+      "exampleAnswer": "梭哈更强调接近用尽资源；大D也可能留下不少金币。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202007/1307980.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：梭哈和大D有什么区别？",
+        "答：梭哈更强调接近用尽资源；大D也可能留下不少金币。"
+      ],
+      "misconceptions": [
+        "通常指搜牌买牌，有时包括升级；不是对成功率的保证。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "desperation-roll",
+      "term": "板命",
+      "aliases": [
+        "搏命",
+        "拼命D"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在生存压力较大时集中投入资源补强，以争取避免被淘汰。",
+      "disambiguation": "与梭哈常同时发生，但板命强调保命目的，不只是花钱多。",
+      "exampleQuestion": "板命是看到想要的牌就全买？",
+      "exampleAnswer": "不是；它描述紧急补强的处境，买哪些牌仍需看可用战力。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/201907/1202294.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：板命是看到想要的牌就全买？",
+        "答：不是；它描述紧急补强的处境，买哪些牌仍需看可用战力。"
+      ],
+      "misconceptions": [
+        "与梭哈常同时发生，但板命强调保命目的，不只是花钱多。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "tilt-roll",
+      "term": "上头",
+      "aliases": [
+        "D上头",
+        "搜上头"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "因情绪或执念超出原定预算与计划，继续搜牌、追星或硬玩目标。",
+      "disambiguation": "描述心态失控，不是任何梭哈或紧急板命的同义词。",
+      "exampleQuestion": "已经D很多还没出，继续D就是上头吗？",
+      "exampleAnswer": "不一定；应看继续投入是否有局势依据，不能只凭花钱多判断。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：已经D很多还没出，继续D就是上头吗？",
+        "答：不一定；应看继续投入是否有局势依据，不能只凭花钱多判断。"
+      ],
+      "misconceptions": [
+        "描述心态失控，不是任何梭哈或紧急板命的同义词。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "reroll-comp",
+      "term": "赌狗",
+      "aliases": [
+        "赌牌流",
+        "赌狗阵容",
+        "赌阵容"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "玩家对以持续搜牌、追核心单位三星为主要强度来源的玩法的俗称。",
+      "disambiguation": "含调侃色彩，不是官方分类；不意味着每回合都梭哈，也不指现实金钱赌博。",
+      "exampleQuestion": "赌狗阵容只会赌一费吗？",
+      "exampleAnswer": "不是；二费、三费等追星体系也常被这样称呼。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202007/1307980.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：赌狗阵容只会赌一费吗？",
+        "答：不是；二费、三费等追星体系也常被这样称呼。"
+      ],
+      "misconceptions": [
+        "含调侃色彩，不是官方分类；不意味着每回合都梭哈，也不指现实金钱赌博。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "three-star",
+      "term": "追三",
+      "aliases": [
+        "追三星",
+        "追3",
+        "追3星"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "继续收集同名弈子，目标是把该弈子提升到三星。",
+      "disambiguation": "合星数量和特殊例外以当局规则为准，不能把“三”一律当费用。",
+      "exampleQuestion": "追三和找三费一样吗？",
+      "exampleAnswer": "不同；三星是星级，三费是费用，两者不是一个维度。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://lol.17173.com/news/02202023/161916125.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：追三和找三费一样吗？",
+        "答：不同；三星是星级，三费是费用，两者不是一个维度。"
+      ],
+      "misconceptions": [
+        "合星数量和特殊例外以当局规则为准，不能把“三”一律当费用。"
+      ],
+      "relatedTerms": [
+        "慢D",
+        "同行",
+        "追二"
+      ]
+    },
+    {
+      "id": "pair",
+      "term": "对子",
+      "aliases": [
+        "一对牌",
+        "对子牌"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通常指手中已有两张相同的一星弈子，接近完成二星合成。",
+      "disambiguation": "也有玩家把两张同星同名单位宽泛称对子，需核对所谈星级。",
+      "exampleQuestion": "手里对子多说明已经很强吗？",
+      "exampleAnswer": "未必；对子提供后续提升机会，但尚未合成时即时战力可能有限。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/201907/1200560_2.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：手里对子多说明已经很强吗？",
+        "答：未必；对子提供后续提升机会，但尚未合成时即时战力可能有限。"
+      ],
+      "misconceptions": [
+        "也有玩家把两张同星同名单位宽泛称对子，需核对所谈星级。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "one-copy-away",
+      "term": "听牌",
+      "aliases": [
+        "听了",
+        "听一张"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "距离某次关键合星或阵容补齐只差最后一张所需弈子。",
+      "disambiguation": "常指升星，也可指补关键羁绊；需要明确“听”的具体目标。",
+      "exampleQuestion": "三星听牌是不是下次必出？",
+      "exampleAnswer": "不是；只说明还差一张，不提供任何必出的保证。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/201907/1202294.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：三星听牌是不是下次必出？",
+        "答：不是；只说明还差一张，不提供任何必出的保证。"
+      ],
+      "misconceptions": [
+        "常指升星，也可指补关键羁绊；需要明确“听”的具体目标。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "offered-units",
+      "term": "来牌",
+      "aliases": [
+        "发牌",
+        "来牌情况"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "商店及当局其他获取途径提供了哪些弈子，以及它们与现有计划的契合程度。",
+      "disambiguation": "“发牌员”多为随机结果的人格化调侃，不证明有人操控结果。",
+      "exampleQuestion": "根据来牌玩是什么意思？",
+      "exampleAnswer": "指结合已经获得、能顺利补齐的牌调整方向，而不是只看预设阵容。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：根据来牌玩是什么意思？",
+        "答：指结合已经获得、能顺利补齐的牌调整方向，而不是只看预设阵容。"
+      ],
+      "misconceptions": [
+        "“发牌员”多为随机结果的人格化调侃，不证明有人操控结果。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "natural-hit",
+      "term": "白嫖",
+      "aliases": [
+        "嫖牌",
+        "自然来牌"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "没有为了那张牌额外付费刷新，就通过自然商店等途径碰到需要的弈子。",
+      "disambiguation": "有些语境也涵盖免费获取奖励，需区分免费刷新、免费购买和直接赠送。",
+      "exampleQuestion": "白嫖两星是不是连买牌都不花钱？",
+      "exampleAnswer": "通常仍需购买商店里的弈子；省下的是主动搜牌的成本。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.18183.com/yundingzhiyi/201911/2505280.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：白嫖两星是不是连买牌都不花钱？",
+        "答：通常仍需购买商店里的弈子；省下的是主动搜牌的成本。"
+      ],
+      "misconceptions": [
+        "有些语境也涵盖免费获取奖励，需区分免费刷新、免费购买和直接赠送。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "high-roll",
+      "term": "天胡",
+      "aliases": [
+        "胡了",
+        "很胡",
+        "天胡开局",
+        "胡牌"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "所需弈子、装备或其他资源来得顺，较容易形成优势的局面。",
+      "disambiguation": "主观强度描述，单次顺利不意味着随机机制异常。",
+      "exampleQuestion": "天胡等于已经稳赢吗？",
+      "exampleAnswer": "不是；优势资源仍要转换成有效阵容，后续也可能被追上。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.18183.com/yundingzhiyi/201911/2505280.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：天胡等于已经稳赢吗？",
+        "答：不是；优势资源仍要转换成有效阵容，后续也可能被追上。"
+      ],
+      "misconceptions": [
+        "主观强度描述，单次顺利不意味着随机机制异常。"
+      ],
+      "relatedTerms": [
+        "成型",
+        "质量",
+        "同行"
+      ]
+    },
+    {
+      "id": "low-roll",
+      "term": "天谴",
+      "aliases": [
+        "天谴局",
+        "不胡"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "玩家形容所需资源长期不顺或多项条件都不配合的夸张说法。",
+      "disambiguation": "不等于可验证的机制或精确概率结论。",
+      "exampleQuestion": "天谴局是不是系统故意不发牌？",
+      "exampleAnswer": "这个词通常是在抱怨不顺，本身不能证明系统针对某位玩家。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：天谴局是不是系统故意不发牌？",
+        "答：这个词通常是在抱怨不顺，本身不能证明系统针对某位玩家。"
+      ],
+      "misconceptions": [
+        "不等于可验证的机制或精确概率结论。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "contested",
+      "term": "同行",
+      "aliases": [
+        "撞车",
+        "撞阵容"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "同局中使用相同体系或争夺相同关键弈子的其他玩家。",
+      "disambiguation": "竞争程度取决于共享核心和持牌情况，不是只看阵容名称。",
+      "exampleQuestion": "阵容不一样也算同行吗？",
+      "exampleAnswer": "若双方争夺同一关键牌，也可能被称为同行。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.bilibili.com/read/app/7775982"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：阵容不一样也算同行吗？",
+        "答：若双方争夺同一关键牌，也可能被称为同行。"
+      ],
+      "misconceptions": [
+        "竞争程度取决于共享核心和持牌情况，不是只看阵容名称。"
+      ],
+      "relatedTerms": [
+        "追三",
+        "转型",
+        "D牌"
+      ]
+    },
+    {
+      "id": "uncontested",
+      "term": "独家",
+      "aliases": [
+        "无同行",
+        "独家阵容"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在当前观察到的同局玩家中，没有明显竞争同一主体系或核心牌的人。",
+      "disambiguation": "其他体系也可能拿走所需单卡，独家不等于目标牌全在池里。",
+      "exampleQuestion": "独家就一定能追出三星吗？",
+      "exampleAnswer": "不能保证；只是较少遇到同目标竞争，仍受随机结果和资源限制。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202007/1307980.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：独家就一定能追出三星吗？",
+        "答：不能保证；只是较少遇到同目标竞争，仍受随机结果和资源限制。"
+      ],
+      "misconceptions": [
+        "其他体系也可能拿走所需单卡，独家不等于目标牌全在池里。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "deny-units",
+      "term": "卡牌（占牌）",
+      "aliases": [
+        "卡牌",
+        "卡对手牌",
+        "卡别人牌",
+        "占牌"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "故意买下或留下对手需要的弈子，减少其在共享牌池中可供抽取的数量。",
+      "disambiguation": "“卡牌”还可泛指弈子或指英雄崔斯特；必须按句子消歧，不能全局替换。",
+      "exampleQuestion": "他说卡他一张，是要找崔斯特吗？",
+      "exampleAnswer": "若在谈限制对手追星，通常是占住那张牌；若在谈英雄，卡牌可能指崔斯特。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.bilibili.com/read/app/7775982"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：他说卡他一张，是要找崔斯特吗？",
+        "答：若在谈限制对手追星，通常是占住那张牌；若在谈英雄，卡牌可能指崔斯特。"
+      ],
+      "misconceptions": [
+        "“卡牌”还可泛指弈子或指英雄崔斯特；必须按句子消歧，不能全局替换。"
+      ],
+      "relatedTerms": [
+        "卡牌"
+      ]
+    },
+    {
+      "id": "awkward-hand",
+      "term": "卡手",
+      "aliases": [
+        "一手对子",
+        "合不出"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "拿着多组未完成的合星牌或暂时用不上的牌，难以转化成即时提升。",
+      "disambiguation": "与爆仓相关但不等同；卡手强调牌的组合状态。",
+      "exampleQuestion": "备战区没满也会卡手吗？",
+      "exampleAnswer": "会；重点是牌难以合成或兑现战力，不要求格子完全占满。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/201907/1202294.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：备战区没满也会卡手吗？",
+        "答：会；重点是牌难以合成或兑现战力，不要求格子完全占满。"
+      ],
+      "misconceptions": [
+        "与爆仓相关但不等同；卡手强调牌的组合状态。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "full-bench",
+      "term": "爆仓",
+      "aliases": [
+        "满备战区"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "备战区被大量保留牌挤满，买入新牌或继续整理变得困难的状态。",
+      "disambiguation": "不是背包或装备栏满；不同玩家对“满仓”和“爆仓”的界线不同。",
+      "exampleQuestion": "爆仓和单纯备战区满了完全一样吗？",
+      "exampleAnswer": "口语常混用，但爆仓通常更强调多组牌未合成造成的拥挤。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/201907/1202294.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：爆仓和单纯备战区满了完全一样吗？",
+        "答：口语常混用，但爆仓通常更强调多组牌未合成造成的拥挤。"
+      ],
+      "misconceptions": [
+        "不是背包或装备栏满；不同玩家对“满仓”和“爆仓”的界线不同。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "pivot",
+      "term": "转型",
+      "aliases": [
+        "转阵容",
+        "变阵",
+        "转阵"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "根据新资源或局势，把原有阵容方向逐步或集中换成另一套核心结构。",
+      "disambiguation": "不必把场上所有牌一次卖光，也不能保证转后立即更强。",
+      "exampleQuestion": "换掉一张挂件也叫转型吗？",
+      "exampleAnswer": "通常更接近小调整；转型往往涉及核心输出、羁绊或整体结构变化。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：换掉一张挂件也叫转型吗？",
+        "答：通常更接近小调整；转型往往涉及核心输出、羁绊或整体结构变化。"
+      ],
+      "misconceptions": [
+        "不必把场上所有牌一次卖光，也不能保证转后立即更强。"
+      ],
+      "relatedTerms": [
+        "过渡",
+        "打工",
+        "装备消化"
+      ]
+    },
+    {
+      "id": "force-comp",
+      "term": "硬玩",
+      "aliases": [
+        "强玩",
+        "硬冲",
+        "铁头玩"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "资源条件不够契合或已有明显竞争时，仍坚持某个预定阵容方向。",
+      "disambiguation": "带评价色彩，并不意味着任何坚持既定路线都错误。",
+      "exampleQuestion": "独家但装备不合适，也可能是硬玩吗？",
+      "exampleAnswer": "可能；是否硬玩还取决于装备、关键资源和可替代方案。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：独家但装备不合适，也可能是硬玩吗？",
+        "答：可能；是否硬玩还取决于装备、关键资源和可替代方案。"
+      ],
+      "misconceptions": [
+        "带评价色彩，并不意味着任何坚持既定路线都错误。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "hold-units",
+      "term": "留牌",
+      "aliases": [
+        "捏牌",
+        "留卡"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "暂时保留弈子，供后续合星、转型、补羁绊或其他规划使用。",
+      "disambiguation": "留牌会占金币和格子，术语本身不表示应无限保留。",
+      "exampleQuestion": "留牌就是卡别人牌吗？",
+      "exampleAnswer": "不一定；多数留牌是为了自己的后续选择，卡牌则强调限制对手。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：留牌就是卡别人牌吗？",
+        "答：不一定；多数留牌是为了自己的后续选择，卡牌则强调限制对手。"
+      ],
+      "misconceptions": [
+        "留牌会占金币和格子，术语本身不表示应无限保留。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "spend-start",
+      "term": "启动（运营投入）",
+      "aliases": [
+        "开D",
+        "启动搜牌",
+        "启动"
+      ],
+      "category": "搜牌与来牌",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "从积累资源阶段转入集中升级、搜牌和调整阵容的阶段。",
+      "disambiguation": "“启动”也用于技能、装备或羁绊效果，需根据金币、回合等上下文区分。",
+      "exampleQuestion": "他说下回合启动，是某个英雄放技能吗？",
+      "exampleAnswer": "运营语境通常指开始集中花钱补强；战斗语境才可能指英雄进入输出状态。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：他说下回合启动，是某个英雄放技能吗？",
+        "答：运营语境通常指开始集中花钱补强；战斗语境才可能指英雄进入输出状态。"
+      ],
+      "misconceptions": [
+        "“启动”也用于技能、装备或羁绊效果，需根据金币、回合等上下文区分。"
+      ],
+      "relatedTerms": [
+        "启动（战斗状态）"
+      ]
+    },
+    {
+      "id": "first-place",
+      "term": "吃鸡",
+      "aliases": [
+        "恰鸡",
+        "吃了",
+        "登顶"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在一整局对局中取得第一名。",
+      "disambiguation": "多人合作或特殊模式应按其最终胜负单位理解，不能直接套用单人排名。",
+      "exampleQuestion": "赢下这一个回合就算吃鸡吗？",
+      "exampleAnswer": "通常不算；吃鸡指整局第一，单个回合获胜只是赢了一轮。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.18183.com/yundingzhiyi/201911/2505280.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：赢下这一个回合就算吃鸡吗？",
+        "答：通常不算；吃鸡指整局第一，单个回合获胜只是赢了一轮。"
+      ],
+      "misconceptions": [
+        "多人合作或特殊模式应按其最终胜负单位理解，不能直接套用单人排名。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "gain-lp",
+      "term": "吃分",
+      "aliases": [
+        "有分",
+        "进前四"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在常见单人排位语境中，取得能获得段位积分的较好名次，通常指前四。",
+      "disambiguation": "积分、赛制和模式可能不同；比赛积分不能直接用排位的前四口径替代。",
+      "exampleQuestion": "吃分一定要第一吗？",
+      "exampleAnswer": "不必；单人排位里前几名的加分结果都常被称为吃分。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：吃分一定要第一吗？",
+        "答：不必；单人排位里前几名的加分结果都常被称为吃分。"
+      ],
+      "misconceptions": [
+        "积分、赛制和模式可能不同；比赛积分不能直接用排位的前四口径替代。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "protect-lp",
+      "term": "保分",
+      "aliases": [
+        "求保分"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "优先争取更稳的最终名次、减少积分损失，而不把第一名作为唯一目标。",
+      "disambiguation": "是策略目标，不保证加分，也不等同于某种段位保护机制。",
+      "exampleQuestion": "保分是不是一定要进前四？",
+      "exampleAnswer": "不一定；劣势局把名次往前抬、少掉一些分，也可能是在保分。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：保分是不是一定要进前四？",
+        "答：不一定；劣势局把名次往前抬、少掉一些分，也可能是在保分。"
+      ],
+      "misconceptions": [
+        "是策略目标，不保证加分，也不等同于某种段位保护机制。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "modest-lp",
+      "term": "烂分",
+      "aliases": [
+        "恰烂分",
+        "吃烂分"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "对较小或较保守的积分收益的调侃，常指未争第一但拿到尚可名次。",
+      "disambiguation": "主观语气较强，有时是自嘲，不宜当作官方成绩分类。",
+      "exampleQuestion": "烂分是不是固定指第四名？",
+      "exampleAnswer": "不是固定名次；常在保守拿分或放弃争冠的语境出现。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：烂分是不是固定指第四名？",
+        "答：不是固定名次；常在保守拿分或放弃争冠的语境出现。"
+      ],
+      "misconceptions": [
+        "主观语气较强，有时是自嘲，不宜当作官方成绩分类。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "outlast",
+      "term": "苟分",
+      "aliases": [
+        "苟名次",
+        "苟住"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "尽量延长存活、等待其他玩家先出局，以争取更好的最终名次。",
+      "disambiguation": "与保分目标相关，但更强调延长生存的方式；不保证最终加分。",
+      "exampleQuestion": "苟分就是一直不花钱吗？",
+      "exampleAnswer": "不是；为了多活一轮，反而可能需要立即花钱补强。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：苟分就是一直不花钱吗？",
+        "答：不是；为了多活一轮，反而可能需要立即花钱补强。"
+      ],
+      "misconceptions": [
+        "与保分目标相关，但更强调延长生存的方式；不保证最终加分。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "eighth-place",
+      "term": "老八",
+      "aliases": [
+        "第八走了",
+        "八了"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在常见八人单人对局中以第八名出局，或对这种结果的调侃称呼。",
+      "disambiguation": "要结合模式人数；不要把“八级”“八人口”自动解释成第八名。",
+      "exampleQuestion": "升到八级为什么还说老八？",
+      "exampleAnswer": "八级是等级，老八通常说的是最终第八名，两者可以同时发生。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：升到八级为什么还说老八？",
+        "答：八级是等级，老八通常说的是最终第八名，两者可以同时发生。"
+      ],
+      "misconceptions": [
+        "要结合模式人数；不要把“八级”“八人口”自动解释成第八名。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "fast-eighth",
+      "term": "速八（第八出局）",
+      "aliases": [
+        "速八",
+        "速8",
+        "快速老八",
+        "速八出局"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "对很快以第八名被淘汰的调侃。",
+      "disambiguation": "与“速八（升八级）”同形异义，必须结合“出局、老八、升级”等词判断。",
+      "exampleQuestion": "这把又速八了，是已经升到八级了吗？",
+      "exampleAnswer": "若在抱怨出局结果，通常指很快拿了第八；运营攻略里的速八则常指升八级。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://forum.gamer.com.tw/C.php?bsn=17532&gothis=5989209&page=1&snA=681170"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：这把又速八了，是已经升到八级了吗？",
+        "答：若在抱怨出局结果，通常指很快拿了第八；运营攻略里的速八则常指升八级。"
+      ],
+      "misconceptions": [
+        "与“速八（升八级）”同形异义，必须结合“出局、老八、升级”等词判断。"
+      ],
+      "relatedTerms": [
+        "速八（升八级）"
+      ]
+    },
+    {
+      "id": "eliminate",
+      "term": "抬走",
+      "aliases": [
+        "送走",
+        "出门",
+        "被抬"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通过战斗让某位玩家血量归零并被淘汰，或描述自己遭遇该结果。",
+      "disambiguation": "也可泛指明显击败，但对局解说中常带淘汰含义。",
+      "exampleQuestion": "抬走一个人一定是自己吃鸡吗？",
+      "exampleAnswer": "不是；只是淘汰了一位玩家，场上可能还有其他对手。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：抬走一个人一定是自己吃鸡吗？",
+        "答：不是；只是淘汰了一位玩家，场上可能还有其他对手。"
+      ],
+      "misconceptions": [
+        "也可泛指明显击败，但对局解说中常带淘汰含义。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "heavy-loss",
+      "term": "血入",
+      "aliases": [
+        "大入",
+        "掉大血",
+        "被血入"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "一回合战败损失较多生命值，常伴随对方有较多单位存活。",
+      "disambiguation": "没有跨阶段通用的固定扣血门槛。",
+      "exampleQuestion": "被血入是不是对面所有单位都活着？",
+      "exampleAnswer": "不一定；只要掉血很多就可能这样说，所有单位都活着更接近满入。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/201908/1217271.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：被血入是不是对面所有单位都活着？",
+        "答：不一定；只要掉血很多就可能这样说，所有单位都活着更接近满入。"
+      ],
+      "misconceptions": [
+        "没有跨阶段通用的固定扣血门槛。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "flawless-loss",
+      "term": "满入",
+      "aliases": [
+        "被满入"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "战败时对方上场单位几乎或全部存活，用来形容未能有效换掉对手单位。",
+      "disambiguation": "不同玩家会把接近全员存活也叫满入；不是精确伤害公式。",
+      "exampleQuestion": "满入和血入有什么区别？",
+      "exampleAnswer": "满入强调对方存活单位多到接近完整；血入强调自己掉血多。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202108/1412560.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：满入和血入有什么区别？",
+        "答：满入强调对方存活单位多到接近完整；血入强调自己掉血多。"
+      ],
+      "misconceptions": [
+        "不同玩家会把接近全员存活也叫满入；不是精确伤害公式。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "small-loss",
+      "term": "小入",
+      "aliases": [
+        "小掉血",
+        "小败"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "战败但生命值损失较少，通常说明消灭了不少对方单位。",
+      "disambiguation": "相对概念，没有所有阶段通用的血量阈值。",
+      "exampleQuestion": "小入就表示这波打得好吗？",
+      "exampleAnswer": "只能说明损失较小；是否符合计划，还要看资源投入和当时目标。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202105/1387550.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：小入就表示这波打得好吗？",
+        "答：只能说明损失较小；是否符合计划，还要看资源投入和当时目标。"
+      ],
+      "misconceptions": [
+        "相对概念，没有所有阶段通用的血量阈值。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "comeback-climb",
+      "term": "北伐",
+      "aliases": [
+        "开始北伐",
+        "一路北伐"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "从低血量或落后名次开始连续获胜、排名回升，向前列乃至第一名冲击。",
+      "disambiguation": "游戏内的比喻用法，不是固定机制或保证翻盘的运营套路。",
+      "exampleQuestion": "北伐一定要最后吃鸡吗？",
+      "exampleAnswer": "不一定；它描述逆势向前的过程，也可能中途结束。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：北伐一定要最后吃鸡吗？",
+        "答：不一定；它描述逆势向前的过程，也可能中途结束。"
+      ],
+      "misconceptions": [
+        "游戏内的比喻用法，不是固定机制或保证翻盘的运营套路。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "final-survivors",
+      "term": "决赛圈",
+      "aliases": [
+        "进决赛"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "整局后段只剩少数玩家争夺最终名次的阶段，常指剩两至三人时。",
+      "disambiguation": "不是严格统一的官方阶段，也不要与赛事决赛混淆。",
+      "exampleQuestion": "进决赛圈是不是已经第二名？",
+      "exampleAnswer": "未必；有些人剩三人就这样说，需要看实际存活人数。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：进决赛圈是不是已经第二名？",
+        "答：未必；有些人剩三人就这样说，需要看实际存活人数。"
+      ],
+      "misconceptions": [
+        "不是严格统一的官方阶段，也不要与赛事决赛混淆。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "gold-coffin",
+      "term": "水晶棺材",
+      "aliases": [
+        "金棺材",
+        "金丝楠木棺材",
+        "皇陵"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "被淘汰时仍留着较多未用金币，用来调侃资源没来得及转化成战力。",
+      "disambiguation": "不同名称的具体金币门槛不统一，不应固定成某个数值。",
+      "exampleQuestion": "带很多钱出局为什么叫棺材？",
+      "exampleAnswer": "是在调侃钱还在、人已出局；复盘时需要看是否存在可行的提前补强。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/201907/1202294.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：带很多钱出局为什么叫棺材？",
+        "答：是在调侃钱还在、人已出局；复盘时需要看是否存在可行的提前补强。"
+      ],
+      "misconceptions": [
+        "不同名称的具体金币门槛不统一，不应固定成某个数值。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "comeback",
+      "term": "翻盘",
+      "aliases": [
+        "逆转"
+      ],
+      "category": "对局结果",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "从明显劣势中改善局势，最终取得原先不被看好的胜利或更好结果。",
+      "disambiguation": "可能指单轮战斗逆转，也可能指整局逆转，应明确层级。",
+      "exampleQuestion": "残血赢一波就是翻盘吗？",
+      "exampleAnswer": "通常只能说开始扭转局势；是否完成翻盘要看所指回合还是整局。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：残血赢一波就是翻盘吗？",
+        "答：通常只能说开始扭转局势；是否完成翻盘要看所指回合还是整局。"
+      ],
+      "misconceptions": [
+        "可能指单轮战斗逆转，也可能指整局逆转，应明确层级。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "primary-carry",
+      "term": "主C",
+      "aliases": [
+        "主c",
+        "主核",
+        "核心输出",
+        "主力输出"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "阵容中被重点培养、承担主要输出任务的弈子。",
+      "disambiguation": "C是输出核心的玩家简称，不等于所有高费卡，也不等于特定英雄。",
+      "exampleQuestion": "主C每个回合都必须打最多伤害吗？",
+      "exampleAnswer": "不必；这是资源分配和阵容定位，不保证每次结算伤害都最高。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.bilibili.com/video/BV1JeuSz1EMK/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：主C每个回合都必须打最多伤害吗？",
+        "答：不必；这是资源分配和阵容定位，不保证每次结算伤害都最高。"
+      ],
+      "misconceptions": [
+        "C是输出核心的玩家简称，不等于所有高费卡，也不等于特定英雄。"
+      ],
+      "relatedTerms": [
+        "副C",
+        "主坦",
+        "神装"
+      ]
+    },
+    {
+      "id": "secondary-carry",
+      "term": "副C",
+      "aliases": [
+        "副c",
+        "次要输出",
+        "副输出"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在主要输出核心之外，承担补充伤害或另一类输出任务的弈子。",
+      "disambiguation": "副C是相对定位，不表示其伤害必然低或装备优先级永远靠后。",
+      "exampleQuestion": "副C只能捡剩下的装备吗？",
+      "exampleAnswer": "不一定；有些阵容会为副C专门准备资源。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.bilibili.com/video/BV1JeuSz1EMK/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：副C只能捡剩下的装备吗？",
+        "答：不一定；有些阵容会为副C专门准备资源。"
+      ],
+      "misconceptions": [
+        "副C是相对定位，不表示其伤害必然低或装备优先级永远靠后。"
+      ],
+      "relatedTerms": [
+        "主C",
+        "装备消化"
+      ]
+    },
+    {
+      "id": "dual-carry",
+      "term": "双C",
+      "aliases": [
+        "双核",
+        "双输出核心"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "由两个主要输出点共同承担阵容输出，而非只依赖一个核心。",
+      "disambiguation": "不代表两者资源绝对平均，也不是官方固定羁绊。",
+      "exampleQuestion": "双C必须一物理一法术吗？",
+      "exampleAnswer": "不必；可以是同类伤害，也可以分别处理不同目标。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202105/1387550.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：双C必须一物理一法术吗？",
+        "答：不必；可以是同类伤害，也可以分别处理不同目标。"
+      ],
+      "misconceptions": [
+        "不代表两者资源绝对平均，也不是官方固定羁绊。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "main-tank",
+      "term": "主T",
+      "aliases": [
+        "主t",
+        "主坦",
+        "主坦克",
+        "核心前排"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "阵容中主要承担伤害、保护输出空间，并被重点配置防御资源的单位。",
+      "disambiguation": "T是坦克定位简称，不能按英雄原本在其他模式的职业直接判定。",
+      "exampleQuestion": "主T就是站第一排的任意棋子吗？",
+      "exampleAnswer": "不是；前排可能有多个，主T强调主要承伤职责与资源倾斜。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.bilibili.com/video/BV1JeuSz1EMK/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：主T就是站第一排的任意棋子吗？",
+        "答：不是；前排可能有多个，主T强调主要承伤职责与资源倾斜。"
+      ],
+      "misconceptions": [
+        "T是坦克定位简称，不能按英雄原本在其他模式的职业直接判定。"
+      ],
+      "relatedTerms": [
+        "前排",
+        "主C",
+        "锁血"
+      ]
+    },
+    {
+      "id": "frontline",
+      "term": "前排",
+      "aliases": [
+        "前排单位",
+        "肉盾"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通常布置在靠近敌人的位置，承担承伤、控制或近战任务的单位群。",
+      "disambiguation": "既可指棋盘位置，也可指承伤职责，具体站位需结合技能。",
+      "exampleQuestion": "前排一定都是纯坦克吗？",
+      "exampleAnswer": "不是；近战输出或控制单位也可能站在前排。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：前排一定都是纯坦克吗？",
+        "答：不是；近战输出或控制单位也可能站在前排。"
+      ],
+      "misconceptions": [
+        "既可指棋盘位置，也可指承伤职责，具体站位需结合技能。"
+      ],
+      "relatedTerms": [
+        "主坦",
+        "后排",
+        "站位"
+      ]
+    },
+    {
+      "id": "backline",
+      "term": "后排",
+      "aliases": [
+        "后排单位"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通常在靠后位置争取安全输出或提供支援的单位群。",
+      "disambiguation": "位置标签不等于英雄职业；有时也泛指需要保护的脆弱单位。",
+      "exampleQuestion": "后排就一定是主C吗？",
+      "exampleAnswer": "不是；辅助、控制或功能单位也可能放在后排。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：后排就一定是主C吗？",
+        "答：不是；辅助、控制或功能单位也可能放在后排。"
+      ],
+      "misconceptions": [
+        "位置标签不等于英雄职业；有时也泛指需要保护的脆弱单位。"
+      ],
+      "relatedTerms": [
+        "前排",
+        "主C",
+        "站位"
+      ]
+    },
+    {
+      "id": "trait-filler",
+      "term": "挂件",
+      "aliases": [
+        "羁绊挂件",
+        "功能挂件"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "主要为核心阵容补羁绊、控制或其他功能，通常不优先占用主要输出资源的弈子。",
+      "disambiguation": "不要据此认定可随意删掉；部分挂件是维持结构必需的。",
+      "exampleQuestion": "挂件是不是完全没用？",
+      "exampleAnswer": "不是；它可能用较少资源提供阵容需要的关键功能。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://ol.3dmgame.com/gl/225417.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：挂件是不是完全没用？",
+        "答：不是；它可能用较少资源提供阵容需要的关键功能。"
+      ],
+      "misconceptions": [
+        "不要据此认定可随意删掉；部分挂件是维持结构必需的。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "standalone-unit",
+      "term": "单挂",
+      "aliases": [
+        "单挂卡",
+        "单挂五费"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "不围绕某张单位另组完整配套，主要凭其单卡能力把它加入阵容。",
+      "disambiguation": "与挂件有交集但不同：强力核心也可能作为单挂单位加入。",
+      "exampleQuestion": "单挂是不是必须没有任何已激活羁绊？",
+      "exampleAnswer": "不是；它可以顺带吃到羁绊，重点是上场价值不完全依赖专门组队。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://ol.3dmgame.com/gl/225417.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：单挂是不是必须没有任何已激活羁绊？",
+        "答：不是；它可以顺带吃到羁绊，重点是上场价值不完全依赖专门组队。"
+      ],
+      "misconceptions": [
+        "与挂件有交集但不同：强力核心也可能作为单挂单位加入。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "item-holder",
+      "term": "打工仔",
+      "aliases": [
+        "打工牌",
+        "打工棋子",
+        "过渡牌",
+        "打工",
+        "打工卡"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在最终核心到位前暂时承担输出、承伤或携带装备任务的弈子。",
+      "disambiguation": "日常多指单位；少数旧资料也用来调侃替争冠者淘汰他人的玩家。",
+      "exampleQuestion": "两星打工仔一定要立即换成一星核心吗？",
+      "exampleAnswer": "不一定；需比较替换后的整体战力，打工身份不代表当下更弱。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/201907/1200560_2.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：两星打工仔一定要立即换成一星核心吗？",
+        "答：不一定；需比较替换后的整体战力，打工身份不代表当下更弱。"
+      ],
+      "misconceptions": [
+        "日常多指单位；少数旧资料也用来调侃替争冠者淘汰他人的玩家。"
+      ],
+      "relatedTerms": [
+        "过渡",
+        "主C",
+        "转型"
+      ]
+    },
+    {
+      "id": "synergy-unit",
+      "term": "体系牌",
+      "aliases": [
+        "体系卡"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "属于计划中阵容结构、用于完成核心羁绊或关键配合的弈子。",
+      "disambiguation": "与打工牌的区别在于是否计划保留进目标阵容，但计划可以变化。",
+      "exampleQuestion": "体系牌是不是每一张都必须追三星？",
+      "exampleAnswer": "不是；属于体系只说明它在结构里有作用，培养程度另行判断。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：体系牌是不是每一张都必须追三星？",
+        "答：不是；属于体系只说明它在结构里有作用，培养程度另行判断。"
+      ],
+      "misconceptions": [
+        "与打工牌的区别在于是否计划保留进目标阵容，但计划可以变化。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "mixed-synergies",
+      "term": "拼多多",
+      "aliases": [
+        "多拼",
+        "拼羁绊",
+        "拼多多阵容"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "组合多个小羁绊与功能单位，依靠相互配合形成强度的阵容思路。",
+      "disambiguation": "玩家对混合构筑的俗称，不指购物平台；具体配方随赛季变化。",
+      "exampleQuestion": "拼多多是不是随便凑几张贵的牌？",
+      "exampleAnswer": "不是；通常仍有明确核心与功能搭配，只是不单押一个大羁绊。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://gl.ali213.net/html/2020-7/454099.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：拼多多是不是随便凑几张贵的牌？",
+        "答：不是；通常仍有明确核心与功能搭配，只是不单押一个大羁绊。"
+      ],
+      "misconceptions": [
+        "玩家对混合构筑的俗称，不指购物平台；具体配方随赛季变化。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "legendary-board",
+      "term": "九五",
+      "aliases": [
+        "95",
+        "九五至尊",
+        "95至尊"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "以较高等级、通常九级为基础，用多个五费强力单位构建后期阵容的俗称。",
+      "disambiguation": "是跨赛季构筑思路，不是固定名单，也不保证当前版本存在同样的强度。",
+      "exampleQuestion": "九五必须九个位置全是五费吗？",
+      "exampleAnswer": "通常不必；会保留能补羁绊、承伤或提供其他关键功能的单位。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.gamersky.com/handbook/202105/1387550.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：九五必须九个位置全是五费吗？",
+        "答：通常不必；会保留能补羁绊、承伤或提供其他关键功能的单位。"
+      ],
+      "misconceptions": [
+        "是跨赛季构筑思路，不是固定名单，也不保证当前版本存在同样的强度。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "board-quality",
+      "term": "质量",
+      "aliases": [
+        "牌面质量",
+        "阵容质量"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "评价现有弈子星级、关键牌到位程度和有效配合的口语，常特别强调星级。",
+      "disambiguation": "不同作者口径有宽窄；不能简单按费用总和或星级数换算成固定战力。",
+      "exampleQuestion": "人口高就等于质量高吗？",
+      "exampleAnswer": "不一定；较多一星单位也可能打不过星级和配合更完整的阵容。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：人口高就等于质量高吗？",
+        "答：不一定；较多一星单位也可能打不过星级和配合更完整的阵容。"
+      ],
+      "misconceptions": [
+        "不同作者口径有宽窄；不能简单按费用总和或星级数换算成固定战力。"
+      ],
+      "relatedTerms": [
+        "追二",
+        "成型",
+        "战力"
+      ]
+    },
+    {
+      "id": "improve-quality",
+      "term": "提质量",
+      "aliases": [
+        "补质量",
+        "提升质量"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通过关键合星、补齐核心或更换有效单位，增强场面实际战斗能力。",
+      "disambiguation": "具体是否包含合装备因语境而异；不要直接等同于升等级。",
+      "exampleQuestion": "提质量只能靠搜牌吗？",
+      "exampleAnswer": "不是；搜牌是常见途径，合适的替换与配合也能补强。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://m.hupu.com/bbs/628294911.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：提质量只能靠搜牌吗？",
+        "答：不是；搜牌是常见途径，合适的替换与配合也能补强。"
+      ],
+      "misconceptions": [
+        "具体是否包含合装备因语境而异；不要直接等同于升等级。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "complete-board",
+      "term": "成型",
+      "aliases": [
+        "小成",
+        "阵容成型"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "关键输出、承伤与主要配合基本到位，阵容已能按预期方式运转。",
+      "disambiguation": "“小成”通常表示初步可用，边界是玩家评价，并非系统提示。",
+      "exampleQuestion": "成型等于全部牌都三星吗？",
+      "exampleAnswer": "不是；核心结构到位就可能称成型，星级要求由阵容与局势决定。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：成型等于全部牌都三星吗？",
+        "答：不是；核心结构到位就可能称成型，星级要求由阵容与局势决定。"
+      ],
+      "misconceptions": [
+        "“小成”通常表示初步可用，边界是玩家评价，并非系统提示。"
+      ],
+      "relatedTerms": [
+        "主C",
+        "主坦",
+        "过渡"
+      ]
+    },
+    {
+      "id": "maxed-board",
+      "term": "大成",
+      "aliases": [
+        "完全体",
+        "最终形态"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "阵容的重要等级、星级、装备与配合已接近计划中的完善状态。",
+      "disambiguation": "没有所有阵容共用的大成清单，也不代表理论上再无提升。",
+      "exampleQuestion": "大成是不是必定第一？",
+      "exampleAnswer": "不是；仍受对手强度、克制、站位及随机战斗结果影响。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：大成是不是必定第一？",
+        "答：不是；仍受对手强度、克制、站位及随机战斗结果影响。"
+      ],
+      "misconceptions": [
+        "没有所有阵容共用的大成清单，也不代表理论上再无提升。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "ceiling",
+      "term": "上限",
+      "aliases": [
+        "阵容上限",
+        "抬上限"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "阵容在资源更充分、配置更完善后，有望达到的更高强度或成绩空间。",
+      "disambiguation": "通常是相对评价，不是数学上严格保证的最高战力。",
+      "exampleQuestion": "上限高就一定适合当前这局吗？",
+      "exampleAnswer": "不一定；还要考虑当前能否活到成型以及需要投入多少资源。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：上限高就一定适合当前这局吗？",
+        "答：不一定；还要考虑当前能否活到成型以及需要投入多少资源。"
+      ],
+      "misconceptions": [
+        "通常是相对评价，不是数学上严格保证的最高战力。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "floor",
+      "term": "下限",
+      "aliases": [
+        "阵容下限",
+        "保下限"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在普通或不理想资源条件下，阵容仍能维持的基本强度或成绩稳定性。",
+      "disambiguation": "不能将下限高解释为任何局面都至少取得某名次。",
+      "exampleQuestion": "下限高是不是保证吃分？",
+      "exampleAnswer": "不是；它只是相对更稳的评价，极端不顺或对手太强仍可能失利。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：下限高是不是保证吃分？",
+        "答：不是；它只是相对更稳的评价，极端不顺或对手太强仍可能失利。"
+      ],
+      "misconceptions": [
+        "不能将下限高解释为任何局面都至少取得某名次。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "activate-trait",
+      "term": "补羁绊",
+      "aliases": [
+        "开羁绊",
+        "凑羁绊"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "加入或替换单位等，使目标羁绊达到一个可生效或更高的档位。",
+      "disambiguation": "重复单位、转职和特殊效果可能影响计数，应核对当局说明。",
+      "exampleQuestion": "多上一个同羁绊单位一定叫补出羁绊吗？",
+      "exampleAnswer": "未必；需要确认是否达到有效档位，以及是否满足该羁绊的计数规则。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：多上一个同羁绊单位一定叫补出羁绊吗？",
+        "答：未必；需要确认是否达到有效档位，以及是否满足该羁绊的计数规则。"
+      ],
+      "misconceptions": [
+        "重复单位、转职和特殊效果可能影响计数，应核对当局说明。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "splash-module",
+      "term": "外挂（阵容模块）",
+      "aliases": [
+        "外挂",
+        "外挂体系",
+        "外挂单卡"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在主体阵容之外附加少量单位或小体系，用来提供额外输出、控制或功能。",
+      "disambiguation": "“外挂”也指作弊软件；需看是否出现阵容、羁绊、单卡等语境。",
+      "exampleQuestion": "攻略说外挂控制，是指作弊工具吗？",
+      "exampleAnswer": "在构筑语境里通常指额外加入控制单位，与作弊软件无关。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：攻略说外挂控制，是指作弊工具吗？",
+        "答：在构筑语境里通常指额外加入控制单位，与作弊软件无关。"
+      ],
+      "misconceptions": [
+        "“外挂”也指作弊软件；需看是否出现阵容、羁绊、单卡等语境。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "transition",
+      "term": "过渡",
+      "aliases": [
+        "打工过渡",
+        "过渡阵容"
+      ],
+      "category": "阵容结构",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在目标阵容尚未凑齐时，用现有可用单位与配合撑过阶段的过程。",
+      "disambiguation": "过渡是阶段用途；如果局势变化，原过渡牌也可能保留到最后。",
+      "exampleQuestion": "过渡阵容需要跟最终阵容完全同羁绊吗？",
+      "exampleAnswer": "不必；能承接现有资源并帮助维持局面，也可以用于过渡。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://ol.3dmgame.com/gl/225417.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：过渡阵容需要跟最终阵容完全同羁绊吗？",
+        "答：不必；能承接现有资源并帮助维持局面，也可以用于过渡。"
+      ],
+      "misconceptions": [
+        "过渡是阶段用途；如果局势变化，原过渡牌也可能保留到最后。"
+      ],
+      "relatedTerms": [
+        "打工",
+        "成型",
+        "转型"
+      ]
+    },
+    {
+      "id": "rageblade",
+      "term": "羊刀",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "在云顶出装语境中通常指鬼索的狂暴之刃，玩家常用它讨论战斗中逐步提高攻速的装备。",
+      "disambiguation": "同一外号跨版本沿用，不能据此断言按普攻叠层或数值不变；2025年官方公告记载过叠加方式重做。",
+      "exampleQuestion": "羊刀是不是越打越快？",
+      "exampleAnswer": "通常是在说鬼索的狂暴之刃的攻速成长；具体如何叠加，要看你玩的版本。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://gl.ali213.net/html/2019-7/350985_4.html",
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-14-5-notes-2025/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：羊刀是不是越打越快？",
+        "答：通常是在说鬼索的狂暴之刃的攻速成长；具体如何叠加，要看你玩的版本。"
+      ],
+      "misconceptions": [
+        "同一外号跨版本沿用，不能据此断言按普攻叠层或数值不变；2025年官方公告记载过叠加方式重做。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "shojin",
+      "term": "青龙刀",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常指朔极之矛，是讨论法力获取与施法频率时常见的装备外号。",
+      "disambiguation": "外号不保证名称、配方和回蓝机制跨版本相同；不要套用英雄联盟峡谷装备效果。",
+      "exampleQuestion": "青龙刀和蓝buff是一个东西吗？",
+      "exampleAnswer": "不是同一件装备。青龙刀通常指朔极之矛；二者的回蓝方式应按对应版本分别看。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.18183.com/yundingzhiyi/201912/2520057.html",
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-12-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：青龙刀和蓝buff是一个东西吗？",
+        "答：不是同一件装备。青龙刀通常指朔极之矛；二者的回蓝方式应按对应版本分别看。"
+      ],
+      "misconceptions": [
+        "外号不保证名称、配方和回蓝机制跨版本相同；不要套用英雄联盟峡谷装备效果。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "bloodthirster",
+      "term": "饮血",
+      "aliases": [
+        "饮血剑"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "玩家对饮血剑或该版本对应吸血生存装备的简称，常见于近战输出的续航讨论。",
+      "disambiguation": "不同游戏或本地化可能使用汲取剑等名称，不能自动视为当前云顶同名同效果；也不是泛指所有治疗。",
+      "exampleQuestion": "给他一把饮血是什么意思？",
+      "exampleAnswer": "通常是给他饮血剑这一类对应装备，用来补自身续航；请先核对当前装备名称和效果。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://www.gamersky.com/handbook/202104/1383598_2.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：给他一把饮血是什么意思？",
+        "答：通常是给他饮血剑这一类对应装备，用来补自身续航；请先核对当前装备名称和效果。"
+      ],
+      "misconceptions": [
+        "不同游戏或本地化可能使用汲取剑等名称，不能自动视为当前云顶同名同效果；也不是泛指所有治疗。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "infinity-edge",
+      "term": "无尽",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "一般是无尽之刃的简称，出装讨论中通常涉及暴击相关收益。",
+      "disambiguation": "不能由外号推出技能必然无法暴击、暴击必然溢出或固定的无尽加法爆组合。",
+      "exampleQuestion": "他说无尽必备，是不是所有输出都要出？",
+      "exampleAnswer": "无尽一般指无尽之刃；是否需要取决于技能、已有暴击来源和当局版本。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-12-23-notes/",
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：他说无尽必备，是不是所有输出都要出？",
+        "答：无尽一般指无尽之刃；是否需要取决于技能、已有暴击来源和当局版本。"
+      ],
+      "misconceptions": [
+        "不能由外号推出技能必然无法暴击、暴击必然溢出或固定的无尽加法爆组合。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "jeweled-gauntlet",
+      "term": "法爆",
+      "aliases": [
+        "法爆拳",
+        "法爆手套"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "出装语境通常指珠光护手；描述伤害时也可能只是指技能发生暴击。",
+      "disambiguation": "并非所有带有法术暴击效果的强化或技能都叫珠光护手；与无尽的关系随版本变化。",
+      "exampleQuestion": "这张卡自带法爆，还要法爆吗？",
+      "exampleAnswer": "前一个法爆可能指技能自带暴击能力，后一个通常指珠光护手；先分清效果与装备再判断。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-12-23-notes/",
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：这张卡自带法爆，还要法爆吗？",
+        "答：前一个法爆可能指技能自带暴击能力，后一个通常指珠光护手；先分清效果与装备再判断。"
+      ],
+      "misconceptions": [
+        "并非所有带有法术暴击效果的强化或技能都叫珠光护手；与无尽的关系随版本变化。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "hand-of-justice",
+      "term": "正义",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "装备讨论中通常是正义之手的简称，常被归入输出兼续航的出装选项。",
+      "disambiguation": "单说正义也可能是强化、英雄称号或一般用语；不要把多版本效果混用。",
+      "exampleQuestion": "正义能代替饮血吗？",
+      "exampleAnswer": "这里的正义通常是正义之手；能否替代要比较该版本的续航、生存和伤害需求。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-12-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：正义能代替饮血吗？",
+        "答：这里的正义通常是正义之手；能否替代要比较该版本的续航、生存和伤害需求。"
+      ],
+      "misconceptions": [
+        "单说正义也可能是强化、英雄称号或一般用语；不要把多版本效果混用。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "blue-buff",
+      "term": "蓝buff",
+      "aliases": [
+        "蓝BUFF",
+        "蓝Buff",
+        "蓝霸符",
+        "蓝霸服"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶装备语境中常指以蓝霸符等名称出现的法力相关装备。",
+      "disambiguation": "有时泛指回蓝能力；不同赛季蓝buff效果多次改变，不可默认施法后固定回蓝。",
+      "exampleQuestion": "我蓝buff已经有了，还需要青龙刀吗？",
+      "exampleAnswer": "先核对该版本蓝buff的效果和英雄施法机制，再决定是否需要第二件法力装备。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：我蓝buff已经有了，还需要青龙刀吗？",
+        "答：先核对该版本蓝buff的效果和英雄施法机制，再决定是否需要第二件法力装备。"
+      ],
+      "misconceptions": [
+        "有时泛指回蓝能力；不同赛季蓝buff效果多次改变，不可默认施法后固定回蓝。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "red-buff",
+      "term": "红buff",
+      "aliases": [
+        "红BUFF",
+        "红Buff",
+        "红霸符",
+        "红霸服"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶装备语境中通常指以红霸符等名称出现、与燃烧或重伤等效果有关的装备。",
+      "disambiguation": "早期红buff与后来重新推出的版本不是同一套规则；不能默认等同日炎或固定攻击特效。",
+      "exampleQuestion": "红buff和鬼书是不是完全一样？",
+      "exampleAnswer": "不是同一件装备；可能有相近的重伤用途，但基础属性、触发方式和收益要看版本。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：红buff和鬼书是不是完全一样？",
+        "答：不是同一件装备；可能有相近的重伤用途，但基础属性、触发方式和收益要看版本。"
+      ],
+      "misconceptions": [
+        "早期红buff与后来重新推出的版本不是同一套规则；不能默认等同日炎或固定攻击特效。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "deathblade",
+      "term": "杀人剑",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常指死亡之刃，外号承接了玩家对早期击杀成长效果的印象。",
+      "disambiguation": "该叫法在英雄联盟其他模式也有历史所指；先确认是在讨论云顶及哪个赛季。",
+      "exampleQuestion": "杀人剑一定要杀人才能加攻击吗？",
+      "exampleAnswer": "不一定。杀人剑通常指死亡之刃，名字沿用不代表当前效果仍需击杀叠加。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://news.17173.com/content/07242024/133903528.shtml",
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：杀人剑一定要杀人才能加攻击吗？",
+        "答：不一定。杀人剑通常指死亡之刃，名字沿用不代表当前效果仍需击杀叠加。"
+      ],
+      "misconceptions": [
+        "该叫法在英雄联盟其他模式也有历史所指；先确认是在讨论云顶及哪个赛季。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "giant-slayer",
+      "term": "巨杀",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "一般是巨人杀手的简称，常用于讨论对高生命目标的输出装备。",
+      "disambiguation": "对高血量的判定门槛、伤害类型与效果均可能改版。",
+      "exampleQuestion": "巨杀是不是只适合物理C？",
+      "exampleAnswer": "巨杀通常指巨人杀手；适用范围由当版属性和增伤条件决定，不能只凭外号判断。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-12-23-notes/",
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-1-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：巨杀是不是只适合物理C？",
+        "答：巨杀通常指巨人杀手；适用范围由当版属性和增伤条件决定，不能只凭外号判断。"
+      ],
+      "misconceptions": [
+        "对高血量的判定门槛、伤害类型与效果均可能改版。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "bramble",
+      "term": "反甲",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶中通常指荆棘背心；较早资料也可能在说已经被替换的荆棘之甲。",
+      "disambiguation": "荆棘之甲、荆棘背心及其他模式同名装备须区分；2023年官方公告记录过其减伤机制变化。",
+      "exampleQuestion": "反甲是不是一定能反弹所有伤害？",
+      "exampleAnswer": "不是。先确认具体装备和版本，外号不能证明它反弹所有伤害或完全克制暴击。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：反甲是不是一定能反弹所有伤害？",
+        "答：不是。先确认具体装备和版本，外号不能证明它反弹所有伤害或完全克制暴击。"
+      ],
+      "misconceptions": [
+        "荆棘之甲、荆棘背心及其他模式同名装备须区分；2023年官方公告记录过其减伤机制变化。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "dragons-claw",
+      "term": "龙牙",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常是巨龙之爪的外号，出装交流中常作为魔法防御装备被提及。",
+      "disambiguation": "曾有不同阶段的魔抗、回复或额外效果，不要把旧版百分比减伤套入新版。",
+      "exampleQuestion": "龙牙能免疫魔法伤害吗？",
+      "exampleAnswer": "不能从外号得出免疫结论；通常是在说巨龙之爪，具体抗性和其他效果看版本。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：龙牙能免疫魔法伤害吗？",
+        "答：不能从外号得出免疫结论；通常是在说巨龙之爪，具体抗性和其他效果看版本。"
+      ],
+      "misconceptions": [
+        "曾有不同阶段的魔抗、回复或额外效果，不要把旧版百分比减伤套入新版。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "warmogs",
+      "term": "狂徒",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常指狂徒铠甲，是玩家常说的生命值类防装简称。",
+      "disambiguation": "不要把名称相同的其他模式装备效果带入云顶。",
+      "exampleQuestion": "狂徒就是回血装吗？",
+      "exampleAnswer": "这里一般指狂徒铠甲；它在云顶中的效果要按当版说明，不能照搬峡谷中的回复机制。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：狂徒就是回血装吗？",
+        "答：这里一般指狂徒铠甲；它在云顶中的效果要按当版说明，不能照搬峡谷中的回复机制。"
+      ],
+      "misconceptions": [
+        "不要把名称相同的其他模式装备效果带入云顶。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "gargoyle",
+      "term": "石像鬼",
+      "aliases": [
+        "板甲",
+        "石像鬼板甲"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "装备语境常指石像鬼石板甲，通常与前排承伤及双抗收益有关。",
+      "disambiguation": "石像鬼也可能是对英雄加里奥的描述；板甲在其他游戏中不是唯一装备名。",
+      "exampleQuestion": "板甲给谁比较好？",
+      "exampleAnswer": "先确认你说的是石像鬼石板甲；通常评估谁会被更多敌人攻击，再结合当版效果分配。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：板甲给谁比较好？",
+        "答：先确认你说的是石像鬼石板甲；通常评估谁会被更多敌人攻击，再结合当版效果分配。"
+      ],
+      "misconceptions": [
+        "石像鬼也可能是对英雄加里奥的描述；板甲在其他游戏中不是唯一装备名。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "redemption",
+      "term": "救赎",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶中出现过的回复类装备名称，玩家常用来讨论前排持续作战或队伍回复。",
+      "disambiguation": "2025年Riot公告记载其被振奋类新装备替换；不能把新装备当作救赎仅改名，或承诺现赛季可合成。",
+      "exampleQuestion": "旧攻略让我做救赎，怎么找不到？",
+      "exampleAnswer": "你看的可能是旧版本。救赎曾被从常规装备中替换，先确认赛季和模式。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-14-5-notes-2025/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：旧攻略让我做救赎，怎么找不到？",
+        "答：你看的可能是旧版本。救赎曾被从常规装备中替换，先确认赛季和模式。"
+      ],
+      "misconceptions": [
+        "2025年Riot公告记载其被振奋类新装备替换；不能把新装备当作救赎仅改名，或承诺现赛季可合成。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "ionic-spark",
+      "term": "离子",
+      "aliases": [
+        "离子火花"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常指离子火花，常见于近距离削弱敌方魔抗的装备讨论。",
+      "disambiguation": "不能把降魔抗直接等同个人法术穿透；范围与伤害机制需按版本核验。",
+      "exampleQuestion": "离子放后排可以吗？",
+      "exampleAnswer": "先看当版离子的作用范围和持有者站位；如果效果要求敌人在附近，放很远可能覆盖不到。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：离子放后排可以吗？",
+        "答：先看当版离子的作用范围和持有者站位；如果效果要求敌人在附近，放很远可能覆盖不到。"
+      ],
+      "misconceptions": [
+        "不能把降魔抗直接等同个人法术穿透；范围与伤害机制需按版本核验。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "statikk",
+      "term": "电刀",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "一般指斯塔缇克电刃，玩家常按其闪电视觉或效果称呼。",
+      "disambiguation": "名称沿用不保证装备类别、获取方式和削抗能力不变。",
+      "exampleQuestion": "电刀现在还是普通合成装吗？",
+      "exampleAnswer": "要看版本。Riot曾把斯塔缇克电刃移到神器体系，因此旧攻略的合成路线不能直接照用。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-14-5-notes-2025/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：电刀现在还是普通合成装吗？",
+        "答：要看版本。Riot曾把斯塔缇克电刃移到神器体系，因此旧攻略的合成路线不能直接照用。"
+      ],
+      "misconceptions": [
+        "名称沿用不保证装备类别、获取方式和削抗能力不变。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "last-whisper",
+      "term": "轻语",
+      "aliases": [
+        "破甲弓"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "装备语境通常指最后的轻语，玩家常将它作为降低敌方护甲的来源讨论。",
+      "disambiguation": "破甲弓是功能外号，不保证任何具有破甲效果的物品都等于最后的轻语。",
+      "exampleQuestion": "轻语和离子都叫减抗，有什么区别？",
+      "exampleAnswer": "通常轻语对应护甲方向、离子对应魔抗方向；具体触发条件和覆盖范围仍要看版本。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-12-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：轻语和离子都叫减抗，有什么区别？",
+        "答：通常轻语对应护甲方向、离子对应魔抗方向；具体触发条件和覆盖范围仍要看版本。"
+      ],
+      "misconceptions": [
+        "破甲弓是功能外号，不保证任何具有破甲效果的物品都等于最后的轻语。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "quicksilver",
+      "term": "水银",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常指水银这一装备或对应版本的免控装备，常用来讨论输出单位避免控制的问题。",
+      "disambiguation": "不要自动等同峡谷里的水银饰带或手动解控按钮。",
+      "exampleQuestion": "带了水银就全程不会被控吗？",
+      "exampleAnswer": "不能这样默认。免控持续时间、例外和其他效果都需要查看该版本装备说明。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：带了水银就全程不会被控吗？",
+        "答：不能这样默认。免控持续时间、例外和其他效果都需要查看该版本装备说明。"
+      ],
+      "misconceptions": [
+        "不要自动等同峡谷里的水银饰带或手动解控按钮。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "edge-of-night",
+      "term": "夜刃",
+      "aliases": [
+        "夜之锋刃"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "常指夜之锋刃，出装讨论中通常把它看作输出单位的保命选项。",
+      "disambiguation": "不可把不可被选取、解除目标与死亡复活混为一谈。",
+      "exampleQuestion": "夜刃等于复活甲吗？",
+      "exampleAnswer": "两者不能直接等同。夜刃和历史上的守护天使有不同触发逻辑，应分别查版本。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：夜刃等于复活甲吗？",
+        "答：两者不能直接等同。夜刃和历史上的守护天使有不同触发逻辑，应分别查版本。"
+      ],
+      "misconceptions": [
+        "不可把不可被选取、解除目标与死亡复活混为一谈。"
+      ],
+      "relatedTerms": [
+        "复活甲"
+      ]
+    },
+    {
+      "id": "thiefs-gloves",
+      "term": "偷偷",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常是窃贼手套的口语昵称，用于讨论能提供随机装备的手套类装备。",
+      "disambiguation": "不要默认与光明、神器或特殊强化提供的手套完全相同；以具体装备全名和说明确认。",
+      "exampleQuestion": "给副C一个偷偷是什么意思？",
+      "exampleAnswer": "一般是给副C窃贼手套；具体随机装备规则和占用装备格情况看当前说明。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.sohu.com/a/580038916_120973108"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：给副C一个偷偷是什么意思？",
+        "答：一般是给副C窃贼手套；具体随机装备规则和占用装备格情况看当前说明。"
+      ],
+      "misconceptions": [
+        "不要默认与光明、神器或特殊强化提供的手套完全相同；以具体装备全名和说明确认。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "spatula",
+      "term": "金铲铲",
+      "aliases": [
+        "铲子",
+        "金铲子"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "物品语境通常指金铲铲这一特殊组件；游戏名称语境也可能指手游金铲铲之战。",
+      "disambiguation": "不能把云顶端游与金铲铲之战的赛季、配方和独有模式混用；也不是所有纹章都能用铲子合成。",
+      "exampleQuestion": "我缺一把金铲铲，怎么理解？",
+      "exampleAnswer": "在出装或转职讨论里通常是缺金铲铲组件；如果是在说下载或匹配，则可能指手游。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：我缺一把金铲铲，怎么理解？",
+        "答：在出装或转职讨论里通常是缺金铲铲组件；如果是在说下载或匹配，则可能指手游。"
+      ],
+      "misconceptions": [
+        "不能把云顶端游与金铲铲之战的赛季、配方和独有模式混用；也不是所有纹章都能用铲子合成。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "archangels",
+      "term": "大天使",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "出装语境通常指大天使之杖；英雄语境也可能泛指凯尔等带天使形象或称号的单位。",
+      "disambiguation": "装备的成长条件及效果跨版本可变；不能把大天使、历史上的炽天使与凯尔混成同一实体。",
+      "exampleQuestion": "大天使给谁？",
+      "exampleAnswer": "如果是在分装备，通常说的是大天使之杖；如果是在买牌或追星，需要先确认是否指英雄。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-14-5-notes-2025/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：大天使给谁？",
+        "答：如果是在分装备，通常说的是大天使之杖；如果是在买牌或追星，需要先确认是否指英雄。"
+      ],
+      "misconceptions": [
+        "装备的成长条件及效果跨版本可变；不能把大天使、历史上的炽天使与凯尔混成同一实体。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "guardbreaker",
+      "term": "破防",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "装备语境可能是破防者的简称；战斗语境可能是降低防御的泛称，聊天里也可能表示心态受影响。",
+      "disambiguation": "Riot曾记录破防者改名并重做，旧攻略不保证仍以攻击护盾触发；破防也不必然是破甲。",
+      "exampleQuestion": "主C第三件做破防？",
+      "exampleAnswer": "这里很可能在说旧称破防者，但需要赛季或装备截图确认，不能直接给出现版配方。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-14-5-notes-2025/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：主C第三件做破防？",
+        "答：这里很可能在说旧称破防者，但需要赛季或装备截图确认，不能直接给出现版配方。"
+      ],
+      "misconceptions": [
+        "Riot曾记录破防者改名并重做，旧攻略不保证仍以攻击护盾触发；破防也不必然是破甲。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "double-sustain",
+      "term": "双吸",
+      "aliases": [
+        "双吸血"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常指给同一单位配置两项吸血或续航来源，而不是一件固定名字的装备。",
+      "disambiguation": "不应固定解释成饮血加正义；也可能指两件相同续航装，或旧资料中的物理与法术两类吸血。",
+      "exampleQuestion": "双吸是哪两件装备？",
+      "exampleAnswer": "没有唯一组合。请看上下文，是两件续航装，还是装备加技能或强化提供的双重续航。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：双吸是哪两件装备？",
+        "答：没有唯一组合。请看上下文，是两件续航装，还是装备加技能或强化提供的双重续航。"
+      ],
+      "misconceptions": [
+        "不应固定解释成饮血加正义；也可能指两件相同续航装，或旧资料中的物理与法术两类吸血。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "deathcap",
+      "term": "帽子",
+      "aliases": [
+        "大帽"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "装备讨论中通常指灭世者的死亡之帽，是法术输出装备的常见形状外号。",
+      "disambiguation": "不同模式可能有其他帽形装备；数值、增伤及法强收益随版本改变。",
+      "exampleQuestion": "帽子和法爆选哪个？",
+      "exampleAnswer": "先按当前英雄技能和已有增益比较；帽子与法爆是不同装备，不能只凭法系定位选定。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：帽子和法爆选哪个？",
+        "答：先按当前英雄技能和已有增益比较；帽子与法爆是不同装备，不能只凭法系定位选定。"
+      ],
+      "misconceptions": [
+        "不同模式可能有其他帽形装备；数值、增伤及法强收益随版本改变。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "morello",
+      "term": "鬼书",
+      "aliases": [],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常指莫雷洛秘典，玩家常在讨论燃烧、重伤或法系功能装时使用这个外号。",
+      "disambiguation": "其生效方式可能改版，不应永久写成只有技能伤害才能触发。",
+      "exampleQuestion": "有鬼书就不用重伤了吗？",
+      "exampleAnswer": "先确认该版本鬼书是否提供重伤，以及能否覆盖主要目标；装备名称本身不能保证覆盖全场。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：有鬼书就不用重伤了吗？",
+        "答：先确认该版本鬼书是否提供重伤，以及能否覆盖主要目标；装备名称本身不能保证覆盖全场。"
+      ],
+      "misconceptions": [
+        "其生效方式可能改版，不应永久写成只有技能伤害才能触发。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "gunblade",
+      "term": "科技枪",
+      "aliases": [
+        "吸血枪"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常指海克斯科技枪刃，出装讨论中常涉及输出与治疗的结合。",
+      "disambiguation": "不要把所有吸血装备统称科技枪，也不要把历史上治疗自己或队友的规则写死。",
+      "exampleQuestion": "科技枪和饮血有什么区别？",
+      "exampleAnswer": "它们是不同装备；治疗对象、触发伤害与其他属性要按当版分别比较。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-12-23-notes/",
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-1-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：科技枪和饮血有什么区别？",
+        "答：它们是不同装备；治疗对象、触发伤害与其他属性要按当版分别比较。"
+      ],
+      "misconceptions": [
+        "不要把所有吸血装备统称科技枪，也不要把历史上治疗自己或队友的规则写死。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "sunfire",
+      "term": "日炎",
+      "aliases": [
+        "日炎斗篷"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常指日炎斗篷，是常见的前排功能装简称。",
+      "disambiguation": "与红buff、鬼书可能有相似功能，但并非同一物品或必然叠加。",
+      "exampleQuestion": "日炎是不是输出装？",
+      "exampleAnswer": "一般会把它看作带有战斗功能的防装；具体燃烧、重伤和属性仍看当版说明。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：日炎是不是输出装？",
+        "答：一般会把它看作带有战斗功能的防装；具体燃烧、重伤和属性仍看当版说明。"
+      ],
+      "misconceptions": [
+        "与红buff、鬼书可能有相似功能，但并非同一物品或必然叠加。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "titans-resolve",
+      "term": "泰坦",
+      "aliases": [
+        "泰坦的坚决"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "出装语境通常指泰坦的坚决；英雄语境也可能指深海泰坦诺提勒斯。",
+      "disambiguation": "装备叠层规则和英雄技能都随赛季变化，不能仅靠两个字确定实体。",
+      "exampleQuestion": "这局要不要补泰坦？",
+      "exampleAnswer": "如果在谈装备，是泰坦的坚决；如果在谈上场单位或羁绊，可能是诺提勒斯，需要结合上下文。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-12-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：这局要不要补泰坦？",
+        "答：如果在谈装备，是泰坦的坚决；如果在谈上场单位或羁绊，可能是诺提勒斯，需要结合上下文。"
+      ],
+      "misconceptions": [
+        "装备叠层规则和英雄技能都随赛季变化，不能仅靠两个字确定实体。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "hurricane",
+      "term": "飓风",
+      "aliases": [
+        "分裂箭"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常指卢安娜的飓风，外号分裂箭来自其额外弹体的印象。",
+      "disambiguation": "不要默认额外弹体能够触发所有普攻或回蓝效果，也不要把替代装备当成仅改名。",
+      "exampleQuestion": "旧攻略说飓风必备，现在还照做吗？",
+      "exampleAnswer": "先确认版本和可获取装备池。飓风曾被从常规装备中替换，旧配装不代表现在仍可用。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-14-5-notes-2025/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：旧攻略说飓风必备，现在还照做吗？",
+        "答：先确认版本和可获取装备池。飓风曾被从常规装备中替换，旧配装不代表现在仍可用。"
+      ],
+      "misconceptions": [
+        "不要默认额外弹体能够触发所有普攻或回蓝效果，也不要把替代装备当成仅改名。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "frozen-heart",
+      "term": "冰心",
+      "aliases": [
+        "冰霜之心"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "旧版云顶中对冰霜之心的简称，常见于历史攻略的攻速干扰与站位讨论。",
+      "disambiguation": "不能将后续占用相同配方的其他装备当成冰心的新名字。",
+      "exampleQuestion": "冰心现在怎么合成？",
+      "exampleAnswer": "先确认你玩的赛季是否存在这件装备；这是历史叫法，不能直接沿用旧配方。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：冰心现在怎么合成？",
+        "答：先确认你玩的赛季是否存在这件装备；这是历史叫法，不能直接沿用旧配方。"
+      ],
+      "misconceptions": [
+        "不能将后续占用相同配方的其他装备当成冰心的新名字。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "guardian-angel",
+      "term": "复活甲",
+      "aliases": [
+        "复活装"
+      ],
+      "category": "装备俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "历史出装语境通常指守护天使；也可能泛指能够让单位死亡后再次作战的效果。",
+      "disambiguation": "不能承诺当前赛季存在守护天使；复活装只是功能泛称，不必然指同一物品。",
+      "exampleQuestion": "复活甲就是夜刃吗？",
+      "exampleAnswer": "不是严格同义词。复活甲通常是守护天使的旧外号，夜刃有不同机制。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://www.gamersky.com/handbook/202104/1383598_2.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：复活甲就是夜刃吗？",
+        "答：不是严格同义词。复活甲通常是守护天使的旧外号，夜刃有不同机制。"
+      ],
+      "misconceptions": [
+        "不能承诺当前赛季存在守护天使；复活装只是功能泛称，不必然指同一物品。"
+      ],
+      "relatedTerms": [
+        "夜刃"
+      ]
+    },
+    {
+      "id": "nasus",
+      "term": "狗头",
+      "aliases": [
+        "沙漠死神"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指内瑟斯。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "狗头是哪张牌？",
+      "exampleAnswer": "通常指内瑟斯。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：狗头是哪张牌？",
+        "答：通常指内瑟斯。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "内瑟斯"
+      }
+    },
+    {
+      "id": "warwick",
+      "term": "狼人",
+      "aliases": [
+        "祖安怒兽"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指沃里克。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "狼人是哪张牌？",
+      "exampleAnswer": "通常指沃里克。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.9game.cn/news/3358714.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：狼人是哪张牌？",
+        "答：通常指沃里克。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "沃里克"
+      }
+    },
+    {
+      "id": "ahri",
+      "term": "狐狸",
+      "aliases": [
+        "九尾妖狐"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指阿狸。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "狐狸是哪张牌？",
+      "exampleAnswer": "通常指阿狸。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：狐狸是哪张牌？",
+        "答：通常指阿狸。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "阿狸"
+      }
+    },
+    {
+      "id": "chogath",
+      "term": "大虫子",
+      "aliases": [
+        "虫子",
+        "虚空恐惧"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指科加斯。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "大虫子是哪张牌？",
+      "exampleAnswer": "通常指科加斯。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.9game.cn/news/3358714.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：大虫子是哪张牌？",
+        "答：通常指科加斯。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "科加斯"
+      }
+    },
+    {
+      "id": "blitzcrank",
+      "term": "机器人",
+      "aliases": [
+        "蒸汽机器人"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指布里茨。单说机器人也可能泛指赛季中的机械单位，应结合英雄名确认。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "机器人是哪张牌？",
+      "exampleAnswer": "通常指布里茨。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.9game.cn/news/3358714.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：机器人是哪张牌？",
+        "答：通常指布里茨。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "布里茨"
+      }
+    },
+    {
+      "id": "malphite",
+      "term": "石头人",
+      "aliases": [
+        "熔岩巨兽"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指墨菲特。不要与石甲虫等野怪称呼混用。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "石头人是哪张牌？",
+      "exampleAnswer": "通常指墨菲特。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：石头人是哪张牌？",
+        "答：通常指墨菲特。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "墨菲特"
+      }
+    },
+    {
+      "id": "miss-fortune",
+      "term": "女枪",
+      "aliases": [
+        "好运姐",
+        "赏金猎人"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指厄运小姐。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "女枪是哪张牌？",
+      "exampleAnswer": "通常指厄运小姐。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.9game.cn/news/3358714.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：女枪是哪张牌？",
+        "答：通常指厄运小姐。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "厄运小姐"
+      }
+    },
+    {
+      "id": "graves",
+      "term": "男枪",
+      "aliases": [
+        "法外狂徒"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指格雷福斯。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "男枪是哪张牌？",
+      "exampleAnswer": "通常指格雷福斯。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.9game.cn/news/3358714.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：男枪是哪张牌？",
+        "答：通常指格雷福斯。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "格雷福斯"
+      }
+    },
+    {
+      "id": "orianna",
+      "term": "发条",
+      "aliases": [
+        "发条魔灵"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指奥莉安娜。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "发条是哪张牌？",
+      "exampleAnswer": "通常指奥莉安娜。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：发条是哪张牌？",
+        "答：通常指奥莉安娜。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "奥莉安娜"
+      }
+    },
+    {
+      "id": "lissandra",
+      "term": "冰女",
+      "aliases": [
+        "冰霜女巫"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指丽桑卓。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "冰女是哪张牌？",
+      "exampleAnswer": "通常指丽桑卓。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.9game.cn/news/3358714.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：冰女是哪张牌？",
+        "答：通常指丽桑卓。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "丽桑卓"
+      }
+    },
+    {
+      "id": "swain",
+      "term": "乌鸦",
+      "aliases": [
+        "诺克萨斯统领"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指斯维因。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "乌鸦是哪张牌？",
+      "exampleAnswer": "通常指斯维因。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.9game.cn/news/3358714.html",
+        "https://news.17173.com/content/07242024/133903528.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：乌鸦是哪张牌？",
+        "答：通常指斯维因。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "斯维因"
+      }
+    },
+    {
+      "id": "twisted-fate",
+      "term": "卡牌",
+      "aliases": [
+        "卡牌大师",
+        "TF"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指崔斯特。卡牌也可以泛指商店或持有的任意棋子，不一定是这名英雄。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "卡牌是哪张牌？",
+      "exampleAnswer": "通常指崔斯特。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：卡牌是哪张牌？",
+        "答：通常指崔斯特。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [
+        "卡牌（占牌）"
+      ],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "崔斯特"
+      }
+    },
+    {
+      "id": "jarvan",
+      "term": "皇子",
+      "aliases": [
+        "德玛西亚皇子"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指嘉文四世。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "皇子是哪张牌？",
+      "exampleAnswer": "通常指嘉文四世。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：皇子是哪张牌？",
+        "答：通常指嘉文四世。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "嘉文四世"
+      }
+    },
+    {
+      "id": "heimerdinger",
+      "term": "大头",
+      "aliases": [
+        "大发明家"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指黑默丁格。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "大头是哪张牌？",
+      "exampleAnswer": "通常指黑默丁格。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：大头是哪张牌？",
+        "答：通常指黑默丁格。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "黑默丁格"
+      }
+    },
+    {
+      "id": "ziggs",
+      "term": "炸弹人",
+      "aliases": [
+        "爆破鬼才"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指吉格斯。昵称来自英雄主题，不保证每个赛季技能都与峡谷相同。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "炸弹人是哪张牌？",
+      "exampleAnswer": "通常指吉格斯。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://news.17173.com/content/07242024/133903528.shtml"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：炸弹人是哪张牌？",
+        "答：通常指吉格斯。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "吉格斯"
+      }
+    },
+    {
+      "id": "cassiopeia",
+      "term": "蛇女",
+      "aliases": [
+        "魔蛇之拥"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指卡西奥佩娅。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "蛇女是哪张牌？",
+      "exampleAnswer": "通常指卡西奥佩娅。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：蛇女是哪张牌？",
+        "答：通常指卡西奥佩娅。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "卡西奥佩娅"
+      }
+    },
+    {
+      "id": "sejuani",
+      "term": "猪妹",
+      "aliases": [
+        "北地之怒"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指瑟庄妮。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "猪妹是哪张牌？",
+      "exampleAnswer": "通常指瑟庄妮。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.9game.cn/news/3358714.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：猪妹是哪张牌？",
+        "答：通常指瑟庄妮。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "瑟庄妮"
+      }
+    },
+    {
+      "id": "jax",
+      "term": "武器",
+      "aliases": [
+        "武器大师"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指贾克斯。在装备讨论里，武器也可能是普通名词而非英雄名。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "武器是哪张牌？",
+      "exampleAnswer": "通常指贾克斯。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：武器是哪张牌？",
+        "答：通常指贾克斯。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "贾克斯"
+      }
+    },
+    {
+      "id": "kayle",
+      "term": "天使",
+      "aliases": [
+        "正义天使"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指凯尔。有时是宽泛形象描述；不要与装备大天使之杖混淆。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "天使是哪张牌？",
+      "exampleAnswer": "通常指凯尔。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.9game.cn/news/3358714.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：天使是哪张牌？",
+        "答：通常指凯尔。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "凯尔"
+      }
+    },
+    {
+      "id": "fiora",
+      "term": "剑姬",
+      "aliases": [
+        "无双剑姬"
+      ],
+      "category": "英雄昵称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "云顶英雄交流中通常指菲奥娜。",
+      "disambiguation": "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。",
+      "exampleQuestion": "剑姬是哪张牌？",
+      "exampleAnswer": "通常指菲奥娜。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://www.9game.cn/news/3358714.html"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：剑姬是哪张牌？",
+        "答：通常指菲奥娜。先确认你玩的赛季是否有这名英雄，再查对应费用和羁绊。"
+      ],
+      "misconceptions": [
+        "当前赛季是否存在该英雄未核验。英雄是否登场、费用、羁绊、技能和定位取决于赛季；该昵称不代表当前阵容推荐。"
+      ],
+      "relatedTerms": [],
+      "canonicalEntity": {
+        "type": "champion",
+        "name": "菲奥娜"
+      }
+    },
+    {
+      "id": "corner-position",
+      "term": "拉角",
+      "aliases": [
+        "拉到角落",
+        "缩角",
+        "龟角"
+      ],
+      "category": "站位与战斗",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "把关键单位移动到棋盘角落或更偏边缘的位置，以调整受击和索敌关系。",
+      "disambiguation": "不是固定安全格；角落可能被针对，棋盘方位也应以自己的视角说明。",
+      "exampleQuestion": "把主C拉角是什么意思？",
+      "exampleAnswer": "就是把主C往边角放；是否安全要看对手的切入、控制和技能范围。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：把主C拉角是什么意思？",
+        "答：就是把主C往边角放；是否安全要看对手的切入、控制和技能范围。"
+      ],
+      "misconceptions": [
+        "不是固定安全格；角落可能被针对，棋盘方位也应以自己的视角说明。"
+      ],
+      "relatedTerms": [
+        "站位",
+        "后排",
+        "对位"
+      ]
+    },
+    {
+      "id": "back-row",
+      "term": "沉底",
+      "aliases": [
+        "沉底站位"
+      ],
+      "category": "站位与战斗",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "将一个或多个单位摆在己方最靠后的区域，改变开战接敌的时间或距离。",
+      "disambiguation": "不是所有单位统一后撤的固定阵型；近战沉底可能增加走路时间。",
+      "exampleQuestion": "沉底是把所有人都放最后一排吗？",
+      "exampleAnswer": "不一定。可能只指某个输出或诱饵单位，需要结合所讨论的棋子和对手。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：沉底是把所有人都放最后一排吗？",
+        "答：不一定。可能只指某个输出或诱饵单位，需要结合所讨论的棋子和对手。"
+      ],
+      "misconceptions": [
+        "不是所有单位统一后撤的固定阵型；近战沉底可能增加走路时间。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "front-row",
+      "term": "顶前排",
+      "aliases": [
+        "顶第一排"
+      ],
+      "category": "站位与战斗",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "让指定单位处于靠近敌人的前方位置，优先接敌或吸收伤害。",
+      "disambiguation": "前排位置不保证固定仇恨，也不等于该英雄本身就是坦克。",
+      "exampleQuestion": "让这张卡顶前排有什么用？",
+      "exampleAnswer": "通常是让它先接敌、承伤或尽早放出关键技能，但要看它能否存活。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：让这张卡顶前排有什么用？",
+        "答：通常是让它先接敌、承伤或尽早放出关键技能，但要看它能否存活。"
+      ],
+      "misconceptions": [
+        "前排位置不保证固定仇恨，也不等于该英雄本身就是坦克。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "match-position",
+      "term": "对位",
+      "aliases": [
+        "调对位",
+        "针对站位"
+      ],
+      "category": "站位与战斗",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "根据对手关键单位的位置，调整自己的输出、控制或承伤单位。",
+      "disambiguation": "不是只有镜像格子才算对位；索敌与技能规则随单位不同。",
+      "exampleQuestion": "最后几秒还在对位是做什么？",
+      "exampleAnswer": "是在根据对手站位移动自己的关键单位，争取更好的攻击或技能目标。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：最后几秒还在对位是做什么？",
+        "答：是在根据对手站位移动自己的关键单位，争取更好的攻击或技能目标。"
+      ],
+      "misconceptions": [
+        "不是只有镜像格子才算对位；索敌与技能规则随单位不同。"
+      ],
+      "relatedTerms": [
+        "站位",
+        "主C",
+        "主坦"
+      ]
+    },
+    {
+      "id": "spread",
+      "term": "分散站位",
+      "aliases": [
+        "散开站"
+      ],
+      "category": "站位与战斗",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "降低己方单位聚集程度，常用于减少同一范围技能同时命中多人。",
+      "disambiguation": "分散不保证躲开所有范围伤害，也可能损失邻近增益。",
+      "exampleQuestion": "对面AOE多，我要散开吗？",
+      "exampleAnswer": "可以考虑分散关键单位，但还要兼顾保护、技能覆盖和装备作用范围。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：对面AOE多，我要散开吗？",
+        "答：可以考虑分散关键单位，但还要兼顾保护、技能覆盖和装备作用范围。"
+      ],
+      "misconceptions": [
+        "分散不保证躲开所有范围伤害，也可能损失邻近增益。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "clump",
+      "term": "抱团",
+      "aliases": [
+        "抱团站位",
+        "扎堆"
+      ],
+      "category": "站位与战斗",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "把多个己方单位集中摆放，常用于互相保护或利用范围增益。",
+      "disambiguation": "不代表特定赛季的某个具名强化，也不等于把所有单位挤在同一侧。",
+      "exampleQuestion": "抱团是不是一定比散开强？",
+      "exampleAnswer": "没有固定答案。抱团更方便共享部分增益，也可能让范围控制和伤害命中更多人。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：抱团是不是一定比散开强？",
+        "答：没有固定答案。抱团更方便共享部分增益，也可能让范围控制和伤害命中更多人。"
+      ],
+      "misconceptions": [
+        "不代表特定赛季的某个具名强化，也不等于把所有单位挤在同一侧。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "focus-fire",
+      "term": "集火",
+      "aliases": [
+        "集中火力"
+      ],
+      "category": "站位与战斗",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "让多个单位在相近时间攻击同一目标，争取快速减少敌方人数。",
+      "disambiguation": "云顶通常不能在战斗中手动点选集火目标，主要通过站位和单位技能影响。",
+      "exampleQuestion": "为什么要让两个C集火？",
+      "exampleAnswer": "为了更快处理同一个目标，减少对手持续作战的单位数；实际是否成立取决于索敌。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：为什么要让两个C集火？",
+        "答：为了更快处理同一个目标，减少对手持续作战的单位数；实际是否成立取决于索敌。"
+      ],
+      "misconceptions": [
+        "云顶通常不能在战斗中手动点选集火目标，主要通过站位和单位技能影响。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "dive-backline",
+      "term": "切后排",
+      "aliases": [
+        "切C",
+        "切入后排"
+      ],
+      "category": "站位与战斗",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通过位移、特殊索敌、远程技能或绕过前排的能力威胁敌方后方输出。",
+      "disambiguation": "切C不保证目标一定是对方主C；技能目标和路径应看具体单位。",
+      "exampleQuestion": "没有刺客羁绊也能切后排吗？",
+      "exampleAnswer": "可以。切后排描述的是效果，不要求一定拥有名为刺客的羁绊。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：没有刺客羁绊也能切后排吗？",
+        "答：可以。切后排描述的是效果，不要求一定拥有名为刺客的羁绊。"
+      ],
+      "misconceptions": [
+        "切C不保证目标一定是对方主C；技能目标和路径应看具体单位。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "idle-unit",
+      "term": "罚站",
+      "aliases": [
+        "站着不动"
+      ],
+      "category": "站位与战斗",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "玩家对单位较长时间没有有效攻击或施法的现象的口语描述。",
+      "disambiguation": "不是一个唯一官方状态；不能直接推定为程序故障或眩晕。",
+      "exampleQuestion": "我的主C怎么一直罚站？",
+      "exampleAnswer": "可能是控制、走位堵塞、目标不可选取或技能前后摇等原因，需要看战斗录像判断。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：我的主C怎么一直罚站？",
+        "答：可能是控制、走位堵塞、目标不可选取或技能前后摇等原因，需要看战斗录像判断。"
+      ],
+      "misconceptions": [
+        "不是一个唯一官方状态；不能直接推定为程序故障或眩晕。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "bad-targeting",
+      "term": "假赛",
+      "aliases": [
+        "打假赛"
+      ],
+      "category": "站位与战斗",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "玩家调侃单位寻路、攻击目标或技能释放不合预期，导致实际输出表现差。",
+      "disambiguation": "一般不是指真实比赛操纵，也不能据此认定游戏有作弊或故意偏袒。",
+      "exampleQuestion": "这张卡假赛了是什么意思？",
+      "exampleAnswer": "通常是在抱怨它打错目标、走路过久或技能没打出预期效果。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：这张卡假赛了是什么意思？",
+        "答：通常是在抱怨它打错目标、走路过久或技能没打出预期效果。"
+      ],
+      "misconceptions": [
+        "一般不是指真实比赛操纵，也不能据此认定游戏有作弊或故意偏袒。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "armor-sunder",
+      "term": "破甲",
+      "aliases": [
+        "降低护甲",
+        "护甲削减"
+      ],
+      "category": "战斗属性",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "降低目标护甲的效果，使其在对应防御计算中更容易受到物理伤害。",
+      "disambiguation": "护甲削减与攻击者自身的护甲穿透不是完全相同的机制；叠加方式须查看版本。",
+      "exampleQuestion": "破甲和法穿是一个东西吗？",
+      "exampleAnswer": "不是。破甲通常针对护甲；魔法伤害相关的魔抗削减或法术穿透需要另看。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-12-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：破甲和法穿是一个东西吗？",
+        "答：不是。破甲通常针对护甲；魔法伤害相关的魔抗削减或法术穿透需要另看。"
+      ],
+      "misconceptions": [
+        "护甲削减与攻击者自身的护甲穿透不是完全相同的机制；叠加方式须查看版本。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "mr-shred",
+      "term": "减魔抗",
+      "aliases": [
+        "削魔抗",
+        "魔抗削减"
+      ],
+      "category": "战斗属性",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "降低目标魔法抗性的效果，常用于提高队伍对该目标的魔法伤害收益。",
+      "disambiguation": "口语法穿可能混指减魔抗；共享给全队的削减与持有者自身穿透要分开。",
+      "exampleQuestion": "离子和轻语都能减魔抗吗？",
+      "exampleAnswer": "不能一概而论。通常离子讨论的是魔抗方向、轻语讨论的是护甲方向，以当版说明为准。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-12-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：离子和轻语都能减魔抗吗？",
+        "答：不能一概而论。通常离子讨论的是魔抗方向、轻语讨论的是护甲方向，以当版说明为准。"
+      ],
+      "misconceptions": [
+        "口语法穿可能混指减魔抗；共享给全队的削减与持有者自身穿透要分开。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "wound",
+      "term": "重伤",
+      "aliases": [
+        "减治疗",
+        "治疗削减"
+      ],
+      "category": "战斗属性",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "降低目标受到的治疗量的状态，玩家常在对抗高回复单位时讨论。",
+      "disambiguation": "Riot繁中资料常称重创；与燃烧、伤害增幅不同，叠加与覆盖规则需按版本。",
+      "exampleQuestion": "重伤能降低护盾吗？",
+      "exampleAnswer": "重伤通常针对治疗，不能直接理解为降低护盾；是否有其他效果要看具体来源。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-12-23-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：重伤能降低护盾吗？",
+        "答：重伤通常针对治疗，不能直接理解为降低护盾；是否有其他效果要看具体来源。"
+      ],
+      "misconceptions": [
+        "Riot繁中资料常称重创；与燃烧、伤害增幅不同，叠加与覆盖规则需按版本。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "combat-start",
+      "term": "启动（战斗状态）",
+      "aliases": [
+        "启动速度",
+        "启动时间",
+        "启动"
+      ],
+      "category": "站位与战斗",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "单位进入关键技能循环或主要输出状态的过程；常用来描述第一次有效施法的快慢。",
+      "disambiguation": "启动不总是第一次施法，也可能指叠层、变身或整支阵容进入强势状态。",
+      "exampleQuestion": "这张卡启动太慢怎么办？",
+      "exampleAnswer": "先看是法力不足、攻击频率低、被控制，还是技能准备时间较长，再判断装备和站位。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：这张卡启动太慢怎么办？",
+        "答：先看是法力不足、攻击频率低、被控制，还是技能准备时间较长，再判断装备和站位。"
+      ],
+      "misconceptions": [
+        "启动不总是第一次施法，也可能指叠层、变身或整支阵容进入强势状态。"
+      ],
+      "relatedTerms": [
+        "启动（运营投入）"
+      ]
+    },
+    {
+      "id": "mana-lock",
+      "term": "锁蓝",
+      "aliases": [
+        "法力锁定",
+        "魔力锁定"
+      ],
+      "category": "战斗属性",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "特定技能或动作阶段限制单位继续获得法力的机制，常见于持续施法等语境。",
+      "disambiguation": "不能断言所有英雄锁蓝时长相同，也不能用蓝条暂时不动直接认定故障。",
+      "exampleQuestion": "蓝条不涨就是锁蓝吗？",
+      "exampleAnswer": "有可能，但也要排除缺少有效攻击、控制或其他机制；需核对该英雄技能。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-15-4-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：蓝条不涨就是锁蓝吗？",
+        "答：有可能，但也要排除缺少有效攻击、控制或其他机制；需核对该英雄技能。"
+      ],
+      "misconceptions": [
+        "不能断言所有英雄锁蓝时长相同，也不能用蓝条暂时不动直接认定故障。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "augment",
+      "term": "海克斯",
+      "aliases": [
+        "海克斯强化",
+        "强化符文",
+        "强化选项"
+      ],
+      "category": "强化俗称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "玩家对强化选择系统或某个强化选项的惯用称呼，起源于特定赛季的主题命名。",
+      "disambiguation": "海克斯也可能是羁绊、主题或装备名的一部分；历代系统正式名称不始终相同。",
+      "exampleQuestion": "这把海克斯不好是什么意思？",
+      "exampleAnswer": "通常是在说本局拿到的强化选项不合适，未必真的叫海克斯强化。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：这把海克斯不好是什么意思？",
+        "答：通常是在说本局拿到的强化选项不合适，未必真的叫海克斯强化。"
+      ],
+      "misconceptions": [
+        "海克斯也可能是羁绊、主题或装备名的一部分；历代系统正式名称不始终相同。"
+      ],
+      "relatedTerms": [
+        "转职",
+        "战力",
+        "经济"
+      ]
+    },
+    {
+      "id": "silver-augment",
+      "term": "白海",
+      "aliases": [
+        "白银海克斯",
+        "银海"
+      ],
+      "category": "强化俗称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通常指白银阶强化，是按强化品质颜色说的简称。",
+      "disambiguation": "白银指强化品质，不能直接理解为玩家段位或白色棋子。",
+      "exampleQuestion": "白海一定比金海没用吗？",
+      "exampleAnswer": "品质不同不等于实际收益必定更差，仍要看你的阵容、阶段与触发条件。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-1-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：白海一定比金海没用吗？",
+        "答：品质不同不等于实际收益必定更差，仍要看你的阵容、阶段与触发条件。"
+      ],
+      "misconceptions": [
+        "白银指强化品质，不能直接理解为玩家段位或白色棋子。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "gold-augment",
+      "term": "金海",
+      "aliases": [
+        "黄金海克斯"
+      ],
+      "category": "强化俗称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通常指黄金阶强化，是按强化品质说的简称。",
+      "disambiguation": "金色还可能指金币、棋子星级视觉或羁绊档位，需确认是在聊强化。",
+      "exampleQuestion": "金海来了选什么？",
+      "exampleAnswer": "先看有哪些选项和当前局面，金海只说明品质，不说明适合哪套阵容。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-1-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：金海来了选什么？",
+        "答：先看有哪些选项和当前局面，金海只说明品质，不说明适合哪套阵容。"
+      ],
+      "misconceptions": [
+        "金色还可能指金币、棋子星级视觉或羁绊档位，需确认是在聊强化。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "prismatic-augment",
+      "term": "彩海",
+      "aliases": [
+        "彩色海克斯",
+        "棱彩海克斯"
+      ],
+      "category": "强化俗称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通常指棱彩阶强化，玩家按其彩色外观称呼。",
+      "disambiguation": "不同地区可能称棱镜或稜镜，不能与棱彩羁绊等其他概念自动合并。",
+      "exampleQuestion": "拿到彩海是不是稳吃鸡？",
+      "exampleAnswer": "不是。棱彩只表示强化档位，仍需满足条件并配合合适的经济、装备与阵容。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-1-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：拿到彩海是不是稳吃鸡？",
+        "答：不是。棱彩只表示强化档位，仍需满足条件并配合合适的经济、装备与阵容。"
+      ],
+      "misconceptions": [
+        "不同地区可能称棱镜或稜镜，不能与棱彩羁绊等其他概念自动合并。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "combat-augment",
+      "term": "战力海克斯",
+      "aliases": [
+        "战力强化"
+      ],
+      "category": "强化俗称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "主要提高场上作战能力的强化的玩家分类，例如增强伤害、生存或战斗功能。",
+      "disambiguation": "属于用途分类，不是稳定官方标签；有些选项同时提供经济或装备。",
+      "exampleQuestion": "我该补一个战力海克斯吗？",
+      "exampleAnswer": "如果当前主要问题是打不过，可以优先比较能立即提升阵容战斗表现的选项。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：我该补一个战力海克斯吗？",
+        "答：如果当前主要问题是打不过，可以优先比较能立即提升阵容战斗表现的选项。"
+      ],
+      "misconceptions": [
+        "属于用途分类，不是稳定官方标签；有些选项同时提供经济或装备。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "economy-augment",
+      "term": "经济海克斯",
+      "aliases": [
+        "经济强化",
+        "经济类强化"
+      ],
+      "category": "强化俗称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "主要改善金币、经验、商店刷新等资源效率的强化的玩家分类。",
+      "disambiguation": "不是固定官方分类；收益条件和到账时间比名字更重要。",
+      "exampleQuestion": "经济海克斯是不是只给金币？",
+      "exampleAnswer": "不只是直接给钱，还可能提供经验、免费刷新或其他资源效率。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-12-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：经济海克斯是不是只给金币？",
+        "答：不只是直接给钱，还可能提供经验、免费刷新或其他资源效率。"
+      ],
+      "misconceptions": [
+        "不是固定官方分类；收益条件和到账时间比名字更重要。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "equipment-augment",
+      "term": "装备海克斯",
+      "aliases": [
+        "装备强化"
+      ],
+      "category": "强化俗称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "主要提供装备、组件、装备选择或装备增益的强化的玩家分类。",
+      "disambiguation": "可能包含立即给装备或延迟提供装备的选项，不保证立刻增强场面。",
+      "exampleQuestion": "装备海克斯和战力海克斯有什么区别？",
+      "exampleAnswer": "装备海克斯按获得装备的方式分类，战力海克斯按战斗收益分类，两者可以重叠。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：装备海克斯和战力海克斯有什么区别？",
+        "答：装备海克斯按获得装备的方式分类，战力海克斯按战斗收益分类，两者可以重叠。"
+      ],
+      "misconceptions": [
+        "可能包含立即给装备或延迟提供装备的选项，不保证立刻增强场面。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "emblem-augment",
+      "term": "转职海克斯",
+      "aliases": [
+        "纹章强化"
+      ],
+      "category": "强化俗称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "玩家对提供纹章、转职机会或与某个羁绊相关强化的概括称呼。",
+      "disambiguation": "旧版某某之心、之徽、之冕等奖励不统一，不可仅按外号推断装备和数量。",
+      "exampleQuestion": "拿了转职海克斯就一定有纹章吗？",
+      "exampleAnswer": "不一定。要读清楚具体奖励，有的旧版选项只增加羁绊计数，并不发装备纹章。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：拿了转职海克斯就一定有纹章吗？",
+        "答：不一定。要读清楚具体奖励，有的旧版选项只增加羁绊计数，并不发装备纹章。"
+      ],
+      "misconceptions": [
+        "旧版某某之心、之徽、之冕等奖励不统一，不可仅按外号推断装备和数量。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "triple-prismatic",
+      "term": "三彩",
+      "aliases": [
+        "三彩局"
+      ],
+      "category": "强化俗称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通常指一局的三次主要强化选择都为棱彩品质的对局。",
+      "disambiguation": "适用于具有三次主要强化选择的规则语境；特殊模式可能不同，也可能与三棱彩羁绊混称。",
+      "exampleQuestion": "三彩局是不是三次都能选同一个强化？",
+      "exampleAnswer": "三彩只描述品质组合，不代表候选选项相同，也不代表可以重复选择。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：三彩局是不是三次都能选同一个强化？",
+        "答：三彩只描述品质组合，不代表候选选项相同，也不代表可以重复选择。"
+      ],
+      "misconceptions": [
+        "适用于具有三次主要强化选择的规则语境；特殊模式可能不同，也可能与三棱彩羁绊混称。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "pandora",
+      "term": "潘朵拉",
+      "aliases": [
+        "潘多拉"
+      ],
+      "category": "强化俗称",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "通常是潘朵拉的装备、潘朵拉的备战席等带同一前缀强化的简称。",
+      "disambiguation": "单说潘朵拉不能唯一确定强化；不同品质、赛季和模式的规则可能不同。",
+      "exampleQuestion": "潘朵拉为什么没变装备？",
+      "exampleAnswer": "先确认拿的是装备版还是备战席版，再查该版本可重随机的对象和触发时机。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-1-notes/",
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/teamfight-tactics-patch-13-12-notes/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：潘朵拉为什么没变装备？",
+        "答：先确认拿的是装备版还是备战席版，再查该版本可重随机的对象和触发时机。"
+      ],
+      "misconceptions": [
+        "单说潘朵拉不能唯一确定强化；不同品质、赛季和模式的规则可能不同。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "chosen",
+      "term": "天选",
+      "aliases": [
+        "天选之人",
+        "天选者"
+      ],
+      "category": "历史赛季机制",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "主要指S4命运之轮及相关返场规则里的天选之人机制：商店中的特殊强化英雄；后来的玩家交流也可能借用这个叫法。",
+      "disambiguation": "历史限定词；返场规则可能更新。不能把S4与S10的商店刷新、附加加成或出现条件互相套用。",
+      "exampleQuestion": "赛季之星就是天选吗？",
+      "exampleAnswer": "玩法有继承关系，但不是严格同义。S4的天选和S10的赛季之星应按各自赛季规则解释。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/dev/talking-tactics-reflecting-on-the-end-of-mid-sets/",
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/the-greatest-hits-playlist-of-tft-mechanics/"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：赛季之星就是天选吗？",
+        "答：玩法有继承关系，但不是严格同义。S4的天选和S10的赛季之星应按各自赛季规则解释。"
+      ],
+      "misconceptions": [
+        "历史限定词；返场规则可能更新。不能把S4与S10的商店刷新、附加加成或出现条件互相套用。"
+      ],
+      "relatedTerms": [
+        "赛季之星"
+      ]
+    },
+    {
+      "id": "headliner",
+      "term": "赛季之星",
+      "aliases": [
+        "主秀英雄",
+        "Headliner"
+      ],
+      "category": "历史赛季机制",
+      "applicability": "云顶之弈（TFT）中文社区；历史/赛季相关；不保证当前赛季存在或名称、效果未变",
+      "definition": "S10强音争霸及相关返场规则中的机制，指带有额外羁绊贡献和英雄专属加成的特殊商店单位。",
+      "disambiguation": "这是历史机制名，不是每季最强英雄的泛称；与天选有关联但不互为严格同义，返场版本也可能改规则。",
+      "exampleQuestion": "为什么攻略让我卖赛季之星？",
+      "exampleAnswer": "那是特定赛季的换核心操作语境，需先确认规则和现有单位，不能把它当成所有赛季的通用操作。",
+      "evidenceStatus": "source_supported",
+      "references": [
+        "https://teamfighttactics.leagueoflegends.com/zh-tw/news/game-updates/the-greatest-hits-playlist-of-tft-mechanics/",
+        "https://www.taptap.cn/moment/497991320158079599"
+      ],
+      "referenceNote": "用户提供参考链接；本次接入未逐条独立复核。",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：为什么攻略让我卖赛季之星？",
+        "答：那是特定赛季的换核心操作语境，需先确认规则和现有单位，不能把它当成所有赛季的通用操作。"
+      ],
+      "misconceptions": [
+        "这是历史机制名，不是每季最强英雄的泛称；与天选有关联但不互为严格同义，返场版本也可能改规则。"
+      ],
+      "relatedTerms": [
+        "天选"
+      ]
+    },
+    {
+      "id": "bf-sword",
+      "term": "大剑",
+      "aliases": [
+        "暴风大剑"
+      ],
+      "category": "基础装备别称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "在选装备、掉落或合成语境中，通常指基础组件暴风大剑。",
+      "disambiguation": "不能按大剑两个字套用其他游戏的装备；合成目标和配方必须按本局版本确认。",
+      "exampleQuestion": "选秀拿大剑，是拿杀人剑吗？",
+      "exampleAnswer": "通常不是。大剑指基础组件，杀人剑一般是死亡之刃的外号；先分清散件与成装。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：选秀拿大剑，是拿杀人剑吗？",
+        "答：通常不是。大剑指基础组件，杀人剑一般是死亡之刃的外号；先分清散件与成装。"
+      ],
+      "misconceptions": [
+        "不能按大剑两个字套用其他游戏的装备；合成目标和配方必须按本局版本确认。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "recurve-bow",
+      "term": "弓",
+      "aliases": [
+        "反曲弓",
+        "反曲之弓",
+        "攻速弓",
+        "攻速"
+      ],
+      "category": "基础装备别称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "物品语境通常指反曲之弓，玩家也会用拿攻速来表达想要这个攻速组件。",
+      "disambiguation": "攻速是属性泛词，不能无条件归一到反曲之弓；是否指组件需要看拿、掉、合等上下文。",
+      "exampleQuestion": "缺一个攻速，是缺反曲弓吗？",
+      "exampleAnswer": "在选秀或散件语境下通常是；如果是在比较英雄属性，则可能只是缺攻击速度。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：缺一个攻速，是缺反曲弓吗？",
+        "答：在选秀或散件语境下通常是；如果是在比较英雄属性，则可能只是缺攻击速度。"
+      ],
+      "misconceptions": [
+        "攻速是属性泛词，不能无条件归一到反曲之弓；是否指组件需要看拿、掉、合等上下文。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "rod",
+      "term": "大棒",
+      "aliases": [
+        "棒子",
+        "无用大棒"
+      ],
+      "category": "基础装备别称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "选装备和合成语境里通常指无用大棒这一基础组件。",
+      "disambiguation": "不要把大棒与虚空之杖、大天使之杖等成装混同；配方不在本条中固定。",
+      "exampleQuestion": "拿棒子是不是拿法杖？",
+      "exampleAnswer": "云顶散件语境通常说的是无用大棒；若出现其他完整装备名，需要进一步确认。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：拿棒子是不是拿法杖？",
+        "答：云顶散件语境通常说的是无用大棒；若出现其他完整装备名，需要进一步确认。"
+      ],
+      "misconceptions": [
+        "不要把大棒与虚空之杖、大天使之杖等成装混同；配方不在本条中固定。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "tear",
+      "term": "眼泪",
+      "aliases": [
+        "水滴",
+        "女神泪",
+        "女神之泪"
+      ],
+      "category": "基础装备别称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通常指女神之泪这一基础组件，常见于法力相关出装交流。",
+      "disambiguation": "眼泪也可能是一般聊天用语；法力属性、法力装与女神之泪组件不是严格同义词。",
+      "exampleQuestion": "我差一滴水是什么意思？",
+      "exampleAnswer": "在装备语境里，多半是还缺一个女神之泪组件。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：我差一滴水是什么意思？",
+        "答：在装备语境里，多半是还缺一个女神之泪组件。"
+      ],
+      "misconceptions": [
+        "眼泪也可能是一般聊天用语；法力属性、法力装与女神之泪组件不是严格同义词。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "gloves",
+      "term": "拳套",
+      "aliases": [
+        "拳头",
+        "格斗手套"
+      ],
+      "category": "基础装备别称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "散件语境通常指格斗手套这一基础组件。",
+      "disambiguation": "拳头还可能指Riot公司或一般动作；不能只凭词形判断是装备。",
+      "exampleQuestion": "拿拳套就是拿偷偷吗？",
+      "exampleAnswer": "不是。拳套一般是基础组件，偷偷通常指窃贼手套成装。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：拿拳套就是拿偷偷吗？",
+        "答：不是。拳套一般是基础组件，偷偷通常指窃贼手套成装。"
+      ],
+      "misconceptions": [
+        "拳头还可能指Riot公司或一般动作；不能只凭词形判断是装备。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "belt",
+      "term": "腰带",
+      "aliases": [
+        "大腰带",
+        "巨人腰带"
+      ],
+      "category": "基础装备别称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "选秀和合成语境中通常指巨人腰带这一基础组件。",
+      "disambiguation": "组件外号不指定唯一合成路线，不能自动代替用户决定成装。",
+      "exampleQuestion": "他让我先拿腰带，是先做狂徒吗？",
+      "exampleAnswer": "不一定。拿腰带只是获取组件，不等于已经决定合成狂徒；要看其他散件和需求。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：他让我先拿腰带，是先做狂徒吗？",
+        "答：不一定。拿腰带只是获取组件，不等于已经决定合成狂徒；要看其他散件和需求。"
+      ],
+      "misconceptions": [
+        "组件外号不指定唯一合成路线，不能自动代替用户决定成装。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "chain-vest",
+      "term": "锁子甲",
+      "aliases": [
+        "护甲"
+      ],
+      "category": "基础装备别称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通常指锁子甲基础组件；选秀时说拿护甲也可能在指它。",
+      "disambiguation": "护甲是通用属性，不应一律匹配锁子甲；与成装荆棘背心等也要区分。",
+      "exampleQuestion": "缺护甲是不是缺锁子甲？",
+      "exampleAnswer": "如果在讨论合成组件，多半是；如果在分析坦度，护甲可能指英雄的防御属性。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：缺护甲是不是缺锁子甲？",
+        "答：如果在讨论合成组件，多半是；如果在分析坦度，护甲可能指英雄的防御属性。"
+      ],
+      "misconceptions": [
+        "护甲是通用属性，不应一律匹配锁子甲；与成装荆棘背心等也要区分。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "cloak",
+      "term": "斗篷",
+      "aliases": [
+        "负极斗篷",
+        "魔抗斗篷",
+        "魔抗"
+      ],
+      "category": "基础装备别称",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "散件语境通常指负极斗篷，玩家有时用魔抗来简称这一组件。",
+      "disambiguation": "魔抗是属性泛词，不能无条件当作负极斗篷；斗篷也可能是其他完整装备名的一部分。",
+      "exampleQuestion": "野怪掉了个魔抗，是指什么？",
+      "exampleAnswer": "在掉落装备语境里通常指负极斗篷；若是英雄面板变化，则是在说魔法抗性属性。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：野怪掉了个魔抗，是指什么？",
+        "答：在掉落装备语境里通常指负极斗篷；若是英雄面板变化，则是在说魔法抗性属性。"
+      ],
+      "misconceptions": [
+        "魔抗是属性泛词，不能无条件当作负极斗篷；斗篷也可能是其他完整装备名的一部分。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "three-cost",
+      "term": "三费",
+      "aliases": [
+        "三费卡",
+        "3费卡"
+      ],
+      "category": "棋子费用与星级",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "指商店基础购买费用属于三金币档的弈子，不代表它已经是三星。",
+      "disambiguation": "购买折扣、特殊模式与赛季机制可能影响实付价格。",
+      "exampleQuestion": "三费就是三星吗？",
+      "exampleAnswer": "不是。三费描述费用，三星描述升星等级；同一张三费弈子可以是一星、二星或三星。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：三费就是三星吗？",
+        "答：不是。三费描述费用，三星描述升星等级；同一张三费弈子可以是一星、二星或三星。"
+      ],
+      "misconceptions": [
+        "购买折扣、特殊模式与赛季机制可能影响实付价格。"
+      ],
+      "relatedTerms": [
+        "三星"
+      ]
+    },
+    {
+      "id": "three-star-unit",
+      "term": "三星",
+      "aliases": [
+        "三星卡",
+        "3星"
+      ],
+      "category": "棋子费用与星级",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "指弈子的星级达到三星，通常由同名单位合成提升，属于星级概念。",
+      "disambiguation": "本条不固定合成数量；特殊升星机制、返场和特殊模式应单独核验。",
+      "exampleQuestion": "三星一定比五费强吗？",
+      "exampleAnswer": "不能直接比较。三星是星级，五费是费用，实际强度还要看具体英雄、装备、配合与版本。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：三星一定比五费强吗？",
+        "答：不能直接比较。三星是星级，五费是费用，实际强度还要看具体英雄、装备、配合与版本。"
+      ],
+      "misconceptions": [
+        "本条不固定合成数量；特殊升星机制、返场和特殊模式应单独核验。"
+      ],
+      "relatedTerms": [
+        "三费"
+      ]
+    },
+    {
+      "id": "component",
+      "term": "散件",
+      "aliases": [
+        "小件",
+        "基础组件",
+        "装备散件",
+        "基础装备"
+      ],
+      "category": "装备与合成语境",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "指可用于组合成完整装备的基础组件，通常还没有成为成装。",
+      "disambiguation": "金铲铲、金锅锅等特殊组件是否可用，以及具体配方，需查对应版本。",
+      "exampleQuestion": "我有两个散件，是不是已经有两件神装？",
+      "exampleAnswer": "不是。散件是合成材料，成装是完成的装备，神装则是玩家对适合某单位的装备组合的评价。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：我有两个散件，是不是已经有两件神装？",
+        "答：不是。散件是合成材料，成装是完成的装备，神装则是玩家对适合某单位的装备组合的评价。"
+      ],
+      "misconceptions": [
+        "金铲铲、金锅锅等特殊组件是否可用，以及具体配方，需查对应版本。"
+      ],
+      "relatedTerms": [
+        "神装",
+        "装备消化",
+        "转职"
+      ]
+    },
+    {
+      "id": "completed-item",
+      "term": "成装",
+      "aliases": [
+        "大件",
+        "完整装备"
+      ],
+      "category": "装备与合成语境",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "指已完成的装备，相对于可继续组合的基础散件而言。",
+      "disambiguation": "成装不等于当前单位的最优装备，也不保证一定由两件散件合成获得。",
+      "exampleQuestion": "野怪掉的成装还能按散件随便拆吗？",
+      "exampleAnswer": "成装不是散件。能否拆解、重铸或移除要看是否有对应道具或机制，不能仅凭称呼判断。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：野怪掉的成装还能按散件随便拆吗？",
+        "答：成装不是散件。能否拆解、重铸或移除要看是否有对应道具或机制，不能仅凭称呼判断。"
+      ],
+      "misconceptions": [
+        "成装不等于当前单位的最优装备，也不保证一定由两件散件合成获得。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "best-items",
+      "term": "神装",
+      "aliases": [
+        "毕业装",
+        "毕业装备",
+        "完美装备"
+      ],
+      "category": "装备与合成语境",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "玩家对某单位在特定版本、定位和阵容下理想装备配置的称呼。",
+      "disambiguation": "不是官方固定装备等级；神装不意味着必胜，也不能仅按胜率排名逐件拼出最优组合。",
+      "exampleQuestion": "这三个装备是永久神装吗？",
+      "exampleAnswer": "不是。所谓神装取决于版本、输出机制、强化和队伍需求，应结合当前规则和可靠数据比较。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：这三个装备是永久神装吗？",
+        "答：不是。所谓神装取决于版本、输出机制、强化和队伍需求，应结合当前规则和可靠数据比较。"
+      ],
+      "misconceptions": [
+        "不是官方固定装备等级；神装不意味着必胜，也不能仅按胜率排名逐件拼出最优组合。"
+      ],
+      "relatedTerms": [
+        "主C",
+        "装备消化",
+        "散件"
+      ]
+    },
+    {
+      "id": "combine-items",
+      "term": "合装备",
+      "aliases": [
+        "合装",
+        "合成装备"
+      ],
+      "category": "装备与合成语境",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "把已有基础组件按配方组合成可用装备的操作。",
+      "disambiguation": "配方、唯一限制与合成例外属于版本化规则，本条不提供固定配方。",
+      "exampleQuestion": "先合装是不是就把阵容定死了？",
+      "exampleAnswer": "不一定。有些装备适用面广，有些依赖具体英雄；需要结合剩余组件和可选方向判断。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：先合装是不是就把阵容定死了？",
+        "答：不一定。有些装备适用面广，有些依赖具体英雄；需要结合剩余组件和可选方向判断。"
+      ],
+      "misconceptions": [
+        "配方、唯一限制与合成例外属于版本化规则，本条不提供固定配方。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "item-commitment",
+      "term": "装备锁死",
+      "aliases": [
+        "锁装备",
+        "装备锁阵容"
+      ],
+      "category": "装备与合成语境",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "通常形容已经合成的装备适配范围较窄，导致后续阵容转型选择受限。",
+      "disambiguation": "口语也可能是指装备不可卸下，需区分策略限制与系统装备规则。",
+      "exampleQuestion": "装备锁死是系统禁止我换阵容吗？",
+      "exampleAnswer": "通常不是，玩家是在说转型成本高或新阵容不好消化现有装备；是否能拆卸或重铸仍看具体机制。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：装备锁死是系统禁止我换阵容吗？",
+        "答：通常不是，玩家是在说转型成本高或新阵容不好消化现有装备；是否能拆卸或重铸仍看具体机制。"
+      ],
+      "misconceptions": [
+        "口语也可能是指装备不可卸下，需区分策略限制与系统装备规则。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "tank-items",
+      "term": "肉装",
+      "aliases": [
+        "坦装",
+        "防装"
+      ],
+      "category": "装备与合成语境",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "以提升生存、承伤或防御功能为主要用途的装备的口语分类。",
+      "disambiguation": "不是严格官方装备类别；某件装备可能同时提升伤害与生存。",
+      "exampleQuestion": "肉装是不是只看生命值？",
+      "exampleAnswer": "不是，还可能涉及护甲、魔抗、减伤、护盾和回复等；哪种更适合要结合对手和单位。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：肉装是不是只看生命值？",
+        "答：不是，还可能涉及护甲、魔抗、减伤、护盾和回复等；哪种更适合要结合对手和单位。"
+      ],
+      "misconceptions": [
+        "不是严格官方装备类别；某件装备可能同时提升伤害与生存。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "damage-items",
+      "term": "输出装",
+      "aliases": [
+        "伤害装"
+      ],
+      "category": "装备与合成语境",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "主要用于提高伤害表现的装备的口语分类，可包含攻击、法术、暴击、攻速或其他增伤途径。",
+      "disambiguation": "输出装不必然增加面板攻击力；多种功能可重叠。",
+      "exampleQuestion": "输出装能随便给主C吗？",
+      "exampleAnswer": "不能只按分类判断。要看主C的实际伤害机制、现有装备与队伍需要。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：输出装能随便给主C吗？",
+        "答：不能只按分类判断。要看主C的实际伤害机制、现有装备与队伍需要。"
+      ],
+      "misconceptions": [
+        "输出装不必然增加面板攻击力；多种功能可重叠。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "mana-items",
+      "term": "回蓝装",
+      "aliases": [
+        "法力装",
+        "启动装"
+      ],
+      "category": "装备与合成语境",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "用于改善法力获得、首次施法或持续施法效率的装备的口语分类。",
+      "disambiguation": "减少法力需求、提供初始法力与持续回蓝并非同一机制，不能把效果一概相加。",
+      "exampleQuestion": "回蓝装就是青龙刀吗？",
+      "exampleAnswer": "不一定。青龙刀是一个常见外号，回蓝装是更宽的功能类别；具体候选和效果要查版本。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：回蓝装就是青龙刀吗？",
+        "答：不一定。青龙刀是一个常见外号，回蓝装是更宽的功能类别；具体候选和效果要查版本。"
+      ],
+      "misconceptions": [
+        "减少法力需求、提供初始法力与持续回蓝并非同一机制，不能把效果一概相加。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "emblem",
+      "term": "转职",
+      "aliases": [
+        "转职装",
+        "纹章",
+        "羁绊纹章",
+        "转职装备"
+      ],
+      "category": "装备与合成语境",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "玩家通常用来指给单位添加某种羁绊身份的纹章，或为单位装备纹章这一行为。",
+      "disambiguation": "并非所有纹章都有合成配方，也不能把转职强化一律当作立即获得一件可穿戴装备。",
+      "exampleQuestion": "给了转职就会失去原羁绊吗？",
+      "exampleAnswer": "通常是在原有身份基础上增加对应羁绊，但应以具体纹章和当局规则为准，不能从转职这个词推导全部效果。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：给了转职就会失去原羁绊吗？",
+        "答：通常是在原有身份基础上增加对应羁绊，但应以具体纹章和当局规则为准，不能从转职这个词推导全部效果。"
+      ],
+      "misconceptions": [
+        "并非所有纹章都有合成配方，也不能把转职强化一律当作立即获得一件可穿戴装备。"
+      ],
+      "relatedTerms": [
+        "海克斯",
+        "散件",
+        "主C"
+      ]
+    },
+    {
+      "id": "stage-round",
+      "term": "对局阶段",
+      "aliases": [
+        "阶段回合",
+        "2-1",
+        "3-2",
+        "4-1"
+      ],
+      "category": "回合表达",
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "definition": "攻略常用“阶段号-阶段内回合号”标记时间，例如2-1表示第2阶段第1回合。",
+      "disambiguation": "示例数字是时间记法，不是固定升级搜牌指令；特殊模式回合安排可能不同。",
+      "exampleQuestion": "攻略说4-1启动，是第四局第一名吗？",
+      "exampleAnswer": "不是，通常指第4阶段第1回合开始集中投入资源；是否适合照做还要看版本与局势。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "常见社区用法整理；未逐条取得直接出处",
+      "provenance": "user_supplied_v4",
+      "verificationStatus": "not_independently_verified",
+      "scope": "general",
+      "sourcePatch": null,
+      "examples": [
+        "问：攻略说4-1启动，是第四局第一名吗？",
+        "答：不是，通常指第4阶段第1回合开始集中投入资源；是否适合照做还要看版本与局势。"
+      ],
+      "misconceptions": [
+        "示例数字是时间记法，不是固定升级搜牌指令；特殊模式回合安排可能不同。"
+      ],
+      "relatedTerms": []
+    },
+    {
+      "id": "two-star",
+      "term": "追二",
+      "aliases": [
+        "追两星",
+        "追二星",
+        "追2星"
+      ],
+      "category": "阵容与过渡",
+      "definition": "收集同一弈子的额外副本，以升级为二星为目标。",
+      "examples": [
+        "“先把主坦追二”表示优先寻找前排升级。"
+      ],
+      "misconceptions": [
+        "升星价值还取决于具体弈子和阵容；不能据此推导固定的提升幅度。"
+      ],
+      "relatedTerms": [
+        "质量",
+        "主坦",
+        "追三"
+      ],
+      "scope": "general",
+      "sourcePatch": null,
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "disambiguation": "升星价值还取决于具体弈子和阵容；不能据此推导固定的提升幅度。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "沿用V3项目整理；未逐条取得直接出处。",
+      "provenance": "legacy_project_editorial",
+      "verificationStatus": "not_independently_verified"
+    },
+    {
+      "id": "tempo",
+      "term": "节奏",
+      "aliases": [
+        "运营节奏"
+      ],
+      "category": "战力与节奏",
+      "definition": "资源投入和战力变化相对于游戏进程及其他玩家的时机与速度。",
+      "examples": [
+        "“这局节奏快”通常表示玩家更早投入资源，场上战力提升较快。"
+      ],
+      "misconceptions": [
+        "节奏不是一个统一的数值，也不能直接替代血量、经济和战力分析。"
+      ],
+      "relatedTerms": [
+        "抢节奏",
+        "经济",
+        "战力"
+      ],
+      "scope": "general",
+      "sourcePatch": null,
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "disambiguation": "节奏不是一个统一的数值，也不能直接替代血量、经济和战力分析。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "沿用V3项目整理；未逐条取得直接出处。",
+      "provenance": "legacy_project_editorial",
+      "verificationStatus": "not_independently_verified"
+    },
+    {
+      "id": "economy",
+      "term": "经济",
+      "aliases": [],
+      "category": "经济与搜牌",
+      "definition": "当前金币、后续收入和资源支出能力的总称；玩家常用它描述继续升级、搜牌与买牌的空间。",
+      "examples": [
+        "“经济好但战力弱”说明资源储备和当前战斗能力是两回事。"
+      ],
+      "misconceptions": [
+        "经济不只看当前金币，更不能单凭经济高低断言最终名次。"
+      ],
+      "relatedTerms": [
+        "卡利息",
+        "上人口",
+        "战力"
+      ],
+      "scope": "general",
+      "sourcePatch": null,
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "disambiguation": "经济不只看当前金币，更不能单凭经济高低断言最终名次。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "沿用V3项目整理；未逐条取得直接出处。",
+      "provenance": "legacy_project_editorial",
+      "verificationStatus": "not_independently_verified"
+    },
+    {
+      "id": "board-strength",
+      "term": "战力",
+      "aliases": [
+        "即战力",
+        "场面强度"
+      ],
+      "category": "战力与节奏",
+      "definition": "当前阵容在战斗中的实际能力，综合受到弈子、星级、装备、羁绊、特殊效果和站位影响。",
+      "examples": [
+        "“先提升即战力”表示优先改善眼前回合的战斗表现。"
+      ],
+      "misconceptions": [
+        "战力没有本项目已核实的统一换算分值；费用更高也不必然在任何场景都更强。"
+      ],
+      "relatedTerms": [
+        "质量",
+        "站位",
+        "锁血"
+      ],
+      "scope": "general",
+      "sourcePatch": null,
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "disambiguation": "战力没有本项目已核实的统一换算分值；费用更高也不必然在任何场景都更强。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "沿用V3项目整理；未逐条取得直接出处。",
+      "provenance": "legacy_project_editorial",
+      "verificationStatus": "not_independently_verified"
+    },
+    {
+      "id": "positioning",
+      "term": "站位",
+      "aliases": [
+        "摆位"
+      ],
+      "category": "站位与职责",
+      "definition": "安排各弈子在棋盘上的位置，以影响开战目标、技能覆盖、承伤顺序和输出空间。",
+      "examples": [
+        "“战前调整站位”是改变棋子位置，而不是更改装备或羁绊本身。"
+      ],
+      "misconceptions": [
+        "不存在对所有对手都最优的固定站位；需要结合具体机制与敌方阵容。"
+      ],
+      "relatedTerms": [
+        "对位",
+        "缩角",
+        "前排",
+        "后排"
+      ],
+      "scope": "general",
+      "sourcePatch": null,
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "disambiguation": "不存在对所有对手都最优的固定站位；需要结合具体机制与敌方阵容。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "沿用V3项目整理；未逐条取得直接出处。",
+      "provenance": "legacy_project_editorial",
+      "verificationStatus": "not_independently_verified"
+    },
+    {
+      "id": "item-utilization",
+      "term": "装备消化",
+      "aliases": [
+        "消化装备",
+        "消化散件"
+      ],
+      "category": "装备术语",
+      "definition": "通过选择合成、分配佩戴者或调整阵容，使现有装备资源发挥作用。",
+      "examples": [
+        "“找一个副C消化剩余输出装”表示给多余资源安排合适的承接者。"
+      ],
+      "misconceptions": [
+        "能佩戴不代表统计上最优；应区分临时过渡选择与有条件、有样本的装备表现。"
+      ],
+      "relatedTerms": [
+        "副C",
+        "打工",
+        "散件",
+        "神装"
+      ],
+      "scope": "general",
+      "sourcePatch": null,
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "disambiguation": "能佩戴不代表统计上最优；应区分临时过渡选择与有条件、有样本的装备表现。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "沿用V3项目整理；未逐条取得直接出处。",
+      "provenance": "legacy_project_editorial",
+      "verificationStatus": "not_independently_verified"
+    },
+    {
+      "id": "bench",
+      "term": "备战席",
+      "aliases": [
+        "备战区",
+        "板凳"
+      ],
+      "category": "系统称呼",
+      "definition": "暂存尚未上场弈子的区域，常用于保留升级副本、过渡选择或未来阵容单位。",
+      "examples": [
+        "“备战席留对子”表示保留可能继续升级的弈子副本。"
+      ],
+      "misconceptions": [
+        "备战席上的弈子不等于已经上场；筛选器的同场阵容条件默认只统计实际上场的终局单位。"
+      ],
+      "relatedTerms": [
+        "追二",
+        "追三",
+        "过渡"
+      ],
+      "scope": "general",
+      "sourcePatch": null,
+      "applicability": "云顶之弈（TFT）中文社区；跨赛季常见用法；具体规则仍以对应版本为准",
+      "disambiguation": "备战席上的弈子不等于已经上场；筛选器的同场阵容条件默认只统计实际上场的终局单位。",
+      "evidenceStatus": "editorial_common_usage",
+      "references": [],
+      "referenceNote": "沿用V3项目整理；未逐条取得直接出处。",
+      "provenance": "legacy_project_editorial",
+      "verificationStatus": "not_independently_verified"
+    }
+  ]
+}

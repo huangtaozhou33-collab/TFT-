@@ -1,0 +1,196 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 大数据
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - region "装备与棋子大数据":
+    - text: TFT / STATISTICS
+    - heading "大数据" [level=1]
+    - button "刷新数据"
+    - button "条件筛选 ↗"
+    - tablist "大数据分类":
+      - tab "装备" [selected]
+      - tab "棋子"
+    - generic: 版本
+    - combobox "统计版本":
+      - option "18.4b · 查询范围" [selected]
+    - generic: 段位
+    - combobox "统计段位":
+      - option "铂金及以上" [selected]
+    - generic: MetaTFT Explorer · 2026/10/11
+    - generic "版本依据"
+    - group "装备类型":
+      - button "全部"
+      - button "普通装备":
+        - text: 普通装备
+      - button "光明装备":
+        - text: 光明装备
+      - button "奥恩神器" [pressed]:
+        - text: 奥恩神器
+      - button "转职":
+        - text: 转职
+    - searchbox "搜索装备": 密银
+    - table:
+      - rowgroup:
+        - row "装备 平均名次 ↑ 前四率 登顶率 样本数 出场率":
+          - columnheader "装备":
+            - button "装备"
+          - columnheader "平均名次 ↑":
+            - button "平均名次 ↑"
+          - columnheader "前四率":
+            - button "前四率"
+          - columnheader "登顶率":
+            - button "登顶率"
+          - columnheader "样本数":
+            - button "样本数"
+          - columnheader "出场率"
+      - rowgroup:
+        - row "查看密银黎明统计详情 4.12 57.8% 14.6% 47,705 0.7%":
+          - cell "查看密银黎明统计详情":
+            - button "查看密银黎明统计详情":
+              - generic "密银黎明"
+              - strong: 密银黎明
+          - cell "4.12"
+          - cell "57.8%"
+          - cell "14.6%"
+          - cell "47,705"
+          - cell "0.7%"
+    - generic: 1 条 · 1 / 1 页
+    - button "上一页" [disabled]
+    - button "下一页" [disabled]
+    - paragraph: MetaTFT · 普通排位 · 铂金及以上 · 近 3 天。样本为玩家名次观测数，重复棋子或装备的出现次数不累加。各接口更新时间可能不同。
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手
+- dialog:
+  - heading "数据源信息" [level=2]
+  - button "关闭弹窗": ×
+  - generic: KNOW WHAT YOU ARE USING
+  - heading "数据源状态 / 01" [level=1]:
+    - text: 数据源状态
+    - generic: / 01
+  - paragraph: 查看当前统计来源、采样范围与入库情况。MetaTFT 统计在有效期内读取 MySQL，缺项或过期时按请求更新。
+  - button "↻ 重读本地状态" [active]
+  - article:
+    - heading "CommunityDragon 静态包" [level=3]
+    - generic: 可用
+    - paragraph: 已取得当前资源或经验证的来源响应。
+    - term: 交付方式
+    - definition: 本地静态资源包
+    - term: 资源版本
+    - definition: "16.20"
+    - term: 统计补丁
+    - definition: 未知
+    - term: 源更新时间
+    - definition: 未知
+    - term: 缓存采集
+    - definition: 2026/10/08 00:39
+    - term: 覆盖范围
+    - definition: 英雄/形态 74 · 装备 137 · 羁绊 35 · 强化符文 249 · 已核验配方 55
+    - list:
+      - listitem: 百科仅展示当前标准模式已映射实体；源文件还含历史、测试与内部实体。
+      - listitem: 大部分本赛季英雄技能数值与职责未导出，未知数值已明确标记。
+      - listitem: 部分装备中文描述缺失，保留来源英文说明。
+      - listitem: OP.GG 的装备与强化表混有旧赛季行，已通过当前模式实体交集排除。
+      - listitem: 版本化资产不等于统计补丁；gamePatch 未核验。
+      - listitem: 特殊装备兼容关系未核验；库存保留，不自动分配。锁装按用户现状保留，不验证其兼容关系。
+  - article:
+    - heading "MetaTFT · 首页、大数据与筛选器" [level=3]
+    - generic: 可用
+    - paragraph: 统计统一使用 MetaTFT。出装与携带者按实体查询后入库；未返回的实体和组合保持缺项。近 3 天普通排位、铂金及以上，各接口更新时间可能不同。
+    - term: 交付方式
+    - definition: mysql
+    - term: 资源版本
+    - definition: 未知
+    - term: 统计补丁
+    - definition: 18.4b · 查询范围
+    - term: 源更新时间
+    - definition: 未知
+    - term: 缓存采集
+    - definition: 2026/10/11 16:15
+    - term: 覆盖范围
+    - definition: 阵容 60 · 出装覆盖 2 / 74 · 装备携带者覆盖 2 / 127 · 转职覆盖 0 / 21
+    - link "查看来源 ↗":
+      - /url: https://www.metatft.com/explorer
+  - article:
+    - heading "旧统计归档" [level=3]
+    - generic: 历史归档
+    - paragraph: OP.GG 与 Tactics.tools 历史快照保留用于追溯，当前数据库模式下的页面统计不再使用。
+    - term: 交付方式
+    - definition: 未知
+    - term: 资源版本
+    - definition: 未知
+    - term: 统计补丁
+    - definition: 未知
+    - term: 源更新时间
+    - definition: 未知
+    - term: 缓存采集
+    - definition: 未知
+    - term: 覆盖范围
+    - definition: 未知
+  - generic: AI
+  - heading "TFT助手" [level=2]
+  - generic: 已配置 / 待验证
+  - paragraph: 模型：deepseek-flash。设置与联通状态以本地服务的验证结果为准。
+  - heading "如何理解这些状态" [level=3]
+  - paragraph: 静态资料可用，表示当前版本资源已载入；它不证明统计数据处于同一补丁。MetaTFT 的统计原文与查询行存入 MySQL，当前有效期为 10 分钟；缺项或过期时向来源查询后入库。旧来源归档用于追溯，不作为失败时的替代统计。阵容缓存不可用时，图鉴仍可查阅。源更新时间未知时保留未知，缓存采集时间与源更新时间分别显示。

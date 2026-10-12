@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "cacheKey": "tft-set18-assets16.20-5fedf1ff9cba",
+  "context": {
+    "game": "tft",
+    "set": 18,
+    "mutator": "TFTSet18",
+    "assetVersion": "16.20",
+    "rulesVersion": "set18-assets16.20-recipes18.4-v4",
+    "gamePatch": null
+  },
+  "file": "b56b7b19-3c3d-4083-8c61-05177ffc9c9a.json",
+  "sha256": "8db495dd003ab8074d831dfbefdd55385ad819689f45fa2dabc010e13ade4b8f",
+  "publishedAt": "2026-10-07T14:52:15.610Z",
+  "fetchedAt": "2026-10-07T14:47:39.457Z",
+  "sourceTime": "2026-10-07T13:56:35.000Z",
+  "sourcePatch": "18.4",
+  "coverage": {
+    "sourceRows": 90,
+    "acceptedRows": 89,
+    "excludedRows": 1,
+    "cachedTraits": 35,
+    "totalTraits": 35,
+    "complete": false,
+    "excluded": [
+      {
+        "sourceKey": "DA_18_Eclipse__1",
+        "reason": "outside_current_catalog"
+      }
+    ],
+    "note": "complete 表示来源行均可映射；cachedTraits/totalTraits 单独说明当前目录的羁绊覆盖，不声称全部潜在档位均有样本。"
+  }
+}

@@ -1,0 +1,363 @@
+- link "跳到主要内容":
+  - /url: "#main"
+- complementary "主导航":
+  - link "TFT Atelier 阵容与资料库":
+    - /url: "#comps"
+    - generic: ✦
+    - text: TFT
+    - strong: ATELIER
+    - generic: 阵容与资料库 / V4
+  - paragraph: 看阵容 · 管理阵容池
+  - navigation:
+    - button "阵容首页":
+      - generic: ♙
+      - text: 阵容首页
+    - button "阵容规划器":
+      - generic: ⬡
+      - text: 阵容规划器
+    - button "大数据":
+      - generic: ▦
+      - text: 大数据
+    - button "筛选器":
+      - generic: ⌕
+      - text: 筛选器
+    - paragraph: 资料库
+    - button "资料库":
+      - generic: ▤
+      - text: 资料库
+    - paragraph: 开发工具
+    - button "开发者模式":
+      - generic: ⌘
+      - text: 开发者模式
+  - generic: 当前版本资料
+  - paragraph:
+    - text: 查阅真实来源，
+    - text: 理解阵容与机制。
+  - button "查看数据源状态 ↗":
+    - text: 查看数据源状态
+    - generic: ↗
+- banner:
+  - text: TFT ATELIER
+  - generic: /
+  - strong: 大数据
+  - button "⌕ 搜索图鉴与机制 Ctrl K":
+    - generic: ⌕
+    - generic: 搜索图鉴与机制
+    - generic: Ctrl K
+  - group "显示模式":
+    - button "白天" [pressed]:
+      - text: 白天
+    - button "黑夜":
+      - text: 黑夜
+  - generic "本地玩家": 你
+- generic "当前版本与数据上下文":
+  - generic: 当前应用版本
+  - strong: V4.0.0
+  - generic: 当前赛季
+  - strong: S18
+  - generic: 机制资料补丁
+  - strong: "18.4"
+  - generic: 游戏补丁待核验
+  - generic: TFT · 国际服
+  - generic "版本详情":
+    - generic: 版本详情
+    - generic: ↗
+- main:
+  - region "装备与棋子大数据":
+    - text: TFT / STATISTICS
+    - heading "大数据" [level=1]
+    - button "条件筛选 ↗"
+    - tablist "大数据分类":
+      - tab "装备" [selected]
+      - tab "棋子"
+    - generic: 版本
+    - combobox "统计版本":
+      - option "18.4" [selected]
+    - generic: 段位
+    - combobox "统计段位":
+      - option "钻石及以上" [selected]
+    - generic: Tactics.tools · 2026/10/8
+    - group "装备类型":
+      - button "全部"
+      - button "普通装备" [pressed]:
+        - text: 普通装备
+      - button "光明装备":
+        - text: 光明装备
+      - button "奥恩神器":
+        - text: 奥恩神器
+      - button "转职":
+        - text: 转职
+    - searchbox "搜索装备"
+    - table:
+      - rowgroup:
+        - row "装备 平均名次 ↑ 前四率 登顶率 样本数 出场率":
+          - columnheader "装备":
+            - button "装备"
+          - columnheader "平均名次 ↑":
+            - button "平均名次 ↑"
+          - columnheader "前四率":
+            - button "前四率"
+          - columnheader "登顶率":
+            - button "登顶率"
+          - columnheader "样本数":
+            - button "样本数"
+          - columnheader "出场率"
+      - rowgroup:
+        - row "查看饮血剑统计详情 3.89 61.0% 17.1% 1,968 10.6%":
+          - cell "查看饮血剑统计详情":
+            - button "查看饮血剑统计详情":
+              - generic "饮血剑"
+              - strong: 饮血剑
+          - cell "3.89"
+          - cell "61.0%"
+          - cell "17.1%"
+          - cell "1,968"
+          - cell "10.6%"
+        - row "查看金锅锅冠冕统计详情 3.91 65.5% 25.4% 55 0.3%":
+          - cell "查看金锅锅冠冕统计详情":
+            - button "查看金锅锅冠冕统计详情":
+              - generic "金锅锅冠冕"
+              - strong: 金锅锅冠冕
+          - cell "3.91"
+          - cell "65.5%"
+          - cell "25.4%"
+          - cell "55"
+          - cell "0.3%"
+        - row "查看金铲铲冠冕统计详情 3.96 60.0% 17.8% 455 2.4%":
+          - cell "查看金铲铲冠冕统计详情":
+            - button "查看金铲铲冠冕统计详情":
+              - generic "金铲铲冠冕"
+              - strong: 金铲铲冠冕
+          - cell "3.96"
+          - cell "60.0%"
+          - cell "17.8%"
+          - cell "455"
+          - cell "2.4%"
+        - row "查看离子火花统计详情 3.99 59.3% 16.0% 2,455 13.2%":
+          - cell "查看离子火花统计详情":
+            - button "查看离子火花统计详情":
+              - generic "离子火花"
+              - strong: 离子火花
+          - cell "3.99"
+          - cell "59.3%"
+          - cell "16.0%"
+          - cell "2,455"
+          - cell "13.2%"
+        - row "查看适应性头盔统计详情 4.01 59.5% 15.5% 4,794 25.8%":
+          - cell "查看适应性头盔统计详情":
+            - button "查看适应性头盔统计详情":
+              - generic "适应性头盔"
+              - strong: 适应性头盔
+          - cell "4.01"
+          - cell "59.5%"
+          - cell "15.5%"
+          - cell "4,794"
+          - cell "25.8%"
+        - row "查看夜之锋刃统计详情 4.04 58.3% 15.6% 3,172 17.0%":
+          - cell "查看夜之锋刃统计详情":
+            - button "查看夜之锋刃统计详情":
+              - generic "夜之锋刃"
+              - strong: 夜之锋刃
+          - cell "4.04"
+          - cell "58.3%"
+          - cell "15.6%"
+          - cell "3,172"
+          - cell "17.0%"
+        - row "查看蓝霸符统计详情 4.05 58.2% 16.8% 3,990 21.4%":
+          - cell "查看蓝霸符统计详情":
+            - button "查看蓝霸符统计详情":
+              - generic "蓝霸符"
+              - strong: 蓝霸符
+          - cell "4.05"
+          - cell "58.2%"
+          - cell "16.8%"
+          - cell "3,990"
+          - cell "21.4%"
+        - row "查看窃贼手套统计详情 4.06 58.0% 16.2% 5,174 27.8%":
+          - cell "查看窃贼手套统计详情":
+            - button "查看窃贼手套统计详情":
+              - generic "窃贼手套"
+              - strong: 窃贼手套
+          - cell "4.06"
+          - cell "58.0%"
+          - cell "16.2%"
+          - cell "5,174"
+          - cell "27.8%"
+        - row "查看纳什之牙统计详情 4.06 57.6% 15.9% 2,249 12.1%":
+          - cell "查看纳什之牙统计详情":
+            - button "查看纳什之牙统计详情":
+              - generic "纳什之牙"
+              - strong: 纳什之牙
+          - cell "4.06"
+          - cell "57.6%"
+          - cell "15.9%"
+          - cell "2,249"
+          - cell "12.1%"
+        - row "查看莫雷洛秘典统计详情 4.07 57.8% 15.6% 3,922 21.1%":
+          - cell "查看莫雷洛秘典统计详情":
+            - button "查看莫雷洛秘典统计详情":
+              - generic "莫雷洛秘典"
+              - strong: 莫雷洛秘典
+          - cell "4.07"
+          - cell "57.8%"
+          - cell "15.6%"
+          - cell "3,922"
+          - cell "21.1%"
+        - row "查看正义之手统计详情 4.07 58.1% 16.0% 2,878 15.5%":
+          - cell "查看正义之手统计详情":
+            - button "查看正义之手统计详情":
+              - generic "正义之手"
+              - strong: 正义之手
+          - cell "4.07"
+          - cell "58.1%"
+          - cell "16.0%"
+          - cell "2,878"
+          - cell "15.5%"
+        - row "查看水银统计详情 4.08 57.7% 14.2% 1,530 8.2%":
+          - cell "查看水银统计详情":
+            - button "查看水银统计详情":
+              - generic "水银"
+              - strong: 水银
+          - cell "4.08"
+          - cell "57.7%"
+          - cell "14.2%"
+          - cell "1,530"
+          - cell "8.2%"
+        - row "查看灭世者的死亡之帽统计详情 4.09 57.3% 15.2% 4,083 21.9%":
+          - cell "查看灭世者的死亡之帽统计详情":
+            - button "查看灭世者的死亡之帽统计详情":
+              - generic "灭世者的死亡之帽"
+              - strong: 灭世者的死亡之帽
+          - cell "4.09"
+          - cell "57.3%"
+          - cell "15.2%"
+          - cell "4,083"
+          - cell "21.9%"
+        - row "查看薄暮法袍统计详情 4.09 57.4% 16.8% 2,432 13.1%":
+          - cell "查看薄暮法袍统计详情":
+            - button "查看薄暮法袍统计详情":
+              - generic "薄暮法袍"
+              - strong: 薄暮法袍
+          - cell "4.09"
+          - cell "57.4%"
+          - cell "16.8%"
+          - cell "2,432"
+          - cell "13.1%"
+        - row "查看日炎斗篷统计详情 4.1 57.7% 15.1% 3,682 19.8%":
+          - cell "查看日炎斗篷统计详情":
+            - button "查看日炎斗篷统计详情":
+              - generic "日炎斗篷"
+              - strong: 日炎斗篷
+          - cell "4.1"
+          - cell "57.7%"
+          - cell "15.1%"
+          - cell "3,682"
+          - cell "19.8%"
+        - row "查看棘刺背心统计详情 4.1 57.8% 15.4% 2,627 14.1%":
+          - cell "查看棘刺背心统计详情":
+            - button "查看棘刺背心统计详情":
+              - generic "棘刺背心"
+              - strong: 棘刺背心
+          - cell "4.1"
+          - cell "57.8%"
+          - cell "15.4%"
+          - cell "2,627"
+          - cell "14.1%"
+        - row "查看圣盾使的誓约统计详情 4.12 57.2% 15.0% 5,307 28.5%":
+          - cell "查看圣盾使的誓约统计详情":
+            - button "查看圣盾使的誓约统计详情":
+              - generic "圣盾使的誓约"
+              - strong: 圣盾使的誓约
+          - cell "4.12"
+          - cell "57.2%"
+          - cell "15.0%"
+          - cell "5,307"
+          - cell "28.5%"
+        - row "查看冕卫统计详情 4.12 57.5% 14.6% 4,814 25.9%":
+          - cell "查看冕卫统计详情":
+            - button "查看冕卫统计详情":
+              - generic "冕卫"
+              - strong: 冕卫
+          - cell "4.12"
+          - cell "57.5%"
+          - cell "14.6%"
+          - cell "4,814"
+          - cell "25.9%"
+        - row "查看巨人杀手统计详情 4.12 57.6% 14.9% 4,251 22.8%":
+          - cell "查看巨人杀手统计详情":
+            - button "查看巨人杀手统计详情":
+              - generic "巨人杀手"
+              - strong: 巨人杀手
+          - cell "4.12"
+          - cell "57.6%"
+          - cell "14.9%"
+          - cell "4,251"
+          - cell "22.8%"
+        - row "查看强袭者的链枷统计详情 4.12 57.1% 16.1% 4,164 22.4%":
+          - cell "查看强袭者的链枷统计详情":
+            - button "查看强袭者的链枷统计详情":
+              - generic "强袭者的链枷"
+              - strong: 强袭者的链枷
+          - cell "4.12"
+          - cell "57.1%"
+          - cell "16.1%"
+          - cell "4,164"
+          - cell "22.4%"
+        - row "查看虚空之杖统计详情 4.14 56.2% 15.3% 5,998 32.2%":
+          - cell "查看虚空之杖统计详情":
+            - button "查看虚空之杖统计详情":
+              - generic "虚空之杖"
+              - strong: 虚空之杖
+          - cell "4.14"
+          - cell "56.2%"
+          - cell "15.3%"
+          - cell "5,998"
+          - cell "32.2%"
+        - row "查看坚定之心统计详情 4.14 57.1% 14.4% 3,917 21.1%":
+          - cell "查看坚定之心统计详情":
+            - button "查看坚定之心统计详情":
+              - generic "坚定之心"
+              - strong: 坚定之心
+          - cell "4.14"
+          - cell "57.1%"
+          - cell "14.4%"
+          - cell "3,917"
+          - cell "21.1%"
+        - row "查看斯特拉克的挑战护手统计详情 4.16 57.2% 13.0% 4,342 23.3%":
+          - cell "查看斯特拉克的挑战护手统计详情":
+            - button "查看斯特拉克的挑战护手统计详情":
+              - generic "斯特拉克的挑战护手"
+              - strong: 斯特拉克的挑战护手
+          - cell "4.16"
+          - cell "57.2%"
+          - cell "13.0%"
+          - cell "4,342"
+          - cell "23.3%"
+        - row "查看泰坦的坚决统计详情 4.16 56.1% 14.4% 1,907 10.2%":
+          - cell "查看泰坦的坚决统计详情":
+            - button "查看泰坦的坚决统计详情":
+              - generic "泰坦的坚决"
+              - strong: 泰坦的坚决
+          - cell "4.16"
+          - cell "56.1%"
+          - cell "14.4%"
+          - cell "1,907"
+          - cell "10.2%"
+        - row "查看红霸符统计详情 4.17 55.9% 15.1% 5,736 30.8%":
+          - cell "查看红霸符统计详情":
+            - button "查看红霸符统计详情":
+              - generic "红霸符":
+                - generic: 红
+              - strong: 红霸符
+          - cell "4.17"
+          - cell "55.9%"
+          - cell "15.1%"
+          - cell "5,736"
+          - cell "30.8%"
+    - generic: 39 条 · 1 / 2 页
+    - button "上一页" [disabled]
+    - button "下一页"
+    - paragraph: 版本与段位仅显示当前已收录范围；详情中的搭配统计单独标注来源。
+- button "打开TFT助手":
+  - generic: ✧
+  - generic: TFT助手
