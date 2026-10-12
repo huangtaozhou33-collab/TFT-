@@ -33,13 +33,13 @@ Ask questions about comps, item builds and item holders, inspect the same statis
 
 ### Explore statistics with explicit scope
 
-![Item statistics](docs/images/statistics.png)
+![Item statistics](docs/images/statistics-en.png)
 
 Statistics retain their source, requested patch, rank scope, sampling window and sample size. Unknown source fields remain unknown. OP.GG reference snapshots and optional Riot match records are separate; their rates are not averaged with MetaTFT.
 
 ### Build a query through the interface or the assistant
 
-![Champion query in the explorer](docs/images/explorer.png)
+![Champion query in the explorer](docs/images/explorer-en.png)
 
 Example prompts (results depend on your synchronized patch and samples):
 
@@ -52,17 +52,19 @@ The model maps these requests to validated tool arguments. Unsupported filters a
 
 ### Choose a model and its supported reasoning controls
 
-![Model and reasoning settings](docs/images/model-settings.png)
+![Model and reasoning settings](docs/images/model-settings-en.png)
 
 Open **TFT Assistant → ⚙**. Reasoning effort, thinking budgets and on/off switches are shown only for registered models that support them. Tool-call and query-round limits are application controls. Saving does not call a paid API; credentials remain server-side. Embedding changes require a matching index, not a silent reuse of incompatible vectors.
 
 ### Read illustrated patch notes
 
-![Categorized patch notes](docs/images/patch-notes.png)
+![Categorized patch notes](docs/images/patch-notes-en.png)
 
 Official announcements are stored with their source links. The application matches changed entities against the catalog to render images and text. Missing matches remain visible as missing assets instead of fabricated icons. Patch notes and statistics have independent update schedules.
 
 ## Quick start
+
+**To use TFT Assistant:** configure one chat model API key. Embedding credentials are **only needed for vector semantic retrieval**, not ordinary chat or statistics tools. Copy [`.env.example`](.env.example) to `.env` for local Node.js startup; Docker users edit the generated `.env.docker`. Vector retrieval also requires Milvus and an explicitly built index; without it, lexical knowledge retrieval remains available. Never commit credentials.
 
 **Recommended:** Docker Desktop with Linux containers, or Docker Engine + Compose V2. The cross-platform initializer also requires Node.js 22+; the Windows launcher can generate configuration without host Node.js. Docker builds need access to the image registry and npm. Reserve enough resources for your chosen services; no minimum-memory benchmark is claimed.
 

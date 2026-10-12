@@ -64,6 +64,8 @@
 
 ## 快速启动
 
+**使用 TFT 助手前：**需要配置一家聊天模型的 API Key。Embedding API **仅在启用向量语义检索时需要**，不是普通聊天或统计工具查询的必填项。本地 Node.js 启动请将 [`.env.example`](.env.example) 复制为 `.env` 后填写；Docker 部署请填写生成的 `.env.docker`。向量检索还需启动 Milvus 并显式建立索引；未启用时仍可使用关键词知识检索。不要提交真实密钥。
+
 **推荐 Docker 数据库版。** 安装 Docker Desktop 并使用 Linux 容器，或 Docker Engine + Compose V2。跨平台初始化命令需要 Node.js 22+；Windows 启动脚本可直接生成配置。构建时需要访问镜像站与 npm。根据启用的服务预留资源，当前未给出经过基准测试的最低内存要求。
 
 ```sh
