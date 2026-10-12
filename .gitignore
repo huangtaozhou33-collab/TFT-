@@ -31,3 +31,7 @@ data/library/**/*.next.json
 
 # Versioned schema migrations are source code, not database dumps.
 !server/storage/schema*.sql
+
+# Application-specific ownership verification files
+/riot.txt
+/docs/riot.txt
